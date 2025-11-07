@@ -1,0 +1,51 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/FarmAnimals",
+		"Entries": {
+			"{{ModId}}_Silkworm": {
+				"DisplayName": "{{i18n: Silkworm.DisplayName}}",
+				"House": "Coop",
+				"Gender": "MaleOrFemale",
+				"Texture": "Mods/{{ModId}}/Silkworm",
+				"BabyTexture": "Mods/{{ModId}}/Silkworm",
+				"EggItemIds": [ "{{ModId}}_SilkwormEggs" ],
+				"UseFlippedRightForLeft": true,
+				"IncubationTime": 4000,
+				"IncubatorParentSheetOffset": 1,
+				"HarvestType": 0,
+				"BirthText": "{{i18n: Silkworm.BirthText}}",
+				"DaysToMature": 2,
+				"ProduceItemIds": [
+					{
+						"Id": "Egg",
+						"ItemId": "{{ModId}}_SilkwormEggs",
+					},
+				],
+				"DeluxeProduceItemIds": [
+					{
+						"Id": "Cocoon",
+						"ItemId": "{{ModId}}_SilkwormCocoon",
+					}
+				],
+				"DaysToProduce": 2,
+				"Sound": "slimedead",
+				"ProfessionForHappinessBoost": 2,
+				"ProfessionForQualityBoost": 2,
+				"HappinessDrain": 5,
+				"SellPrice": 5000,
+				"Shadow": {
+					"Offset": {"X": 4, "Y": -10},
+				}
+			},
+			
+		},
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/Silkworm",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+]
+}

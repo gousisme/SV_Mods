@@ -1,0 +1,154 @@
+{
+	"Format": "2.0",
+	"ConfigSchema":
+	{
+		"Buildable": {
+			"AllowValues":"true, false",
+			"Default":"false",
+			"Description":"Set to true if you want the buildable version."
+			}
+		},
+	"Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "Maps/farmhouse_tiles",
+          "FromFile": "assets/farmhouse_tilesPC2.png",
+          "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+          "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 }          
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/farmhouse_tiles",
+          "FromFile": "assets/farmhouse_tilesPC2.png",
+          "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 144 },
+          "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 144 }          
+       },
+        {
+          "Action": "EditImage",
+          "Target": "Maps/farmhouse_tiles",
+          "FromFile": "assets/farmhouse_tilesPC2.png",
+          "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 }          
+       },
+//2nd Upgrade
+       {
+          "Action": "EditImage",
+          "Target": "Maps/farmhouse_tiles",
+	        	"When":{"FarmhouseUpgrade":1},
+          "FromFile": "assets/farmhouse_tilesPC.png",
+          "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+          "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 }          
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/farmhouse_tiles",
+          "FromFile": "assets/farmhouse_tilesPC.png",
+	        	"When":{"FarmhouseUpgrade":1},
+          "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 144 },
+          "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 144 }          
+       },
+        {
+          "Action": "EditImage",
+          "Target": "Maps/farmhouse_tiles",
+          "FromFile": "assets/farmhouse_tilesPC.png",
+	        	"When":{"FarmhouseUpgrade":1},
+          "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 }          
+       },
+//
+        {
+			"LogName": "PC's Kitchen Texture Load",
+			"Action": "Load",
+			"Target": "Mods/PC.SC.Kitchen/SCKitchen, Mods/PC.SC.Kitchen/SCKitchenFront",
+	   "When":{"Buildable":true},
+    "FromFile": "assets/{{TargetWithoutPath}}.png" },         
+         
+		{
+			"LogName": "PC's Shabby Chic Kitchen Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "When":{"Buildable":true},
+            "Entries": {
+				"PC.SCCounterBack": "SCCounterBack/table/1 2/1 1/1/400/-1/{{i18n:CounterBack}}/0/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterBack2": "SCCounterBack2/table/1 2/1 1/1/400/-1/{{i18n:CounterBack}}/1/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterBackEndL": "SCCCounterBackEndL/table/1 2/1 1/1/400/-1/{{i18n:CounterBackEnd}}/72/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterBackEndR": "SCCCounterBackEndR/table/1 2/1 1/1/400/-1/{{i18n:CounterBackEnd}}/73/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCLargeSink": "SCLargeSink/other/2 2/2 1/1/400/-1/{{i18n:LargeSink}}/2/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSink": "SCSink/other/1 2/1 1/1/400/-1/{{i18n:Sink}}/4/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCStoveEnd": "SCStoveEnd/other/2 2/2 1/1/400/-1/{{i18n:StoveEnd}}/5/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCStoveEnd2": "SCStoveEnd2/other/2 2/2 1/1/400/-1/{{i18n:StoveEnd}}/106/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCCounterSideR": "SCCounterSideR/table/1 1/1 1/1/400/-1/{{i18n:CounterSide}}/23/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterSideL": "SCCounterSide/table/1 1/1 1/1/400/-1/{{i18n:CounterSide}}/7/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCLargeStoveSide": "SCLargeStoveSide/other/1 2/1 2/1/400/-1/{{i18n:LargeStoveSide}}/8/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCStoveSide": "SCStoveSide/other/1 2/1 2/1/400/-1/{{i18n:StoveSide}}/9/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCCounterSideEnd": "SCCounterSideEnd/other/1 2/1 2/1/400/-1/{{i18n:CounterSideEnd}}/10/Mods\\PC.SC.Kitchen\\SCKitchen", 
+     "PC.SCCounterSideEnd2": "SCCounterSideEnd2/other/1 2/1 2/1/400/-1/{{i18n:CounterSideEnd}}/11/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCCounterSideEnd3": "SCCounterSideEnd3/other/1 2/1 1/1/400/-1/{{i18n:CounterSideEnd}}/47/Mods\\PC.SC.Kitchen\\SCKitchen", 
+     "PC.SCCounterSideEnd4": "SCCounterSideEnd4/other/1 2/1 1/1/400/-1/{{i18n:CounterSideEnd}}/74/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCCounterFront": "SCCounterFront/table/1 2/1 1/1/400/-1/{{i18n:CounterFront}}/43/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterFrontEnd": "SCCounterFrontEnd/table/1 2/1 1/1/400/-1/{{i18n:CounterFrontEnd}}/12/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterFrontEnd2": "SCCounterFrontEnd2/table/1 2/1 1/1/400/-1/{{i18n:CounterFrontEnd}}/13/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterCornerL": "SCCounterCornerL/table/1 2/1 1/1/400/-1/{{i18n:CounterCorner}}/14/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterCornerR": "SCCounterCornerL/table/1 2/1 1/1/400/-1/{{i18n:CounterCorner}}/15/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterCornerL2": "SCCounterCornerL2/table/1 2/1 2/1/400/-1/{{i18n:CounterCorner}}/70/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterCornerR2": "SCCounterCornerL2/table/1 2/1 2/1/400/-1/{{i18n:CounterCorner}}/71/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCRedFridge": "RedFridge/other/1 3/1 1/1/400/-1/{{i18n:RedFridge}}/32/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCRedFridge2": "RedFridge2/other/1 3/1 1/1/400/-1/{{i18n:RedFridge}}/33/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCRedFridge3": "RedFridge3/other/1 3/1 1/1/400/-1/{{i18n:RedFridge}}/100/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCToscaFridge": "ToscaFridge/other/1 3/1 1/1/400/-1/{{i18n:ToscaFridge}}/98/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCToscaFridge2": "ToscaFridge2/other/1 3/1 1/1/400/-1/{{i18n:ToscaFridge}}/99/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCFloweryFridge": "FloweryFridge/other/1 3/1 1/1/400/-1/{{i18n:FloweryFridge}}/105/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCBerryBasket": "SCBerryBasket/other/1 1/1 1/1/400/-1/{{i18n:BerryBasket}}/34/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCBerryBasket2": "SCBerryBasket2/other/1 1/1 1/1/400/-1/{{i18n:BerryBasket}}/35/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSingleCabinet": "SCSingleCabinet/painting/3 2/3 2/1/400/-1/{{i18n:SingleCabinet}}/36/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCabinets": "SCCabinets/painting/4 2/4 2/1/400/-1/{{i18n:Cabinets}}/39/Mods\\PC.SC.Kitchen\\SCKitchen",
+/*				"PC.SCVegetableRack": "SCVegetableRack/other/1 3/1 2/1/400/-1/{{i18n:VegetableRack}}/43/Mods\\PC.SC.Kitchen\\SCKitchen",*/
+				"PC.SCCounterIslandEndL": "SCCounterIslandEndL/table/1 3/1 2/1/400/-1/{{i18n:CounterIslandEnd}}/44/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterIsland": "SCCounterIsland/table/1 3/1 2/1/400/-1/{{i18n:CounterIslandEnd}}/45/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCCounterIslandEndR": "SCCounterIslandEndR/table/1 3/1 2/1/400/-1/{{i18n:CounterIslandEnd}}/46/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCBerryCheesecake": "SCBerryCheesecake/other/1 1/1 1/1/400/-1/{{i18n:BerryCheesecake}}/50/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCPorcelainJug": "SCPorcelainJug/other/1 1/1 1/1/400/-1/{{i18n:PorcelainJug}}/51/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCLaceNapkin": "SCLaceNapkin/other/1 1/1 1/1/400/-1/{{i18n:LaceNapkin}}/80/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeMicrowave": "SCDecorativeMicrowave/other/1 1/1 1/1/400/-1/{{i18n:DecorativeMicrowave}}/81/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCFlowerVase": "SCFlowerVase/other/1 1/1 1/1/400/-1/{{i18n:FlowerVase}}/101/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCFlowerVase2": "SCFlowerVase2/other/1 1/1 1/1/400/-1/{{i18n:FlowerVase}}/102/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCTeaPot": "SCTeaPot/other/1 1/1 1/1/400/-1/{{i18n:TeaPot}}/103/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeMixer": "SCDecorativeMixer/other/1 1/1 1/1/400/-1/{{i18n:DecorativeMixer}}/117/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeMixer2": "SCDecorativeMixer2/other/1 1/1 1/1/400/-1/{{i18n:DecorativeMixer}}/118/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeMixer3": "SCDecorativeMixer3/other/1 1/1 1/1/400/-1/{{i18n:DecorativeMixer}}/119/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCKitchenWindowR": "SCKitchenWindowR/window/1 2/1 2/1/400/-1/{{i18n:KitchenWindow}}/66/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCKitchenWindowL": "SCKitchenWindowL/window/1 2/1 2/1/400/-1/{{i18n:KitchenWindow}}/68/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCKitchenWindowR2": "SCKitchenWindowR2/window/1 2/1 2/1/400/-1/{{i18n:KitchenWindow}}/152/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCKitchenWindowL2": "SCKitchenWindowL2/window/1 2/1 2/1/400/-1/{{i18n:KitchenWindow}}/154/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCTulipVase": "SCTulipVase/other/3 3/3 2/1/400/-1/{{i18n:TulipVase}}/156/Mods\\PC.SC.Kitchen\\SCKitchen", 
+				"PC.SCChinaCabinet": "SCChinaCabinet/other/2 3/2 1/1/400/-1/{{i18n:ChinaCabinet}}/96/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSpiceRackCornerL": "SCSpiceRackL/painting/1 2/1 2/1/400/-1/{{i18n:SpiceRack}}/146/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSpiceRackCornerL2": "SCSpiceRackL2/painting/1 2/1 2/1/400/-1/{{i18n:SpiceRack}}/147/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSpiceRackCornerR": "SCSpiceRackR/painting/1 2/1 2/1/400/-1/{{i18n:SpiceRack}}/148/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSpiceRackCornerR2": "SCSpiceRackR2/painting/1 2/1 2/1/400/-1/{{i18n:SpiceRack}}/149/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCChinaDisplayRack": "SCChinaDisplayRack/painting/2 2/2 2/1/400/-1/{{i18n:ChinaDisplayRack}}/150/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCChair": "SCChair/chair/1 2/1 1/4/400/-1/{{i18n:Chair}}/176/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCChair2": "SCChair2/chair/1 2/1 1/4/400/-1/{{i18n:Chair}}/179/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCChair3": "SCChair2/chair/1 2/1 1/4/400/-1/{{i18n:Chair}}/182/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDiningTable": "SCDiningTable/long table/-1/-1/2/400/-1/{{i18n:DiningTable}}/208/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDiningTable2": "SCDiningTable2/long table/-1/-1/2/400/-1/{{i18n:DiningTable}}/215/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDiningTable3": "SCDiningTable3/table/3 3/3 2/1/400/-1/{{i18n:DiningTable}}/288/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDiningTable4": "SCDiningTable4/table/2 4/2 3/1/400/-1/{{i18n:DiningTable}}/291/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDiningTable5": "SCDiningTable5/table/3 3/3 2/1/400/-1/{{i18n:DiningTable}}/293/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDiningTable6": "SCDiningTable6/table/2 4/2 3/1/400/-1/{{i18n:DiningTable}}/296/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses": "SCDecorativeRoses/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/298/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses2": "SCDecorativeRoses2/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/299/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses3": "SCDecorativeRoses3/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/300/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses4": "SCDecorativeRoses4/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/301/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses5": "SCDecorativeRoses5/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/330/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses6": "SCDecorativeRoses6/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/331/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses7": "SCDecorativeRoses7/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/332/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCDecorativeRoses8": "SCDecorativeRoses8/painting/1 2/1 2/1/400/-1/{{i18n:DecorativeRoses}}/333/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSpiceRackL3": "SCSpiceRackL3/painting/1 2/1 2/1/400/-1/{{i18n:SpiceRack}}/334/Mods\\PC.SC.Kitchen\\SCKitchen",
+				"PC.SCSpiceRackR3": "SCSpiceRackR3/painting/1 2/1 2/1/400/-1/{{i18n:SpiceRack}}/335/Mods\\PC.SC.Kitchen\\SCKitchen",
+}},
+
+
+
+	]
+}

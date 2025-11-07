@@ -1,0 +1,28 @@
+{
+  "Name": "Stardew Aquarium [CP]",
+  "Author": "Gervig91",
+  "Version": "2.3.0",
+  "Description": "Animations and stuff",
+  "UniqueID": "Gervig91.StardewAquariumCP",
+  "UpdateKeys": [ "Nexus:6372" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Cherry.StardewAquarium"
+    },
+    {
+      "UniqueID": "hxw.tilesheets"
+    },
+    {
+      "UniqueID": "Pathoschild.CentralStation"
+    },
+    {
+      "UniqueID": "PeacefulEnd.CustomCompanions"
+    },
+    {
+      "UniqueID": "Esca.EMP"
+    }
+  ]
+}

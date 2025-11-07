@@ -1,0 +1,228 @@
+{
+    "Changes": 
+    [
+
+// ANIMAL PRODUCTS
+
+        {
+			"LogName": "Brown Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/BrownEgg.png",
+			"ToArea": { "X": 192, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Brown Egg": true
+			}
+		},
+        {
+			"LogName": "Duck Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/DuckEgg.png",
+			"ToArea": { "X": 160, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Duck Egg": true
+			}
+		},
+        {
+			"LogName": "Duck Feather",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/DuckFeather.png",
+			"ToArea": { "X": 192, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Duck Feather": true
+			}
+		},
+        {
+			"LogName": "Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Egg.png",
+			"ToArea": { "X": 128, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Egg": true
+			}
+		},
+        {
+			"LogName": "Goat Milk",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/GoatMilk.png",
+			"ToArea": { "X": 64, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Goat Milk": true
+			}
+		},
+        {
+			"LogName": "Golden Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/GoldenEgg.png",
+			"ToArea": { "X": 256, "Y": 608, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Golden Egg": true
+			}
+		},
+        {
+			"LogName": "Honey",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Honey.png",
+			"ToArea": { "X": 64, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Honey": true
+			}
+		},
+        {
+			"LogName": "Large Brown Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/LargeBrownEgg.png",
+			"ToArea": { "X": 224, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Large Brown Egg": true
+			}
+		},
+        {
+			"LogName": "Large Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/LargeEgg.png",
+			"ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Large Egg": true
+			}
+		},
+        {
+			"LogName": "Large Goat Milk",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/LargeGoatMilk.png",
+			"ToArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Large Goat Milk": true
+			}
+		},
+        {
+			"LogName": "Large Milk",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/LargeMilk.png",
+			"ToArea": { "X": 288, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Large Milk": true
+			}
+		},
+        {
+			"LogName": "Milk",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Milk.png",
+			"ToArea": { "X": 256, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Milk": true
+			}
+		},
+        {
+			"LogName": "Ostrich Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/OstrichEgg.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Ostrich Egg": true
+			}
+		},
+        {
+			"LogName": "Rabbit's Foot",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/RabbitsFoot.png",
+			"ToArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Rabbit's Foot": true
+			}
+		},
+        {
+			"LogName": "Roe",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Roe.png",
+			"ToArea": { "X": 320, "Y": 528, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Roe": true
+			}
+		},
+        {
+			"LogName": "Roe Top",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Roe_Top.png",
+			"ToArea": { "X": 336, "Y": 528, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Roe": true
+			}
+		},
+        {
+			"LogName": "Squid Ink",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/SquidInk.png",
+			"ToArea": { "X": 352, "Y": 528, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Squid Ink": true
+			}
+		},
+        {
+			"LogName": "Truffle",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Truffle.png",
+			"ToArea": { "X": 352, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Truffle": true
+			}
+		},
+        {
+			"LogName": "Void Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/VoidEgg.png",
+			"ToArea": { "X": 272, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Void Egg": true
+			}
+		},
+        {
+			"LogName": "Wool",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/AnimalProducts/Wool.png",
+			"ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"AnimalProducts |contains= Wool": true
+			}
+		}
+    ]
+}

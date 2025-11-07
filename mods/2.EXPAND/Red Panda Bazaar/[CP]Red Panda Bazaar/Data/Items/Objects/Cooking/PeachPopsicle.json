@@ -1,0 +1,48 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Peach Popsicle": "636 1 245 1 -6 1/9999 9999/RedPandaBazaar_Peach_Popsicle/null/{{i18n:RedPandaBazaar.Object.Peach.Popsicle.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Peach_Popsicle": {
+          "Name": "Peach Popsicle",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Peach.Popsicle.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Peach.Popsicle.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 36,
+          "Edibility": 50,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Robin",
+            1
+          ],
+          "Value": "RedPandaBazaar_Peach_Popsicle",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

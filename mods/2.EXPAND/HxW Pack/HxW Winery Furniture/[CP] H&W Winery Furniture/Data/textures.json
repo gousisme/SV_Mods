@@ -1,0 +1,20 @@
+ {
+
+   "Changes": [
+ 
+    {
+        "LogName": "Load Furniture Textures",
+        "Action": "Load",
+        "Target": "Mods/HXW.WineryFurni/Furniture",
+        "FromFile": "assets/Furniture.png"
+    },
+
+    {
+        "LogName": "Load Furniture Front Textures",
+        "Action": "Load",
+        "Target": "Mods/HXW.WineryFurni/FurnitureFront",
+        "FromFile": "assets/FurnitureFront.png"
+    },
+
+    ]
+}

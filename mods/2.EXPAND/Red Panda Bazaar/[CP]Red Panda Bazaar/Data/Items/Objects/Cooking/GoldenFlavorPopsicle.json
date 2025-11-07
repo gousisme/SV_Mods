@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Golden Flavor Popsicle": "336 10 -6 1 245 1/9999 9999/RedPandaBazaar_Golden_Flavor_Popsicle/null/{{i18n:RedPandaBazaar.Object.Golden.Flavor.Popsicle.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Golden_Flavor_Popsicle": {
+          "Name": "Golden Flavor Popsicle",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Golden.Flavor.Popsicle.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Golden.Flavor.Popsicle.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 1000,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 33,
+          "Edibility": 100,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Love"
+          ],
+          "Value": "RedPandaBazaar_Golden_Flavor_Popsicle",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

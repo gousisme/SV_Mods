@@ -1,0 +1,73 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/LocationContexts",
+			"Entries": {
+				"Custom_SBV_SunberryVillage": {
+					"Name": "Custom_SBV_SunberryVillage",
+					"DefaultValidPlantableLocations": [],
+                    "AllowRainTotem": true,
+                    "CopyWeatherFromLocation": "Default", 
+					"PassOutLocations": [
+						{
+							"Id": "{{ModId}}_PassOutOnFarm",
+							"Condition": "LOCATION_NAME Here Custom_SBV_SunberryFarm, ANY \"PLAYER_HAS_MAIL Current SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Current SBVFarmPurchasedFR Received\"",
+							"Location": "Custom_SBV_SunberryHouse",
+							"Position": {
+								"X": 17,
+								"Y": 12
+							}
+						},
+						{
+							"Id": "{{ModId}}_PassOutInHouse",
+							"Condition": "LOCATION_NAME Here Custom_SBV_SunberryHouse, ANY \"PLAYER_HAS_MAIL Current SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Current SBVFarmPurchasedFR Received\"",
+							"Location": "Custom_SBV_SunberryHouse",
+							"Position": {
+								"X": 17,
+								"Y": 12
+							}
+						}
+					],
+					"ReviveLocations": [
+						{
+							"Condition": "LOCATION_CONTEXT Here Custom_SBV_SunberryVillage",
+							"Location": "Custom_SBV_SerenityInn2ndFloor",
+							"Position": {
+								"X": 23,
+								"Y": 24
+							}
+						}
+					],
+					"PassOutMail": [
+						{
+							"Mail": "passedOutSBV",
+							"SkipRandomSelection": true
+						}
+					]
+				},
+				"Custom_SBV_Mines": {
+					"Name": "Custom_SBV_Mines",
+					"DefaultValidPlantableLocations": [],
+					"AllowRainTotem": false,
+					"ReviveLocations": [
+						{
+							"Condition": "LOCATION_CONTEXT Here Custom_SBV_Mines",
+							"Location": "Custom_SBV_SerenityInn2ndFloor",
+							"Position": {
+								"X": 23,
+								"Y": 24
+							}
+						}
+					],
+					"PassOutMail": [
+						{
+							"Mail": "passedOutSBV",
+							"SkipRandomSelection": true
+						}
+					]
+				},
+			}
+		}
+	]
+}

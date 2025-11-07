@@ -1,0 +1,144 @@
+{
+    "Format": "2.5.0",
+    "ConfigSchema": {
+        "Update Premium Coop Design": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Update Premium Barn Design": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+         "Update Winery Design": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Update Grandpa's Shed Design": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Premium Barn Style":{
+            "AllowValues": "Red, White, Green",
+            "Default": "White"
+        },
+        "Premium Coop Style":{
+            "AllowValues": "Red, White, Green",
+            "Default": "White"
+        } 
+    },
+    "DynamicTokens": [ 
+        {
+            "Name": "PremiumBarnStyle",
+            "Value": "{{Premium Barn Style}}"
+        },
+        {
+            "Name": "PremiumCoopStyle",
+            "Value": "{{Premium Coop Style}}"
+        }
+    ],
+    "Changes" : [
+    //PREMIUM COOP
+    {
+       "LogName": "PremCoop PaintMask",
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_PremiumCoop_PaintMask",
+        "FromFile": "assets/PremiumCoop_PaintMask.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Premium Coop Design" : "true"
+        }
+
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_PremiumCoop",
+        "FromFile": "assets/PremiumCoop_{{PremiumCoopStyle}}.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Premium Coop Design" : "true"
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_PremiumCoop",
+        "FromFile": "assets/PremiumCoop_{{Season}}.png",
+        "PatchMode": "Overlay",
+        "When" : {
+            "Update Premium Coop Design" : "true"
+        }
+    },
+    //PREMIUM BARN
+     {
+       "LogName": "PremBarn PaintMask",
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_PremiumBarn_PaintMask",
+        "FromFile": "assets/PremiumBarn_PaintMask.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Premium Barn Design" : "true"
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_PremiumBarn",
+        "FromFile": "assets/PremiumBarn_{{PremiumBarnStyle}}.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Premium Barn Design" : "true"
+        }
+    },
+    {
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_PremiumBarn",
+        "FromFile": "assets/PremiumBarn_{{Season}}.png",
+        "PatchMode": "Overlay",
+        "When" : {
+            "Update Premium Barn Design" : "true"
+        }
+    },
+    //Winery
+    {
+       "LogName": "Winery PaintMask",
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_Winery_PaintMask",
+        "FromFile": "assets/Winery_PaintMask.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Winery Design" : "true"
+        }
+
+    },
+
+    {
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_Winery",
+        "FromFile": "assets/Winery.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Winery Design" : "true"
+        }
+    },
+    //winter only winery
+    {
+        "Action": "EditImage",
+        "Target": "Buildings/SVE_Winery",
+        "FromFile": "assets/Winery_Winter.png",
+        "PatchMode": "Replace",
+        "When" : {
+            "Update Winery Design" : "true",
+            "Season" : "winter"
+        }
+    },
+    //Grandpa's shed
+    {
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_z_extras",
+        "FromFile": "assets/GrandpasShed_{{season}}.png",
+
+        "ToArea": { "X": 0, "Y": 1344, "Width": 160, "Height": 352 },
+        "When" : {
+            "Update Grandpa's Shed Design" : "true"
+        }
+    }
+    ]
+}

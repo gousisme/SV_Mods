@@ -1,0 +1,535 @@
+{
+    "Changes": [
+
+// ----------------TEXTURE DATA ------------------- //
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Bushes",
+            "FromFile": "Assets/Bushes/Bushes_{{season}}.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Bushes_Indoors",
+            "FromFile": "Assets/Bushes/{{TargetWithoutPath}}.png" 
+        },
+
+
+// ----------------CUSTOM BUSH DATA ------------------- //
+
+		{
+        "LogName": "Add SASS ITEMS to Custom Bush Framework",
+        "Action": "EditData",
+        "Target": "furyx639.CustomBush/Data",
+        "Entries": {
+            "(O){{ModId}}_MoonDrop_Seeds": {
+                "DisplayName": "{{i18n:SASS_MoonDrop_Seeds.name}}",
+                "Description": "{{i18n:SASS_MoonDrop_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Lapis_MoonDrop",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Amber_MoonDrop",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Jade_MoonDrop",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Pearl_MoonDrop",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    }
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 0
+            },
+            "(O){{ModId}}_Fae_Queen_Flower_Seeds": {
+                "DisplayName": "{{i18n:SASS_Fae_Queen_Flower_Seeds.name}}",
+                "Description": "{{i18n:SASS_Fae_Queen_Flower_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Ambrosia",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Kiss_Of_Tamra",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Smile_Of_Shumus",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Titania_Bell",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    }
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 1
+            },
+            "(O){{ModId}}_Secret_Garden_Flower_Seeds": {
+                "DisplayName": "{{i18n:SASS_Secret_Garden_Flower_Seeds.name}}",
+                "Description": "{{i18n:SASS_Secret_Garden_Flower_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Avalon_Mist_Flower",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                                         {
+                        "ItemId": "(O){{ModId}}_Faerie_Folly",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Sylvan_Sigh",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    
+                    {    "ItemId": "(O){{ModId}}_Fallen_Stars",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 2
+            },
+            "(O){{ModId}}_Magic_Meadow_Flower_Seeds": {
+                "DisplayName": "{{i18n:SASS_Magic_Meadow_Flower_Seeds.name}}",
+                "Description": "{{i18n:SASS_Magic_Meadow_Flower_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Elysian_Field_Flower",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Dream_Spinner",
+                         "Condition": "SEASON summer, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Phoenix_Fire",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Snow_Mallow",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 3
+            },
+            "(O){{ModId}}_Pantry_Mushroom_Seeds": {
+                "DisplayName": "{{i18n:SASS_Pantry_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Pantry_Mushroom_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Meringue_Mushroom",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Milk_Mushroom",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Wheatberry_Mushroom",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Chicken_Woods",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 4
+            },
+            "(O){{ModId}}_Cafe_Mushroom_Seeds": {
+                "DisplayName": "{{i18n:SASS_Cafe_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Cafe_Mushroom_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Tea_Grass_Fungus",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Honey_Fungus",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Mottled_Fieldcap",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Rosey_Elfcup",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 5
+            },
+            "(O){{ModId}}_Alchemist_Mushroom_Seeds": {
+                "DisplayName": "{{i18n:SASS_Alchemist_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Alchemist_Mushroom_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Alchemists_Hat",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Queen_Bolete",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Shrumbus",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Midas_Cap",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 6
+            },
+            "(O){{ModId}}_Cookie_Monster_Mushroom_Seeds": {
+                "DisplayName": "{{i18n:SASS_Cookie_Monster_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Cookie_Monster_Mushroom_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Midnight_Milkcap",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Cocoa_Agaric",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Cookie_Cap",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Festive_Agaric",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 1 5 9 13 17 21 25",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 7
+            },
+            "(O){{ModId}}_Sweet_Tooth_Mushroom_Seeds": {
+                "DisplayName": "{{i18n:SASS_Sweet_Tooth_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Sweet_Tooth_Mushroom_Seeds.description}}",
+                "AgeToProduce": 30,
+                "DayToBeginProducing": 0,
+                "Seasons": ["spring","summer","fall","winter"],
+                "ItemsProduced": [
+                    {
+                        "ItemId": "(O){{ModId}}_Baby_Bluegill",
+                        "Condition": "SEASON spring, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Bubblegum_Funnel",
+                        "Condition": "SEASON summer, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Jack_Agaric",
+                        "Condition": "SEASON fall, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                    {
+                        "ItemId": "(O){{ModId}}_Gumdrop_Fungus",
+                        "Condition": "SEASON winter, DAY_OF_MONTH 2 6 10 14 18 22 26",
+                        "Chance": 1.0,
+                        "MinStack": 2,
+                        "MaxStack": 3,
+                        "QualityModifiers": [{"Modification": "Add", "RandomAmount": [0, 0, 0, 0, 1, 1, 1, 2, 2, 4],}],
+                    },
+                ],
+                "Texture": "Mods/{{ModId}}/Bushes",
+                "IndoorTexture": "Mods/{{ModId}}/Bushes_Indoors",
+                "TextureSpriteRow": 8
+            }
+        }
+		},
+
+// ----------------SEED DATA FOR CUSTOM BUSHES ------------------- //
+
+    {
+        "LogName":"SASS Bush Seed Saplings",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "{{ModId}}_MoonDrop_Seeds": {
+                "Name": "{{ModId}}_MoonDrop_Seeds",
+                "DisplayName": "{{i18n:SASS_MoonDrop_Seeds.name}}",
+                "Description": "{{i18n:SASS_MoonDrop_Seeds.description}}",
+                "Type": "Basic",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 144
+        },
+            "{{ModId}}_Fae_Queen_Flower_Seeds": {
+                "Name": "{{ModId}}_Fae_Queen_Flower_Seeds",
+                "DisplayName": "{{i18n:SASS_Fae_Queen_Flower_Seeds.name}}",
+                "Description": "{{i18n:SASS_Fae_Queen_Flower_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 145
+        },
+            "{{ModId}}_Secret_Garden_Flower_Seeds": {
+                "Name": "{{ModId}}_Secret_Garden_Flower_Seeds",
+                "DisplayName": "{{i18n:SASS_Secret_Garden_Flower_Seeds.name}}",
+                "Description": "{{i18n:SASS_Secret_Garden_Flower_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 146
+        },
+            "{{ModId}}_Magic_Meadow_Flower_Seeds": {
+                "Name": "{{ModId}}_Magic_Meadow_Flower_Seeds",
+                "DisplayName": "{{i18n:SASS_Magic_Meadow_Flower_Seeds.name}}",
+                "Description": "{{i18n:SASS_Magic_Meadow_Flower_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 147
+        },
+            "{{ModId}}_Pantry_Mushroom_Seeds": {
+                "Name": "{{ModId}}_Pantry_Mushroom_Seeds",
+                "DisplayName": "{{i18n:SASS_Pantry_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Pantry_Mushroom_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 148
+        },
+            "{{ModId}}_Cafe_Mushroom_Seeds": {
+                "Name": "{{ModId}}_Cafe_Mushroom_Seeds",
+                "DisplayName": "{{i18n:SASS_Cafe_Mushroom_Seeds.name}}",
+                "Description": "{{i18n:SASS_Cafe_Mushroom_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 149
+        },
+            "{{ModId}}_Alchemist_Mushroom_Seeds": {
+            "Name": "{{ModId}}_Alchemist_Mushroom_Seeds",
+            "DisplayName": "{{i18n:SASS_Alchemist_Mushroom_Seeds.name}}",
+            "Description": "{{i18n:SASS_Alchemist_Mushroom_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": 150
+        },
+            "{{ModId}}_Cookie_Monster_Mushroom_Seeds": {
+            "Name": "{{ModId}}_Cookie_Monster_Mushroom_Seeds",
+            "DisplayName": "{{i18n:SASS_Cookie_Monster_Mushroom_Seeds.name}}",
+            "Description": "{{i18n:SASS_Cookie_Monster_Mushroom_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": 151
+        },
+            "{{ModId}}_Sweet_Tooth_Mushroom_Seeds": {
+            "Name": "{{ModId}}_Sweet_Tooth_Mushroom_Seeds",
+            "DisplayName": "{{i18n:SASS_Sweet_Tooth_Mushroom_Seeds.name}}",
+            "Description": "{{i18n:SASS_Sweet_Tooth_Mushroom_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": 152
+        }
+        }
+    }
+
+    ]
+}

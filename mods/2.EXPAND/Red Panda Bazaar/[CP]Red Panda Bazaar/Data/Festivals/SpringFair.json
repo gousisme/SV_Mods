@@ -1,0 +1,7 @@
+{
+    "name": "SpringFair",
+    "conditions": "Custom_RedPandaBazaar/2000 2200",
+    "set-up": "playful/-1000 -1000/farmer 45 68 2/changeToTemporaryMap Custom_RedPandaBazaar.SpringFair/addLantern 23 45 68 2/loadActors Set-Up/animate Sebastian false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 21 21 21 21 22 23/animate Alex false true 100 16 17 18 19 20 21 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23/animate Vincent false true 300 22 23/advancedMove Maru true 3 0 2 10000 -3 0 2 25000/advancedMove Gus true 0 1 2 10000 0 -1 4 5000/playerControl halloween/viewport player clamp true unfreeze/globalFadeToClear",
+    "set-up_y2":"playful/-1000 -1000/farmer 45 68 2/changeToTemporaryMap Custom_RedPandaBazaar.SpringFair.Year2/addLantern 23 45 68 2/loadActors Set-Up/animate Sebastian false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 21 21 21 21 22 23/animate Alex false true 100 16 17 18 19 20 21 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23/animate Vincent false true 300 22 23/advancedMove Maru true 3 0 2 10000 -3 0 2 25000/advancedMove Gus true 0 1 2 10000 0 -1 4 5000/playerControl halloween/viewport player clamp true unfreeze/globalFadeToClear",
+    "mainEvent": "null"
+}

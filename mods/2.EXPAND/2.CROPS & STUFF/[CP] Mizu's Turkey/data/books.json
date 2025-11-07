@@ -1,0 +1,22 @@
+{
+    "Changes": [
+		//add books
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+			"Entries": {
+				"Mizu.Turkey_CookbookTrigger": {
+				  "Id": "Mizu.Turkey_CookbookTrigger",
+				  "Trigger": "LocationChanged",
+				  "Condition": "PLAYER_STAT Current Mizu.Turkey_PrimarilyPoultry 1",
+				  "Actions": [
+					"MarkCookingRecipeKnown Current Mizu.Turkey_TurkeyRice",
+					"MarkCookingRecipeKnown Current Mizu.Turkey_TurkeyLeg",
+					"MarkCookingRecipeKnown Current Mizu.Turkey_Turducken",
+					]
+				}
+			}
+		}
+    ]
+}

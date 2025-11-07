@@ -1,0 +1,18 @@
+{
+  "Name": "Door Mania",
+  "Author": "Sharogg",
+  "Version": "1.0.0",
+  "Description": "Adds a collection of doors to use with PIF.",
+  "UniqueID": "Sharogg.Doors",
+  "UpdateKeys": [ "Nexus:28537" ],
+  "ContentPackFor":
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies":[
+		{
+			"UniqueID": "DLX.PIF",
+			"IsRequired": false
+		}
+	]
+}

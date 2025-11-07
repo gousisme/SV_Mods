@@ -1,0 +1,74 @@
+{
+    "Changes": 
+    [
+
+// INGREDIENTS
+
+		{
+			"LogName": "Fairy Dust",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Ingredients/FairyDust.png",
+			"ToArea": { "X": 128, "Y": 576, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Ingredients |contains= Fairy Dust": true
+			}
+		},
+        {
+			"LogName": "Oil",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Ingredients/Oil.png",
+			"ToArea": { "X": 112, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Ingredients |contains= Oil": true
+			}
+		},
+		{
+			"LogName": "Rice",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Ingredients/Rice.png",
+			"ToArea": { "X": 240, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Ingredients |contains= Rice": true
+			}
+		},
+		{
+			"LogName": "Sugar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Ingredients/Sugar.png",
+			"ToArea": { "X": 80, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Ingredients |contains= Sugar": true
+			}
+		},
+		{
+			"LogName": "Vinegar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Ingredients/Vinegar.png",
+			"ToArea": { "X": 176, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Ingredients |contains= Vinegar": true
+			}
+		},
+		{
+			"LogName": "Wheat Flour",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Ingredients/WheatFlour.png",
+			"ToArea": { "X": 96, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Ingredients |contains= Wheat Flour": true
+			}
+		}
+    ]
+}

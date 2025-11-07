@@ -1,0 +1,646 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng": {
+          "DisplayName": "{{i18n:NPCName:RedPandaBazaar_LiQingFeng}}",
+          "BirthSeason": "spring",
+          "BirthDay": 16,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Teen",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": true,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "CanSocialize": true,
+          "CanVisitIsland": true,
+          "IntroductionsQuest": false,
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpouseGiftJealousy": true,
+          "SpouseRoom": {
+            "MapAsset": "Custom_LiQingFengRoom",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "Custom_LiQingFeng_Spouse_Area",
+            "MapSourceRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            },
+            "SpriteAnimationFrames": [
+              [
+                0,
+                1500
+              ],
+              [
+                22,
+                1000
+              ],
+              [
+                23,
+                1000
+              ],
+              [
+                22,
+                1000
+              ],
+              [
+                23,
+                1000
+              ],
+              [
+                22,
+                1000
+              ],
+              [
+                0,
+                1500
+              ],
+              [
+                16,
+                1000
+              ],
+              [
+                17,
+                2000
+              ],
+              [
+                16,
+                1000
+              ]
+            ]
+          },
+          "FriendsAndFamily": {},
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "Custom_LiQingFengHouse2",
+              "Tile": {
+                "X": 25,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "TextureName": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "CustomFields": {}
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_LiQingFengRoom",
+      "FromFile": "Assets/Maps/Room/LiQingFengRoom.tbin"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_LiQingFeng_Spouse_Area",
+      "FromFile": "Assets/Maps/Spouse_Area/LiQingFeng_Spouse_Area.tbin"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng_dozeoff": "16/16/16/16//17/17/17/17/16/16/16/16/17/17/17/17/16/16/16/16/17/17/17/17/18/18/18/18/18/18/18/18/18/18/19/19/19/19/19/19/19/19/19/19",
+        "RedPandaBazaar_LiQingFeng_sitsonachair": "32/32/32/32/32/33/33/33/33/34/34/34/34/35/35/35/35",
+        "RedPandaBazaar_LiQingFeng_drinking1": "20/20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21/20"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "redpandabazaar_liqingfeng_sleep": "29/29/29"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+      "Entries": {
+        "SummitEvent_Dialogue3_RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.SummitEvent.Dialogue.01}}\"/pause 500/faceDirection farmer 1/pause 250/emote farmer 8/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:LiQingFeng.SummitEvent.Dialogue.02}}\"/pause 500/faceDirection RedPandaBazaar_LiQingFeng 3/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:LiQingFeng.SummitEvent.Dialogue.03}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:LiQingFeng.SummitEvent.Dialogue.04}}\""
+      }
+    },
+    {
+      "LogName": "LiQingFeng's Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.GiftTastes.love}}/424 636 279 74 797 18 RedPandaBazaar_Pearl_Milk_Tea/{{i18n:LiQingFeng.GiftTastes.like}}/591 595 254 268/{{i18n:LiQingFeng.GiftTastes.dislike}}/258 591 595 254 268/{{i18n:LiQingFeng.GiftTastes.hate}}/174 176 180 182 376/{{i18n:LiQingFeng.GiftTastes.neutral}}/227 303 348 459 346 446//"
+      }
+    },
+    {
+      "LogName": "LiQingFeng's Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng": "{{i18n:Spouse.LiQingFeng.GiftTastes.love}}/424 636 279 74 797 18 RedPandaBazaar_Pearl_Milk_Tea/{{i18n:Spouse.LiQingFeng.GiftTastes.like}}/591 595 254 268/{{i18n:Spouse.LiQingFeng.GiftTastes.dislike}}/258 591 595 254 268/{{i18n:Spouse.LiQingFeng.GiftTastes.hate}}/174 176 180 182 376/{{i18n:Spouse.LiQingFeng.GiftTastes.neutral}}/227 303 348 459 346//"
+      },
+      "When": {
+        "Spouse": "RedPandaBazaar_LiQingFeng"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/RedPandaBazaar_LiQingFeng",
+      "FromFile": "Assets/Sprites/LiQingFeng.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/RedPandaBazaar_LiQingFeng",
+      "FromFile": "Assets/Portraits/LiQingFeng.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/RedPandaBazaar_LiQingFeng_Beach",
+      "FromFile": "Assets/Sprites/LiQingFeng_Beach.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/RedPandaBazaar_LiQingFeng_Beach",
+      "FromFile": "Assets/Portraits/LiQingFeng_Beach.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/RedPandaBazaar_LiQingFeng_Winter",
+      "FromFile": "Assets/Sprites/LiQingFeng_Winter.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/RedPandaBazaar_LiQingFeng_Winter",
+      "FromFile": "Assets/Portraits/LiQingFeng_Winter.png"
+    },
+    {
+      "LogName": "Events",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_LiQingFengCafe1",
+      "Entries": {
+        "90327007/e 90327003/t 0600 2100/f RedPandaBazaar_LiQingFeng 1500/F/n RedPandaBazaar_LiQingFengMail01/i 184": "sadpiano/4 22/farmer 4 22 1 RedPandaBazaar_LiQingFeng 8 22 2/addCookingRecipe Pearl Milk Tea/skippable/advancedMove farmer false 3 0 1 2000/pause 500/animate RedPandaBazaar_LiQingFeng false true 1250 22 23/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.1}}\"/pause 1000/stopAdvancedMoves/stopAnimation RedPandaBazaar_LiQingFeng/pause 500/faceDirection RedPandaBazaar_LiQingFeng 2/pause 500/faceDirection RedPandaBazaar_LiQingFeng 3/pause 500/animate RedPandaBazaar_LiQingFeng false true 1250 22 23/pause 500/emote farmer 40/quickQuestion #{{i18n:90327007.2}}#{{i18n:90327007.3}}#{{i18n:90327007.4}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.5}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.6}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.7}}\"/stopAnimation RedPandaBazaar_LiQingFeng/pause 250/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.8}}\"/faceDirection RedPandaBazaar_LiQingFeng 3/pause 250/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.9}}\"/pause 250/quickQuestion #{{i18n:90327007.10}}#{{i18n:90327007.11}}#{{i18n:90327007.12}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.13}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.14}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.15}}\"/pause 500/animate RedPandaBazaar_LiQingFeng false true 1250 22 23/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.16}}\"/pause 1000/globalFade/stopAnimation RedPandaBazaar_LiQingFeng/viewport -1000 -1000/pause 1000/warp RedPandaBazaar_LiQingFeng 8 15/warp farmer 9 15/faceDirection farmer 3 true/faceDirection RedPandaBazaar_LiQingFeng 0 true/viewport 8 15 true/pause 1000/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.17}}\"/pause 500/emote farmer 40/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.18}}\"/pause 500/textAboveHead RedPandaBazaar_LiQingFeng \"{{i18n:90327007.19}}\"/pause 500/pause 500/animate RedPandaBazaar_LiQingFeng false true 1250 20 21/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.20}}\"/pause 250/emote farmer 40/textAboveHead RedPandaBazaar_LiQingFeng \"{{i18n:90327007.21}}\"/pause 1500/stopAnimation RedPandaBazaar_LiQingFeng/pause 1000/faceDirection RedPandaBazaar_LiQingFeng 1/pause 500/addItem RedPandaBazaar_Pearl_Milk_Tea/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.22}}\"/pause 500/quickQuestion #{{i18n:90327007.23}}#{{i18n:90327007.24}}#{{i18n:90327007.25}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.26}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.27}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.28}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327007.29}}\"/pause 500/faceDirection RedPandaBazaar_LiQingFeng 2/end",
+        "90327003/e 90327002/t 0600 2100/f RedPandaBazaar_LiQingFeng 1000": "sadpiano/9 22/farmer 5 22 3 RedPandaBazaar_LiQingFeng 9 22 2/skippable/animate RedPandaBazaar_LiQingFeng false true 1250 20 21/pause 100/advancedMove farmer false 2 0 1 2000/pause 1000/emote farmer 32/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.1}}\"/pause 500/quickQuestion #{{i18n:90327003.2}}#{{i18n:90327003.3}}#{{i18n:90327003.4}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.5}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.6}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.7}}\"/pause 500/emote farmer 40/pause 500/stopAnimation RedPandaBazaar_LiQingFeng/pause 1000/faceDirection RedPandaBazaar_LiQingFeng 3/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.8}}\"/pause 500/stopAdvancedMoves/emote farmer 40/pause 500/quickQuestion #{{i18n:90327003.9}}#{{i18n:90327003.10}}#{{i18n:90327003.11}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.12}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.13}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.14}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.15}}\"/pause 250/emote farmer 40/pause 250/faceDirection RedPandaBazaar_LiQingFeng 2/pause 250/animate RedPandaBazaar_LiQingFeng false true 500 22 23/pause 250/animate RedPandaBazaar_LiQingFeng false true 1250 26 27/pause 250/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.16}}\"/pause 250/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.17}}\"/pause 250/emote farmer 32/pause 250/stopAnimation RedPandaBazaar_LiQingFeng/faceDirection RedPandaBazaar_LiQingFeng 3/pause 500/quickQuestion #{{i18n:90327003.18}}#{{i18n:90327003.19}}#{{i18n:90327003.20}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.21}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.22}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.23}}\"/pause 500/emote farmer 32/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.24}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.25}}\"/pause 500/emote farmer 40/pause 500/advancedMove farmer false -3 0 1 750/pause 750/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.26}}\"/stopAdvancedMoves/advancedMove farmer false 4 0 1 1250/pause 500/quickQuestion #{{i18n:90327003.27}}#{{i18n:90327003.28}}#{{i18n:90327003.29}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.30}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.31}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.32}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.33}}\"/pause 500/emote farmer 32/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327003.34}}\"/pause 500/stopAdvancedMoves/end",
+        "90327002/t 0600 2100/f RedPandaBazaar_LiQingFeng 500":"playful/8 22/farmer 4 26 0 RedPandaBazaar_LiQingFeng 8 22 2/skippable/pause 1500/advancedMove farmer false 0 -4 3 0 1 2000/pause 1000/animate RedPandaBazaar_LiQingFeng false true 1250 16 17/pause 3000/emote farmer 8/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.1}}\"/pause 500/emote farmer 40/pause 500/quickQuestion #{{i18n:90327002.2}}#{{i18n:90327002.3}}#{{i18n:90327002.4}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.5}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.6}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.7}}\"/pause 500/emote farmer 28/pause 500/stopAnimation RedPandaBazaar_LiQingFeng/pause 500/emote RedPandaBazaar_LiQingFeng 8/pause 500/jump RedPandaBazaar_LiQingFeng 8/pause 500/faceDirection RedPandaBazaar_LiQingFeng 3/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.8}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.9}}\"/pause 500/emote farmer 40/pause 1000/quickQuestion #{{i18n:90327002.10}}#{{i18n:90327002.11}}#{{i18n:90327002.12}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.13}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.14}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.15}}\"/pause 500/emote farmer 32/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.16}}\"/pause 500/quickQuestion #{{i18n:90327002.17}}#{{i18n:90327002.18}}#{{i18n:90327002.19}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.20}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.21}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.22}}\"/pause 500/emote farmer 32/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.23}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.24}}\"/pause 500/emote farmer 40/pause 500/quickQuestion #{{i18n:90327002.25}}#{{i18n:90327002.26}}#{{i18n:90327002.27}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.28}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.29}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.30}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.31}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327002.32}}\"/pause 1000/end"
+
+      }
+    },
+    {
+      "LogName": "Events",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_LiQingFengHouse2",
+      "Entries": {
+        "90327004/t 0600 2100/f RedPandaBazaar_LiQingFeng 2500/n RedPandaBazaar_LiQingFengMail02": "jaunty/23 9/farmer 20 9 1 RedPandaBazaar_LiQingFeng 23 9 2/skippable/animate RedPandaBazaar_LiQingFeng false true 1000 32 33/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.1}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.2}}\"/pause 500/emote farmer 32/quickQuestion #{{i18n:90327004.3}}#{{i18n:90327004.4}}#{{i18n:90327004.5}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.6}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.7}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.8}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.9}}\"/pause 500/quickQuestion #{{i18n:90327004.10}}#{{i18n:90327004.11}}#{{i18n:90327004.12}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.13}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.14}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.15}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.16}}\"/animate RedPandaBazaar_LiQingFeng false true 1000 30 31/pause 500/quickQuestion #{{i18n:90327004.17}}#{{i18n:90327004.18}}#{{i18n:90327004.19}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.20}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.21}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.22}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.23}}\"/pause 500/advancedMove farmer false 2 0 1 2000/pause 80/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.24}}\"/pause 500/stopAdvancedMoves/animate RedPandaBazaar_LiQingFeng false true 1000 34 35/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.25}}\"/pause 500/quickQuestion #{{i18n:90327004.26}}#{{i18n:90327004.27}}#{{i18n:90327004.28}}(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.29}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.30}}\"(break)speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.31}}\"/pause 500/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.32}}\"/pause 500/faceDirection farmer 2/pause 100/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.33}}\"/pause 500/emote RedPandaBazaar_LiQingFeng 20/animate RedPandaBazaar_LiQingFeng false true 1000 24 25/speak RedPandaBazaar_LiQingFeng \"{{i18n:90327004.34}}\"/emote farmer 32/pause 500/animate RedPandaBazaar_LiQingFeng false true 1000 34 35/pause 500/stopAdvancedMoves/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng": {
+          "Name": "RedPandaBazaar_LiQingFeng",
+          "LovedTags": [
+            "Cappuccino Mousse Cake",
+            "Ice Cream Sandwich",
+            "Popcorn",
+            "Cotton Candy",
+            "Jawbreaker"
+          ],
+          "LikedTags": [
+            "Chocolate Popcorn",
+            "Hummus Snack Pack",
+            "Personal Pizza",
+            "Rock Candy",
+            "Star Cookie",
+            "Apple Slices",
+            "Salted Peanuts",
+            "Stardrop Sorbet"
+          ],
+          "DislikedTags": [
+            "Nachos",
+            "Jasmine Tea",
+            "Fries",
+            "Black Licorice",
+            "Sour Slimes",
+            "Joja Cola",
+            "Joja Corn",
+            "Kale Smoothie",
+            "Panzanella Salad",
+            "Salmon Burger",
+            "Truffle Popcorn"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng": {
+          "NPCName": "RedPandaBazaar_LiQingFeng",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.0.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.0.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.0.LiQingFeng.Movies.AfterMovie}}"
+                },
+                "ID": "reaction_0"
+              }
+            },
+            {
+              "Tag": "spring_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.1.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.1.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.1.LiQingFeng.Movies.AfterMovie}}"
+                },
+                "ID": "reaction_1"
+              }
+            },
+            {
+              "ID": "reaction_2",
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.0.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.0.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.0.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_3",
+              "Tag": "summer_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.1.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.1.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.1.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_4",
+              "Tag": "fall_movie_0",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.0.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.0.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.0.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_5",
+              "Tag": "fall_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.1.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.1.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.1.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_6",
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.0.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.0.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.0.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_7",
+              "Tag": "winter_movie_1",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.1.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.1.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.1.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "RedPandaBazaar_LiQingFeng": {
+          "NPCName": "RedPandaBazaar_LiQingFeng",
+          "Reactions": [
+            {
+              "ID": "reaction_0",
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.0.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.0.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.0.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_1",
+              "Tag": "spring_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.1.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.1.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:spring.1.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_2",
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.0.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.0.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.0.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_3",
+              "Tag": "summer_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.1.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.1.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:summer.1.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_4",
+              "Tag": "fall_movie_0",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.0.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.0.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.0.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_5",
+              "Tag": "fall_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.1.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.1.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:fall.1.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_6",
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.0.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.0.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.0.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            },
+            {
+              "ID": "reaction_7",
+              "Tag": "winter_movie_1",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.1.Spouse.LiQingFeng.Movies.BeforeMovie}}"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.1.Spouse.LiQingFeng.Movies.DuringMovie}}"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:winter.1.Spouse.LiQingFeng.Movies.AfterMovie}}"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "When": {
+        "Spouse": "RedPandaBazaar_LiQingFeng"
+      }
+    }
+  ]
+}

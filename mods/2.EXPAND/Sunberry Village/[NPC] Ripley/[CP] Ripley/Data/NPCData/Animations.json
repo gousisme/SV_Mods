@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    // Animations
+    {
+      "LogName": "Animation Data",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+
+        //Ripley
+        "ripley_axe": "24/24 24 24 25 26 27 28 29 30 31 32 33 34 35 35 35 35/35",
+        "ripley_sleep": "32/32/32",
+        "ripley_liedown": "32/32/32"
+
+      } 
+    }, 
+
+// Big Animations
+    {
+      "LogName": "Ripley Animation Asset Edit",
+      "Action": "EditData",
+      "Target": "SunberryTeam.SBV/Animations",
+      "Entries": {
+        "ripley_axe": {
+          "npcName": "Clara.Ripley",
+          "size": "16, 64", //my sprite is now 16x64
+          "offset": "1, 32"
+        }
+      }
+
+    }
+  ]
+}

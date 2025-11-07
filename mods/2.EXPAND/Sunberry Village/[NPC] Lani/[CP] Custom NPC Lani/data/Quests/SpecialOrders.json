@@ -1,0 +1,138 @@
+{
+	"Changes": [
+		//// Special Order 1 - Cabbage Surprise ////
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"When": { "HasMod: |contains=Cornucopia.MoreCrops": true },
+			"Entries": {
+				"{{ModId}}_CabbageSurprise": {
+					"Name": "[Lani.SpecialOrders.CabbageSurprise_Name]",
+					"Requester": "LaniSBV",
+					"Duration": "TwoWeeks",
+					"Repeatable": "False",
+					"RequiredTags": "season_Spring, knows_LaniSBV, knows_MiyoungSBV",
+					"OrderType": "SunberryBoard", 
+					"SpecialRule": "",
+					"Text": "[Lani.SpecialOrders.CabbageSurprise_Text]",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Collect",
+							"Text": "[Lani.SpecialOrders.CabbageSurprise_Objective_0_Text]",
+							"RequiredCount": "10",
+							"Data": {
+								"AcceptedContextTags": "cabbage_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[Lani.SpecialOrders.CabbageSurprise_Objective_1_Text]",
+							"RequiredCount": "10",
+							"Data": {
+								"DropBox": "LaniFridge",
+								"DropBoxGameLocation": "Custom_SBV_LaniHouse",
+								"DropBoxIndicatorLocation": "8 8",
+								"AcceptedContextTags": "cabbage_item"
+							}
+						}
+					],
+					"Rewards": [
+					{
+						"Type": "Money",
+						"Data": {
+							"Amount": "1500"
+						}
+					},
+					{
+						"Type": "Mail",
+						"Data": {
+							"MailReceived": "{{ModId}}_CabbageSurpriseEvent"
+						}
+					}
+					]
+				},
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"When": { "HasMod: |contains=Cornucopia.MoreCrops": true },
+			"Entries": {
+				"Lani.SpecialOrders.CabbageSurprise_Name": "{{i18n:Lani.SpecialOrders.CabbageSurprise.Name}}",
+				"Lani.SpecialOrders.CabbageSurprise_Text": "{{i18n:Lani.SpecialOrders.CabbageSurprise.Text}}",
+				"Lani.SpecialOrders.CabbageSurprise_Objective_0_Text": "{{i18n:Lani.SpecialOrders.CabbageSurprise.Objective0Text}}",
+				"Lani.SpecialOrders.CabbageSurprise_Objective_1_Text": "{{i18n:Lani.SpecialOrders.CabbageSurprise.Objective1Text}}"
+			}
+		},
+		
+		//// Special Order 2 - Learn To Brew: Soju ////
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Entries": { 
+			"{{ModId}}_LearnToBrewSoju": {
+					"Name": "[Lani.SpecialOrders.LearnToBrewSoju_Name]",
+					"Requester": "LaniSBV",
+					"Duration": "TwoWeeks",
+					"Repeatable": "False",
+					"RequiredTags": "season_Spring, knows_LaniSBV",
+					"OrderType": "SunberryBoard", 
+					"SpecialRule": "Rule_CanBrewSoju",
+					"Text": "[Lani.SpecialOrders.LearnToBrewSoju_Text]",
+					"ItemToRemoveOnEnd": null,
+					"MailToRemoveOnEnd": null,
+					"RandomizedElements": null,
+					"Objectives": [
+						{
+							"Type": "Collect",
+							"Text": "[Lani.SpecialOrders.LearnToBrewSoju_Objective_0_Text]",
+							"RequiredCount": "5",
+							"Data": {
+								"AcceptedContextTags": "soju_item"
+							}
+						},
+						{
+							"Type": "Donate",
+							"Text": "[Lani.SpecialOrders.LearnToBrewSoju_Objective_1_Text]",
+							"RequiredCount": "5",
+							"Data": {
+								"DropBox": "LaniFridge",
+								"DropBoxGameLocation": "Custom_SBV_LaniHouse",
+								"DropBoxIndicatorLocation": "8 8",
+								"AcceptedContextTags": "soju_item"
+							}
+						}
+					],
+					"Rewards": [
+						{
+							"Type": "Money",
+							"Data": {
+								"Amount": "7500"
+							}
+						},
+						{
+							"Type": "Mail",
+							"Data": {
+								"MailReceived": "{{ModId}}_SojuRecipeMail"
+							}
+						}
+					]
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"Lani.SpecialOrders.LearnToBrewSoju_Name": "{{i18n:Lani.SpecialOrders.LearnToBrewSoju.Name}}",
+				"Lani.SpecialOrders.LearnToBrewSoju_Text": "{{i18n:Lani.SpecialOrders.LearnToBrewSoju.Text}}",
+				"Lani.SpecialOrders.LearnToBrewSoju_Objective_0_Text": "{{i18n:Lani.SpecialOrders.LearnToBrewSoju.Objective0Text}}",
+				"Lani.SpecialOrders.LearnToBrewSoju_Objective_1_Text": "{{i18n:Lani.SpecialOrders.LearnToBrewSoju.Objective1Text}}"
+			}
+		}
+	]
+}

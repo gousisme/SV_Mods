@@ -1,0 +1,153 @@
+{
+	"Format":"2.0.0",
+	"ConfigSchema":
+	{
+		"Catalogue": {
+			"AllowValues":"true, false",
+			"Default":"true",
+			"Description":"Set to true if you want the furniture to have their own dedicated catalogue."
+			},
+		},
+	"Changes": [
+        {
+			"LogName": "LBXLW_RFRF_Furniture Texture Load",
+			"Action": "Load",
+			"Target": "Mods/LBXLW_RFRF_Furniture/Furniture1, Mods/LBXLW_RFRF_Furniture/Furniture2,Mods/LBXLW_RFRF_Furniture/Furniture3,Mods/LBXLW_RFRF_Furniture/Furniture3Front,Mods/LBXLW_RFRF_Furniture/texture",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },
+         
+		{
+			"LogName": "LBXLW_RFRF_Furniture Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+            ///FURNITURE Page1///
+            
+            //Double Bed
+				"RFRF.FoxBed": "Fox Bed/bed double/3 4/3 3/1/5200/-1/{{i18n:FoxBed}}/0/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GreenJemBed": "Green Jem Bed/bed double/3 4/3 3/1/5200/-1/{{i18n:GreenJemBed}}/6/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.IlluminatedPrincessBed": "Illuminated Princess Bed/bed double/3 4/3 3/1/5200/-1/{{i18n:IlluminatedPrincessBed}}/12/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Computer Desk
+				"RFRF.NormalComputerDesk": "Normal Computer Desk/decor/3 3/3 1/1/520/2/{{i18n:NormalComputerDesk}}/90/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FoxComputerDesk": "Fox Computer Desk/decor/3 3/3 1/1/520/2/{{i18n:FoxComputerDesk}}/93/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GreenGlassComputerDesk": "Green Glass Computer Desk/decor/3 3/3 1/1/520/2/{{i18n:GreenGlassComputerDesk}}/96/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+			
+			//Mirror
+				"RFRF.NormalMirror": "Normal Mirror/decor/2 3/2 1/1/520/2/{{i18n:NormalMirror}}/99/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FoxMirror": "Fox Mirror/decor/2 3/2 1/1/520/2/{{i18n:FoxMirror}}/101/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FrogMirror": "Frog Mirror/decor/2 3/2 1/1/520/2/{{i18n:FrogMirror}}/103/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+			
+			//Partition Screen
+				"RFRF.TreePartitionScreen": "Tree Partition Screen/decor/3 3/3 1/1/520/2/{{i18n:TreePartitionScreen}}/144/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FrogPartitionScreen": "Frog Partition Screen/decor/3 3/3 1/1/520/2/{{i18n:FrogPartitionScreen}}/147/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.NormalPartitionScreen": "Normal Partition Screen/decor/3 3/3 1/1/520/2/{{i18n:NormalPartitionScreen}}/150/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Glazed Glass and Mock Window
+				"RFRF.GlazedGlassLarge": "Glazed Glass Large/painting/5 3/5 3/1/520/-1/{{i18n:GlazedGlassLarge}}/153/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GlazedGlass": "Glazed Glass/painting/3 3/3 3/1/520/-1/{{i18n:GlazedGlass}}/158/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.MockWindowWithFox": "Mock Window With Fox/painting/3 3/3 3/1/520/-1/{{i18n:MockWindowWithFox}}/492/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.SymmetricalMockWindow": "Symmetrical Mock Window/painting/3 3/3 3/1/520/-1/{{i18n:SymmetricalMockWindow}}/495/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.MockWindowWithWreath": "Mock Window With Wreath/painting/3 3/3 3/1/520/-1/{{i18n:MockWindowWithWreath}}/498/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+			
+			//Fireplace
+				"RFRF.FrogFireplace": "Frog Fireplace/fireplace/2 5/2 1/1/520/2/{{i18n:FrogFireplace}}/198/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FoxFireplace": "Fox Fireplace/fireplace/2 5/2 1/1/520/2/{{i18n:FoxFireplace}}/200/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.WildFruitFireplace": "Wild Fruit Fireplace/fireplace/2 5/2 1/1/520/2/{{i18n:WildFruitFireplace}}/202/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Washbasin
+				"RFRF.FrogWashbasin": "Frog Washbasin/decor/4 3/4 1/1/520/2/{{i18n:FrogWashbasin}}/204/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Bathtub(decor)
+				"RFRF.GlazedGlassBathtubDecor1": "Glazed Glass Bathtub Decor1/decor/3 2/3 1/1/520/2/{{i18n:GlazedGlassBathtubDecor1}}/258/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GlazedGlassBathtubDecor2": "Glazed Glass Bathtub Decor2/decor/2 3/2 2/1/520/2/{{i18n:GlazedGlassBathtubDecor2}}/261/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerBathtubDecor1": "Flower Bathtub Decor1/decor/3 2/3 1/1/520/2/{{i18n:FlowerBathtubDecor1}}/263/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerBathtubDecor2": "Flower Bathtub Decor2/decor/2 3/2 2/1/520/2/{{i18n:FlowerBathtubDecor2}}/266/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Rug
+				"RFRF.MossRug1": "Moss Rug1/rug/5 4/5 4/1/520/2/{{i18n:MossRug1}}/306/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.MossRug2": "Moss Rug2/rug/5 4/5 4/1/520/2/{{i18n:MossRug2}}/311/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.MossRug3": "Moss Rug3/rug/5 4/5 4/1/520/2/{{i18n:MossRug3}}/316/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+		    //Easel
+				"RFRF.Easel1": "Easel1/decor/2 3/2 1/1/520/2/{{i18n:Easel1}}/378/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel2": "Easel2/decor/2 3/2 1/1/520/2/{{i18n:Easel2}}/380/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel3": "Easel3/decor/2 3/2 1/1/520/2/{{i18n:Easel3}}/382/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel4": "Easel4/decor/2 3/2 1/1/520/2/{{i18n:Easel4}}/384/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel5": "Easel5/decor/2 3/2 1/1/520/2/{{i18n:Easel5}}/386/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel6": "Easel6/decor/2 3/2 1/1/520/2/{{i18n:Easel6}}/388/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel7": "Easel7/decor/2 3/2 1/1/520/2/{{i18n:Easel7}}/390/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.Easel8": "Easel8/decor/2 3/2 1/1/520/2/{{i18n:Easel8}}/392/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Partition
+				"RFRF.GreenPartition1": "Green Partition1/decor/2 3/2 1/1/520/2/{{i18n:GreenPartition1}}/432/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GreenPartition2": "Green Partition2/decor/2 3/2 1/1/520/2/{{i18n:GreenPartition2}}/434/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GreenPartition3": "Green Partition3/decor/2 3/2 1/1/520/2/{{i18n:GreenPartition3}}/436/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Dresser
+				"RFRF.WoodenDresser": "Wooden Dresser/dresser/2 2/2 1/4/520/2/{{i18n:WoodenDresser}}/438/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.MosaicDresser": "Mosaic Dresser/dresser/2 2/2 1/4/520/2/{{i18n:MosaicDresser}}/443/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			//Decor
+				"RFRF.DecorativeTree1": "Decorative Tree1/decor/3 3/3 1/1/520/2/{{i18n:DecorativeTree1}}/486/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.DecorativeTree2": "Decorative Tree2/decor/3 3/3 1/1/520/2/{{i18n:DecorativeTree2}}/489/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.LighterMarkerStorageCabinet‌": "Lighter Marker Storage Cabinet‌/decor/2 3/2 1/1/520/2/{{i18n:LighterMarkerStorageCabinet‌}}/208/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.MarkerStorageCabinet2‌": "Marker Storage Cabinet2‌/decor/2 3/2 1/1/520/2/{{i18n:MarkerStorageCabinet2‌}}/210/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				"RFRF.DrawingTable‌": "Drawing Table‌‌/decor/3 3/3 1/1/520/2/{{i18n:DrawingTable‌}}/212/Mods\\LBXLW_RFRF_Furniture\\Furniture1/true/collection_LBXLWRFRFFurniture",
+				
+			///FURNITURE Page2///
+			
+			//Lamp
+				"RFRF.FrogLamp": "Frog Lamp/lamp/1 3/1 1/1/520/2/{{i18n:FrogLamp}}/2/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerLamp1": "Flower Lamp1/lamp/1 3/1 1/1/520/2/{{i18n:FlowerLamp1}}/4/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerLamp2": "Flower Lamp2/lamp/1 3/1 1/1/520/2/{{i18n:FlowerLamp2}}/6/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerLamp3": "Flower Lamp3/lamp/1 3/1 1/1/520/2/{{i18n:FlowerLamp3}}/8/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FoxLamp": "Fox Lamp/lamp/1 3/1 1/1/520/2/{{i18n:FoxLamp}}/10/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerLamp4": "Flower Lamp4/lamp/1 3/1 1/1/520/2/{{i18n:FlowerLamp4}}/12/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GlazedGlassLamp": "Glazed Glass Lamp/lamp/1 3/1 1/1/520/2/{{i18n:GlazedGlassLamp}}/14/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true/collection_LBXLWRFRFFurniture",
+			
+			///FURNITURE Animatied///	 
+            
+			//Foutain			 
+    			"RFRF.AnimatiedFoxAndFrogFountain": "Animatied Fox And Frog Fountain/decor/6 5/6 4/1/520/2/{{i18n:AnimatiedFoxAndFrogFountain}}/0/Mods\\LBXLW_RFRF_Furniture\\texture/true/collection_LBXLWRFRFFurniture",
+				
+			///FURNITURE Page3///
+			
+			//Armchair
+				"RFRF.StumpArmchair": "Stump Armchair/armchair/2 2/2 1/4/520/2/{{i18n:StumpArmchair}}/0/Mods\\LBXLW_RFRF_Furniture\\Furniture3/true/collection_LBXLWRFRFFurniture",
+				"RFRF.GlazedGlassArmchair": "Glazed Glass Armchair/armchair/2 2/2 1/4/520/2/{{i18n:GlazedGlassArmchair}}/6/Mods\\LBXLW_RFRF_Furniture\\Furniture3/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlannelArmchair": "Flannel Armchair/armchair/2 2/2 1/4/520/2/{{i18n:FlannelArmchair}}/12/Mods\\LBXLW_RFRF_Furniture\\Furniture3/true/collection_LBXLWRFRFFurniture",
+				"RFRF.ColoredWoodenChair": "Colored Wooden Chair/armchair/2 2/2 1/4/520/2/{{i18n:ColoredWoodenChair}}/36/Mods\\LBXLW_RFRF_Furniture\\Furniture3/true/collection_LBXLWRFRFFurniture",
+				
+			//Bathtub
+				"RFRF.GlazedGlassBathtub": "Glazed Glass Bathtub/couch/3 2/3 1/4/520/2/{{i18n:GlazedGlassBathtub}}/72/Mods\\LBXLW_RFRF_Furniture\\Furniture3/true/collection_LBXLWRFRFFurniture",
+				"RFRF.FlowerBathtub": "Flower Bathtub/couch/3 2/3 1/4/520/2/{{i18n:FlowerBathtub}}/80/Mods\\LBXLW_RFRF_Furniture\\Furniture3/true/collection_LBXLWRFRFFurniture",
+								
+				
+			}
+		},
+		
+
+        {
+			"LogName":"RFRF Catalogue Include",
+			"Action":"Include",
+			"FromFile":"data/shop.json",
+			"When": {"Catalogue": true},
+		},
+		
+		{
+			"LogName": "FoxAndFrogFountain Animation",
+			"Action": "EditImage",
+			"Target": "Mods/LBXLW_RFRF_Furniture/texture",
+			"FromFile": "assets/texture.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 80 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 80 },
+			"AnimationFrameTime": 25,
+			"AnimationFrameCount": 6,
+			"When": { "HasMod": "spacechase0.ContentPatcherAnimations" }
+	   	}
+		
+        
+        
+           
+	]
+}

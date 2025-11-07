@@ -1,0 +1,328 @@
+{
+    "Changes": [
+
+{
+    "LogName": "Add Wild Food Sapling Rules",
+    "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)25", "OutputRules"],
+    "Entries": {
+
+        "Wildflour.AtelierGoods_Seedmaker_Pistachio": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Pistachio",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Pistachio",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Pistachio_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Pistachio_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Olive": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Olive",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Olive",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Olive_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Olive_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Cashew": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Cashew",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cashew",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cashew_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cashew_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Walnut": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Walnut",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Walnut",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Walnut_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Walnut_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Lemon": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Lemon",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Lemon",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lemon_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Lime": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Lime",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Lime",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lime_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lime_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Almond": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Almond",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Almond",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Almond_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Almond_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Anise": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Anise",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Anise",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Anise_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Anise_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Cacao_Pod": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Cacao_Pod",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cacao_Pod",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cacao_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cacao_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Elderberries": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Elderberries",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Elderberries",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Elder_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Elder_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+    },
+    "MoveEntries": [
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Almond",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Pistachio",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Olive",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Cashew",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Walnut",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Lemon",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Lime",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Cacao_Pod",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Anise",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Elderberries",
+            "BeforeId": "Default"
+        },
+    ]
+}
+
+]
+}

@@ -1,0 +1,49 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+          "JojaRedemptionCouponShop": {
+            "Owners": [
+              {
+                "Name": "None",
+                "Dialogues": [
+                  {
+                    "Id": "JojaRedemptionCouponShop",
+                    "Dialogue": "{{i18n:Shops.JojaRedemptionCouponShop}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "Id": "JojaRedemptionCouponShop.RedPandaBazaar.Redemption.Coupon.19.1",
+                "ItemId": "(O)RedPandaBazaar_Prize_Ticket_4",
+                "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+                "TradeItemAmount": 1
+              },
+              {
+                "Id": "JojaRedemptionCouponShop.RedPandaBazaar.Redemption.Coupon.19.2",
+                "ItemId": "(BC)272",
+                "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+                "TradeItemAmount": 99
+              },
+              {
+                "Id": "JojaRedemptionCouponShop.RedPandaBazaar.Redemption.Coupon.19.3",
+                "ItemId": "(F)JojaCatalogue",
+                "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+                "TradeItemAmount": 20
+              },
+              {
+                "Id": "JojaRedemptionCouponShop.RedPandaBazaar.Redemption.Coupon.19.4",
+                "ItemId": "(H)JojaCap",
+                "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+                "TradeItemAmount": 5
+              }
+            ]
+          }
+        }
+      }
+    ]
+}

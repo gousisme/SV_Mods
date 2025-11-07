@@ -1,0 +1,3343 @@
+{
+  "Format": "2.0.1",
+  "ConfigSchema": {
+    "Hoe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Hoes"
+    },
+    "Copper Hoe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Hoes"
+    },
+    "Steel Hoe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Hoes"
+    },
+    "Gold Hoe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Hoes"
+    },
+    "Iridium Hoe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Hoes"
+    },
+    "Pickaxe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pickaxes"
+    },
+    "Copper Pickaxe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pickaxes"
+    },
+    "Steel Pickaxe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pickaxes"
+    },
+    "Gold Pickaxe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pickaxes"
+    },
+    "Iridium Pickaxe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pickaxes"
+    },
+    "Axe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Axes"
+    },
+    "Copper Axe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Axes"
+    },
+    "Steel Axe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Axes"
+    },
+    "Gold Axe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Axes"
+    },
+    "Iridium Axe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Axes"
+    },
+    "Watering Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Watering Cans"
+    },
+    "Copper Watering Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Watering Cans"
+    },
+    "Steel Watering Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Watering Cans"
+    },
+    "Gold Watering Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Watering Cans"
+    },
+    "Iridium Watering Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Watering Cans"
+    },
+    "Copper Trash Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Steel Trash Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Gold Trash Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Iridium Trash Can": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Trash Can Inventory": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Copper Trash Can Inventory": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Steel Trash Can Inventory": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Gold Trash Can Inventory": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Iridium Trash Can Inventory": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Trash Cans"
+    },
+    "Training Rod": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fishing Poles"
+    },
+    "Bamboo Pole": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fishing Poles"
+    },
+    "Fiberglass Rod": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fishing Poles"
+    },
+    "Iridium Rod": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fishing Poles"
+    },
+    "Advanced Iridium Rod": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fishing Poles"
+    },
+    "Copper Pan": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pans"
+    },
+    "Steel Pan": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pans"
+    },
+    "Gold Pan": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pans"
+    },
+    "Iridium Pan": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Pans"
+    },
+    "Scythe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Scythes"
+    },
+    "Golden Scythe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Scythes"
+    },
+    "Iridium Scythe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Scythes"
+    },
+    "Milk Pail": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Other Tools"
+    },
+    "Shears": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Other Tools"
+    },
+    "Horse Flute": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Other Tools"
+    },
+    "Return Scepter": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Other Tools"
+    },
+    "Rusty Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Steel Smallsword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Wooden Blade": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Pirate's Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Silver Saber": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Cutlass": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Forest Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Iron Edge": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Insect Head": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Bone Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Claymore": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Neptune's Glaive": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Templar's Blade": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Obsidian Edge": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Ossified Blade": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Holy Blade": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Tempered Broadsword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Yeti Tooth": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Steel Falchion": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Dark Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Lava Katana": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Dragontooth Cutlass": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Dwarf Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Galaxy Sword": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Infinity Blade": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Haley's Iron": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Leah's Whittler": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Meowmere": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Rapier": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Swords"
+    },
+    "Carving Knife": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Iron Dirk": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Wind Spire": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Elf Blade": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Burglar's Shank": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Crystal Dagger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Shadow Dagger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Broken Trident": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Wicked Kris": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Galaxy Dagger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Dwarf Dagger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Dragontooth Shiv": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Iridium Needle": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Infinity Dagger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Elliott's Pencil": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Abby's Planchette": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Daggers"
+    },
+    "Femur": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Wood Club": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Wood Mallet": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Lead Rod": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Kudgel": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "The Slammer": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Galaxy Hammer": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Dwarf Hammer": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Dragontooth Club": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Infinity Gavel": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Alex's Bat": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Harvey's Mallet": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Maru's Wrench": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Penny's Fryer": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Sam's Old Guitar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Seb's Lost Mace": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Clubs"
+    },
+    "Slingshot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Slingshots"
+    },
+    "Master Slingshot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Slingshots"
+    },
+    "Galaxy Slingshot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Slingshots"
+    },
+    "Sneakers": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Rubber Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Leather Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Work Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Combat Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Tundra Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Leprechaun Shoes": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Thermal Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Cowboy Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Dark Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Firewalker Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Genie Shoes": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Space Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Crystal Shoes": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Emily's Magic Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Cinderclown Shoes": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Mermaid Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Dragonscale Boots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Shoes"
+    },
+    "Small Glow Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Glow Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Small Magnet Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Magnet Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Slime Charmer Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Warrior Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Vampire Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Savage Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Ring of Yoba": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Sturdy Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Burglar's Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Iridium Band": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Jukebox Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Amethyst Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Topaz Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Aquamarine Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Jade Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Emerald Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Ruby Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Wedding Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Crabshell Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Napalm Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Thorns Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Lucky Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Hot Java Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Protection Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Soul Sapper Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Phoenix Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Immunity Band": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Glowstone Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    },
+    "Combined Ring": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Rings"
+    }
+  },
+
+  "Changes": [
+
+    // Hoe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Hoe.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 16,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Hoe": "true"
+      }
+    },
+
+    // Copper Hoe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Copper Hoe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 16,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Copper Hoe": "true"
+      }
+    },
+
+    // Steel Hoe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Steel Hoe.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 16,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Steel Hoe": "true"
+      }
+    },
+
+    // Gold Hoe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Gold Hoe.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 48,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Gold Hoe": "true"
+      }
+    },
+
+    // Iridium Hoe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Hoe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 48,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Iridium Hoe": "true"
+      }
+    },
+
+    // Pickaxe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Pickaxe.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 80,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Pickaxe": "true"
+      }
+    },
+
+    // Copper Pickaxe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Copper Pickaxe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 80,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Copper Pickaxe": "true"
+      }
+    },
+
+    // Steel Pickaxe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Steel Pickaxe.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 80,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Steel Pickaxe": "true"
+      }
+    },
+
+    // Gold Pickaxe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Gold Pickaxe.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 112,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Gold Pickaxe": "true"
+      }
+    },
+
+    // Iridium Pickaxe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Pickaxe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 112,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Iridium Pickaxe": "true"
+      }
+    },
+
+    // Axe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Axe.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 144,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Axe": "true"
+      }
+    },
+
+    // Copper Axe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Copper Axe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 144,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Copper Axe": "true"
+      }
+    },
+
+    // Steel Axe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Steel Axe.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 144,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Steel Axe": "true"
+      }
+    },
+
+    // Gold Axe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Gold Axe.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 176,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Gold Axe": "true"
+      }
+    },
+
+    // Iridium Axe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Axe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 176,
+        "Width": 96,
+        "Height": 32
+      },
+      "When": {
+        "Iridium Axe": "true"
+      }
+    },
+
+    // Watering Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Watering Can.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 208,
+        "Width": 80,
+        "Height": 32
+      },
+      "When": {
+        "Watering Can": "true"
+      }
+    },
+
+    // Copper Watering Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Copper Watering Can.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 208,
+        "Width": 80,
+        "Height": 32
+      },
+      "When": {
+        "Copper Watering Can": "true"
+      }
+    },
+
+    // Steel Watering Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Steel Watering Can.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 208,
+        "Width": 80,
+        "Height": 32
+      },
+      "When": {
+        "Steel Watering Can": "true"
+      }
+    },
+
+    // Gold Watering Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Gold Watering Can.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 240,
+        "Width": 80,
+        "Height": 32
+      },
+      "When": {
+        "Gold Watering Can": "true"
+      }
+    },
+
+    // Iridium Watering Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Watering Can.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 240,
+        "Width": 80,
+        "Height": 32
+      },
+      "When": {
+        "Iridium Watering Can": "true"
+      }
+    },
+
+    // Copper Trash Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Copper Trash Can.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Copper Trash Can": "true"
+      }
+    },
+
+    // Steel Trash Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Steel Trash Can.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Steel Trash Can": "true"
+      }
+    },
+
+    // Gold Trash Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Gold Trash Can.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Gold Trash Can": "true"
+      }
+    },
+
+    // Iridium Trash Can
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Trash Can.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Trash Can": "true"
+      }
+    },
+
+    // Trash Can Inventory
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Trash Can Inventory.png",
+      "ToArea": {
+        "X": 564,
+        "Y": 102,
+        "Width": 18,
+        "Height": 37
+      },
+      "When": {
+        "Trash Can Inventory": "true"
+      }
+    },
+
+    // Copper Trash Can Inventory
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Copper Trash Can Inventory.png",
+      "ToArea": {
+        "X": 582,
+        "Y": 102,
+        "Width": 18,
+        "Height": 37
+      },
+      "When": {
+        "Copper Trash Can Inventory": "true"
+      }
+    },
+
+    // Steel Trash Can Inventory
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Steel Trash Can Inventory.png",
+      "ToArea": {
+        "X": 600,
+        "Y": 102,
+        "Width": 18,
+        "Height": 37
+      },
+      "When": {
+        "Steel Trash Can Inventory": "true"
+      }
+    },
+
+    // Gold Trash Can Inventory
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Gold Trash Can Inventory.png",
+      "ToArea": {
+        "X": 618,
+        "Y": 102,
+        "Width": 18,
+        "Height": 37
+      },
+      "When": {
+        "Gold Trash Can Inventory": "true"
+      }
+    },
+
+    // Iridium Trash Can Inventory
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Iridium Trash Can Inventory.png",
+      "ToArea": {
+        "X": 636,
+        "Y": 102,
+        "Width": 18,
+        "Height": 37
+      },
+      "When": {
+        "Iridium Trash Can Inventory": "true"
+      }
+    },
+
+    // Training Rod
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Training Rod.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Training Rod": "true"
+      }
+    },
+
+    // Bamboo Pole
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Bamboo Pole.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bamboo Pole": "true"
+      }
+    },
+
+    // Fiberglass Rod
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Fiberglass Rod.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fiberglass Rod": "true"
+      }
+    },
+
+    // Iridium Rod
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Rod.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Rod": "true"
+      }
+    },
+
+    // Advanced Iridium Rod
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Advanced Iridium Rod.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Advanced Iridium Rod": "true"
+      }
+    },
+
+    // Copper Pan
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Copper Pan.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Copper Pan": "true"
+      }
+    },
+
+    // Steel Pan
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Steel Pan.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Steel Pan": "true"
+      }
+    },
+
+    // Gold Pan
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Gold Pan.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Gold Pan": "true"
+      }
+    },
+
+    // Iridium Pan
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Iridium Pan.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Pan": "true"
+      }
+    },
+
+    // Scythe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Scythe.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Scythe": "true"
+      }
+    },
+
+    // Golden Scythe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Golden Scythe.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Golden Scythe": "true"
+      }
+    },
+
+    // Iridium Scythe
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Iridium Scythe.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Scythe": "true"
+      }
+    },
+
+    // Milk Pail
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Milk Pail.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Milk Pail": "true"
+      }
+    },
+
+    // Shears
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Shears.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Shears": "true"
+      }
+    },
+
+    // Horse Flute
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Horse Flute.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Horse Flute": "true"
+      }
+    },
+
+    // Return Scepter
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/tools",
+      "FromFile": "assets/Return Scepter.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Return Scepter": "true"
+      }
+    },
+
+
+    // Rusty Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Rusty Sword.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rusty Sword": "true"
+      }
+    },
+
+    // Silver Saber
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Silver Saber.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Silver Saber": "true"
+      }
+    },
+
+    // Dark Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dark Sword.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dark Sword": "true"
+      }
+    },
+
+    // Holy Blade
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Holy Blade.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Holy Blade": "true"
+      }
+    },
+
+    // Galaxy Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Galaxy Sword.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Galaxy Sword": "true"
+      }
+    },
+
+    // Bone Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Bone Sword.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bone Sword": "true"
+      }
+    },
+
+    // Bone Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Bone Sword.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bone Sword": "true"
+      }
+    },
+
+    // Iron Edge
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Iron Edge.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iron Edge": "true"
+      }
+    },
+
+    // Templar's Blade
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Templar's Blade.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Templar's Blade": "true"
+      }
+    },
+
+    // Obsidian Edge
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Obsidian Edge.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Obsidian Edge": "true"
+      }
+    },
+
+    // Lava Katana
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Lava Katana.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lava Katana": "true"
+      }
+    },
+
+    // Claymore
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Claymore.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Claymore": "true"
+      }
+    },
+
+    // Steel Smallsword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Steel Smallsword.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Steel Smallsword": "true"
+      }
+    },
+
+    // Wooden Blade
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Wooden Blade.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wooden Blade": "true"
+      }
+    },
+
+    // Insect Head
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Insect Head.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Insect Head": "true"
+      }
+    },
+
+    // Neptune's Glaive
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Neptune's Glaive.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Neptune's Glaive": "true"
+      }
+    },
+
+    // Forest Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Forest Sword.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Forest Sword": "true"
+      }
+    },
+
+    // Carving Knife
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Carving Knife.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Carving Knife": "true"
+      }
+    },
+
+    // Iron Dirk
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Iron Dirk.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iron Dirk": "true"
+      }
+    },
+
+    // Burglar's Shank
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Burglar's Shank.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Burglar's Shank": "true"
+      }
+    },
+
+    // Shadow Dagger
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Shadow Dagger.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Shadow Dagger": "true"
+      }
+    },
+
+    // Elf Blade
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Elf Blade.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Elf Blade": "true"
+      }
+    },
+
+    // Crystal Dagger
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Crystal Dagger.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crystal Dagger": "true"
+      }
+    },
+
+    // Wind Spire
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Wind Spire.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wind Spire": "true"
+      }
+    },
+
+    // Galaxy Dagger
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Galaxy Dagger.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Galaxy Dagger": "true"
+      }
+    },
+
+    // Wood Club
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Wood Club.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wood Club": "true"
+      }
+    },
+
+    // Alex's Bat
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Alex's Bat.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Alex's Bat": "true"
+      }
+    },
+
+    // Lead Rod
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Lead Rod.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lead Rod": "true"
+      }
+    },
+
+    // Wood Mallet
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Wood Mallet.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wood Mallet": "true"
+      }
+    },
+
+    // The Slammer
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/The Slammer.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "The Slammer": "true"
+      }
+    },
+
+    // Galaxy Hammer
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Galaxy Hammer.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Galaxy Hammer": "true"
+      }
+    },
+
+    // Sam's Old Guitar
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Sam's Old Guitar.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sam's Old Guitar": "true"
+      }
+    },
+
+    // Femur
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Femur.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Femur": "true"
+      }
+    },
+
+    // Slingshot
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Slingshot.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Slingshot": "true"
+      }
+    },
+
+    // Master Slingshot
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Master Slingshot.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Master Slingshot": "true"
+      }
+    },
+
+    // Galaxy Slingshot
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Galaxy Slingshot.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Galaxy Slingshot": "true"
+      }
+    },
+
+    // Elliott's Pencil
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Elliott's Pencil.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Elliott's Pencil": "true"
+      }
+    },
+
+    // Maru's Wrench
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Maru's Wrench.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Maru's Wrench": "true"
+      }
+    },
+
+    // Harvey's Mallet
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Harvey's Mallet.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Harvey's Mallet": "true"
+      }
+    },
+
+    // Penny's Fryer
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Penny's Fryer.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Penny's Fryer": "true"
+      }
+    },
+
+    // Leah's Whittler
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Leah's Whittler.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Leah's Whittler": "true"
+      }
+    },
+
+    // Abby's Planchette
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Abby's Planchette.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Abby's Planchette": "true"
+      }
+    },
+
+    // Seb's Lost Mace
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Seb's Lost Mace.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Seb's Lost Mace": "true"
+      }
+    },
+
+    // Haley's Iron
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Haley's Iron.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Haley's Iron": "true"
+      }
+    },
+
+    // Pirate's Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Pirate's Sword.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pirate's Sword": "true"
+      }
+    },
+
+    // Cutlass
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Cutlass.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cutlass": "true"
+      }
+    },
+
+    // Wicked Kris
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Wicked Kris.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wicked Kris": "true"
+      }
+    },
+
+    // Kudgel
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Kudgel.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Kudgel": "true"
+      }
+    },
+
+    // Yeti Tooth
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Yeti Tooth.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Yeti Tooth": "true"
+      }
+    },
+
+    // Rapier
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Rapier.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rapier": "true"
+      }
+    },
+
+    // Steel Falchion
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Steel Falchion.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Steel Falchion": "true"
+      }
+    },
+
+    // Broken Trident
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Broken Trident.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Broken Trident": "true"
+      }
+    },
+
+    // Tempered Broadsword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Tempered Broadsword.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tempered Broadsword": "true"
+      }
+    },
+
+    // Dwarf Sword
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dwarf Sword.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dwarf Sword": "true"
+      }
+    },
+
+    // Dwarf Hammer
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dwarf Hammer.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dwarf Hammer": "true"
+      }
+    },
+
+    // Dwarf Dagger
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dwarf Dagger.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dwarf Dagger": "true"
+      }
+    },
+
+    // Dragontooth Cutlass
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dragontooth Cutlass.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dragontooth Cutlass": "true"
+      }
+    },
+
+    // Dragontooth Club
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dragontooth Club.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dragontooth Club": "true"
+      }
+    },
+
+    // Dragontooth Shiv
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Dragontooth Shiv.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dragontooth Shiv": "true"
+      }
+    },
+
+    // Ossified Blade
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Ossified Blade.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ossified Blade": "true"
+      }
+    },
+
+    // Iridium Needle
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Iridium Needle.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Needle": "true"
+      }
+    },
+
+    // Infinity Blade
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Infinity Blade.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Infinity Blade": "true"
+      }
+    },
+
+    // Infinity Gavel
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Infinity Gavel.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Infinity Gavel": "true"
+      }
+    },
+
+    // Infinity Dagger
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Infinity Dagger.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Infinity Dagger": "true"
+      }
+    },
+
+    // Meowmere
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/weapons",
+      "FromFile": "assets/Meowmere.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Meowmere": "true"
+      }
+    },
+
+    // Sneakers
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sneakers.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sneakers": "true"
+      }
+    },
+
+    // Rubber Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rubber Boots.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rubber Boots": "true"
+      }
+    },
+
+    // Leather Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Leather Boots.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Leather Boots": "true"
+      }
+    },
+
+    // Work Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Work Boots.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Work Boots": "true"
+      }
+    },
+
+    // Combat Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Combat Boots.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Combat Boots": "true"
+      }
+    },
+
+    // Tundra Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tundra Boots.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tundra Boots": "true"
+      }
+    },
+
+    // Thermal Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Thermal Boots.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Thermal Boots": "true"
+      }
+    },
+
+    // Dark Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Dark Boots.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dark Boots": "true"
+      }
+    },
+
+    // Firewalker Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Firewalker Boots.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Firewalker Boots": "true"
+      }
+    },
+
+    // Genie Shoes
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Genie Shoes.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Genie Shoes": "true"
+      }
+    },
+
+    // Space Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Space Boots.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Space Boots": "true"
+      }
+    },
+
+    // Cowboy Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cowboy Boots.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cowboy Boots": "true"
+      }
+    },
+
+    // Emily's Magic Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Emily's Magic Boots.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Emily's Magic Boots": "true"
+      }
+    },
+
+    // Leprechaun Shoes
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Leprechaun Shoes.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Leprechaun Shoes": "true"
+      }
+    },
+
+    // Cinderclown Shoes
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cinderclown Shoes.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cinderclown Shoes": "true"
+      }
+    },
+
+    // Mermaid Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Mermaid Boots.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mermaid Boots": "true"
+      }
+    },
+
+    // Dragonscale Boots
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Dragonscale Boots.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dragonscale Boots": "true"
+      }
+    },
+
+    // Crystal Shoes
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Crystal Shoes.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crystal Shoes": "true"
+      }
+    },
+
+    // Small Glow Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Small Glow Ring.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Small Glow Ring": "true"
+      }
+    },
+
+    // Glow Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Glow Ring.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Glow Ring": "true"
+      }
+    },
+
+    // Small Magnet Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Small Magnet Ring.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Small Magnet Ring": "true"
+      }
+    },
+
+    // Magnet Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Magnet Ring.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Magnet Ring": "true"
+      }
+    },
+
+    // Slime Charmer Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Slime Charmer Ring.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Slime Charmer Ring": "true"
+      }
+    },
+
+    // Warrior Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Warrior Ring.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Warrior Ring": "true"
+      }
+    },
+
+    // Vampire Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Vampire Ring.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Vampire Ring": "true"
+      }
+    },
+
+    // Savage Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Savage Ring.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Savage Ring": "true"
+      }
+    },
+
+    // Ring of Yoba
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ring of Yoba.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ring of Yoba": "true"
+      }
+    },
+
+    // Sturdy Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sturdy Ring.png",
+      "ToArea": {
+        "X": 336,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sturdy Ring": "true"
+      }
+    },
+
+    // Burglar's Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Burglar's Ring.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Burglar's Ring": "true"
+      }
+    },
+
+    // Iridium Band
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Iridium Band.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 336,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Band": "true"
+      }
+    },
+
+    // Jukebox Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Jukebox Ring.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jukebox Ring": "true"
+      }
+    },
+
+    // Amethyst Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Amethyst Ring.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Amethyst Ring": "true"
+      }
+    },
+
+    // Topaz Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Topaz Ring.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Topaz Ring": "true"
+      }
+    },
+
+    // Aquamarine Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Aquamarine Ring.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Aquamarine Ring": "true"
+      }
+    },
+
+    // Jade Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Jade Ring.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jade Ring": "true"
+      }
+    },
+
+    // Emerald Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Emerald Ring.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Emerald Ring": "true"
+      }
+    },
+
+    // Ruby Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ruby Ring.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ruby Ring": "true"
+      }
+    },
+
+    // Wedding Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wedding Ring.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wedding Ring": "true"
+      }
+    },
+
+    // Crabshell Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Crabshell Ring.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crabshell Ring": "true"
+      }
+    },
+
+    // Napalm Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Napalm Ring.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Napalm Ring": "true"
+      }
+    },
+
+    // Thorns Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Thorns Ring.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Thorns Ring": "true"
+      }
+    },
+
+    // Lucky Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Lucky Ring.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lucky Ring": "true"
+      }
+    },
+
+    // Hot Java Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hot Java Ring.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hot Java Ring": "true"
+      }
+    },
+
+    // Protection Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Protection Ring.png",
+      "ToArea": {
+        "X": 336,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Protection Ring": "true"
+      }
+    },
+
+    // Soul Sapper Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Soul Sapper Ring.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Soul Sapper Ring": "true"
+      }
+    },
+
+    // Phoenix Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Phoenix Ring.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Phoenix Ring": "true"
+      }
+    },
+
+    // Immunity Band
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Immunity Band.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Immunity Band": "true"
+      }
+    },
+
+    // Glowstone Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Glowstone Ring.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Glowstone Ring": "true"
+      }
+    },
+
+    // Combined Ring
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Combined Ring.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Combined Ring": "true"
+      }
+    }
+  ]
+}

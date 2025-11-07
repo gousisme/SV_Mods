@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] H&W Bakery Cafe Furniture",
+    "Author": "HimeTarts and wildflourmods",
+    "Version": "1.0.3",
+    "Description": "H&W Bakery and Cafe Furniture Set",
+    "UniqueID": "HXW.BakeryFurni",
+    "UpdateKeys": ["Nexus:9991"], 
+    "Dependencies":[
+        { 
+         "UniqueID":"sophie.Calcifer",
+         "IsRequired": true
+        }
+     ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

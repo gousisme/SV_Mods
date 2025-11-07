@@ -1,0 +1,35 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":
+	{
+		"WoodColor": {
+			"AllowValues":"yellow, green, brown, darkbrown",
+			"Default":"yellow",
+			"Description":"Wood color options."
+			}
+		},
+	"Changes": [
+        {
+			"LogName": "PC's Floral Wallpapers Texture Load",
+			"Action": "Load",
+			"Target": "Mods/PC.FloralWallpapersPanelVanilla/Wallpapers",
+            "FromFile": "assets/{{TargetWithoutPath}}_Vanilla_{{WoodColor}}.png" },
+
+		{
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "PC.FloralWallpapersPanelVanilla": {
+                    "ID": "PC.FloralWallpapersPanelVanilla",
+                    "Texture": "Mods/PC.FloralWallpapersPanelVanilla/Wallpapers",
+                    "IsFlooring": false,
+                    "Count": 36
+                },
+ 
+            }
+        },   
+        
+        
+           
+	]
+}

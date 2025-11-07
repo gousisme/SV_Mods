@@ -1,0 +1,21 @@
+{
+    "Changes": [
+		//add books
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+			"Entries": {
+				"Mizu.Quail_CookbookTrigger": {
+				  "Id": "Mizu.Quail_CookbookTrigger",
+				  "Trigger": "LocationChanged",
+				  "Condition": "PLAYER_STAT Current Mizu.Quail_QualityQuail 1",
+				  "Actions": [
+					"MarkCookingRecipeKnown Current Mizu.Quail_SpatchcockedQuailandGreens",
+					"MarkCookingRecipeKnown Current Mizu.Quail_StuffedQuail",
+					]
+				}
+			}
+		}
+    ]
+}

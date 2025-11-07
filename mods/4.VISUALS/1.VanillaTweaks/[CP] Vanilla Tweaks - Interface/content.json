@@ -1,0 +1,217 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"SaturationToggle": 
+		{
+			"AllowValues": "Saturated, Desaturated",
+			"Default": "Saturated",
+		},
+		"UIStyle": 
+		{
+			"AllowValues": "Automatic, Vanilla, VPRInspired, EarthyInterface, LavenderDreams, VintageInterfaceV1, VintageInterfaceV2, NaturalAccent, StarryBlue, OvergrownFlowery, WeirdWonders",
+			"Default": "Automatic",
+		},
+
+// CATEGORY ON/OFF CONFIGS
+		
+		"ProfessionsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"SkillsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"WalletSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"MenuSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		
+// INDIVIDUAL TOGGLES
+
+		"Professions": 
+		{
+			"AllowValues": "Rancher, Tiller, Coopmaster, Shepherd, Artisan, Agriculturalist, Fisher, Trapper, Angler, Pirate, Mariner, Luremaster, Forester, Gatherer, Lumberjack, Tapper, Botanist, Tracker, Miner, Geologist, Blacksmith, Prospector, Excavator, Gemologist, Fighter, Scout, Brute, Defender, Acrobat, Desperado",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Rancher, Tiller, Coopmaster, Shepherd, Artisan, Agriculturalist, Fisher, Trapper, Angler, Pirate, Mariner, Luremaster, Forester, Gatherer, Lumberjack, Tapper, Botanist, Tracker, Miner, Geologist, Blacksmith, Prospector, Excavator, Gemologist, Fighter, Scout, Brute, Defender, Acrobat, Desperado",
+			"Section": "Professions"
+		},
+		"Skills": 
+		{
+			"AllowValues": "Farming, Mining, Foraging, Fishing, Combat, Luck",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Farming, Mining, Foraging, Fishing, Combat, Luck",
+			"Section": "Skills"
+		},
+		"Wallet": 
+		{
+			"AllowValues": "Dwarvish Translation Guide, Rusty Key, Club Card, Special Charm, Magnifying Glass, Skull Key, Dark Talisman, Magic Ink, Bear's Knowledge, Spring Onion Mastery, Key to the Town, Animal Catalogue, Price Catalogue, Ol' Slitherlegs, Horse The Book, Appraisal Guide, The Way of the Wind 1, The Way of the Wind 2, Book Of Mysteries, Diamond Hunter, Queen Of Sauce Cookbook, Mapping Caves, Monster Compendium, Friendship 101, Nimble And Thick, Woody's Secret, Racoon Journal, Jewels Of The Sea, Dwarvish Safety Manual, The Art O' Crabbing, The Alleyway Buffet, Combat Quarterly, Mining Monthly, Bait And Bobber, Woodcutter's Weekly, Stardew Valley Almanac, Book Of Stars",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Dwarvish Translation Guide, Rusty Key, Club Card, Special Charm, Magnifying Glass, Skull Key, Dark Talisman, Magic Ink, Bear's Knowledge, Spring Onion Mastery, Key to the Town, Animal Catalogue, Price Catalogue, Ol' Slitherlegs, Horse The Book, Appraisal Guide, The Way of the Wind 1, The Way of the Wind 2, Book Of Mysteries, Diamond Hunter, Queen Of Sauce Cookbook, Mapping Caves, Monster Compendium, Friendship 101, Nimble And Thick, Woody's Secret, Racoon Journal, Jewels Of The Sea, Dwarvish Safety Manual, The Art O' Crabbing, The Alleyway Buffet, Combat Quarterly, Mining Monthly, Bait And Bobber, Woodcutter's Weekly, Stardew Valley Almanac, Book Of Stars",
+			"Section": "Wallet Items"
+		},
+		"CollectionsTabsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Menu"
+		},
+		"MenuTabsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Menu"
+		},
+		"Misc": 
+		{
+			"AllowValues": "Item Quality Stars, Recipe Scroll",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Item Quality Stars, Recipe Scroll",
+			"Section": "Misc"
+		},
+	},
+
+	"DynamicTokens": [ 
+		{
+			"Name": "UIStyleToken",
+			"Value": "Vanilla"
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "VPRInspired",
+			"When": 
+			{ 
+				"HasMod |contains= Dora.VPRUI": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "EarthyInterface",
+			"When": 
+			{ 
+				"HasMod |contains= DaisyNiko.EarthyInterface": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "LavenderDreams",
+			"When": 
+			{ 
+				"HasMod |contains= VinillaBean.LavenderDreams": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "VintageInterfaceV1",
+			"When": 
+			{ 
+				"HasMod |contains= ManaKirel.VMI": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "VintageInterfaceV2",
+			"When": 
+			{ 
+				"HasMod |contains= ManaKirel.VintageInterface2": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "WeirdWonders",
+			"When": 
+			{ 
+				"HasMod |contains= VWW.CP.WeirdInterface": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "NaturalAccent",
+			"When": 
+			{ 
+				"HasMod |contains= sinisteanaturalaccent": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "StarryBlue",
+			"When": 
+			{ 
+				"HasMod |contains= Sqbr.StarryBlueUI": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "OvergrownFlowery",
+			"When": 
+			{ 
+				"HasMod |contains= Maraluna.OvergrownFloweryInterface": true 
+			}
+		},
+		{
+			"Name": "UIStyleToken",
+			"Value": "{{UIStyle}}",
+			"When": 
+			{ 
+				"UIStyle |contains= Automatic": false 
+			}
+		},
+	],
+	
+	"Changes": [
+		{
+			"LogName": "Professions Icons Code",
+			"Action": "Include",
+			"FromFile": "Code/Professions.json",
+			"When": 
+			{
+				"ProfessionsSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Skills Icons Code",
+			"Action": "Include",
+			"FromFile": "Code/Skills.json",
+			"When": 
+			{
+				"SkillsSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Wallet Items Code",
+			"Action": "Include",
+			"FromFile": "Code/Wallet.json",
+			"When": 
+			{
+				"WalletSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Menu Icons Code",
+			"Action": "Include",
+			"FromFile": "Code/Menu.json",
+			"When": 
+			{
+				"MenuSpritesEnabled": true
+			}
+		},
+	]
+}

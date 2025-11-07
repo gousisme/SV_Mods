@@ -1,0 +1,584 @@
+{
+    "Changes": [
+      {
+        /*************  复活节1年 spring13 1  *************/
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 29 55 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "LiQingFeng 24 62 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  复活节2年 spring13 2  *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 20 53 0",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "LiQingFeng 24 62 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  花舞节1年  spring24 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 27 41 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "LiQingFeng 13 31 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  花舞节2年  spring24 2  *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 33 41 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "LiQingFeng 15 31 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  宴会 1年  summer11 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 31 16 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "LiQingFeng 31 19 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When": {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  宴会 2年  summer11 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 28 6 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "LiQingFeng 23 18 0",
+            "Delimiter": "/"
+            }
+          ],
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+          }
+        },
+          /*************  月光水母1年  summer28 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 37 23 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "LiQingFeng 37 23 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When": {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  月光水母2年  summer28 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 40 24 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "LiQingFeng 40 24 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When": {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  万灵节1年  fall27 1 *************/
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 40 57 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  万灵节2年  fall27 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 30 62 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  冬日星1年  winter25 1年 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 41 57 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      /*************  冬日星2  winter25 2年 *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 17 54 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+            /***s**********  复活节1年  spring13 1 *************/
+      {
+            "Action": "EditData",
+            "Target": "data/festivals/spring13",
+            "Entries": {
+                "LiQingFeng": "{{i18n:LiQingFeng.spring13.festivals}}"
+            },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+          }
+        },
+       {
+          "Action": "EditData",
+          "Target": "data/festivals/spring13",
+          "Entries": {
+            "LiQingFeng": "{{i18n:LiQingFeng.spring13.festivals.Spouse}}"
+          },
+          "When": {
+            "Spouse": "LiQingFeng",
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+              "IsOddYear": true
+          }
+       },
+      /***s**********  复活节2年  spring13 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring13",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.spring13.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring13",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.spring13.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+        }
+      },
+      /***s**********  花舞节1年  spring24 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.spring24.festivals}}"
+        },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.spring24.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+        }
+      },
+      /***s**********  花舞节2年  spring24 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.spring24.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.spring24.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      /***s**********  宴会1年  summer11 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer11.festivals}}"
+        },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer11.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+        }
+      },
+      /***s**********  宴会2年  summer11 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer11.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer11.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      /***s**********  月光水母1年  summer28 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer28.festivals}}"
+        },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer28.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": true
+        }
+      },
+      /***s**********  月光水母2年  summer28 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer28.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.summer28.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "IsOddYear": false
+        }
+      },
+      /***s**********  展会1年  fall16 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall16",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall16.festivals}}"
+        },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         "IsOddYear": true
+
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall16",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall16.festivals.Spouse}}"
+        },
+        "When": {
+         "Spouse": "LiQingFeng",
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         "IsOddYear": true
+        }
+      },
+      /***s**********  展会2年  fall16 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall16",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall16.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall16",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall16.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+        }
+      },
+      /***s**********  万灵节1年  fall27 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall27",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall27.festivals}}"
+        },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall27",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall27.festivals.Spouse}}"
+        },
+        "When": {
+         "Spouse": "LiQingFeng",
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         "IsOddYear": true
+        }
+      },
+      /***s**********  万灵节2年  fall27 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall27",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall27.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall27",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.fall27.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+        }
+      },
+            /*************  冬钓节  winter8  *************/
+      /***s**********  冬日星1年  winter25 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter25",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.winter25.festivals}}"
+        },
+        "When" : {
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter25",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.winter25.festivals.Spouse}}"
+        },
+        "When": {
+         "Spouse": "LiQingFeng",
+         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+         "IsOddYear": true
+        }
+      },
+      /***s**********  冬日星2年  winter25 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter25",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.winter25.2.festivals}}"
+        },
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter25",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.winter25.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "IsOddYear": false
+
+        }
+      }
+    ]
+}

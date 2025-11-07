@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		// add items
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+            "Entries": {
+				"Mizu.Turkey_TurkeyRice": "Mizu.Turkey_TurkeyMeat 1 423 1 342 1//Mizu.Turkey_TurkeyRice//",
+				"Mizu.Turkey_RoastTurkey": "Mizu.Turkey_TurkeyMeat 2 239 1//Mizu.Turkey_RoastTurkey//",
+				"Mizu.Turkey_TurkeyLeg": "Mizu.Turkey_TurkeyMeat 1 247 1//Mizu.Turkey_TurkeyLeg//",
+				"Mizu.Turkey_Turducken": "Mizu.Turkey_TurkeyMeat 3 642 2 641 1 -5 1//Mizu.Turkey_Turducken//",
+				}
+		},
+{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+			},
+            "Fields": {
+				"Mizu.Turkey_RoastTurkey": {
+					"0": "Mizu.Turkey_TurkeyMeat 2 239 1 Cornucopia_Rosemary 1"
+				}
+			}
+		}
+	]
+}

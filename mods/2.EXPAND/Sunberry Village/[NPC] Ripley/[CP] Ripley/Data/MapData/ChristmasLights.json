@@ -1,0 +1,23 @@
+{
+"Changes": [
+  {
+    "LogName": "Christmas Lights Patch",
+    "Action": "EditMap",
+    "Target": "Maps/Custom_SBV_SunberryVillage",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": [
+                "MapProperties",
+                "Light"
+            ],
+            "Value": "16 75 8 17 75 8 18 75 8 14 77 8 12 77 8 19 77 8 21 77 8 6 91 8 7 94 8 8 96 8 9 97 8 15 97 8 19 97 8 23 97 8 27 97 8 22 86 8 26 86 8 29 86 8 22 82 8 6 82 8 6 83 8 9 84 8 8 85 8 6 85 8 7 85 8 8 85 8 9 85 8 10 85 8 27 75 8", // X Y followed by type of light. add as many coords as u want (see light types here: https://stardewvalleywiki.com/Modding:Maps#Lighting) 
+            "Delimiter": " ",
+            "When": {
+                "Season": "winter"
+            }
+        }
+    ]
+  }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"{{ModId}}_LotusSeeds": {
+				"Seasons": ["summer"],
+				"DaysInPhase": [ 2, 4, 4 ],
+				"HarvestItemId": "{{ModId}}_LotusRoot",
+				"Texture": "Mods/{{ModId}}/Crops",
+				"SpriteIndex": 2,
+				"CustomFields": {
+					"selph.CustomTapperFramework.IsAquaticCrop": true,
+				}
+			},
+			"{{ModId}}_GojiBerrySeeds": {
+				"Seasons": ["fall"],
+				"DaysInPhase": [ 2, 3, 4, 4 ],
+				"HarvestItemId": "{{ModId}}_GojiBerries",
+				"Texture": "Mods/{{ModId}}/Crops",
+				"HarvestMinStack": 2,
+				"HarvestMaxStack": 4,
+				"SpriteIndex": 0,
+				"RegrowDays": 4,
+			},
+			"{{ModId}}_FrozenFlowerSeeds": {
+				"Seasons": ["winter"],
+				"DaysInPhase": [ 2, 2, 3, 3 ],
+				"HarvestItemId": "{{ModId}}_FrozenFlower",
+				"Texture": "Mods/{{ModId}}/Crops",
+				"SpriteIndex": 4,
+			},
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/FruitTrees",
+		"Entries": {
+			"{{ModId}}_PawpawSapling": {
+				"DisplayName": "{{i18n: PawPaw.DisplayName}}",
+				"Seasons": ["summer"],
+				"Fruit": [
+					{
+						"Id": "pawpaw",
+						"ItemId": "{{ModId}}_Pawpaw",
+					}
+				],
+				"Texture": "Mods/{{ModId}}/FruitTrees",
+				"TextureSpriteRow": 0,
+			}
+		}
+	},
+	{
+		"LogName": "Loading Crop Textures",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/Crops, Mods/{{ModId}}/FruitTrees",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+	}
+]
+}

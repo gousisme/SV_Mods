@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="22" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="29" nextobjectid="273">
+ <properties>
+  <property name="AllowWakeUpWithoutBed" value="T"/>
+  <property name="AmbientLight" value="255 255 255"/>
+  <property name="AmbientNightLight" value="180 180 0"/>
+  <property name="CanCaskHere" value="T"/>
+  <property name="FloorIDs" value="B1"/>
+  <property name="IsFarm" value="T"/>
+  <property name="IsGreenhouse" value="T"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="WallIDs" value="B2, B1, B3, B4, B5"/>
+  <property name="WindowLight" value="3 4 6 4 4 6 3 5 6 4 5 6 6 5 6 6 4 6 6 3 6 10 6 6 11 6 6 10 5 6 11 5 6 10 4 6 11 4 6 15 5 6 15 4 6 15 3 6 17 5 6 18 5 6 17 4 6 18 4 6aw"/>
+ </properties>
+ <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="265" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="953" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="3129" name="Aimon_BalconyPif" tilewidth="16" tileheight="16" tilecount="324" columns="18">
+  <image source="Aimon_BalconyPif.png" width="288" height="299"/>
+  <tile id="234">
+   <animation>
+    <frame tileid="234" duration="150"/>
+    <frame tileid="236" duration="150"/>
+    <frame tileid="238" duration="150"/>
+    <frame tileid="240" duration="150"/>
+    <frame tileid="242" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="235">
+   <animation>
+    <frame tileid="235" duration="150"/>
+    <frame tileid="237" duration="150"/>
+    <frame tileid="239" duration="150"/>
+    <frame tileid="241" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="252">
+   <animation>
+    <frame tileid="252" duration="150"/>
+    <frame tileid="254" duration="150"/>
+    <frame tileid="256" duration="150"/>
+    <frame tileid="258" duration="150"/>
+    <frame tileid="260" duration="150"/>
+   </animation>
+  </tile>
+  <tile id="253">
+   <animation>
+    <frame tileid="253" duration="150"/>
+    <frame tileid="255" duration="150"/>
+    <frame tileid="257" duration="150"/>
+    <frame tileid="259" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="3453" name="z_ot" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="winter_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="151">
+   <animation>
+    <frame tileid="151" duration="1000"/>
+    <frame tileid="152" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="152">
+   <animation>
+    <frame tileid="152" duration="1000"/>
+    <frame tileid="151" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="9" name="Back1" width="22" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,3728,3728,3728,0,0,0,0,0,0,3728,3728,3728,0,0,0,0,0,
+0,0,0,0,0,3754,3628,2147487356,0,3728,3728,3728,3628,0,3628,3708,2147487252,0,0,0,0,0,
+0,0,0,3707,3628,3708,2147487253,3628,0,3728,3605,2147487356,3628,0,3628,3628,3728,3628,3628,0,0,0,
+0,0,0,3628,3728,3728,3628,3707,0,3628,3628,3628,3604,0,3605,3707,3628,3628,3605,0,0,0,
+0,0,0,0,0,0,0,0,0,0,3628,3628,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="17" name="Back2" width="22" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,3542,3538,3539,0,0,0,0,0,0,0,0,2147487187,0,0,0,0,0,
+0,0,0,0,0,3567,0,3564,0,0,3589,3566,3567,0,3542,0,2147487212,0,0,3542,0,0,
+0,0,0,2147487237,0,3710,0,3589,0,3760,0,0,0,0,3567,0,2147487237,0,3566,3567,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2147487358,0,0,0,0,0,2147487408,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,3685,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="28" name="Buildings1" width="22" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,3628,3628,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Back">
+  <object id="207" name="TileData" x="16" y="112" width="320" height="64">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="209" name="TileData" x="224" y="80" width="48" height="16">
+   <properties>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="210" name="TileData" x="80" y="80" width="48" height="16">
+   <properties>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="211" name="TileData" x="32" y="96" width="48" height="16">
+   <properties>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="212" name="TileData" x="272" y="96" width="48" height="16">
+   <properties>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="213" name="TileData" x="128" y="96" width="96" height="16">
+   <properties>
+    <property name="FloorID" value="B1"/>
+    <property name="Passable" value="T"/>
+   </properties>
+  </object>
+  <object id="216" name="TileData" x="80" y="96" width="48" height="16">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="217" name="TileData" x="224" y="96" width="48" height="16">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="218" name="TileData" x="144" y="176" width="64" height="32">
+   <properties>
+    <property name="FloorID" value="B1"/>
+   </properties>
+  </object>
+  <object id="219" name="TileData" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="221" name="TileData" x="32" y="64" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B3"/>
+   </properties>
+  </object>
+  <object id="222" name="TileData" x="80" y="48" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="223" name="TileData" x="32" y="32" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B5"/>
+   </properties>
+  </object>
+  <object id="224" name="TileData" x="80" y="16" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="225" name="TileData" x="208" y="64" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="226" name="TileData" x="128" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="227" name="TileData" x="208" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="228" name="TileData" x="144" y="64" width="64" height="16">
+   <properties>
+    <property name="WallID" value="B4"/>
+   </properties>
+  </object>
+  <object id="229" name="TileData" x="144" y="32" width="64" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="230" name="TileData" x="224" y="16" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="231" name="TileData" x="272" y="32" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B5"/>
+   </properties>
+  </object>
+  <object id="232" name="TileData" x="224" y="48" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B2"/>
+   </properties>
+  </object>
+  <object id="234" name="TileData" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B1"/>
+   </properties>
+  </object>
+  <object id="235" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B1"/>
+   </properties>
+  </object>
+  <object id="236" name="TileData" x="320" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B1"/>
+   </properties>
+  </object>
+  <object id="237" name="TileData" x="320" y="64" width="16" height="16">
+   <properties>
+    <property name="WallID" value="B1"/>
+   </properties>
+  </object>
+  <object id="270" name="TileData" x="160" y="192" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="DLX.PIF_WarpToFarmHouse"/>
+   </properties>
+  </object>
+  <object id="271" name="TileData" x="176" y="192" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="DLX.PIF_WarpToFarmHouse"/>
+   </properties>
+  </object>
+  <object id="272" name="TileData" x="272" y="64" width="48" height="16">
+   <properties>
+    <property name="WallID" value="B3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Buildings"/>
+ <objectgroup id="6" name="Front"/>
+</map>

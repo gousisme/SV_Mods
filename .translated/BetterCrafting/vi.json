@@ -1,0 +1,463 @@
+{
+	// Settings
+	"setting.show-adv": "Hiển thị thông tin chế tạo nâng cao",
+	"setting.show-adv.tip": "Hiển thị thông tin chế tạo nâng cao, chẳng hạn như số lượng nguyên liệu bạn có và số lần bạn đã chế tạo một công thức. Cài đặt này giống với cài đặt gốc, được sao chép ở đây cho tiện.",
+
+	"setting.use-per-save": "Sử dụng dữ liệu theo từng file lưu",
+	"setting.use-per-save.tip": "Khi bật, các danh mục và mục yêu thích của bạn sẽ được theo dõi riêng cho từng file lưu. Tắt tùy chọn này để sử dụng chung dữ liệu cho tất cả các file lưu. Lưu ý rằng các công thức đã xem luôn được tính theo từng file lưu.",
+
+	"setting.general": "Tùy chọn chung",
+
+	"setting.priority": "Ưu tiên xử lý menu",
+	"setting.priority.tip": "Thay đổi mức độ ưu tiên xử lý menu có thể cải thiện khả năng tương thích của Better Crafting với các mod khác. Khi đặt ở mức Thấp, Better Crafting sẽ thực hiện logic menu của mình sau các mod khác. Khi đặt ở mức Cao, Better Crafting sẽ thực hiện logic trước các mod khác.",
+
+	"setting.priority.low": "Thấp",
+	"setting.priority.normal": "Bình thường",
+	"setting.priority.high": "Cao",
+
+	"setting.theme": "Chủ đề giao diện",
+	"setting.theme-desc": "Chủ đề giao diện này sẽ được sử dụng cho các nút của Better Crafting. Lưu ý rằng hầu hết giao diện của Better Crafting được lấy từ các họa tiết mặc định của trò chơi.",
+
+	"setting.use-full-height": "Sử dụng toàn bộ chiều cao",
+	"setting.use-full-height.tip": "Khi được bật, menu Better Crafting sẽ mở rộng để lấp đầy chiều cao của màn hình khi không mở trong menu trò chơi.",
+
+	"theme.automatic": "Tự động",
+	"theme.default": "Mặc định",
+
+	"setting.gift-taste-style": "Kiểu hiển thị sở thích quà tặng",
+	"setting.gift-taste-style.heads": "Đầu nhân vật",
+	"setting.gift-taste-style.names": "Tên",
+	"setting.gift-taste-style.tip": "Khi đặt thành Đầu nhân vật, sở thích quà tặng sẽ được biểu thị bằng hình ảnh đầu của mỗi nhân vật. Khi đặt thành Tên, tên của họ sẽ được hiển thị thay thế.",
+
+	"setting.gift-taste": "Hiển thị sở thích quà tặng",
+	"setting.gift-taste.tip": "Khi được bật, các sở thích quà tặng đã biết sẽ được hiển thị trong chú giải công cụ của vật phẩm để thuận tiện. Sở thích quà tặng phù hợp luôn được hiển thị khi tìm kiếm.",
+	"setting.gift-taste.never": "Không bao giờ",
+	"setting.gift-taste.shift": "Khi giữ phím Shift",
+	"setting.gift-taste.always": "Luôn luôn",
+
+	"setting.gift-taste-all": "Hiển thị sở thích quà tặng chưa khám phá",
+	"setting.gift-taste-all.tip": "Khi được bật, Better Crafting sẽ hiển thị tất cả sở thích quà tặng. Ngay cả những sở thích bạn chưa khám phá trong trò chơi. Điều này có thể được coi là hơi gian lận, vì vậy nó bị tắt theo mặc định.",
+
+	"setting.alphabetic": "Sắp xếp theo bảng chữ cái",
+	"setting.alphabetic.tip": "Khi được bật, các công thức sẽ được sắp xếp theo thứ tự bảng chữ cái thay vì thứ tự mặc định.",
+
+	"setting.replace-crafting": "Thay thế menu Chế tạo",
+	"setting.replace-crafting.tip": "Khi được bật, menu chế tạo sẽ được thay thế bằng một phiên bản mới.",
+
+	"setting.replace-cooking": "Thay thế menu Nấu ăn",
+	"setting.replace-cooking.tip": "Khi được bật, menu nấu ăn sẽ được thay thế bằng một phiên bản mới.",
+
+	"setting.enable-categories": "Bật danh mục",
+	"setting.enable-categories.tip": "Hiển thị các tab danh mục trong menu chế tạo, thay vì một danh sách lớn chứa tất cả mọi thứ.",
+
+	"setting.new-recipes": "Làm nổi bật công thức mới",
+	"setting.new-recipes.tip": "Khi được bật, các công thức mới sẽ có nhãn 'MỚI' hiển thị trên đó.",
+	"setting.new-recipes.uncrafted": "Chưa chế tạo",
+	"setting.new-recipes.unseen": "Chưa xem",
+	"setting.new-recipes.disabled": "Đã tắt",
+
+	"setting.new-recipes.prismatic": "Công thức mới bảy sắc cầu vồng",
+	"setting.new-recipes.prismatic.tip": "Khi được bật, nhãn 'MỚI' trên các công thức sẽ được hiển thị với màu sắc thay đổi liên tục.",
+
+	"setting.settings": "Hiển thị nút Cài đặt",
+	"setting.settings.tip": "Khi được bật, một nút để mở cài đặt của Better Crafting sẽ được thêm vào menu Better Crafting.",
+
+	"setting.show-edit": "Hiển thị nút Chỉnh sửa danh mục",
+	"setting.show-edit.tip": "Khi được bật, một nút để bắt đầu chỉnh sửa danh mục sẽ xuất hiện khi có thể chỉnh sửa danh mục.",
+
+	"setting.bindings": "Phím tắt và Hành động",
+	"setting.bindings.tip": "Các cài đặt liên quan đến đầu vào và gán phím.",
+
+	"setting.suppress": "Phím vô hiệu hóa",
+	"setting.suppress.tip": "Khi giữ phím này và mở menu chế tạo, Better Crafting sẽ không thay thế nó.",
+
+	"setting.key.modifier": "Phím bổ trợ",
+	"setting.key.modifier.tip": "Giữ phím này để sửa đổi hành động được thực hiện bởi một phím khác khi có sẵn.",
+
+	"setting.key.search": "Phím tìm kiếm",
+	"setting.key.search.tip": "Nhấn phím này để mở thanh tìm kiếm để lọc các công thức được hiển thị.",
+
+	"setting.key.favorite": "Phím yêu thích",
+	"setting.key.favorite.tip": "Nhấn phím này trên một công thức để thêm hoặc bỏ yêu thích công thức đó.",
+
+	"setting.key.bulk": "Phím chế tạo hàng loạt",
+	"setting.key.bulk.tip": "Nhấn phím này trên một công thức để mở menu Chế tạo hoặc Nấu ăn hàng loạt cho công thức đó.",
+
+	"setting.key.behavior.left": "Hành vi Chuột trái / Nút A",
+	"setting.key.behavior.left.tip": "Khi nhấp chuột trái (hoặc nhấn A trên tay cầm) vào một công thức, hành động này sẽ được thực hiện.",
+	"setting.key.behavior.right": "Hành vi Chuột phải / Nút X",
+	"setting.key.behavior.right.tip": "Khi nhấp chuột phải (hoặc nhấn X trên tay cầm) vào một công thức, hành động này sẽ được thực hiện.",
+
+	"setting.key.tooltip": "Hiển thị phím tắt trong chú giải",
+	"setting.key.tooltip.tip": "Khi được bật, các phím tắt sẽ được hiển thị ở cuối chú giải của Better Crafting.",
+
+	"setting.show-matching-items": "Hiển thị vật phẩm phù hợp",
+	"setting.show-matching-items.never": "Không bao giờ",
+	"setting.show-matching-items.always": "Luôn luôn",
+	"setting.show-matching-items.fuzzy": "Nguyên liệu linh hoạt",
+	"setting.show-matching-items.fuzzy-quality": "Nguyên liệu linh hoạt / Chất lượng cao",
+	"setting.show-matching-items.tip": "Có hiển thị danh sách các vật phẩm sẽ được tiêu thụ khi chế tạo trong chú giải của Better Crafting hay không. 'Linh hoạt' ở đây có nghĩa là một nguyên liệu có thể khớp với nhiều hơn một vật phẩm, chẳng hạn như 'Trứng (Bất kỳ)'. Chất lượng cao có nghĩa là bất kỳ vật phẩm nào có chất lượng cao hơn chất lượng cơ bản.",
+
+	"setting.source-mod": "Hiển thị mod nguồn trong chú giải",
+	"setting.source-mod.tip": "Khi được bật, mod đã thêm bất kỳ vật phẩm nào sẽ được hiển thị ở cuối chú giải của Better Crafting.",
+
+	"setting.enforce-multiplayer": "Thực thi cân bằng trong chế độ nhiều người chơi",
+	"setting.enforce-multiplayer.tip": "Khi được bật, một số cài đặt có thể bị coi là 'gian lận' chỉ có thể được kiểm soát bởi người chủ phòng chơi mạng. Điều này áp dụng cho 'Khôi phục rác', tái chế và hiển thị sở thích quà tặng.",
+
+	"setting.ttwhen.Never": "Không bao giờ",
+	"setting.ttwhen.ForController": "Khi sử dụng tay cầm",
+	"setting.ttwhen.Always": "Luôn luôn",
+
+	"setting.action.None": "Không làm gì",
+	"setting.action.Craft": "Chế tạo",
+	"setting.action.Purchase": "Mua",
+	"setting.action.Favorite": "Bật/tắt yêu thích",
+	"setting.action.BulkPurchase": "Mua hàng loạt",
+	"setting.action.BulkCraft": "Chế tạo hàng loạt",
+	"setting.action.BulkCook": "Nấu ăn hàng loạt",
+
+	"setting.invalid-storage-types": "Các loại kho chứa không được phép",
+	"setting.invalid-storage-types.tip": "Điều này cho phép bạn vô hiệu hóa việc sử dụng một số loại đối tượng lưu trữ nhất định (Rương, Phễu, v.v.).",
+
+	"setting.disable-fish-sources": "Không bao giờ sử dụng Bể cá và Ao cá",
+	"setting.disable-fish-sources.tip": "Khi được bật, Better Crafting sẽ cố gắng không bao giờ sử dụng Bể cá hoặc Ao cá làm nguồn vật phẩm để chế tạo. Xin lưu ý rằng điều này có thể không hoạt động trong một số trường hợp tùy thuộc vào cách các mod khác hiển thị chúng cho Better Crafting.",
+
+	"setting.nearby": "Bàn chế tạo mở rộng",
+	"setting.nearby.tip": "Tính năng này cho phép Bàn chế tạo và nhà bếp của bạn kết nối với nhiều rương hơn cùng một lúc, cải thiện phạm vi mặc định một ô của trò chơi. Bạn có thể tạo chuỗi các rương được kết nối, hoặc sử dụng các vật kết nối được phép để bắc cầu qua các khoảng trống.",
+
+	"setting.nearby.enable": "Bật Bàn chế tạo mở rộng",
+
+	"setting.nearby.nearby": "Sử dụng rương gần đó",
+	"setting.nearby.nearby.tip": "Nếu giá trị này lớn hơn không, bạn sẽ luôn có thể sử dụng các vật phẩm trong rương trong phạm vi số ô này. Ở chế độ \"Thế giới\", điều này cho phép bạn sử dụng tất cả các rương ở mọi nơi miễn là vị trí đó đang được tải. Đối với người chơi trong chế độ nhiều người chơi, điều đó có nghĩa là vị trí hiện tại của bạn và nông trại.",
+
+	"setting.nearby.nearby.active": "Thế giới",
+	"setting.nearby.nearby.map": "Toàn bản đồ",
+	"setting.nearby.nearby.off": "Đã tắt",
+	"setting.nearby.nearby.tiles": "{{tiles}} ô",
+
+	"setting.nearby.diagonal": "Cho phép kết nối chéo",
+	"setting.nearby.diagonal.tip": "Khi được bật, rương và các vật kết nối có thể được đặt theo đường chéo và vẫn kết nối được.",
+
+	"setting.nearby.performance": "Hiệu suất",
+	"setting.nearby.performance.tip": "Các cài đặt giới hạn phạm vi của Bàn chế tạo mở rộng để cải thiện hiệu suất.",
+
+	"setting.nearby.max-chests": "Số lượng túi đồ tối đa",
+	"setting.nearby.max-chests.tip": "Số lượng túi đồ tối đa mà một bàn chế tạo sẽ sử dụng.",
+
+	"setting.nearby.max-distance": "Khoảng cách tối đa",
+	"setting.nearby.max-distance.tip": "Khoảng cách tối đa mà một túi đồ có thể cách bàn chế tạo.",
+
+	"setting.nearby.max-check": "Số lần kiểm tra tối đa",
+	"setting.nearby.max-check.tip": "Số ô tối đa cần kiểm tra khi phát hiện các túi đồ gần đó.",
+
+	"setting.nearby.connectors": "Vật kết nối được phép",
+	"setting.nearby.connectors.tip": "Các vật thể có thể đặt xuống để sử dụng làm vật kết nối. Bạn nên tránh thêm các loại vật kết nối không cần thiết để duy trì hiệu suất. Xin lưu ý rằng các mục này là ví dụ và bạn có thể chỉnh sửa thủ công tệp cấu hình của mình để thêm các đối tượng và địa hình khác.",
+
+	"setting.nearby.floors": "Sàn nhà",
+	"setting.nearby.fences": "Hàng rào",
+	"setting.nearby.other": "Các ví dụ khác",
+
+	"setting.recover-trash": "Khôi phục rác",
+	"setting.recover-trash.about": "Khi được bật, bạn có thể nhấp chuột phải vào thùng rác để mở menu khôi phục các vật phẩm đã vứt đi. Xin lưu ý rằng menu sẽ chỉ ghi nhớ tối đa 36 vật phẩm cùng một lúc.",
+
+	"setting.recycle": "Tái chế",
+	"setting.recycle.about": "Khi được bật, bạn có thể sử dụng menu chế tạo để tái chế các vật phẩm và lấy lại các vật phẩm đã được sử dụng để chế tạo nó.",
+
+	"setting.recycle.higher-quality": "Cho phép chất lượng cao hơn",
+	"setting.recycle.higher-quality.tip": "Khi được bật, bạn có thể tái chế một vật phẩm nếu nó có chất lượng cao hơn so với sản phẩm của công thức. Bạn không bao giờ có thể tái chế một vật phẩm có chất lượng thấp hơn so với sản phẩm của công thức.",
+
+	"setting.recycle.fuzzy": "Khớp vật phẩm linh hoạt",
+	"setting.recycle.fuzzy.tip": "Một số công thức chế tạo không yêu cầu các vật phẩm cụ thể, thay vào đó là các thứ phù hợp như \"Trứng (Bất kỳ)\". Theo mặc định, những thứ này không được trả lại. Bật tính năng này sẽ trả lại vật phẩm phù hợp rẻ nhất trong những trường hợp như vậy.",
+
+	"setting.recycle.unknown": "Cho phép công thức chưa biết",
+	"setting.recycle.unknown.tip": "Khi được bật, bạn có thể tái chế các vật phẩm ngay cả khi bạn chưa mở khóa công thức chế tạo của chúng.",
+
+	"setting.recycle.crafting": "Tái chế chế tạo",
+	"setting.recycle.crafting.tip": "Có cho phép tái chế khi chế tạo hay không.",
+
+	"setting.recycle.cooking": "Tái chế nấu ăn",
+	"setting.recycle.cooking.tip": "Có cho phép tái chế khi nấu ăn hay không.",
+
+	"setting.recycle-mode.enabled": "Luôn luôn",
+	"setting.recycle-mode.disabled": "Không bao giờ",
+	"setting.recycle-mode.automatic": "Tự động (Khi cầm vật phẩm có thể tái chế)",
+
+	"setting.recycle.click-toggle": "Nhấp để bật/tắt",
+	"setting.recycle.click-toggle.tip": "Khi được bật, nhấp vào thùng rác trong menu chế tạo sẽ bật hoặc tắt chế độ tái chế. Điều này chỉ hoạt động khi không cầm vật phẩm nào.",
+
+	"setting.transfer": "Chuyển vào kho chứa",
+	"setting.transfer.about": "Tính năng này cho phép bạn nhanh chóng cất các vật phẩm từ túi đồ vào các rương được kết nối với Bàn chế tạo hoặc nhà bếp của bạn. Các vật phẩm phù hợp sẽ được đặt vào các rương thích hợp, tương tự như tính năng Thêm vào các chồng hiện có.",
+
+	"setting.transfer.enable": "Bật tính năng Chuyển vào kho chứa",
+
+	"setting.transfer.action": "Hành động ({{binding}})",
+	"setting.transfer.action-modifier": "Hành động với phím bổ trợ",
+	"setting.transfer.use-tool": "Sử dụng công cụ ({{binding}})",
+	"setting.transfer.use-tool-modifier": "Sử dụng công cụ với phím bổ trợ",
+
+	"setting.transfer.behavior": "Chế độ",
+
+	"setting.transfer.behavior.none": "Không làm gì",
+	"setting.transfer.behavior.all": "Chuyển tất cả",
+	"setting.transfer.behavior.all-quantity": "Chuyển tất cả trừ lại một số lượng",
+	"setting.transfer.behavior.quantity": "Chuyển một số lượng",
+	"setting.transfer.behavior.half": "Chuyển một nửa",
+
+	"setting.transfer.quantity": "Số lượng",
+	"setting.transfer.quantity.tip": "Số lượng cần chuyển nếu sử dụng \"Chuyển một số lượng\" hoặc số lượng để lại nếu sử dụng \"Chuyển tất cả trừ lại một số lượng\".",
+
+	"setting.cookout": "Tinh chỉnh Bộ dụng cụ nấu ăn ngoài trời",
+	"setting.cookout.about": "Các cài đặt này tinh chỉnh hành vi của Bộ dụng cụ nấu ăn ngoài trời, làm cho chúng hoạt động giống Bàn chế tạo hơn.",
+
+	"setting.cookout.workbench": "Kết nối giống Bàn chế tạo",
+	"setting.cookout.workbench.tip": "Khi được bật, Bộ dụng cụ nấu ăn ngoài trời sẽ lấy nguyên liệu từ các thùng chứa gần đó giống như Bàn chế tạo.",
+
+	"setting.cookout.durable": "Bộ dụng cụ bền bỉ",
+	"setting.cookout.durable.tip": "Khi được bật, Bộ dụng cụ nấu ăn ngoài trời sẽ không biến mất qua đêm và chúng sẽ không biến mất khi bạn phá vỡ chúng.",
+
+	"setting.cookout.expensive": "Bộ dụng cụ đắt tiền hơn",
+	"setting.cookout.expensive.tip": "Khi được bật, công thức chế tạo cho Bộ dụng cụ nấu ăn ngoài trời sẽ được điều chỉnh để làm cho chúng đắt hơn một chút để giúp cân bằng với độ bền tăng lên.",
+
+	// Quality
+
+	"setting.quality": "Chất lượng",
+	"setting.quality.tip": "Xin lưu ý rằng một số công thức được thêm bởi các nguồn khác, chẳng hạn như SpaceCore, có thể không tuân theo các cài đặt này do giới hạn API.",
+
+	"setting.enable-quality": "Bật giới hạn chất lượng",
+	"setting.enable-quality.tip": "Khi được bật, một nút sẽ được hiển thị cho phép bạn chọn chất lượng tối đa của vật phẩm để sử dụng khi chế tạo.",
+
+	"setting.sort-quality": "Ưu tiên sử dụng chất lượng thấp",
+	"setting.sort-quality.tip": "Khi được bật, các công thức sẽ được chế tạo bằng cách sử dụng các vật phẩm chất lượng thấp hơn trước.",
+
+	// Crafting
+	"setting.crafting": "Chế tạo",
+	"setting.crafting.tip": "Các cài đặt này áp dụng riêng cho menu chế tạo đã được làm lại.",
+
+	"setting.uniform-grid": "Buộc kích thước đồng nhất",
+	"setting.uniform-grid.tip": "Khi được bật, các vật phẩm chế tạo lớn sẽ bị thu nhỏ lại để vừa trong một hàng.",
+
+	"setting.big-craftables-last": "Sắp xếp vật phẩm chế tạo lớn xuống cuối",
+	"setting.big-craftables-last.tip": "Khi được bật, tất cả các vật phẩm chế tạo lớn sẽ được đặt ở cuối danh sách.",
+
+	// Cooking
+	"setting.cooking": "Nấu ăn",
+	"setting.cooking.tip": "Các cài đặt này áp dụng riêng cho menu nấu ăn đã được làm lại.",
+
+	"setting.seasoning": "Sử dụng Gia vị",
+	"setting.seasoning.tip": "Có nên sử dụng gia vị để tăng cường các món ăn đã nấu hay không. Khi đặt thành \"Chỉ trong túi đồ\", gia vị sẽ chỉ được sử dụng từ túi đồ của bạn chứ không phải từ tủ lạnh hoặc bất kỳ nguồn nào khác.",
+
+	"seasoning.disabled": "Không bao giờ",
+	"seasoning.enabled": "Luôn luôn",
+	"seasoning.inventory": "Chỉ trong túi đồ",
+
+	"seasoning.used-last": "Bạn đã sử dụng hết {{item}}.",
+	"seasoning.generic": "gia vị",
+
+	"setting.show-unknown": "Hiển thị công thức chưa biết",
+	"setting.show-unknown.tip": "Khi được bật, các công thức bạn chưa học sẽ được hiển thị trong menu tương tự như các công thức nấu ăn chưa biết.",
+
+	"setting.hide-unknown": "Ẩn công thức chưa biết",
+	"setting.hide-unknown.tip": "Khi được bật, các công thức bạn chưa học sẽ không được hiển thị trong menu.",
+
+	// Tool-tips
+	"tooltip.cost": "Giá mua:",
+
+	"tooltip.loves": "Yêu thích: {{npcs}}",
+	"tooltip.likes": "Thích: {{npcs}}",
+
+	"tooltip.copy-cat": "Sao chép danh mục vào bộ nhớ tạm",
+	"tooltip.paste-cat": "Dán danh mục từ bộ nhớ tạm",
+	"tooltip.trash-cat": "Xóa danh mục",
+	"tooltip.trash-cat.confirm": "Bạn có chắc chắn muốn xóa danh mục \"{{name}}\" không?",
+
+	"tooltip.trash-all": "Đặt lại danh mục về mặc định",
+	"tooltip.trash-all.confirm": "Bạn có chắc chắn muốn đặt lại tất cả các danh mục của mình về mặc định không?",
+
+	"tooltip.move-up": "Di chuyển danh mục lên",
+	"tooltip.move-down": "Di chuyển danh mục xuống",
+
+	"tooltip.crafted": "Đã chế tạo {{count}} lần",
+	"tooltip.cooked": "Đã nấu {{count}} lần",
+
+	"tooltip.toggle-recipe": "Bật/tắt trong danh mục",
+	"tooltip.use-as-icon": "Dùng làm biểu tượng",
+
+	"tooltip.transfer.to": "Thêm vật phẩm vào kho chứa",
+	"tooltip.transfer.to-item": "Thêm vật phẩm đang giữ vào kho chứa",
+
+	"tooltip.transfer.from": "Lấy vật phẩm từ kho chứa",
+	"tooltip.transfer.from-item": "Lấy đầy vật phẩm đang giữ từ kho chứa",
+
+	"tooltip.transfer.all": "Chuyển tất cả",
+	"tooltip.transfer.but-quantity": "Chuyển tất cả trừ lại {{count}}",
+	"tooltip.transfer.half": "Chuyển một nửa",
+	"tooltip.transfer.quantity": "Chuyển {{count}}",
+
+	"tooltip.edit-filter-locked": "Không thể bật hoặc tắt các công thức riêng lẻ khi sử dụng Quy tắc động cho một danh mục. Vui lòng điều chỉnh các quy tắc của bạn, hoặc tắt Quy tắc động.",
+
+	// Recycling
+	"tooltip.recycle": "Tái chế {{item}}",
+	"tooltip.recycle.invalid": "Bạn không thể tái chế vật phẩm này.",
+	"tooltip.recycle.insufficient": "Bạn cần ít nhất {{count}} vật phẩm này để tái chế nó.",
+	"tooltip.recycle.returns": "Hoàn trả:",
+	"tooltip.recycle.not-returned": "Không hoàn trả:",
+	"tooltip.recycle.all": "Tái chế tất cả ({{amount}})",
+	"tooltip.recycle.once": "Tái chế một vài ({{amount}})",
+
+	// Buttons
+	"tooltip.edit-mode": "Chỉnh sửa danh mục",
+	"tooltip.favorites": "Chỉ hiển thị mục yêu thích",
+	"tooltip.seasoning": "Sử dụng Gia vị",
+	"tooltip.uniform": "Sử dụng lưới đồng nhất",
+	"tooltip.settings": "Mở cài đặt",
+
+	"tooltip.filter.enabled": "Quy tắc động: Đã bật",
+	"tooltip.filter.disabled": "Quy tắc động: Đã tắt",
+	"tooltip.filter.about": "Điều này cho phép bạn tạo danh mục dựa trên các quy tắc, thay vì chọn thủ công từng công thức.",
+
+	"tooltip.include-in-misc": "Bao gồm trong Linh tinh: Đã bật",
+	"tooltip.include-in-misc.disabled": "Bao gồm trong Linh tinh: Đã tắt",
+	"tooltip.include-in-misc.about": "Thông thường, nếu một công thức nằm trong một danh mục khác, nó sẽ không được hiển thị trong danh mục Linh tinh. Bật tính năng này để cho phép các công thức trong danh mục này cũng xuất hiện trong danh mục Linh tinh.",
+
+	"tooltip.search": "Tìm kiếm công thức",
+	"tooltip.search.old-tip": "Mẹo: Bắt đầu tìm kiếm của bạn với \"@B{{prefix}}@b\" để tìm kiếm theo nguyên liệu. Bắt đầu tìm kiếm của bạn với \"@B{{likes}}@b\" để tìm kiếm theo các nhân vật thích một vật phẩm, hoặc \"@B{{loves}}@b\" để tìm kiếm theo các nhân vật yêu thích một vật phẩm.",
+	"tooltip.search.tip": "Bổ trợ: Bắt đầu tìm kiếm của bạn với các ký tự sau để tìm kiếm theo:\n\n \"@B{{prefix}}@b\": Nguyên liệu\n \"@B{{likes}}@b\": Nhân vật Thích\n \"@B{{loves}}@b\": Nhân vật Yêu thích",
+
+	"search.ingredient-prefix": "!",
+	"search.like-prefix": "#",
+	"search.love-prefix": "^",
+
+	"search.none": "Không có công thức nào phù hợp.",
+	"search.none.category": "Không có công thức nào phù hợp trong danh mục này.",
+
+	"tooltip.select-icon": "Chọn biểu tượng",
+
+	"tooltip.quality.none": "Chỉ sử dụng vật phẩm chất lượng thấp.",
+	"tooltip.quality.silver": "Chỉ sử dụng vật phẩm chất lượng thấp và bạc.",
+	"tooltip.quality.gold": "Chỉ sử dụng vật phẩm chất lượng thấp, bạc và vàng.",
+	"tooltip.quality.iridium": "Sử dụng vật phẩm bất kỳ chất lượng nào.",
+
+	"tooltip.quality-unsupported": "Công thức này không hỗ trợ cài đặt chất lượng.",
+
+	"ingredient.error": "Nguyên liệu không hợp lệ",
+
+	"error.locking": "Không thể truy cập một số túi đồ.",
+	"error.crafting": "Đã xảy ra lỗi khi cố gắng chế tạo.",
+	"error.crafting.source": "Mod '{{source}}' đã bị lỗi khi chúng tôi đang cố gắng chế tạo.",
+	"error.pasting": "Không thể dán danh mục.",
+
+	// Bulk Crafting
+	"bulk.purchase": "Mua hàng loạt",
+	"bulk.crafting": "Chế tạo hàng loạt",
+	"bulk.craftable": "Có thể chế tạo {{count}}",
+	"bulk.craft": "Chế tạo {{count}} {{name}}",
+	"bulk.cooking": "Nấu ăn hàng loạt",
+	"bulk.cookable": "Có thể nấu {{count}}",
+	"bulk.cook": "Nấu {{count}} {{name}}",
+
+	// Categories
+	"category.new": "Danh mục mới",
+	"category.favorites": "Yêu thích",
+	"category.combat_rings": "Chiến đấu và Nhẫn",
+	"category.consumables": "Vật phẩm tiêu thụ",
+	"category.decoration": "Trang trí",
+	"category.fertilizer_seeds": "Phân bón và Hạt giống",
+	"category.fishing": "Câu cá",
+	"category.machinery": "Máy móc",
+	"category.misc": "Linh tinh",
+
+	"category.food.farming": "Nông nghiệp và Hái lượm",
+	"category.food.mining": "Khai khoáng và Từ tính",
+	"category.food.fishing": "Câu cá",
+	"category.food.combat": "Chiến đấu",
+	"category.food.other": "May mắn, Tốc độ và Khác",
+
+	// Currencies
+	"currency.gold": "Vàng",
+	"currency.festival-points": "Điểm",
+	"currency.club-coins": "Xu Câu lạc bộ",
+	"currency.qi-gems": "Đá Quý Qi",
+
+	// Ingredient / Item Categories
+	"item.category.equipment": "Trang bị",
+	"item.category.cooking": "Nấu ăn (Bất kỳ)",
+	"item.category.crafting": "Chế tạo (Bất kỳ)",
+	"item.category.mineral": "Khoáng sản (Bất kỳ)",
+	"item.category.meat": "Thịt (Bất kỳ)",
+	"item.category.fertilizer": "Phân bón (Bất kỳ)",
+	"item.category.junk": "Rác (Bất kỳ)",
+	"item.category.seeds": "Hạt giống (Bất kỳ)",
+	"item.category.fruit": "Trái cây (Bất kỳ)",
+	"item.category.flower": "Hoa (Bất kỳ)",
+
+	// Dynamic Filters
+	"filter.add-new": "Thêm quy tắc mới",
+	"filter.from-rule": "Được bật bởi quy tắc",
+
+	"filter.include-toggle": "Bao gồm trong danh mục",
+	"filter.include-toggle.about": "Liệu các công thức phù hợp với quy tắc này nên được bao gồm hay loại trừ khỏi danh mục.",
+
+	"filter.storage": "Lưu trữ",
+	"filter.storage.about": "Quy tắc này khớp với các vật phẩm có chức năng lưu trữ, như rương hoặc phễu.",
+
+	"filter.everything": "Mọi thứ",
+	"filter.everything.about": "Quy tắc này khớp với mọi công thức.",
+
+	"filter.new-buff": "Hiệu ứng",
+	"filter.new-buff.about": "Quy tắc này khớp với các vật phẩm mang lại một hiệu ứng nhất định khi tiêu thụ.",
+
+	"filter.uncrafted": "Chưa chế tạo",
+	"filter.uncrafted.about": "Quy tắc này khớp với các vật phẩm bạn chưa chế tạo.",
+
+	"filter.search": "Tìm kiếm",
+	"filter.search.about": "Quy tắc này khớp các vật phẩm với một tìm kiếm, sử dụng các quy tắc tương tự như menu chế tạo.",
+
+	"filter.provider": "Nhà cung cấp công thức",
+	"filter.provider.about": "Quy tắc này sẽ khớp với tất cả các công thức được xử lý bởi một nhà cung cấp cụ thể. Điều này dành cho mục đích phát triển/gỡ lỗi.",
+
+	"filter.mod": "Vật phẩm từ Mod",
+	"filter.mod.about": "Quy tắc này sẽ cố gắng khớp với tất cả các công thức được thêm bởi một mod cụ thể.",
+
+	"filter.gift-taste": "Sở thích quà tặng: {{taste}}",
+	"filter.gift-taste.about": "Quy tắc này sẽ cố gắng khớp với các vật phẩm mà một NPC {{taste}}. Điều này chỉ hiển thị các sở thích đã biết trừ khi bạn đã bật \"Hiển thị sở thích quà tặng chưa khám phá\".",
+	"filter.gift-taste.likes": "Thích",
+	"filter.gift-taste.loves": "Yêu thích",
+	"filter.gift-taste.dislikes": "Không thích",
+	"filter.gift-taste.hates": "Ghét",
+
+	"filter.machine": "Máy móc",
+	"filter.machine.about": "Quy tắc này khớp với các vật phẩm hoạt động như máy móc, xử lý vật phẩm hoặc thực hiện một số chức năng khác.",
+
+	"filter.sprinkler": "Vòi phun nước",
+	"filter.sprinkler.about": "Quy tắc này khớp với các vòi phun nước.",
+
+	"filter.floors": "Sàn và Lối đi",
+	"filter.floors.about": "Quy tắc này khớp với tất cả các vật phẩm sàn và lối đi.",
+
+	"filter.fences": "Hàng rào",
+	"filter.fences.about": "Quy tắc này khớp với tất cả các vật phẩm hàng rào.",
+
+	"filter.furniture": "Nội thất",
+	"filter.furniture.about": "Quy tắc này khớp với tất cả các vật phẩm nội thất.",
+
+	"filter.light": "Ánh sáng",
+	"filter.light.about": "Quy tắc này khớp với các loại đèn có thể đặt được.",
+
+	"filter.error": "Quy tắc không hợp lệ",
+	"filter.error.about": "ID quy tắc này không hợp lệ hoặc chưa được đăng ký, và có thể đến từ một mod đã bị xóa.",
+
+	"filter.category": "Danh mục",
+	"filter.category.about": "Quy tắc này khớp với các vật phẩm trong một danh mục cụ thể.",
+
+	"filter.context-tag": "Thẻ ngữ cảnh",
+	"filter.context-tag.about": "Quy tắc này khớp với các vật phẩm có một thẻ ngữ cảnh cụ thể.",
+
+	"filter.edible": "Có thể ăn được",
+	"filter.edible.about": "Quy tắc này khớp với các vật phẩm có thể ăn được.",
+
+	"filter.recipe-count": "{{count}} Công thức",
+
+	// Kitchen
+	"station.kitchen": "Nhà bếp"
+
+}

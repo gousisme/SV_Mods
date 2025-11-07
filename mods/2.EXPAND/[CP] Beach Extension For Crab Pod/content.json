@@ -1,0 +1,63 @@
+{
+  "Format": "2.4.0",
+
+
+    "ConfigSchema": {
+                    
+        "EnableThisMod": { 
+            "AllowValues": "true,false",
+            "Default": "true" 
+        },
+        "ScaffoldPattern": {
+            "AllowValues": "CenterScaffold, No_CenterScaffold",
+            "Default": "CenterScaffold",
+        },
+
+        "Mod_Katrielle_BridgePassage": {
+            "AllowValues": "true,false",
+            "Default": "false",
+            "Section": "SettingSection_Mod_Katrielle"
+        }
+
+    },//▼"ConfigSchema"の終了▼
+
+
+   "Changes": [
+
+
+//■■■別json読み込み■■■
+
+    //●バニラ、共通部
+      {
+        "Action": "Include",
+        "FromFile": "json/Vanilla_Common.json",
+        "When": {
+            "EnableThisMod": "true",
+            "HasMod |contains=TipsSlight.Katrielle": "false",
+            "HasMod |contains=ShiryuCasDrg.UkrainianFood": "false"
+        }
+      },
+
+    //●「Ukrainian Food」 インストール時
+      {
+        "Action": "Include",
+        "FromFile": "json/Mod_UkrainianFood.json",
+        "When": {
+            "EnableThisMod": "true",
+            "HasMod": "ShiryuCasDrg.UkrainianFood"
+        }
+      },
+
+    //●「Katrielle the Glitch NPC」 インストール時
+      {
+        "Action": "Include",
+        "FromFile": "json/Mod_Katrielle.json",
+        "When": {
+            "EnableThisMod": "true",
+            "HasMod": "TipsSlight.Katrielle"
+        }
+      }
+
+
+   ]//▼▼"Changes"の終了▼▼
+}

@@ -1,0 +1,72 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RedPandaBazaar_Chandler": {
+                    "DisplayName": "{{i18n:NPCName:RedPandaBazaar_Chandler}}",
+                    "HomeRegion": "Other",
+                    "Language": "default",
+                    "Gender": "male",
+                    "Age": "adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "outgoing",
+                    "Optimism": "positive",
+                    "IsDarkSkinned": false,
+
+                    "CanSocialize": false,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIslandCondition": false,
+                    "LoveInterest": "",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenAlways",
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "DumpsterDiveEmote": 40,
+                    "DumpsterDiveFriendshipEffect":-50,
+                    "WinterStarParticipant": false,
+
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Custom_MirrorLake.128.38",
+                            "Condition": null,
+                            "Location": "Custom_MirrorLake.128.38",
+                            "Tile": {
+                                "X": 0,
+                                "Y": 4
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_Chandler",
+            "FromFile": "assets/Sprites/Chandler.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_Chandler",
+            "FromFile": "assets/Portraits/Chandler.png"
+        }
+    ]
+}

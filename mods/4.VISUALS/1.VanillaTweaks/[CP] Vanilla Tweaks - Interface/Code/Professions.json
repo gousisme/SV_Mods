@@ -1,0 +1,335 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Rancher",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Rancher.png",
+			"ToArea": { "X": 0, "Y": 624, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Rancher": true
+			}
+		},
+        {
+			"LogName": "Tiller",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Tiller.png",
+			"ToArea": { "X": 16, "Y": 624, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Tiller": true
+			}
+		},
+        {
+			"LogName": "Coopmaster",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Coopmaster.png",
+			"ToArea": { "X": 32, "Y": 624, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Coopmaster": true
+			}
+		},
+        {
+			"LogName": "Shepherd",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Shepherd.png",
+			"ToArea": { "X": 48, "Y": 624, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Shepherd": true
+			}
+		},
+        {
+			"LogName": "Artisan",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Artisan.png",
+			"ToArea": { "X": 64, "Y": 624, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Artisan": true
+			}
+		},
+        {
+			"LogName": "Agriculturalist",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Agriculturalist.png",
+			"ToArea": { "X": 80, "Y": 624, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Agriculturalist": true
+			}
+		},
+        {
+			"LogName": "Fisher",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Fisher.png",
+			"ToArea": { "X": 0, "Y": 640, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Fisher": true
+			}
+		},
+        {
+			"LogName": "Trapper",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Trapper.png",
+			"ToArea": { "X": 16, "Y": 640, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Trapper": true
+			}
+		},
+        {
+			"LogName": "Angler",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Angler.png",
+			"ToArea": { "X": 32, "Y": 640, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Angler": true
+			}
+		},
+        {
+			"LogName": "Pirate",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Pirate.png",
+			"ToArea": { "X": 48, "Y": 640, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Pirate": true
+			}
+		},
+        {
+			"LogName": "Mariner",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Mariner.png",
+			"ToArea": { "X": 64, "Y": 640, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Mariner": true
+			}
+		},
+        {
+			"LogName": "Luremaster",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Luremaster.png",
+			"ToArea": { "X": 80, "Y": 640, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Luremaster": true
+			}
+		},
+        {
+			"LogName": "Forester",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Forester.png",
+			"ToArea": { "X": 0, "Y": 656, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Forester": true
+			}
+		},
+        {
+			"LogName": "Gatherer",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Gatherer.png",
+			"ToArea": { "X": 16, "Y": 656, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Gatherer": true
+			}
+		},
+        {
+			"LogName": "Lumberjack",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Lumberjack.png",
+			"ToArea": { "X": 32, "Y": 656, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Lumberjack": true
+			}
+		},
+        {
+			"LogName": "Tapper",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Tapper.png",
+			"ToArea": { "X": 48, "Y": 656, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Tapper": true
+			}
+		},
+        {
+			"LogName": "Botanist",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Botanist.png",
+			"ToArea": { "X": 64, "Y": 656, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Botanist": true
+			}
+		},
+        {
+			"LogName": "Tracker",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Tracker.png",
+			"ToArea": { "X": 80, "Y": 656, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Tracker": true
+			}
+		},
+        {
+			"LogName": "Miner",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Miner.png",
+			"ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Miner": true
+			}
+		},
+        {
+			"LogName": "Geologist",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Geologist.png",
+			"ToArea": { "X": 16, "Y": 672, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Geologist": true
+			}
+		},
+        {
+			"LogName": "Blacksmith",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Blacksmith.png",
+			"ToArea": { "X": 32, "Y": 672, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Blacksmith": true
+			}
+		},
+        {
+			"LogName": "Prospector",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Prospector.png",
+			"ToArea": { "X": 48, "Y": 672, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Prospector": true
+			}
+		},
+        {
+			"LogName": "Excavator",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Excavator.png",
+			"ToArea": { "X": 64, "Y": 672, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Excavator": true
+			}
+		},
+        {
+			"LogName": "Gemologist",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Gemologist.png",
+			"ToArea": { "X": 80, "Y": 672, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Gemologist": true
+			}
+		},
+        {
+			"LogName": "Fighter",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Fighter.png",
+			"ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Fighter": true
+			}
+		},
+        {
+			"LogName": "Scout",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Scout.png",
+			"ToArea": { "X": 16, "Y": 688, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Scout": true
+			}
+		},
+        {
+			"LogName": "Brute",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Brute.png",
+			"ToArea": { "X": 32, "Y": 688, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Brute": true
+			}
+		},
+        {
+			"LogName": "Defender",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Defender.png",
+			"ToArea": { "X": 48, "Y": 688, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Defender": true
+			}
+		},
+        {
+			"LogName": "Acrobat",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Acrobat.png",
+			"ToArea": { "X": 64, "Y": 688, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Acrobat": true
+			}
+		},
+        {
+			"LogName": "Desperado",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Professions/Desperado.png",
+			"ToArea": { "X": 80, "Y": 688, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Professions |contains= Desperado": true
+			}
+		}
+    ]
+}

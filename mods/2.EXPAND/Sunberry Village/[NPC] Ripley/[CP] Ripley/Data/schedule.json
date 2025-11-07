@@ -1,0 +1,109 @@
+{ // 0 = up, 1 = right, 2 = down, 3 = left
+    "Changes": 
+    [
+    
+        {
+        "LogName": "Load Ripley Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Clara.Ripley",
+        "Entries": {
+            "rain": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryMountain 24 27 2/1540 Custom_SBV_SunberryMountain 56 31 0/1840 Custom_SBV_SunberryVillage 6 87 2/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "GreenRain": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/1140 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1540 Custom_SBV_SunberryVillage 6 87 2/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+
+            "spring": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe\"Strings\\schedules\\Clara.Ripley:Axe\"/1640 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "Tue": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/700 SeedShop 9 25 2 \"Strings\\schedules\\Clara.Ripley:Pierres\"/1200 SeedShop 9 25 1/1540 Custom_SBV_SunberryVillage 20 90 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "Wed": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe\"Strings\\schedules\\Clara.Ripley:Axe\"/1640 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "Fri": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1210 Saloon {{SaloonCoords}} \"Strings\\schedules\\Clara.Ripley:Saloon\"/2200 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "spring_Sat": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/1000 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1230 Custom_SBV_SunberryVillage 64 89 3/2200 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "summer_Sat": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/1000 Custom_SBV_SunberryVillage 20 90 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1230 Custom_SBV_SunberryVillage 64 89 3/2200 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "fall_Sat": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/1000 Custom_SBV_SunberryVillage 20 90 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1230 Custom_SBV_SunberryVillage 64 89 3/2200 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "summer": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe\"Strings\\schedules\\Clara.Ripley:Axe\"/1640 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "fall": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe\"Strings\\schedules\\Clara.Ripley:Axe\"/1640 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "skellady.SBVCP_TwilightFestival": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/730 Custom_SBV_TwilightFestival 6 87 2/1230 Custom_SBV_TwilightFestival 20 90 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1630 Custom_SBV_TwilightFestival 17 78 0/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "winter": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/1030 Custom_SBV_RipleyHouse 6 5 2 \"Strings\\schedules\\Clara.Ripley:Kitchen\"/1200 Custom_SBV_RipleyHouse 26 14 0/1600 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "winter_15": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe\"Strings\\schedules\\Clara.Ripley:Axe\"/1030 Custom_SBV_SunberryVillage 9 49 0/1400 Beach 32 14 1/1800 Beach 32 14 2/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "winter_16": "GOTO winter_15",
+            "winter_17": "GOTO winter_15"
+
+        }
+    },
+    // Romance schedule
+            
+        {
+        "LogName": "Load Ripley Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Clara.Ripley",
+        "Entries": {
+            "rain": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryMountain 24 27 2/1540 Custom_SBV_SunberryMountain 56 31 0/1840 Custom_SBV_SunberryVillage 6 87 2/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "GreenRain": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown  \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/1140 Custom_SBV_SunberryVillage 21 83 1 \"Strings\\schedules\\Clara.Ripley:Paddock\"/1540 Custom_SBV_SunberryVillage 6 87 2/2000 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown",
+            "spring": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe \"Strings\\schedules\\Clara.Ripley:{{Random:Axe1, Axe2, Axe3}}\"/1640 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "Tue": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/900 SeedShop 9 25 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Pierres1, Pierres2, Pierres3}}\"/1000 SeedShop 9 25 2/1200 SeedShop 9 25 1/1540 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "Wed": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe \"Strings\\schedules\\Clara.Ripley:{{Random:Axe1, Axe2, Axe3}}\"/1640 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "Fri": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/1240 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/1710 Saloon 20 19 3 \"Strings\\schedules\\Clara.Ripley:{{Random:Saloon1, Saloon2, Saloon3}}\"/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "spring_Sat": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/1000 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/1230 Custom_SBV_SunberryVillage 64 89 3/2200 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "summer_Sat": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/1000 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/1230 Custom_SBV_SunberryVillage 64 89 3/2200 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "fall_Sat": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/1000 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/1230 Custom_SBV_SunberryVillage 64 89 3/2200 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "summer": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe \"Strings\\schedules\\Clara.Ripley:{{Random:Axe1, Axe2, Axe3}}\"/1640 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            //"summer_15": "610 Custom_SBV_RipleyHouse 28 5 2/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe \"Strings\\schedules\\Clara.Ripley:{{Random:Axe1, Axe2, Axe3}}\"/a1240 SeedShop 5 22 0/1710 Custom_ARVHouse 21 22 3/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "fall": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe \"Strings\\schedules\\Clara.Ripley:{{Random:Axe1, Axe2, Axe3}}\"/1640 Custom_SBV_SunberryVillage 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "skellady.SBVCP_TwilightFestival": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_TwilightFestival 6 87 2/1230 Custom_SBV_TwilightFestival 21 84 1 \"Strings\\schedules\\Clara.Ripley:{{Random:Paddock1, Paddock2,}}\"/a1630 Custom_SBV_TwilightFestival 17 78 0/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "winter": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/1030 Custom_SBV_RipleyHouse 6 5 2/1200 Custom_SBV_RipleyHouse 26 14 0/1600 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "winter_15": "610 Custom_SBV_RipleyHouse 28 5 2 ripley_liedown \"Strings\\schedules\\Clara.Ripley:{{Random:Sleepy1, Sleepy2, Sleepy3}}\"/730 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe \"Strings\\schedules\\Clara.Ripley:{{Random:Axe1, Axe2, Axe3}}\"/1030 Custom_SBV_SunberryVillage 9 49 0/1400 Beach 32 14 1/1800 Beach 32 14 2/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+            "winter_16": "GOTO winter_15",
+            "winter_17": "GOTO winter_15"
+        },
+
+        "When": {
+            "HasSeenEvent |contains= Ripley_Choice": true,
+            "HasFlag |contains= RipleyBreakup": false
+            } 
+        },
+
+
+
+// Schedule changes when Sterling stops hanging out with Shane
+            {
+            "LogName": "Ripley Schedule - Sterling no Shane Sobriety",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clara.Ripley",
+            "Entries": 
+                {
+                    "Sun": "610 Custom_SBV_RipleyHouse 28 5 2/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/1230 Custom_SBV_SunberryVillage 19 90 2/1530 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/1640 Custom_SBV_SunberryVillage 21 84 1/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep"
+                },
+            "When": 
+                { "HasConversationTopic |contains=SterlingRelapse": "false",
+                "HasSeenEvent |contains= 40180010": true}    
+            },
+
+        //Schedule changes when Sterling commits to sobriety
+            {
+            "LogName": "Ripley Schedule - Sterling no Shane Sobriety",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clara.Ripley",
+            "Entries": 
+                {
+                    "Sun": "610 Custom_SBV_RipleyHouse 28 5 2/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/1230 Custom_SBV_SunberryVillage 19 90 2/1530 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/1640 Custom_SBV_SunberryVillage 21 84 1/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+                    //"summer_15": "610 Custom_SBV_RipleyHouse 28 5 2/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/a1240 SeedShop 5 22 0/1710 Custom_ARVHouse 21 22 3/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep"
+                },
+            "When": 
+                { "HasConversationTopic |contains=SterlingRelapse": "false",
+                    "HasSeenEvent |contains= 40180011": true} 
+            },   
+
+
+        // Schedule changes when Sterling stops working 2 weeks
+            {
+            "LogName": "Ripley Schedule - Sterling 2 Week Depression",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clara.Ripley",
+            "Entries": 
+                {
+                    "spring": "610 Custom_SBV_RipleyHouse 28 5 2/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/1230 Custom_SBV_SunberryVillage 19 90 2/1530 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/1640 Custom_SBV_SunberryVillage 21 84 1/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep",
+                    //"summer_15": "610 Custom_SBV_RipleyHouse 28 5 2/630 Custom_SBV_SunberryVillage 6 87 2/940 Custom_SBV_SunberryVillage 20 90 2 ripley_axe/a1700 Custom_SBV_SunberryVillage 8 91 2/1900 Custom_SBV_RipleyHouse 6 87 2/2300 Custom_SBV_RipleyHouse 26 5 3 ripley_sleep"
+                },
+            "When": 
+            { "HasConversationTopic |contains=SterlingRelapse": "true"}    
+            }   
+        
+ ]
+}

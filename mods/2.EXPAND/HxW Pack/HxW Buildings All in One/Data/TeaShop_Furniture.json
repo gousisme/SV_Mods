@@ -1,0 +1,133 @@
+{
+    "Changes":[
+
+       {
+            "LogName": "Add Optional Indoor Tea Shop Furniture Items",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["HXW.Buildings_Complete_TeaShop", "IndoorItems"],
+            "Priority":"Late",
+            "Entries": {
+                  "HXW.Buildings_Complete_TallBookPlantPile":  {
+                    "Id": "Complete_TeaShopBuilding_TallBookPlantPile",
+                    "ItemId": "(F)HXW.PlantLoversFurni_TallBookPlantPile",
+                    "Tile": {
+                      "X": 2,
+                      "Y": 20
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_PillowBench":  {
+                    "Id": "Complete_TeaShopBuilding_PlantPillowBench",
+                    "ItemId": "(F)HXW.PlantLoversFurni_PlantPillowBench",
+                    "Tile": {
+                      "X": 3,
+                      "Y": 21
+                    },
+                    "Indestructible": false
+                  },
+
+                  "HXW.Buildings_Complete_ComfyCouchLeft":  {
+                    "Id": "Complete_TeaShopBuilding_ComfyCouch",
+                    "ItemId": "(F)HXW.PlantLoversFurni_ComfyCouch2",
+                    "Tile": {
+                      "X": 1,
+                      "Y": 24
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_LowTeaTablewithBook":  {
+                    "Id": "Complete_TeaShopBuilding_LowTeaTablewithBook",
+                    "ItemId": "(F)HXW.PlantLoversFurni_LowTeaTablewithBook",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 24
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_LgBookPlantPile":  {
+                    "Id": "Complete_TeaShopBuilding_LgBookPlantPile",
+                    "ItemId": "(F)HXW.PlantLoversFurni_LgBookPlantPile",
+                    "Tile": {
+                      "X": 1,
+                      "Y": 27
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_OpenBookSet":  {
+                    "Id": "Complete_TeaShopBuilding_OpenBookSet",
+                    "ItemId": "(F)HXW.PlantLoversFurni_OpenBookSet",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 27
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_ComfyArmchair":  {
+                    "Id": "Complete_TeaShopBuilding_ComfyArmchair",
+                    "ItemId": "(F)HXW.PlantLoversFurni_ComfyArmchair",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_Rug":  {
+                    "Id": "Complete_TeaShopBuilding_MeadowRug",
+                    "ItemId": "(F)HXW.PlantLoversFurni_MeadowRug",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_Rug2":  {
+                    "Id": "Complete_TeaShopBuilding_MeadowRug2",
+                    "ItemId": "(F)HXW.PlantLoversFurni_MeadowRug2",
+                    "Tile": {
+                      "X": 15,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_TeaTableClutterCupcakes":  {
+                    "Id": "Complete_TeaShopBuilding_TeaTableClutterCupcakes",
+                    "ItemId": "(F)HXW.PlantLoversFurni_TeaTableClutterCupcakes",
+                    "Tile": {
+                      "X": 18,
+                      "Y": 24
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_TeaTableClutterCupcakes2":  {
+                    "Id": "Complete_TeaShopBuilding_TeaTableClutterCupcakes2",
+                    "ItemId": "(F)HXW.PlantLoversFurni_TeaTableClutterCupcakes",
+                    "Tile": {
+                      "X": 22,
+                      "Y": 24
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_Couch2":  {
+                    "Id": "Complete_TeaShopBuilding_Couch2",
+                    "ItemId": "(F)HXW.PlantLoversFurni_ComfyCouch2",
+                    "Tile": {
+                      "X": 15,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Complete_Couch3":  {
+                    "Id": "Complete_TeaShopBuilding_Couch3",
+                    "ItemId": "(F)HXW.PlantLoversFurni_ComfyCouch2",
+                    "Tile": {
+                      "X": 20,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  }
+            }
+        }
+
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ShiFuShanHouse1": {
+          "DisplayName": "{{i18n:ShiFuShanHouse1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ShiFuShanHouse1"
+          },
+          "FormerLocationNames": [
+            "ShiFuShanHouse1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ShiFuShanHouse2": {
+          "DisplayName": "{{i18n:ShiFuShanHouse2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ShiFuShanHouse2"
+          },
+          "FormerLocationNames": [
+            "ShiFuShanHouse2"
+          ]
+        }
+      }
+    }
+  ]
+}

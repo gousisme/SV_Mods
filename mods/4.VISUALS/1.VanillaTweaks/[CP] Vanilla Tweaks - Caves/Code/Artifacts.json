@@ -1,0 +1,501 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Amphibian Fossil",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/AmphibianFossil.png",
+			"ToArea": { "X": 176, "Y": 384, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Artifacts |contains= Amphibian Fossil": true
+			}
+		},
+        {
+			"LogName": "Anchor",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/Anchor.png",
+			"ToArea": {"X": "336", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Anchor": true
+			}
+		},
+        {
+			"LogName": "Ancient Doll",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/AncientDoll.png",
+			"ToArea": {"X": "112", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Ancient Doll": true
+			}
+		},
+        {
+			"LogName": "Ancient Drum",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/AncientDrum.png",
+			"ToArea": {"X": "48", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Ancient Drum": true
+			}
+		},
+        {
+			"LogName": "Ancient Seed",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/AncientSeed.png",
+			"ToArea": {"X": "288", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Ancient Seed": true
+			}
+		},
+        {
+			"LogName": "Ancient Sword",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/AncientSword.png",
+			"ToArea": {"X": "208", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Ancient Sword": true
+			}
+		},
+        {
+			"LogName": "Arrowhead",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/Arrowhead.png",
+			"ToArea": {"X": "80", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Arrowhead": true
+			}
+		},
+        {
+			"LogName": "Bone Flute",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/BoneFlute.png",
+			"ToArea": {"X": "368", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Bone Flute": true
+			}
+		},
+        {
+			"LogName": "Chewing Stick",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/ChewingStick.png",
+			"ToArea": {"X": "144", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Chewing Stick": true
+			}
+		},
+        {
+			"LogName": "Chicken Statue",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/ChickenStatue.png",
+			"ToArea": {"X": "272", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Chicken Statue": true
+			}
+		},
+        {
+			"LogName": "Chipped Amphora",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/ChippedAmphora.png",
+			"ToArea": {"X": "64", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Chipped Amphora": true
+			}
+		},
+        {
+			"LogName": "Dinosaur Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DinosaurEgg.png",
+			"ToArea": {"X": "176", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dinosaur Egg": true
+			}
+		},
+        {
+			"LogName": "Dried Starfish",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DriedStarfish.png",
+			"ToArea": {"X": "320", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dried Starfish": true
+			}
+		},
+        {
+			"LogName": "Dwarf Gadget",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DwarfGadget.png",
+			"ToArea": {"X": "32", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dwarf Gadget": true
+			}
+		},
+        {
+			"LogName": "Dwarf Scroll I",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DwarfScroll1.png",
+			"ToArea": {"X": "0", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dwarf Scroll I": true
+			}
+		},
+        {
+			"LogName": "Dwarf Scroll II",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DwarfScroll2.png",
+			"ToArea": {"X": "16", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dwarf Scroll II": true
+			}
+		},
+        {
+			"LogName": "Dwarf Scroll III",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DwarfScroll3.png",
+			"ToArea": {"X": "32", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dwarf Scroll III": true
+			}
+		},
+        {
+			"LogName": "Dwarf Scroll IV",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DwarfScroll4.png",
+			"ToArea": {"X": "48", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dwarf Scroll IV": true
+			}
+		},
+        {
+			"LogName": "Dwarvish Helm",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/DwarvishHelm.png",
+			"ToArea": {"X": "16", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Dwarvish Helm": true
+			}
+		},
+        {
+			"LogName": "Elvish Jewelry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/ElvishJewelry.png",
+			"ToArea": {"X": "128", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Elvish Jewelry": true
+			}
+		},
+        {
+			"LogName": "Glass Shards",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/GlassShards.png",
+			"ToArea": {"X": "352", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Glass Shards": true
+			}
+		},
+        {
+			"LogName": "Golden Mask",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/GoldenMask.png",
+			"ToArea": {"X": "64", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Golden Mask": true
+			}
+		},
+        {
+			"LogName": "Golden Relic",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/GoldenRelic.png",
+			"ToArea": {"X": "80", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Golden Relic": true
+			}
+		},
+        {
+			"LogName": "Library Book",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/LibraryBook.png",
+			"ToArea": {"X": "96", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Library Book": true,
+                "HasMod |contains= Airyn.RandomLibraryBookCovers": false
+			}
+		},
+        {
+			"LogName": "Nautilus Fossil",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/NautilusFossil.png",
+			"ToArea": {"X": "160", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Nautilus Fossil": true
+			}
+		},
+        {
+			"LogName": "Ornamental Fan",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/OrnamentalFan.png",
+			"ToArea": {"X": "160", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Ornamental Fan": true
+			}
+		},
+        {
+			"LogName": "Palm Fossil",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PalmFossil.png",
+			"ToArea": {"X": "192", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Palm Fossil": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Handaxe",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricHandaxe.png",
+			"ToArea": {"X": "0", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Handaxe": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Rib",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricRib.png",
+			"ToArea": {"X": "112", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Rib": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Scapula",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricScapula.png",
+			"ToArea": {"X": "48", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Scapula": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Skull",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricSkull.png",
+			"ToArea": {"X": "80", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Skull": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Tibia",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricTibia.png",
+			"ToArea": {"X": "64", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Tibia": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Tool",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricTool.png",
+			"ToArea": {"X": "304", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Tool": true
+			}
+		},
+        {
+			"LogName": "Prehistoric Vertebra",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/PrehistoricVertebra.png",
+			"ToArea": {"X": "128", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Prehistoric Vertebra": true
+			}
+		},
+        {
+			"LogName": "Rare Disc",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/RareDisc.png",
+			"ToArea": {"X": "192", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Rare Disc": true
+			}
+		},
+        {
+			"LogName": "Rusty Cog",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/RustyCog.png",
+			"ToArea": {"X": "256", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Rusty Cog": true
+			}
+		},
+        {
+			"LogName": "Rusty Spoon",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/RustySpoon.png",
+			"ToArea": {"X": "224", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Rusty Spoon": true
+			}
+		},
+        {
+			"LogName": "Rusty Spur",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/RustySpur.png",
+			"ToArea": {"X": "240", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Rusty Spur": true
+			}
+		},
+        {
+			"LogName": "Skeletal Hand",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/SkeletalHand.png",
+			"ToArea": {"X": "96", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Skeletal Hand": true
+			}
+		},
+        {
+			"LogName": "Skeletal Tail",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/SkeletalTail.png",
+			"ToArea": {"X": "144", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Skeletal Tail": true
+			}
+		},
+        {
+			"LogName": "Strange Doll",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/StrangeDoll1.png",
+			"ToArea": {"X": "96", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Strange Doll": true
+			}
+		},
+        {
+			"LogName": "Strange Doll 2",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/StrangeDoll2.png",
+			"ToArea": {"X": "112", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Strange Doll 2": true
+			}
+		},
+        {
+			"LogName": "Trilobite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/Trilobite.png",
+			"ToArea": {"X": "208", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Trilobite": true
+			}
+		},
+        {
+			"LogName": "Journal Scrap",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/JournalScrap.png",
+			"ToArea": {"X": "32", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Journal Scrap": true
+			}
+		},
+        {
+			"LogName": "Secret Note",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Artifacts/SecretNote.png",
+			"ToArea": {"X": "112", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Artifacts |contains= Secret Note": true
+			}
+		}
+    ]
+}

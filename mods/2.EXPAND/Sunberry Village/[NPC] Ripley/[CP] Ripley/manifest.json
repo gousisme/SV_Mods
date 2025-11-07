@@ -1,0 +1,22 @@
+{
+  "Name": "Ripley",
+  "Author": "Clara",
+  "Description": "The resident farmer of Sunberry Village.",
+  "Version": "1.0.9",
+  "UniqueID": "Clara.Ripley",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [ "Nexus:32660" ],
+
+  "Dependencies": [
+    {
+    "UniqueID": "skellady.SBVCP",
+    "IsRequired": true
+    },
+    {
+      "UniqueID": "PeacefulEnd.CustomCompanions",
+      "IsRequired": true
+   }
+  ]
+}

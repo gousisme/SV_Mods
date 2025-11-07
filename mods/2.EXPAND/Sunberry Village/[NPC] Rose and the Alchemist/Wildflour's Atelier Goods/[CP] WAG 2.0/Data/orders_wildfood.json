@@ -1,0 +1,404 @@
+{
+  "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+{
+  "Action": "EditData",
+  "Target": "Data/Mail",
+      "Entries": {
+          "Wildflour.AtelierGoods_Forager_SO_Berries_Leah_reward": "{{i18n:AtelierGoods_Forager_SO_Berries_Leah_reward.text}} %item id (O)Wildflour.AtelierGoods_Wild_Strawberry_Seeds 10 %%[#]{{i18n:AtelierGoods_Forager_SO_Berries_Leah_reward.name}}",     
+          "Wildflour.AtelierGoods_Forager_SO_Mushrooms_Demetrius_reward": "{{i18n:AtelierGoods_Forager_SO_Mushrooms_Demetrius_reward.text}} %item id (O)Wildflour.AtelierGoods_Chicken_Woods_Seeds 5 %%[#]{{i18n:AtelierGoods_Forager_SO_Mushrooms_Demetrius_reward.name}}", 
+          "Wildflour.AtelierGoods_Forager_SO_WildFlowers_Sandy_reward": "{{i18n:AtelierGoods_Forager_SO_WildFlowers_Sandy_reward.text}} %item id (O)MixedFlowerSeeds 10 %%[#]{{i18n:AtelierGoods_Forager_SO_WildFlowers_Sandy_reward.name}}", 
+          "Wildflour.AtelierGoods_Forager_SO_Forager_Challenge_reward": "{{i18n:AtelierGoods_Forager_SO_Forager_Challenge_reward.text}} %item id (O)275 20 %%[#]{{i18n:AtelierGoods_Forager_SO_Forager_Challenge_reward.name}}" 
+      }
+  },
+
+
+///////////////////
+// MAIL TRIGGERS //
+///////////////////
+
+
+/////////////////////
+// SPECIAL ORDER 1 //
+/////////////////////
+    {
+    "LogName": "Wild Food Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_Vanilla_Linus": {
+        "Name": "{{i18n:AtelierGoods_SO_Vanilla_Linus.name}}",
+        "Requester": "Linus",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Vanilla_Linus.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Vanilla_Linus.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "vanilla_item",
+                "Message": "{{i18n:AtelierGoods_SO_Vanilla_Linus.accept}}",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "900"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Linus"
+                }
+              }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Berries_Leah": {
+        "Name": "{{i18n:AtelierGoods_SO_Berries_Leah.name}}",
+        "Requester": "Leah",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Berries_Leah.text}}",
+        "Objectives": [ 
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Berries_Leaha.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "DropBox": "Forage_Leah",
+                "DropBoxGameLocation": "LeahHouse",
+                "DropBoxIndicatorLocation": "10 4",
+                "AcceptedContextTags": "item_Wildflour.AtelierGoods_Wild_Strawberry"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Berries_Leahb.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "DropBox": "Forage_Leah",
+                "DropBoxGameLocation": "LeahHouse",
+                "DropBoxIndicatorLocation": "10 4",
+                "AcceptedContextTags": "item_Wildflour.AtelierGoods_Wild_Raspberry"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1360"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Leah"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Berries_Leah_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Mushrooms_Demetrius": {
+        "Name": "{{i18n:AtelierGoods_SO_Mushrooms_Demetrius.name}}",
+        "Requester": "Demetrius",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Mushrooms_Demetrius.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Mushrooms_Demetrius.deliver}}",
+              "RequiredCount": "15",
+              "Data": {
+                "DropBox": "Forage_Demetrius",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "20 17",
+                "AcceptedContextTags": "wildflour_forage, edible_mushroom"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "8750"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Demetrius"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Mushrooms_Demetrius_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_WildFlowers_Sandy": {
+        "Name": "{{i18n:AtelierGoods_SO_WildFlowers_Sandy.name}}",
+        "Requester": "Sandy",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_WildFlowers_Sandy.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_WildFlowers_Sandya.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "Forage_Sandy",
+                "DropBoxGameLocation": "SandyHouse",
+                "DropBoxIndicatorLocation": "6 7",
+                "AcceptedContextTags": "item_Wildflour.AtelierGoods_Lavender"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_WildFlowers_Sandyb.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "Forage_Sandy",
+                "DropBoxGameLocation": "SandyHouse",
+                "DropBoxIndicatorLocation": "6 7",
+                "AcceptedContextTags": "item_Wildflour.AtelierGoods_Chamomile"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "2500"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Sandy"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_WildFlowers_Sandy_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+      },
+      "Wildflour.AtelierGoods_SO_Forager_Challenge": {
+        "Name": "{{i18n:AtelierGoods_SO_Forager_Challenge.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Forager_Challenge.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:AtelierGoods_SO_Forager_Challenge.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage"
+              }
+            }
+
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_Forager_Challenge_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+      },
+      "Wildflour.AtelierGoods_SO_Mushrooms_Maru": {
+        "Name": "{{i18n:AtelierGoods_SO_Mushrooms_Maru.name}}",
+        "Requester": "Maru",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Mushrooms_Maru.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Mushrooms_Maru.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage, edible_mushroom",
+                "Message": "{{i18n:AtelierGoods_SO_Mushrooms_Maru.accept}}",
+                "TargetName": "Maru"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1250"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_WildFruit_Gus": {
+        "Name": "{{i18n:AtelierGoods_SO_WildFruit_Gus.name}}",
+        "Requester": "Gus",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_WildFruit_Gus.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_WildFruit_Gus.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage, category_fruits",
+                "Message": "{{i18n:AtelierGoods_SO_WildFruit_Gus.accept}}",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1550"
+              }
+            },
+
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Herbs_Evelyn": {
+        "Name": "{{i18n:AtelierGoods_SO_Herbs_Evelyn.name}}",
+        "Requester": "Evelyn",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Herbs_Evelyn.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Herbs_Evelyn.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage, herb_item",
+                "Message": "{{i18n:AtelierGoods_SO_Herbs_Evelyn.accept}}",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "900"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  }
+
+
+  ]
+}
+

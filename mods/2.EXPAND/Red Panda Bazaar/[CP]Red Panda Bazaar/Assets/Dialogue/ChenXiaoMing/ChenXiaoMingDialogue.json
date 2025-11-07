@@ -1,0 +1,302 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RedPandaBazaar_ChenXiaoMing",
+            "Entries": {
+                "AcceptBirthdayGift_Loved": "{{i18n:ChenXiaoMing.GiftReaction.Birthday.Love}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:ChenXiaoMing.GiftReaction.Birthday.Like}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:ChenXiaoMing.GiftReaction.Birthday.Neutral}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:ChenXiaoMing.GiftReaction.Birthday.Dislike}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:ChenXiaoMing.GiftReaction.Birthday.Hate}}",
+                "AcceptBouquet": "{{i18n:ChenXiaoMing.AcceptBouquet}}",
+
+                "AcceptGift_(O)433": "{{i18n:ChenXiaoMing.Gift.CoffeeBean}}",
+                "AcceptGift_(O)253": "{{i18n:ChenXiaoMing.Gift.TripleShotEspresso}}",
+                "AcceptGift_(O)395": "{{i18n:ChenXiaoMing.Gift.Coffee}}",
+                "AcceptGift_(O)400": "{{i18n:ChenXiaoMing.Gift.Strawberry}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:ChenXiaoMing.Gift.StardropTea}}",
+
+                "Introduction": "{{i18n:ChenXiaoMing.Introduction}}",
+                "danceRejection": "{{i18n:ChenXiaoMing.danceRejection}}",
+                "divorced": "{{i18n:ChenXiaoMing.divorced}}",
+                "breakUp": "{{i18n:ChenXiaoMing.breakUp}}",
+                "DumpsterDiveComment": "{{i18n:ChenXiaoMing.DumpsterDiveComment}}",
+                "HitBySlingshot": "{{i18n:ChenXiaoMing.HitBySlingshot}}",
+                "MovieInvitation": "{{i18n:ChenXiaoMing.MovieInvitation}}",
+                "Spouse_MonstersInHouse": "{{i18n:ChenXiaoMing.Spouse.MonstersInHouse}}",
+                "SpouseStardrop": "{{i18n:ChenXiaoMing.SpouseStardrop}}",
+
+                "RejectBouquet_Divorced": "{{i18n:ChenXiaoMing.RejectBouquet.Divorced}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:ChenXiaoMing.RejectBouquet.NpcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:ChenXiaoMing.RejectBouquet.VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:ChenXiaoMing.RejectBouquet.LowHearts}}",
+                "RejectGift_Divorced": "{{i18n:ChenXiaoMing.RejectGift.Divorced}}",
+
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:ChenXiaoMing.RejectMermaidPendant.PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Divorced}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:ChenXiaoMing.RejectMermaidPendant.NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Under10Hearts.AskedAgain}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:ChenXiaoMing.RejectMermaidPendant.NeedHouseUpgrade}}",
+
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:ChenXiaoMing.RejectMovieTicket.AlreadyInvitedBySomeoneElse}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:ChenXiaoMing.RejectMovieTicket.AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_Divorced": "{{i18n:ChenXiaoMing.RejectMovieTicket.Divorced}}",
+
+                "FlowerDance_Accept_Spouse": "{{i18n:ChenXiaoMing.FlowerDance.Accept_Spouse}}",
+                "FlowerDance_Accept": "{{i18n:ChenXiaoMing.FlowerDance.Accept}}",
+
+                "cc_Complete": "{{i18n:ChenXiaoMing.cc.Complete}}",
+                "cc_Bus": "{{i18n:ChenXiaoMing.cc.Bus}}",
+
+                "GreenRain": "{{i18n:ChenXiaoMing.GreenRain}}",
+                "GreenRainFinished": "{{i18n:ChenXiaoMing.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:ChenXiaoMing.GreenRain.2}}",
+                
+                "Resort": "{{i18n:ChenXiaoMing.Resort}}",
+
+                "Mon": "{{i18n:ChenXiaoMing.Mon.0h}}",
+                "Tue": "{{i18n:ChenXiaoMing.Tue.0h}}",
+                "Wed": "{{i18n:ChenXiaoMing.Wed.0h}}",
+                "Thu": "{{i18n:ChenXiaoMing.Thu.0h}}",
+                "Fri": "{{i18n:ChenXiaoMing.Fri.0h}}",
+                "Sat": "{{i18n:ChenXiaoMing.Sat.0h}}",
+                "Sun": "{{i18n:ChenXiaoMing.Sun.0h}}",
+
+                "Mon2": "{{i18n:ChenXiaoMing.Mon.2h}}",
+                "Tue2": "{{i18n:ChenXiaoMing.Tue.2h}}",
+                "Wed2": "{{i18n:ChenXiaoMing.Wed.2h}}",
+                "Thu2": "{{i18n:ChenXiaoMing.Thu.2h}}",
+                "Fri2": "{{i18n:ChenXiaoMing.Fri.2h}}",
+                "Sat2": "{{i18n:ChenXiaoMing.Sat.2h}}",
+                "Sun2": "{{i18n:ChenXiaoMing.Sun.2h}}",
+
+                "Mon4": "{{i18n:ChenXiaoMing.Mon.4h}}",
+                "Tue4": "{{i18n:ChenXiaoMing.Tue.4h}}",
+                "Wed4": "{{i18n:ChenXiaoMing.Wed.4h}}",
+                "Thu4": "{{i18n:ChenXiaoMing.Thu.4h}}",
+                "Fri4": "{{i18n:ChenXiaoMing.Fri.4h}}",
+                "Sat4": "{{i18n:ChenXiaoMing.Sat.4h}}",
+                "Sun4": "{{i18n:ChenXiaoMing.Sun.4h}}",
+
+                "Mon6": "{{i18n:ChenXiaoMing.Mon.6h}}",
+                "Tue6": "{{i18n:ChenXiaoMing.Tue.6h}}",
+                "Wed6": "{{i18n:ChenXiaoMing.Wed.6h}}",
+                "Thu6": "{{i18n:ChenXiaoMing.Thu.6h}}",
+                "Fri6": "{{i18n:ChenXiaoMing.Fri.6h}}",
+                "Sat6": "{{i18n:ChenXiaoMing.Sat.6h}}",
+                "Sun6": "{{i18n:ChenXiaoMing.Sun.6h}}",
+
+                "Mon8": "{{i18n:ChenXiaoMing.Mon.8h}}",
+                "Tue8": "{{i18n:ChenXiaoMing.Tue.8h}}",
+                "Wed8": "{{i18n:ChenXiaoMing.Wed.8h}}",
+                "Thu8": "{{i18n:ChenXiaoMing.Thu.8h}}",
+                "Fri8": "{{i18n:ChenXiaoMing.Fri.8h}}",
+                "Sat8": "{{i18n:ChenXiaoMing.Sat.8h}}",
+                "Sun8": "{{i18n:ChenXiaoMing.Sun.8h}}",
+
+                "Mon10": "{{i18n:ChenXiaoMing.Mon.10h}}",
+                "Tue10": "{{i18n:ChenXiaoMing.Tue.10h}}",
+                "Wed10": "{{i18n:ChenXiaoMing.Wed.10h}}",
+                "Thu10": "{{i18n:ChenXiaoMing.Thu.10h}}",
+                "Fri10": "{{i18n:ChenXiaoMing.Fri.10h}}",
+                "Sat10": "{{i18n:ChenXiaoMing.Sat.10h}}",
+                "Sun10": "{{i18n:ChenXiaoMing.Sun.10h}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RedPandaBazaar_ChenXiaoMing",
+            "Entries": {
+                "AcceptBirthdayGift_Loved": "{{i18n:Spouse.ChenXiaoMing.GiftReaction.Birthday.Love}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:Spouse.ChenXiaoMing.GiftReaction.Birthday.Like}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:Spouse.ChenXiaoMing.GiftReaction.Birthday.Neutral}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:Spouse.ChenXiaoMing.GiftReaction.Birthday.Dislike}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:Spouse.ChenXiaoMing.GiftReaction.Birthday.Hate}}",
+
+                "AcceptGift_(O)StardropTea": "{{i18n:Spouse.ChenXiaoMing.Gift.StardropTea}}",
+
+                "Introduction": "{{i18n:ChenXiaoMing.Introduction}}",
+                "danceRejection": "{{i18n:ChenXiaoMing.danceRejection}}",
+                "divorced": "{{i18n:ChenXiaoMing.divorced}}",
+                "breakUp": "{{i18n:ChenXiaoMing.breakUp}}",
+                "DumpsterDiveComment": "{{i18n:ChenXiaoMing.DumpsterDiveComment}}",
+                "HitBySlingshot": "{{i18n:ChenXiaoMing.HitBySlingshot}}",
+                "MovieInvitation": "{{i18n:ChenXiaoMing.MovieInvitation}}",
+                "Spouse_MonstersInHouse": "{{i18n:ChenXiaoMing.Spouse.MonstersInHouse}}",
+                "SpouseStardrop": "{{i18n:ChenXiaoMing.SpouseStardrop}}",
+
+                "RejectBouquet_Divorced": "{{i18n:ChenXiaoMing.RejectBouquet.Divorced}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:ChenXiaoMing.RejectBouquet.NpcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:ChenXiaoMing.RejectBouquet.VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:ChenXiaoMing.RejectBouquet.LowHearts}}",
+                "RejectGift_Divorced": "{{i18n:ChenXiaoMing.RejectGift.Divorced}}",
+
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:ChenXiaoMing.RejectMermaidPendant.PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Divorced}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:ChenXiaoMing.RejectMermaidPendant.NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:ChenXiaoMing.RejectMermaidPendant.Under10Hearts.AskedAgain}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:ChenXiaoMing.RejectMermaidPendant.NeedHouseUpgrade}}",
+
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:ChenXiaoMing.RejectMovieTicket.AlreadyInvitedBySomeoneElse}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:ChenXiaoMing.RejectMovieTicket.AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_Divorced": "{{i18n:ChenXiaoMing.RejectMovieTicket.Divorced}}",
+
+                "FlowerDance_Accept_Spouse": "{{i18n:ChenXiaoMing.FlowerDance.Accept_Spouse}}",
+                "FlowerDance_Accept": "{{i18n:ChenXiaoMing.FlowerDance.Accept}}",
+
+                "cc_Complete": "{{i18n:ChenXiaoMing.cc.Complete}}",
+                "cc_Bus": "{{i18n:ChenXiaoMing.cc.Bus}}",
+
+                "GreenRain": "{{i18n:ChenXiaoMing.GreenRain}}",
+                "GreenRainFinished": "{{i18n:ChenXiaoMing.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:ChenXiaoMing.GreenRain.2}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing0": "{{i18n:ChenXiaoMing.Engagement.1}}",
+                "RedPandaBazaar_ChenXiaoMing1": "{{i18n:ChenXiaoMing.Engagement.2}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.3980": "{{i18n:ChenXiaoMing.cs.3980}}"
+            },
+            "When": {
+                "Relationship:RedPandaBazaar_ChenXiaoMing": "Dating"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.spring}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.spring}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.spring}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.spring}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "spring",
+                "IsOddYear": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.summer}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.summer}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.summer}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.summer}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "summer",
+                "IsOddYear": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.fall}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.fall}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.fall}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.fall}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "fall",
+                "IsOddYear": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.winter}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.winter}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.winter}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.winter}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "winter",
+                "IsOddYear": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.spring.2}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.spring.2}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.spring.2}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.spring.2}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "spring",
+                "IsOddYear": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.summer.2}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.summer.2}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.summer.2}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.summer.2}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "summer",
+                "IsOddYear": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.fall.2}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.fall.2}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.fall.2}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.fall.2}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "fall",
+                "IsOddYear": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4463": "{{i18n:ChenXiaoMing.cs.4463.winter.2}}",
+                "NPC.cs.4470": "{{i18n:ChenXiaoMing.cs.4470.winter.2}}",
+                "NPC.cs.4474": "{{i18n:ChenXiaoMing.cs.4474.winter.2}}",
+                "NPC.cs.4481": "{{i18n:ChenXiaoMing.cs.4481.winter.2}}"
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing",
+                "Season": "winter",
+                "IsOddYear": false
+            }
+        }
+    ]
+}

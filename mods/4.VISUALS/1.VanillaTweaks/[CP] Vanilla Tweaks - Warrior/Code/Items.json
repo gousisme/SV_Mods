@@ -1,0 +1,229 @@
+{
+    "Changes": 
+    [
+
+// BOMBS
+        {
+			"LogName": "Cherry Bomb",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Bombs/CherryBomb.png",
+			"ToArea": {"X": "352", "Y": "176", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"BombsEnabled": "True",
+				"Bombs |contains= Cherry Bomb": true
+			}
+		},
+        {
+			"LogName": "Bomb",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Bombs/Bomb.png",
+			"ToArea": {"X": "368", "Y": "176", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"BombsEnabled": "True",
+				"Bombs |contains= Bomb": true
+			}
+		},
+        {
+			"LogName": "Mega Bomb",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Bombs/MegaBomb.png",
+			"ToArea": {"X": "0", "Y": "192", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"BombsEnabled": "True",
+				"Bombs |contains= Mega Bomb": true
+			}
+		},
+
+// ELIXIRS
+        {
+			"LogName": "Energy Tonic",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Elixirs/EnergyTonic.png",
+			"ToArea": {"X": "208", "Y": "224", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ElixirsEnabled": "True",
+				"Elixirs |contains= Energy Tonic": true
+			}
+		},
+        {
+			"LogName": "Life Elixir",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Elixirs/LifeElixir.png",
+			"ToArea": {"X": "80", "Y": "512", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ElixirsEnabled": "True",
+				"Elixirs |contains= Life Elixir": true
+			}
+		},
+        {
+			"LogName": "Monster Musk",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Elixirs/MonsterMusk.png",
+			"ToArea": {"X": "240", "Y": "576", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ElixirsEnabled": "True",
+				"Elixirs |contains= Monster Musk": true
+			}
+		},
+        {
+			"LogName": "Muscle Remedy",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Elixirs/MuscleRemedy.png",
+			"ToArea": {"X": "240", "Y": "224", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ElixirsEnabled": "True",
+				"Elixirs |contains= Muscle Remedy": true
+			}
+		},
+        {
+			"LogName": "Oil of Garlic",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Elixirs/OilOfGarlic.png",
+			"ToArea": {"X": "64", "Y": "512", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ElixirsEnabled": "True",
+				"Elixirs |contains= Oil of Garlic": true
+			}
+		},
+
+// MONSTER LOOT
+        {
+			"LogName": "Bat Wing",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/MonsterLoot/BatWing.png",
+			"ToArea": {"X": "368", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MonsterLootEnabled": "True",
+				"MonsterLoot |contains= Bat Wing": true
+			}
+		},
+        {
+			"LogName": "Bug Meat",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/MonsterLoot/BugMeat.png",
+			"ToArea": {"X": "192", "Y": "448", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MonsterLootEnabled": "True",
+				"MonsterLoot |contains= Bug Meat": true
+			}
+		},
+        {
+			"LogName": "Dragon Tooth",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/MonsterLoot/DragonTooth.png",
+			"ToArea": {"X": "192", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MonsterLootEnabled": "True",
+				"MonsterLoot |contains= Dragon Tooth": true
+			}
+		},
+        {
+			"LogName": "Slime",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/MonsterLoot/Slime.png",
+			"ToArea": {"X": "352", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MonsterLootEnabled": "True",
+				"MonsterLoot |contains= Slime": true
+			}
+		},
+        {
+			"LogName": "Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/MonsterLoot/SolarEssence.png",
+			"ToArea": {"X": "0", "Y": "512", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MonsterLootEnabled": "True",
+				"MonsterLoot |contains= Solar Essence": true
+			}
+		},
+        {
+			"LogName": "Void Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/MonsterLoot/VoidEssence.png",
+			"ToArea": {"X": "16", "Y": "512", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MonsterLootEnabled": "True",
+				"MonsterLoot |contains= Void Essence": true
+			}
+		},
+
+// MISC ITEMS
+        {
+			"LogName": "Galaxy Soul",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Misc/GalaxySoul.png",
+			"ToArea": {"X": "128", "Y": "592", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MiscItemsEnabled": "True",
+				"MiscItems |contains= Galaxy Soul": true
+			}
+		},
+        {
+			"LogName": "Mermaid Pendant",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Misc/MermaidPendant.png",
+			"ToArea": {"X": "64", "Y": "304", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MiscItemsEnabled": "True",
+				"MiscItems |contains= Mermaid Pendant": true
+			}
+		},
+        {
+			"LogName": "Qi Gem",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Misc/QiGem.png",
+			"ToArea": {"X": "288", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MiscItemsEnabled": "True",
+				"MiscItems |contains= Qi Gem": true
+			}
+		},
+        {
+			"LogName": "Void Ghost Pendant",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Items/Misc/VoidGhostPendant.png",
+			"ToArea": {"X": "256", "Y": "528", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MiscItemsEnabled": "True",
+				"MiscItems |contains= Void Ghost Pendant": true
+			}
+		}
+    ]
+}

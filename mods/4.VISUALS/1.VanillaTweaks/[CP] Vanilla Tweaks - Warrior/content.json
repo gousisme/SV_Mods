@@ -1,0 +1,363 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"SaturationToggle": 
+		{
+			"AllowValues": "Saturated, Desaturated",
+			"Default": "Saturated",
+		},
+
+// CATEGORY ON/OFF CONFIGS
+
+		"WeaponSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ToolSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"RingSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ShoeSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ItemSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"TrinketSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},		
+		
+// INDIVIDUAL TOGGLES
+
+// Weapons
+
+		"SwordsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Swords"
+		},
+		"Swords": {
+			"AllowValues": "Bone Sword, Claymore, Cutlass, Dark Sword, Dragontooth Cutlass, Dwarf Sword, Forest Sword, Galaxy Sword, Infinity Blade, Insect Head, Iron Edge, Lava Katana, Neptune's Glaive, Obsidian Edge, Ossified Blade, Pirate's Sword, Rusty Sword, Silver Saber, Steel Falchion, Steel Smallsword, Tempered Broadsword, Templar's Blade, Wooden Blade, Yeti Tooth",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Bone Sword, Claymore, Cutlass, Dark Sword, Dragontooth Cutlass, Dwarf Sword, Forest Sword, Galaxy Sword, Infinity Blade, Insect Head, Iron Edge, Lava Katana, Neptune's Glaive, Obsidian Edge, Ossified Blade, Pirate's Sword, Rusty Sword, Silver Saber, Steel Falchion, Steel Smallsword, Tempered Broadsword, Templar's Blade, Wooden Blade, Yeti Tooth",
+			"Section": "Swords"
+		},
+		"DaggersEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Daggers"
+		},
+		"Daggers": {
+			"AllowValues": "Broken Trident, Burglar's Shank, Carving Knife, Crystal Dagger, Dragontooth Shiv, Dwarf Dagger, Elf Blade, Galaxy Dagger, Infinity Dagger, Iridium Needle, Iron Dirk, Shadow Dagger, Wicked Kris, Wind Spire",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Broken Trident, Burglar's Shank, Carving Knife, Crystal Dagger, Dragontooth Shiv, Dwarf Dagger, Elf Blade, Galaxy Dagger, Infinity Dagger, Iridium Needle, Iron Dirk, Shadow Dagger, Wicked Kris, Wind Spire",
+			"Section": "Daggers"
+		},
+		"ClubsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Clubs"
+		},
+		"Clubs": {
+			"AllowValues": "Dragontooth Club, Dwarf Hammer, Femur, Galaxy Hammer, Infinity Gavel, Kudgel, Lead Rod, The Slammer, Wood Club, Wood Mallet",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Dragontooth Club, Dwarf Hammer, Femur, Galaxy Hammer, Infinity Gavel, Kudgel, Lead Rod, The Slammer, Wood Club, Wood Mallet",
+			"Section": "Clubs"
+		},
+		"Slingshots": {
+			"AllowValues": "Slingshot, Master Slingshot",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Slingshot, Master Slingshot",
+			"Section": "Slingshots"
+		},
+
+// Tools
+
+		"AxesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Axes"
+		},
+		"Axes": {
+			"AllowValues": "Regular Axe, Copper Axe, Iron Axe, Gold Axe, Iridium Axe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Regular Axe, Copper Axe, Iron Axe, Gold Axe, Iridium Axe",
+			"Section": "Axes"
+		},
+		"HoesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Hoes"
+		},
+		"Hoes": {
+			"AllowValues": "Regular Hoe, Copper Hoe, Iron Hoe, Gold Hoe, Iridium Hoe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Regular Hoe, Copper Hoe, Iron Hoe, Gold Hoe, Iridium Hoe",
+			"Section": "Hoes"
+		},
+		"PickaxesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Pickaxes"
+		},
+		"Pickaxes": {
+			"AllowValues": "Regular Pickaxe, Copper Pickaxe, Iron Pickaxe, Gold Pickaxe, Iridium Pickaxe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Regular Pickaxe, Copper Pickaxe, Iron Pickaxe, Gold Pickaxe, Iridium Pickaxe",
+			"Section": "Pickaxes"
+		},
+		"WateringCansEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Watering Cans"
+		},
+		"WateringCans": {
+			"AllowValues": "Regular Watering Can, Copper Watering Can, Iron Watering Can, Gold Watering Can, Iridium Watering Can",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Regular Watering Can, Copper Watering Can, Iron Watering Can, Gold Watering Can, Iridium Watering Can",
+			"Section": "Watering Cans"
+		},
+		"FishingRodsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Fishing Rods"
+		},
+		"FishingRods": {
+			"AllowValues": "Training Rod, Bamboo Rod, Fiberglass Rod, Iridium Rod, Advanced Iridium Rod",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Training Rod, Bamboo Rod, Fiberglass Rod, Iridium Rod, Advanced Iridium Rod",
+			"Section": "Fishing Rods"
+		},
+		"ScythesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Scythes"
+		},
+		"Scythes": {
+			"AllowValues": "Scythe, Golden Scythe, Iridium Scythe",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Scythe, Golden Scythe, Iridium Scythe",
+			"Section": "Scythes"
+		},
+		"PansEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Pans"
+		},
+		"Pans": {
+			"AllowValues": "Copper Pan, Iron Pan, Gold Pan, Iridium Pan",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Copper Pan, Iron Pan, Gold Pan, Iridium Pan",
+			"Section": "Pans"
+		},
+		"OtherToolsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Other Tools"
+		},
+		"OtherTools": {
+			"AllowValues": "Milk Pail, Shears, Horse Flute, Return Scepter",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Milk Pail, Shears, Horse Flute, Return Scepter",
+			"Section": "Other Tools"
+		},
+		"ShearsStyle": 
+		{
+			"AllowValues": "Clippers, Scissors",
+			"Default": "Clippers",
+			"Section": "Other Tools"
+		},
+
+// Rings
+
+		"Rings": {
+			"AllowValues": "Amethyst Ring, Aquamarine Ring, Burglar's Ring, Crabshell Ring, Emerald Ring, Glow Ring, Glowstone Ring, Hot Java Ring, Immunity Band, Iridium Band, Jade Ring, Jukebox Ring, Lucky Ring, Magnet Ring, Napalm Ring, Phoenix Ring, Protection Ring, Ring of Yoba, Ruby Ring, Savage Ring, Slime Charmer Ring, Small Glow Ring, Small Magnet Ring, Soul Sapper Ring, Sturdy Ring, Thorns Ring, Topaz Ring, Vampire Ring, Warrior Ring, Wedding Ring",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Amethyst Ring, Aquamarine Ring, Burglar's Ring, Crabshell Ring, Emerald Ring, Glow Ring, Glowstone Ring, Hot Java Ring, Immunity Band, Iridium Band, Jade Ring, Jukebox Ring, Lucky Ring, Magnet Ring, Napalm Ring, Phoenix Ring, Protection Ring, Ring of Yoba, Ruby Ring, Savage Ring, Slime Charmer Ring, Small Glow Ring, Small Magnet Ring, Soul Sapper Ring, Sturdy Ring, Thorns Ring, Topaz Ring, Vampire Ring, Warrior Ring, Wedding Ring",
+			"Section": "Rings"
+		},
+
+// Shoes
+
+		"Shoes": {
+			"AllowValues": "Cinderclown Shoes, Combat Boots, Cowboy Boots, Crystal Shoes, Dark Boots, Dragonscale Boots, Emily's Magic Boots, Firewalker Boots, Genie Shoes, Leather Boots, Leprechaun Shoes, Mermaid Boots, Rubber Boots, Sneakers, Space Boots, Thermal Boots, Tundra Boots, Work Boots",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Cinderclown Shoes, Combat Boots, Cowboy Boots, Crystal Shoes, Dark Boots, Dragonscale Boots, Emily's Magic Boots, Firewalker Boots, Genie Shoes, Leather Boots, Leprechaun Shoes, Mermaid Boots, Rubber Boots, Sneakers, Space Boots, Thermal Boots, Tundra Boots, Work Boots",
+			"Section": "Shoes"
+		},
+
+// Items
+
+		"BombsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Bombs"
+		},
+		"Bombs": {
+			"AllowValues": "Cherry Bomb, Bomb, Mega Bomb",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Cherry Bomb, Bomb, Mega Bomb",
+			"Section": "Bombs"
+		},
+		"ElixirsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Elixirs"
+		},
+		"Elixirs": {
+			"AllowValues": "Energy Tonic, Life Elixir, Monster Musk, Muscle Remedy, Oil of Garlic",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Energy Tonic, Life Elixir, Monster Musk, Muscle Remedy, Oil of Garlic",
+			"Section": "Elixirs"
+		},
+		"MonsterLootEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Monster Loot"
+		},
+		"MonsterLoot": {
+			"AllowValues": "Bat Wing, Bug Meat, Dragon Tooth, Slime, Solar Essence, Void Essence",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Bat Wing, Bug Meat, Dragon Tooth, Slime, Solar Essence, Void Essence",
+			"Section": "Monster Loot"
+		},
+		"MiscItemsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Misc Items"
+		},
+		"MiscItems": {
+			"AllowValues": "Galaxy Soul, Mermaid Pendant, Qi Gem, Void Ghost Pendant",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Galaxy Soul, Mermaid Pendant, Qi Gem, Void Ghost Pendant",
+			"Section": "Misc Items"
+		},
+		
+// Trinkets
+
+		"TrinketsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Trinkets"
+		},
+		"Trinkets": {
+			"AllowValues": "Basilisk Paw, Fairy Box, Frog Egg, Parrot Egg, Golden Spur, Ice Rod, Magic Hair Gel, Magic Quiver",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Basilisk Paw, Fairy Box, Frog Egg, Parrot Egg, Golden Spur, Ice Rod, Magic Hair Gel, Magic Quiver",
+			"Section": "Trinkets"
+		},				
+	},
+	
+	"Changes": [		
+		{
+			"LogName": "Weapons Code",
+			"Action": "Include",
+			"FromFile": "Code/Weapons.json",
+			"When": 
+			{
+				"WeaponSpritesEnabled": true
+			}
+		},		
+		{
+			"LogName": "Tools Code",
+			"Action": "Include",
+			"FromFile": "Code/Tools.json",
+			"When": 
+			{
+				"ToolSpritesEnabled": true
+			}
+		},		
+		{
+			"LogName": "Rings Code",
+			"Action": "Include",
+			"FromFile": "Code/Rings.json",
+			"When": 
+			{
+				"RingSpritesEnabled": true
+			}
+		},		
+		{
+			"LogName": "Shoes Code",
+			"Action": "Include",
+			"FromFile": "Code/Shoes.json",
+			"When": 
+			{
+				"ShoeSpritesEnabled": true
+			}
+		},		
+		{
+			"LogName": "Items Code",
+			"Action": "Include",
+			"FromFile": "Code/Items.json",
+			"When": 
+			{
+				"ItemSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Trinkets Code",
+			"Action": "Include",
+			"FromFile": "Code/Trinkets.json",
+			"When": 
+			{
+				"TrinketSpritesEnabled": true
+			}
+		},				
+	]
+}

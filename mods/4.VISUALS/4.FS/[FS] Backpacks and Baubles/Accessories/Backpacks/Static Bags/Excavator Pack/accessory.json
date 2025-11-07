@@ -1,0 +1,261 @@
+{
+  "Name": "Excavator's Bag",
+  "BackAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 7,
+      "Y": -11
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 20
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Value": false
+          },
+          {
+            "Name": "IsInMines",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "Duration": 100,
+        "Light": {
+          "Color": [ 255, 255, 255 ],
+          "Radius": {
+            "RandomValue": [ 0.4, 0.42, 0.43, 0.44]
+          },
+          "Position": {
+            "X": -5,
+            "Y": -15
+          }
+        },
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Independent": true,
+            "Value": true
+          },
+          {
+            "Name": "IsInMines",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      }
+    ]
+  },
+  "FrontAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 30
+    },
+    "HeadPosition": {
+      "X": 7,
+      "Y": -5
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 20
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Value": false
+          },
+          {
+            "Name": "IsInMines",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "Duration": 100,
+        "Light": {
+          "Color": [ 255, 255, 255 ],
+          "Radius": {
+            "RandomValue": [ 0.4, 0.42, 0.43, 0.44]
+          },
+          "Position": {
+            "X": 0,
+            "Y": 8
+          }
+        },
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Independent": true,
+            "Value": true
+          },
+          {
+            "Name": "IsInMines",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      }
+    ]
+  },
+  "RightAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 48
+    },
+    "HeadPosition": {
+      "X": 7,
+      "Y": -7
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Value": false
+          },
+          {
+            "Name": "IsInMines",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "Duration": 100,
+        "Light": {
+          "Color": [ 255, 255, 255 ],
+          "Radius": {
+            "RandomValue": [ 0.6, 0.61, 0.62, 0.635 ]
+          },
+          "Position": {
+            "X": 0,
+            "Y": -20
+          }
+        },
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Independent": true,
+            "Value": true
+          },
+          {
+            "Name": "IsInMines",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      }
+    ]
+  },
+  "LeftAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 80
+    },
+    "HeadPosition": {
+      "X": -7,
+      "Y": -8
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Value": false
+          },
+          {
+            "Name": "IsInMines",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Light": {
+          "Color": [ 255, 255, 255 ],
+          "Radius": {
+            "RandomValue": [ 0.4, 0.42, 0.43, 0.44]
+          },
+          "Position": {
+            "X": -60,
+            "Y": -10
+          }
+        },
+        "Conditions": [
+          {
+            "Name": "IsDarkOut",
+            "Independent": true,
+            "Value": true
+          },
+          {
+            "Name": "IsInMines",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      }
+    ],
+  }
+}

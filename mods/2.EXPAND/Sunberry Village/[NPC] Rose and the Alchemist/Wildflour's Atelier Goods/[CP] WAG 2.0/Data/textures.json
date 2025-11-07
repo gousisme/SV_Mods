@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/Wildflour.AtelierGoods/Objects",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/Wildflour.AtelierGoods/Machines_Kitchen_Classic, Mods/Wildflour.AtelierGoods/Machines_Kitchen_Chocolate, Mods/Wildflour.AtelierGoods/Machines_Kitchen_Cream, Mods/Wildflour.AtelierGoods/Machines_Kitchen_Blueberry, Mods/Wildflour.AtelierGoods/Machines_Kitchen_Strawberry",
+        "FromFile": "assets/{{TargetWithoutPath}}.png",
+        "When": {"Atelier.Cauldron/ConfigValue:MachineStyle": "Kitchen"}
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/Wildflour.AtelierGoods/Machines_Boutique_Classic, Mods/Wildflour.AtelierGoods/Machines_Boutique_Chocolate, Mods/Wildflour.AtelierGoods/Machines_Boutique_Cream, Mods/Wildflour.AtelierGoods/Machines_Boutique_Blueberry, Mods/Wildflour.AtelierGoods/Machines_Boutique_Strawberry",
+        "FromFile": "assets/{{TargetWithoutPath}}.png",
+        "When": {"Atelier.Cauldron/ConfigValue:MachineStyle": "Boutique"}
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/Wildflour.AtelierGoods/Machines_Market_Classic, Mods/Wildflour.AtelierGoods/Machines_Market_Chocolate, Mods/Wildflour.AtelierGoods/Machines_Market_Cream, Mods/Wildflour.AtelierGoods/Machines_Market_Blueberry, Mods/Wildflour.AtelierGoods/Machines_Market_Strawberry",
+        "FromFile": "assets/{{TargetWithoutPath}}.png",
+        "When": {"Atelier.Cauldron/ConfigValue:MachineStyle": "Market"}
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/Wildflour.AtelierGoods/Crops, Mods/Wildflour.AtelierGoods/FruitTrees, Mods/Wildflour.AtelierGoods/GiantCrops",
+        "FromFile": "assets/{{TargetWithoutPath}}.png",
+        "When": {"Atelier.Cauldron/ConfigValue:WildFood": "true"}
+    },
+
+    {
+        "LogName": "VT Seed Bags",
+        "Action": "EditImage",
+        "Target": "Mods/Wildflour.AtelierGoods/Objects",
+        "FromFile": "assets/Objects_VT.png",
+        "PatchMode":"Replace",
+        "When": {"Atelier.Cauldron/ConfigValue:VanillaTweaks": true}
+    }
+
+    ]
+}

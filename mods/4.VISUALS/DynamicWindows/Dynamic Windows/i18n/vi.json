@@ -1,0 +1,163 @@
+{
+"config.section.toggles-text": "■ Bật/Tắt",
+"config.section.toggles-tooltip": "Phần chính để bật/tắt các hệ thống chính",
+
+"config.toggles.enablewindow-name": "Bật Hoạt ảnh Cửa sổ",
+"config.toggles.enablewindow-tooltip": "Nếu được bật, cửa sổ sẽ có hoạt ảnh đóng/mở khi bạn tương tác.",
+
+"config.toggles.greenhousepanes-name": "Ô kính Nhà kính",
+"config.toggles.greenhousepanes-tooltip": "Chọn các ô kính Nhà kính sẽ hiển thị",
+
+"config.toggles.enableweather-name": "Bật Thời tiết (Tất cả)",
+"config.toggles.enableweather-tooltip": "Nếu được bật, tất cả hiệu ứng thời tiết dạng hạt sẽ được hiển thị, nếu không sẽ không có gì. Để ngừng hiển thị một hiệu ứng cụ thể, hãy đặt mật độ về 0 trong Tùy chọn Nâng cao.",
+
+"config.toggles.enableGHweather-name": "Bật Thời tiết (Nhà kính)",
+"config.toggles.enableGHweather-tooltip": "Nếu được bật, áp dụng hiệu ứng thời tiết trong Nhà kính. TẮT tùy chọn này để tương thích với các mod thay đổi kết cấu Nhà kính khác nếu gặp sự cố.",
+
+"config.toggles.enableGHBG-name": "Bật Nền Nhà kính",
+"config.toggles.enableGHBG-tooltip": "Nếu được bật, hiển thị nền tùy chỉnh của Nhà kính. Không nên tắt nếu đang sử dụng Content Patcher.",
+
+"config.toggles.enablecritter-name": "Bật Sinh vật nhỏ",
+"config.toggles.enablecritter-tooltip": "Bật/Tắt để cho phép các sinh vật nhỏ như bướm bay vào qua cửa sổ đang mở",
+
+"config.toggles.enabledrift-name": "Bật Hiệu ứng bay vào",
+"config.toggles.enabledrift-tooltip": "Bật/Tắt để cho phép các hạt hiệu ứng bay vào qua cửa sổ",
+
+"config.toggles.enablelightshaft-name": "Bật Luồng sáng",
+"config.toggles.enablelightshaft-tooltip": "Bật/Tắt để hiển thị luồng sáng vào những ngày nắng",
+
+"config.toggles.enablelightfill-name": "Tắt Ánh sáng nền",
+"config.toggles.enablelightfill-tooltip": "Bật/Tắt để vô hiệu hóa ánh sáng nền hình vuông phía sau cửa sổ dùng cho hiệu ứng ngày nắng nếu nó không được hiển thị chính xác.",
+
+"config.toggles.disablevanillalight-name": "Tắt Ánh sáng gốc",
+"config.toggles.disablevanillalight-tooltip": "Bật/Tắt để hiển thị hoặc loại bỏ ánh sáng nền Mặc định của game",
+
+"config.toggles.enablethunder-name": "Hiệu ứng âm thanh Sấm sét",
+"config.toggles.enablethunder-tooltip": "Bật/Tắt để phát hiệu ứng âm thanh sấm khi có sét đánh",
+
+"config.toggles.enablelightning-name": "Hiệu ứng Sét",
+"config.toggles.enablelightning-tooltip": "Bật hoặc tắt hiệu ứng này",
+
+
+
+"config.section.general-text": "■ Hiệu ứng Chung",
+"config.section.general-tooltip": "Điều khiển các hiệu ứng chung",
+
+"config.general.driftchance-name": "Tỷ lệ bay vào",
+"config.general.driftchance-tooltip": "Đặt % tỷ lệ các hạt hiệu ứng có thể bay vào bên trong nếu ở cửa sổ dưới",
+
+"config.general.critterchance-name": "Tỷ lệ Sinh vật nhỏ",
+"config.general.critterchance-tooltip": "Đặt % tỷ lệ Sinh vật nhỏ có thể xuất hiện bên trong, 1 = 100%",
+
+"config.general.lightshaftalpha-name": "Độ trong suốt Luồng sáng",
+"config.general.lightshaftalpha-tooltip": "Hệ số nhân độ trong suốt của Luồng sáng",
+
+
+
+"config.section.rain-text": "■ Hiệu ứng Mưa trên Cửa sổ",
+"config.section.rain-tooltip": "Cài đặt cho hiệu ứng mưa trong nhà.",
+
+"config.rain.density-name": "Mật độ mưa",
+"config.rain.density-tooltip": "Số lượng hạt mưa xuất hiện trên cửa sổ. Càng nhiều mưa càng nặng hạt. *Lưu ý: Mật độ cao có thể ảnh hưởng đến hiệu suất.",
+
+"config.rain.speed-name": "Tốc độ mưa",
+"config.rain.speed-tooltip": "Tốc độ mưa rơi. Càng cao càng nhanh.",
+
+"config.rain.size-name": "Kích thước hạt mưa",
+"config.rain.size-tooltip": "Tỷ lệ/kích thước của từng vệt nước mưa.",
+
+"config.rain.alpha-name": "Độ trong suốt hạt mưa",
+"config.rain.alpha-tooltip": "Độ trong suốt của hạt mưa. 1.0 là nhìn thấy hoàn toàn.",
+
+"config.rain.speedX-name": "Biến thể Tốc độ",
+"config.rain.speedX-tooltip": "Thêm sự ngẫu nhiên vào tốc độ hạt mưa để tạo hiệu ứng chiều sâu. 0 là tốc độ đồng đều.",
+
+
+
+"config.section.snow-text": "■ Hiệu ứng Tuyết trên Cửa sổ",
+"config.section.snow-tooltip": "Cài đặt cho hiệu ứng tuyết trong nhà.",
+
+"config.snow.density-name": "Mật độ tuyết",
+"config.snow.density-tooltip": "Điều khiển số lượng bông tuyết xuất hiện trên cửa sổ. *Lưu ý: Mật độ cao có thể ảnh hưởng đến hiệu suất.",
+
+"config.snow.size-name": "Kích thước bông tuyết",
+"config.snow.size-tooltip": "Tỷ lệ/kích thước của từng hạt tuyết.",
+
+"config.snow.speedX-name": "Biến thể Tốc độ",
+"config.snow.speedX-tooltip": "Thêm sự ngẫu nhiên vào tốc độ bông tuyết để tạo hiệu ứng chiều sâu. 0 là tốc độ đồng đều.",
+
+
+
+"config.section.sunny-text": "■ Hiệu ứng Ngày nắng",
+"config.section.sunny-tooltip": "Điều khiển các hạt bụi xuất hiện trong tia nắng vào những ngày trời đẹp.",
+
+"config.sunny.density-name": "Mật độ bụi",
+"config.sunny.density-tooltip": "Số lượng hạt bụi xuất hiện trong mỗi cửa sổ. *Lưu ý: Mật độ cao có thể ảnh hưởng đến hiệu suất.",
+
+"config.sunny.size-name": "Kích thước bụi",
+"config.sunny.size-tooltip": "Kích thước cơ bản của mỗi hạt bụi.",
+
+"config.sunny.alpha-name": "Độ trong suốt của bụi",
+"config.sunny.alpha-tooltip": "Độ trong suốt cơ bản của các hạt bụi.",
+
+
+
+"config.section.leaf-text": "■ Hiệu ứng Gió/Lá bay",
+"config.section.leaf-tooltip": "Cài đặt cho những chiếc lá bay ngang cửa sổ vào những ngày có gió.",
+
+"config.leaf.density-name": "Mật độ lá",
+"config.leaf.density-tooltip": "Số lượng lá xuất hiện cùng lúc trên màn hình. *Lưu ý: Mật độ cao có thể ảnh hưởng đến hiệu suất.",
+
+"config.leaf.size-name": "Kích thước lá",
+"config.leaf.size-tooltip": "Kích thước chung của các hình ảnh lá.",
+
+"config.leaf.alpha-name": "Độ trong suốt của lá",
+"config.leaf.alpha-tooltip": "Độ trong suốt của lá. 1.0 là nhìn thấy hoàn toàn.",
+
+"config.leaf.speed-name": "Tốc độ lá",
+"config.leaf.speed-tooltip": "Điều chỉnh tốc độ tổng thể của lá. Càng cao càng nhanh",
+
+
+
+"config.section.snow.foreground-text": "■ Tuyết: Lớp Tiền cảnh",
+"config.section.snow.foreground-tooltip": "Điều khiển cho những bông tuyết nhanh nhất, rõ nhất xuất hiện gần bạn nhất.",
+
+"config.snow.foreground.speed-name": "Tốc độ Tiền cảnh",
+"config.snow.foreground.alpha-name": "Độ trong suốt Tiền cảnh",
+"config.snow.foreground.diagonal-name": "Chuyển động chéo Tiền cảnh",
+"config.snow.foreground.shake.freq-name": "Tần suất rung Tiền cảnh",
+"config.snow.foreground.shake.amp-name": "Biên độ rung Tiền cảnh",
+
+
+
+"config.section.snow.midground-text": "■ Tuyết: Lớp Trung cảnh",
+"config.section.snow.midground-tooltip": "Điều khiển cho những bông tuyết tiêu chuẩn tạo nên phần lớn hiệu ứng.",
+
+"config.snow.midground.speed-name": "Tốc độ Trung cảnh",
+"config.snow.midground.alpha-name": "Độ trong suốt Trung cảnh",
+"config.snow.midground.diagonal-name": "Chuyển động chéo Trung cảnh",
+"config.snow.midground.shake.freq-name": "Tần suất rung Trung cảnh",
+"config.snow.midground.shake.amp-name": "Biên độ rung Trung cảnh",
+
+
+
+"config.section.snow.background-text": "■ Tuyết: Lớp Hậu cảnh",
+"config.section.snow.background-tooltip": "Điều khiển cho những bông tuyết chậm nhất, trong suốt nhất xuất hiện xa nhất.",
+
+"config.snow.background.speed-name": "Tốc độ Hậu cảnh",
+"config.snow.background.alpha-name": "Độ trong suốt Hậu cảnh",
+"config.snow.background.diagonal-name": "Chuyển động chéo Hậu cảnh",
+"config.snow.background.shake.freq-name": "Tần suất rung Hậu cảnh",
+"config.snow.background.shake.amp-name": "Biên độ rung Hậu cảnh",
+
+
+"config.section.debugging-text": "--- [Gỡ lỗi] ---",
+"config.section.debugging-tooltip": "Các điều khiển để Gỡ lỗi",
+
+"config.debugging.enablelog-name": "Bật Nhật ký Gỡ lỗi",
+"config.debugging.enablelog-tooltip": "Nếu đúng, các thông báo gỡ lỗi chi tiết sẽ xuất hiện trong bảng điều khiển SMAPI. Chỉ bật khi cần khắc phục sự cố.",
+
+"config.debugging.logtype-name": "Loại Nhật ký Gỡ lỗi",
+"config.debugging.logtype-tooltip": "Nếu chế độ Gỡ lỗi đang bật, hãy chọn loại ghi nhật ký. Bình thường: Ghi nhật ký chậm với ưu tiên cao nhất. Liên tục: Ghi nhật ký tần suất cao để gỡ lỗi hoàn chỉnh và theo dõi chuỗi logic."
+
+}

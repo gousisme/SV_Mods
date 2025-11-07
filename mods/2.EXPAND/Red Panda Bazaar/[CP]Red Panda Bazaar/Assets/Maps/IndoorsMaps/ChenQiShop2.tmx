@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="18" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="30">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="DayTiles" value="Front 9 3 256 Front 9 4 288 Front 12 3 256 Front 12 4 288 Front 15 3 256 Front 15 4 288 Front 12 11 256 Front 12 12 288 Front 2 11 1344 Front 4 11 1344 Front 5 19 1344 Front 8 19 1344"/>
+  <property name="Doors" value="3 12 1 120 10 19 1 120"/>
+  <property name="NightTiles" value="Front 9 3 1253 Front 9 4 1285 Front 12 3 1253 Front 12 4 1285 Front 15 3 1253 Front 15 4 1285 Front 12 11 1253 Front 12 12 1285 Front 2 11 1345 Front 4 11 1345 Front 5 19 1345 Front 8 19 1345"/>
+  <property name="Warp" value="3 4 Custom_ChenQiShop1 3 5 "/>
+ </properties>
+ <tileset firstgid="1" name="LiLaoliu's Tilesheets" tilewidth="16" tileheight="16" tilecount="1325" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets.png" width="400" height="848"/>
+ </tileset>
+ <tileset firstgid="1326" name="LiLaoliu's Tilesheets2" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets2.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="2826" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2862" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="5038" name="furniture_3" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="Vanilla_RedPandaBazaar_furniture_3.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="5389" name="LiLaoliu_RedPandaBazaar_Tilesheets5" tilewidth="16" tileheight="16" tilecount="1050" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets5.png" width="400" height="672"/>
+ </tileset>
+ <tileset firstgid="6439" name="LiLaoliu_RedPandaBazaar_Tilesheets3" tilewidth="16" tileheight="16" tilecount="1950" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets3.png" width="400" height="1248"/>
+ </tileset>
+ <tileset firstgid="8389" name="LiLaoliu_RedPandaBazaar_Tilesheets6" tilewidth="16" tileheight="16" tilecount="3458" columns="26">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets6.png" width="416" height="2128"/>
+ </tileset>
+ <tileset firstgid="11847" name="LiLaoliu_RedPandaBazaar_Tilesheets7" tilewidth="16" tileheight="16" tilecount="546" columns="26">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets7.png" width="416" height="336"/>
+ </tileset>
+ <tileset firstgid="12393" name="Vanilla_RedPandaBazaar_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+  <image source="Vanilla_RedPandaBazaar_Shadows.png" width="304" height="400"/>
+ </tileset>
+ <tileset firstgid="12868" name="Vanilla_RedPandaBazaar_Craftables" tilewidth="16" tileheight="16" tilecount="736" columns="8">
+  <image source="Vanilla_RedPandaBazaar_Craftables.png" width="128" height="1472"/>
+ </tileset>
+ <tileset firstgid="13604" name="LiLaoliu_RedPandaBazaar_Tilesheets5" tilewidth="16" tileheight="16" tilecount="1050" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets5.png" width="400" height="672"/>
+ </tileset>
+ <layer id="2" name="Back" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,819,520,821,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,919,520,921,0,0,1038,1138,1139,1140,1138,1139,1140,1138,1139,1140,0,
+0,1165,844,517,846,1165,1165,1165,1063,1064,1065,1063,1064,1065,1063,1064,1065,820,
+0,1190,0,4135,0,1190,1190,1190,1088,1089,1090,1088,1089,1090,1088,1089,1090,845,
+0,1215,4135,4167,4135,1215,1215,1215,507,508,508,508,508,508,508,508,509,870,
+0,4135,4167,4166,4167,4135,4134,4135,532,533,533,533,533,533,533,533,534,0,
+0,4198,4199,4198,4199,4198,4199,4198,532,533,533,533,533,533,533,533,534,0,
+0,0,4166,4167,4166,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,4198,4199,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,819,1165,4167,1165,820,0,0,1138,1139,1140,1138,1139,1140,1138,1139,1140,0,
+0,1165,1190,4167,1190,1165,0,0,1063,1064,1065,1063,1064,1065,1063,1064,1065,0,
+0,1190,1215,517,1215,1190,0,0,1088,1089,1090,1088,1089,1090,1088,1089,1090,0,
+0,1215,4135,4134,4135,1215,0,0,739,739,739,739,739,739,739,739,739,0,
+0,4134,4198,4199,4198,4135,0,0,739,739,739,739,739,739,739,739,739,0,
+0,0,4166,4167,4166,0,0,0,739,739,739,739,739,739,739,739,739,0,
+0,0,4198,4199,4198,0,0,0,4198,4198,739,4198,4198,4198,4198,4198,4198,0,
+0,1164,1165,4167,1138,1139,1140,1138,1139,1140,739,1138,1139,1140,1138,1139,1140,0,
+0,1189,1190,745,1063,1064,1065,1063,1064,1065,739,1063,1064,1065,1063,1064,1065,0,
+0,1214,1215,517,1088,1089,1090,1088,1089,1090,517,1088,1089,1090,1088,1089,1090,0,
+0,507,508,508,508,508,508,508,508,508,508,508,508,508,508,508,509,0,
+0,532,533,533,533,533,533,533,533,533,533,533,533,533,533,533,534,0,
+0,532,533,533,533,533,533,533,533,533,533,533,533,533,533,533,534,0,
+0,4199,4198,0,4198,4199,4198,4199,4198,4199,0,4199,4198,4199,4198,4199,4198,0
+</data>
+ </layer>
+ <layer id="11" name="Back2" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,832,832,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="Back3" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12590,0,12590,0,0,0,12590,12590,12590,12590,12590,12590,12590,12590,12590,0,
+0,12590,0,0,0,12590,12590,12590,0,0,0,0,0,0,0,0,0,0,
+0,0,0,12477,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12419,12418,12477,0,0,0,12458,12458,12458,12458,12458,12458,12458,12458,12477,0,
+0,12419,0,0,12418,12458,12458,12419,0,0,0,0,0,0,0,0,12436,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12436,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12590,0,12590,0,0,0,12590,12590,12590,12590,12590,12590,12590,12590,12590,0,
+0,12590,0,0,0,12590,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12419,0,12477,0,0,0,12454,12454,12454,12454,12454,12454,12454,12454,12477,0,
+0,12419,0,0,12436,12488,0,0,0,0,0,0,0,0,0,0,12436,0,
+0,0,0,0,12436,0,0,0,0,0,0,0,0,0,0,0,12436,0,
+0,0,0,0,12436,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12590,12590,0,12590,12590,12590,12590,12590,12590,12455,12590,12590,12590,12590,12590,12590,0,
+0,0,0,0,0,0,0,0,0,0,12488,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12458,12458,12458,12458,12458,12458,12458,12458,12458,12458,12458,12458,12458,12458,12458,12477,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12436,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12436,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12436,0
+</data>
+ </layer>
+ <layer id="13" name="Back4" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,12570,0,0,0,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,12570,0,0,12570,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,12590,12570,0,0,12570,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,12570,0,0,12570,12591,12591,12591,12591,12591,12591,12591,12591,12591,0,
+0,0,0,0,12589,12591,12593,12594,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,12570,0,0,0,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,12570,12570,0,0,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,12570,12570,0,0,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,0,12570,0,0,12590,12590,12590,12590,12590,12590,12590,12590,12570,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12570,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,12570,0,0,0,0,0,0,12570,0,
+0,0,0,0,0,0,0,0,0,12570,0,0,0,0,0,0,12570,0,
+0,0,0,0,0,0,0,0,0,12570,0,0,0,0,0,0,12570,0,
+0,12590,12590,12590,12590,12590,12590,12590,12590,12590,12590,12590,12590,12590,12590,12590,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="18" height="25">
+  <data encoding="csv">
+78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,
+78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,
+78,30,32,32,32,34,78,30,32,32,32,32,32,32,32,32,32,34,
+30,29,979,0,977,27,32,29,0,0,0,0,0,0,0,0,0,79,
+77,979,1004,0,1002,977,0,979,0,0,0,0,0,0,0,0,0,79,
+77,1004,1029,0,1027,1002,1003,1004,832,832,832,832,832,832,832,832,832,79,
+77,1029,0,0,13298,1027,1028,1029,0,13986,13990,13991,13987,0,13986,13987,0,79,
+77,5142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,
+52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,
+78,52,0,0,0,54,78,78,78,78,78,78,78,78,78,78,78,78,
+78,30,29,0,27,34,78,30,28,28,28,28,28,28,28,28,28,34,
+30,29,979,0,977,27,34,77,0,7521,7522,0,0,0,0,0,0,79,
+77,979,1004,2982,1002,977,79,77,0,7546,7547,0,0,7494,7495,3170,0,79,
+77,1004,1029,0,1027,1002,79,77,832,832,832,832,832,832,832,3218,3219,79,
+77,1029,0,0,5143,1027,79,77,3415,5865,5866,3383,5314,10446,0,0,0,79,
+52,5315,0,0,0,2700,54,77,0,0,0,0,0,0,0,3182,3183,79,
+78,52,0,0,0,54,78,52,12291,12292,0,0,0,0,0,0,0,54,
+30,28,29,0,27,28,28,28,28,29,0,27,28,28,28,28,28,34,
+77,2199,979,0,977,0,0,0,0,979,0,977,0,0,0,0,979,79,
+77,0,979,0,977,0,0,0,0,979,2982,977,0,0,0,0,979,79,
+77,832,1004,0,1002,1003,1003,1003,1003,1004,0,1002,0,3534,3534,0,1004,79,
+77,5246,5247,0,0,5990,5991,5992,3383,0,0,0,5940,5941,5941,5942,3263,79,
+77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,
+52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,
+78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78
+</data>
+ </layer>
+ <layer id="5" name="Paths" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2834,0,0,0,0,0,0,0,2834,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2834,0,2834,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2834,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2834,0,0,2834,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2834,0,0,0,0,0,0,0,0,0,0,2834,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3118,0,0,3118,2414,2415,3118,0,0,
+0,0,0,0,0,2436,2437,2438,0,3150,2408,2409,3150,2406,2407,3150,0,0,
+0,0,0,0,13290,2430,2431,2432,0,13961,13965,13966,13962,0,13961,13962,0,0,
+0,5129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,134,0,0,0,130,132,132,132,132,132,132,132,132,132,132,132,0,
+0,0,134,0,130,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,4206,0,4206,0,0,0,0,0,0,0,3118,7469,7470,0,0,0,
+0,2177,0,0,0,2199,0,0,0,0,0,0,3150,0,0,3186,3187,0,
+0,0,0,0,5130,0,0,0,0,5840,5841,3351,5301,10420,0,0,0,0,
+0,5302,0,0,0,0,0,0,0,0,0,0,0,0,0,3246,3247,0,
+0,134,0,0,0,128,0,0,12265,12266,0,0,0,0,0,0,0,0,
+0,0,134,0,130,0,0,0,132,134,0,128,132,132,132,132,132,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,4206,0,0,4206,0,0,0,3441,3502,3502,3442,0,0,
+0,5233,5234,0,0,5965,5966,5967,3351,0,0,0,5915,5916,5916,5917,3231,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,53,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="18" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,5116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,5117,0,0,0,0,0,0,0,0,10394,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3214,3215,0,
+0,0,0,0,0,2675,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,5220,5221,0,0,0,0,0,0,0,0,0,5890,5891,5891,5892,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Back"/>
+ <objectgroup id="9" name="Buildings">
+  <object id="1" name="TileData" x="160" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door RedPandaBazaar_ChenXiaoMing"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="48" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="16" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.1.7&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.5.6&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="96" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.6.6&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="112" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.7.6&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="144" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.9.6&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="160" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.10.6&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="176" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.11.6&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="192" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.12.6&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="208" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.13.5&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="224" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.14.6&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.15.6&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="64" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.4.14&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="16" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.1.15&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="16" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.1.21&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="32" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.2.21&quot; "/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="80" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.5.21&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="96" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.6.21&quot;"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="112" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.7.21&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="192" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.12.21&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="208" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.13.21&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="224" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.14.21&quot;"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="240" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.15.21&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="256" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.16.21&quot;"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="144" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.9.14&quot;"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="160" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.10.14&quot;"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="192" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ChenQiShop2.12.14&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="6" name="AlwaysFront"/>
+</map>

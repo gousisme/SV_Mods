@@ -1,0 +1,179 @@
+{
+  "Format": "2.3.0",
+
+  "ConfigSchema": {
+    "Perfection": {
+      "Description": "Whether or not you want objects from the mod to be required for perfection. Defaults to true.",
+      "AllowValues": "true, false",
+      "Default": true,
+      "AllowBlank": false,
+      "AllowMultiple": false
+    }
+  },
+
+  "DynamicTokens":[
+        {
+          "Name": "PerfectionToggle",
+          "Value": false,
+          "When":{"Perfection": "true"}
+        },
+        {
+          "Name": "PerfectionToggle",
+          "Value": true,
+          "When":{"Perfection": "false"}
+        },
+        {
+            "Name": "Animal_Shop_Owner",
+            "Value": "AlchemistShop",
+            "When":{"HasMod:|contains= mushymato.LivestockBazaar": true}
+        },
+        {
+            "Name": "Animal_Shop_Owner",
+            "Value": "MarnieShop",
+            "When":{"HasMod:|contains= mushymato.LivestockBazaar": false}
+        },
+       /* {
+            "Name": "Bush_Token",
+            "Value": "Bushes",
+             "When":{"HasMod:|contains= furyx639.CustomBush":true}
+        },*/
+        {
+            "Name": "Bush_Token",
+            "Value": "NoBushes",
+        },
+    ],
+
+  "Changes": [
+
+// ----------------LOCATIONS ------------------- //
+
+    {
+      "LogName": "Include Location Data",
+      "Action": "Include",
+      "FromFile": "Data/Locations/Locations.json, Data/Locations/Shops.json, Data/Locations/Strings.json, Data/Locations/{{Animal_Shop_Owner}}_Animals.json,"
+    },
+
+// ----------------SPRITES + PORTRAITS ------------------- //
+
+    {
+      "LogName": "Sprites and Portraits",
+      "Action": "Load",
+      "Target": "Portraits/WildflourSASS, Portraits/RoseSASS, Characters/WildflourSASS, Characters/RoseSASS",
+      "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+    },
+
+    {
+      "LogName": "Add Sprout Version of Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/WildflourSASS",
+      "FromFile": "Assets/{{Target}}/WildflourSASS_Sprout.png",
+      "When":{"HasSeenEvent":"{{ModId}}_SproutMoonDrops"}
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/CoriSASS",
+      "FromFile": "assets/tempActors/CoriSASS/Cori_Sprite.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Portraits/CoriSASS",
+      "FromFile": "assets/tempActors/CoriSASS/Cori_Portrait.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Characters/RaccoonSASS",
+      "FromFile": "assets/tempActors/RaccoonSASS/RaccoonSASS_Sprite.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Portraits/RaccoonSASS",
+      "FromFile": "assets/tempActors/RaccoonSASS/RaccoonSASS_Portrait.png"
+    },
+
+
+// ----------------BLANK JSON LOAD ------------------- //
+
+    {
+      "LogName": "NPC BLANK JSON LOAD",
+      "Action": "Load",
+      "Target": "Characters/schedules/WildflourSASS, Characters/schedules/RoseSASS, Characters/Dialogue/WildflourSASS, Characters/Dialogue/RoseSASS, Strings/schedules/WildflourSASS, Strings/schedules/RoseSASS, Data/Events/{{ModId}}_Atelier",
+      "FromFile": "Data/NPC/blank.json"
+    },
+
+// ----------------NPC DATA ------------------- //
+
+    {
+      "LogName": "Include NPC Data",
+      "Action": "Include",
+      "FromFile": "Data/NPC/Animations.json, Data/NPC/Dispositions.json, Data/NPC/Festivals.json, Data/NPC/GiftTasteData.json, Data/NPC/Mail.json, Data/NPC/ConversationTopics.json, Data/NPC/Dialogues.json, Data/NPC/Schedules.json"
+    },
+
+    {
+      "LogName": "Include Event Data",
+      "Action": "Include",
+      "FromFile": "Data/Events/EventData.json"
+    },
+
+// ----------------ITEM DATA ------------------- //
+
+    {
+      "LogName": "Include Item Data",
+      "Action": "Include",
+      "FromFile": "Data/Items/Crops_Base.json, Data/Items/Crops_{{Bush_Token}}.json, Data/Items/FruitTrees.json, Data/Items/Objects.json, Data/Locations/Artifact_Spots.json, Data/Items/Orbs_{{Bush_Token}}.json, Data/Items/Machines.json, Data/Items/SpecialOrders.json, Data/Items/WildTrees.json"
+    },
+
+    {
+      "LogName": "Include Clumps and Resource Data",
+      "Action": "Include",
+      "FromFile": "Data/Items/Resources.json",
+      "When":{"HasMod:|contains= mistyspring.ItemExtensions":true}
+    },
+
+    {
+      "LogName": "Include Strange Fruit Patch",
+      "Action": "Include",
+      "FromFile": "Data/Items/StrangeFruit_Patch.json",
+      "When":{"HasSeenEvent":"{{ModId}}_StrangeFruit"}
+    },
+
+    {
+      "LogName": "Include Bush Bloom Data",
+      "Action": "Include",
+      "FromFile": "Data/Items/BushBloom.json",
+      "When":{"HasMod:|contains= NCarigon.BushBloomMod":true}
+    },
+
+    {
+      "LogName": "Include Magic Warp Totem Data",
+      "Action": "Include",
+      "FromFile": "Data/Items/Totems.json",
+      "When":{"HasMod:|contains= spacechase0.SpaceCore":true, "HasMod:|contains= Wildflour.NooksCrannies":true}
+    },
+
+    {
+      "LogName": "Include Calcifer Data",
+      "Action": "Include",
+      "FromFile": "Data/Items/Calcifer.json",
+      "When":{"HasMod:|contains= sophie.Calcifer":true}
+    },
+
+    {
+        "LogName": "WAG Shop Patch Data",
+        "Action": "Include",
+        "FromFile": "Data/Locations/Shops_WAG_Patch.json",
+        "When": {"HasMod:|contains= Wildflour.AtelierGoods": true}
+    }
+
+   /* {
+        "LogName": "Mush Log Data",
+        "Action": "Include",
+        "FromFile": "Data/Items/Mush_Log.json",
+        "When": {"HasMod:|contains= BarleyZP.MushroomLogFramework": true}
+    }*/
+
+  ]
+}

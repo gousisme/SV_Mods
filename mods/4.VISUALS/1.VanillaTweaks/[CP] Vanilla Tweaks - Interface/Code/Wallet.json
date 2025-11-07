@@ -1,0 +1,415 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Dwarvish Translation Guide",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/DwarvishTranslationGuide.png",
+			"ToArea": { "X": 224, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Dwarvish Translation Guide": true
+			}
+		},
+        {
+			"LogName": "Rusty Key",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/RustyKey.png",
+			"ToArea": { "X": 144, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Rusty Key": true
+			}
+		},
+        {
+			"LogName": "Club Card",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/ClubCard.png",
+			"ToArea": { "X": 160, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Club Card": true
+			}
+		},
+        {
+			"LogName": "Special Charm",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/SpecialCharm.png",
+			"ToArea": { "X": 176, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Special Charm": true
+			}
+		},
+        {
+			"LogName": "Magnifying Glass",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/MagnifyingGlass.png",
+			"ToArea": { "X": 208, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Magnifying Glass": true
+			}
+		},
+        {
+			"LogName": "Skull Key",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/SkullKey.png",
+			"ToArea": { "X": 192, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Skull Key": true
+			}
+		},
+        {
+			"LogName": "Dark Talisman",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/DarkTalisman.png",
+			"ToArea": { "X": 224, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Dark Talisman": true
+			}
+		},
+        {
+			"LogName": "Magic Ink",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/MagicInk.png",
+			"ToArea": { "X": 240, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Magic Ink": true
+			}
+		},
+        {
+			"LogName": "Bear's Knowledge",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/BearsKnowledge.png",
+			"ToArea": { "X": 192, "Y": 336, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Bear's Knowledge": true
+			}
+		},
+        {
+			"LogName": "Spring Onion Mastery",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/SpringOnionMastery.png",
+			"ToArea": { "X": 208, "Y": 336, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Spring Onion Mastery": true
+			}
+		},
+        {
+			"LogName": "Key to the Town",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/KeyToTheTown.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Key to the Town": true
+			}
+		},
+		
+// Skill Books
+
+        {
+			"LogName": "Animal Catalogue",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/AnimalCatalogue.png",
+			"ToArea": { "X": 96, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Animal Catalogue": true
+			}
+		},
+        {
+			"LogName": "Price Catalogue",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/PriceCatalogue.png",
+			"ToArea": { "X": 32, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Price Catalogue": true
+			}
+		},
+        {
+			"LogName": "Ol' Slitherlegs",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/Ol'Slitherlegs.png",
+			"ToArea": { "X": 16, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Ol' Slitherlegs": true
+			}
+		},		
+        {
+			"LogName": "Horse The Book",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/Horse.png",
+			"ToArea": { "X": 80, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Horse The Book": true
+			}
+		},
+        {
+			"LogName": "Appraisal Guide",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/AppraisalGuide.png",
+			"ToArea": { "X": 64, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Appraisal Guide": true
+			}
+		},
+        {
+			"LogName": "The Way of the Wind 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/GottaGoFast1.png",
+			"ToArea": { "X": 112, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= The Way of the Wind 1": true
+			}
+		},		
+        {
+			"LogName": "The Way of the Wind 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/GottaGoFast2.png",
+			"ToArea": { "X": 112, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= The Way of the Wind 2": true
+			}
+		},
+        {
+			"LogName": "Monster Compendium",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/MonsterCompendium.png",
+			"ToArea": { "X": 96, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Monster Compendium": true
+			}
+		},		
+        {
+			"LogName": "Book Of Mysteries",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/BookOfMysteries.png",
+			"ToArea": { "X": 80, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Book Of Mysteries": true
+			}
+		},
+        {
+			"LogName": "Diamond Hunter",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/DiamondHunter.png",
+			"ToArea": { "X": 64, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Diamond Hunter": true
+			}
+		},
+        {
+			"LogName": "Queen Of Sauce Cookbook",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/QueenOfSauceCookbook.png",
+			"ToArea": { "X": 48, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Queen Of Sauce Cookbook": true
+			}
+		},	
+        {
+			"LogName": "Mapping Caves",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/MappingCaves.png",
+			"ToArea": { "X": 0, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Mapping Caves": true
+			}
+		},		
+        {
+			"LogName": "Friendship 101",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/Friendship101.png",
+			"ToArea": { "X": 80, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Friendship 101": true
+			}
+		},		
+        {
+			"LogName": "Be Nimble Be Thick",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/NimbleAndThick.png",
+			"ToArea": { "X": 64, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Nimble And Thick": true
+			}
+		},		
+        {
+			"LogName": "Woody's Secret",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/Woody'sSecret.png",
+			"ToArea": { "X": 48, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Woody's Secret": true
+			}
+		},	
+        {
+			"LogName": "Racoon Journal",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/RaccoonJournal.png",
+			"ToArea": { "X": 32, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Racoon Journal": true
+			}
+		},		
+        {
+			"LogName": "Jewels Of The Sea",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/JewelsOfTheSea.png",
+			"ToArea": { "X": 16, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Jewels Of The Sea": true
+			}
+		},		
+        {
+			"LogName": "Dwarvish Safety Manual",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/DwarvishSafetyManual.png",
+			"ToArea": { "X": 0, "Y": 208, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Dwarvish Safety Manual": true
+			}
+		},		
+        {
+			"LogName": "The Art O' Crabbing",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/TheArtO'Crabbing.png",
+			"ToArea": { "X": 112, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= The Art O' Crabbing": true
+			}
+		},
+        {
+			"LogName": "The Alleyway Buffet",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/TheAlleywayBuffet.png",
+			"ToArea": { "X": 96, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= The Alleyway Buffet": true
+			}
+		},
+        {
+			"LogName": "Combat Quarterly",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/CombatQuarterly.png",
+			"ToArea": { "X": 96, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Combat Quarterly": true
+			}
+		},	
+        {
+			"LogName": "Mining Monthly",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/MiningMonthly.png",
+			"ToArea": { "X": 80, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Mining Monthly": true
+			}
+		},
+        {
+			"LogName": "Bait And Bobber",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/BaitAndBobber.png",
+			"ToArea": { "X": 64, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Bait And Bobber": true
+			}
+		},
+        {
+			"LogName": "Woodcutter's Weekly",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/Woodcutter'sWeekly.png",
+			"ToArea": { "X": 48, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Woodcutter's Weekly": true
+			}
+		},
+        {
+			"LogName": "Stardew Valley Almanac",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/StardewValleyAlmanac.png",
+			"ToArea": { "X": 32, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Stardew Valley Almanac": true
+			}
+		},	
+        {
+			"LogName": "Book Of Stars",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Wallet/BookOfStars.png",
+			"ToArea": { "X": 16, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Wallet |contains= Book Of Stars": true	
+			}
+		}
+    ]
+}

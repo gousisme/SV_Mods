@@ -1,0 +1,17 @@
+{
+   "Name": "FarmerBeans' Premium Farm Buildings for SVE",
+   "Author": "FarmerBeans",
+   "Version": "1.1.1",
+   "Description": "Retextures the Premium Coop, Barn, Winery and Grandpa's Shed from Stardew Valley Expanded",
+   "UniqueID": "FarmerBeans.PremBuildingsCP",
+   "UpdateKeys": ["Nexus:32013"],
+    "Dependencies": [
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": true
+        }
+    ], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

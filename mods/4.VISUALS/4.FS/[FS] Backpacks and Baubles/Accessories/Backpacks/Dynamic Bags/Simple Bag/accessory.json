@@ -1,0 +1,301 @@
+{
+  "Name": "Simple Bag (Dynamic)",
+  "BackAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -10
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 0
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 11
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 24
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 23
+          }
+        ]
+      }
+    ]
+  },
+  "FrontAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -9
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ]
+  },
+  "RightAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 16,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": -9
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "EqualTo",
+            "Value": 0
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 0
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 11
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 24
+          }
+        ]
+      },
+      {
+        "Frame": 3,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 23
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 36
+          }
+        ]
+      },
+      {
+        "Frame": 4,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsInventoryFull",
+            "Value": true
+          }
+        ]
+      }
+    ]
+  },
+  "LeftAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "Flipped": true,
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 16,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": -8,
+      "Y": -9
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "EqualTo",
+            "Value": 0
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 0
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 11
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 24
+          }
+        ]
+      },
+      {
+        "Frame": 3,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "GreaterThan",
+            "Value": 23
+          },
+          {
+            "Name": "InventoryItemCount",
+            "Operator": "LessThan",
+            "Value": 36
+          }
+        ]
+      },
+      {
+        "Frame": 4,
+        "Duration": 100,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsInventoryFull",
+            "Value": true
+          }
+        ]
+      }
+    ]
+  }
+}

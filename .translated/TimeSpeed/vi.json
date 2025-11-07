@@ -1,0 +1,86 @@
+﻿{
+    /*********
+    ** In-game messages
+    *********/
+    // changed manually
+    "message.config-reloaded": "Cảm giác thời gian hơi bị là lạ...",
+    "message.speed-changed": "10 phút mà có cảm giác như {{seconds}} giây.",
+    "message.time-stopped": "Nè, bạn vừa dừng thòi gian đó!",
+    "message.time-resumed": "Thời gian đã trở về bình thường...",
+
+    // changed based on time
+    "message.on-time-change.time-stopped": "Thời gian đột nhiên dừng lại...",
+
+    // changed based on location
+    "message.on-location-change.time-stopped-globally": "Có vẻ thời gian ở khắp nơi đã dừng lại",
+    "message.on-location-change.time-stopped-here": "Cảm giác như thời gian đang bị đóng băng ở đây vậy...",
+    "message.on-location-change.time-speed-here": "10 phút ở đây có cảm giác như {{seconds}} giây vậy...",
+
+    // multiplayer messages
+    "message.host-missing-mod": "Bạn không thể thay đổi thời gian vì người chơi chính không cài đặt TimeSpeed.",
+    "message.host-access-denied": "Bạn không thể thay đổi thời gian vì người chơi chính không cho phép.",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // warnings
+    "config.farmhand-warning": "Các tùy chọn của người chơi chính sẽ được áp dụng cho bản lưu này. Bạn vẫn có thể chỉnh sửa các tùy chọn bên dưới, nhưng chỉ các phím điều khiển là có tác dụng khi bạn là một nông dân phụ.",
+
+    // general options
+    "config.general-options": "Tùy chọn chung",
+    "config.enable-on-festival-days.name": "Bật vào những ngày lễ hội",
+    "config.enable-on-festival-days.desc": "Có nên thay đổi độ dài tích tắc vào những ngày lễ hội hay không.",
+    "config.location-notify.name": "Hiển thị thông tin thời gian trên sợi dọc",
+    "config.location-notify.desc": "Có hiển thị thông báo về cài đặt thời gian khi bạn nhập một địa điểm hay không.",
+
+    // seconds per minute section
+    "config.seconds-per-minute": "Giây trên phút",
+    "config.indoors-speed.name": "Trong nhà",
+    "config.indoors-speed.desc": "Số giây mỗi phút trong trò chơi khi ở trong nhà.",
+    "config.outdoors-speed.name": "Ngoài trời",
+    "config.outdoors-speed.desc": "Số giây mỗi phút trong trò chơi khi ở ngoài trời.",
+    "config.mine-speed.name": "Mỏ",
+    "config.mine-speed.desc": "Số giây mỗi phút trong trò chơi khi ở trong mỏ.",
+    "config.skull-cavern-speed.name": "Hang đầu lâu",
+    "config.skull-cavern-speed.desc": "Số giây mỗi phút trong trò chơi khi ở trong Hang đầu lâu.",
+    "config.volcano-dungeon-speed.name": "Hầm ngục núi lửa",
+    "config.volcano-dungeon-speed.desc": "Số giây mỗi phút trong trò chơi khi ở trong Hầm ngục núi lửa.",
+
+    // freeze time section
+    "config.freeze-time": "Đóng băng thời gian",
+    "config.anywhere-at-time.name": "Đóng băng thời gian tại",
+    "config.anywhere-at-time.desc": "Thời điểm đóng băng thời gian ở mọi nơi. Phải trong khoảng thời gian 24 giờ, từ 600 (6 giờ sáng) đến 2400 (nửa đêm) và 2600 (2 giờ sáng). Bạn có thể đặt thành 2600 để tắt chức năng này.",
+    "config.freeze-before-passing-out.name": "Đóng băng thời gian trước 2 giờ sáng",
+    "config.freeze-before-passing-out.desc": "Có đóng băng thời gian ở mọi nơi trước khi người chơi ngất xỉu (tức là lúc 1:50 sáng) hay không. Tùy chọn này hoạt động song song với tùy chọn '{{freezeTimeAt}}'.",
+    "config.freeze-time-indoors.name": "Trong nhà",
+    "config.freeze-time-indoors.desc": "Có nên đóng băng thời gian khi ở trong nhà không?",
+    "config.freeze-time-outdoors.name": "Ngoài trời",
+    "config.freeze-time-outdoors.desc": "Có nên đóng băng thời gian khi ở ngoài trời không?",
+    "config.freeze-time-mine.name": "Mỏ",
+    "config.freeze-time-mine.desc": "Có nên đóng băng thời gian khi đang đi mỏ không?",
+    "config.freeze-time-skull-cavern.name": "Hang đầu lâu",
+    "config.freeze-time-skull-cavern.desc": "Có nên đóng băng thời gian khi đang ở dưới hang đàu lâu không?",
+    "config.freeze-time-volcano-dungeon.name": "Hầm ngục núi lửa",
+    "config.freeze-time-volcano-dungeon.desc": "Có nên đóng băng thời gian khi đang đi khám phá hầm ngục núi lửa không?",
+    "config.freeze-time-freeze-names.name": "Tên địa điểm đóng băng",
+    "config.freeze-time-freeze-names.desc": "Tên của các địa điểm có thể đóng băng thời gian. Tên địa điểm có thể được nhìn thấy trong trò chơi bằng cách sử dụng mod Debug Mode. Bạn có thể liệt kê bằng dấu phẩy.",
+    "config.freeze-time-dont-freeze-names.name": "Tên địa điểm không đóng băng",
+    "config.freeze-time-dont-freeze-names.desc": "Tên của các địa điểm cụ thể mà tại thời điểm đó không nên để cố định, bất kể cài đặt trước đó có là gì. Tên địa điểm có thể được nhìn thấy trong trò chơi bằng cách sử dụng mod Debug Mode. Bạn có thể liệt kê bằng dấu phẩy.",
+
+    // multiplayer options
+    "config.multiplayer": "Nhiều người chơi",
+    "config.let-farmhands-manage-time.name": "Cho phép nông dân phụ quản lý thời gian",
+    "config.let-farmhands-manage-time.description": "Khi bạn là chủ host trong chế độ nhiều người chơi, liệu những người chơi khác có thể đóng băng hoặc thay đổi tốc độ thời gian nếu họ cũng đã cài đặt mod hay không.",
+
+    // controls
+    "config.controls": "Điều khiển",
+    "config.freeze-time-key.name": "Đóng băng thời gian",
+    "config.freeze-time-key.desc": "Phím dùng để đóng băng hoặc giải phóng thời gian. Thời gian đóng băng sẽ có hiệu lực cho đến khi bạn nhấn lại nút; thời gian sẽ trở lại bình thường khi bạn vào một địa điểm mới với cài đặt thời gian.",
+    "config.slow-time-key.name": "Làm chậm thời hian",
+    "config.slow-time-key.desc": "Phím làm chậm thời gian một giây trong 10 phút.  Kết hợp với phím Control để giảm 100 giây, phím Shift để giảm 10 giây hoặc phím Alt để giảm 0,1 giây.",
+    "config.speed-up-time-key.name": "Tăng tốc thời gian",
+    "config.speed-up-time-key.desc": "Phím giúp tăng thời gian thêm một giây trong 10 phút. Kết hợp với phím Control để tăng 100 giây, phím Shift để tăng 10 giây hoặc phím Alt để tăng 0,1 giây.",
+    "config.reload-key.name": "Tải lại cấu hình",
+    "config.reload-key.desc": "Phím tải lại tất cả các giá trị từ tệp cấu hình và áp dụng chúng ngay lập tức. Thời gian sẽ bị đóng băng nếu nó bị đóng băng thông qua phím nóng."
+}

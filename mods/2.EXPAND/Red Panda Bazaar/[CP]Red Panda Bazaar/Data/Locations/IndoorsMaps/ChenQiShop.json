@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ChenQiShop1": {
+          "DisplayName": "{{i18n:ChenQiShop1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ChenQiShop1"
+          },
+          "FormerLocationNames": [
+            "ChenQiShop1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ChenQiShop2": {
+          "DisplayName": "{{i18n:ChenQiShop2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ChenQiShop2"
+          },
+          "FormerLocationNames": [
+            "ChenQiShop2"
+          ]
+        }
+      }
+    }
+  ]
+}

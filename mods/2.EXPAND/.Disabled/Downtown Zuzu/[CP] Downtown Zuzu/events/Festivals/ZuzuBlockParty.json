@@ -1,0 +1,28 @@
+{
+  "name": "祖祖街区派对",
+  "locationDisplayName": "在祖祖市公共汽车站区域",
+  "conditions": "Custom_DTZ_ZuzuCity1/1100 1900",
+  "set-up": "zuzuClubFunky/-1000 -1000/farmer 1 47 1/changeToTemporaryMap Custom_DTZ_ZuzuBlockParty/loadActors Set-Up/playerControl fair",
+  "mainEvent": "null",
+  "Set-Up_additionalCharacters": "DTZ.DowntownZuzuCP_Gwen 28 49 0/DTZ.DowntownZuzuCP_David 29 31 0/DTZ.DowntownZuzuCP_Callum 27 31 0/DTZ.DowntownZuzuCP_Kristoff 29 24 2/DTZ.DowntownZuzuCP_Sadie 22 48 1/DTZ.DowntownZuzuCP_Buddy 32 29 3/DTZ.DowntownZuzuCP_Selena 31 28 2/DTZ.DowntownZuzuCP_Max 30 25 3/DTZ.DowntownZuzuCP_Hazel 31 35 1/DTZ.DowntownZuzuCP_Giovanni 25 34 2/MadDog.HashtagBearFam.Teren 31 48 0",
+  "DTZ.DowntownZuzuCP_David": "Bạn khỏe không, @?$h#$b#Bánh mì kẹp thịt có mùi rất ngon phải không?$l",
+  "DTZ.DowntownZuzuCP_Gwen": "Bạn khỏe không @?#$b#Ban nhạc thực sự chơi rất hay phải không?$h",
+  "DTZ.DowntownZuzuCP_Gwen_spouse": "${Anh/Chị}$ có khoẻ không, @, tình yêu của em?$l#$b#Ban nhạc này thật tuyệt vời!$h",
+  "Haley": "Ồ, @#$b#Tớ thích đến Zuzu Block Party vào mọi năm.$h#$b#Tớ luôn chụp được những bức ảnh đẹp!$l",
+   "Haley_spouse": "Hey, @!$h#$b#Em yêu việc đến Zuzu Block Party vào mọi năm.$h#$b#Em luôn chụp được những bức ảnh đẹp!$l",
+   "Emily": "Hey, @. Năng lượng ở lễ hội này thật sự rất tuyệt.$h#$b#Chị đến đây vào mọi năm với Sandy，chị rất thích đi tham quan thành phố Zuzu.",
+   "Emily_spouse": "Hello, @! Lễ hội này có năng lượng rất tuyệt nhưng việc em đến đây còn khiến nó tốt hơn!$h#$b#Chị đến đây vào mọi năm với Sandy, chị rất thích đi tham quan thành phố Zuzu.",
+   "Sandy": "@！$h#$b#Thật bất ngờ!$h#$b#Chị yêu việc đến thành phố Zuzu khi cửa hàng không quá nhiều việc, và bữa tiệc này thậm chí còn khiến nó tuyệt vời hơn!$h",
+   "DTZ.DowntownZuzuCP_Kristoff": "Oh, một ngày tốt lành, @! Tôi mong ${cậu/cô}$ thích bữa tiệc.#$b#Tôi đã tài trợ nó.$h",
+   "DTZ.DowntownZuzuCP_Kristoff_spouse": "Xin chào tình yêu của anh! Anh mong em thích bữa tiệc!$l#$b#Anh đã tài trợ nó.$h",
+   "DTZ.DowntownZuzuCP_Sadie": "Hey, @. Mọi việc thế nào rồi? Chị đã xin nghỉ bay một ngày để đến đây!$h#$b#Em biết đấy, khách du lịch từ khắp nơi đổ xô về đây vì bữa tiệc này.",
+   "DTZ.DowntownZuzuCP_Sadie_spouse": "Chào cục cưng. Mọi chuyện thế nào? Chị rất vui vì chúng ta vẫn có thể đến thành phố vào những dịp như thế này.$l#$b#Em biết đấy, khách du lịch từ khắp nơi đổ xô về đây vì bữa tiệc này.$h",
+   "DTZ.DowntownZuzuCP_Buddy": "Chào buổi chiều, @.#$b#Thật là một ngày đẹp cho việc tận hưởng lễ hội.$h",
+   "DTZ.DowntownZuzuCP_Max": "@！$h#$b#Tôi mong cậu tận hưởng lễ hội như tôi!#$e#Tôi chưa từng thấy Kristoff phấn khích như lúc này...$h",
+   "DTZ.DowntownZuzuCP_Hazel": "Thức ăn... không tệ đâu!$h#$b#Tuy nhiên, họ nên để chú Gio phụ trách việc phục vụ ăn uống...",
+   "DTZ.DowntownZuzuCP_Selena": "Zuzu Block Party là truyền thống đã diễn ra trong nhiều năm nay.$h#$e#Cậu có cảm thấy vui vẻ như tổ tiên của chúng tớ không?$h",
+   "DTZ.DowntownZuzuCP_Selena_spouse": "Zuzu Block Party là truyền thống đã diễn ra trong nhiều năm nay.$h#$e# ${Anh/Chị}$ có cảm thấy vui vẻ như tổ tiên của bọn em không?$h",
+   "DTZ.DowntownZuzuCP_Giovanni": "Well, xin chào, @!$h#$b#Ta mong nhóc có một thời gian tuyệt vời!$h#$e#Cái tên ở chỗ vỉ nướng có kĩ năng thậm chí còn không tốt bằng ta...$s#$b#Không thứ gì có thể đánh bại sốt đặc chế của Giovanni!$h",
+  "MadDog.HashtagBearFam.Teren": "Hey! Hãy chắc chắn rằng bạn đã ăn một ít đồ ăn, vì tôi nghĩ với tốc độ này, tôi sẽ phá vỡ kỷ lục cá nhân của mình về số lượng xúc xích ăn trong một ngày.$1#$b#Tôi không muốn bạn bỏ lỡ chỉ vì tôi trở nên vô cùng phấn khích với những thứ này.$3"
+
+}

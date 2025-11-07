@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Custard Pie": "245 1 246 1 -5 1 -6 1/9999 9999/RedPandaBazaar_Custard_Pie/null/{{i18n:RedPandaBazaar.Object.Custard.Pie.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Custard_Pie": {
+          "Name": "Custard Pie",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Custard.Pie.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Custard.Pie.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 27,
+          "Edibility": 110,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    }
+  ]
+}

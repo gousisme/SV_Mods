@@ -1,0 +1,67 @@
+
+{
+"Changes":[
+      {
+          "Action": "EditMap",
+          "Target": "Maps/Custom_SBV_SunberryVillage",
+          "MapTiles":
+          [
+              {
+                  "Position":
+                  {
+                      "X":9,
+                      "Y":86
+                  },
+
+                  "Layer": "Buildings",
+                  "SetProperties":
+                  {
+                      "Action": "Warp 15 18 Custom_SBV_RipleyHouse"
+                  }
+              }
+          ],
+              "When": { "HasMod: |contains=skellady.SBVCP": true }       
+      },
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_SBV_TwilightFestival",
+        "MapTiles":
+        [
+            {
+                "Position":
+                {
+                    "X":9,
+                    "Y":86
+                },
+
+                "Layer": "Buildings",
+                "SetProperties":
+                {
+                    "Action": "Warp 15 18 Custom_SBV_RipleyHouse"
+                }
+            }
+        ],
+            "When": { "HasMod: |contains=skellady.SBVCP": true }       
+    },
+          //Adds warps to leave the house
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_SBV_RipleyHouse", //This time, we're targeting the INTERIOR of the house. 
+        "AddWarps": [
+          "15 20 Custom_SBV_SunberryVillage 9 87"//The first set of coordinates is where you want the player to step to LEAVE the house, the second set is where they will show up OUTSIDE the house, in the village.
+            ]
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_SBV_RipleyHouse",
+        "AddWarps": [
+          "15 20 Custom_SBV_TwilightFestival 9 87"
+            ],
+        "When": {
+            "Season": "fall",
+            "Day": "26"
+        }
+        }
+    ]
+  }
+  

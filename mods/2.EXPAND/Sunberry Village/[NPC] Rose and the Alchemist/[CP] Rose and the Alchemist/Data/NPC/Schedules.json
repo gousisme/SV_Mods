@@ -1,0 +1,39 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Alchemist's Base Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WildflourSASS",
+			"Entries": {
+				"rain": "610 {{ModId}}_Atelier 11 7 1/900 Custom_SBV_SunberryLibrary 18 7 0/1300 Custom_SBV_AriMarket 18 21 3/1600 {{ModId}}_Atelier 36 6 0/1900 {{ModId}}_Atelier 14 8 0",
+				"Mon": "610 {{ModId}}_Atelier 11 7 1/700 {{ModId}}_Atelier 28 20 0/900 {{ModId}}_Atelier 42 23 2/1300 {{ModId}}_Atelier 38 19 3/1500 Custom_SBV_SunberryVillage 33 53 2/1900 {{ModId}}_Atelier 14 8 0",
+				"Tue": "610 {{ModId}}_Atelier 11 7 1/700 Custom_SBV_SunberryForest 73 25 2 AlchemistWildflourForaging/1100 {{ModId}}_Atelier 45 7 2/1600 {{ModId}}_Atelier 36 6 0/1900 {{ModId}}_Atelier 14 8 0",
+				"Wed": "610 {{ModId}}_Atelier 11 7 1/700 {{ModId}}_Atelier 28 20 0/1100 {{ModId}}_Atelier 42 23 2/1500 {{ModId}}_Atelier 38 19 3/1900 {{ModId}}_Atelier 14 8 0",
+				"Thu": "610 {{ModId}}_Atelier 11 7 1/700 Custom_SBV_SunberryMountain 31 33 2 AlchemistWildflourForaging/1200 {{ModId}}_Atelier 45 7 2/1600 {{ModId}}_Atelier 36 6 0/1900 {{ModId}}_Atelier 14 8 0",
+				"Fri": "610 {{ModId}}_Atelier 11 7 1/700 {{ModId}}_Atelier 28 20 0/1100 {{ModId}}_Atelier 42 23 2/1500 {{ModId}}_Atelier 38 19 3/1900 {{ModId}}_Atelier 14 8 0",
+				"Sat": "610 {{ModId}}_Atelier 11 7 1/700 Custom_SBV_SunberryForest 71 29 2 AlchemistWildflourForaging/1300 Custom_SBV_DialaCafe 4 15 1/1800 Custom_SBV_SunberryVillage 61 82 1/2100 {{ModId}}_Atelier 14 8 0",
+				"Sun": "610 {{ModId}}_Atelier 11 7 1/1000 Custom_SBV_AriMarket 18 21 3/1600 {{ModId}}_Atelier 14 8 0",
+				"skellady.SBVCP_TwilightFestival": "1000 Custom_SBV_SunberryVillage 25 66 1 \"Strings\\schedules\\WildflourSASS:TwilightFestival.000\"/1600 Custom_SBV_SunberryVillage 23 40 2 \"Strings\\schedules\\WildflourSASS:TwilightFestival.001\"/2400 {{ModId}}_Atelier 22 7 0",
+				"spring": "700 {{ModId}}_Atelier 28 20 0/1100 {{ModId}}_Atelier 42 23 2/1500 {{ModId}}_Atelier 38 19 3/1900 {{ModId}}_Atelier 14 8 0"
+			}
+		},
+
+		{
+			"LogName": "Rose's Base Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/RoseSASS",
+			"Entries": {
+				"rain": "610 {{ModId}}_Atelier 20 7 0/700 {{ModId}}_Atelier 28 17 2 RoseBaking2/1100 {{ModId}}_Atelier 14 22 2/1600 {{ModId}}_Atelier 7 20 0/1800 {{ModId}}_Atelier 22 7 0",
+				"Mon": "610 {{ModId}}_Atelier 20 7 0/700 {{ModId}}_Atelier 28 17 2 RoseBaking2/1100 {{ModId}}_Atelier 14 22 2/1600 {{ModId}}_Atelier 7 20 0/1800 {{ModId}}_Atelier 22 7 0",
+				"Tue": "610 {{ModId}}_Atelier 20 7 0/900 Custom_SBV_SunberryForest 54 27 2 RoseGardening/1400 {{ModId}}_Atelier 28 17 2 RoseBaking1/1800 {{ModId}}_Atelier 22 7 0",
+				"Wed": "610 {{ModId}}_Atelier 20 7 0/700 {{ModId}}_Atelier 28 17 2 RoseBaking2/1100 {{ModId}}_Atelier 14 22 2/1600 {{ModId}}_Atelier 7 20 0/1800 {{ModId}}_Atelier 22 7 0",
+				"Thu": "610 {{ModId}}_Atelier 20 7 0/900 Custom_SBV_SunberryForest 54 27 2 RoseGardening/1400 {{ModId}}_Atelier 28 17 2 RoseBaking1/1800 {{ModId}}_Atelier 22 7 0",
+				"Fri": "610 {{ModId}}_Atelier 20 7 0/700 {{ModId}}_Atelier 28 17 2 RoseBaking2/1100 {{ModId}}_Atelier 14 22 2/1600 {{ModId}}_Atelier 7 20 0/1800 {{ModId}}_Atelier 22 7 0",
+				"Sat": "610 {{ModId}}_Atelier 20 7 0/900 Custom_SBV_SunberryForest 54 27 2 RoseGardening/1800 Custom_SBV_SunberryVillage 62 82 3/2100 {{ModId}}_Atelier 22 7 0",
+				"Sun": "610 Forest 33 96 1/1600 {{ModId}}_Atelier 20 7 0",
+				"spring": "610 {{ModId}}_Atelier 20 7 0"
+			}
+		},
+	]
+}

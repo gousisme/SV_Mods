@@ -1,0 +1,372 @@
+{
+    "Changes": [
+
+  {
+        "LogName":"SASS Fruit and Mushroom Crop Data - No Custom Bushes",
+        "Action": "EditData",
+        "Target": "Data/Crops",
+        "Entries": {
+            "{{ModId}}_Amber_MoonDrop_Seeds": {
+                "Seasons": [ "summer"],
+                "DaysInPhase": [1, 3, 3, 2, 1],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Amber_MoonDrop",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 4
+        }, 
+            "{{ModId}}_Jade_MoonDrop_Seeds": {
+                "Seasons": [ "fall" ],
+                "DaysInPhase": [1, 3, 3, 2, 1],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Jade_MoonDrop",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 5
+        }, 
+            "{{ModId}}_Lapis_MoonDrop_Seeds": {
+                "Seasons": ["spring"],
+                "DaysInPhase": [1, 3, 3, 2, 1],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Lapis_MoonDrop",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 6
+        }, 
+            "{{ModId}}_Pearl_MoonDrop_Seeds": {
+                "Seasons": ["winter"],
+                "DaysInPhase": [1, 3, 3, 2, 1],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Pearl_MoonDrop",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 7
+        },
+            "{{ModId}}_Baby_Bluegill_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [2, 3, 4, 3, 2],
+                "RegrowDays": 5,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                {
+                    "Id": "NotOutside",
+                    "Condition": "LOCATION_IS_OUTDOORS Here",
+                    "PlantedIn": "Any",
+                    "Result": "Deny",
+                    "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                }
+                ],
+                "HarvestItemId": "{{ModId}}_Baby_Bluegill",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 11
+        }, 
+            "{{ModId}}_Bubblegum_Funnel_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [2, 2, 2, 2, 2],
+                "RegrowDays": 6,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                {
+                    "Id": "NotOutside",
+                    "Condition": "LOCATION_IS_OUTDOORS Here",
+                    "PlantedIn": "Any",
+                    "Result": "Deny",
+                    "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                }
+                ],
+                "HarvestItemId": "{{ModId}}_Bubblegum_Funnel",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 12
+        }, 
+            "{{ModId}}_Midas_Cap_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [3, 3, 3, 3, 3],
+                "RegrowDays": 6,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                {
+                    "Id": "NotOutside",
+                    "Condition": "LOCATION_IS_OUTDOORS Here",
+                    "PlantedIn": "Any",
+                    "Result": "Deny",
+                    "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                }
+                ],
+                "HarvestItemId": "{{ModId}}_Midas_Cap",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 13
+        }, 
+            "{{ModId}}_Midnight_Milkcap_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [2, 3, 3, 2, 2],
+                "RegrowDays": 2,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                    {
+                        "Id": "NotOutside",
+                        "Condition": "LOCATION_IS_OUTDOORS Here",
+                        "PlantedIn": "Any",
+                        "Result": "Deny",
+                        "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                    }
+                    ],
+                "HarvestItemId": "{{ModId}}_Midnight_Milkcap",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 9
+        }, 
+            "{{ModId}}_Mottled_Fieldcap_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [3, 2, 3, 3,1],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                    {
+                        "Id": "NotOutside",
+                        "Condition": "LOCATION_IS_OUTDOORS Here",
+                        "PlantedIn": "Any",
+                        "Result": "Deny",
+                        "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                    }
+                    ],
+                "HarvestItemId": "{{ModId}}_Mottled_Fieldcap",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 15
+        }, 
+            "{{ModId}}_Queen_Bolete_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [2, 2, 2, 2, 2],
+                "RegrowDays": 2,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                    {
+                        "Id": "NotOutside",
+                        "Condition": "LOCATION_IS_OUTDOORS Here",
+                        "PlantedIn": "Any",
+                        "Result": "Deny",
+                        "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                    }
+                    ],
+                "HarvestItemId": "{{ModId}}_Queen_Bolete",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 14
+        }, 
+            "{{ModId}}_Rosey_Elfcup_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [1, 2, 3, 2, 2],
+                "RegrowDays": 2,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "PlantableLocationRules": [
+                    {
+                        "Id": "NotOutside",
+                        "Condition": "LOCATION_IS_OUTDOORS Here",
+                        "PlantedIn": "Any",
+                        "Result": "Deny",
+                        "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                    }
+                    ],
+                "HarvestItemId": "{{ModId}}_Rosey_Elfcup",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 8
+        }, 
+            "{{ModId}}_Shrumbus_Seeds": {
+                "Seasons": [ "spring","summer","fall" ],
+                "DaysInPhase": [3, 2, 2, 2, 3],
+                "RegrowDays": 5,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "PlantableLocationRules": [
+                    {
+                        "Id": "NotOutside",
+                        "Condition": "LOCATION_IS_OUTDOORS Here",
+                        "PlantedIn": "Any",
+                        "Result": "Deny",
+                        "DeniedMessage": "{{i18n:IndoorsOnly.Message}}"
+                    }
+                    ],
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Shrumbus",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 10
+        }
+        }
+    },
+
+    // ----------------SEED DATA ------------------- //
+
+    {
+        "LogName":"SASS Fruit and Mushroom Seeds - No Custom Bushes",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "{{ModId}}_Amber_MoonDrop_Seeds": {
+                "Name": "{{ModId}}_Amber_MoonDrop_Seeds",
+                "DisplayName": "{{i18n:SASS_Amber_MoonDrop_Seeds.name}}",
+                "Description": "{{i18n:SASS_Amber_MoonDrop_Seeds.description}}",
+                "Type": "Basic",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 3
+        },
+            "{{ModId}}_Jade_MoonDrop_Seeds": {
+                "Name": "{{ModId}}_Jade_MoonDrop_Seeds",
+                "DisplayName": "{{i18n:SASS_Jade_MoonDrop_Seeds.name}}",
+                "Description": "{{i18n:SASS_Jade_MoonDrop_Seeds.description}}",
+                "Type": "Basic",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 5
+        },
+            "{{ModId}}_Lapis_MoonDrop_Seeds": {
+                "Name": "{{ModId}}_Lapis_MoonDrop_Seeds",
+                "DisplayName": "{{i18n:SASS_Lapis_MoonDrop_Seeds.name}}",
+                "Description": "{{i18n:SASS_Lapis_MoonDrop_Seeds.description}}",
+                "Type": "Basic",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 1
+        },
+            "{{ModId}}_Pearl_MoonDrop_Seeds": {
+                "Name": "{{ModId}}_Pearl_MoonDrop_Seeds",
+                "DisplayName": "{{i18n:SASS_Pearl_MoonDrop_Seeds.name}}",
+                "Description": "{{i18n:SASS_Pearl_MoonDrop_Seeds.description}}",
+                "Type": "Basic",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 7
+        },
+
+            "{{ModId}}_Baby_Bluegill_Seeds": {
+                "Name": "{{ModId}}_Baby_Bluegill_Seeds",
+                "DisplayName": "{{i18n:SASS_Baby_Bluegill_Seeds.name}}",
+                "Description": "{{i18n:SASS_Baby_Bluegill_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 45
+        },
+            "{{ModId}}_Bubblegum_Funnel_Seeds": {
+                "Name": "{{ModId}}_Bubblegum_Funnel_Seeds",
+                "DisplayName": "{{i18n:SASS_Bubblegum_Funnel_Seeds.name}}",
+                "Description": "{{i18n:SASS_Bubblegum_Funnel_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 61
+        },
+            "{{ModId}}_Midas_Cap_Seeds": {
+                "Name": "{{ModId}}_Midas_Cap_Seeds",
+                "DisplayName": "{{i18n:SASS_Midas_Cap_Seeds.name}}",
+                "Description": "{{i18n:SASS_Midas_Cap_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 56
+        },
+            "{{ModId}}_Midnight_Milkcap_Seeds": {
+                "Name": "{{ModId}}_Midnight_Milkcap_Seeds",
+                "DisplayName": "{{i18n:SASS_Midnight_Milkcap_Seeds.name}}",
+                "Description": "{{i18n:SASS_Midnight_Milkcap_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 68
+        },
+            "{{ModId}}_Mottled_Fieldcap_Seeds": {
+                "Name": "{{ModId}}_Mottled_Fieldcap_Seeds",
+                "DisplayName": "{{i18n:SASS_Mottled_Fieldcap_Seeds.name}}",
+                "Description": "{{i18n:SASS_Mottled_Fieldcap_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 58
+        },
+            "{{ModId}}_Queen_Bolete_Seeds": {
+                "Name": "{{ModId}}_Queen_Bolete_Seeds",
+                "DisplayName": "{{i18n:SASS_Queen_Bolete_Seeds.name}}",
+                "Description": "{{i18n:SASS_Queen_Bolete_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 51
+        },
+            "{{ModId}}_Rosey_Elfcup_Seeds": {
+                "Name": "{{ModId}}_Rosey_Elfcup_Seeds",
+                "DisplayName": "{{i18n:SASS_Rosey_Elfcup_Seeds.name}}",
+                "Description": "{{i18n:SASS_Rosey_Elfcup_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 66
+        },
+            "{{ModId}}_Shrumbus_Seeds": {
+                "Name": "{{ModId}}_Shrumbus_Seeds",
+                "DisplayName": "{{i18n:SASS_Shrumbus_Seeds.name}}",
+                "Description": "{{i18n:SASS_Shrumbus_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 63
+        }
+        }
+    }
+
+    ]
+}

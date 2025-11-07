@@ -1,0 +1,362 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Hats",
+		"Entries": {
+			"{{ModId}}_DivingHelmet": "{{ModId}}_DivingHelmet/{{i18n: DivingHelmet.Description}}/hide/true//{{i18n: DivingHelmet.DisplayName}}/0/Mods\\{{ModId}}\\Hats",
+			"{{ModId}}_RedOni": "{{ModId}}_RedOni/{{i18n: RedOni.Description}}/false/true//{{i18n: RedOni.DisplayName}}/1/Mods\\{{ModId}}\\Hats",
+			"{{ModId}}_BlueOni": "{{ModId}}_BlueOni/{{i18n: BlueOni.Description}}/false/true//{{i18n: BlueOni.DisplayName}}/2/Mods\\{{ModId}}\\Hats",
+			"{{ModId}}_HalfMoonMask": "{{ModId}}_HalfMoonMask/{{i18n: MoonMask.Description}}/false/true//{{i18n: MoonMask.DisplayName}}/3/Mods\\{{ModId}}\\Hats",
+			"{{ModId}}_FurLinedHood": "{{ModId}}_FurLinedHood/{{i18n: FurLinedHood.Description}}/hide/true//{{i18n: FurLinedHood.DisplayName}}/4/Mods\\{{ModId}}\\Hats",
+			"{{ModId}}_FishBowlHat": "{{ModId}}_FishBowlHat/{{i18n: FishBowlHat.Description}}/false/true//{{i18n: FishBowlHat.DisplayName}}/5/Mods\\{{ModId}}\\Hats",
+			},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_Silk": {
+				"Name": "{{ModId}}_Silk",
+				"DisplayName": "{{i18n: Silk.DisplayName}}",
+				"Description": "{{i18n: Silk.Description}}",
+				"Type": "Basic",
+				"Category": -26,
+				"Price": "800",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 0,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_SilkwormCocoon": {
+				"Name": "{{ModId}}_SilkwormCocoon",
+				"DisplayName": "{{i18n: SilkwormCocoon.DisplayName}}",
+				"Description": "{{i18n: SilkwormCocoon.Description}}",
+				"Type": "Basic",
+				"Category": -14,
+				"Price": "500",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 1,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_white"],
+			},
+			"{{ModId}}_SilkwormEggs": {
+				"Name": "{{ModId}}_SilkwormEggs",
+				"DisplayName": "{{i18n: SilkwormEggs.DisplayName}}",
+				"Description": "{{i18n: SilkwormEggs.Description}}",
+				"Type": "Basic",
+				"Category": -14,
+				"Price": "200",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 2,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_white"],
+			},
+			"{{ModId}}_NontupleShotEspresso": {
+				"Name": "{{ModId}}_NontupleShotEspresso",
+				"DisplayName": "{{i18n: NontupleShotEspresso.DisplayName}}",
+				"Description": "{{i18n: NontupleShotEspresso.Description}}",
+				"Type": "Cooking",
+				"IsDrink": true,
+				"Buffs": [
+					{
+						"Id": "speed",
+						"Duration": 360,
+						"CustomAttributes": {
+							"Speed": 2.0,
+						}
+					}
+				],
+				"Category": -7,
+				"Price": "1350",
+				"Edibility": 3,
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 3,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_brown"],
+			},
+			"{{ModId}}_FoxLicense": {
+				"Name": "{{ModId}}_FoxLicense",
+				"DisplayName": "{{i18n: FoxLicense.DisplayName}}",
+				"Description": "{{i18n: FoxLicense.Description}}",
+				"Type": "Basic",
+				"Category": -26,
+				"Price": "-20",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 4,
+				"ExcludeFromRandomSale": true,
+				"CanBeGivenAsGift": false,
+				"CanBeTrashed": false,
+				"ContextTags": [ "prevent_loss_on_death"],
+				"ExcludeFromShippingCollection": true,
+			},
+			"{{ModId}}_TornadoPotato": {
+				"Name": "{{ModId}}_TornadoPotato",
+				"DisplayName": "{{i18n: TornadoPotato.DisplayName}}",
+				"Description": "{{i18n: TornadoPotato.Description}}",
+				"Type": "Cooking",
+				"Category": -7,
+				"Edibility": 50,
+				"Price": "60",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 5,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_Takoyaki": {
+				"Name": "{{ModId}}_Takoyaki",
+				"DisplayName": "{{i18n: Takoyaki.DisplayName}}",
+				"Description": "{{i18n: Takoyaki.Description}}",
+				"Type": "Cooking",
+				"Category": -7,
+				"Edibility": 75,
+				"Price": "100",
+				"Buffs": [
+					{
+						"Id": "fishing",
+						"Duration": 1440,
+						"CustomAttributes": {
+							"FishingLevel": 2.0,
+						}
+					}
+				],
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 6,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_FrozenFlower": {
+				"Name": "{{ModId}}_FrozenFlower",
+				"DisplayName": "{{i18n: FrozenFlower.DisplayName}}",
+				"Description": "{{i18n: FrozenFlower.Description}}",
+				"Type": "Basic",
+				"Category": -80,
+				"Price": "200",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 8,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_blue"],
+			},
+			"{{ModId}}_FrozenFlowerSeeds": {
+				"Name": "{{ModId}}_FrozenFlowerSeeds",
+				"DisplayName": "{{i18n: FrozenFlowerSeeds.DisplayName}}",
+				"Description": "{{i18n: FrozenFlowerSeeds.Description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": "80",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 9,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_SealBlubber": {
+				"Name": "{{ModId}}_SealBlubber",
+				"DisplayName": "{{i18n: SealBlubber.DisplayName}}",
+				"Description": "{{i18n: SealBlubber.Description}}",
+				"Type": "Basic",
+				"Category": -18,
+				"Price": "300",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 10,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_SealOil": {
+				"Name": "{{ModId}}_SealOil",
+				"DisplayName": "{{i18n: SealOil.DisplayName}}",
+				"Description": "{{i18n: SealOil.Description}}",
+				"Type": "Basic",
+				"Category": -26,
+				"Price": "1000",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 11,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_Pawpaw": {
+				"Name": "{{ModId}}_Pawpaw",
+				"DisplayName": "{{i18n: Pawpaw.DisplayName}}",
+				"Description": "{{i18n: Pawpaw.Description}}",
+				"Type": "Basic",
+				"Category": -79,
+				"Price": "180",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 12,
+				"Edibility": 20,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_green"],
+			},
+			"{{ModId}}_PawpawSapling": {
+				"Name": "{{ModId}}_PawpawSapling",
+				"DisplayName": "{{i18n: PawpawSapling.DisplayName}}",
+				"Description": "{{i18n: PawpawSapling.Description}}",
+				"Type": "Basic",
+				"Category": -74,
+				"Price": "1500",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 13,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_GojiBerries": {
+				"Name": "{{ModId}}_GojiBerries",
+				"DisplayName": "{{i18n: GojiBerries.DisplayName}}",
+				"Description": "{{i18n: GojiBerries.Description}}",
+				"Type": "Basic",
+				"Category": -79,
+				"Price": "60",
+				"Edibility": 10,
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 15,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_red"],
+			},
+			"{{ModId}}_GojiBerrySeeds": {
+				"Name": "{{ModId}}_GojiBerrySeeds",
+				"DisplayName": "{{i18n: GojiBerrySeeds.DisplayName}}",
+				"Description": "{{i18n: GojiBerrySeeds.Description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": "50",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 16,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_LotusRoot": {
+				"Name": "{{ModId}}_LotusRoot",
+				"DisplayName": "{{i18n: LotusRoot.DisplayName}}",
+				"Description": "{{i18n: LotusRoot.Description}}",
+				"Type": "Basic",
+				"Category": -75,
+				"Price": "320",
+				"Edibility": 25,
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 17,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [ "color_white"],
+			},
+			"{{ModId}}_LotusSeeds": {
+				"Name": "{{ModId}}_LotusSeeds",
+				"DisplayName": "{{i18n: LotusSeeds.DisplayName}}",
+				"Description": "{{i18n: LotusSeeds.Description}}",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": "100",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 19,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_LotusRootSoup": {
+				"Name": "{{ModId}}_LotusRootSoup",
+				"DisplayName": "{{i18n: LotusRootSoup.DisplayName}}",
+				"Description": "{{i18n: LotusRootSoup.Description}}",
+				"Type": "Cooking",
+				"Category": -7,
+				"Price": "350",
+				"Edibility": 80,
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 18,
+				"ExcludeFromRandomSale": true,
+			},
+			"{{ModId}}_Soju": {
+				"Name": "{{ModId}}_Soju",
+				"DisplayName": "{{i18n: Soju.DisplayName}}",
+				"Description": "{{i18n: Soju.Description}}",
+				"Type": "Basic",
+				"Category": -26,
+				"Price": "250",
+				"IsDrink": true,
+				"Buffs": [
+      					{
+        					"Id": "Tipsy",
+        					"BuffId": "17",
+        					"IconTexture": null,
+        					"IconSpriteIndex": 0,
+        					"Duration": 0,
+        					"IsDebuff": false,
+        					"GlowColor": null,
+        					"CustomAttributes": null,
+        					"CustomFields": null
+      					}
+    					],
+				"Edibility": 10,
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 14,
+			},
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "(BC)17", "OutputRules"],
+		"Entries": {
+			
+				"{{ModId}}_LoomRules": {
+				"Id": "Silk",
+				"Triggers": [
+					{
+						"Id": "CocoonPlacedInMachine",
+						"Trigger": "ItemPlacedInMachine",
+						"RequiredItemId": "{{ModId}}_SilkwormCocoon",
+					}
+				],
+				"MinutesUntilReady": 480,
+				"OutputItem": [
+					{
+						"Id": "{{ModId}}_Silk",
+						"ItemId": "{{ModId}}_Silk",
+						"CopyQuality": true,
+					}
+				]
+				},
+			
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "(BC)19", "OutputRules"],
+		"Entries": {
+		"{{ModId}}_OilMaker": {
+					"Id": "SealOil",
+					"Triggers": [
+						{
+							"Id": "BlubberPlaced",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "{{ModId}}_SealBlubber",
+						}
+					],
+					"MinutesUntilReady": 360,
+					"OutputItem": [
+						{
+							"Id": "SealOil",
+							"ItemId": "{{ModId}}_SealOil"
+						}
+					]
+				}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/CookingRecipes",
+		"Entries": {
+			"{{ModId}}_NontupleShotEspresso": "253 3/1 10/{{ModId}}_NontupleShotEspresso/none/",
+			"{{ModId}}_LotusRootSoup": "{{ModId}}_LotusRoot 1 {{ModId}}_GojiBerries 5 404 1/10 10/{{ModId}}_LotusRootSoup/none/",
+			"{{ModId}}_TornadoPotato": "192 1 247 1/10 10/{{ModId}}_TornadoPotato/none/",
+			"{{ModId}}_Takoyaki": "149 1 246 1 -5 1 247 1/10 10/{{ModId}}_Takoyaki/none/",
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/TailoringRecipes",
+		"Entries": {
+			"{{ModId}}_FurLinedHood": {
+				"FirstItemTags": [ "item_cloth" ],
+				"SecondItemTags": [ "item_{{ModId}}_SealBlubber" ],
+				"SpendRightItem": true,
+				"CraftedItemId": "{{ModId}}_FurLinedHood",
+				"Id": "{{ModId}}_FurLinedHood",
+			}
+		}
+	},
+	{
+		"LogName": "Loading Textures",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/Hats, Mods/{{ModId}}/Objects, Mods/{{ModId}}/Furniture",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+]
+}

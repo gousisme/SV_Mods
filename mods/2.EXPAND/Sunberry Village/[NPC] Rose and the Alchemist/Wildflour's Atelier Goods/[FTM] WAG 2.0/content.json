@@ -1,0 +1,1158 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Mint",
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Cherry_Blossoms",
+          "Wildflour.AtelierGoods_Honeycomb"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Thyme",
+          "Wildflour.AtelierGoods_Wild_Raspberry"
+        ],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Forage Town",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Vanilla",
+          "Wildflour.AtelierGoods_Cacao_Pod"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Vanilla"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Pistachio",
+          "Wildflour.AtelierGoods_Cacao_Pod"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Pistachio"
+        ],
+        "UniqueAreaID": "Wild Food Forage Desert",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Lavender",
+          "Wildflour.AtelierGoods_Almond"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Raspberry",
+          "Wildflour.AtelierGoods_Chamomile",
+          "Wildflour.AtelierGoods_Elderberries"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Milk_Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Walnut",
+          "Wildflour.AtelierGoods_Almond",
+          "Wildflour.AtelierGoods_Cinnamon"
+        ],
+        "UniqueAreaID": "Wild Food Forage Secret Woods",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Olive",
+          "Wildflour.AtelierGoods_Cilantro"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Olive",
+          "Wildflour.AtelierGoods_Mallow"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Cashew",
+          "Wildflour.AtelierGoods_Jasmine"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Cashew",
+          "Wildflour.AtelierGoods_Jasmine"
+        ],
+        "UniqueAreaID": "Wild Food Forage Island West",
+        "MapName": "IslandWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Lavender",
+          "Wildflour.AtelierGoods_Almond"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Raspberry",
+          "Wildflour.AtelierGoods_Chamomile",
+          "Wildflour.AtelierGoods_Elderberries"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Milk_Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Walnut",
+          "Wildflour.AtelierGoods_Almond",
+          "Wildflour.AtelierGoods_Cinnamon"
+        ],
+        "UniqueAreaID": "Wild Food Forage Forest",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Lavender",
+          "Wildflour.AtelierGoods_Almond"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Raspberry",
+          "Wildflour.AtelierGoods_Chamomile",
+          "Wildflour.AtelierGoods_Elderberries"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Milk_Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Walnut",
+          "Wildflour.AtelierGoods_Almond",
+          "Wildflour.AtelierGoods_Cinnamon"
+        ],
+        "UniqueAreaID": "Wild Food Forage SVAA Forest",
+        "MapName": "Custom_WaterfallForest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Lavender",
+          "Wildflour.AtelierGoods_Almond"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Wild_Raspberry",
+          "Wildflour.AtelierGoods_Chamomile",
+          "Wildflour.AtelierGoods_Elderberries"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Milk_Mushroom"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Walnut",
+          "Wildflour.AtelierGoods_Almond",
+          "Wildflour.AtelierGoods_Cinnamon"
+        ],
+        "UniqueAreaID": "Wild Food Forage SVAA Forest NORTH",
+        "MapName": "Custom_WaterfallForest_N",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Lime",
+          "Wildflour.AtelierGoods_Lemon",
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Wormwood"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Honey_Fungus",
+          "Wildflour.AtelierGoods_Anise",
+          "Wildflour.AtelierGoods_Basil",
+          "Wildflour.AtelierGoods_Wild_Raspberry",
+          "Wildflour.AtelierGoods_Honeycomb"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Rosemary",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Gentian_Root"
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Forage Backwoods",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Lime",
+          "Wildflour.AtelierGoods_Lemon",
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Wormwood"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Honey_Fungus",
+          "Wildflour.AtelierGoods_Anise",
+          "Wildflour.AtelierGoods_Basil",
+          "Wildflour.AtelierGoods_Wild_Raspberry",
+          "Wildflour.AtelierGoods_Honeycomb"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Rosemary",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Gentian_Root"
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Forage Backwoods SVAA",
+        "MapName": "Custom_Backwoods_N",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Lime",
+          "Wildflour.AtelierGoods_Lemon",
+          "Wildflour.AtelierGoods_Wild_Strawberry",
+          "Wildflour.AtelierGoods_Wormwood",
+          "Wildflour.AtelierGoods_Honeycomb"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Honey_Fungus",
+          "Wildflour.AtelierGoods_Anise",
+          "Wildflour.AtelierGoods_Basil",
+          "Wildflour.AtelierGoods_Wild_Raspberry"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+          "Wildflour.AtelierGoods_Rosemary",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Gentian_Root"
+            ]
+          }
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Wild Food Forage Mountain",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Olive",
+          "Wildflour.AtelierGoods_Cilantro"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Olive",
+          "Wildflour.AtelierGoods_Mallow"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Cashew",
+          "Wildflour.AtelierGoods_Jasmine"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Cashew",
+          "Wildflour.AtelierGoods_Jasmine"
+        ],
+        "UniqueAreaID": "Wild Food Forage Island North",
+        "MapName": "IslandNorth",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Lemon",
+          "Wildflour.AtelierGoods_Mint",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Red_Onion"
+            ]
+          },
+          "Wildflour.AtelierGoods_Honeycomb"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Meringue_Mushroom",
+          "Wildflour.AtelierGoods_Mallow",
+          "Wildflour.AtelierGoods_Thyme",
+          "Wildflour.AtelierGoods_Chicken_Woods"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Sage",
+          "Wildflour.AtelierGoods_Milk_Mushroom",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Gentian_Root"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Cinnamon",
+          "Wildflour.AtelierGoods_Rosemary"
+        ],
+        "UniqueAreaID": "Wild Food Forage Bus Stop",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Lemon",
+          "Wildflour.AtelierGoods_Mint",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Red_Onion"
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Meringue_Mushroom",
+          "Wildflour.AtelierGoods_Mallow",
+          "Wildflour.AtelierGoods_Thyme",
+          "Wildflour.AtelierGoods_Chicken_Woods"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Sage",
+          "Wildflour.AtelierGoods_Milk_Mushroom",
+          {
+            "category": "Buried",
+            "contents": [
+              "Wildflour.AtelierGoods_Gentian_Root"
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Cinnamon",
+          "Wildflour.AtelierGoods_Rosemary"
+        ],
+        "UniqueAreaID": "Wild Food Forage Railroad",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.AtelierGoods_Olive",
+          "Wildflour.AtelierGoods_Cilantro"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.AtelierGoods_Olive",
+          "Wildflour.AtelierGoods_Mallow"
+        ],
+        "FallItemIndex": [
+          "Wildflour.AtelierGoods_Cashew",
+          "Wildflour.AtelierGoods_Jasmine"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.AtelierGoods_Cashew",
+          "Wildflour.AtelierGoods_Jasmine"
+        ],
+        "UniqueAreaID": "Wild Food Forage Beach",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "CAULDRON_CONFIG_VALUE WildFood True"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 1,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 10,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 2",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

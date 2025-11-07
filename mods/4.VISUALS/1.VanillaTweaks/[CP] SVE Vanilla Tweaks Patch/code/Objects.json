@@ -1,0 +1,141 @@
+
+{   
+"Changes": [
+//Objects
+		{
+			"LogName": "Aged Blue Moon Wine",
+			"Action": "EditImage",
+			"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Aged Blue Moon Wine",
+			"FromFile": "assets/Objects/Aged Blue Moon Wine.png",
+			"When": { "Objects | contains= Aged Blue Moon Wine": true }
+			},
+			{
+				"LogName": "Aurora Vineyard Property Deed",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Aurora Vineyard Property Deed",
+				"FromFile": "assets/Objects/Aurora Vineyard Property Deed.png",
+				"When": { "Objects | contains= Aurora Vineyard Property Deed": true }
+			},
+			{
+				"LogName": "Big Bark Burger",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Big Bark Burger",
+				"FromFile": "assets/Objects/Big Bark Burger.png",
+				"When": {"Objects | contains= Big Bark Burger": true}
+			},
+			{
+				"LogName": "Blue Moon Wine",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Blue Moon Wine",
+				"FromFile": "assets/Objects/Blue Moon Wine.png",
+				"When": {"Objects | contains= Blue Moon Wine": true}
+			},
+			{
+				"LogName": "Dewdrop Berry",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Dewdrop Berry",
+				"FromFile": "assets/Objects/Dewdrop Berry.png",
+				"When": {"Objects | contains= Dewdrop Berry": true}
+			},
+			{
+				"LogName": "Dulse Seaweed",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Dulse Seaweed",
+				"FromFile": "assets/Objects/Dulse Seaweed.png",
+				"When": {"Objects | contains= Dulse Seaweed": true}
+			},
+			{
+				"LogName": "Galdoran Gem",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Galdoran Gem",
+				"FromFile": "assets/Objects/Galdoran Gem.png",
+				"When": {"Objects | contains= Galdoran Gem": true}
+			},
+			{
+				"LogName": "Green Mushroom",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Green Mushroom",
+				"FromFile": "assets/Objects/Green Mushroom.png",
+				"When": {"Objects | contains= Green Mushroom": true}
+			},
+			{
+				"LogName": "Mixed Berry Pie",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Mixed Berry Pie",
+				"FromFile": "assets/Objects/Mixed Berry Pie.png",
+				"When": {"Objects | contains= Mixed Berry Pie": true}
+			},
+			{
+				"LogName": "Monster Mushroom",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Monster Mushroom",
+				"FromFile": "assets/Objects/Monster Mushroom.png",
+				"When": {"Objects | contains= Monster Mushroom": true}
+			},
+			{
+				"LogName": "Ornate Treasure Chest",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Ornate Treasure Chest",
+				"FromFile": "assets/Objects/Ornate Treasure Chest.png",
+				"When": {"Objects | contains= Ornate Treasure Chest": true}
+			},
+			{
+				"LogName": "Property Deed",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Property Deed",
+				"FromFile": "assets/Objects/Property Deed.png",
+				"When": {"Objects | contains= Property Deed": true}
+			},
+			{
+				"LogName": "Super Joja Cola",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Super Joja Cola",
+				"FromFile": "assets/Objects/Super Joja Cola.png",
+				"When": {"Objects | contains= Super Joja Cola": true}
+			},
+			{
+				"LogName": "Super Joja Cola",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Super Starfruit",
+				"FromFile": "assets/Objects/Super Starfruit.png",
+				"When": {"Objects | contains= Super Starfruit": true}
+			},
+			{
+				"LogName": "Void Eel Item",
+				"Action": "EditImage",
+				"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Void Eel",
+				"FromFile": "assets/Objects/Void Eel.png",
+				"When": {" Objects | contains= Void Eel": true }
+			},
+//Crops
+{
+	"LogName": "Fungus Tree Crop",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Fungus Tree Crop",
+	"FromFile": "assets/Crops/Fungus Tree Crop.png",
+	"When": {" Objects | contains= Monster Mushroom": true }
+},
+//TILESHEET EDITS TO MATCH OBJECTS
+	//SVE Aquarium Void Eel ^-^
+	{
+		"LogName": "Void Eel Aquarium Retexture",
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/AquariumFish",
+		"FromFile": "assets/Tilesheets/SVE_AquariumFish.png",
+			"ToArea": { "X": 25, "Y": 0, "Width": 24, "Height": 48},
+		"When": {"Objects | contains= Void Eel": true}
+	},
+	{ //Lance's crops <3
+	"LogName": "Lance Monster Mushroom Outdoor Space",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 160, "Y": 3360, "Width": 64, "Height": 32 },
+	"ToArea": { "X": 160, "Y": 3360, "Width": 64, "Height": 32 },
+	"When": {
+		"Objects | contains= Monster Mushroom": true,
+		"season": "fall"
+	}
+	}
+	]
+}

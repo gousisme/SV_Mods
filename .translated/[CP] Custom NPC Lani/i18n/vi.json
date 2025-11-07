@@ -1,0 +1,758 @@
+﻿{
+	"$schema": "https://smapi.io/schemas/i18n.json",
+	// DISPOSITION
+	"Lani.Name": "Lani",
+	"Lani.Gift.Love": "Ôi trời, tớ thích cái này!$4#$b#Cảm ơn cậu rất nhiều vì đã nghĩ đến tớ, nghiêm túc đấy.$1",
+	"Lani.Gift.Like": "Ôi trời! Cảm ơn cậu rất nhiều.$1#$b#Làm sao cậu biết tớ thích cái này?$1",
+	"Lani.Gift.Neutral": "Ồ, ừ, cảm ơn!$12#$b#Tớ... tớ có phải trả lại cho cậu thứ gì không?$7#$b#Không à?$7#$b#Ồ, được thôi.",
+	"Lani.Gift.Dislike": "Ừm... Cảm ơn, tớ đoán vậy.$8",
+	"Lani.Gift.Hate": "Cậu đang đùa tớ à?$5#$b#Những câu chuyện cười được cho là buồn cười, cậu biết đấy.$13",
+	"Lani.Gift.Sunflower": "Aww, Hoa hướng dương? Đây là loài hoa tớ thích nhất! Cảm ơn cậu rất nhiều.$4#$b#Tớ sẽ trồng hạt giống trong vườn của tớ! Tớ sẽ dành một không gian đặc biệt cho @Hoa hướng dương.$12",
+	"Lani.Gift.Spangle": "Một Hoa văn mùa hè! Thật tuyệt vời! @, cảm ơn cậu rất nhiều...$4#$b#Tớ hơi xấu hổ, tớ không có gì để tặng cậu!$7#$b#Dù sao thì tớ cũng rất cảm kích.$9#$e#Cảm ơn cậu một lần nữa.$1",
+	"Lani.Gift.BatteryPack": "Tớ thực sự vừa định đặt mua một gói khác trên Jojazon! Cảm ơn rất nhiều, @.$1#$b#Nếu cậu tình cờ tìm thấy thêm, hãy tặng chúng cho tớ! Tớ sẽ sử dụng chúng thật tốt.$12",
+	"Lani.Gift.Opals": "Ah! Đẹp quá! Đối với tớ thì sao?$1#$b#Thật sao?$4#$b#Ôi trời, tớ THÍCH Opal quá. Tớ ước chúng là đá sinh nhật của mình để tớ có lý do xã hội chấp nhận được để tích trữ một số loại đá đẹp, nhưng thay vào đó, chúng chỉ là những món đồ trang sức nhỏ của tớ.$4#$b#Có lẽ tớ sẽ nhờ Clint biến chúng thành đồ trang sức cho tớ...$1#$e#Cảm ơn, @!$4",
+	"Lani.Gift.Soju": "À, đúng rồi, đỉnh cao của rượu... Cảm ơn cậu rất nhiều, @! Soju là loại rượu yêu thích nhất của tớ.$4#$b#Tớ có thể hôn cậu ngay bây giờ.$1#$b#Nhưng tớ sẽ không làm vậy.#$b#Haha, trừ khi..?$11",
+	
+	// CTs
+	"Lani.Dialogue.Introduction": "Xin chào.$6#$b#Tớ là Lani.#$b#Xin lỗi, tớ không phải là người thích giới thiệu...$7#$e#Hẹn gặp lại cậu nhé.",
+	"Lani.Dialogue.danceAccept": "Ồ, chắc chắn rồi! Chúng ta hãy làm điều này.$1#$e#Gặp lại cậu ở đó!$3",
+	"Lani.Dialogue.danceRejection": "Ừm, tớ đang hy vọng có người khác hỏi tớ... Xin lỗi.$7",
+	"Lani.Dialogue.GreenRain": "Cái thời tiết kỳ lạ này trên trái đất xanh của Yoba là sao vậy?$13#$b#Sáng nay báo thức của tớ thậm chí còn không hoạt động.$5#$e#Tớ hiểu là tớ phải sợ, nhưng kiểu như... nếu điều này có nghĩa là không có ai làm phiền tớ, tớ thích thế.$3",
+	"Lani.Dialogue.GreenRainFinished": "Cuối cùng. Ugh.$13#$b#Tớ hy vọng máy tính của tớ sống sót sau cơn mưa kỳ lạ này.$2",
+	"Lani.Dialogue.GreenRain_2": "Ugh, thời tiết này lại thế này nữa.$6#$b#PC thì không thể giải thích được là ổn, nên tớ không bận tâm. Tuy nhiên, tớ ước là TV hoạt động...$2",
+	//"Lani.Dialogue.Resort_Entering": "",
+	//"Lani.Dialogue.Resort_Leaving": "",
+	//"Lani.Dialogue.Resort_Shore": "",
+	//"Lani.Dialogue.Resort_Chair": "",
+	//"Lani.Dialogue.Resort_Bar": "",
+	//"Lani.Dialogue.Resort": "",
+	//"Lani.Dialogue.Resort_Towel": "",
+	//"Lani.Dialogue.Resort_Umbrella": "",
+	//"Lani.Dialogue.Resort_Wander": "",
+	"Lani.Dialogue.Movie_Invitation": "Ồ, woah. Vâng, chắc chắn rồi, tớ sẽ đi!$1#$b#...Miễn là cậu mua! Hehe.$11",
+	"Lani.Dialogue.cc_Begin": "Lewis có cố gắng tuyển dụng cậu để 'sửa chữa trung tâm cộng đồng cũ' không?#$b#Vâng, anh ta làm thế với... tất cả mọi người.$7#$e#Tớ chỉ nhìn anh ta như thế này khi anh ta cố gắng bắt tớ làm điều đó.$8",
+	"Lani.Dialogue.cc_Boulder": "Cậu có nghe thấy tiếng nổ đêm qua không?#$b#Tớ nghĩ đó là động đất hay gì đó và hoảng sợ.$2",
+	"Lani.Dialogue.cc_Bridge": "Robin có sửa cây cầu gần mỏ đó không?#$b#Tớ đã hỏi cô ấy về điều đó, nhưng cô ấy tỏ ra như thể cô ấy không biết...$2#$e#Ai khác có thể sửa nó?$6",
+	"Lani.Dialogue.cc_Bus": "Chiếc xe buýt đã được sửa chữa qua đêm. Cậu có biết điều này có nghĩa là gì không?$3#$b#Nó có nghĩa là tớ không phải trả một đống tiền để có một chiếc Oober đưa tớ đến thành phố!$4",
+	"Lani.Dialogue.cc_Bus.NoModern": "Chiếc xe buýt đã được sửa chữa qua đêm. Cậu có biết điều này có nghĩa là gì không? $3#$b#Nó có nghĩa là tớ không phải trả một đống tiền để gọi taxi đưa tớ đến thành phố!$4",
+	"Lani.Dialogue.cc_Greenhouse": "Thị trấn Pelican sẽ không im lặng về việc nhà kính của cậu được sửa chữa.$7#$e#Cậu sẽ trồng gì?",
+	"Lani.Dialogue.cc_Complete": "Này, ít nhất Lewis sẽ ngừng yêu cầu bất kỳ người trẻ nào chuyển đến sửa cái thứ chết tiệt đó.$7#$e#Tớ sẽ cảm ơn vì điều đó.$3",
+	"Lani.Dialogue.movieTheater": "Bây giờ chúng ta có rạp chiếu phim trong thị trấn, tớ không phải đi xa đến tận Grampleton nữa!$1#$b#Dù sao thì, tớ thường chỉ xem phim ở nhà thôi...$7",
+	"Lani.Dialogue.luauBest": "Cậu biết tớ đã nói súp luôn có vị giống nhau không? Có lẽ tớ đã sai...$7#$b#Món này thực sự ngon.$4",
+	"Lani.Dialogue.luauShorts": "HAHA, quần đùi trong súp là một động thái điên rồ. Có lẽ đây là điều tuyệt vời nhất mà tớ từng trải nghiệm ở thị trấn này.$11#$b#Giá mà năm nào cũng có hỗn loạn như thế này!$3",
+	"Lani.Dialogue.luauPoisoned": "Ừm... Cậu, ừm, cậu đã nếm thử món súp đó chưa?$8#$b#Ừ, đó là... Đó là thứ của cơn ác mộng, khiêm tốn.$7#$b#Tớ sẽ đổ phần còn lại...$2",
+	"Lani.Dialogue.luauPoisoned.NoModern": "Ừm... Cậu, ừm, cậu đã nếm thử món súp đó chưa?$8#$b#Ừ, đúng là... Thật sự là ác mộng.$7#$b#Tớ sẽ đổ phần còn lại...$2",
+	"Lani.Dialogue.AriGetsSlimed": "Trời ạ. Cậu có nghe không? Blake và Lyenne đang gặp rắc rối...$2#$e#Xem này, đây là lý do tại sao tớ không chơi khăm. Một biến số sai và mọi thứ trở nên tồi tệ.$13",
+	"Lani.Dialogue.AriGetsSlimed.NoModern": "Cậu có nghe không? Blake và Lyenne đang gặp rắc rối ngay lúc này...$2#$e#Xem này, đây là lý do tại sao tớ không chơi khăm. Một biến số sai và mọi thứ trở nên tồi tệ.$13",
+	"Lani.Dialogue.TellAbigail": "Tớ không thể tin là cậu đã kể với cô ấy. Cô ấy cứ nói đùa về chuyện đó...$2#$e#Tớ không thể đối mặt với Pierre như thế này được. Tớ sẽ chết vì xấu hổ mất.$17",
+	"Lani.Dialogue.TellAbigail_Abigail": "Ồ, em hoàn toàn có cảm giác Lani có tình cảm với bố em.$1#$b#Không ai vào đây nhiều như cô ấy để 'lướt qua các kệ hàng', nếu ${anh^chị}$ hiểu ý em.#$e#Mẹ em thấy buồn cười, còn bố em thì xấu hổ vô cùng. Thật tuyệt.$1",
+	"Lani.Dialogue.TellAbigail_Pierre": "...Vậy thì.$4#$b#Có lẽ tôi nên...$2#$b#Ồ, ừm, xin lỗi về điều đó, Nông dân @! Chú đang nói chuyện với chính mình về một điều gì đó...$1",
+	"Lani.Dialogue.TellAbigail_Caroline": "Cô rất vui khi biết rằng chồng cô vẫn còn người hâm mộ.#$b#Đặc biệt là những người đáng yêu như Lani!$1",
+	"Lani.Dialogue.DiggingOnSterling.0": "Làm sao tớ không biết anh ấy đã quay lại? Trong BỐN THÁNG?$14#$b#Làm sao tớ nhớ anh ấy? Không có cách nào có thể...$2",
+	"Lani.Dialogue.DiggingOnSterling.1": "'Này, Sterling!'$1#$b#... Không, không, thế thì vui quá.$6#$b#'Có chuyện gì thế?'$3#$b#Ôi Yoba, tôi sẽ không bao giờ rời khỏi nhà nữa. Tôi không thể.$14",
+	"Lani.Dialogue.DiggingOnSterling.2": "Sterling và tớ không kết thúc trong điều kiện tồi tệ hay gì cả.$7#$b#Thực tế, tớ dám nói rằng bọn tớ đã kết thúc trong một nốt cao, nếu cậu hiểu ý tớ...$11#$b#N-Nhưng đó không phải là vấn đề chính.$8#$e#Anh ấy có nói gì về tớ không?$15#$b#Không, tớ không quan tâm, tớ chỉ... cực kỳ tò mò.$10",
+	"Lani.Dialogue.DiggingOnSterling.3": "Nhưng nghiêm túc mà nói, cậu sẽ nói gì với một người mà cậu đã từng gặp cách đây ba năm sau khi tình cờ gặp lại họ?$8#$e#Tớ có đang nghĩ quá không? Đây giống như tình huống khó xử trong sách giáo khoa vậy, đúng không?$7",
+	"Lani.Dialogue.DiggingOnSterling.4": "%Lani đang lo lắng về tình hình của Sterling.#$b#...Cậu có nghĩ anh ấy sẽ...$2#$b#Không, không... Anh ấy sẽ không.$7",
+	"Lani.Dialogue.grillHangout.0": "Ồ, tuyệt quá! Cậu đã đến!$12#$b#Hãy chắc chắn rằng cậu có một ít ớt của tớ. Tớ hứa là nó thực sự ngon!$1",
+	"Lani.Dialogue.grillHangout.1": "Jonghyuk đã cởi áo...$4#$b#%Lani đang nhìn anh ấy chằm chằm không chút xấu hổ.",
+	"Lani.Dialogue.twilightFestival": "Cậu đã thử món ăn nào trong số này chưa? Thật TUYỆT VỜI.$4#$e#Tớ nghĩ nếu tớ cứ đứng đây, tớ sẽ ăn quá nhiều mất...$2",
+	"Lani.Dialogue.twilightFestival2": "Ồ, cậu lại tìm thấy tớ rồi. Cậu có vui không? $12#$e#Tớ sẽ đến nơi có nhiều hoạt động, nhưng tớ luôn cảm thấy hơi choáng ngợp với tất cả mọi người.$6",
+	"Lani.Dialogue.SolarionMMORelease.0": "MMO Solarion Chronicles cuối cùng cũng được phát hành... Tớ rất phấn khích!$4#$e#Tớ sẽ chơi nó suốt cả tuần.$1",
+	"Lani.Dialogue.SolarionMMORelease.1": "Cậu có nghe về MMO Solarion Chronicles mới ra mắt không?$1#$b#Sebastian, Sam và tớ sẽ chơi cùng nhau sau khi bọn tớ đến Saloon vào thứ sáu.#$b#Cậu nên tham gia!$1",  
+	"Lani.Dialogue.SolarionMMORelease.2": "Này, @. Sebastian, Sam và tớ sẽ tham gia Biên niên sử MMO Solarion vào tối nay để mở màn.$12#$b#Cậu có muốn tham gia không?$1",
+	"Lani.Dialogue.keahi_prank": "Ừm, không có cách nào hay ho để nói thế này, nhưng...$2#$b#Cậu có mùi THẬT kinh khủng.$14",
+	"Lani.Dialogue.MeetTheCats": "Cậu có thấy mấy con mèo quanh đây không? Chúng dễ thương quá!$1#$b#Một trong số chúng đã để tớ vuốt ve trước khi tớ đi làm.$4#$e#Tớ hy vọng chúng ăn đủ...$2",
+	"Lani.Dialogue.JukeboxFire": "Jonghyuk kể với tớ về vụ cháy máy hát tự động. Thực sự là khá buồn cười.$3#$b#Tớ không biết cậu có biết đó là ai không, vì vậy tớ sẽ chỉ... im lặng về điều đó.#$e#Ít nhất thì tớ sẽ không phải đối phó với Sam phá hoại hàng đợi bằng những bài hát kinh khủng trong một thời gian...$11",
+	"Lani.Dialogue.dating_Jonghyuk": "Vậy thì... Uh, tớ nghe nói cậu đang hẹn hò với Jonghyuk?$7#$b#Ồ, tớ chỉ nghe đồn thôi... Thị trấn nhỏ và tất cả, haha.$7#$b#Xin lỗi, trông tớ có buồn không? Tớ không buồn. Thật đấy. Chỉ là mặt tớ buồn thôi.$2#$e#%Lani có vẻ không muốn nói chuyện với anh nữa.",
+	"Lani.Dialogue.SpannerRaccoonRivalry": "Tớ hy vọng Raccoon thích chiếc bánh sandwich đó.$3#$e#Cái gì cơ? Tớ thích động vật, kiện tớ đi.$6#$b#Đôi khi chúng xứng đáng được thưởng một chút, ngay cả khi chúng bị giật khỏi tay một đứa trẻ.$3#$b#Dù sao thì, lấy kẹo từ một đứa trẻ cũng dễ thôi.$11",
+	"Lani.Dialogue.jhWaterLantern1": "Hôm qua đi lễ hội đèn lồng tớ đã khóc rất nhiều.$2#$b#Mắt tớ chắc vẫn còn đỏ lắm nhỉ?$7",
+	"Lani.Dialogue.SpannerMinesCollapse": "Cậu có nghe thấy trận động đất đêm qua không? Silas nói rằng các mỏ đã sụp đổ.$16#$e#Cậu có nghĩ vậy không..?$6#$b#Vâng, chắc chắn là anh ấy. Đứa trẻ đó làm tớ lo lắng.$2",
+	
+	"Lani.Dialogue.GiveGift_Before": "Vậy nên, như cậu thấy đấy, năm nay tớ là người tặng quà cho cậu...#$b#Tớ hy vọng cậu thích nó, @. Chúc mừng Ngôi sao mùa đông!$12", //winter star
+	"Lani.Dialogue.GiveGift_After": "Cậu có thích nó không? Tớ đã suy nghĩ rất lâu và kỹ về việc nên tặng cậu món quà gì.$12#$b#Hy vọng cậu thích nó!$1", //winter star
+	"Lani.Dialogue.ReceiveGift": "Tớ có cảm giác cậu là người tặng quà cho tớ năm nay!$1#$b#Cảm ơn cậu vì món quà, @, tớ thực sự trân trọng nó.$9#$b#Ngôi sao mùa đông vui vẻ!$1",
+	"Lani.Dialogue.ReceiveGift_Jelly": "...Cậu nghiêm túc đấy à?$13#$b#Đây có phải là trò đùa không?$5#$b#Cậu có thể nghĩ rằng điều này thực sự buồn cười, nhưng cậu vừa làm hỏng Ngôi sao mùa đông của tớ.$13#$b#Biến đi.$5",
+	
+	// Vanilla+ CFD
+	"Lani.Dialogue.RejectBouquet_NotDatable.0": "Tớ sẽ phải chuyển lời đó, thủ lĩnh..$6", //give_flowersA
+	"Lani.Dialogue.RejectBouquet_NotDatable.1": "Ồ! Chúng... đẹp đấy.$16#$b#...Cậu muốn tớ làm gì với chúng?$7", //give_flowersB
+	"Lani.Dialogue.RejectBouquet_NotDatable.2": "Uhhh, không. Cảm ơn.$6", //rejectNPCA
+	"Lani.Dialogue.RejectBouquet_NotDatable.3": "Cậu không phải mẫu người tớ thích. Xin lỗi.$8", //rejectNPCB
+	"Lani.Dialogue.RejectMermaidPendant_NotDatable": "Tuyệt! Dành cho ai đây?$1#$b#...Chắc chắn không phải tớ, đúng không?$7", //give_pendant
+	"Lani.Dialogue.RejectBouquet_VeryLowHearts.0": "Tớ rất vinh dự, nhưng... xin lỗi.$7", //reject_two_heartA
+	"Lani.Dialogue.RejectBouquet_VeryLowHearts.1": "Ừm, tớ, ừm... Tớ thực sự không muốn.$8", //reject_two_heartB
+	"Lani.Dialogue.RejectBouquet_LowHearts.0": "Nếu cậu hỏi tớ một năm trước, tớ sẽ trả lời là có.$3", //reject_four_heartA
+	"Lani.Dialogue.RejectBouquet_LowHearts.1": "Tớ thích người khác rồi, tớ xin lỗi.$7", //reject_four_heartB
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.0": "Ừm, cậu nghiêm túc đấy à?$8#$b#Cậu mù à?$13#$b#Có lẽ là ngu ngốc?$6", //engageA
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.1": "Được rồi, cậu không đủ nóng để làm điều kỳ lạ này đâu.$14#$b#Dừng lại khi cậu đang ở phía trước.$13", //engageB
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.2": "Thật buồn cười. Tớ chắc chắn hy vọng {0} không phát hiện ra điều này...$13", //marriedA
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.3": "%Lani nhìn bạn với vẻ mặt đáng ngại trước khi rút điện thoại ra và bấm số của {0}.", //marriedB
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts.0": "*thở dài* Thật sự...$13", //refusal_knownA
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts.1": "Xin hãy để tớ yên. Tớ không có thìa cho việc này.$13", //refusal_knownB
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts_AskedAgain.0": "Hãy nghe một gợi ý và tắt máy!$5", //refusal_botherA
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts_AskedAgain.1": "Hỏi lại tớ cũng không thay đổi được câu trả lời.$5", //refusal_botherB
+	"Lani.Dialogue.RejectMermaidPendant.2": "Đây có phải là một trò đùa không?$13", //refusal_no_heartsA
+	"Lani.Dialogue.RejectMermaidPendant.1": "%Lani nhìn chằm chằm vào bạn với một bên lông mày nhướn lên.", //refusal_no_heartsB
+	"Lani.Dialogue.AcceptBirthdayGift_Loved.0": "@!$4#$b#...@!$17#$b#Tớ xin lỗi, thật tuyệt khi được quan tâm...$18#$e#Cảm ơn cậu.$10", //birthdayLoveA
+	"Lani.Dialogue.AcceptBirthdayGift_Loved.1": "Không đời nào! Có phải là...$16#$b#Ồ Yoba, đúng là vậy!$1#$b#Cảm ơn cậu! Cậu vừa làm cho ngày của tớ trở nên tươi đẹp!$4", //birthdayLoveB
+	"Lani.Dialogue.AcceptBirthdayGift_Liked.0": "Ồ, cảm ơn cậu! Tớ thích những thứ này.$1", //birthdayLikeA
+	"Lani.Dialogue.AcceptBirthdayGift_Liked.1": "Cậu tặng tớ món quà sinh nhật này ngay khi tớ đang nghĩ đến việc mua món đồ tương tự...$12#$b#Cảm ơn cậu, @.$1", //birthdayLikeB
+	"Lani.Dialogue.AcceptBirthdayGift_Negative.0": "Ồ... Cậu không cần phải mua cho tớ thứ gì cả...$7#$b#Không, thực sự là cậu không nên mua...$8", //birthdayDislikeA
+	"Lani.Dialogue.AcceptBirthdayGift_Negative.1": "...Ừm, cảm ơn..? Tớ... ổn.$7", //birthdayDislikeB
+	"Lani.Dialogue.AcceptBirthdayGift_Neutral.0": "Cảm ơn vì món quà!$12", //birthdayNeutralA
+	"Lani.Dialogue.AcceptBirthdayGift_Neutral.1": "Ồ, cảm ơn vì đã nghĩ đến tớ.$12", //birthdayNeutralB
+	
+	"Lani.Dialogue.spring_1_2": "Mùa xuân đã đến. Chúc mừng những khởi đầu mới!$1#$e#Tớ rất háo hức được trồng thêm hoa.$12",
+	"Lani.Dialogue.spring_12": "Nếu theo ý tớ, tớ sẽ tiêu diệt tất cả mọi người tại Lễ hội Trứng.$11#$e#Lewis cấm tớ tham gia vì tớ 'quá cạnh tranh'.$13#$b#Sao cũng được.$6#$e#Nếu Abigail lại thắng, tớ sẽ phát điên mất.$5", // Day before the Egg Festival
+	"Lani.Dialogue.spring_14": "@! Mẹo hay cho cậu: hãy tặng Haley một món quà tuyệt vời ngay hôm nay.$12#$e#Đừng hỏi tớ tại sao, cứ làm đi!$1#$b#Cô ấy sẽ rất vui.$1", // Haley's birthday
+	"Lani.Dialogue.spring_23": "Ngày mai là Lễ hội hoa...#$b#Năm ngoái là một thảm họa, vì vậy hy vọng năm nay sẽ tốt hơn.$6#$e#Không, tớ sẽ không giải thích thêm.$8", // Day before the Flower Dance
+	"Lani.Dialogue.spring_26": "Tớ đã tặng Pierre món quà tuyệt vời nhất năm nay. Anh ấy sẽ lật ngược tình thế!$1#$e#Tớ hy vọng anh ấy thích nó, mặc dù... Tớ đã làm việc chăm chỉ cho nó.$9", // Pierre's birthday
+	"Lani.Dialogue.summer_1": "Và trời nóng quá. Tuyệt.$2#$b#Hy vọng cậu đã sẵn sàng đổ mồ hôi, vì trời ở đây QUÁ nóng.$2",
+	"Lani.Dialogue.summer_10": "Cậu không nghe điều này từ tớ, nhưng hôm nay là sinh nhật của Maru và cô ấy đang tìm mua một Bộ pin...$3#$b#Tuy nhiên, cậu không nghe điều này từ tớ!$11", // Day before the Luau & MARU'S BDAY
+	"Lani.Dialogue.summer_15": "Đoán xem hôm nay là ngày gì? Tớ đã già thêm một tuổi rồi.$9#$b#Tớ thực sự không thích sinh nhật... không có lý do thực sự nào, chỉ là không còn quan tâm nữa.$7#$b#Tớ luôn thích những thứ miễn phí, mặc dù!$12", // Lani's birthday
+	"Lani.Dialogue.summer_27": "Ngày mai cậu có đi lễ hội không?$12#$b#Có lẽ tớ sẽ gặp cậu ở đó.", // Day before the Midnight Jellies
+	"Lani.Dialogue.fall_1": "Mùa thu ở Thị trấn Pelican thật đẹp. Lá cây THỰC SỰ đổi màu.$12#$e#Nếu cậu thấy tớ nhảy vào đống lá, thì không, cậu không làm thế.$8",
+	"Lani.Dialogue.fall_15": "Pierre đã quyết định sắp xếp cho hội chợ ngày mai.$1#$e#Hội chợ của Grampleton có những trò chơi thực sự thú vị, nhưng Thị trấn Pelican có đồ ăn ngon hơn nhiều.", // Day before the Stardew Fair
+	"Lani.Dialogue.fall_21": "Ồ, cậu vừa nhắc tớ hôm nay là sinh nhật của Robin!$1#$b#Vvvà tớ để quên quà của cô ấy trên bệ bếp...$8", // Robin's birthday
+	"Lani.Dialogue.fall_26": "Sẽ ra mắt trang phục của mình tại lễ hội Spirit's Eve vào ngày mai...$12#$b#Tớ cảm thấy chưa sẵn sàng về mặt tinh thần, còn cậu thì sao?$7", // Day before Spirit's Eve
+	"Lani.Dialogue.winter_1": "Mùa tuyết rơi rồi!!!$4#$e#Mỗi lần nhìn thấy tuyết, tớ luôn thấy phấn khích.$1#$b#Nơi tớ lớn lên không bao giờ có tuyết, vì vậy được nhìn thấy tuyết mọi lúc ở đây thật tuyệt.$12",
+	"Lani.Dialogue.winter_7": "Lễ hội tệ nhất trong năm sẽ diễn ra vào ngày mai...$2#$b#Cậu đã sẵn sàng để bị cóng chưa?$6", // Day before the Ice Festival
+	"Lani.Dialogue.winter_10": "Ồ, @! Hãy chắc chắn để nói Sebastian sinh nhật vui vẻ ngày hôm nay. $3#$b#Anh ấy ghét khi tớ nhắc nhở mọi người. $11#$b#Tớ phải làm nhiệm vụ của mình như một người bạn bằng cách cho mọi người biết!$3", // Sebastian's Birthday
+	"Lani.Dialogue.winter_14": "Maru, Seb và tớ sẽ đi Chợ đêm vào ngày 16.#$b#Cậu nên đến! Thật tuyệt.$12", // Day before the Night Market
+	"Lani.Dialogue.winter_24": "Cậu đã nhận được quà tặng cho người bạn tặng quà Ngôi Sao Mùa Đông chưa?#$e#Tớ hy vọng họ thích món quà của tớ... Tớ đã suy nghĩ rất nhiều về nó.$12", // Day before Winter Star
+	
+	// Schedule Strings
+	"Lani.Schedule.NightMarket.000": "Tớ nghĩ những bức tranh Lupini này là đồ giả. Nếu không thì tại sao chúng lại được bán với giá rẻ như vậy? Thêm nữa, nét cọ đều là đồ giả...",
+	"Lani.Schedule.SeedShop.000": "%Lani đang từ từ xếp các kệ hàng và nhìn vào quầy lễ tân từ giữa các sản phẩm.#$b#Ồ, ừ. Này. Cậu có cần gì ở lối đi này không?$12",
+	"Lani.Schedule.BathHouse.0": "Ồ, chào cậu. Cậu khỏe không?$12",
+	"Lani.Schedule.BathHouse.1": "Có cả một hồ bơi ở đây, và cậu chỉ cần... ở ngay đây thôi, phải không?$7",
+	"Lani.Schedule.BathHouse.2": "Trời ơi, cậu làm tớ sợ quá! Tớ không ngờ lại có người khác ở đây.$16",
+	
+	
+	// Dialogue 
+	"Lani.Dialogue.Mon.0": "Ừm, chào.#$b#Tớ đang bận một việc, nên... Ừm.",
+	"Lani.Dialogue.Mon.1": "Guh... thật là một ngày...$2#$e#Tớ không thể tin được con người ngày nay lại mù công nghệ đến thế...$13",
+	"Lani.Dialogue.Mon.2": "%Lani nhướng mày.#$b#Cậu cần gì không?$6",
+	"Lani.Dialogue.summer_Mon": "Nếu như mùa xuân không phải là thời điểm côn trùng hoành hành dữ dội nhất thì chắc chắn chúng đã xuất hiện rồi...$2#$e#Ugh...$2",
+	"Lani.Dialogue.fall_Mon": "Cậu có thích mùa này không?#$b#Theo tớ thì đây là màu đẹp nhất.$12",
+	"Lani.Dialogue.winter_Mon": "Hôm nay trời lạnh kinh khủng.$2#$e#Cậu không lạnh sao?$7",
+	
+	"Lani.Dialogue.Tue.0": "%Lani nhìn bạn đầy mong đợi với một bên lông mày nhướn lên.",
+	"Lani.Dialogue.Tue.1": "%Lani đang nghe gì đó trên điện thoại. Nếu bạn nhìn qua vai cô ấy, bạn gần như có thể thấy tiêu đề. #$e#Cậu đang... Cậu đang làm gì vậy?$6#$b#Cậu sắp làm cái trend TokTok ngu ngốc đó khi cậu hỏi tớ đang nghe gì à?$14#$b#Làm ơn đừng.$13",
+	"Lani.Dialogue.Tue.1.NoModern": "%Lani đang nghe gì đó trên DiscThing của cô ấy. Nếu bạn nghiêng người đủ gần, bạn gần như có thể nghe thấy qua tai nghe của cô ấy.#$e#Cậu đang... Cậu đang làm gì vậy?$6#$b#Ừm, xin chào? Cậu đã bao giờ nghe nói đến không gian cá nhân chưa?$14#$b#Nếu cậu muốn biết tớ đang nghe gì, hãy hỏi vào lần tới.$13",
+	"Lani.Dialogue.Tue.2": "Này, @.$6#$b#Tớ chỉ... ugh, tớ thấy một số tin tức trên Twitter về trò chơi mà tớ đang mong chờ bị hủy bỏ.$2#$b#Phát triển trò chơi thật khó khăn.$2",
+	"Lani.Dialogue.Tue.2.NoModern": "Này, @.$6#$b#Tớ chỉ... ôi, tớ thấy một số tin tức trên tạp chí Electronic Gaming Monthly về trò chơi mà tớ đang mong chờ bị hủy bỏ.$2#$b#Phát triển trò chơi thật khó khăn.$2",
+	"Lani.Dialogue.summer_Tue": "Mùa hè rồi, trời nóng lắm.$13#$b#Nếu cậu không cần gì cả, cậu sẽ tan chảy.$2",
+	"Lani.Dialogue.fall_Tue": "Năm học mới vừa bắt đầu. Cậu biết điều đó có nghĩa là gì không?$2#$b#Những con thú mới- Ý tớ là, học sinh, cần tránh...$7",
+	"Lani.Dialogue.winter_Tue": "Tớ thích tuyết, nhưng Yoba, tớ sợ lạnh kinh khủng.$2#$b# Khiến tớ muốn ở trong nhà cả ngày và cuộn mình trong chăn.",
+	
+	"Lani.Dialogue.Wed.0": "Cậu có cần gì không? Hoặc...$6#$e#Uh hử. Xin chào, tớ đoán vậy.",
+	"Lani.Dialogue.Wed.1": "...Chiếc bánh này không dành cho tớ. Nó dành cho Haley. %revealtasteHaley:(O)221#$e#Tớ... Tớ sẽ mang cho cô ấy một chiếc bánh hồng. Từ Zuzu.#$b#Đó là món cô ấy thích ăn nhất.$12", 
+	"Lani.Dialogue.Wed.2": "Hôm nay là thứ tư, các cậu ạ. #$b#%Lani bắt đầu hét lên.",
+	"Lani.Dialogue.summer_Wed": "Cậu đã thấy...$6#$b#Nevermind.#$e#Có điều gì đó cậu vừa làm khiến tớ nhớ đến một video NewTube mà tớ đã xem... Chỉ vậy thôi.$8",
+	"Lani.Dialogue.summer_Wed.NoModern": "Cậu đã thấy...$6#$b#Nevermind.#$e#Một điều cậu vừa làm khiến tớ nhớ đến một điều tớ từng thấy trên internet... Chỉ vậy thôi.$8",
+	"Lani.Dialogue.fall_Wed": "Mùa thu có nghĩa là mùa mâm xôi.#$b#Bánh mâm xôi, bánh nướng mâm xôi, mứt mâm xôi, mọi thứ từ mâm xôi...$2#$b#%Lani nhăn mặt khi nghĩ đến điều đó.", 
+	"Lani.Dialogue.winter_Wed": "Tớ thức khuya đêm qua chỉ để ngắm tuyết rơi bên ngoài cửa sổ.$12#$b#Tớ cho là đáng giá, nhưng trời ơi, tớ mệt quá.",
+	
+	"Lani.Dialogue.Thu.0": "...Xin chào. Cậu, ừm, có vẻ khá hòa đồng. Tớ thấy cậu đi khắp thị trấn nói chuyện với mọi người.#$b#Tớ là người hướng nội hơn. Tớ không thực sự giỏi nói chuyện với mọi người.$2",
+	"Lani.Dialogue.Thu.1": "Hôm nay là một trong những ngày mà cậu chỉ cần bật một danh sách nhạc và... giải tỏa căng thẳng.$2",
+	"Lani.Dialogue.Thu.2": "Những chú bò của Marnie thật dễ thương...$9#$b#Thỉnh thoảng tớ vào rừng và cho chúng ăn.$12",
+	"Lani.Dialogue.summer_Thu": "Ồ, lại là cậu à.#$b#Cậu có trồng hoa hướng dương ở trang trại của cậu không? Chúng là f...$1#$b#...thôi bỏ đi.#$e#Uh, tạm biệt.$7",
+	"Lani.Dialogue.fall_Thu": "Khá chắc chắn rằng điều duy nhất mọi người mong đợi trong mùa này là lễ hội Hội chợ và Đêm vọng thần linh. Luôn thu hút rất nhiều người...#$e#Mùa thu là mùa hỗn loạn và phá hỏng sự thanh thản của tớ.$2",
+	"Lani.Dialogue.winter_Thu": "Chiếc áo khoác ngu ngốc này không đủ giữ ấm cho tớ...$2",
+	
+	"Lani.Dialogue.Fri.0": "Tớ không giỏi nói chuyện phiếm, vì vậy...#$b#Tớ hy vọng cậu ổn với sự im lặng.",
+	"Lani.Dialogue.Fri.1": "Chắc hẳn rất cô đơn trên trang trại rộng lớn đó.#$e#Nếu đó là đất của tớ, tớ sẽ xây một cái chuồng và một vài chuồng cho một số loài động vật.$12",
+	"Lani.Dialogue.Fri.2": "À, chào. Nhân tiện, tớ chưa bao giờ hỏi... cậu bao nhiêu tuổi? Tớ hai mươi lăm tuổi.
+	#$q SBVLani.ageQuestion.younger/SBVLani.ageQuestion.same/SBVLani.ageQuestion.older ageQuestion_followup#Cậu trẻ hay già hơn tớ?
+	#$r SBVLani.ageQuestion.younger 0 ageQuestion_younger#Tớ trẻ hơn cậu.
+	#$r SBVLani.ageQuestion.same 10 ageQuestion_same#Chúng ta cùng tuổi!
+	#$r SBVLani.ageQuestion.older 0 ageQuestion_older#Tớ lớn tuổi hơn cậu.",
+	"Lani.Dialogue.ageQuestion_younger": "Ồ, cậu vẫn còn là một đứa trẻ! Cậu thật may mắn.$3",
+	"Lani.Dialogue.ageQuestion_same": "Luôn tuyệt khi có những người cùng độ tuổi với cậu ở một thị trấn nhỏ như thế này.$12#$b#Kiểu như, tớ chắc chắn không muốn kết bạn với một đứa mười tám tuổi...$2#$b#Chúng chưa hiểu mọi thứ như chúng ta đâu.$7",
+	"Lani.Dialogue.ageQuestion_older": "Cái gì cơ?! Không đời nào! Tớ nghĩ cậu bằng tuổi tớ!$16#$b#Ừm, nếu có thể an ủi cậu thì trông cậu khá trẻ đấy.$12",
+	"Lani.Dialogue.ageQuestion_followup": "Tớ không bao giờ đoán được cậu đã bao nhiêu tuổi.",
+	"Lani.Dialogue.summer_Fri": "Tớ thấy vẫn đang chạy quanh thị trấn tán gẫu.#$b#Được rồi, đừng để tớ ngăn cản cuộc thập tự chinh của cậu. Tiếp tục nào.$3",
+	"Lani.Dialogue.fall_Fri": "Trường trung học Grampleton đã gửi cho tớ tấm séc lương, nhưng nó đã bị thất lạc trong quá trình vận chuyển.$2#$b#Làm sao thế? Làm sao cậu có thể làm mất nó?$13#$b#Tớ thậm chí còn không biết tại sao họ lại gửi nó khi tớ có thể đi xe buýt đến đó để lấy. Hoàn toàn vô lý.$5",
+	"Lani.Dialogue.winter_Fri": "Quá lạnh.$2#$b#Không thể nói chuyện.$2#$b#Tắt các chức năng xã hội để giữ ấm.$2",
+	
+	"Lani.Dialogue.Sat.0": "%Lani giơ tay chào. Cô ấy không nói một lời.",
+	"Lani.Dialogue.Sat.1": "Cậu nên đến thư viện thỉnh thoảng. Đọc sách rất thú vị.$12",
+	"Lani.Dialogue.Sat.2": "Cậu đã bao giờ đến thủy cung chưa?#$b#Tớ thích ngắm cá.$12",
+	"Lani.Dialogue.summer_Sat": "...Hôm qua tớ mơ thấy cậu.$6#$b#Cậu không nói gì nhưng cậu vẫn ở đó.",
+	"Lani.Dialogue.fall_Sat": "Nếu cậu không bị dị ứng với mèo, cậu nên đến Quán cà phê mèo.$12#$b#Họ sẽ tổ chức sự kiện Autumn Arrivals vào tuần tới dành cho những chú mèo mới.",
+	"Lani.Dialogue.winter_Sat": "Vẫn đang làm việc à? Vào một ngày mùa đông tuyệt đẹp?$16#$b#Thật tệ cho cậu.$11",
+	
+	"Lani.Dialogue.Sun.0": "Được rồi, câu hỏi chân thành: tại sao cậu lại nói chuyện với tớ?$6#$b#Không có ý xấu hay gì cả, tớ chỉ... bối rối.$2#$e#Chỉ vì cậu 'muốn'?$7#$b#%Lani nhìn bạn một cách nghi ngờ trước khi nhún vai.#$b#Được rồi, tùy cậu. Cuộc sống của cậu, không phải của tớ.$6",
+	"Lani.Dialogue.Sun.1": "...Có lẽ hôm nay tớ sẽ ghé qua Pierre...$9#$e#Ồ, chào. Đang trên đường đến Pierre à?#$b#Tớ phải mua thật nhiều dầu cho công thức tớ đang làm, vì vậy...#$b#Hẹn gặp lại nhé.$12",
+	"Lani.Dialogue.Sun.2": "Trận đánh trùm này đang đá đít tớ. Có lẽ nếu tớ chỉ...$13#$b#%Lani đắm mình trở lại vào chiến lược.",
+	"Lani.Dialogue.summer_Sun": "Này.#$b#Làm việc chăm chỉ hay hầu như không làm việc? Hehe.$11#$b#Tớ cũng ghét khi mọi người nói thế với tớ.$7",
+	"Lani.Dialogue.fall_Sun": "Mùa thu rồi... Cậu đã kết bạn được với ai trong thị trấn chưa?$6#$e#Không mong đợi gì hơn từ những người thích giao du ở Thị trấn Pelican.$3",
+	"Lani.Dialogue.winter_Sun": "Nếu tớ bước vào một vũng mưa đá sâu nữa và tất của tớ bị ướt, tớ sẽ bị gãy.#$b#Snap, tớ nói cho cậu biết.$13#$b#Snap!$5",
+	
+	"Lani.Dialogue.Mon2.0": "Cậu đã gặp mọi người ở Sunberry chưa? Có một vài ngôi nhà ở những nơi không ngờ tới.#$b#Hãy chắc chắn nói 'xin chào' với mọi người khi cậu nhìn thấy họ.$12",
+	"Lani.Dialogue.Mon2.1": "Cậu trồng những loại cây trồng nào trên trang trại của mình?#$b#Cậu có chuyên môn hóa không, hay cậu chỉ trồng một chút mọi thứ?#$e#Kinh nghiệm làm nông duy nhất của tớ là ở trang trại hoa oải hương của bố mẹ tớ, vì vậy tớ nghĩ tớ sẽ hỏi.$12",
+	"Lani.Dialogue.Mon2.2": "Tớ thường đặt hàng từ Jojazon.#$b#Cửa hàng Joja ở Grampleton có một số thứ, nhưng không phải tất cả mọi thứ tớ cần.$6",
+	"Lani.Dialogue.Mon2.2.NoModern": "Cậu có đăng ký danh mục JojaBox không?#$b#Tớ tiếp tục đăng ký vì tớ thích xem ảnh.$12#$e#Tớ không mua nhiều từ đó, ngoại trừ những thứ như Bộ pin hoặc cây trồng.$7#$b#Nhưng đôi khi, có những thứ thực sự dễ thương và tớ phải kiềm chế sự thôi thúc gọi điện để nói về chúng...$8",
+	"Lani.Dialogue.Mon2.3": "Cậu đã gặp Jonghyuk chưa? Anh ấy sống ở cuối đường nhà tớ.#$e#Anh ấy là, ừm, bạn của tớ. Nếu cậu gặp anh ấy, hãy nói với anh ấy là tớ gửi lời 'xin chào'.$9",
+	"Lani.Dialogue.summer_Mon2": "Mọi người hỏi cậu về trang trại của cậu bao nhiêu lần một tuần? Tớ cá là rất nhiều.#$b#Chào mừng đến với thị trấn nhỏ tọc mạch.$3",
+	"Lani.Dialogue.fall_Mon2": "Hôm nay tớ phải lắp một số loa trong phòng nhạc của trường. #$b#Trời ạ, được ở trong căn phòng đó khiến tớ nhớ lại...$7#$e#Tớ từng chơi đàn cello. Nhặt nó lên để học nhạc lý để sau này có thể tự sáng tác.#$b#Tớ ngừng chơi sau khi tốt nghiệp, nhưng tớ biết mẹ tớ vẫn còn giữ cây đàn cello của tớ trong gara đâu đó.#$e#Ồ, xin lỗi. Chỉ là truyền thuyết bị đổ lên đầu cậu thôi.$8",
+	"Lani.Dialogue.winter_Mon2": "Tuyết có làm cậu khó khăn khi xuống đây không?#$b#Tớ biết Sunberry khá xa Thị trấn Pelican.",
+	
+	"Lani.Dialogue.Tue2.0": "Tớ đã bắt đầu mong đợi sự hiện diện của cậu trong cuộc sống hàng ngày của tớ.#$b#Bây giờ tớ lo lắng hơn khi cậu không đến và nói chuyện với tớ.$12",
+	"Lani.Dialogue.Tue2.1": "Đôi khi tớ cảm thấy cô đơn trong ngôi nhà của mình.$2#$b#Tớ muốn có một con vật cưng, nhưng tớ không biết mình có đủ năng lượng để chăm sóc một con không...$2",
+	"Lani.Dialogue.Tue2.2": "Cậu có nuôi động vật nào không?#$b#Cậu có à?!$1#$b#Cậu có nuôi bò không?$1#$b#Chúng có thân thiện không?$1#$b#Còn cừu thì sao?$4#$e#...Ờ. Ý tớ là...$8#$b#Ừm, tuyệt đấy.$7",
+	"Lani.Dialogue.summer_Tue2": "Có lẽ tớ nên nghỉ việc IT và trở thành một người nông dân như cậu.$6#$b#Cậu thực sự có rất nhiều tiền...",
+	"Lani.Dialogue.fall_Tue2": "Một nửa thời gian, tớ thậm chí không cần phải đến công ty để làm việc. Tớ ước họ cho bọn tớ làm việc từ xa.$2#$b#Nhưng nếu thế thì tớ sẽ không làm được việc gì cả...$7",
+	"Lani.Dialogue.fall_Tue2.NoModern": "Một nửa thời gian, tớ thậm chí không cần phải ở nơi làm việc để làm công việc của mình. Tớ ước họ chỉ gọi tớ khi họ cần tớ.$2#$b#Sau đó, tớ có thể sẽ dành nhiều thời gian trên điện thoại, mặc dù...$7",
+	"Lani.Dialogue.winter_Tue2": "Cậu đã từng tình cờ gặp một cây khoai mỡ tuyết chưa? Tớ gần như gãy cổ sau khi vấp phải một cây hôm nọ.$13#$e#Có người đang đào bới xung quanh và chỉ... để lại thú vui kiếm ăn nhỏ bé của họ cho tớ ngã.$13#$b#Ugh.$5",
+	
+	"Lani.Dialogue.Wed2.0": "Này. Là @, đúng không?#$b#Ý tớ là, tớ biết điều đó, tớ chỉ... đảm bảo thôi.$7#$b#Xin chào, @.$12",
+	"Lani.Dialogue.Wed2.1": "Sunberry không có nhiều khách đến thăm.$6#$b#Làm tớ tự hỏi tại sao chúng ta lại có một Nhà trọ.#$e#Tớ ước gì chúng ta có một vị khách bí ẩn hay gì đó...$9#$e#Cái gì cơ? Tớ không nói gì cả.$6#$b#Cậu đang tưởng tượng ra mọi thứ.$8",
+	"Lani.Dialogue.Wed2.2": "Tớ không hiểu làm sao cậu có thể thích câu cá.$6#$b#Mất quá nhiều thời gian.#$b#...Hoặc có thể tớ không giỏi câu cá.#$b#Dù sao đi nữa.$13",
+	"Lani.Dialogue.summer_Wed2": "Tớ ghét thời tiết nóng.$2#$b#Cậu chỉ có thể cởi bớt một số lớp, nhưng trong thời tiết lạnh, cậu có thể mặc nhiều lớp tùy thích. Tốt hơn nhiều.$3#$b#Ngoài ra, ai mà không thích một chiếc chăn lông mềm mại chứ?$12",
+	"Lani.Dialogue.fall_Wed2": "Tớ có một sự thôi thúc kỳ lạ muốn nhảy vào đống lá, nhưng trang phục của tớ...$2#$e#Nhảy vào một số lá thay tớ. Nghe tiếng giòn ngọt.$3#$e#Chúc cậu một ngày vui vẻ, @.$12",
+	"Lani.Dialogue.winter_Wed2": "Ugh, các bộ phận máy tính mà tớ muốn đang được bán với giá cực cao ngay lúc này.$13#$b#Có vẻ như chúng đang được săn đón cho Winter Star.#$e#Tớ đoán là đến mùa rồi.$6",
+	
+	"Lani.Dialogue.Thu2.0": "Bất kỳ người đưa thư nào đã ném gói Jojazon của tớ vào cây của tớ sẽ bắt được những bàn tay này.$5#$e#Có lẽ tớ nên trở thành người đưa thư để sửa chữa những bất công về gói hàng này trên thế giới.$6",
+	"Lani.Dialogue.Thu2.0.NoModern": "Bất kỳ người đưa thư nào đã ném bưu kiện của tớ vào cây của tớ sẽ bắt được những bàn tay này.$5#$e#Có lẽ tớ nên trở thành người đưa thư để sửa chữa những bất công về bưu kiện trên thế giới này.$6",
+	"Lani.Dialogue.Thu2.1": "Tớ thức khuya xem Tweeter và cảm thấy mình như rác rưởi.$2#$b#Việc nhìn thấy mọi người làm tốt hơn cậu có khiến cậu cảm thấy cay đắng vô lý không? Bởi vì nó khiến tớ cảm thấy như vậy.$2",
+	"Lani.Dialogue.Thu2.1.NoModern": "Tớ thức khuya xem tạp chí về người nổi tiếng và cảm thấy mình như rác rưởi.$2#$b#Việc nhìn thấy mọi người làm tốt hơn cậu có khiến cậu cảm thấy cay đắng vô lý không? Bởi vì nó khiến tớ cảm thấy như vậy.$2",
+	"Lani.Dialogue.Thu2.2": "Tớ ăn tối với Haley vào thứ năm. Bọn tớ đã biến nó thành thói quen hàng tuần của mình cách đây khoảng hai năm.#$b#Đôi khi, ngay cả Maru cũng tham gia cùng bọn tớ ăn tối nếu cô ấy tan làm sớm.$12",
+	"Lani.Dialogue.summer_Thu2": "Hôm nay tớ đã có một ngày rất, rất tuyệt vời.$12#$b#Tớ đã làm gì? Pfft. Còn gì nữa?$3#$b#Chơi trò chơi điện tử và ngủ trưa như thường lệ.$11",
+	"Lani.Dialogue.fall_Thu2": "Cậu có làm gì ngoài nghề nông không? Kiểu như, cho vui thôi.#$b#Tớ làm CNTT cho trường trung học Grampleton. Tớ cho là... đó là một công việc.$6#$b#Tớ muốn làm phát triển trò chơi, nhưng... Việc đó không hiệu quả lắm.$7#$e#Ít nhất thì tớ không phải làm việc cả năm.$12",
+	"Lani.Dialogue.winter_Thu2": "Trời nắng, vậy tại sao tay tớ lại như kem que thế này? Trời phải ấm chứ, chết tiệt.$2#$e#Trong khi đó, cậu lại ở ngoài này chỉ với một chiếc áo mỏng mà không mặc áo khoác...#$b#Cậu điên rồi?$7",
+	
+	"Lani.Dialogue.Fri2.0": "Bố mẹ tớ cũng là nông dân. Cậu đã từng nghe đến trang trại Pine Grove chưa?#$b#Họ ở xa Pine Mesa, nơi vẫn còn những ngọn đồi rộng lớn và nhiều thứ khác.",
+	"Lani.Dialogue.Fri2.1": "Mọi người ở Sunberry tụ tập ở quầy bar ngoài trời vào tối thứ bảy.#$b#Tớ thường mang theo Three Bean Chili. Đây là món ăn được nhiều người yêu thích.$3",
+	"Lani.Dialogue.Fri2.2": "Tớ nghe thấy một số âm thanh kỳ lạ bên ngoài nhà tớ đêm qua.$2#$b#Nghe giống như... cậu biết những chú Peekmin nhỏ bé đó chứ? Chúng tạo ra tiếng 'meep meep' như thế nào?#$b#Nghe giống hệt như vậy.$2",
+	"Lani.Dialogue.summer_Fri2": "Tớ thích chiếc áo của cậu.#$b#Màu áo rất hợp với cậu. Rất hợp với tông màu da của cậu.$12",
+	"Lani.Dialogue.fall_Fri2": "Có lẽ hôm nay tớ sẽ ghé thăm Quán cà phê mèo, chào những con thú nhỏ hôi thối này.$12#$b#Tớ muốn nói điều này hoàn toàn trìu mến.",
+	"Lani.Dialogue.winter_Fri2": "Thỉnh thoảng thú cưng của cậu có ngủ chung giường với cậu không?#$b#Sammy giống như một chiếc lò sưởi nhỏ, nên tớ cho phép nó ngủ vào mùa đông.$12#$b#Vào mùa hè, nó ngủ trên giường của mình.",
+	
+	"Lani.Dialogue.Sat2.0": "Tớ nghe nói họ đang xây dựng một Bruno's Burritos mới ở Grampleton.#$b#Tớ mừng vì tớ sẽ không phải lái xe một giờ đến Zuzu để mua nữa!$1",
+	"Lani.Dialogue.Sat2.0.NoModern": "Tớ nghe nói họ đang xây một tiệm burrito mới ở Grampleton.#$b#Tớ mừng là tớ sẽ không phải đi xe buýt đến Zuzu để mua nữa!$1",
+	"Lani.Dialogue.Sat2.1": "Tớ không hiểu tại sao Joja vẫn còn nổi ở thị trấn này.$6#$b#Grampleton đã có một Joja Emporium rồi. Tại sao họ lại mở một cửa hàng tiện lợi ở đây?$6#$e#Tớ cho là chủ nghĩa tư bản lại tấn công lần nữa...$7",
+	"Lani.Dialogue.Sat2.2": "Tớ tự hỏi liệu có loài hoa nào đẹp mọc trên núi không...#$b#%Lani có vẻ đang lẩm bẩm một mình.",
+	"Lani.Dialogue.summer_Sat2": "Hôm nay là ngày hoàn hảo để đi bơi!$1#$b#...Nếu tớ biết cách. Có lẽ tớ sẽ chỉ nhúng chân vào nước và coi như xong một ngày.$7",
+	"Lani.Dialogue.fall_Sat2": "Ngắm lá đổi màu không bao giờ là cũ.$12#$e#Pine Mesa thực sự không có mùa, nếu điều đó có ý nghĩa gì. Nó khá trung tính quanh năm.",
+	"Lani.Dialogue.winter_Sat2": "Sáng nay tớ bị trượt chân trên băng khi bước ra khỏi nhà...$2#$b#Thế giới đang trừng phạt tớ ngày hôm nay.$13#$e#Có lẽ đó là dấu hiệu để ở nhà.$3", 
+	
+	"Lani.Dialogue.Sun2.0": "Xin lỗi nếu tớ tỏ ra thô lỗ.#$b#Người ta bảo tớ là... ngại ngùng khi ở cạnh người mới.$7#$b#Hoặc bất kỳ ai, thực sự.$8#$e#Tớ rất cảm kích khi cậu nói chuyện với tớ.",
+	"Lani.Dialogue.Sun2.1": "Thể loại nhạc yêu thích của cậu là gì? Tớ là người thích 'mọi thứ trừ nhạc đồng quê'. #$b# Tuy nhiên, sống ở một thị trấn nhỏ như thế này, cậu sẽ bắt đầu thích nhạc đồng quê theo khoảng cách gần...$7",
+	"Lani.Dialogue.Sun2.2": "Đêm qua điều khiển TV của tớ hỏng nên tớ phải xem kênh mua sắm.#$b#Đây là lý do tại sao việc có một bộ pin dự phòng luôn là điều tốt!$1 %revealtasteLani:(O)787#$e#Tuy nhiên, họ bán một số thứ thú vị trên đó...$3",
+	"Lani.Dialogue.summer_Sun2": "Tớ cố gắng tự làm bữa sáng và bữa tối mỗi ngày.#$b#Bữa trưa thường không chắc chắn.$8",
+	"Lani.Dialogue.fall_Sun2": "Tớ không muốn quay lại làm việc vào ngày mai...$2#$e#Tớ hy vọng bọn yêu tinh sẽ bắt tớ đi trong lúc tớ ngủ hoặc gì đó để tớ không phải đi làm nữa.",
+	"Lani.Dialogue.winter_Sun2": "Tớ đã chơi PocketMon suốt cả tuần.#$b#Cuối cùng tớ cũng đã lai tạo được một con 6IV 'Mon sau vài trăm quả trứng. Chính xác là 435 quả, hah...$7#$e#Những giờ phút trong cuộc đời tớ sẽ không bao giờ lấy lại được...$2",
+	"Lani.Dialogue.winter_Sun2.NoModern": "Tớ đã chơi PocketMon suốt cả tuần trên GameGirl của mình.#$b#Cuối cùng tớ cũng tạo ra được một PocketMon thực sự tốt với các DV phù hợp, hah...$7#$e#Những giờ phút trong cuộc đời tớ sẽ không bao giờ lấy lại được...$2",
+	
+	"Lani.Dialogue.Mon4.0": "Tớ hơi ghen tị với cậu, @. Lao động chân tay thực sự rất bổ ích.$12#$e#Nếu cậu cần xây dựng bất cứ thứ gì, hãy liên hệ với tớ.",
+	"Lani.Dialogue.Mon4.1": "Cậu đã bao giờ trò chuyện với ông già ở Hội phiêu lưu trên núi chưa? Ông ấy là một người kể chuyện tuyệt vời.#$b#Kể cho tớ nghe về cách ông ấy từng giết hết những con quái vật này khi còn trẻ...$1#$b#Thật tuyệt khi ông ấy vẫn còn trí tưởng tượng phong phú ở độ tuổi đó.#$b#Tớ ước mình vẫn còn tia lửa đó.$2",
+	"Lani.Dialogue.Mon4.2": "Mỗi lần tớ đi chơi với Maru, tớ cảm thấy Demetrius đang nhìn tớ bằng ánh mắt khó chịu.$14#$e#Cha mẹ trực thăng là tệ nhất...$2",
+	"Lani.Dialogue.summer_Mon4": "Sáng nay tớ thức dậy và nhớ ra mình không có việc gì làm.$1#$b#Điều đó có nghĩa là hôm nay tớ có thể chơi một chút Ballatro...$12#$e#Tớ hy vọng ngày của cậu sẽ tốt đẹp, @!$1",
+	"Lani.Dialogue.summer_Mon4.NoModern": "Sáng nay tớ thức dậy và nhớ ra mình không có việc gì làm.$1#$b#Điều đó có nghĩa là hôm nay tớ có thể chơi một số trò chơi điện tử...$12#$e#Tớ hy vọng ngày của cậu sẽ tốt đẹp, @!$1",
+	"Lani.Dialogue.fall_Mon4": "Thứ Hai là ngày tệ nhất.$6#$b#Đó là lúc gacha của tớ được thiết lập lại và cũng là lúc đồ đạc của mọi người quyết định hỏng ở nơi làm việc.",
+	"Lani.Dialogue.fall_Mon4.NoModern": "Thứ Hai là ngày tệ nhất.$6#$b#Đó là lúc đồ đạc của mọi người đều hỏng ở nơi làm việc.",
+	"Lani.Dialogue.winter_Mon4": "Tớ có nên cắt tóc trước khi mùa kết thúc không?#$b#Đôi khi thời tiết ở đây vào mùa xuân rất nóng và tớ không muốn giữ nhiệt ở gáy.",
+	
+	"Lani.Dialogue.Tue4.0": "Sammy rất tình cảm.#$b#Cô ấy thích nằm cạnh đầu tớ khi tớ ngủ, vì vậy đầu tớ luôn ấm áp.$12",
+	"Lani.Dialogue.Tue4.1": "Tớ không biết tại sao Maru lại làm việc ở phòng khám nếu niềm đam mê thực sự của cô ấy là robot. Kiểu như, hai thứ đó kết hợp với nhau như thế nào?$6#$b#Tớ đoán là chân tay giả, nhưng cô ấy thực sự chỉ bày tỏ sự quan tâm đến những thứ 'khoa học viễn tưởng' hơn.#$e#Có lẽ tớ sẽ hỏi cô ấy về điều đó.",
+	"Lani.Dialogue.Tue4.2": "Những người chủ trước của ngôi nhà tớ thực sự có một quán cà phê trong tòa nhà. Tớ nghĩ nó được gọi là Hoa hồng Stella?#$e#Gia đình tớ đã giúp tớ cải tạo nó thành một mặt bằng 'mở' hơn hoặc đại loại thế.#$b#Tớ chỉ đứng đó trong khi bố tớ làm mọi thứ.#$e#Tuy nhiên, tớ đã trang trí và thiết kế mọi thứ ở đây, điều đó thật tuyệt.$12#$e#Có lẽ tớ nên trở thành một nhà thiết kế nội thất...$6",
+	"Lani.Dialogue.summer_Tue4": "@, câu hỏi quan trọng, sống hay chết, cậu đã sẵn sàng chưa?!
+	#$q SBVLani.AnimalQuestion.Dogs/SBVLani.AnimalQuestion.Cats animalquestion_followup#Chó hay mèo?
+	#$r SBVLani.AnimalQuestion.Dogs 0 animalquestion_dogs#Chó
+	#$r SBVLani.AnimalQuestion.Cats 15 animalquestion_cats#Mèo",
+	"Lani.Dialogue.animalquestion_followup": "$p SBVLani.AnimalQuestion.Cats#Tớ hứa là cô ấy rất tốt bụng. Cô ấy có thể chỉ ngồi trên đùi cậu.$12|Tớ đã cố gắng cho cô ấy quen với chó, nhưng cô ấy không thích chúng lắm...$7",
+	"Lani.Dialogue.animalquestion_dogs": "À, tớ đoán là không có buổi chơi đùa với thú cưng. Sammy không giỏi với chó lắm.$2",
+	"Lani.Dialogue.animalquestion_cats": "Cậu nên đến thăm Sammy vào lúc nào đó. Cô ấy yêu mọi người.$1",
+	"Lani.Dialogue.fall_Tue4": "Làm việc tại trường trung học Grampleton thật tuyệt. Không phải nơi tớ tưởng tượng mình sẽ đến, nhưng cũng được.#$b#Tớ được nghịch ngợm cả ngày cho đến khi được triệu hồi từ hang ổ để làm một số công việc tầm thường.#$b#Cài đặt màn hình? Chắc chắn rồi! Kết nối lại một số dây? Trên đó.$3#$b#Được trả tiền để nghịch ngợm là điều tuyệt nhất. Phải yêu chủ nghĩa tư bản!$11",
+	"Lani.Dialogue.winter_Tue4": "Hôm nay có bảy người nhờ tớ 'sửa' máy chiếu cho họ.$13#$b#Bảy.$13#$b#Sửa thế nào?$6#$b#Khởi động lại cái thứ chết tiệt đó.$5#$e#Yoba toàn năng.$13",
+
+	"Lani.Dialogue.Wed4.0": "Tớ đã bao giờ nói với cậu rằng tớ nói một ngôn ngữ khác chưa? Không giỏi lắm, trừ khi tớ say, nhưng tớ có thể đọc và viết rất tốt. #$b#Tớ không nói được nhiều vì Thung lũng hơi... cậu biết đấy. $8#$b#Nhưng Miyoung nói được, vì vậy tớ đã luyện tập với cô ấy một thời gian rồi! $12#$e#Tuy nhiên, cô ấy nói rằng đôi khi tớ nói như trẻ mẫu giáo...$7",
+	"Lani.Dialogue.Wed4.1": "Mẹ tớ thực tế là bạn thân nhất của tớ.$12#$b#Bọn tớ nhắn tin cho nhau mỗi ngày và bà luôn là chỗ dựa tuyệt vời cho tớ.#$e#Tớ nhớ bà rất nhiều.$2",
+	"Lani.Dialogue.Wed4.1.NoModern": "Mẹ tớ thực tế là bạn thân nhất của tớ.$12#$b#Bọn tớ gọi điện cho nhau hàng ngày và bà luôn là nguồn động viên tuyệt vời cho tớ.#$e#Tớ nhớ bà rất nhiều.$2",
+	"Lani.Dialogue.Wed4.2": "Pawston Dynamics đã đăng một số video mới về robot của họ.#$b#Thật kỳ lạ khi con người chúng ta lại có thể tạo ra công nghệ điên rồ như vậy.#$e#Tớ rất vui khi được trải nghiệm cuộc sống qua những sự kiện như thế này.$12",
+	"Lani.Dialogue.Wed4.2.NoModern": "Tớ thấy một số bức ảnh mới trên EGM về những chú robot đang được phát triển.#$b#Thật kỳ lạ khi con người chúng ta lại có thể tạo ra công nghệ điên rồ như vậy.#$e#Tớ rất vui khi được trải nghiệm cuộc sống qua những sự kiện như thế này.$12",
+	"Lani.Dialogue.Wed4.3": "Tớ đã bao giờ nói với cậu rằng tớ nói một ngôn ngữ khác chưa? Không giỏi lắm, trừ khi tớ say, nhưng tớ có thể đọc và viết rất tốt. #$b#Tớ không nói được nhiều vì Thung lũng hơi... cậu biết đấy. $8#$b#Nhưng Jonghyuk và Miyoung nói được, vì vậy tớ đã luyện tập với họ một thời gian rồi! $12#$e#Miyoung nói rằng đôi khi tớ nói như trẻ mẫu giáo vậy...$7",
+	"Lani.Dialogue.summer_Wed4": "Ồ, quán sushi ở Zuzu hôm nay có chương trình đặc biệt...#$b#Có lẽ tớ nên đi mua một ít Mực chiên cho Pierre.%revealtastePierre:(O)202#$b#Tớ cá là ông ấy sẽ lật kèo.$9",
+	"Lani.Dialogue.fall_Wed4": "Thậm chí công việc cũng không thể phá hỏng tâm trạng tốt của tớ ngày hôm nay.$12#$b#Card đồ họa mới của tớ đã về! Tớ rất háo hức được cài đặt nó và chơi một số 4tNite.$1#$b#Trước đây tớ không thích nó một cách nghiêm túc vì tớ nghĩ nó thật ngớ ngẩn, nhưng...#$b#Đối với tớ, một người thường tệ trong các trò chơi FPS, tớ RẤT vui khi chơi.$1#$b#Nó có một vòng lặp trò chơi tuyệt vời!$4#$e#Cậu có chơi không? Cậu nên.$12",
+	"Lani.Dialogue.fall_Wed4.NoModern": "Ngay cả công việc cũng không thể phá hỏng tâm trạng tốt của tớ ngày hôm nay.$12#$b#Card đồ họa mới của tớ đã về! Tớ rất háo hức cài đặt nó và thử chạy EarthQuake.$1#$b#Trước đây tớ không thích nó một cách nghiêm túc vì tớ nghĩ nó quá khó, nhưng...#$b#Đối với tớ, một người thường tệ trong các trò chơi bắn súng, tớ THỰC SỰ thấy vui khi chơi.$1#$b#Nó có một vòng lặp chơi tuyệt vời!$4#$e#Cậu có chơi không? Cậu nên.$12",
+	"Lani.Dialogue.winter_Wed4": "Các đồng nghiệp của tớ đều lớn tuổi hơn tớ rất nhiều.#$b#Đôi khi, tớ bị nhân viên nhầm là học sinh trung học...$7#$b#Luôn ngượng ngùng khi tớ giơ thẻ nhân viên và họ đột nhiên nhớ ra tớ là đồng nghiệp của họ.$8",
+	
+	"Lani.Dialogue.Thu4.0": "Tớ nghĩ mình sẽ làm điều gì đó lớn lao hơn trong cuộc sống, nhưng tớ đoán việc khắc phục sự cố máy chiếu và kết nối máy in với máy tính xách tay cũng ổn.#$b#Dù sao thì cũng trả lương cao.$3#$e#Rốt cuộc thì không phải ai cũng có thể trở thành nhà phát triển trò chơi độc lập. Hah. Hah.$7#$b#Hah...$8",
+	"Lani.Dialogue.Thu4.0.NoModern": "Tớ nghĩ mình sẽ làm điều gì đó lớn lao hơn trong cuộc sống, nhưng tớ đoán việc khắc phục sự cố máy chiếu và kết nối máy in với máy tính xách tay cũng ổn.#$b#Dù sao thì cũng trả lương cao.$3#$e#Rốt cuộc thì không phải ai cũng có thể làm trò chơi điện tử. Hah. Hah.$7#$b#Hah...$8",
+	"Lani.Dialogue.Thu4.1": "Đôi khi tớ cảm thấy hơi tệ cho Maru.#$b#Bố cô ấy thực sự...#$b#Ừm, làm sao để tớ diễn đạt một cách nhẹ nhàng... bảo vệ cô ấy?$7#$b#Tớ cố gắng tránh đi chơi với cô ấy khi bố cô ấy ở nhà...$2",
+	"Lani.Dialogue.Thu4.2": "Nếu có thể... Tớ nghĩ chắc chắn tớ sẽ nuôi một con robot làm thú cưng.#$b#Cậu sẽ không phải lo lắng về bất cứ điều gì, thực sự đấy!#$b#Không có thức ăn và không có phân. Nghe có vẻ tuyệt vời với tớ!$3",
+	"Lani.Dialogue.summer_Thu4": "CƯỜI, hãy tưởng tượng làm việc vào mùa hè.$3#$b#Ồ, đợi đã. Cậu không cần phải.$11",
+	"Lani.Dialogue.fall_Thu4": "Thật đáng kinh ngạc, hầu hết công nghệ trong trường học đều khá hiện đại. Thật dễ dàng để làm việc vì nó hiện đại.#$b#Bây giờ, DMV, tuy nhiên...$13",
+	"Lani.Dialogue.fall_Thu4.NoModern": "Cậu sẽ nghĩ rằng hầu hết công nghệ trong trường học đều khá hiện đại và dễ sử dụng vì nó hiện đại.#$b#Bây giờ, trường trung học Grampleton, tuy nhiên...$13",
+	"Lani.Dialogue.winter_Thu4": "Tớ nghe nói có một số loại cây trồng thực sự phát triển vào mùa đông. Chúng đã tồn tại hàng trăm năm.#$b#Khá tuyệt.$12",
+	
+	"Lani.Dialogue.Fri4.0": "Anh trai tớ gọi cho tớ hôm nay kể về vấn đề con gái của anh ấy...#$b#Ồ, đúng rồi, tớ chưa bao giờ kể cho cậu nghe về gia đình tớ.$16#$e#Tớ là con giữa trong hai anh em trai.#$b#Vâng, họ vẫn sống ở Pine Mesa. Tớ không còn được gặp họ nhiều nữa, nhưng bọn tớ cố gắng gọi điện cho họ mỗi tuần.",
+	"Lani.Dialogue.Fri4.1": "Ồ, chào, @!$1#$b#Tớ đã hoàn toàn bị cuốn hút vào trò chơi mô phỏng nông trại có tên là Stardew Valley... Cậu đã nghe về nó chưa?$12#$e#Nó do ConcernedMonkey thực hiện. Tớ theo dõi anh ấy trên Tweeter!$1#$e#Tớ không thể tin rằng anh ấy tự mình tạo ra trò chơi...$4",
+	"Lani.Dialogue.Fri4.1.NoModern": "Ồ, chào, @!$1#$b#Tớ đã hoàn toàn bị cuốn hút vào trò chơi GameGirl mới này có tên là Thung lũng Stardew... Cậu đã nghe về nó chưa?$12#$e#Nó do một anh chàng tên là ConcernedMonkey thực hiện. Tớ đã thấy đồ của anh ấy trong EGM!$1#$e#Tớ không thể tin rằng anh ấy tự mình tạo ra trò chơi...$4",
+	"Lani.Dialogue.Fri4.2": "Tớ sẽ đến thăm mẹ tớ trong vài tuần nữa.#$b#Nếu cậu muốn bất cứ thứ gì từ Pine Mesa, hãy cho tớ biết. Tớ sẽ mang về một món quà lưu niệm.$12",
+	"Lani.Dialogue.summer_Fri4": "Khi tớ ở Maru hôm nọ, Robin đã lôi kéo tớ vào một cuộc thảo luận về nghề mộc.#$b#Tớ đã lấy cảm hứng để thử làm một số việc ở nhà và đã làm gãy ngón tay của mình bằng một cái đục.$8#$b#Không phải là một trải nghiệm vui vẻ, tớ phải nói với cậu điều đó.$7#$b#Nhưng, tớ đã có rất nhiều niềm vui khi làm việc đó, vì vậy điều đó cũng đáng kể.$12",
+	"Lani.Dialogue.fall_Fri4": "Yoba, tớ rất mừng vì cơn sốt gia vị bí ngô không phải là thứ thịnh hành ở thị trấn này.#$b#Tớ sẽ phát điên mất nếu nó thịnh hành.$13",
+	"Lani.Dialogue.winter_Fri4": "Chúc mừng thứ sáu, @.$12#$b#Tớ chỉ vui vì hôm nay, cuối tuần lạnh lẽo của tớ bắt đầu, và tớ được nghỉ ngơi hoàn toàn.",
+	
+	"Lani.Dialogue.Sat4.0": "Cậu biết đấy, nếu Sebastian bỏ kiểu tóc emo, anh ấy sẽ cạnh tranh với Alex về 'cử nhân nóng bỏng nhất thị trấn'. #$b#Cái gì cơ? Anh ấy là bạn tớ và tớ có mắt. Tớ không thích anh ấy hay gì cả. #$b#Anh ấy giống như một viên kim cương thô. #$e#Tớ cảm thấy vinh dự khi hiểu được tiềm năng to lớn của Sebastian như một người nóng bỏng trong tương lai.$3",
+	"Lani.Dialogue.Sat4.1": "Sống ở đây đôi khi thật tệ vì tin đồn lan truyền quá nhanh.$6#$b#Tớ nhớ Sebastian đã đưa tớ về từ Saloon một đêm, và ngày hôm sau, tớ không thể bước một bước mà không có ai đó hỏi bọn tớ có đang hẹn hò không.#$b#Ừm, không phải sao? Anh ấy là anh trai của bạn tớ.$7#$b#Không thể tưởng tượng được đám tin đồn sẽ phản ứng thế nào nếu, Yoba cấm, một mối quan hệ không thành.$8",
+	"Lani.Dialogue.Sat4.2": "Tớ đã đặt mua một tấm lót chuột từ trang Betsy đó, và nó trông hơi... lạ...$2#$b#Tớ có nên gửi lại không?$7",
+	"Lani.Dialogue.Sat4.2.NoModern": "Tớ đã đặt mua một tấm lót chuột từ tạp chí Betsy mới đó, và nó trông hơi... lạ...$2#$b#Tớ  có nên gửi lại không?$7",
+	"Lani.Dialogue.summer_Sat4": "Mùa hè là tuyệt nhất vì nó có nghĩa là không còn ghét ngày Chủ Nhật nữa, không còn những con yêu tinh khó chịu nữa, và không còn những vấn đề ngớ ngẩn nữa...$4#$b#Dù sao thì hiện tại cũng vậy.#$b#Khi mùa thu quay trở lại... *thở dài*$7",
+	"Lani.Dialogue.fall_Sat4": "Robin thực sự dễ nói chuyện. Cô ấy cho tớ mang về nhà một số dụng cụ làm mộc cũ của cô ấy để tớ có thể thử đẽo gọt thứ gì đó nhỏ.$12#$e#Hy vọng là tớ không cắt đứt ngón tay mình... lần nữa...$8",
+	"Lani.Dialogue.winter_Sat4": "Ồ, thời tiết này thật hoàn hảo cho một chuyến đi suối nước nóng. Thư giãn trong làn nước nóng bốc hơi nghe thật tuyệt vời ngay lúc này...$4#$b#Tớ nghĩ mình sẽ đi làm điều đó, thực ra. Hẹn gặp lại.$12",
+	
+	"Lani.Dialogue.Sun4.0": "Tớ nghĩ mình đã trở thành nhân viên CNTT không chính thức của Sunberry tại thời điểm này. #$b#Cat Cafe đã yêu cầu tớ thiết lập hệ thống camera mới của họ... Chỉ cần cắm và chạy. #$b#Nhưng tớ đã kiếm được một khoản tiền từ việc này, vì vậy tớ không thực sự mất mát gì.$3",
+	"Lani.Dialogue.Sun4.1": "Đây là một câu hỏi kỳ lạ, nhưng cậu có biết, uh... Pocaloid là gì không?$7#$b#Nó là, uh, làm sao tớ có thể giải thích được... phần mềm hát ảo? Một số voicebank có thiết kế nhân vật để giúp chúng dễ tiếp thị hơn với các nhà sản xuất.#$b#Cậu có thể biết một trong những voicebank nổi tiếng hơn, Matsune Hiku - cô ấy và GOOMY là những người tớ yêu thích nhất.$12#$b#Xin lỗi, tớ có đang lan man không? Nếu cậu thực sự quan tâm đến nó, tớ sẽ kể hết mọi chuyện về nó!$1",
+	"Lani.Dialogue.Sun4.2": "Trời ơi, tớ để quên túi đựng đồ trang điểm ở Haley...$2#$e#Ugh, hy vọng không ai nhận xét về vẻ ngoài 'mệt mỏi' của tớ.$6",
+	"Lani.Dialogue.summer_Sun4": "Yeesh, hôm nay nóng hơn cả đít quỷ! Làm sao mà cậu không ướt đẫm mồ hôi?!$7#$e#Tớ thực sự gần như chỉ cần đi bộ khỏa thân.$5",
+	"Lani.Dialogue.fall_Sun4": "Mùa thu thật tuyệt vời phải không?$12#$e#Cái gì cơ? Tớ có nói gì lạ không?#$b#Tớ nghĩ đó là một quan sát khá thú vị...$11",
+	"Lani.Dialogue.winter_Sun4": "Lễ kỷ niệm Winter Star sắp diễn ra...#$b#Cậu đã nghĩ ra ý tưởng quà tặng nào chưa?#$e#Tớ thường chọn thứ gì đó đảm bảo phản ứng tích cực ngay cả khi tớ không biết rõ người nhận, như đồ ăn hoặc thẻ quà tặng.",
+
+	"Lani.Dialogue.Mon6.0": "Tớ mừng là mình không phải thường xuyên tiếp xúc với bọn trẻ...#$b#Những đứa học sinh trung học khiến tớ cảm thấy bất an.$7#$b#Nhưng này, công việc này trả lương cao, và tớ có rất nhiều thời gian nghỉ phép, vì vậy tớ bỏ qua một vài tương tác kỳ lạ mà tớ có.$3",
+	"Lani.Dialogue.Mon6.1": "Quay lại thời tớ còn làm nghệ thuật, tớ đã làm rất nhiều công việc thiết kế đồ họa.#$b#Gần đây tớ mới quay lại với nó. Chỉ là những điều nhỏ nhặt để giải trí trên các diễn đàn mà tớ thường lui tới.$1",
+	"Lani.Dialogue.Mon6.2": "Tớ nghĩ rằng học một nhạc cụ sẽ giúp cậu hòa hợp hơn với âm thanh.#$b#Tớ nhận thấy mình có thể đoán được phần tiếp theo trong giai điệu bài hát dựa trên một vài nốt nhạc trước đó.#$b#Có lẽ có một thuật ngữ lý thuyết âm nhạc dành cho điều đó...$6",
+	"Lani.Dialogue.Mon6.3": "Jonghyuk bị dị ứng với mèo, vì vậy tớ phải đảm bảo dọn dẹp nhà cửa thật sạch sẽ và đưa Sammy đi trước khi nó đến.#$e#Cho đến giờ tớ vẫn chưa bị dị ứng lần nào...$1#$b#Tớ đoán mình giỏi dọn dẹp.$3",
+	"Lani.Dialogue.summer_Mon6": "Thư viện của Sunberry có nhiều lựa chọn hơn thư viện của Thị trấn Pelican.#$b#Đừng nói điều này với bất kỳ ai, nhưng gần đây tớ đã duyệt qua góc sách khiêu dâm và có một số thứ tuyệt vời ở đó...$10#$e#Cậu ngạc nhiên thế nào khi tớ đọc sách khiêu dâm?$3#$b#Ồ, làm ơn. Tớ lớn lên trên internet.$11",
+	"Lani.Dialogue.summer_Mon6.NoModern": "Thư viện của Sunberry có nhiều lựa chọn hơn thư viện của Thị trấn Pelican.#$b#Đừng nói điều này với bất kỳ ai, nhưng gần đây tớ đã duyệt qua góc khiêu dâm và có một số thứ tuyệt vời trong đó...$10#$e#Cậu ngạc nhiên thế nào khi tớ đọc khiêu dâm?$3#$b#Ồ, làm ơn. Tớ thực tế sống trên các trang web của fandom.$11",
+	"Lani.Dialogue.fall_Mon6": "Khi tớ đi làm về, tớ luôn phải ngủ trưa.#$b#Giao lưu thật mệt mỏi.$2#$e#Sau khi thức dậy sau giấc ngủ trưa, tớ được ăn, vì vậy tớ coi giấc ngủ trưa như một tấm vé nhanh đến giờ ăn tối.$3",
+	"Lani.Dialogue.winter_Mon6": "Đã đến lúc twerkulator...$3#$b#Đã đến lúc twerkulator...$3#$b#Ồ. Haha. Này, @.$15#$b#Chỉ, ừm, nghe nhạc thôi, thế thôi...$10",
+	
+	"Lani.Dialogue.Tue6.0": "Tớ đã đọc một cuốn sách hấp dẫn trong thư viện ngày hôm kia.#$b#Đó là một cuốn sách phủ bụi về yêu tinh. Có vẻ như nó đã không được động đến trong nhiều thế kỷ.#$b#Một số câu chuyện rất chi tiết, khiến tớ gần như tin rằng nó đã xảy ra.$1#$e#Điều đó không phải là hoang dã sao? Yêu tinh trên lục địa Ferngill? Hah!$3",
+	"Lani.Dialogue.Tue6.1": "Ở ngoài trời trong thời tiết này khiến tớ muốn vẽ một cái gì đó...#$e#Ước gì nó dễ như vậy.$13#$b#Chỉ cần cầm bút chì lên và vẽ.$2#$e#Ha... Thế là hết trường nghệ thuật rồi, nhỉ?$7", 
+	"Lani.Dialogue.Tue6.2": "Đá mới của tớ đã về! Tất cả đều là đá Opal lửa vì đó là loại đá quý yêu thích của tớ.$4#$b#Chúng trông rất đẹp, vì vậy tớ giữ một bộ sưu tập trong nhà.$1#$e#Đôi khi thiên nhiên có thể tạo ra những thứ tuyệt đẹp như vậy...$4#$b#Tớ rất vui khi được trải nghiệm những món quà của thiên nhiên.$12",
+	"Lani.Dialogue.summer_Tue6": "Tớ thực sự không có sở thích lớn nào giữa việc đi đến Ari hay Pierre. Nó thực sự phụ thuộc vào cảm giác của tớ ngày hôm đó.#$b#Nếu tớ trông dễ thương, thì rõ ràng là tớ sẽ đi đến Pierre...$9",
+	"Lani.Dialogue.fall_Tue6": "Modem internet của trường cuối cùng cũng hỏng rồi. Đến lúc rồi.$13#$b#Tớ đã nói với họ là họ cần một cái mới, nhưng không, không thể nghe theo lời khuyên của người trẻ tuổi...$5",
+	"Lani.Dialogue.winter_Tue6": "Phải xúc tuyết ở cửa nhà sáng nay. Thật thư giãn.$12#$e#Cái gì cơ? Tớ hoàn toàn nghiêm túc.$16",
+	
+	"Lani.Dialogue.Wed6.0": "Cậu biết đấy, nếu tớ phải chọn, tớ sẽ nói rằng Hoa hướng dương là loài hoa tớ thích nhất. %revealtasteLani:(O)421#$b#Chúng luôn hướng về phía mặt trời, cậu có biết điều đó không? Đôi khi tớ ước mình có cái nhìn như vậy về cuộc sống...#$b#Luôn nhìn vào mặt tươi sáng, giống như Hoa hướng dương.$12",
+	"Lani.Dialogue.Wed6.1": "Robin làm một số công việc mộc tuyệt vời.$1#$b#Cô ấy cho tớ xem một số tác phẩm điêu khắc bằng gỗ mà cô ấy làm và chúng thật tuyệt!$4#$b#Quá nhiều chi tiết trong đồ gỗ...$1#$e#Cô ấy chuyển sang những dự án thực tế hơn sau khi thành lập doanh nghiệp của mình ở đây.#$b#Thành thật mà nói, điều đó nhắc tớ nhớ đến cuộc sống của chính mình. Hướng đến những đỉnh cao sáng tạo và chấp nhận sự thực tế.$7",
+	"Lani.Dialogue.Wed6.2": "Cậu có... tham gia vào các hoạt động fandom không?#$b#Tớ mới tham gia Cuộc gọi nhiệm vụ gần đây và tớ thực sự thích Lieutenant Spectre... Anh ấy là nhân vật tớ yêu thích nhất.$12#$b#Captain Cash đứng thứ hai.$1",
+	"Lani.Dialogue.summer_Wed6": "Ngay cả vào mùa hè, tớ vẫn phải kích hoạt não bộ học tập của mình vào các ngày trong tuần.$13#$b#Cơ thể tớ bắt đầu ngừng hoạt động để ngủ vào khoảng 9:00 tối ngay cả khi tớ không có gì để làm vào ngày mai.$2",
+	"Lani.Dialogue.fall_Wed6": "Được rồi, nghe tớ nói đây.$7#$b#Tớ biết chuyện tình cảm đã không còn nữa, nhưng... có một giáo viên dạy kỹ năng máy tính mới...$9#$b#Anh ấy DỄ THƯƠNG QUÁ. Tớ biết anh ấy đã kết hôn, nên tớ chỉ ngưỡng mộ từ xa thôi! Một cô gái được phép quan sát!$10#$b#Như thể cậu chưa từng làm điều tương tự với những người độc thân trong thị trấn.$3#$b#Vâng, tớ thấy cậu rồi, @!$11",
+	"Lani.Dialogue.winter_Wed6": "Lý do vô tận khiến tớ ghét vùng nông thôn...$13#$b#Quá lạnh...$13",
+	
+	"Lani.Dialogue.Thu6.0": "Ugh, vừa nhớ ra là mình phải mua thêm phân bón từ Pierre.$6#$b#Giá thực sự đắt, và tớ thấy không đáng mua vì tớ chỉ có một khu vườn nhỏ...$2#$b#Tớ đoán là mình sẽ tiết kiệm tiền cho chuyến đi khác.",
+	"Lani.Dialogue.Thu6.1": "Bố mẹ tớ cược rằng tớ sẽ không tìm được ai trước khi tớ 30 tuổi.#$e#Thành thật mà nói, tớ nghĩ họ sẽ thắng. Tớ rất kén chọn người của mình.",
+	"Lani.Dialogue.Thu6.2": "Sunberry là nơi hoàn hảo dành cho tớ. Tớ vẫn có sự độc lập, nhưng tớ cũng có một cộng đồng mà tớ thực sự muốn tham gia và những người quan tâm đến tớ.$9#$b#Phải yêu những thị trấn nhỏ, phải không?$12",
+	"Lani.Dialogue.summer_Thu6": "Bất cứ khi nào tớ chăm sóc gà, tớ nhận ra rằng đối với chúng, tớ phải là con chim lớn nhất...$16",
+	"Lani.Dialogue.fall_Thu6": "Tớ đang phân vân không biết nên mặc trang phục gì cho Đêm lễ hội Linh hồn...$13#$b#Tớ đang nghĩ đến nhân vật người chơi của mình trong trò chơi Biên niên sử Solarion hoặc bộ cosplay Hiku cũ của tớ...",
+	"Lani.Dialogue.fall_Thu6.NoModern": "Tớ đang phân vân không biết nên mặc trang phục gì cho Đêm lễ hội Linh hồn...$13#$b#Tớ đang nghĩ đến nhân vật người chơi của tớ trong trò chơi Solarion Chronicles hoặc trang phục cosplay Hiku mà tớ tự làm...",
+	"Lani.Dialogue.winter_Thu6": "Những ngày tuyết rơi là tuyệt nhất. Điều đó có nghĩa là tớ được ở nhà và không làm gì cả.$3",
+	
+	"Lani.Dialogue.Fri6.0": "Mọi người ở Sunberry thường tụ tập ở quầy bar ngoài trời vào tối thứ bảy.#$b#Có lẽ tớ sẽ gặp cậu ở đó vào ngày mai?$12",
+	"Lani.Dialogue.Fri6.1": "Sebastian đã đưa tớ và Sam đến quán sushi yêu thích của anh ấy vào cuối tuần trước. Để tớ nói cho cậu biết, anh chàng đó thích ăn sashimi lắm, trời ạ.%revealtasteSebastian:(O)227#$b#Với số lượng anh ấy gọi, tớ thấy sốc vì tớ không phải trả tiền hóa đơn.$16#$b#Tớ nghĩ chủ quán đã giảm giá cho anh ấy vì anh ấy là khách quen.",
+	"Lani.Dialogue.Fri6.2": "Cậu có uống không?$12#$b#Tớ là một fan hâm mộ lớn của rượu gạo như soju hoặc sake, nhưng thực sự rất khó để có được chúng ở thung lũng.$12#$e#Có lẽ cậu nên thử làm một ít ở trang trại của cậu cho tớ!$1",
+	"Lani.Dialogue.summer_Fri6": "Này, cậu thấy tớ có lạ không?$8#$b#Seb đã cho tớ một ít bánh brownie đặc biệt của anh ấy tối qua và tớ không biết liệu mình có còn trông hấp dẫn không.$7",
+	"Lani.Dialogue.fall_Fri6": "Hôm nay tớ được một đứa 15 tuổi rủ đi chơi. Có vô vàn lý do khiến tớ ghét làm việc gần trẻ em...$5#$b#Chúng đối xử với cậu như một trong số chúng nếu cậu cho chúng biết rằng cậu hiểu những câu chuyện cười của chúng.$13#$b#Hiện tượng kỳ lạ nhất từ ​​trước đến nay.$13",
+	"Lani.Dialogue.winter_Fri6": "Trời lạnh quá...$2#$b#B-nhưng thằng ngốc nhà tớ...$2",
+	
+	"Lani.Dialogue.Sat6.0": "Thỉnh thoảng Haley và tớ đi xuống rừng để đi bộ trong thiên nhiên. #$b#Cậu nên đi cùng chúng tớ!$1#$b#Tớ thậm chí còn thuyết phục Sebastian đi một lần, vì vậy cậu chắc chắn sẽ thích nó.$12",
+	"Lani.Dialogue.Sat6.1": "Tất cả những cuốn sách viễn tưởng trong thư viện khiến tớ ước mình có thể có một cuộc gặp gỡ ở thế giới khác.#$b#Giống như, nếu tớ gặp một trong những 'người bóng tối' đó thì sao? Hay một người lùn? Có thể là một linh hồn rừng?$1#$e#Đó là viễn tưởng, nhưng nghe có vẻ rất vui.$12",
+	"Lani.Dialogue.Sat6.2": "Sam sẽ dễ thương nếu cậu ấy cắt tóc và hành động đúng với tuổi của mình. #$b#...Cậu lại làm cái mặt đó nữa rồi. Tớ không được phép khen bạn bè mình sao? #$b#Không có ý xúc phạm, nhưng tớ không hứng thú với anh chàng như thế. #$b#Cậu ấy ngoài hai mươi nhưng cảm xúc của cậu ấy lại... vị thành niên.$8",
+	"Lani.Dialogue.summer_Sat6": "Ôi trời, tối qua tớ tình cờ tìm thấy một fanfic thực sự hay, và tớ đã thức trắng đêm để đọc hết các chương...$4#$b#Tớ hơi hối hận một chút, nhưng tớ đã có khoảng thời gian vui vẻ.$7",
+	"Lani.Dialogue.fall_Sat6": "$query PLAYER_HAS_MAIL Current {{ModId}}_SolarionMMOReleaseMail#Sebastian, Sam và tớ cùng chơi MMO Solarion Chronicles.#$b#Seb là pháp sư đen, Sam là hiệp sĩ và tớ là pháp sư trắng.#$b#Đừng nói với anh ấy là tớ đã nói với cậu, nhưng thực ra Sam chơi ở chủng tộc mèo.$11#$b#Thật buồn cười khi nghe anh ấy hét lên về cơ chế trùm trong trò chuyện bằng giọng nói trong khi nhân vật của anh ấy chạy xung quanh trong trang phục hầu gái...$3|Này, @, cậu có biết về Solarion Chronicles không? Cậu đã chơi trước đây chưa?#$b#Đó là một trò chơi tuyệt vời! Tớ đã từng tham gia một trong những buổi chơi của Sebastian, nhưng tớ hơi bỏ cuộc vì quá bận rộn...#$e#Có lẽ tớ sẽ liên lạc với anh ấy để thử chơi lại.",
+	"Lani.Dialogue.fall_Sat6.NoModern": "$query PLAYER_HAS_MAIL Current {{ModId}}_SolarionMMOReleaseMail#Sebastian, Sam và tớ cùng chơi MMO Solarion Chronicles.#$b#Seb là pháp sư đen, Sam là hiệp sĩ và tớ là pháp sư trắng.#$b#Đừng nói với cậu ấy là tớ đã nói với cậu, nhưng thực ra Sam chơi ở chủng tộc mèo.$11#$b#Thật buồn cười khi thấy cậu ấy hét lên về cơ chế trùm qua trò chuyện trong khi nhân vật của cậu ấy chạy xung quanh trong trang phục hầu gái...$3|Này, @, cậu có biết về Solarion Chronicles không? Cậu đã chơi trước đây chưa?#$b#Đó là một trò chơi tuyệt vời! Tớ đã từng tham gia một trong những buổi chơi của Sebastian, nhưng tớ hơi bỏ cuộc vì quá bận rộn...#$e#Có lẽ tớ sẽ liên lạc với cậu ấy để thử chơi lại.",
+	"Lani.Dialogue.winter_Sat6": "Tớ có tuyết trong giày...$2#$b#Tất của tớ ướt rồi...$2#$b#Thần chết ơi, hãy mang tớ đi...$2#$b#Tớ không chịu nổi vết bẩn...$14",
+	
+	"Lani.Dialogue.Sun6.0": "Tớ thích cùng nhau đến thăm Miyoung vào cuối tuần. #$b#Cậu đã gặp cô ấy trước đây rồi, phải không? Cô ấy là một người phụ nữ tốt bụng. #$e#Cô ấy luôn cười nhiều hơn khi tớ dành thời gian bên cô ấy. #$e#Tớ không nói điều này một cách nhẹ nhàng, nhưng cô ấy... #$b#...cô ấy đã trở thành gia đình của tớ kể từ khi tớ chuyển đến Sunberry một mình. $9#$e#Xin lỗi, điều đó có kỳ lạ không? Tớ chỉ... cảm xúc vẫn còn mới mẻ với tớ, cậu biết không?$10",
+	"Lani.Dialogue.Sun6.1": "Các trò chơi PocketMon ngày nay quá dễ.$13#$b#Tớ hiểu đó là một thương hiệu dành cho trẻ em, nhưng thôi nào.$13#$e#Superb 4 QUÁ dễ.$5#$b#Tớ đã quét sạch 3 trong số 4 trò chơi đó bằng trò chơi khởi đầu của mình.$5#$b#Còn Champion thì sao? Ugh...$13#$e#Xem này, nếu tớ tạo một trò chơi PocketMon...$3#$b#%Lani tiếp tục nói lan man về cơ chế trò chơi và độ khó của AI kẻ thù.#$b#...Dù sao thì, đó là lý do tại sao chất lượng trò chơi Fame Greak lại đi xuống.$13",
+	"Lani.Dialogue.Sun6.1.NoModern": "Các trò chơi PocketMon quá dễ.$13#$b#Tớ hiểu đó là một thương hiệu dành cho trẻ em, nhưng thôi nào.$13#$e#Superb 4 QUÁ dễ.$5#$b#Tớ đã quét sạch 3 trong số 4 trò chơi đó bằng trò chơi khởi đầu của mình.$5#$b#Còn Champion thì sao? Ugh...$13#$e#Xem này, nếu tớ tạo một trò chơi PocketMon...$3#$b#%Lani tiếp tục nói lan man về cơ chế trò chơi và độ khó của kẻ thù.#$b#...Dù sao thì, tớ chỉ tức giận vì tớ nghĩ rằng nó sẽ khó hơn. Tớ đã cày hàng giờ, cậu biết đấy!$13",
+	"Lani.Dialogue.Sun6.2": "Cậu có bao giờ... cực kỳ ghét ai đó mà không có lý do rõ ràng không?$7#$b#Tớ cảm thấy như vậy về một người nào đó trong thị trấn... Mọi thứ phát ra từ miệng cô ấy khiến tớ muốn giật tóc mình.$8#$e#Cô ấy thực sự không làm gì sai, nhưng tớ không thể chịu nổi cô ấy.$7",
+	"Lani.Dialogue.Sun6.3": "Jonghyuk và tớ thích cùng nhau đến thăm Miyoung vào cuối tuần. #$b#Cậu đã từng gặp cô ấy rồi, phải không? Cô ấy là một người phụ nữ tốt bụng. #$e#Cô ấy luôn cười nhiều hơn khi Jonghyuk và tớ dành thời gian bên cô ấy. #$e#Tớ không nói điều này một cách nhẹ nhàng, nhưng cô ấy... #$b#...cô ấy đã trở thành gia đình của tớ kể từ khi tớ chuyển đến Sunberry một mình. $9#$e#Xin lỗi, điều đó có kỳ lạ không? Tớ chỉ... cảm xúc vẫn còn mới mẻ với tớ, cậu biết không?$10",
+	"Lani.Dialogue.summer_Sun6": "Tớ thậm chí không thể tận hưởng ngày Chủ Nhật nữa khi biết rằng ngày hôm sau tớ phải liều lĩnh dấn thân vào vực sâu đầy lửa của Địa ngục.$13#$e#Chủ nghĩa tư bản, phải yêu nó thôi.$2",
+	"Lani.Dialogue.fall_Sun6": "Có một nhóm học sinh mà tớ đã phải ngạc nhiên... chịu đựng.$6#$b#Bất cứ khi nào tớ ở trong văn phòng, họ đều đến làm phiền tớ.#$b#Họ biết rằng tớ sẽ không tố cáo họ trốn học nếu họ mang sô cô la cho tớ.$11#$e#Tớ khá chắc là tớ đã tăng cân vì họ.$8",
+	"Lani.Dialogue.winter_Sun6": "Tớ đang mặc hai chiếc áo len ngay bây giờ, @.$6#$b#Hai.$6#$b#Và tớ vẫn lạnh.$6#$e#Không. Đừng cười nữa.$5#$b#Tớ lạnh quá.$2#$b#Ngón chân tớ tê cóng.$2", 
+	
+	"Lani.Dialogue.Mon8.0": "Trẻ con làm tớ phát hoảng. Tớ không biết cách nói chuyện với chúng.$2#$b#Tớ biết về mặt kỹ thuật chúng là những con người nhỏ bé, nhưng... vẫn kỳ lạ.$7#$b#Chúng không biết gì về kinh tế, hay thế giới. Làm sao tớ có thể nói chuyện với chúng?$14",
+	"Lani.Dialogue.Mon8.1": "Khi tớ mới chuyển đến đây, tớ là một người hoàn toàn ẩn dật.#$b#Vâng, tớ vẫn vậy. Nhưng chỉ trong vòng vài giờ sau khi tớ ổn định, có rất nhiều người gõ cửa nhà tớ và chào đón tớ đến thị trấn, và nó chỉ...$7#$b#Tớ đã khóc vì mọi người đều tốt bụng. Thật xấu hổ, nhưng rõ ràng là điều đó khiến tớ được mọi người yêu mến.$10",
+	"Lani.Dialogue.Mon8.2": "Tớ tự hỏi đôi khi một số nhà sản xuất Pocaloid nghĩ gì.#$b#Giống như Keekuo? Tớ hơi lo lắng về anh chàng làm cho những chủ đề ghê rợn nghe có vẻ như một bản nhạc hay...$7",
+	"Lani.Dialogue.summer_Mon8": "Khi tớ học đại học chuyên ngành nghệ thuật, mục tiêu của tớ là gia nhập ngành phát triển trò chơi.#$b#Tớ thực sự muốn thiết kế nhân vật.#$e#Ngành này... ừm, hơi bão hòa, và tớ không đủ nổi bật.$7#$b#Tớ bỏ cuộc khá nhanh.$2#$e#Sau đó, tớ đã thử làm nhà phát triển độc lập, và điều đó đã giết chết mọi mong muốn sáng tạo của tớ.$2#$b#Tớ đoán đây là lý do tại sao người ta nói đừng kiếm tiền từ sở thích của cậu?$10",
+	"Lani.Dialogue.summer_Mon8.NoModern": "Khi tớ học đại học chuyên ngành nghệ thuật, mục tiêu của tớ là cố gắng bước vào ngành phát triển trò chơi.#$b#Tớ thực sự muốn thiết kế nhân vật.#$e#Ngành này... ừm, hơi khó để bước vào, và tớ cũng không đủ nổi bật.$7#$b#Tớ bỏ cuộc khá nhanh.$2#$e#Sau đó, tớ thử làm một nhà phát triển độc lập, và điều đó đã giết chết mọi mong muốn sáng tạo của tớ.$2#$b#Tớ đoán đây là lý do tại sao người ta nói đừng kiếm tiền từ sở thích của cậu?$10",
+	"Lani.Dialogue.fall_Mon8": "Tớ từng chơi đàn cello khi còn học trung học. #$b#Mỗi lần tớ thấy một đứa trẻ nào đó mang hộp nhạc cụ của mình đi khắp nơi, tớ lại thấy hoài niệm. #$e#Tớ ước mình đã không từ bỏ nó khi tớ tốt nghiệp.$2",
+	"Lani.Dialogue.winter_Mon8": "Hôm nay Sammy đã chạm vào tuyết.#$b#Cô ấy nhúng đôi chân nhỏ của mình vào đó và nhảy thật cao trước khi chạy vào nhà.$1#$b#Tớ đoán cô ấy không phải là mèo mùa đông!$3",
+	
+	"Lani.Dialogue.Tue8.0": "Tớ đã bao giờ kể cho cậu nghe về cuốn sách cũ kỹ phủ đầy bụi của người Elf mà tớ tìm thấy chưa? Tớ đã đọc lại nó, và trời ạ, tớ quên mất nó tuyệt vời đến thế nào.$1#$b#Cậu có biết rằng người Elf và người lùn đã cùng nhau làm việc để phát triển các kỹ thuật chế tác kim loại và kim hoàn cổ đại không?$4#$b#Các nhà khảo cổ học vẫn không biết đồ trang sức của người Elf đã vượt qua được thử thách của thời gian như thế nào ngày nay khi đồ hiện đại của chúng ta chỉ...$1#$b#%Lani tạo ra tiếng 'prrbt' và vẫy tay.",
+	"Lani.Dialogue.Tue8.1": "Tớ sẽ tiết lộ cho cậu một bí mật, @.#$b#Tớ nghĩ cậu thực sự dễ thương. Kiểu như, 'chúng ta có thể hẹn hò nếu tớ gặp cậu sớm hơn' dễ thương.$9#$b#Nhưng tớ đang để mắt đến người khác, vì vậy... Đừng nghĩ đến việc thử nó với tớ!$3",
+	"Lani.Dialogue.Tue8.2": "Tớ đã ăn một ít súp của Gus và tớ không chắc nó được gọi là gì, nhưng trời ơi nó ngon tuyệt.$4#$b#Biết tớ rồi, thà rằng tớ không biết trong đó có gì còn hơn.$7#$e#Có lẽ đó là món ngon nhất mà tớ từng ăn -- tất nhiên là ngoài thịt ba chỉ rồi.$3",
+	"Lani.Dialogue.summer_Tue8": "Tớ đã thuyết phục Seb ngừng thể hiện cảm xúc và chơi Citizen Evil với tớ và Maru.#$b# Sẽ bớt đáng sợ hơn nhiều khi có hai người hét vào tai cậu để giết zombie.$3",
+	"Lani.Dialogue.fall_Tue8": "Bất cứ khi nào tớ đi ngang qua phòng nhạc ở nơi làm việc, tớ luôn chào người hướng dẫn.#$e#Nghe ai đó chơi đàn cello khiến tớ muốn chơi lại.$12",
+	"Lani.Dialogue.winter_Tue8": "Cậu có thấy con nai nào vào mùa đông này không?#$b#Tớ phát hiện ra một vài con gần nhà mình và chúng thật tuyệt đẹp.#$b#Tớ thậm chí còn thấy một con nai đực có cả bộ gạc đầy đủ!$4",
+	
+	"Lani.Dialogue.Wed8.0": "Tớ đã nghiên cứu một số con đường sự nghiệp tiềm năng cho Maru ngày hôm kia. Kết hợp giữa robot và điều dưỡng không khó như cậu nghĩ!$1#$b#Tuy nhiên, tớ đã xoay xở để đạt được một số tiến triển trong lĩnh vực chân tay giả y tế, vì vậy có thể cô ấy sẽ thích điều đó..?$12",
+	"Lani.Dialogue.Wed8.1": "Tớ thấy khó hiểu khi mọi người phải uống cà phê để hoạt động.%revealtasteLani:(O)395#$b#Chỉ cần... thức dậy?$7#$b#Tồn tại?$7#$b#Chức năng?$7#$b#Thật dễ dàng.$10#$e#Mặc dù tớ thừa nhận rằng nó có mùi rất tuyệt. Thật tệ khi một ngụm tớ uống có vị như xi măng. Tởm. Blargh.$2#$b#Không ai nên uống thứ đó.$13",
+	"Lani.Dialogue.Wed8.2": "Gần đây tớ đã học được một hoạt động kỳ lạ.#$b#Tìm kiếm thức ăn. Cậu có tin không?$1#$b#Nhưng thực sự, việc được ra ngoài thiên nhiên thực sự rất sảng khoái.$12#$e#Tớ vẫn đang tìm hiểu xem thứ gì an toàn để ăn và thứ gì không.#$b#Maru biết nhiều hơn tớ về điều đó.",
+	"Lani.Dialogue.summer_Wed8": "Tớ đi ngang qua Marnie hôm nọ và những con bò tiến đến hàng rào khi tớ đi ngang qua.#$b#Tớ đã vuốt ve một con! Tớ nghĩ tên nó là Sunny?$4#$b#Tớ sẽ làm bất cứ điều gì cho con bò đó.$12",
+	"Lani.Dialogue.fall_Wed8": "Mọi người không hiểu cách cắm điện à?$13#$b# Cắm dây điện thoại vào giắc cắm điện thoại khó đến thế sao?!$5#$b# Chúng có hình dạng giống hệt nhau!$5#$b# Chẳng phải khoa học tên lửa!$13#$b#Ugh!$5",
+	"Lani.Dialogue.winter_Wed8": "Tớ đang tận hưởng cảm giác mới lạ khi xúc tuyết.#$b#Sebastian nói tớ điên vì thích lao động chân tay.$7#$e#Anh ấy không biết rằng thực ra tớ bị điên...$11",
+	
+	"Lani.Dialogue.Thu8.0": "YUMAHA sẽ phát hành một voicebank mới trong mùa này... Tớ đã nghe bản demo và nó nghe THẬT TUYỆT.$4#$b#Chắc chắn là một âm thanh khác biệt so với những gì tớ thường nghe!$1#$b#Giờ thì hy vọng nó không bị lãng quên khi phát hành...$14",
+	"Lani.Dialogue.Thu8.1": "Tớ đã từng kể với cậu rằng tớ đã từng thử làm một nhà phát triển độc lập chưa? Chỉ trong vài tháng thôi. #$b# Tớ đã, ừm, ở trong một trạng thái tinh thần tồi tệ sau đó, vì vậy tớ hơi sốc khi thấy mình lại thích sáng tạo...$7",
+	"Lani.Dialogue.Thu8.1.NoModern": "Tớ đã từng kể với cậu rằng tớ đã từng thử làm phát triển trò chơi một lần chưa? Chỉ trong vài tháng thôi. #$b#Tớ đã, ừm, ở trong một trạng thái tinh thần tồi tệ sau đó, vì vậy tớ hơi sốc khi thấy mình lại thích sáng tạo...$7",
+	"Lani.Dialogue.Thu8.2": "Sáng nay, World is Hiku đã xuất hiện trong danh sách phát nhạc của tớ và tớ phải dừng mọi việc đang làm để giả vờ như mình đang biểu diễn tại buổi hòa nhạc, với micro chải tóc và tất cả mọi thứ.$1#$e#Bài hát đó... nó tiếp thêm năng lượng cho tớ.$3",
+	"Lani.Dialogue.summer_Thu8": "Tớ muốn đến sa mạc một ngày nào đó, nhưng chẳng có gì ở đó ngoại trừ một nơi bí mật nào đó.$6#$b#Cậu nghĩ có gì ở đó?#$e#...Có thể họ bán ma túy.$11",
+	"Lani.Dialogue.fall_Thu8": "Tớ bắt đầu mang máy tính bảng đến nơi làm việc và vẽ lại.#$b#Tớ đã vẽ được một vài bức, nhưng chúng không... thành phẩm như tớ mong muốn.$2#$b#Tớ sẽ cho cậu xem, nhưng việc chỉ ra những chi tiết nhỏ nhặt thì hơi ngại.$10#$e#Có lẽ tớ không còn phù hợp với nghệ thuật kỹ thuật số nữa.$2",
+	"Lani.Dialogue.fall_Thu8.NoModern": "Tớ bắt đầu mang sổ phác thảo đến chỗ làm và vẽ lại.#$b#Tớ đã phác thảo một vài bức, quét chúng vào máy tính, nhưng chúng không... ra như tớ mong muốn.$2#$b#Tớ sẽ cho cậu xem, nhưng việc cho cậu xem những chi tiết cụ thể thì hơi ngại.$10#$e#Có lẽ tớ không còn phù hợp với nghệ thuật kỹ thuật số nữa.$2",
+	"Lani.Dialogue.winter_Thu8": "Tớ hy vọng các con vật nuôi của cậu được ấm áp trong nhà của chúng.#$e#Nếu gà của cậu cần được ôm, tớ ở đây!$4",
+	
+	"Lani.Dialogue.Fri8.0": "Haley giới thiệu cho tớ một số loại kem che khuyết điểm mới và tớ phải nói rằng nó tuyệt vời.$1#$b#Thật đáng buồn là quá đắt so với một sản phẩm mua thông thường, vì vậy tớ sẽ tận dụng tối đa khi nó còn dùng được.$7",
+	"Lani.Dialogue.Fri8.1": "Tớ ước gì voicebank của SeeYou được cập nhật...$2#$b#Thế giới cần nhiều Pocaloid đa ngôn ngữ hơn...$2",
+	"Lani.Dialogue.Fri8.2": "Ôi trời, cậu có nghe không? Họ đang làm một bộ phim Huyền thoại Lonk người đóng.$16#$b#Không có diễn viên nào đủ lưỡng tính để vào vai Lonk. Không có.$7#$e#Tớ chỉ hy vọng đây không phải là một tình huống Crisp Rat khác...$14",
+	"Lani.Dialogue.Fri8.2.NoModern": "Ôi trời, cậu có nghe không? Họ đang làm một bộ phim Huyền thoại Lonk người đóng.$16#$b#Không có diễn viên nào đủ lưỡng tính để đóng vai Lonk. Không có.$7#$e#Tớ chỉ hy vọng nó không bị hủy bỏ...$14",
+	"Lani.Dialogue.summer_Fri8": "Sammy thật buồn cười. Cô ấy phồng má lên khi tớ đến gần bát thức ăn của cô ấy vì cô ấy rất phấn khích khi được ăn.$1#$b#Em bé béo nhỏ của tớ.$9#$e#Yoba, tớ yêu con mèo đó rất nhiều.$9",
+	"Lani.Dialogue.fall_Fri8": "Hircus-P cuối cùng đã phát hành một bài hát mới với Kimi!!!$4#$b#Tớ biết cậu có thể không biết tớ đang nói về điều gì, nhưng điều này thật tuyệt vời!$1#$b#Hircus đã không sử dụng voicebank của mình trong nhiều năm.$1",
+	"Lani.Dialogue.fall_Fri8.NoModern": "Hircus-P vừa phát hành một bài hát mới với Kimi!!!$4#$b#Tớ biết cậu có thể không biết tớ đang nói gì, nhưng bài hát này thật tuyệt!$1#$b#Hircus vừa mới có voicebank vào hôm kia! Cô ấy nghe thật tuyệt!$1",
+	"Lani.Dialogue.winter_Fri8": "Mọi người nói mùa đông là mùa cằn cỗi nhưng nó rất đẹp.$12#$b#Chắc chắn, lá rụng khỏi cây, nhưng cậu có thể nhìn thấy động vật hoang dã thường xuyên hơn vì chúng không thể ẩn náu trong tán lá.",
+	
+	"Lani.Dialogue.Sat8.0": "Hôm nay tớ đã thử phác thảo một chút. #$b#Sammy cứ trèo lên đùi tớ khi tớ đang vẽ nên thật đáng buồn là chất lượng không được tốt lắm...$7",
+	"Lani.Dialogue.Sat8.1": "Đôi khi cảm thấy thật ngượng ngùng khi là một trong số ít những đứa trẻ lai trong thị trấn.$6#$b#Không phải là vấn đề – mọi người đều khá tốt, nhưng đôi khi tớ cảm thấy cô đơn.$7#$e#Pine Mesa có đủ loại người.#$b#Đôi khi tớ nhớ nơi này.$2",
+	"Lani.Dialogue.Sat8.2": "Maru thực sự muốn Sebastian thích cô ấy.$2#$b#Mối quan hệ của anh ấy với Demetrius cản trở mối quan hệ của anh ấy với cô ấy, và thật đáng buồn khi chứng kiến ​​điều đó.$2#$b#Tớ đã can thiệp và khiến họ dành thời gian cho nhau như một sự đệm, và tớ nghĩ mọi chuyện diễn ra khá tốt!$1#$e#Chuyện này chỉ có chúng ta biết. Sau cùng thì, không thể để anh phá hỏng kế hoạch của tớ được.$3", 
+	"Lani.Dialogue.summer_Sat8": "Tớ nhìn lại tác phẩm nghệ thuật cũ của mình. Điều ngu ngốc nhất tớ có thể làm. $7#$b#Tớ cứ nhìn thấy tất cả các lỗi, và tớ nghĩ rằng mình chưa bao giờ thực sự giỏi vẽ... $10#$b#Giờ tớ buồn. $17#$e#Không, tớ không khóc. Chỉ có bụi trong không khí thôi.$18",
+	"Lani.Dialogue.fall_Sat8": "Mặc dù những đứa trẻ này làm tớ phát cáu, nhưng thật ngọt ngào khi thấy chúng lớn lên và học cách trở thành con người.$12#$e#Tớ được làm cha mẹ tự hào từ một khoảng cách an toàn.",
+	"Lani.Dialogue.winter_Sat8": "Những khối băng trên cây trông thật tuyệt đẹp dưới ánh nắng mặt trời. Nó khiến tớ muốn vẽ.$12",
+	
+	"Lani.Dialogue.Sun8.0": "Chúc mừng chủ nhật, @. Hôm nay cậu có làm gì vui không?$12#$e#Tớ đang hồi phục sau cơn say nhẹ từ lễ hội đêm qua, hehe...$7#$b#Hy vọng cậu khỏe hơn tớ một chút.",
+	"Lani.Dialogue.Sun8.1": "@... Cậu đã bao giờ nghĩ đến chuyện kết hôn chưa?#$b#Tớ đã cân nhắc rồi, nhưng... Tớ không biết.$2#$b#Gia đình hạt nhân có vẻ... Blargh.$7",
+	"Lani.Dialogue.Sun8.2": "Tớ hơi ghen tị với những người đi nhà thờ.#$b#Họ có điều gì đó để tin tưởng.#$b#Điều gì đó mang lại cho họ mục đích sống.#$b#Không nhiều người có thể chấp nhận được sự thật rằng cuộc sống có thể chẳng có ý nghĩa gì trong bức tranh toàn cảnh.$2#$e#Chỉ là chút suy ngẫm vào ngày Chủ Nhật.",
+	"Lani.Dialogue.summer_Sun8": "Hôm nay sẽ là một ngày tồi tệ để tìm thấy một xác chết. Dễ dàng đạt 8/10 trên thang điểm hôi thối.$14",
+	"Lani.Dialogue.fall_Sun8": "Tớ thấy chán và kết thúc bằng việc làm bài kiểm tra ngôn ngữ tình yêu. Cậu đã từng làm chưa?$12#$e#Ngôn ngữ cao nhất của tớ là thời gian chất lượng. Mặc dù tớ cảm thấy ngôn ngữ cho và nhận của tớ khác nhau...$6#$b#Tớ thích tặng quà cho mọi người Tớ muốn thể hiện sự quan tâm của mình, nhưng tớ thích khi mọi người dành thời gian cho tớ để thể hiện sự quan tâm của họ.$12#$b#Điều đó có hợp lý không?#$e#Rõ ràng là cũng có những loại ngôn ngữ khác nữa!$1", 
+	"Lani.Dialogue.fall_Sun8.NoModern": "Tớ thấy chán và kết thúc bằng việc làm bài kiểm tra ngôn ngữ tình yêu này trong tạp chí của tớ. Cậu đã từng nghe về nó chưa?$12#$e#Ngôn ngữ cao nhất của tớ là thời gian chất lượng. Mặc dù tớ cảm thấy ngôn ngữ cho và nhận của tớ khác nhau...$6#$b#Tớ thích tặng quà cho mọi người Tớ muốn thể hiện sự quan tâm của mình, nhưng tớ thích khi mọi người dành thời gian cho tớ để thể hiện sự quan tâm của họ.$12#$b#Điều đó có hợp lý không?#$e#Rõ ràng là cũng có những loại ngôn ngữ khác nữa!$1", 
+	"Lani.Dialogue.winter_Sun8": "Thời tiết hoàn hảo cho sô cô la nóng và một bộ phim kinh dị, cậu không nghĩ vậy sao?$1#$b#Tớ không thích phim kinh dị sao?$3#$b#Ừm, tớ có thể làm được điều đó.$1",
+	
+	"Lani.Dialogue.Mon10.0": "Tớ ước mình có đủ tự tin để mặc đồ fandom ra ngoài nơi công cộng.$2#$b#Tớ sẽ mặc nó trong nhà, nhưng tớ luôn cảm thấy... bị phán xét nếu mặc nó ra ngoài.$7#$b#Giống như có ai đó ngoài kia đang soi mói tớ vì mặc nó hay gì đó vậy...$8",
+	"Lani.Dialogue.Mon10.1": "Vậy nên... Tớ đã nghĩ đến cậu khi tớ ở Zuzu ngày hôm kia, và tớ đã tặng cậu một thứ.$9#$b#Tớ không biết cậu có thể làm gì với nó không, nhưng... Đây. [ (O)369 (O)349 (O)351 (O)371 ]",
+	"Lani.Dialogue.Mon10.2": "Cậu biết đấy, tớ không nghĩ mình sẽ thực sự yêu ai đó. Nhưng tớ yêu. Và điều đó thật điên rồ.$9#$b#Khung tham chiếu duy nhất của tớ cho những thứ đó là sách và phim, nhưng cuộc sống thực tế thì khác xa.$1#$e#Tình yêu có thể tồn tại theo rất nhiều cách... Thật tuyệt vời, @.$9",
+	"Lani.Dialogue.summer_Mon10": "Tớ trồng một bông hoa cho cậu. Đây nhé.$1#$b#Tớ bắt đầu dành một chỗ trong vườn để trồng một ít chỉ dành cho người nông dân yêu thích của tớ.$12 [ (O)421 ]",
+	"Lani.Dialogue.fall_Mon10": "Có những ngày tớ thức dậy và nghĩ về việc mình có thể thay thế được trong bức tranh toàn cảnh.$6#$b#Chúng ta chỉ là những chú chuột chạy trên bánh xe nhỏ bé của mình, cố gắng để sinh tồn.$8#$e#Chỉ là một vài suy nghĩ của cậu vào thứ Hai!$1",
+	"Lani.Dialogue.winter_Mon10": "%Lani đang lẩm bẩm một cách đầy âm mưu với chính mình.#$b#Nếu tớ đến nhà tắm hơi vào tối nay, thì có lẽ tớ có thể...$6#$b#%Tiếng lẩm bẩm của cô ấy bị gió cuốn đi.",
+	
+	"Lani.Dialogue.Tue10.0": "Hầu hết các ngày tớ thậm chí không muốn ra khỏi giường, nhưng tớ biết rằng Sammy sẽ không được chăm sóc nếu tớ không dậy.#$b#Cô ấy giúp tớ tiếp tục.",
+	"Lani.Dialogue.Tue10.1": "Tớ bực mình quá.$13#$b#Phần tiếp theo của PocketMon Conquest đã ra mắt. Vào THỨ BA.$5#$b#Nhưng... nó sẽ được giao đến nhà tớ vào khoảng trưa...$4#$e#Tớ sẽ thức trắng đêm để chơi nó để không bị Tweeter làm hỏng.$1#$b#Tớ đã đợi NĂM NAY cho điều này.$1",
+	"Lani.Dialogue.Tue10.1.NoModern": "Tớ bực mình quá.$13#$b#Game PocketMon Conquest mới đã ra mắt. Vào THỨ BA.$5#$b#Nhưng... Tớ sẽ đến Zuzu để lấy nó vào buổi trưa...$4#$e#Tớ sẽ thức trắng đêm để chơi game để không bị các diễn đàn làm hỏng mất.$1#$b#Tớ đã đợi NĂM NAY cho game này kể từ khi họ giới thiệu nó trong EGM.$1",
+	"Lani.Dialogue.Tue10.2": "Cậu có yêu ai không, @? Yêu khác với yêu ai đó, cậu biết đấy!$1#$b#Tớ vẫn đang cố gắng tìm ra sự khác biệt, nhưng tớ thực sự hạnh phúc.$9",
+	"Lani.Dialogue.summer_Tue10": "Bãi biển có lẽ là nơi tệ nhất từ ​​trước đến nay. Cậu biết tại sao không?$13#$b#Cậu nhúng một ngón chân vào nước, và đột nhiên cát tràn vào tất cả các khe hở của cậu.$7#$b#Tất cả chúng.$8#$b#Điều đó thật vô lý... Đó là một trò đùa của vũ trụ...$14",
+	"Lani.Dialogue.fall_Tue10": "Có một hệ thống hỗ trợ mạnh mẽ thực sự đã giúp tớ vượt qua những ngày khó khăn nhất ở nơi làm việc. #$b#Tớ rất vui vì có cậu là bạn, @. Nghiêm túc đấy. $1#$b#Cậu là người tuyệt vời nhất.$12",
+	"Lani.Dialogue.winter_Tue10": "Là phụ nữ, tớ ghét áo ngực, nhưng tớ cũng thích chúng.$6#$b#Yoba biết rằng núm vú của tớ sẽ rụng mất vì lạnh nếu tớ không mặc nó.$613#$e#Cái gì cơ?! Trời lạnh quá!$7#$b#Tớ đủ thân thiết với cậu để nói với cậu những điều này!$1",
+	
+	"Lani.Dialogue.Wed10.0": "Tớ đã biết đến Pocaloid vào đầu thời trung học. Âm nhạc đã giúp tớ vượt qua những thời điểm khó khăn.$6#$e#...Thành thật mà nói, tớ sẽ không ở đây ngày hôm nay nếu không có Pocaloid.$17#$b#Xin lỗi... quá sâu sắc?$7",
+	"Lani.Dialogue.Wed10.0.NoModern": "Tớ mới biết đến Pocaloid gần đây. Âm nhạc đã giúp tớ vượt qua những thời điểm khó khăn ở trường đại học.$6#$e#...Thành thật mà nói, tớ sẽ không ở đây ngày hôm nay nếu không có Pocaloid.$17#$b#Xin lỗi... quá sâu sắc?$7",
+	"Lani.Dialogue.Wed10.1": "Seb và Haley là những người mê phim ảnh thực sự, vì vậy tớ đang nghĩ đến việc mời họ đến xem một số phim nghệ thuật.$12#$b#Cậu có thể tham gia nếu cậu muốn!$1#$e#Nếu cậu không thích phim kinh dị, tớ khuyên cậu không nên tham gia.$7",
+	"Lani.Dialogue.Wed10.2": "Jonghyuk chuyển đến đây sau tớ một chút.$12#$b#Khi anh ấy trở thành đứa trẻ mới, tớ là người đầu tiên gõ cửa nhà anh ấy.$1#$b#Anh ấy mở cửa và... Yoba, tớ khá chắc là tớ đã phải lòng anh ấy ngay lúc đó.$4#$e#Đừng nói với anh ấy là tớ đã nói thế. Nghe sến súa nhưng đó là sự thật.$9",
+	"Lani.Dialogue.summer_Wed10": "Sống trong thung lũng có những đặc quyền riêng.$12#$b#Cậu biết được công việc của mọi người, nhưng ngược lại, họ cũng biết được công việc của cậu. May mắn thay, tớ không có công việc nào cả!$3#$b#Trừ khi cậu đếm những xác chết trong tầng hầm...$7#$e#Đùa thôi!$11",
+	"Lani.Dialogue.fall_Wed10": "Cậu hoàn toàn nên tự cho phép mình vào tầng hầm thường khóa của tớ.$12#$b#Tớ có thứ gì đó rất ma quái muốn cho cậu xem!$1#$e#Không, thực sự đấy, vào đi! Vào đi!$1#$b#Vào.$12",
+	"Lani.Dialogue.winter_Wed10": "Tớ không có quần đủ dày cho thời tiết này, vì vậy tớ đang mặc... cái này.$6#$b#Ít nhất thì tớ trông dễ thương. Chiếc váy làm cho đôi chân tớ trông dài hơn.$3",
+	
+	"Lani.Dialogue.Thu10.0": "Điều sẽ củng cố Thị trấn Pelican như một thị trấn nhỏ được chứng nhận sẽ là sự bao gồm của Ba chuỗi thức ăn nhanh: Burger Queen, WacDonalds và Taco Time. Bất kỳ điều gì khác có thể được bỏ qua.$3#$e#Tớ có ăn ở bất kỳ nơi nào trong số những nơi đó không?#$b#Không.$6#$b#Chúng có mang lại lợi ích gì cho tớ không?#$b#Ngoài ra không.$6",
+	"Lani.Dialogue.Thu10.1": "Cậu đã bao giờ tự hỏi những con phố ở thị trấn này ở đâu chưa?#$b#Giống như, Lewis có một chiếc xe tải cạnh nhà anh ấy, những chiếc xe tải Joja ở gần JojaMart... chúng đến đó bằng cách nào?#$b#Ý tớ là, tớ đoán cậu có thể lái xe trên đường đá cuội, nhưng điều đó hơi...#$b#%Cô ấy nhún vai.",
+	"Lani.Dialogue.Thu10.2": "Cái gì cơ?$6#$b#Ồ, cái áo khoác ấy à?$16#$b#Jonghyuk cho mình mượn áo hoodie của anh ấy sau khi chúng ta...$1#$b#...$15#$e#%Lani xấu hổ quá không nói tiếp được.", 
+	"Lani.Dialogue.summer_Thu10": "Không gì giống mùa hè vào thứ năm, đúng không, @?$3#$b#Chỉ là một trong những thứ năm mùa hè kinh điển. Ừm.$3#$b#Thứ năm trong mùa hè... đó là những ngày!$1#$e#Chắc chắn là loại thứ năm yêu thích của tớ -- một thứ năm vào mùa hè.$12",
+	"Lani.Dialogue.fall_Thu10": "Có một thời điểm, tớ đã tuyệt vọng vì bất kỳ công việc sáng tạo nào.#$b#Tớ đã nghiêm túc cân nhắc đến việc làm nghề nhồi bông.$8#$b#Gửi email cho một anh chàng về việc học nghề và mọi thứ.$7#$b#Sau đó, tớ có được công việc CNTT tại Grampleton.#$e#CNTT chưa bao giờ là lựa chọn đầu tiên của tớ, nhưng tớ còn trẻ và giỏi máy tính, vì vậy... có vẻ như đúng.$7#$b#Tớ thực sự chưa nghĩ đến việc nhồi bông kể từ đó.#$e#Dân thị trấn nhỏ thích đầu hươu gắn trên tường, vì vậy có thể có một thị trường ở đây...$3",
+	"Lani.Dialogue.winter_Thu10": "Tối qua tớ ngủ quên khi xem một bộ phim Hillmark và có một giấc mơ sến súa nhất từ ​​trước đến nay.$12#$b#Cậu biết cốt truyện thường thấy của những bộ phim Ngôi Sao Mùa Đông, phải không?$3#$b#À, mối tình chính khiến tớ mê mẩn không phải là cậu thời thơ ấu của tớ, mà là Trung úy Spectre trong Duty Calls...$1#$e#Cậu có nhớ giấc mơ của mình không?$12", 
+	
+	"Lani.Dialogue.Fri10.0": "Ugh... Này.$13#$b#Không, không phải do cậu làm đâu.$2#$b#Tớ chỉ thấy khó chịu vì tác phẩm nghệ thuật của tớ trên giấy thì ĐẸP QUÁ, nhưng khi tớ thử vẽ kỹ thuật số, nó trông như rác. Tớ cầm bút chì cũng chẳng khác gì!$5#$e#Có lẽ công nghệ đã đi quá xa rồi...$6",
+	"Lani.Dialogue.Fri10.0.NoModern": "Ugh... Này.$13#$b#Không, không phải do cậu làm đâu.$2#$b#Tớ chỉ thấy khó chịu vì tác phẩm nghệ thuật của tớ trên giấy thì ĐẸP, nhưng khi tớ thử vẽ kỹ thuật số, nó trông như rác. Tớ không làm gì khác biệt với chuột cả!$5#$e#Có lẽ công nghệ thực sự đã đi quá xa...$6",
+	"Lani.Dialogue.Fri10.1": "Cậu có bao giờ có những khoảnh khắc mà cậu cảm thấy không thực tế không?#$b#Cậu thấy mình ở ngôi thứ ba đang sống một ngày, và mọi thứ đều có vẻ... giả tạo?#$b#Tớ có cảm giác đó rất nhiều. Nếu tớ nghĩ về nó quá lâu, nó làm tớ khó chịu, vì vậy tớ chỉ cố gắng lờ nó đi.$6",
+	"Lani.Dialogue.Fri10.2": "Thành thật mà nói, tớ không giỏi nhận quà.#$b#Điều đó khiến tớ cảm thấy tệ vì kiểu như, 'Ờ thì tớ chẳng tặng cậu thứ gì, nên giờ tớ cảm thấy như mình nợ cậu'? Mặc dù thực ra đó chỉ là một món quà... *thở dài*$7#$e#Tớ thấy ổn khi TẶNG quà vì tớ biết mình không mong đợi nhận lại điều gì, nhưng tớ không phải là người đọc được suy nghĩ, nên...$7#$b#Nếu họ MUỐN nhận lại thứ gì đó thì sao?$14",
+	"Lani.Dialogue.summer_Fri10": "Quá nhiều thời gian rảnh rỗi kể từ khi trường học đóng cửa, và giờ tớ lại tiếp tục với trò nhảm nhí của mình.#$b#Tớ đã tìm thấy một fanfic thực sự hay vào ngày hôm kia, và giờ tớ ước những người đàn ông hư cấu là có thật.$7#$b#Lại nữa.$8#$b#Tớ nghĩ mình đã được chữa khỏi căn bệnh này, nhưng nó cứ tái phát...$2#$e#Đừng nhìn tớ bằng ánh mắt đó, @. Trái tim muốn những gì nó muốn!$3",
+	"Lani.Dialogue.fall_Fri10": "Hóa ra sếp tớ ở công ty làm nghề nhồi bông, điều mà tớ KHÔNG HỀ mong đợi từ một anh chàng IT.$1#$b#Bọn tớ đã nói về nó trong 30 phút trước khi anh ấy được gọi đến.#$b#Rõ ràng là cậu không thực sự cần formaldehyde để bảo quản bất cứ thứ gì! Cậu chỉ cần làm điều này khác được gọi là...$1#$b#Ờ, đó là gì nhỉ? Tớ đã quên mất rồi.$8#$e#Có lẽ tớ sẽ nhớ sau.$7",
+	"Lani.Dialogue.winter_Fri10": "Một ngày tận thế của thây ma sẽ kết thúc trong vòng một năm, nếu chúng ta tuân theo logic của thế giới.#$b#Xác chết sẽ phân hủy và sau đó chúng sẽ không thể... cậu biết đấy. Không còn là thây ma nữa.#$b#Nhưng điều đó đặt ra câu hỏi, trở thành thây ma hoạt động NHƯ THẾ NÀO?$1#$b#%Cô ấy lải nhải trong vài phút, lạc vào thế giới của riêng mình.#$e#...Vì vậy, tớ nghĩ chúng ta có thể sống sót trong một năm nếu chúng ta xây dựng một căn cứ tại trang trại của cậu. Cậu có tham gia không?$3",
+	
+	"Lani.Dialogue.Sat10.0": "Hôm nay tớ đang làm việc. Kỳ lạ phải không?#$b#Tớ bắt đầu làm việc trong thời gian rảnh rỗi của mình cho một dự án chuẩn hóa quy trình đăng nhập và đặt lại mật khẩu cho trường học, và cấp trên nhận thấy...$7#$b#Bây giờ tớ phải hoàn thành đúng thời hạn.$13#$e#Tớ thậm chí không muốn làm nữa, nhưng họ trả cho tớ một tấm séc khá hậu hĩnh, vì vậy... Hehehe.$11",
+	"Lani.Dialogue.Sat10.1": "Đôi khi tớ chỉ có những cảnh chiến đấu trong anime trong đầu mỗi khi tớ tranh luận với ai đó.#$b#Lani tấn công bằng Logic!$3#$b#Internet Rando hoàn toàn phớt lờ cuộc tấn công và bắn ra một 'mẹ của cậu'! Ôi không!!!$16#$b#Tớ nghĩ điều đó chỉ làm cho nó vui hơn thôi.$12",
+	"Lani.Dialogue.Sat10.2": "Cậu có khóc nhiều không?#$b#Khóc là một điều tốt. Giúp giải tỏa nhiều cảm xúc.$12#$b#Thỉnh thoảng khóc thật to là điều quan trọng.$1#$e#Hãy nghĩ về cảm xúc của cậu như một chiếc nồi đang sôi; đổ quá nhiều nước vào đó thì nó sẽ sôi trào và làm hỏng bét.#$b#Thỉnh thoảng hãy đổ hết nước đó ra.$12#$e#...Hoàn toàn không liên quan, nhưng trời ơi, tớ thực sự muốn ăn một chiếc burger ngay bây giờ.$6",
+	"Lani.Dialogue.summer_Sat10": "Tớ đã cảm thấy quá tải một chút trước đây, vì vậy tớ đã đi bộ đến hồ và chỉ... ngồi.#$b#Lắng nghe thiên nhiên, hít thở, tồn tại...#$b#Tớ cảm thấy tốt hơn nhiều sau đó.$12#$e#Đôi khi, cậu chỉ cần một khoảng nghỉ tinh thần khỏi mọi thứ.",
+	"Lani.Dialogue.fall_Sat10": "Cậu đã nghe về Fall Guys chưa?$12#$b#Ừ, họ không ngã hay gì cả, họ chỉ là những chàng trai thực sự thích mùa thu.$1#$b#Họ mặc những bộ đồ buồn cười này...$3#$b#Dù sao thì, tớ nhắc đến điều này vì Matsune Hiku đang hợp tác với họ. Thật là điên rồ.$1",
+	"Lani.Dialogue.fall_Sat10.NoModern": "Vậy là có một thứ Pocaloid mới có tên là Spinleek, và ai đó đã bắt Matsune Hiku làm điều đó!$7#$b#Dù sao thì, đây là hoạt hình Blash thực sự thú vị đang trở nên phổ biến trên các diễn đàn.$12",
+	"Lani.Dialogue.winter_Sat10": "Khi lớn lên, tớ luôn liên tưởng mùa đông với sự lãng mạn. #$b#Tớ biết mùa xuân về mặt kỹ thuật là mùa giao phối của động vật hoặc bất cứ thứ gì, nhưng cậu không thể đi xe trượt tuyết lãng mạn trên tuyết vào mùa xuân, phải không? $3#$b#Vâng, có lẽ điều đó không xảy ra ở Thị trấn Pelican, nhưng nó chắc chắn sẽ xảy ra ở Grampleton! $1#$e#Tớ nghiêm túc đấy! Nó thực sự xảy ra, tớ đã từng thấy nó trong một bộ phim Hillmark!$10",
+	
+	"Lani.Dialogue.Sun10.0": "@... cậu không thấy chán khi phải tử tế sao? Cậu không muốn làm trò khỉ à?$11#$e#...Thôi bỏ đi. Cậu chỉ không hiểu thôi.$2",
+	"Lani.Dialogue.Sun10.1": "Tớ ghét khi ai đó cho rằng một điều gì đó và đưa ra lời bào chữa, 'ồ, đó chỉ là một phỏng đoán có căn cứ thôi'.$13#$b#Kiểu như, ồ, đúng thế không? Cậu học ở đâu vậy?$16#$b#Cậu có học thức đến mức cậu phải có bằng thạc sĩ hoặc tiến sĩ để đưa ra những tuyên bố táo bạo như vậy?$5#$b#Tha cho tớ đi.$13#$e#Vâng, đây là về truyền thuyết PocketMon.$7#$b#Vâng, đó là một kẻ ngẫu nhiên trên máy chủ Harmony.$7#$b#Để tớ tức giận, được chứ.$7",
+	"Lani.Dialogue.Sun10.1.NoModern": "Tớ ghét khi ai đó cho rằng một điều gì đó và đưa ra lời bào chữa, 'ồ, đó chỉ là một phỏng đoán có căn cứ'.$13#$b# Kiểu như, ồ, đúng vậy không? Cậu học ở đâu?$16#$b#Cậu có học thức đến mức cậu phải có bằng thạc sĩ hoặc tiến sĩ để đưa ra những tuyên bố táo bạo như vậy?$5#$b#Tha cho tớ đi.$13#$e#Vâng, đây là về trò chơi điện tử.$7#$b#Vâng, đó là một số rando trên diễn đàn.$7#$b#Để tớ tức giận, được chứ.$7",
+	"Lani.Dialogue.Sun10.2": "Đôi khi tớ nhớ bố mẹ. Gần như đủ để hối hận vì đã chuyển đi.#$b#Tớ biết rằng không phải ai cũng có mối quan hệ tốt với bố mẹ mình, điều đó... ừm, điều đó khiến tớ buồn.$2#$b#Bố mẹ được cho là chỗ dựa và người cố vấn của cậu.#$b#Nếu họ không ủng hộ cậu, thì họ khá tệ trong công việc của họ.$6",
+	"Lani.Dialogue.summer_Sun10": "Maru, Sebastian và tớ cùng tham gia một nhóm trò chuyện, nơi bọn tớ chỉ gửi cho nhau những video ngớ ngẩn.$12#$b#Thật thú vị khi thấy khiếu hài hước của họ trùng khớp nhau.#$e#Thật an tâm khi biết rằng động vật ngớ ngẩn là một điều buồn cười mà mọi người đều đồng ý.$12",
+	"Lani.Dialogue.summer_Sun10.NoModern": "Maru, Sebastian và tớ cùng nhau tạo nhóm trò chuyện trên ICR và chia sẻ những video vui nhộn trên Blash.$12#$b#Thật thú vị khi thấy khiếu hài hước của họ trùng nhau.#$e#Sebastian cứ lợi dụng những lúc như vậy để tát tớ bằng một con cá, và tớ không thích điều đó...#$b#Có lẽ điều đó chẳng có ý nghĩa gì nếu cậu không sử dụng ICR, nhỉ. Vâng, có một chức năng này...#$b#%Lani bắt đầu lảm nhảm về nguồn gốc của /fish.",
+	"Lani.Dialogue.fall_Sun10": "Tớ đã đọc một bài viết hay về áp lực của các bài kiểm tra chuẩn hóa ở trường học và cách cha mẹ biến điểm số đó thành thước đo giá trị con cái họ.#$b#Tớ từng là một trong những đứa trẻ như vậy, vì vậy bài viết này khá gần gũi với tớ.$7#$e#Giờ tớ biết rằng điểm số trong bài kiểm tra không và sẽ không bao giờ tương đương với giá trị bản thân tớ, nhưng thật khó để truyền đạt điều đó cho một đứa trẻ.$6#$b#Tớ đoán đó là sự khôn ngoan đến theo tuổi tác.",
+	"Lani.Dialogue.fall_Sun10.NoModern": "Tớ đã đọc một bài báo hay trên báo về áp lực của các kỳ thi chuẩn hóa ở trường học và cách cha mẹ biến điểm số đó thành thước đo giá trị con cái họ.#$b#Tớ từng là một trong những đứa trẻ như vậy, vì vậy bài báo này khá gần gũi với tớ.$7#$e#Giờ tớ biết rằng điểm thi không và sẽ không bao giờ tương đương với giá trị bản thân tớ, nhưng thật khó để truyền đạt điều đó cho một đứa trẻ.$6#$b#Tớ đoán đó là sự khôn ngoan đến theo tuổi tác.",
+	"Lani.Dialogue.winter_Sun10": "Sáng nay tớ thức dậy và thấy Sammy đang bóp cổ tớ.#$b#Cô ấy ngồi trên mặt tớ! Và thậm chí không phải theo cách vui vẻ!$10#$bTớ vừa ngậm được một miệng lông!!!$10#$b#Về mặt pháp lý, cậu không được cười vào hoàn cảnh của tớ. Nếu cậu cười, đó là tội ác thù hận.$13#$b#Đúng vậy, vì tớ ghét việc cậu cười tớ!$2",
+	
+	// FESTIVAL DIALOGUE
+	"festival-default": "Nếu điều này đang hiển thị, có điều gì đó không ổn!",
+	
+	"festival-spring13.Jonghyuk": "Jonghyuk và tớ đã vạch ra một kế hoạch phá hoại Abigail và để Jas chiến thắng năm nay.#$e#Tớ ghét phải từ bỏ vinh quang của cuộc săn lùng, nhưng... chết tiệt, anh ấy nói những lời ngọt ngào và tớ không thể không nghe anh ấy!$10",
+	"festival-spring13": "Tớ, ừm, đã 'thuyết phục' Thị trưởng Lewis để tớ được tham gia một lần nữa trong năm nay.$3#$b#Tớ sẽ đánh bại những đứa trẻ này.$11#$b#Chúc ${người đàn ông^người phụ nữ^cầu thủ}$ giỏi nhất giành chiến thắng, @.$3",
+	
+	"festival-spring24.Jonghyuk": "Jonghyuk mặc vest... Chết tiệt Yoba, tớ có thể ngất mất.$10#$b#Đùa thôi. Nhưng nghiêm túc mà nói, cách chiếc quần đó ôm chặt lấy-$9#$b#%Lời lảm nhảm của Lani bị át đi bởi tiếng phản hồi của mic.",
+	"festival-spring24": "Năm ngoái tớ đã ăn mặc chỉnh tề, nhưng không được nhảy.#$b#Tớ, ừm, hồi hộp quá nên quên hết các bước, haha...$7#$b#Và rồi tớ khóc.$8#$b#Nhưng, kiểu như, mọi thứ đều ổn. Giờ thì ổn rồi. Chắc chắn rồi.$12",
+	
+	"festival-summer11.Jonghyuk": "Jonghyuk luôn cho thứ gì đó chất lượng cao vào súp. #$b#Anh ấy luôn cho tớ một số thứ ở nhà để tớ cho vào, nhưng tớ sẽ cảm thấy tệ nếu nhận công...$7",
+	"festival-summer11": "Thống đốc luôn rất kén chọn với món súp. Kiểu như, nó luôn ngon. $6#$e#Lewis nói năng vô lý và chỉ đồng ý với những gì thống đốc nghĩ về nó.#$b#Thề rằng gã đó bị ảo tưởng.$13",
+	
+	"festival-summer28.Jonghyuk": "Jonghyuk lúc nào cũng đẹp trai, nhưng chiếc áo anh ấy mặc tối nay vừa vặn với anh ấy ở mọi chỗ...$9#$b#Cái gì?! Tớ không sai! Anh ấy... cậu biết đấy! Nóng bỏng!$10",
+	"festival-summer28": "Tớ đi ngủ sớm và gần như quên mất lễ hội...#$e#Nếu Miyoung không đánh thức tớ, tớ thậm chí sẽ không ở đây.",
+	
+	"festival-fall16.Jonghyuk": "Jonghyuk đã thắng tớ một con Peekachu nhồi bông từ trò chơi sức mạnh! Tớ không thể vượt qua được nụ cười của anh ấy khi anh ấy đưa nó cho tớ.$9#$b#Anh ấy thật là... *thở dài*$9",
+	"festival-fall16": "Hội chợ Thị trấn Pelican thì... dễ thương.#$b#Tớ có thể sẽ ghé qua Grampleton muộn hơn một chút vì tớ muốn chơi trò chơi.$1#$e#Tuy nhiên, cậu nên thử bánh phễu Gus làm -- Grampleton ƯỚC GÌ bánh của họ cũng ngon như thế này.$11",
+	
+	"festival-fall27.Jonghyuk": "Nếu tớ là một cô gái mèo... và Jonghyuk là một người sói...$15#$b#Ồ, này, @. Tớ chắc chắn không để ý đến Jonghyuk. Không.$10#$b#Không hề... chút nào... haha...$10",
+	"festival-fall27": "Tớ quyết định hóa trang thành nhân vật Solarion Chronicles của mình. Bộ trang phục trông không đến nỗi ngớ ngẩn, đúng không?$2#$b#%Lani xoay tròn, mỉm cười.#$b#Tớ không biết nữa, tớ thấy mình khá dễ thương.$3",
+	
+	"festival-winter8.Jonghyuk": "%Lani đang đứng khá gần Jonghyuk. Có vẻ như cô ấy đang cố gắng nắm lấy tay anh ấy một cách tinh tế.",
+	"festival-winter8": "Maru đã lừa tớ và bắt tớ ra đây.$13#$b#Tớ không cảm thấy mông mình nữa.$13#$b#Hoặc ngón chân của tớ.$13#$b#Hoặc ngón tay.$13#$e#Những điều cậu làm vì tình bạn...$6",
+	
+	"festival-winter25.Jonghyuk": "Tớ có những kế hoạch tối nay mà tớ không thể thảo luận ở đây, @.$3#$b# Hãy nói rằng tớ đã tặng Jonghyuk một chút gì đó đặc biệt, cậu hiểu không?$11#$b#...Cái gì? Không! Không phải chuyện sex! Thôi nào!$15#$e#...đó là bàn phím RGB...$10",
+	"festival-winter25": "Năm nào tớ cũng nghĩ mình đã lớn hơn Ngôi Sao Mùa Đông, nhưng tớ vẫn thấy phấn khích khi ai đó tặng tớ một món quà.#$b#Có lẽ năm nay tớ sẽ nhận được thứ gì đó đẹp đẽ.$12",
+	
+	//MAIL + EVENTS + QUESTS 
+	"Lani.Mail.SCMMOReleaseMail": "GAME ĐIỆN TỬ HÀNG THÁNG: PHIÊN BẢN BIÊN NIÊN SỬ SOLARION^^Square Benix đã công bố ngày phát hành MMO Biên niên sử Solarion trong Lễ hội FanFest Mùa hè thường niên của họ, và ngày đó khá gần. MMO Biên niên sử Solarion sẽ ra mắt VÀO NGÀY MAI và mang đến một góc nhìn mới về thương hiệu từ Giám đốc trò chơi Poshi-Y với các công việc mới, hỗ trợ 1v1 và PVP quy mô lớn, cùng đồ họa hiện đại. Phiên bản dành cho nhà sưu tập, có giá 15.000G, sẽ mang đến cho bạn một cuốn sách nghệ thuật dày 80 trang, một album nhạc từ các nhà soạn nhạc Biên niên sử Solarion và một thú cưỡi toàn tài khoản theo lựa chọn của bạn!^Hãy mong chờ nhé!",
+	"Lani.Mail.SCMMOReleaseMailName": "EGM #123: Biên niên sử Solarion",
+	
+	"Lani.Mail.CongratulationsMail": "Này nông dân @,^Chúc mừng đám cưới của cậu! Tớ đã tặng cậu một món quà cưới (nếu cậu có thể gọi như vậy). Tớ biết mọi thứ đã hơi kỳ lạ giữa chúng ta, nhưng tớ hy vọng chúng ta có thể vượt qua nó... bắt đầu bằng món quà này!^Tin tức khác, tớ đã bắt đầu gặp gỡ một người khác và cậu biết đấy... mọi thứ đang trở nên tốt đẹp hơn ở thị trấn Lani!^Tớ đã không thể có cơ hội này nếu không có... sự cố đó. Vì vậy, tớ đoán tớ phải cảm ơn cậu? Một chút xíu?^Dù sao, hy vọng cậu vẫn ổn và có một cuộc hôn nhân hạnh phúc!^(Lời đe dọa trước đây của tớ vẫn còn hiệu lực.)^ - Lani",
+	"Lani.Mail.CongratulationsMailName": "xin chúc mừng cả hai cậu",
+	
+	"Lani.Mail.MakingAmendsMail": "Này @,^7 ngày đã trôi qua. Tớ đang hẹn hò với Jonghyuk. Tớ đã thú nhận tối qua.^Tớ biết toàn bộ tình huống này thật ngượng ngùng và làm hỏng tình bạn của chúng ta, nhưng tớ thực sự muốn gặp và nói về nó. Tớ không muốn điều này treo lơ lửng trên đầu chúng ta, cậu biết không?^Gặp tớ ở Làng Sunberry khi cậu có thể và chúng ta sẽ nói chuyện.^^ - Lani",
+	"Lani.Mail.MakingAmendsMailName": "Thực hiện đền bù",
+	
+	"Lani.Mail.FertilizerQuestMail": "Này @,^Đây là một yêu cầu hơi kỳ lạ, nhưng tớ vừa hết phân bón và tớ thực sự thực sự cần thêm một ít. Mặc dù tớ muốn ném tiền cho Pierre hoặc Ari, nhưng hiện tại tớ hơi túng thiếu cho đến khi nhận được tiền lương tiếp theo. Tớ nghĩ cậu có thể có một ít ở xung quanh, vì vậy...^^Cậu có thể mang cho tớ một ít Phân bón chất lượng không?^   - Lani",
+	"Lani.Mail.FertilizerMailName": "Một số loại phân bón chất lượng",
+	
+	"Lani.Mail.MarginalMail": "Này @,^^Tớ vừa có một sự sáng tỏ và phải viết cho cậu lá thư này.^Cậu còn nhớ khi chúng ta nói chuyện qua điện thoại không? Về kỳ vọng và những thứ khác? Tớ nhận ra kỳ vọng của riêng tớ đã đè nặng lên tớ nhiều như thế nào.^Gần đây tớ đã cố gắng thoát khỏi chúng, và điều đó không dễ như tớ nghĩ. Nhưng... có lẽ cậu sẽ vui khi biết tớ đã bắt đầu làm nghệ thuật trở lại. Thật tệ, nhưng tớ làm vậy chỉ để làm một cái gì đó. Tớ viết thơ không có ý nghĩa, đẽo que chỉ để đẽo...^Ngăn mình khỏi việc theo đuổi sự hoàn hảo thật khó khăn, nhưng thật giải thoát khi... không quan tâm. Sống. Cậu biết không?^Tớ không thể tiến triển như thế này nếu không có cậu cho tớ lòng can đảm, vì vậy cảm ơn cậu.^   - Lani",
+	"Lani.Mail.MarginalMailName": "Biên độ",
+	
+	"Lani.Quest.Fertilizer.Name": "CẦN: Phân bón",
+	"Lani.Quest.Fertilizer.Description": "Tôi cần Phân bón chất lượng cho khu vườn của tôi. Tôi thực sự đánh giá cao nếu bạn có thể mang cho tôi một ít. Chỉ cần một là đủ!",
+	"Lani.Quest.Fertilizer.Hint": "Đưa 1 Phân bón chất lượng cho Lani.",
+	"Lani.Quest.Fertilizer.Reaction": "Cậu là người tuyệt vời nhất, @! Hoa của tớ cũng cảm ơn cậu.",
+	
+	"Lani.SpecialOrders.CabbageSurprise.Name": "Bắp cải bất ngờ",
+	"Lani.SpecialOrders.CabbageSurprise.Text": "Miyoung vừa hết bắp cải và tôi muốn làm cô ấy ngạc nhiên với một ít. Làm ơn giúp tôi! Tôi chỉ cần 10!",
+	"Lani.SpecialOrders.CabbageSurprise.Objective0Text": "Thu thập 10 bắp cải",
+	"Lani.SpecialOrders.CabbageSurprise.Objective1Text": "Đặt bắp cải vào tủ lạnh trong nhà Lani.",
+	
+	"Lani.SpecialOrders.LearnToBrewSoju.Name": "Học cách pha chế: Soju",
+	"Lani.SpecialOrders.LearnToBrewSoju.Text": "Nếu bạn có Keg, bạn đã bao giờ thử ủ gạo lâu hơn bình thường một chút chưa? Và có thể là với trái cây? Vâng... đó là soju! Nó mất nhiều thời gian hơn rượu vang thông thường một chút, vì vậy hãy thử ủ một ít và cho tôi biết kết quả!",
+	"Lani.SpecialOrders.LearnToBrewSoju.Objective0Text": "Pha 5 Soju",
+	"Lani.SpecialOrders.LearnToBrewSoju.Objective1Text": "Đặt Soju vào tủ lạnh trong nhà Lani.",
+	
+	"Lani.Item.Soju_Flavored": "{0} Rượu Soju",
+	"Lani.Item.FlavoredSoju.Name": "Soju có hương vị",
+	"Lani.Item.FlavoredSoju.Description": "Một loại đồ uống có cồn trong suốt không màu có hương vị trái cây được làm từ gạo. Uống có chừng mực.",
+	"Lani.Item.Soju.Name": "Soju tươi",
+	"Lani.Item.Soju.Description": "Một loại đồ uống có cồn trong suốt và không màu được làm từ gạo. Uống có chừng mực.",
+	"Lani.Item.Fruit_Needed_Message": "Cần 1 Hoa quả",
+	
+	
+	// MOVIE REACTIONS
+	"Lani.MoviesReactions.DuringMovie.Crying": "%Lani đang sụt sịt và cố kìm nước mắt.",
+	"Lani.MoviesReactions.DuringMovie.Watching": "%Lani đang theo dõi với sự chú ý chăm chú.",
+	"Lani.MoviesReactions.DuringMovie.Bored": "%Lani có vẻ buồn chán kinh khủng.",
+	
+	"Lani.MoviesReactions.spring_movie_0.BeforeMovie": "Phim gia đình luôn có một chút gì đó dành cho mọi người, đó là lý do tại sao tớ rất thích chúng.$12", // brave little sapling
+	"Lani.MoviesReactions.spring_movie_0.AfterMovie": "Được rồi, đúng vậy, tớ vẫn đang khóc, nhưng cậu cũng sẽ khóc khi nhận ra rằng The Little Sapling về cơ bản đã chết một mình vào cuối phim bằng cách bỏ lại bạn bè của mình để trở thành một cái cây bất động!$18#$b#Cậu ấy không thể nói chuyện với bất kỳ ai nữa! Thật đau lòng!$19",
+	
+	"Lani.MoviesReactions.spring_movie_1.BeforeMovie": "Phim tài liệu luôn là lựa chọn thú vị và thư giãn. Cậu có háo hức xem không?", // natural wonders
+	"Lani.MoviesReactions.spring_movie_1.AfterMovie": "Đó là một bộ phim tài liệu tuyệt vời. Tớ không biết điều đó về Đảo Prairie!$1",
+	
+	"Lani.MoviesReactions.summer_movie_0.BeforeMovie": "Tớ hy vọng, với xu hướng gần đây của phim chuyển thể từ trò chơi điện tử, thì phim này sẽ hay.", // prairie king
+	"Lani.MoviesReactions.summer_movie_0.AfterMovie": "Tớ thực sự mong họ đưa vào cốt truyện về Prairie King và Glub Shitto, nhưng cậu biết đấy, thời lượng 2 giờ và tất cả những thứ đó...$6",
+	
+	"Lani.MoviesReactions.summer_movie_1.BeforeMovie": "Thật sao? 'Wumbus' ư? Đây là loại chuyện nhảm nhí gì thế?$13", // wumbus :nauseous:
+	"Lani.MoviesReactions.summer_movie_1.DuringMovie": "...Điều này thực sự buồn cười.$16",
+	"Lani.MoviesReactions.summer_movie_1.AfterMovie": "...Có lẽ tớ đã phán xét anh quá khắt khe, Wumbus... Anh không phải là kẻ tồi tệ như tớ tưởng tượng...$3",
+	
+	"Lani.MoviesReactions.fall_movie_0.BeforeMovie": "Tớ nghe nói Mysterium rất hay. Tớ rất háo hức được xem nó!$1", // mysterium
+	"Lani.MoviesReactions.fall_movie_0.AfterMovie": "Woah... bộ phim đó là một trải nghiệm. Tớ sẽ suy nghĩ về điều đó một lúc.$1",
+	
+	"Lani.MoviesReactions.fall_movie_1.BeforeMovie": "Tớ THÍCH phim found footage! Tớ cược tiền rằng đây sẽ là một cú hit bất ngờ.$3", // it howls in the rain
+	"Lani.MoviesReactions.fall_movie_1.AfterMovie": "Ôi. Trời ơi. Yoba. Thật đáng sợ. 10/10 điểm.$4",
+	
+	"Lani.MoviesReactions.winter_movie_0.BeforeMovie": "Tớ không thực sự thích những bộ phim có chủ đề Winter Star, nhưng chúng ta hãy cùng xem điều này diễn ra như thế nào...$6", // miracle at coldstar ranch
+	"Lani.MoviesReactions.winter_movie_0.AfterMovie": "Khóc ư? Tớ ư? Với bộ phim... ngu ngốc này ư? Không đời nào... *hít mũi*$18",
+	
+	"Lani.MoviesReactions.winter_movie_1.BeforeMovie": "Tớ đang thử điều này vì tớ không có gì tốt hơn để làm.$2", // zuzu city express
+	"Lani.MoviesReactions.winter_movie_1.AfterMovie": "Bộ phim này thực sự, ừm, đã cho thấy tuổi tác của nó với một số ẩn dụ trong đó...$14",
+	
+	// MISC STRINGS 
+	"Lani.Strings.HouseDisplayName": "Nhà của Lani",
+	
+	// MAP STRINGS
+	"LaniHouse.1": "Tủ lạnh của Lani. Có rất nhiều thịt ba chỉ ở đây...",
+	"LaniHouse.2": "Bếp của Lani. Nó sáng bóng!",
+	"LaniHouse.3": "Ghế ấm áp vì ánh nắng mặt trời.",
+	"LaniHouse.4": "Một tấm gương. Trông đẹp đấy, người nông dân.",
+	"LaniHouse.5": "Một vài bức ảnh của Lani, Haley và Maru. Họ đã hẹn hò khoảng hai năm trước.",
+	"LaniHouse.6": "Một bức ảnh của Lani, Sam và Sebastian ở bãi biển. Sebastian đang lật ngược máy ảnh.",
+	"LaniHouse.7": "Bên này của giá sách có rất nhiều tập truyện tranh cũ.",
+	"LaniHouse.8": "Phía bên này của giá sách có... khoan đã, tất cả đều là sổ phác thảo sao?!",
+	"LaniHouse.9": "Một cặp sinh vật nhiều màu, một màu xanh và một màu đỏ. Thiết kế của chúng gợi cho bạn nhớ đến một chiếc máy bay phản lực.",
+	"LaniHouse.10": "Một cô gái tóc xanh với hai bím tóc. Cô ấy có vẻ quen thuộc một cách kỳ lạ...",
+	"LaniHouse.11": "Máy tính chơi game của Lani. Đèn RGB thật mê hoặc...",
+	"LaniHouse.12": "Một cây hạnh phúc gần như phát triển quá chậu của nó.",
+	"LaniHouse.13": "Lá của cây này có cảm giác mờ ảo. Thật kỳ lạ!",
+	"LaniHouse.14": "Đó là một cây có gai. Xin hãy kiềm chế ham muốn chạm vào nó.",
+	"LaniHouse.15": "Thảm tập yoga, một màu vàng và một màu đen. Bạn tự hỏi ai sử dụng chúng.",
+	"LaniHouse.16": "Một viên đá opal. Nó làm bạn nhớ đến một chiếc kính vạn hoa.",
+	"LaniHouse.17": "Một viên đá opal lửa. Nếu bạn nghiêng nó, các màu sắc khác nhau sẽ xuất hiện từ các quả cầu silica.",
+	"LaniHouse.18": "...Bạn không chắc đây là gì. Một tảng đá? Tuy nhiên, nó tỏa ra hơi ấm...",
+	"LaniHouse.19": "Cánh cửa này đi đâu vậy? Nó không mở được.",
+	"LaniHouse.Sammy": "Sammy đang ngủ.",
+	
+	// EVENTS
+	"TheKindlingMatch.0": "Anh biết mà, Đúng rồi?!",
+	"TheKindlingMatch.1": "Thật là điên rồ.",
+	"TheKindlingMatch.2": "Sterling?$16#$b#Sterling Cooper?$16",
+	"TheKindlingMatch.3": "Uhhh, Đúng, đó là tôi. Tôi có...$3",
+	"TheKindlingMatch.4": "Không đời nào. Không thể nào.$8",
+	"TheKindlingMatch.5": "Ồ! Trời ơi! Lani ư?!$7",
+	"TheKindlingMatch.6": "Tại sao anh lại ở đây? Anh đang theo dõi tôi à?$14",
+	"TheKindlingMatch.7": "Tôi cũng sốc như cô vậy! Tôi sống ở đây!$3",
+	"TheKindlingMatch.8": "Thật lạ khi gặp lại cô. Cô thế nào rồi?$1",
+	"TheKindlingMatch.9": "Ồ, đúng rồi. Có lẽ cậu nhầm lẫn. Sterling là...$7#$b#Uh...$8",
+	"TheKindlingMatch.10": "Người bạn cũ.$10",
+	"TheKindlingMatch.11": "Người bạn cũ của tớ.$7#$b#Từ Zuzu.$7#$b#Nhiều năm trước. Đúng vậy.$8",
+	"TheKindlingMatch.12": "Dù sao thì, điều này, ừm... ngại quá, nên tôi sẽ đi mua đồ tạp hóa.$10#$b#Hẹn gặp lại mọi người sau nhé.$10",
+	
+	"ThePerfectVideoGame.0": "Cậu đang nói về cái gì vậy? Rõ ràng là tùy chỉnh nhân vật tốt là quan trọng nhất.$1",
+	"ThePerfectVideoGame.1": "Cậu đã sắp xếp sai thứ tự ưu tiên rồi, bạn ạ. Câu chuyện phải hay, nếu không thì còn ý nghĩa gì nữa?$7",
+	"ThePerfectVideoGame.2": "Pfft, cả hai người đều không hoàn toàn sai, nhưng... Hãy nghe tớ nói này.$3#$b#Nếu trò chơi không thể được mod, tớ sẽ không chơi nó. Không nghi ngờ gì nữa.$3",
+	"ThePerfectVideoGame.3": "Này, @. Cậu có chơi trò chơi điện tử phải không?",
+	"ThePerfectVideoGame.4": "Phần nào của trò chơi điện tử quan trọng nhất với cậu?",
+	"ThePerfectVideoGame.Choice1": "Tùy chỉnh",
+	"ThePerfectVideoGame.Choice2": "Câu chuyện",
+	"ThePerfectVideoGame.Choice3": "Khả năng sửa đổi",
+	"ThePerfectVideoGame.5": "Chắc chắn rồi!#$b#Nếu tớ không thể sống những giấc mơ điên rồ nhất của mình trong trình tạo nhân vật, thì còn ý nghĩa gì nữa?$1",
+	"ThePerfectVideoGame.6": "Đúng không?#$b#Tớ cần một câu chuyện hay để giữ tớ cuốn hút, nếu không tớ sẽ không đọc hết.$1",
+	"ThePerfectVideoGame.7": "Xem này, việc mod một trò chơi cho tớ khả năng tùy chỉnh VÀ một cốt truyện hay!$4#$b#... Dù sao thì cũng phải có người tạo ra một bản mod chỉnh sửa những thứ đó. Nhưng nếu cậu hiểu tầm nhìn, @.$3",
+	"ThePerfectVideoGame.8": "Ý tớ là, một chỉ đạo nghệ thuật tốt có vẻ khá quan trọng trong bất kỳ trò chơi điện tử nào, đúng không?$2",
+	"ThePerfectVideoGame.9": "Đúng, đồ họa THỰC SỰ quan trọng.$12#$b#Tuy nhiên, tớ là người hâm mộ những thứ cách điệu hơn, vì đồ họa chân thực có thể nhanh chóng trở nên lỗi thời.$7#$b#Những thứ hoạt hình cách điệu và nghệ thuật pixel là vượt thời gian.$1",
+	"ThePerfectVideoGame.10": "Thành thật mà nói, bất kỳ trò chơi nào cũng hay nếu tớ có thể tạo ra một cô gái dễ thương.",
+	"ThePerfectVideoGame.11": "Tất nhiên đó là mục tiêu duy nhất của cậu, Sam.$6#$b#Cậu không đóng vai một cô gái mèo trong Biên niên sử Solarion trực tuyến sao?$3",
+	"ThePerfectVideoGame.12": "Và?$h#$b#Nếu tớ đang chơi trò chơi điện tử, tớ không muốn nhìn chằm chằm vào mông của một anh chàng nào đó suốt thời gian.$2",
+	"ThePerfectVideoGame.13": "...Quan điểm vững chắc. Không thể tranh luận với điều đó.$2",
+	"ThePerfectVideoGame.14": "Thêm vào đó, các cô gái mèo có hoạt hình đẹp hơn con người.$1",
+	"ThePerfectVideoGame.15": "Sam, Furry của cậu lộ ra kìa.$11",
+	"ThePerfectVideoGame.16": "Này!",
+	"ThePerfectVideoGame.17": "Furry là gì?$2",
+	"ThePerfectVideoGame.18": "Vậy thì nó giống như...",
+	"ThePerfectVideoGame.19": "Ôi trời ơi.",
+	
+	"PierresSecretAdmirer.0": "Ồ, thực ra tớ không đến đây để mua bất cứ thứ gì...$7",
+	"PierresSecretAdmirer.1": "Thỉnh thoảng tớ đến đây để... thăm Pierre, thế thôi.$15#$b#Chú ấy thực sự tốt bụng! Dù sao thì với tớ cũng vậy.$10#$b#Chú ấy luôn tặng tớ đồ miễn phí khi tớ đến thăm.$9#$b#Thỉnh thoảng, tớ mang đồ ăn mang về cho chú ấy nếu tớ đến Zuzu trong ngày.$1",
+	"PierresSecretAdmirer.2": "Tớ sẽ nói một điều gây tranh cãi.$7#$b#Thật kỳ lạ khi phải thừa nhận bởi vì... nó đúng là như vậy, nhưng... chú ấy khá hấp dẫn.$9",
+	"PierresSecretAdmirer.3": "Tớ không tán tỉnh chú ấy hay gì cả, thật đấy! Điều đó sẽ... tệ lắm.$14",
+	"PierresSecretAdmirer.4": "...Lời khen không phải là tán tỉnh, đúng không?$s",
+	"PierresSecretAdmirer.Choice1": "Cậu cần giúp đỡ không.",
+	"PierresSecretAdmirer.Choice2": "Tớ cho là mỗi người có sở thích riêng.",
+	"PierresSecretAdmirer.Choice3": "Tớ sẽ nói với Abigail!",
+	"PierresSecretAdmirer.5": "Tin tớ đi, điều đó không phải là tin tức mới với bất kỳ ai. Nhưng giống như...$10#$b#Cậu có thể thấy một chút, phải không?$9#$b#...Đúng không?$15",
+	"PierresSecretAdmirer.6": "Thật không may, trái tim muốn những gì nó muốn... và trái tim tớ hướng đến những người đàn ông lớn tuổi.$10#$b#Hầu hết là như vậy.$15",
+	"PierresSecretAdmirer.7": "Ôi Yoba của tôi ơi. Làm ơn đừng nói với Abigail. Cô ấy sẽ không bao giờ để tớ quên chuyện đó đâu!$15",
+	"PierresSecretAdmirer.8": "...$8#$b#Đúng rồi, quay lại với, ừm, những ánh nhìn quan sát của tớ. Hẹn gặp lại cậu, @.$9",
+	
+	"KyoufuuAllBack.0": "Ồ, chào @! Cảm ơn vì đã nhấc máy.$1#$b#Hơi ngẫu nhiên, nhưng hiện tại tớ đang gặp khó khăn với một điều, và cậu có vẻ là người phù hợp để hỏi.$2#$b#Cậu từng làm việc ở thành phố, phải không?$7",
+	"KyoufuuAllBack.Question": "Cậu có bao giờ nghĩ mình sẽ trở thành một người nông dân không?",
+	"KyoufuuAllBack.Yes": "Chắc chắn rồi",
+	"KyoufuuAllBack.No": "Không",
+	"KyoufuuAllBack.1": "Tớ luôn tưởng tượng mình là một họa sĩ trò chơi, nhưng... haha.$7#$b#Cậu thật may mắn khi có thể thực hiện được ước mơ của mình ngay bây giờ.$1#$b#Cậu đã thực hiện một thay đổi lớn như vậy như thế nào mà không cảm thấy mình lãng phí thời gian?$s",
+	"KyoufuuAllBack.2": "Đợi đã, thật sao?$16#$b#Cậu không hề có chút manh mối nào về việc mình sẽ trở thành một người nông dân sao? Đó là một sự thay đổi lớn từ công ty thành... à, thế này.$16",
+	"KyoufuuAllBack.3": "Kể câu chuyện về cách bạn trở thành một người nông dân.",
+	"KyoufuuAllBack.4": "Bạn giải thích rằng bạn đã chán ngán cuộc sống công sở và cuối cùng đã đọc được bức thư của ông nội mà bạn đã giữ trong nhiều năm..",
+	"KyoufuuAllBack.5": "Lúc đầu, lời nói có vẻ hơi gượng ép, nhưng khi bạn nói nhiều hơn về cuộc sống mới của mình, lời nói sẽ trôi chảy hơn..",
+	"KyoufuuAllBack.6": "Vài phút trôi qua...",
+	"KyoufuuAllBack.7": "Woah, tớ không biết là cậu đã trải qua tất cả những điều đó! Nghe giống như trong một chương trình truyền hình vậy.$16#$b#Cậu nhận được một lá thư từ ông nội, có một mảnh đất rộng lớn, và trốn khỏi thành phố để trở thành một người nông dân...$12#$b#Tớ đoán là thực sự không có vấn đề gì khi bắt đầu một điều gì đó mới. Cậu nói đúng, @.$1",
+	"KyoufuuAllBack.8": "Nhưng... Tớ cảm thấy nếu từ bỏ mọi thứ ngay bây giờ, tớ sẽ cảm thấy tội lỗi. Tớ sẽ cảm thấy như mình đang làm bản thân thất vọng.$s#$b#Ngụy biện chi phí chìm và tất cả những thứ đó. *thở dài*$7",
+	"KyoufuuAllBack.9": "Hy vọng rằng nó sẽ không luôn luôn khó khăn như thế này.$7",
+	"KyoufuuAllBack.10": "Ừm, cảm ơn cậu vì đã nói chuyện với tớ về tất cả những điều này, @. Tớ rất cảm kích.$12#$b#Nói chuyện với cậu sau nhé!$h",
+	
+	"OpenWounds.0": "Ồ, chào, @. Tớ chỉ đang sắp xếp lại giá sách của mình thôi.",
+	"OpenWounds.1": "Tớ hơi bị phân tâm khi nhìn vào những cuốn sổ phác thảo cũ của mình...$7#$b#Tớ từng vẽ nhiều bức tranh hoàn chỉnh mỗi ngày khi tớ còn trẻ.$6#$b#Đó là tác phẩm nghệ thuật OC tệ hại, nhưng tớ đã cố gắng hết sức.$7",
+	"OpenWounds.2": "Ước mơ của tớ là thiết kế một PocketMon có thể biến thành trò chơi. Chỉ một thôi. Và rồi tớ có thể chết trong hạnh phúc.$1#$b#Nếu tớ lật một vài trang, cậu có thể thấy một số trang...$12",
+	"OpenWounds.3": "Ôi trời ơi! Tớ quên mất Inferdog!$4#$b#Ừm, cái tên ngớ ngẩn, tha thứ cho tớ. Lúc đó tớ khoảng 11 tuổi.$14#$b#Tớ thực sự thích PocketMon có tên Abbsol này...$7",
+	"OpenWounds.4": "Nhưng đúng vậy, cuối cùng tớ đã theo đuổi bằng cấp về nghệ thuật vì nghĩ rằng nó sẽ cung cấp cho tớ các kỹ năng để có thể bước chân vào nghề.$7#$b#Cảnh báo tiết lộ: nó đã không.$8",
+	"OpenWounds.5": "Tớ đã dành tất cả những năm tháng này để cải thiện kỹ năng hội họa của mình để đạt được ước mơ viển vông là trở thành họa sĩ trò chơi.$6#$b#Tớ cảm thấy nếu tớ không làm gì đó với nó, tớ sẽ không thể sống nổi...$2#$b#Tớ đã kiệt sức khi còn học đại học đến nỗi tớ không vẽ được một thứ gì kể từ đó.$2",
+	"OpenWounds.6": "Tớ lật giở những cuốn sổ phác thảo với hy vọng một ngày nào đó tớ sẽ có đủ ý tưởng để thực sự làm điều gì đó.$2",
+	"OpenWounds.7": "Ừm, wow, xin lỗi. Tớ vừa đổ hết mọi thứ đó lên đầu cậu.$14#$b#Ừm...$17",
+	"OpenWounds.8": "Ừm, ừm, giờ thì vết thương cũ của tớ đã lành lại, tớ hơi muốn ở một mình.$10#$b#Tớ xin lỗi vì đã cắt ngắn cuộc viếng thăm. Nhưng... dù sao cũng cảm ơn cậu vì đã lắng nghe tớ.$17#$b#Hẹn gặp lại, người nông dân.$10",
+	
+	"TheDesireToCreate.0": "Chào, @.#$b#Tắm nắng đã giúp tớ bình tĩnh lại.$2",
+	"TheDesireToCreate.1": "Không có gì tớ làm là đúng cả.$2#$b#Khi tớ vẽ bằng bút và giấy, trông đẹp hơn nhiều, nhưng ngay khi tớ thử trên máy tính, trông nó tệ lắm.$13#$b#Tại sao vậy? Chắc chắn không phải do tay tớ rồi.$5",
+	"TheDesireToCreate.1.NoModern": "Không có gì tớ làm là đúng cả.$2#$b#Khi tớ vẽ bằng bút và giấy, trông đẹp hơn nhiều, nhưng ngay khi tớ thử chỉnh sửa trên máy tính, trông nó tệ lắm.$13#$b#Tại sao vậy? Chắc chắn không phải do tay tớ rồi.$5",
+	"TheDesireToCreate.2": "Thật là... khó để vẽ sau ngần ấy năm. Tớ đặt ra tiêu chuẩn quá cao so với bản thân.$2#$b#Tớ biết mình không thể đạt được nếu không luyện tập, nhưng vì tớ biết mình sẽ so sánh bản thân với họ khi vẽ, nên tớ thậm chí không thử.$13",
+	"TheDesireToCreate.3": "Trường nghệ thuật đã giết chết ham muốn sáng tạo của tớ. Tớ đã từng vẽ mọi lúc cho đến khi tớ học chuyên ngành này, và sau đó...$13#$b#Tớ đã mất đi sự sáng tạo. Tớ nhớ nó quá, quá nhiều.$2#$b#Cảm giác như một phần của tớ đã chết vào thời điểm đó.$17",
+	"TheDesireToCreate.4": "Tớ luôn thấy các nghệ sĩ trên Tweeter và tớ muốn giống họ, nhưng ngay khi tớ thử...$17#$b#Tất cả đều trở nên vô nghĩa. Tớ không biết tại sao tớ lại bận tâm nữa.$19",
+	"TheDesireToCreate.4.NoModern": "Tớ luôn thấy các nghệ sĩ trên internet và tớ muốn được như họ, nhưng ngay khi tớ thử...$17#$b#Tất cả đều trở nên vô nghĩa. Tớ không biết tại sao tớ lại bận tâm nữa.$19",
+	"TheDesireToCreate.5": "#Tại sao phải làm vậy nếu nó khiến cậu khó chịu?",
+	"TheDesireToCreate.6": "Trước đây nó KHÔNG làm tớ khó chịu, nhưng bây giờ khi tớ vẽ, tớ chỉ cảm thấy tức giận một cách vô lý.$19#$b#Sáng tạo từng rất thú vị.$18",
+	"TheDesireToCreate.7": "#Có lẽ cậu nên thử thứ gì đó khác ngoài nghệ thuật kỹ thuật số?",
+	"TheDesireToCreate.8": "...Có thể.$18#$b#Cảm ơn cậu vì đã cố gắng giúp đỡ, @.$18",
+	
+	"PaintingWithLyenne.0": "...Hm. Tớ quyết định thử một cái gì đó khác biệt.$6",
+	"PaintingWithLyenne.1": "Ồ! Để tớ xem nào!",
+	"PaintingWithLyenne.2": "Tớ biết cậu đã gợi ý vẽ bức tranh về cảm xúc mà âm nhạc mang lại cho tớ, nhưng...$7",
+	"PaintingWithLyenne.3": "Tớ cứ... Tớ cứ muốn làm những thứ cụ thể.$7#$b#Tớ thậm chí còn không thể làm đúng việc sơn. Ugh.$5",
+	"PaintingWithLyenne.4": "Lani, không! Cậu đã làm được điều gì đó, và cậu nên tự hào về điều đó.$3#$b#Không phải ai cũng sẽ vẽ bức Mona Lisa khi họ cầm cọ.",
+	"PaintingWithLyenne.5": "Rõ ràng là những nét vẽ bên trái có vẻ do dự, cố gắng hình thành một ý tưởng mơ hồ, nhưng những nét vẽ bên phải lại tỏ ra bất cẩn, tức giận và phẫn uất..",
+	"PaintingWithLyenne.6": "Xét cho cùng thì nó không tệ, nhưng đó không phải là mục tiêu mà Lani hướng tới.",
+	"PaintingWithLyenne.7": "Tớ đã cố gắng 'diễn giải' nhiều hơn một chút và vẽ nên một bức tranh thể hiện cảm xúc, nhưng rõ ràng là cậu có thể thấy điều đó diễn ra như thế nào.$6",
+	"PaintingWithLyenne.8": "Umm, rõ ràng là tốt? Tớ hoàn toàn có thể hiểu cảm giác của cậu.$1#$b#Cậu có thấy nét cọ của cậu ở bên phải không? Hoàn toàn tức giận.$3",
+	"PaintingWithLyenne.9": "Đúng, tớ đã tức giận khi tớ đang vẽ chúng, vì vậy điều đó có lý. $13#$b#... Thật xấu hổ khi cậu dễ dàng nhận ra điều đó.$7",
+	"PaintingWithLyenne.10": "Công bằng mà nói, tớ đã nhìn khuôn mặt của cậu trong suốt thời gian cậu vẽ.$12#$b#Cậu KHÔNG THỂ che giấu biểu cảm của mình chút nào.$7#$b#Thật là buồn cười.$3",
+	"PaintingWithLyenne.11": "Thôi nào, tớ KHÔNG TỆ ĐẾN THẾ!$7#$b#...Tớ có tệ đến thế không?$10",
+	"PaintingWithLyenne.12": "Ồ, tớ mừng là buổi trút bầu tâm sự của tớ đã mang tính giải trí, ít nhất là vậy.$7#$b#Tớ sẽ tiếp tục cố gắng.$12#$b#Cảm ơn, Lyenne.$12",
+	"PaintingWithLyenne.13": "Cậu luôn được chào đón ở đây, Lani!$1#$b#Thành thật mà nói, thật tuyệt khi thấy cậu ra ngoài nhiều hơn. Tớ luôn muốn nói chuyện với cậu nhưng chưa bao giờ có cơ hội.#$b#Tớ rất vui vì chúng ta được đi chơi với nhau hôm nay.$3",
+	"PaintingWithLyenne.14": "Cảm ơn cậu. Cậu nói thế... thật tốt bụng.$16#$b#Tớ sẽ, ừm, gặp cậu vào lúc nào đó nhé?$1",
+	"PaintingWithLyenne.15": "Chắc chắn rồi!#$b#Hẹn gặp lại sau, Lani!$3",
+	
+	"CeramicsWithLeah.0": "Vậy thì... Tôi đã làm... một cái cốc. Hoặc, đã thử.$7#$b#Trông giống một cái cốc, đúng không?$8#$b#Nó... hơi cục mịch.$7",
+	"CeramicsWithLeah.1": "Cô chưa bao giờ sử dụng bàn xoay gốm trước đây, phải không? Đây là lần thử đầu tiên tuyệt vời!$1",
+	"CeramicsWithLeah.2": "...Thành thật mà nói, tôi không quen với việc KHÔNG hoàn hảo ngay lần đầu tiên làm việc gì đó.$7#$b#Nhưng... tin tôi đi, Leah, tôi rất sốc khi phải thừa nhận điều này...$6#$b#Tôi đã vui lắm.$1#$b#Nó chỉ trông thật tệ thôi!$7",
+	"CeramicsWithLeah.3": "Tôi đang có rất nhiều cảm xúc lẫn lộn ngay lúc này. Tôi cảm thấy tuyệt vời, nhưng cũng thực sự xấu hổ.$7",
+	"CeramicsWithLeah.4": "Tôi cho rằng cảm xúc lẫn lộn còn tốt hơn cảm xúc tiêu cực.",
+	"CeramicsWithLeah.5": "Cô biết đấy, đây chắc chắn không phải là nghề nghiệp của tôi hay bất cứ điều gì, nhưng tôi sẽ không bao giờ thử làm điều này nếu @ không khuyến khích tôi khám phá.$12",
+	"CeramicsWithLeah.6": "À, vậy thì việc khám phá nghệ thuật là vì @? Tôi không ngờ tới điều đó.$3",
+	"CeramicsWithLeah.7": "Đúng, cậu ấy bảo tôi thử những thứ khác ngoài nghệ thuật kỹ thuật số, vì vậy... ừm, tôi đang thử những thứ.$1",
+	"CeramicsWithLeah.8": "Ồ, ừm, tôi có thể mang cái này về nhà được chứ?$12",
+	"CeramicsWithLeah.9": "Cô thực sự muốn giữ nó sao? $6#$b#Tôi tưởng cô nói nó trông tệ lắm.$7",
+	"CeramicsWithLeah.10": "Tôi biết, nhưng đó là một loại kỷ niệm tốt.$1#$b#Một dấu hiệu của sự tiến bộ.$12",
+	"CeramicsWithLeah.11": "Ừm, vậy thì đừng để tôi ngăn cản cô nhé.",
+	"CeramicsWithLeah.12": "Yay!",
+	"CeramicsWithLeah.13": "Cảm ơn Leah đã làm điều này với tôi!$12",
+	"CeramicsWithLeah.14": "Tôi sẽ gặp lại cô sau.$1",
+	"CeramicsWithLeah.15": "Quay lại bất cứ lúc nào!$1",
+	
+	"WoodworkingWithRobin.0": "Chào mừng về nhà!",
+	"WoodworkingWithRobin.1": "CHÀO!",
+	"WoodworkingWithRobin.2": "Này, anh bạn! Nhìn xem tớ đang làm gì này!$4",
+	"WoodworkingWithRobin.3": "Trông dễ thương quá. Đây là gì vậy?$7",
+	"WoodworkingWithRobin.4": "Đó là một con bò nhỏ!$4#$b#Nó vẫn chưa xong, nhưng tớ nghĩ nó đang tiến triển rất tốt.$1",
+	"WoodworkingWithRobin.5": "Cô ấy đã dành nhiều giờ để mài giũa anh chàng đó dưới sự hướng dẫn của mẹ.#$b#Mẹ có thể nhận cô ấy làm học sinh!$1",
+	"WoodworkingWithRobin.6": "Maru, em cũng làm thế này à?",
+	"WoodworkingWithRobin.7": "Không. Em đang chờ giải pháp để thiết lập, nhưng nghe có vẻ họ đang vui vẻ, vì vậy em đã tham gia cùng họ.#$b#Em nghĩ anh sẽ thích nó, Seb.",
+	"WoodworkingWithRobin.8": "Hãy đến nào, Seb, tham gia cùng bọn tớ! Cậu có thể là thành viên danh dự của các cô gái.$12",
+	"WoodworkingWithRobin.9": "Ừm, tớ không có việc gì khác để làm, vì vậy-$2",
+	"WoodworkingWithRobin.10": "Yay! Đến đây, tớ có thể dạy cậu cách làm.$4#$b#Nó không khó như cậu nghĩ đâu, tớ hứa đấy.$12",
+	"WoodworkingWithRobin.11": "Cậu thật là vui vẻ về chuyện này. Mẹ tớ đã tẩy não cậu hay sao vậy?$1",
+	"WoodworkingWithRobin.12": "Mẹ nghe rồi đấy, đồ nhóc con..$6",
+	"WoodworkingWithRobin.13": "Thực ra Lani là người đột nhập vào đây và nhờ mẹ dạy cho cô ấy những thứ này...$1",
+	"WoodworkingWithRobin.14": "Tôi không 'xông vào' ở đây... Tôi chỉ... lịch sự bước vào và hỏi về nghề mộc.$8#$b#Tôi thề.$7",
+	"WoodworkingWithRobin.15": "Cả hai chúng ta đều biết đó là điều xa vời nhất với sự thật, cô bạn ạ.$7",
+	"WoodworkingWithRobin.16": "Roooobin, con của cô đang bắt nạt cháu!$7",
+	
+	// CUSTOM COMPANION LINES
+	"LSammy.Inspection.1":"Sammy nhìn chằm chằm vào bạn một cách lặng lẽ.",
+	"LSammy.Inspection.2":"Sammy có vẻ không quan tâm đến bạn.",
+	"LSammy.Inspection.3":"Sammy đang bận liếm chân của mình.",
+	"LSammy.Inspection.4":"Sammy lướt quanh chân bạn.",
+	"LSammy.Inspection.5":"Sammy hít ngửi tay bạn, nhưng ngay sau đó lại rụt tay lại.",
+	"LSammy.Inspection.6":"Sammy rít lên khi bạn cố vuốt ve cô ấy quá chặt.",
+	"LSammy.Inspection.7":"Đuôi của Sammy dựng lên khi bạn đến gần hơn.",
+	"LSammy.Inspection.8":"Sammy thận trọng tiến lại gần bạn, tò mò.",
+	"LSammy.Inspection.9":"Bạn vuốt ve Sammy. Cô ấy sẽ cho phép, bây giờ.",
+	"LSammy.Inspection.10":"Sammy kêu gừ gừ khi bạn vuốt ve nó.",
+	"LSammy.Inspection.11":"Đuôi của Sammy quấn quanh mắt cá chân của bạn khi cô ấy đi vòng quanh bạn.",
+	"LSammy.Inspection.12":"Sammy kêu meo meo vui vẻ khi bạn vuốt ve nó.",
+	"LSammy.Inspection.13":"Sammy có vẻ như đang tìm kiếm thứ gì đó...",
+	"LSammy.Inspection.14":"Sammy nằm xuống và cho bạn thấy bụng của cô ấy. Cô ấy trông giống như đang làm gì đó, mặc dù...",
+	"LSammy.Inspection.15":"Sammy hít hà và liếm tay bạn, chải chuốt cho bạn. Lưỡi của cô ấy có cảm giác như giấy nhám.",
+}

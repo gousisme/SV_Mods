@@ -1,0 +1,19 @@
+{
+  "Name": "Nyapu-Style Sunberry Village",
+  "Author": "nugmods",
+  "Version": "1.0",
+  "Description": "Nyapu-Style portraits for the Sunberry Village Expansion",
+
+  "UniqueID": "nugmods.nyapusbv",
+  "UpdateKeys": [ "Nexus:null" ],
+
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "skellady.SBVCP",
+      "IsRequired": true
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+	"Format":"2.0.0",
+	"ConfigSchema":
+	    {
+		"Catalogue": {
+			"AllowValues":"true, false",
+			"Default":"true",
+			"Description":"Set to true if you want the furniture to have their own dedicated catalogue."
+			},
+		},
+	"Changes": [
+        {
+			"LogName": "LBXLW_TailorShop_Furniture Texture Load",
+			"Action": "Load",
+			"Target": "Mods/LBXLW_TailorShop_Furniture/Furniture1",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },
+         
+		{
+			"LogName": "LBXLW_TailorShop_Furniture Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+            ///FURNITURE Page1///
+            //Characters And Models (37)
+			"LBXLWTSF_CAM1": "LBXLW TSF CAM1/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM1}}/0/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM2": "LBXLW TSF CAM2/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM2}}/1/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM3": "LBXLW TSF CAM3/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM3}}/2/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM4": "LBXLW TSF CAM4/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM4}}/3/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM5": "LBXLW TSF CAM5/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM5}}/4/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM6": "LBXLW TSF CAM6/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM6}}/5/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM7": "LBXLW TSF CAM7/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM7}}/6/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM8": "LBXLW TSF CAM8/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM8}}/7/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM9": "LBXLW TSF CAM9/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM9}}/8/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM10": "LBXLW TSF CAM10/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM10}}/9/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM11": "LBXLW TSF CAM11/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM11}}/10/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM12": "LBXLW TSF CAM12/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM12}}/11/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM13": "LBXLW TSF CAM13/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM13}}/12/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM14": "LBXLW TSF CAM14/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM14}}/13/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM15": "LBXLW TSF CAM15/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM15}}/14/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM16": "LBXLW TSF CAM16/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM16}}/15/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM17": "LBXLW TSF CAM17/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM17}}/16/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM18": "LBXLW TSF CAM18/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM18}}/17/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_CAM19": "LBXLW TSF CAM19/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_CAM19}}/18/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Sebastian1": "LBXLW TSF Sebastian1/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Sebastian1}}/40/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Sebastian2": "LBXLW TSF Sebastian2/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Sebastian2}}/41/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Sebastian3": "LBXLW TSF Sebastian3/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Sebastian3}}/42/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Emily1": "LBXLW TSF Emily1/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Emily1}}/43/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Emily2": "LBXLW TSF Emily2/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Emily2}}/44/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Emily3": "LBXLW TSF Emily3/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Emily3}}/45/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Emily4": "LBXLW TSF Emily4/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Emily4}}/46/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Alex1": "LBXLW TSF Alex1/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Alex1}}/47/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Alex2": "LBXLW TSF Alex2/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Alex2}}/48/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Alex3": "LBXLW TSF Alex3/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Alex3}}/49/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Clint1": "LBXLW TSF Clint1/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Clint1}}/50/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Clint2": "LBXLW TSF Clint2/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Clint2}}/51/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Elliott": "LBXLW TSF Elliott/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Elliott}}/52/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Evelyn": "LBXLW TSF Evelyn/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Evelyn}}/53/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Gus": "LBXLW TSF Gus/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Gus}}/54/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Haley1": "LBXLW TSF Haley1/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Haley1}}/55/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Haley2": "LBXLW TSF Haley2/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Haley2}}/56/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Haley3": "LBXLW TSF Haley3/decor/1 2/1 1/1/520/2/{{i18n:LBXLWTSF_Haley3}}/57/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			//Statue (5)
+			"LBXLWTSF_Statue1": "LBXLW TSF Statue1/decor/3 3/3 1/1/520/2/{{i18n:LBXLWTSF_Statue1}}/80/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Statue2": "LBXLW TSF Statue2/decor/3 3/3 1/1/520/2/{{i18n:LBXLWTSF_Statue2}}/83/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Statue3": "LBXLW TSF Statue3/decor/3 3/3 1/1/520/2/{{i18n:LBXLWTSF_Statue3}}/86/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Statue4": "LBXLW TSF Statue4/decor/3 3/3 1/1/520/2/{{i18n:LBXLWTSF_Statue4}}/89/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Statue5": "LBXLW TSF Statue5/decor/3 3/3 1/1/520/2/{{i18n:LBXLWTSF_Statue5}}/92/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			//Rug (5)
+			"LBXLWTSF_Rug1": "LBXLW TSF Rug1/rug/5 4/5 4/1/520/2/{{i18n:LBXLWTSF_Rug1}}/140/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Rug2": "LBXLW TSF Rug2/rug/5 4/5 4/1/520/2/{{i18n:LBXLWTSF_Rug2}}/145/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Rug3": "LBXLW TSF Rug3/rug/4 3/4 3/1/520/2/{{i18n:LBXLWTSF_Rug3}}/226/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Rug4": "LBXLW TSF Rug4/rug/4 3/4 3/1/520/2/{{i18n:LBXLWTSF_Rug4}}/230/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Rug5": "LBXLW TSF Rug5/rug/4 3/4 3/1/520/2/{{i18n:LBXLWTSF_Rug5}}/234/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			//Painting (4)
+			"LBXLWTSF_Painting1": "LBXLW TSF Painting1/painting/6 3/6 3/1/520/-1/{{i18n:LBXLWTSF_Painting1}}/150/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Painting2": "LBXLW TSF Painting2/painting/3 3/3 3/1/520/-1/{{i18n:LBXLWTSF_Painting2}}/156/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Painting3": "LBXLW TSF Painting3/painting/3 3/3 3/1/520/-1/{{i18n:LBXLWTSF_Painting3}}/220/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Painting4": "LBXLW TSF Painting4/painting/3 3/3 3/1/520/-1/{{i18n:LBXLWTSF_Painting4}}/223/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			//Decor (10)
+			"LBXLWTSF_Decor1": "LBXLW TSF Decor1/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor1}}/280/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor2": "LBXLW TSF Decor2/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor2}}/282/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor3": "LBXLW TSF Decor3/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor3}}/286/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor4": "LBXLW TSF Decor4/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor4}}/288/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor5": "LBXLW TSF Decor5/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor5}}/290/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor6": "LBXLW TSF Decor6/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor6}}/292/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor7": "LBXLW TSF Decor7/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor7}}/294/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor8": "LBXLW TSF Decor8/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor8}}/296/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor9": "LBXLW TSF Decor9/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor9}}/298/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_Decor10": "LBXLW TSF Decor10/decor/2 3/2 1/1/520/2/{{i18n:LBXLWTSF_Decor10}}/340/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			//Fitting Room (3)
+			"LBXLWTSF_FittingRoom1": "LBXLW TSF FittingRoom1/lamp/3 5/3 3/1/520/2/{{i18n:LBXLWTSF_FittingRoom1}}/400/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_FittingRoom2": "LBXLW TSF FittingRoom2/lamp/3 5/3 3/1/520/2/{{i18n:LBXLWTSF_FittingRoom2}}/406/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+			"LBXLWTSF_FittingRoom3": "LBXLW TSF FittingRoom3/lamp/3 5/3 3/1/520/2/{{i18n:LBXLWTSF_FittingRoom3}}/412/Mods\\LBXLW_TailorShop_Furniture\\Furniture1/true/collection_LBXLWTSFFurniture",
+	
+			}
+		},
+		
+		
+		///Tailoring///
+		{
+            "LogName": "Statues as Tailoring",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+            "(F)LBXLWTSF_Statue1": {"TileActions": [{"TileAction": "Tailoring"}]},
+			"(F)LBXLWTSF_Statue2": {"TileActions": [{"TileAction": "Tailoring"}]},
+			"(F)LBXLWTSF_Statue3": {"TileActions": [{"TileAction": "Tailoring"}]},
+			"(F)LBXLWTSF_Statue4": {"TileActions": [{"TileAction": "Tailoring"}]},
+			"(F)LBXLWTSF_Statue5": {"TileActions": [{"TileAction": "Tailoring"}]}
+			}
+		},
+		///Fashion Sense///
+		{
+            "LogName": "Fitting Room with FS",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+            "(F)LBXLWTSF_FittingRoom1": {"TileActions": [{"TileAction": "OpenFashionSense"}]},
+			"(F)LBXLWTSF_FittingRoom2": {"TileActions": [{"TileAction": "OpenFashionSense"}]},
+			"(F)LBXLWTSF_FittingRoom3": {"TileActions": [{"TileAction": "OpenFashionSense"}]}
+			}
+		},
+		
+        ///Catalogue///
+        {
+			"LogName":"LBXLWTSF Catalogue Include",
+			"Action":"Include",
+			"FromFile":"data/shop.json",
+			"When": {"Catalogue": true},
+		},
+		
+		
+		
+        
+        
+           
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"Format": "2.6.0",
+	"Changes": [
+	 
+{
+	"LogName": "Nyapu WF",
+	"Action": "EditImage",
+	"Target": "Portraits/RoseSASS,",
+	"FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png",
+	},
+		
+
+{	"LogName": "Nyapu Cori",
+      "Action": "EditImage",
+      "Target": "Portraits/CoriSASS",
+      "FromFile": "Assets/tempActors/CoriSASS/Cori_Portrait.png"
+    },
+	
+{	"LogName": "Nyapu Raccoon",
+      "Action": "EditImage",
+      "Target": "Portraits/RaccoonSASS",
+      "FromFile": "Assets/tempActors/RaccoonSASS/RaccoonSASS_Portrait.png"
+    },
+	{	"LogName": "Nyapu Rose Shop",
+      "Action": "EditImage",
+      "Target": "Portraits/RoseShop",
+      "FromFile": "Assets/ShopPortraits/RoseShop.png"
+    },
+
+	]
+
+}

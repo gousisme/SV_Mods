@@ -1,0 +1,1143 @@
+{
+  "Format": "2.0.0",
+
+  "ConfigSchema": {
+
+    ///   Generates a config file upon starting up with SMAPI.
+
+
+    "DSVVincent": {
+      "AllowValues": "modded, vanilla",
+      "Default": "vanilla",
+      "Description": "Nếu sử dụng phiên bản Vincent đã chỉnh sửa trong mod Diverse Stardew Valley, hãy đặt thành 'modded'. Nếu không, giữ nguyên là 'vanilla'."
+    },
+
+    "AlternatePortraits": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "AllowBlank": false,
+      "Description": "Chân dung thay thế bởi Noxide77."
+
+    },
+
+    "WinterOutfit": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "AllowBlank": false,
+      "Description": "Giúp Lavril mặc trang phục lễ hội mùa đông mọi lúc. Tốt nhất chỉ bật khi vào mùa đông."
+    }
+
+  },
+
+  /// Uwaa! Seasonal Tokens! >///<
+
+  "CustomLocations": [
+    // add the in-game location
+    {
+      "Name": "Custom_ArkOrchard",
+      "FromMapFile": "assets/Maps/ArkOrchard.tmx"
+    }
+
+  ],
+
+  "Changes": [
+
+    {
+      "LogName": "Void's AntiSocial Flag",
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "Entries": {
+        "Void": true
+      }
+    },
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/LavrilEvents.json"
+    },
+
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/Events/ARVCollaborationEvents.json",
+      "HasMod": "Himetarts.ARV.CP"
+    },
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/LavrilRoommate.json"
+    },
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/FestivalLocations.json",
+      "When": {
+        "HasSeenEvent |contains=63070012": "true"
+      }
+    },
+
+    { //Custom Companion
+      "Action": "Include",
+      "FromFile": "assets/VoidPathing.json",
+      "When": {
+        "HasSeenEvent |contains=63070012": "true"
+      }
+    },
+
+    ///Lavril | NPC Information
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/Lavril.json"
+    },
+
+
+    /// Void Soul, Dunn Nemecia | NPC Information
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/Void.json"
+    },
+
+    /// Event Actors (Spoilers)
+
+    {
+      "Action": "Include",
+      "FromFile": "assets/tempActors.json"
+    },
+
+
+
+    //Conversation Topics
+
+    {
+      "LogName": "New Ghost in Town - Vincent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        "LavrilUnlocked": "Wumbus đã bị mất một ít bông khi chúng em chơi trốn tìm trước đó, nhưng Void đã giúp vá lại cho cậu ấy. Bây giờ cậu ấy đã đẹp như mới!#$b#Bố đã tặng Wumbus cho em, vì vậy cậu ấy thực sự rất quan trọng.#$e#Em hy vọng Lavril cảm thấy khỏe hơn.$3#$e#Cậu ấy khá xinh...$3",
+        "WhereIsLavril": "Lavril biến mất một cách kỳ diệu khi Sterling bắt đầu nói chuyện với chúng em.#$b#Một giây trước, cậu ấy đứng cạnh em, và rồi bùm! Cậu ấy biến mất!#$b#Cậu ấy chắc hẳn rất giỏi chơi trốn tìm!$h",
+        "UwaItAllGoesWrong": "Em đã thấy Void một mình trước đó. Cậu ấy nói Lavril muốn ở một mình, vì vậy em đã ở lại với cậu ấy một lúc.$3#$e#Em nghĩ cậu ấy cảm thấy tốt hơn rồi! Void có vẻ bớt buồn hơn một chút sau đó.",
+        "LavrilSlumberParty": "Đêm dành cho con trai! Đêm dành cho con trai! Đêm dành cho con trai!$h#$b#%Vincent liên tục hô vang 'Đêm dành cho con trai'. Bạn ấy có vẻ rất phấn khích."
+      }
+    },
+
+    {
+      "LogName": "New Ghost in Town - Lavril",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lavril",
+      "Entries": {
+        "LavrilSlumberParty": "Em chưa bao giờ đến tiệc ngủ trước đây... Em có cần mang theo gì không nhỉ?$6#$b#Ồ không, em quên hỏi phải mang theo gì rồi!$s#$e#Hmmm... Họ thích anh đào không ạ?#$b#Em sẽ mang đến những quả anh đào ngon nhất từ ​​trước đến nay.$4",
+        "SlumberPartyEnd": "Gần đây, ngày nào cũng vui lắm. Chúng em chưa bao giờ thực sự cảm thấy như thế này trước đây...$10#$b#Em chỉ biết ơn vì được ban phước với những người tuyệt vời trong cuộc sống của mình...$u#$b#%Lavril lao vào và ôm bạn thật nhanh, chỉ kéo dài không quá vài giây.#$b#Xin lỗi. Và cảm ơn ạ.$18#$b#Cảm ơn vì đã là người bạn đầu tiên của chúng em.$1",
+        "FirstSlimes": "Không biết cảm giác ôm một con slime sẽ như thế nào nhỉ... Chúng có vẻ hơi mềm nhũn.$7#$e#Teehee!17\"/",
+        "KittySlimeNJunimo": "Junimo là những người đã sửa nhà cho chúng em!$h#$b#Ngoài ra, chiếc vòng cổ của em đã biến tất cả các chất nhờn trong vườn cây ăn quả thành mèo con bằng cách nào đó. Chúng thích đi theo mọi người xung quanh, nhưng phải cần vuốt ve chúng rất nhiều!$h#$e#Dù sao thì... Void nghĩ rằng những con cua đá đang theo đuổi mảnh vỡ lăng kính của em.$13#$b#Ellie nói rằng cua đá là loài xâm lấn...#$b#Nhưng m nghĩ còn nhiều điều hơn thế nữa. Có điều gì đó đáng ngờ ở bãi biển phía nam của vườn cây ăn quả.$13"
+      }
+    },
+
+    {
+      "LogName": "New Ghost in Town - Jas",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "Entries": {
+        "LavrilUnlocked": "Lavril có mái tóc rất đẹp. Em cá là chiếc nơ của em sẽ rất hợp với bạn ấy.#$e#Em tự hỏi liệu chúng ta có thể trở thành bạn không...$3",
+        "WhereIsLavril": "Hôm nay Lavril trông có vẻ hơi buồn. Em nghĩ bạn của chú Shane có liên quan đến chuyện này.$3#$e#Dì Marnie nói em có trực giác rất tốt!$4",
+        "UwaItAllGoesWrong": "Vincent vừa đi chơi với Void. Thật kỳ lạ... Em chưa bao giờ thấy Void rời khỏi Lavril.$3",
+        "LavrilSlumberParty": "Ellie và em đã lên kế hoạch cho một đêm dành cho con gái từ rất lâu rồi.#$b#Lavril chắc chắn sẽ rất vui!$h",
+        "SlumberPartyEnd": "Tuyệt vời. Bữa tiệc ngủ.$h#$e#Em tự hỏi Đêm của các chàng trai diễn ra thế nào?$3"
+      }
+    },
+
+    {
+      "LogName": "New Ghost in Town - Eloise",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Eloise",
+      "Entries": {
+        "LavrilUnlocked": "Em thấy hơi tệ cho bạn đó. Cậu ấy trông có vẻ trạc tuổi em.$s#$b#Em sẽ rất sợ nếu phải sống trong một ngôi nhà cũ rùng rợn, đặc biệt là một ngôi nhà MA ÁM!$s#$e#Thật tuyệt khi được biết thêm về Lavril và bạn thỏ. Em hy vọng họ thích ngắm chim.#$e#Ý em là, ai mà không thích ngắm chim chứ?$h",
+        "WhereIsLavril": "Sterling đang tự hỏi Lavril sống ở đâu. Em không chắc mình có nên nói với anh ấy hay không.$3#$b#Lavril gần đây tỏ ra xa cách hơn, vậy có lẽ em nên...?$s",
+        "UwaItAllGoesWrong": "Lavril trông rất buồn bã lúc nãy. Em tự hỏi chuyện gì đã xảy ra...$s",
+        "LavrilSlumberParty": "Hãy thành thật mà nói. Nhà của Lavril không phù hợp với bất kỳ ai ở độ tuổi của chúng em.$3#$b#Nhà m có máy lạnh và đồ ăn nhẹ. Em sẽ biến đêm nay thành đêm tuyệt vời nhất, cho tất cả chúng em.",
+        "SlumberPartyEnd": "Trong đêm của con gái rất vui!#$b#Lavril thích bộ đồ của em đến nỗi em để cậu ấy giữ nó. Nó hợp với cậu ấy lắm. Và tin em đi, đó là thứ dễ thương nhất trên thế giới này.$h\"/"
+      }
+    },
+
+    {
+      "LogName": "New Ghost in Town - Jacob",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jacob",
+      "Entries": {
+        "SlumberPartyEnd": "Đêm qua các cô bé đã cố gắng thức khuya và sáng hôm sau tôi thấy tất cả đều ngủ gục cạnh nhau trên ghế sofa.$h"
+      }
+    },
+
+
+    {
+      "LogName": "New Ghost in Town - Sterling",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sterling",
+      "Entries": {
+        "WhereIsLavril": "%Sterling trông có vẻ hơi mất bình tĩnh.#$e#Xin lỗi. Bạn vừa nói gì vậy?$11"
+      }
+    },
+
+    {
+      "LogName": "New Ghost in Town - Juliet",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Juliet",
+      "Entries": {
+        "WhereIsLavril": "Tôi không thể chê anh chàng này được. Một khi bạn đã biết, sẽ không còn đường quay lại nữa.$3#$b#Sự ngu dốt thực sự là hạnh phúc."
+      }
+    },
+
+
+    // Temp Maps (Spoilers below)
+
+    { ///Awesome animated map provided by Digzol | dig494(on Nexus)
+      "Action": "Load",
+      "Target": "Maps/LavrilCircle",
+      "FromFile": "assets/Maps/LavrilCircle.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/BlackCircle",
+      "FromFile": "assets/Maps/BlackCircle.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/DoorScene",
+      "FromFile": "assets/Maps/DoorScene.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/VincentMirror",
+      "FromFile": "assets/Maps/VincentMirror.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/Vincent_CG",
+      "FromFile": "assets/Maps/Vincent_CG.tmx"
+    },
+
+
+    {
+      "Action": "Load",
+      "Target": "Maps/PrisonClosed",
+      "FromFile": "assets/Maps/PrisonClosed.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/LBlackRoom",
+      "FromFile": "assets/Maps/LBlackRoom.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/PrisonEyes",
+      "FromFile": "assets/Maps/PrisonEyes.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/PrisonOpen",
+      "FromFile": "assets/Maps/PrisonOpen.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/PrisonSpider1",
+      "FromFile": "assets/Maps/PrisonSpider1.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/PrisonSpider2",
+      "FromFile": "assets/Maps/PrisonSpider2.tmx"
+    },
+
+    //ARV Collab CGs
+    {
+      "Action": "Load",
+      "Target": "Maps/WalkLavril",
+      "FromFile": "assets/Maps/WalkLavril.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/WalkSterling",
+      "FromFile": "assets/Maps/WalkSterling.tmx"
+    },
+
+    {
+      "LogName": "Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Lavril",
+      "FromFile": "assets/LavrilStrings.json"
+    },
+
+    {
+      "LogName": "Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Void",
+      "FromFile": "assets/VoidStrings.json"
+    },
+
+    // Festival Outfits
+
+    {
+      "LogName": "Feast of the Winter Star - Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lavril",
+      "FromFile": "assets/img/LavrilWinterPortrait.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "feast of the winter star"
+      }
+    },
+
+    {
+      "LogName": "Feast of the Winter Star - Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lavril",
+      "FromFile": "assets/img/LavrilWinterSprites.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "feast of the winter star"
+      }
+    },
+
+    {
+      "LogName": "Ice Festival - Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lavril",
+      "FromFile": "assets/img/LavrilWinterPortrait.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "festival of ice"
+      }
+    },
+
+    {
+      "LogName": "Ice Festival - Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lavril",
+      "FromFile": "assets/img/LavrilWinterSprites.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "festival of ice"
+      }
+    },
+
+    {
+      "Logname": "Spirit's Eve - Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lavril",
+      "FromFile": "assets/img/LavrilFallSprites.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "spirit's eve"
+      }
+    },
+
+    {
+      "Logname": "Spirit's Eve - Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lavril",
+      "FromFile": "assets/img/LavrilFallPortrait.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "spirit's eve"
+      }
+    },
+
+    {
+      "LogName": "Egg Festival - Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lavril",
+      "FromFile": "assets/img/LavrilPJPortrait.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "Egg Festival",
+        "HasSeenEvent |contains=63070031": "true"
+      }
+    },
+
+    {
+      "LogName": "Egg Festival - Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lavril",
+      "FromFile": "assets/img/LavrilPJ.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 128
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "Egg Festival",
+        "HasSeenEvent |contains=63070031": "true"
+      }
+    },
+
+    //Movie Theater
+
+    //Film Snacks/Drinks
+
+    {
+      "LogName": "Concessions Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Lavril": {
+          "Name": "Lavril",
+          "LovedTags": [ "Bánh quy ngôi sao", "Bắp rang bơ sô cô la", "Kem trái sao", "Bánh sandwich kem", "Kẹo đá", "Kẹo licorice đen", "Bánh mousse cappuccino" ],
+          "LikedTags": [ "Miếng táo", "Bắp rang bơ", "Burger cá hồi", "Sinh tố cải kale", "Panzanella Salad", "Kẹo Jawbreaker", "Gói đồ ăn Hummus" ],
+          "DislikedTags": [ "Trà nhài", "Bắp rang bơ truffle", "Đậu phộng muối", "JojaCorn", "Pizza cá nhân", "Joja Cola", "Khoai tây chiên", "Súp Slimes", "Nachos" ]
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "Lavril": {
+          "NPCName": "Lavril",
+          "Reactions": [
+            //Brave Little Sapling
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Cây non trông thật dễ thương.$19"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Gasp*"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Em rất vui vì cây non đã có thể biến thành cây lớn!$h"
+                }
+              },
+              "ID": "reaction_0"
+            },
+            //Journey of the Praire King
+            {
+              "Tag": "summer_movie_0",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Một bộ phim về trò chơi điện tử? Ừm... được thôi.$13"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Gasp*"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Điều đó thật đáng sợ...$2"
+                }
+              },
+              "ID": "reaction_1"
+            },
+            //Mysterium
+            {
+              "Tag": "fall_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Mysterium? Nghĩa là gì?$7"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Vì một lý do nào đó, những cái bóng đó trông rất quen thuộc..."
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Em nghĩ Void sẽ thích xem bộ phim này.$4"
+                }
+              },
+              "ID": "reaction_2"
+            },
+            //Miracle at Coldstar Ranch
+            {
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Em nghe nói bộ phim này được cho là rất cảm động."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Kinh ngạc*"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Em thích các vì sao. Em hy vọng điều ước của chúng ta sẽ thành hiện thực.$16"
+                }
+              },
+              "ID": "reaction_3"
+            },
+            //Natural Wonders: Exploring Our Vibrant World
+            {
+              "Tag": "spring_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Ừm... chúng ta có nên vào trong không?"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Ngáp*$8"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Ồ... Em không nhớ chuyện gì đã xảy ra trong phim...$13"
+                }
+              },
+              "ID": "reaction_4"
+            },
+            //Wumbus
+            {
+              "Tag": "summer_movie_1",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Là Wumbus đây!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Vincent yêu Wumbus.$4"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Wumbus có rất nhiều bạn vui tính. Tee-hee!$17"
+                }
+              },
+              "ID": "reaction_5"
+            },
+            //Howls in the Rain
+            {
+              "Tag": "fall_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Ừm... Có an toàn để vào trong không?$13"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "...$13"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Có thể đưa em về nhà được không? Em không muốn đi một mình...$9"
+                }
+              },
+              "ID": "reaction_6"
+            },
+            //Zuzu City Express
+            {
+              "Tag": "winter_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Em chưa bao giờ đi tàu trước đây. Em tự hỏi nó như thế nào.$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Wow..."
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Em tự hỏi liệu em có bao giờ tìm thấy tình yêu đích thực trên tàu không.$7"
+                }
+              },
+              "ID": "reaction_7"
+            }
+          ]
+        }
+      }
+    }
+
+
+  ],
+  "DynamicTokens": [
+    // Huge Event Code. Why am I so complicated? 
+    // Affects whether Juliet is installed for the Story Changes in Lavril's Introduction.
+    // These dynamic tokens can be found in "LavrilEvents.json"
+
+    {
+      "Name": "CherryOrchard_SetUp",
+      "Value": "farmer 19 16 1 Jas 16 15 1 Vincent 17 16 1 Eloise 16 17 1 Void 68 49 1"
+    },
+    {
+      "Name": "CherryOrchard_SetUp",
+      "Value": "{{CherryOrchard_SetUp}} Juliet 33 16 0",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchard_SetUp}}
+
+    {
+      "Name": "Cherry_Emote_A",
+      "Value": "faceDirection farmer 3 true/speak Jas \"Yay! Chúng ta đến đây rồi!\"/speak Vincent \"Mình đã sẵn sàng để hái một ít anh đào rồi đây!\"/emote Eloise 40/faceDirection Eloise 0/jump Eloise/faceDirection Jas 2 true/faceDirection Vincent 3/speak Eloise \"Đợi đã, mình có một ý tưởng hoàn hảo rồi!$h#$b#Chúng ta cùng chơi trốn tìm nhé!$h\"/jump Vincent/jump Jas/speak Vincent \"Tớ muốn chơi!$h\"/speak Jas \"Tớ nữa!\"/emote Vincent 32 true/emote Jas 32 true/emote Eloise 32 true/pause 500/faceDirection Vincent 1 true/faceDirection Jas 1 true/faceDirection Eloise 1 false/emote farmer 28/quickQuestion #Chúng ta không đi hái anh đào sao?#Trời bên ngoài đang tối dần.(break)speak Eloise \"Chúng ta có thể hái anh đào trong khi trốn!#$b#Also--!$h\"\\pause 100(break)speak Vincent \"Nhưng nơi này thật tuyệt! Tớ đã nghĩ ra chỗ trốn tốt nhất rồi!\"\\speak Eloise \"Đúng rồi! Đây là thời điểm hoàn hảo để chơi đó!#$b#Vậy là--!$h\"/jump Eloise/pause 150/textAboveHead Eloise \"KHÔNG PHẢI ĐÂU!\"/pause 500/jump Jas/pause 150/textAboveHead Jas \"KHÔNG PHẢI ĐÂU!\"/pause 500/jump Vincent/pause 150/textAboveHead Vincent \"KHÔNG PHẢI ĐÂU!\"/pause 300/emote farmer 16/speak Eloise \"Anh là 'người tìm'. Giờ anh phải chơi với chúng em!^Chị là 'người tìm'. Giờ chị phải chơi với chúng em!$h\"/emote farmer 60/speed farmer 4/move farmer 16 0 1 true/speak Jas \"Cậu nghĩ chúng mình có gặp rắc rối không?$3\"/speak Eloise \"Không đâu. Điều này sẽ rất vui!\""
+    },
+    {
+      "Name": "Cherry_Emote_A",
+      "Value": "emote Juliet 40/speak Eloise \"Ồ, mình tưởng mình là người phát hiện ra nơi này trước cơ!$s\"/faceDirection Juliet 3/emote Juliet 8 true/pause 450/speak Juliet \"Huh? @?#$b#Còn các bạn nhỏ đang làm gì ở đây?\"/jump Vincent/speak Vincent \"Hái anh đào!$h\"/speak Jas \"Tìm thỏ!$h\"/speak Eloise \"Chúng em đang đi phiêu lưu! À, làm ơn đừng nói với ba em nhé.$h\"/emote farmer 60 true/pause 450/speak Juliet \"Oooh... Chị thích tinh thần của các bạn nhỏ. Nó làm chị nhớ lại khi mình bằng tuổi các em.#$b#Chị đã gặp phải đủ thứ rắc rối... *snort*$h\"/speak Vincent \"Woww! Chị đã gặp rắc rối vì điều gì?\"/speak Juliet \"À, chị thường lang thang một mình ở những nơi không được phép đi.$h#$b#Nói về điều đó, có phải @ đang trông các em không?$h\"/faceDirection Jas 2 true/faceDirection Vincent 3 true/faceDirection Eloise 0 false/pause 500/emote Jas 40 true/emote Vincent 40 true/emote Eloise 40 false/pause 500/faceDirection farmer 3 false/pause 500/faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Eloise 1 false/pause 50/speak Jas \"Có.$3#$b#Đúng vậy, anh ấy đang trông chúng em.$3^Đúng vậy, chị ấy đang trông chúng em.$3\"/speak Juliet \"Được rồi! Chị chỉ cần nói chuyện với anh ấy một chút.^Được rồi! Mình chỉ cần nói chuyện với cô ấy một chút.\"/faceDirection farmer 1 true/emote farmer 8 true/speed Juliet 4/move Juliet 0 -1 0/speed Juliet 4/move Juliet -3 0 2/faceDirection farmer 2 true/move farmer 0 1 2 true/move Juliet 0 1 2 false/move farmer 1 0 1 true/move Juliet 0 1 1 false/showFrame Juliet 48/positionOffset Juliet 9 0/emote Juliet 12 true/pause 450/speak Juliet \"Okay, các bạn nhỏ. Ở lại đây và đừng đi quá xa. Tụi chị sẽ trở lại ngay.$3\"/emote farmer 28/speed farmer 3/speed Juliet 3/move farmer 1 0 1 false/positionOffset Juliet -9 0/move Juliet 16 0 1 true/move farmer 16 0 3 true/pause 300/faceDirection Jas 2 false/faceDirection Vincent 3 false/faceDirection Eloise 0 false/pause 500/emote Jas 8 true/emote Vincent 8 true/emote Eloise 8 true/pause 450/speak Vincent \"Cái đó thật kỳ lạ.$3\"/speak Jas \"Bạn có nghĩ là chúng mình gặp rắc rối không?$s\"/addLantern 735 47 17 1/speak Eloise \"Không đâu. Chúng mình hãy đi hái một ít anh đào.$h\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "Cherry_Emote_B",
+      "Value": "faceDirection farmer 3/emote farmer 16 false"
+    },
+    {
+      "Name": "Cherry_Emote_B",
+      "Value": "faceDirection Juliet 3 true/faceDirection farmer 3/emote Juliet 16 true/emote farmer 16 false",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "Cherry_Paranormal_Investigator",
+      "Value": "faceDirection farmer 1/viewport 46 16 clamp/stopMusic/playMusic ragtime/pause 500/faceDirection farmer 3/emote farmer 40/speak Jas \"Anh phải đếm đến 100! Anh cũng không được nhìn đó!$4
+^Chị phải đếm đến 100! Chị cũng không được nhìn đó!$4\"/faceDirection farmer 1/pause 1000/speak Vincent \"Này, cậu đã chiếm chỗ trốn của tớ!$s\"/speak Eloise \"Ai tìm được trước thì của người đó, Vinnie.$h\"/pause 500/startJittering/pause 500/stopJittering/quickQuestion #Cho họ thêm một chút thời gian.#Nhìn lén một chút.(break)emote farmer 40\\speak Jas \"Tớ đã tìm thấy rất nhiều anh đào!$h\"\\pause 1(break)faceDirection farmer 3\\speak Jas \"Này!! Đừng gian lận!$s\"\\pause 300\\faceDirection farmer 1\\emote farmer 28/pause 500/speak Eloise \"Tớ cá là tớ có nhiều anh đào hơn cậu~!$h\"/speak Vincent \"Không thể nào!$h\"/pause 250/playSound leafrustle/pause 250/playSound leafrustle/pause 500/speak Vincent \"Chờ đã các cậu, xem cái này. Anh ấy sẽ không thể tìm thấy chúng ta ở đây đâu!^Chờ đã các cậu, xem cái này. Chị ấy sẽ không thể tìm thấy chúng ta ở đây đâu!\"/speak Jas \"Được! *Cười khúc khích*$h\"/pause 250/playSound leafrustle/pause 250/playSound leafrustle/pause 50/stopMusic/speak Eloise \"Chờ đã... Đó là cái gì vậy?$3\"/pause 500/emote farmer 8/pause 250"
+    },
+    {
+      "Name": "Cherry_Paranormal_Investigator",
+      "Value": "viewport 46 16 clamp/emote Juliet 12 true/pause 450/speak Juliet \"Yoba, @! Bạn không nghĩ những đứa trẻ này còn quá nhỏ để đi săn ma sao?$s\"/emote farmer 8 true/pause 450/speak Juliet \"Mình đang trong một chuyến thám hiểm săn ma. Có điều gì đó kỳ quái về nơi này và mình đang cảm thấy một bầu không khí ma quái ở đây.$3\"/quickQuestion #Điều đó có nghĩa là sao?#Bạn không phải là một nhân viên bán lẻ sao?(break)emote Juliet 12 true\\pause 450\\speak Juliet \"Đừng bắt đầu với cái cầu kỳ quái đó. Nơi này thật sự đáng nghi.#$b#Có những thứ trên thế giới mà chúng ta có thể sẽ không bao giờ hiểu. Vườn này là một trong số đó!$h\"(break)speak Juliet \"Bạn có thể thêm điều tra viên siêu nhiên vào mô tả công việc của mình.$h\"/faceDirection Juliet 2/speak Juliet \"Rosa và mình thường trò chuyện vào nửa đêm về những thứ như vậy.#$b#Rosa đã xếp hạng tất cả những nơi bị ma ám ở Ferngill và nơi này đứng cao trong danh sách của cô ấy.$2#$b#Bạn có biết vườn này được xây dựng trên vị trí của mỏ cũ -- nơi mà một đám người đã chết không?$2\"/emote farmer 16 true/pause 450/speak Juliet \"Ngày xưa, có một người phụ nữ sống ở đây. Bà ấy hơi kỳ lạ, và không ai thích bà, vì vậy khi bà biến mất, mọi người nghĩ bà đã bỏ đi khỏi thị trấn.$3\"/faceDirection farmer 2/speak Juliet \"Nhưng nếu bà ấy không bao giờ rời đi thì sao? Ngôi nhà này thật sự đáng sợ. Tin mình đi, nó trông rất khả nghi.\"/faceDirection Juliet 1/faceDirection farmer 3/speak Juliet \"Dù sao thì, nơi này khá tuyệt, nhưng có lẽ không phải là một nơi tốt để đưa trẻ em đến, bạn biết đấy?#$b#Đặc biệt là nếu bạn không muốn các bậc phụ huynh của chúng đeo bám bạn. Chỉ nói vậy thôi.$h\"/pause 300/quickQuestion #Mình hiểu.#Chúng ta đi khỏi đây thôi.#Bọn trẻ bắt mình dẫn chúng đi.(break)speak Juliet \"Tốt. Giờ hãy nhanh chóng ra khỏi đây--\"(break)speak Juliet \"Mình sẽ rời đi sớm. Chỉ cần dẫn bọn trẻ về--\"(break)speak Juliet \"Đó không phải là vấn đề của mình nếu bạn không chịu nổi ánh mắt ngây thơ của chúng. Hãy nhanh lên và--\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "Cherry_Warp",
+      "Value": "warp farmer 47 17 true/warp Vincent 29 14 true/warp Eloise 31 17 true/warp Jas 28 17 true"
+    },
+    {
+      "Name": "Cherry_Warp",
+      "Value": "warp Juliet 47 15 true/warp farmer 47 17 true/warp Vincent 29 14 true/warp Eloise 31 17 true/warp Jas 28 17 true",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "Cherry_Flash",
+      "Value": "speed farmer 8/move farmer -12 0 3 true/playSound doorClose/pause 500/pause 1500/speed farmer 3/move farmer -2 0 3 false"
+    },
+    {
+      "Name": "Cherry_Flash",
+      "Value": "speed farmer 8/speed Juliet 8/move farmer -12 0 3 true/move Juliet -12 0 3 true/playSound doorClose/pause 500/pause 1500/faceDirection Juliet 2 false/faceDirection farmer 0 false/emote Juliet 12 true/pause 450/speak Juliet \"I don't like this one bit. Let's grab the kids and then get the heck outta here.$5\"/speed Juliet 3/speed farmer 3/move Juliet -2 0 3 true/move farmer -2 0 3 false/move Juliet 0 -1 0/playSound doorClose/warp Juliet -10 100",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    /// Introduction Part 2
+
+    {
+      "Name": "CherryOrchardHouse_SetUp",
+      "Value": "farmer -999 -999 0 Jas 13 19 1 Vincent -999 -999 1 Eloise 5 19 3 Void -999 -999 2 Lavril 999 999 2"
+    },
+    {
+      "Name": "CherryOrchardHouse_SetUp",
+      "Value": "{{CherryOrchardHouse_SetUp}} Juliet 10 13 2",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "CherryOrchardHouse_Move_A",
+      "Value": "textAboveHead Jas \"Vincent!\"/move Jas 2 0 0 true/pause 300/textAboveHead Eloise \"Vinnie?\"/pause 200/move Eloise -4 0 0 false/speak Eloise \"Tớ không thể tìm thấy Vincent ở đâu cả.$s\"/shake Jas 1200/speed Jas 4/move Jas -2 0 3/speak Jas \"Liệu cậu ấy có gặp nguy hiểm không?$s\"/shake Eloise 700/speed Eloise 6/move Eloise 5 0 1/shake Eloise 1000/speak Eloise \"Tớ cảm thấy như mình đang bị theo dõi...$s\"/emote farmer 40/quickQuestion #Em đã kiểm tra trên tầng chưa?#Có thể em ấy đang trốn ở đâu đó?(break)speak Jas \"Tớ không muốn lên đó đâu.$s\"(break)speak Jas \"Vincent, cậu có thể ra ngoài được rồi đó! Chúng tớ đầu hàng rồi!$3\"\\emote Jas 40"
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_A",
+"Value": "move Juliet 0 6 2 true/textAboveHead Jas \"Vincent!\"/move Jas 2 0 0 true/pause 300/textAboveHead Eloise \"Vinnie?\"/pause 200/textAboveHead Juliet \"Kinh dị...\"/move Eloise -4 0 0 false/speak Juliet \"Nơi này thật sự bẩn thỉu.$3#$b#Mình đã kiểm tra tất cả các phòng trên lầu, nhưng không tìm thấy Vincent đâu.$s\"/shake Jas 1200/speed Jas 4/move Jas -2 0 3/speak Jas \"Nếu anh ấy đang gặp nguy hiểm thì sao?$s\"/shake Eloise 700/speed Eloise 6/move Eloise 5 0 1/shake Eloise 1000/speak Eloise \"Mình cảm thấy như có ai đó đang theo dõi...$s\"/shake Juliet 500/speak Juliet \"Đúng vậy. Nơi này chắc chắn bị ma ám. Chị đang cảm thấy nổi da gà.$h\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+
+    // {{CherryOrchardHouse_Move_B}}
+
+    {
+      "Name": "CherryOrchardHouse_Move_B",
+      "Value": "emote farmer 60"
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_B",
+      "Value": "emote farmer 12/speak Juliet \"Được rồi, được rồi. Tôi xin lỗi.$s#$b#Có lẽ chúng ta đang bỏ lỡ điều gì đó. Như một công tắc ẩn chẳng hạn?$3\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchardHouse_Move_C}}
+
+    {
+      "Name": "CherryOrchardHouse_Move_C",
+      "Value": "faceDirection farmer 3 true/emote farmer 16 true"
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_C",
+      "Value": "faceDirection farmer 3 true/faceDirection Juliet 3/emote farmer 16 true/emote Juliet 16 true",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchardHouse_Move_D}}
+
+    {
+      "Name": "CherryOrchardHouse_Move_D",
+      "Value": "faceDirection farmer 3/emote farmer 8 true/pause 100/move farmer -2 0 3/speak Eloise \"Có thể Vincent đã tìm thấy một lối thoát bí mật! Và đó là lý do mình không thể tìm thấy cậu ấy!\""
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_D",
+"Value": "speed Juliet 5/move Juliet 0 3 2/speed Juliet 5/move Juliet -4 0 3/faceDirection Juliet 2/shake Juliet 350/addLantern 735 6 23 1/playSound fireball/pause 500/faceDirection Juliet 3/animate Juliet true true 26 26 26/emote Juliet 40/faceDirection farmer 3 true/speak Juliet \"@, hãy xem cái này.$3\"/emote farmer 8 true/pause 100/move farmer -2 0 3/speak Juliet \"Cái này trông giống hệt như những vòng tròn ma thuật trong ghi chú của mình.#$b#Không chắc chắn lắm nó có tác dụng gì, nhưng mình đoán nó đã gửi Vincent đi đâu đó.\"/stopAnimation Juliet",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchardHouse_Move_E}}
+
+    {
+      "Name": "CherryOrchardHouse_Move_E",
+      "Value": "emote farmer 40/emote Jas 16 true/emote Eloise 16/speed Eloise 6/speed Jas 6/positionOffset Eloise 16 0/advancedMove Jas false -2 0 0 2 0 0/advancedMove Eloise false 3 0 0 1 0 0/proceedPosition Eloise 9 21/warp Jas 9 22 true/warp Eloise 9 20 true/faceDirection Jas 3 true/faceDirection Eloise 3 true/faceDirection farmer 1 true/speak Jas \"Um... Chúng em cần giúp đỡ!\"/speak Eloise \"Vâng! @, xin hãy đưa chúng em cùng đi với. Vinnie là bạn của chúng em!\"/quickQuestion #Có thể an toàn hơn nếu đưa họ theo cùng.#Quá rủi ro. Về nhà và gọi giúp đỡ.(break)pause 1\\emote Jas 56 true\\emote Eloise 56\\pause 300\\playSound ghost\\pause 1000\\faceDirection Eloise 2 true\\emote Jas 8 true\\emote Eloise 8 true\\move Jas 1 0 1\\speak Jas \"Chờ đã... Các cậu có nghe thấy gì không?$3\"\\speak Eloise \"Ừ, tớ cũng nghe thấy.$3\"\\speed Jas 5\\move Jas -2 0 1\\faceDirection Eloise 1 true\\pause 1(break)shake Eloise 500\\shake Jas 500\\speak Eloise \"Ồ, được rồi... Em biết khi nào cần rút lui một cách chiến lược.$s\"\\speak Jas \"Xin hãy cẩn thận.$s\"\\speed Eloise 3\\speed Jas 3\\viewport move 0 1 1000\\move Eloise 0 3 2 true\\move Jas 0 3 2 false\\pause 100\\shake Jas 100\\playSound clubhit\\pause 800\\shake Jas 100\\playSound clubhit\\pause 800\\shake Jas 100\\playSound clubhit\\emote Jas 8\\faceDirection Jas 0\\speak Jas \"Cửa không nhúc nhích. Em không thể mở được cửa.$3\"\\emote Eloise 16 true\\pause 450\\speed Jas 5\\speed Eloise 5\\move Jas 0 -3 3 true\\move Eloise 0 -3 3 false\\speak Eloise \"Cửa bị khóa rồi! Chúng ta bị mắc kẹt bên trong!$s\""
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_E",
+      "Value": "emote Juliet 40 true/pause 450/faceDirection Juliet 0/speak Juliet \"Các em nhỏ cần quay về nhà ngay. Để chúng tôi xử lý việc này.$3\"/speed Eloise 6/speed Jas 6/positionOffset Eloise 16 0/advancedMove Jas false -2 0 0 2 0 0/advancedMove Eloise false 3 0 0 1 0 0/proceedPosition Eloise 9 21/warp Jas 9 22 true/warp Eloise 9 20 true/faceDirection Jas 3 true/faceDirection Eloise 3 true/faceDirection farmer 1 true/faceDirection Juliet 1/speak Jas \"Umm... Chúng em muốn giúp!\"/speak Eloise \"Đúng vậy! Nông dân @, làm ơn hãy để chúng em đi cùng. Vinnie là bạn của chúng em!\"/quickQuestion #Có thể an toàn hơn nếu mang các em ấy theo.#Nguy hiểm quá. Hãy về nhà và nhờ giúp đỡ.(break)pause 1\\emote Juliet 40 true\\pause 450\\speak Juliet \"Nếu bạn thực sự nghĩ vậy... Được thôi.$2#$b#Nhớ đi sát vào, các em nhỏ. Và đừng chạm vào bất cứ thứ gì!$3\"\\emote Jas 56 true\\emote Eloise 56\\pause 300\\playSound ghost\\pause 1000\\faceDirection Eloise 2 true\\emote Jas 8 true\\emote Eloise 8 true\\move Jas 1 0 1\\speak Jas \"Chờ đã... Các bạn có nghe thấy gì không?$3\"\\speak Eloise \"Đúng, mình cũng nghe thấy.$3\"\\speed Jas 5\\move Jas -2 0 1\\emote Juliet 8 true\\faceDirection Eloise 1 true\\pause 1(break)shake Eloise 500\\shake Jas 500\\speak Eloise \"Ồ, được rồi... Mình biết khi nào cần rút lui chiến lược.$s\"\\speak Jas \"Hãy cẩn thận nhé.$s\"\\speed Eloise 3\\speed Jas 3\\viewport move 0 1 1000\\move Eloise 0 3 2 true\\move Jas 0 3 2 false\\pause 100\\shake Jas 100\\playSound clubhit\\pause 800\\shake Jas 100\\playSound clubhit\\pause 800\\shake Jas 100\\playSound clubhit\\emote Jas 8\\faceDirection Jas 0\\speak Jas \"Nó không nhúc nhích. Em không thể mở cửa.$3\"\\emote Eloise 16 true\\pause 450\\speed Jas 5\\speed Eloise 5\\move Jas 0 -3 3 true\\move Eloise 0 -3 3 false\\speak Eloise \"Cửa bị khóa! Chúng ta bị nhốt trong này!$s\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchardHouse_Move_F}}
+
+    {
+      "Name": "CherryOrchardHouse_Move_F",
+      "Value": "emote farmer 16 true/emote Jas 16 true/emote Eloise 16 true"
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_F",
+      "Value": "emote farmer 16 true/emote Jas 16 true/emote Eloise 16 true/emote Juliet 16 true",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchardHouse_Move_G}}
+
+    {
+      "Name": "CherryOrchardHouse_Move_G",
+      "Value": "shake Eloise 100000/shake Jas 100000/startJittering/pause 1300/textAboveHead Eloise \"What is that thing!?\"/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5"
+    },
+    {
+      "Name": "CherryOrchardHouse_Move_G",
+      "Value": "shake Eloise 100000/shake Juliet 100000/shake Jas 100000/startJittering/pause 1300/textAboveHead Eloise \"What is that thing!?\"/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/positionOffset LGhost6 -4 4/pause 5/textAboveHead Juliet \"Holy Yoba!\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryOrchardHouse_Warp_Out}}
+
+    {
+      "Name": "CherryOrchardHouse_Warp_Out",
+      "Value": "speak Eloise \"Mọi người—vào vòng tròn!! Nhanh lên!$s\""
+    },
+    {
+      "Name": "CherryOrchardHouse_Warp_Out",
+      "Value": "warp Juliet -999 -999 true/speak Juliet \"Everyone-- into the circle!! Hurry!$s\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{Wumbus_Dialogue}}
+
+    {
+      "Name": "Wumbus_Dialogue",
+      "Value": "speak Wumbus \"Chơi đủ rồi.$1#$b#Nếu không dừng lại, ngươi sẽ phải nói lời tạm biệt với những người bạn nhỏ của mình.$1\"/emote farmer 16 true/pause 450/speak Wumbus \"Ta hy vọng ngươi sẽ đưa ra quyết định sáng suốt.\""
+    },
+    {
+      "Name": "Wumbus_Dialogue",
+      "Value": "speak Wumbus \"Chơi đủ rồi.$1#$b#Nếu bạn không dừng lại, bạn sẽ phải nói lời tạm biệt với người phụ nữ tóc đỏ kỳ lạ đó.$1\"/emote farmer 16 true/pause 450/speak Wumbus \"Cô ấy vẫn an toàn. Hiện tại.\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+
+    // {{Add_Lantern_A}}
+
+    {
+      "Name": "Add_Lantern_A",
+      "Value": "pause 1"
+    },
+    {
+      "Name": "Add_Lantern_A",
+      "Value": "addLantern 735 34 16 1",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{Add_Lantern_B}}
+
+    {
+      "Name": "Add_Lantern_B",
+      "Value": "pause 1"
+    },
+    {
+      "Name": "Add_Lantern_B",
+      "Value": "addLantern 735 6 23 1",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{CherryLuma_SetUp}
+    {
+      "Name": "CherryLuma_SetUp",
+      "Value": "addLantern 735 8 18 1/removeTemporarySprites/addTemporaryActor CarryLavril 16 32 -999 260 2 false/animate CarryLavril false true 150 28 29 30 31 32 33 34 35 30 29 28 20 21 22 23 20 21 22 23/warp CarryLavril 7 18 true/positionOffset CarryLavril 32 0"
+    },
+
+    // {{Face_Direction_Cherry}}
+
+    {
+      "Name": "Face_Direction_Cherry",
+      "Value": "faceDirection Jas 2 true/faceDirection Vincent 3 true/faceDirection Eloise 0 true/faceDirection farmer 1 true/jump Vincent/pause 300/jump Eloise/pause 300/jump Jas/pause 300/emote farmer 56/shake Vincent 500/pause 500/warp LilWumbus 4 22/playSound dwop"
+    },
+    {
+      "Name": "Face_Direction_Cherry",
+      "Value": "faceDirection Jas 1 true/faceDirection Vincent 1 true/faceDirection Eloise 1 true/faceDirection farmer 1 true/jump Vincent/pause 300/jump Eloise/pause 300/jump Jas/pause 300/emote farmer 56/shake Vincent 500/pause 500/warp LilWumbus 6 22/playSound dwop",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // Change in Vincent's CG
+    // {{Vincent_CG}}
+
+    {
+      "Name": "Vincent_CG",
+      "Value": "changeToTemporaryMap VincentMirror"
+    },
+
+    {
+      "Name": "Vincent_CG",
+      "Value": "changeToTemporaryMap VincentMirror",
+      "When": {
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits",
+        "DSVVincent": "vanilla"
+      }
+    },
+
+    {
+      "Name": "Vincent_CG",
+      "Value": "changeToTemporaryMap Vincent_CG",
+      "When": {
+        "HasMod": "DSVTeam.DiverseSeasonalOutfits",
+        "DSVVincent": "modded"
+      }
+    },
+
+    {
+      "Name": "Juliet_Is_Here1",
+      "Value": "viewport 9 19/pause 600"
+    },
+    {
+      "Name": "Juliet_Is_Here1",
+      "Value": "warp Juliet 7 22 true/faceDirection Juliet 1 true/viewport 9 19/pause 500/emote Juliet 40/pause 100",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "Juliet_Is_Here2",
+      "Value": "pause 1"
+    },
+    {
+      "Name": "Juliet_Is_Here2",
+      "Value": "faceDirection Juliet 3/emote Juliet 16 true",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    {
+      "Name": "Juliet_Is_Here3",
+      "Value": "pause 1"
+    },
+    {
+      "Name": "Juliet_Is_Here3",
+      "Value": "emote Juliet 60",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    //ARV Collab - Juliet is installed
+
+    {
+      "Name": "ESInn_SetUp",
+      "Value": "farmer 999 999 2 Rosa 43 10 0 Sterling 99 99 0"
+    },
+    {
+      "Name": "ESInn_SetUp",
+      "Value": "{{ESInn_SetUp}} Juliet 41 10 1",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{ESInn_SetUp}}
+
+    {
+      "Name": "JulietRosaInteraction",
+      "Value": "pause 1/warp Sterling 45 33 true"
+    },
+
+    {
+      "Name": "JulietRosaInteraction",
+"Value": "viewport 41 10 clamp/addTemporaryActor LRedVelvet 16 32 -999 460 2 false/addTemporaryActor LBlueberry 16 32 -999 460 2 false/addObject 41 8 651 1/addObject 43 17 234 1/addObject 42 8 246 1/move Rosa 2 0 0/pause 500/faceDirection Juliet 0/move Rosa -2 0 0/emote Juliet 20 true/shake Juliet 450/pause 750/faceDirection Rosa 3/speak Juliet \"Những chiếc bánh cupcake này thật tuyệt vời!$4\"/speak Rosa \"Cậu là một người làm bếp giỏi, Jules. Cậu chắc chắn không muốn làm việc ở đây chứ?\"/faceDirection Juliet 1 true/emote Juliet 32 true/pause 450/speak Juliet \"Yoba, mình ước vậy. Nhưng thật không may, sản phẩm của Joja với giá vừa phải mới là con đường của mình.$h\"/pause 350/playSound doorOpen/pause 100/warp Sterling 44 36 true/move Sterling 0 -3 0 true/speak Sterling \"Này... Có ai ở đây không?\"/faceDirection Juliet 2 true/faceDirection Rosa 2 false/speak Rosa \"Mình sẽ đến ngay!\"/move Sterling 1 0 0 true/faceDirection Juliet 2 true/advancedMove Rosa false 0 1 -3 0/globalFade/viewport 500 500/pause 600/doAction 40 16/doAction 39 16/warp Juliet 40 23 true",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    //If Juliet is not installed, activates flag for conversation topic:
+    {
+      "Name": "NoJulietFlagCT",
+      "Value": "addConversationTopic WhereIsLavril 4"
+    },
+
+    //if Juliet is installed, conversation topic is triggered when picking the blueberry cupcake fork
+    {
+      "Name": "NoJulietFlagCT",
+      "Value": "pause 1",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{NoJulietFlagCT}}
+
+    {
+      "Name": "JulietInnMoveA",
+      "Value": "pause 1"
+    },
+
+    {
+      "Name": "JulietInnMoveA",
+      "Value": "move Juliet 0 7 2 true",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{JulietInnMoveA}}
+
+    {
+      "Name": "JulietInnMoveB",
+      "Value": "emote Rosa 60 true/pause 450/speak Rosa \"Có lý do gì khiến bạn tìm kiếm một đứa trẻ không? Cô bé có mất tích không? Tên cô bé là gì?$s\"/speak Sterling \"Không. Tên cô bé là Lavril.$5#$b#Này, tôi đã làm một điều ngu ngốc. Tôi...$5#$b#Tôi thực sự đã làm tổn thương cô bé đó.$11#$b# Tôi cần phải làm rõ mọi chuyện, nhưng cô bé đang tránh mặt tôi.$5\""
+    },
+
+    {
+      "Name": "JulietInnMoveB",
+"Value": "faceDirection Sterling 2/pause 150/speak Juliet \"Cậu đang tìm cô gái ma phải không?#$b#Lavril, đúng không?\"/faceDirection Rosa 3 true/faceDirection Sterling 3 true/emote Sterling 16 true/pause 300/textAboveHead Rosa \"Ma...?\"/move Juliet 0 2 2/move Juliet 1 0 1/warp Juliet 41 32 1 true/speak Sterling \"Juliet? Cậu biết cô ấy ở đâu không?$7\"/speak Juliet \"À, mình đã bị mắc kẹt trong một chiều không gian khác-- nhưng mình khá chắc chắn biết cô ấy sống ở đâu.#$b#Tại sao cậu lại cần tìm cô ấy? Cậu không liên quan gì đến tờ báo 'Cryptids Today' chứ?$3\"/speak Sterling \"Không. Mình đã làm một điều ngu ngốc. Mình...$5#$b#Mình đã làm tổn thương cảm xúc của cô ấy.$11#$b# Mình cần phải sửa chữa mọi chuyện, nhưng cô ấy đang tránh mặt mình.$5\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{JulietInnMoveB}}
+
+    {
+      "Name": "JulietInnMoveC",
+      "Value": "emote Rosa 40 true/pause 450/speak Rosa \"Có lẽ bạn có thể hỏi bọn trẻ xem dạo này chúng có nhìn thấy Lavril không?$s#$b#Trẻ em thích tụ tập lại với nhau.\"/emote Sterling 40/speak Sterling \"Cảm ơn. Tôi rất trân trọng điều đó, Rosa.\"/advancedMove Sterling false -1 0 0 3/pause 300/globalFade/viewport 999 500/playSound doorClose/warp Sterling 999 609"
+    },
+
+    {
+      "Name": "JulietInnMoveC",
+      "Value": "emote Juliet 40 true/pause 450/speak Juliet \"Cậu có chắc muốn biết không? Có rất nhiều điều về cô ấy không giống như vẻ bề ngoài.$3#$b#Và nếu cậu chọc mũi vào những nơi không được chào đón, thì... mọi chuyện có thể trở nên kỳ quái, nhanh chóng.$3#$b#Cậu có chắc muốn chơi với thế giới bên ngoài bức màn không?\"/emote Rosa 8 true/pause 450/speak Rosa \"Có gì với những điều huyền bí đó, Jules? Cô ấy chỉ là một đứa trẻ, đúng không?\"/speak Juliet \"Hah, chỉ là một đứa trẻ? Trời ạ, Rosa.$h#$b#Cậu đã sống ở đây được vài tuần rồi, trong cái khách sạn creepy này. Cậu nên biết tình hình rồi.#$b#Nhưng một đứa trẻ thành phố như Cooper ở đây? Thì, có những thứ ở ngoài kia đang tìm kiếm một cậu nhóc đẹp trai như cậu ấy...\"/speak Sterling \"Aha. Mình không biết nói gì nữa.$10\"/speak Juliet \"Mình có thể nói gì đây? Mình có ảnh hưởng như vậy đến người khác.\"/move Juliet 0 -1 2 true/move Sterling -4 0 0 true/faceDirection Juliet 2 true/speak Sterling \"Nói đùa thì... Cậu đang nghiêm túc. Phải không?$11\"/warp Sterling 41 33 true/speak Juliet \"Thật đó. Nếu cậu tìm thấy cô ấy, và không có gì tìm thấy cậu trước...$3#$b#Thì, Lavril có thể là một đứa trẻ kỳ quái, nhưng cô ấy có một trái tim đang đập. Giống như cậu và mình.$2#$b#Đừng quên điều đó.$3\"/pause 200/emote Juliet 56/pause 400/speak Juliet \"Giờ cậu có một lựa chọn, Cooper.\"/faceDirection Juliet 3/playSound dwop/warp LBlueberry 40 31/pause 700/speak Juliet \"Cậu chọn bánh cupcake việt quất, cậu về nhà và tin vào bất cứ điều gì cậu muốn tin.\"/faceDirection Juliet 1/playSound dwop/warp LRedVelvet 42 31/pause 700/speak Juliet \"Cậu chọn bánh cupcake red velvet... cậu ở lại xứ Wonderland, và mình sẽ cho cậu biết cái hố thỏ này sâu đến mức nào.$3\"/faceDirection Juliet 2/pause 300/textAboveHead Juliet \"Vậy, cậu sẽ chọn cái gì?\"/pause 1000/shake Sterling 1000/emote Sterling 60/speak Sterling \"Mình...$2\"/question fork0 \"#Chọn bánh cupcake việt quất (Từ bỏ.)#Chọn bánh cupcake red velvet. (Mình sẽ tìm cô ấy.)\"/fork LBlueberry/move Sterling 1 0 1/move Sterling 0 -1 0/faceDirection Juliet 1/pause 400/shake Sterling 200/playSound pickUpItem/warp LRedVelvet -99 -999/pause 500/speak Juliet \"Cảm thấy mạnh mẽ đấy nhỉ? Chào mừng đến với thế giới thực.$h\"/faceDirection Sterling 3/emote Sterling 40 true/pause 450/speak Sterling \"Cậu vừa sử dụng Matrix chống lại mình sao?$10\"/shake Rosa 500/speak Rosa \"Hah! Có vẻ như Jules đã rất thích bộ phim đó tối qua.$h\"/emote Juliet 16 true/jump Juliet/pause 250/speak Juliet \"Im lặng đi.$l\"/move Juliet 0 1 1/speak Juliet \"Được rồi, Cooper. Giờ cậu phải giải phóng tâm trí mình cho những gì mình sắp nói với cậu...\"/faceDirection Sterling 2/showFrame Juliet 48/positionOffset Juliet 9 0/pause 300/textAboveHead Juliet \"*Thì thầm*\"/pause 2300/emote Sterling 16 true/globalFade/viewport 500 599/pause 300/playSound reward/message \"Juliet cho Sterling biết nơi tìm Vườn cây bỏ hoang.\"",
+      "When": {
+        "HasMod": "LemurKat.JulietHouse.NPC"
+      }
+    },
+
+    // {{JulietInnMoveC}}
+
+    {
+      "Name": "LPrismStars",
+      "Value": "specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope/specificTemporarySprite maruTelescope"
+    },
+
+    // {{LPrismStars}}
+
+    {
+      "Name": "SterlingSus",
+      "Value": "positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5/positionOffset LaySterling 4 0/pause 5"
+    },
+
+    {
+      "Name": "VoidSusRight",
+      "Value": "positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5/positionOffset VoidAlpha 16 0/pause 5"
+    },
+
+    {
+      "Name": "VoidSusLeft",
+      "Value": "positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5/positionOffset VoidAlpha -16 0/pause 5"
+    },
+
+    {
+      "Name": "VoidSusRight2",
+      "Value": "positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5/positionOffset VoidAlpha 8 0/pause 5"
+    },
+
+    {
+      "Name": "VoidSusLeft2",
+      "Value": "positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5/positionOffset VoidAlpha -8 0/pause 5"
+    },
+
+    {
+      "Name": "SterlingFive",
+      "Value": "pause 1",
+      "HasSeenEvent |contains=63070027": "false"
+    },
+
+    {
+      "Name": "SterlingFive",
+      "Value": "speak Void \"Đừng quên Số Năm! Anh ấy có thể quyến rũ, nhưng không bảnh bao bằng tôi.\"/emote Lavril 60/speak Lavril \"Ừm... Sterling cũng rất chu đáo.$17\"",
+      "HasSeenEvent |contains=63070027": "true"
+    },
+
+    {
+      "Name": "2ndRenovation",
+      "Value": "12 5 2 lavril_sit",
+      "When": {
+        "HasSeenEvent |contains=63078002": "false"
+      }
+    },
+
+    {
+      "Name": "2ndRenovation",
+      "Value": "12 4 2 lavril_sit",
+      "When": {
+        "HasSeenEvent |contains=63078002": "true"
+      }
+    }
+    //12 5 2 lavril_sit
+
+    // {{SterlingSus}} || shifts 5 tiles left
+
+  ]
+
+}

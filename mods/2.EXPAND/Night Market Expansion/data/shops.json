@@ -1,0 +1,542 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModId}}_FurnitureShop": {
+				"Owners": [
+					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": null,
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "OilLamp",
+						"ItemId": "{{ModId}}_OilLamp",
+						"TradeItemId": "(O)152",
+						"TradeItemAmount": "3",
+					},
+					{
+						"Id": "{{ModId}}_OilLampTall (Recipe)",
+						"ItemId": "{{ModId}}_OilLampTall",
+						"IsRecipe": true,
+						"TradeItemId": "(O)799",
+					},
+					{
+						"Id": "OrnateRug1",
+						"ItemId": "{{ModId}}_OrnateRug1",
+						"TradeItemId": "(O)798",
+					},
+					{
+						"Id": "OrnateRug2",
+						"ItemId": "{{ModId}}_OrnateRug2",
+						"TradeItemId": "(O)152",
+						"TradeItemAmount": "3",
+					},
+					{
+						"Id": "OrnateVase",
+						"ItemId": "{{ModId}}_OrnateVase",
+						"TradeItemId": "(O)800",
+					},
+					{
+						"Id": "{{ModId}}_Teapot",
+						"ItemId": "{{ModId}}_Teapot",
+						"TradeItemId": "(O)152",
+					},
+					{
+						"Id": "{{ModId}}_NightMarketBanner",
+						"ItemId": "{{ModId}}_NightMarketBanner",
+						"TradeItemId": "(O)799",
+					},
+					{
+						"Id": "{{ModId}}_RoomDivider",
+						"ItemId": "{{ModId}}_RoomDivider",
+						"TradeItemId": "(O)152",
+						"TradeItemAmount": "1",
+					},
+				]
+			},
+			"{{ModId}}_AlcShop": {
+				"Owners": [
+					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": null,
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "Wine",
+						"ItemId": "(O)348",
+					},
+					{
+						"Id": "Beer",
+						"ItemId": "(O)346",
+					},
+					{
+						"Id": "Pale Ale",
+						"ItemId": "(O)303",
+					},
+					{
+						"Id": "Soju",
+						"ItemId": "{{ModId}}_Soju",
+					},
+					{
+						"Id": "Mead",
+						"ItemId": "(O)459",
+					},
+				]
+			},
+			"{{ModId}}_HatShop": {
+				"Owners": [
+					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": null,
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "{{ModId}}_HalfMoonMask",
+						"ItemId": "{{ModId}}_HalfMoonMask",
+						"Price": 2500,
+					},
+					{
+						"Id": "(H)67",
+						"ItemId": "(H)67",
+						"Price": 7500
+					},
+					{
+						"Id": "{{ModId}}_DivingHelmet",
+						"ItemId": "{{ModId}}_DivingHelmet",
+						"Price": 5000,
+					},
+					{
+						"Id": "(H)58",
+						"ItemId": "(H)58",
+						"Price": 5000
+					},
+					{
+						"Id": "(H)44",
+						"ItemId": "(H)44",
+						"Price": 2500
+					},
+					{
+						"Id": "{{ModId}}_RedOni",
+						"ItemId": "{{ModId}}_RedOni",
+						"Price": 5000
+					},
+					{
+						"Id": "{{ModId}}_BlueOni",
+						"ItemId": "{{ModId}}_BlueOni",
+						"Price": 5000,
+					},
+				]
+			},
+			"{{ModId}}_FishShop": {
+				"SalableItemTags": [ "category_fish" ],
+				"Owners": [
+					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": "{{i18n: FishShop.Dialogue}}",
+            						"RandomDialogue": null,
+                					},
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "Fish1",
+						"RandomItemId": ["130", "131", "132", "140", "147", "148", "149", "151", "154", "155", "269", "701", "702", "700", "705", "707", "708", "837"],
+						"AvailableStock": 3,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "Fish2",
+						"RandomItemId": ["130", "131", "132", "140", "147", "150", "151", "154", "155", "269", "701", "702", "700", "705", "707", "708"],
+						"AvailableStock": 5,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "Fish3",
+						"RandomItemId": ["130", "131", "132", "140", "147", "150", "151", "154", "155", "269", "701", "702", "700", "705", "707", "708"],
+						"AvailableStock": 5,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "Fish4",
+						"RandomItemId": ["130", "131", "132", "140", "147", "150", "151", "154", "155", "269", "701", "702", "700", "705", "707", "708"],
+						"AvailableStock": 5,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "Fish5",
+						"RandomItemId": ["130", "131", "132", "140", "147", "150", "151", "154", "155", "269", "701", "702", "700", "705", "707", "708"],
+						"AvailableStock": 5,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "Food",
+						"RandomItemId": ["(O)198", "(O)202", "(O)213", "(O)218", "(O)219", "(O)226", "(O)242", "(O)456", "(O)457", "(O)728", "(O)730", "(O)732"],
+						"AvailableStock": 3,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "Food2",
+						"RandomItemId": ["(O)198", "(O)202", "(O)213", "(O)218", "(O)219", "(O)226", "(O)242", "(O)456", "(O)457", "(O)728", "(O)730", "(O)732"],
+						"AvailableStock": 2,
+						"AvoidRepeat": true
+					},
+					{
+						"Id": "CrabPot",
+						"RandomItemId": ["(O)717", "(O)715", "(O)716","(O)720"],
+						"AvailableStock": 5
+					},
+					{
+						"Id": "Hat",
+						"ItemId": "{{ModId}}_FishBowlHat",
+						"Price": 3000,
+					},
+					
+				]
+			},
+			"{{ModId}}_FoodShop": {
+				"Owners": [ 
+      					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": null,
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "Random 1",
+						"RandomItemId": ["{{ModId}}_Takoyaki", "{{ModId}}_TornadoPotato", "(O)197", "(O)202", "(O)203", "(O)206", "(O)213", "(O)225", "(O)226", "(O)223", "(O)242", "(O)253", "(O)607", "(O)612", "(O)731", "(O)732", "(O)905", "{{ModId}}_NontupleShotEspresso"],
+						"AvailableStock": 3,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "Random 2",
+						"RandomItemId": ["{{ModId}}_Takoyaki", "{{ModId}}_TornadoPotato", "(O)197", "(O)202", "(O)203", "(O)206", "(O)213", "(O)225", "(O)226", "(O)223", "(O)242", "(O)253", "(O)265", "(O)607", "(O)612", "(O)731", "(O)732", "(O)904", "(O)905", "{{ModId}}_NontupleShotEspresso"],
+						"AvailableStock": 1,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "Random 3",
+						"RandomItemId": ["{{ModId}}_Takoyaki", "{{ModId}}_TornadoPotato", "(O)197", "(O)202", "(O)203", "(O)206", "(O)213", "(O)225", "(O)226", "(O)223", "(O)242", "(O)253", "(O)607", "(O)612", "(O)731", "(O)732", "(O)904", "(O)905", "{{ModId}}_NontupleShotEspresso"],
+						"AvailableStock": 2,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "Random 4",
+						"RandomItemId": ["{{ModId}}_Takoyaki", "{{ModId}}_TornadoPotato", "(O)197", "(O)202", "(O)203", "(O)206", "(O)213", "(O)225", "(O)226", "(O)223", "(O)242", "(O)253", "(O)607", "(O)612", "(O)731", "(O)732", "(O)905", "{{ModId}}_NontupleShotEspresso"],
+						"AvailableStock": 5,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "Random 5",
+						"RandomItemId": ["{{ModId}}_Takoyaki", "{{ModId}}_TornadoPotato", "(O)197", "(O)202", "(O)203", "(O)206", "(O)213", "(O)225", "(O)226", "(O)223", "(O)242", "(O)253", "(O)607", "(O)612", "(O)731", "(O)732", "(O)905", "{{ModId}}_NontupleShotEspresso"],
+						"AvailableStock": 4,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "Random 6",
+						"RandomItemId": ["{{ModId}}_Takoyaki", "{{ModId}}_TornadoPotato", "(O)197", "(O)202", "(O)203", "(O)206", "(O)213", "(O)225", "(O)226", "(O)223", "(O)242", "(O)253", "(O)607", "(O)612", "(O)731", "(O)732", "(O)905", "{{ModId}}_NontupleShotEspresso"],
+						"AvailableStock": 4,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "espresso recipe",
+						"ItemId": "{{ModId}}_NontupleShotEspresso",
+						"IsRecipe": true,
+						"Price": 15000,
+					},
+					{
+						"Id": "takoyaki recipe",
+						"ItemId": "{{ModId}}_Takoyaki",
+						"IsRecipe": true,
+						"Price": 500,
+					},
+					{
+						"Id": "tornado potato recipe",
+						"ItemId": "{{ModId}}_TornadoPotato",
+						"IsRecipe": true,
+						"Price": 500,
+					},
+				]
+					
+			},
+			"{{ModId}}_MiscShop": {
+				"Owners": [ 
+      					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": null,
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "Random Artifact",
+						"RandomItemId": ["(O)100", "(O)104", "(O)106", "(O)124", "(O)119"],
+						"Price": 2500,
+						"Stock": 1,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "artTrove",
+						"ItemId": "(O)275",
+						"Price": 2500,
+						"Stock": 3
+					},
+					{
+						"Id": "FurnitureRandom",
+						"RandomItemId": ["(F)1299", "(F)1375", "(F)1471"],
+						"Price": 2500,
+						"Stock": 1,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "GreekVase",
+						"ItemId": "{{ModId}}_GreekVase",
+						"Price": 2500,
+					},
+					{
+						"Id": "Random Artifact2",
+						"RandomItemId": ["(O)100", "(O)104", "(O)106", "(O)124", "(O)119"],
+						"Price": 2500,
+						"Stock": 1,
+						"AvoidRepeat": true,
+					},
+					{
+						"Id": "FurnitureRandom2",
+						"RandomItemId": ["(F)1744", "(F)2742", "(F)LeafyPlant"],
+						"Price": 2500,
+						"Stock": 1,
+						"AvoidRepeat": true,
+					},
+				]
+					
+			},
+			"{{ModId}}_AnimalShop": {
+				"Owners": [ 
+      					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": "{{i18n: AnimalShop.Dialogue}}",
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "Fox",
+						"ItemId": "{{ModId}}_FoxLicense",
+						"Price": 50000,
+						"Stock": 1,
+						"Condition": "!PLAYER_HAS_MAIL Any {{ModId}}_MailFox Any, !PLAYER_HAS_ITEM Any {{ModId}}_FoxLicense 1 1",
+						"AvailableStock": 1,
+						"AvailableStockLimit": "Global",
+						"ActionsOnPurchase": [
+							"AddQuest {{ModId}}_FoxQuest"
+						]
+					},
+					{
+						"Id": "meow",
+						"ItemId": "{{ModId}}_SilkwormEggs",
+						"Price": 20000,
+						"Stock": 3
+					},
+				]
+					
+			},
+			"{{ModId}}_TradeShop": {
+				"Owners": [
+					{
+						"Condition": "TIME 0000 1659",
+						"ClosedMessage": "[LocalizedText Strings\\\\Locations:BeachNightMarket_Closed]",
+						"Name": "None",
+					},
+      					{
+						"Condition": "TIME 1700 2600",
+              					"Portrait": "",
+             					"Dialogues": [
+                					{
+                  					"Id": "Default",
+                  					"Condition": null,
+                  					"Dialogue": "{{i18n: TradeShop.Dialogue}}",
+            						"RandomDialogue": null
+                					}
+              					],
+              					"RandomizeDialogueOnOpen": true,
+              					"Id": "AnyOrNone",
+              					"Name": "AnyOrNone"
+            				}
+				],
+				"Items": [
+					{
+						"Id": "GojiBerries",
+						"ItemId": "{{ModId}}_GojiBerries",
+						"MinStack": 5,
+						"TradeItemId": "(O)340",
+						"TradeItemAmount": 1,
+					},
+					{
+						"Id": "GojiBerrySeeds",
+						"ItemId": "{{ModId}}_GojiBerrySeeds",
+						"TradeItemId": "(O)770",
+						"TradeItemAmount": 5,
+					},
+					{
+						"Id": "FrozenFlower",
+						"ItemId": "{{ModId}}_FrozenFlower",
+						"TradeItemId": "(O)402",
+					},
+					{
+						"Id": "FrozenFlowerSeeds",
+						"ItemId": "{{ModId}}_FrozenFlowerSeeds",
+						"TradeItemId": "(O)418",
+					},
+					{
+						"Id": "LotusRoot",
+						"ItemId": "{{ModId}}_LotusRoot",
+						"TradeItemId": "PowdermelonSeeds",
+						"TradeItemAmount": 5,
+		
+					},
+					{
+						"Id": "LotusSeeds",
+						"ItemId": "{{ModId}}_LotusSeeds",
+						"TradeItemId": "(O)18",
+		
+					},
+					{
+						"Id": "Pawpaw",
+						"ItemId": "{{ModId}}_PawpawSapling",
+						"TradeItemId": "(O)630",
+		
+					},
+					{
+						"Id": "Blubber",
+						"ItemId": "{{ModId}}_SealBlubber",
+						"MinStack": 2,
+						"MaxStack": 3,
+						"TradeItemId": "(O)151",
+					},
+					{
+						"Id": "recipe",
+						"ItemId": "{{ModId}}_LotusRootSoup",
+						"IsRecipe": true,
+						"TradeItemId": "(O)498",
+						"TradeItemAmount": 10,
+					},
+				]
+			},
+			
+		},
+	}
+]
+}

@@ -1,0 +1,1323 @@
+{
+  "Changes": [
+
+		{
+			"LogName": "Gift Tastes Rose and the Alchemist",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"WildflourSASS": "{{i18n:Gift_Love.Wildflour}}/614 400 281 257 591 376/{{i18n:Gift_Like.Wildflour}}/MixedFlowerSeeds 459 344 426 340/{{i18n:Gift_Dislike.Wildflour}}/814/{{i18n:Gift_Hate.Wildflour}}/167 445 209/{{i18n:Gift_Neutral.Wildflour}}/-4/",
+				"RoseSASS": "{{i18n:Gift_Love.Rose}}/220 221 222 223 234 608 611 651 731/{{i18n:Gift_Like.Rose}}/424 Raisins Carrot/{{i18n:Gift_Dislike.Rose}}/445 812 167/{{i18n:Gift_Hate.Rose}}/767 766/{{i18n:Gift_Neutral.Rose}}/-2/"
+		}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": { "HasMod: |contains=Wildflour.AtelierGoods": true},
+			"TextOperations": [
+				
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "WildflourSASS", 1], 
+					"Value": "wildflour_bakery_item edible_mushroom wildflour_boutique_item wildflour_barista_item wildflour_brewer_item wildflour_confectioner_item wildflour_forage",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "RoseSASS", 1], 
+					"Value": "wildflour_bakery_item wildflour_confectioner_item",
+					"Delimiter": " "
+				}
+			]
+		},
+
+// UNIVERSAL GIFT TASTES //
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Universal",
+			"TextOperations":[
+				{
+					"Operation": "Append",
+					"Target": [
+					"Entries",
+					"Universal_Love"
+					],
+					"Value": "{{ModId}}_Lady_Luck {{ModId}}_Unicorn_Horn",
+					"Delimiter": " "
+				},
+			]
+		},
+
+// VANILLA NPC ADDED GIFT TASTES //
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Abigail",
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [
+				"Fields",
+				"Abigail",
+				1
+				],
+				"Value": "{{ModId}}_Avalon_Mist_Flower",
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": [
+				"Fields",
+				"Abigail",
+				3
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			}
+		]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Alex",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Alex",
+				  1
+				],
+				"Value": "{{ModId}}_Banana",
+				"Delimiter": " "
+			  }
+			]
+		},
+			{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Caroline",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Caroline",
+				  1
+				],
+				"Value": "{{ModId}}_Faerie_Folly",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Caroline",
+				  3
+				],
+				"Value": "magical_herb_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Clint",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Clint",
+				  1
+				],
+				"Value": "{{ModId}}_Rustgill",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Demetrius",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Demetrius",
+				  1
+				],
+				"Value": "{{ModId}}_Cherry",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Dwarf",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Dwarf",
+				  1
+				],
+				"Value": "{{ModId}}_Candy_Button",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Dwarf",
+				  3
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Elliott",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Elliott",
+				  1
+				],
+				"Value": "{{ModId}}_Rosefinch_Feather {{ModId}}_Lovebird_Feather {{ModId}}_Crow_Feather {{ModId}}_Pomegranate",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Emily",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Emily",
+				  1
+				],
+				"Value": "{{ModId}}_Dream_Spinner",
+				"Delimiter": " "
+			  }, 
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Emily",
+				  3
+				],
+				"Value": "magical_forage_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Evelyn",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Evelyn",
+				  1
+				],
+				"Value": "{{ModId}}_Ambrosia",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: George",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "George",
+				  1
+				],
+				"Value": "{{ModId}}_Shrumbus",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Gus",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Gus",
+				  1
+				],
+				"Value": "{{ModId}}_Orange",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Haley",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Haley",
+				  1
+				],
+				"Value": "{{ModId}}_Elysian_Field_Flower",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Harvey",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Harvey",
+				  1
+				],
+				"Value": "{{ModId}}_Apple",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Jas",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Jas",
+				  1
+				],
+				"Value": "magical_fruit_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Jodi",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Jodi",
+				  1
+				],
+				"Value": "{{ModId}}_Sugar_Plum",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Kent",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Kent",
+				  1
+				],
+				"Value": "{{ModId}}_Pixie_Breath",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Krobus",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Krobus",
+				  1
+				],
+				"Value": "{{ModId}}_Bubblegum_Funnel",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Krobus",
+				  3
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Leah",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Leah",
+				  1
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Leo",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Leo",
+				  1
+				],
+				"Value": "magical_fruit_item {{ModId}}_Rosefinch_Feather {{ModId}}_Lovebird_Feather {{ModId}}_Crow_Feather",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Lewis",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Lewis",
+				  1
+				],
+				"Value": "{{ModId}}_Sugar_Plum",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Linus",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Linus",
+				  1
+				],
+				"Value": "{{ModId}}_Sparkling_Agaric",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Linus",
+				  3
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Marnie",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Marnie",
+				  1
+				],
+				"Value": "{{ModId}}_Sylvan_Sigh",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Maru",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Maru",
+				  1
+				],
+				"Value": "{{ModId}}_Fallen_Stars",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Pam",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Pam",
+				  1
+				],
+				"Value": "{{ModId}}_Mango",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Penny",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Penny",
+				  1
+				],
+				"Value": "{{ModId}}_Sugar_Plum",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Pierre",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Pierre",
+				  1
+				],
+				"Value": "{{ModId}}_Midas_Cap",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Robin",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Robin",
+				  1
+				],
+				"Value": "{{ModId}}_Peach",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Sam",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Sam",
+				  1
+				],
+				"Value": "{{ModId}}_Phoenix_Fire",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Sandy",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Sandy",
+				  1
+				],
+				"Value": "{{ModId}}_Titania_Bell",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Sebastian",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Sebastian",
+				  1
+				],
+				"Value": "{{ModId}}_Baby_Bluegill",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Sebastian",
+				  3
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Shane",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Shane",
+				  1
+				],
+				"Value": "{{ModId}}_Ghostly_Parasol",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Vincent",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Vincent",
+				  1
+				],
+				"Value": "magical_fruit_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Willy",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Willy",
+				  1
+				],
+				"Value": "{{ModId}}_Seafoam_Waxcap",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Wizard",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Wizard",
+				  1
+				],
+				"Value": "magical_forage_item",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Wizard",
+				  3
+				],
+				"Value": "magical_mushroom_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  
+////////////////////////////
+// MODDED NPC GIFT TASTES //
+////////////////////////////
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: AichaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "AichaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Amber_MoonDrop",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: AirynDao",
+			"When":{"HasMod: |contains=Airyn.Dao.CP":true},
+			"Priority":"Late",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "AirynDao",
+				  1
+				],
+				"Value": "{{ModId}}_Valerian",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Alecto",
+			"When":{"HasMod: |contains=ZoeDoll.NPCAlecto":true},
+			"Priority":"Late",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Alecto",
+				  1
+				],
+				"Value": "magical_mushroom_item magical_herb_item",
+				"Delimiter": " "
+			  },
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Alecto",
+				  3
+				],
+				"Value": "magical_flower_item",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: AminaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "AminaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Jade_MoonDrop",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: AriSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "AriSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Mottled_Fieldcap",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: AsterPellegrinVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "AsterPellegrinVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Arctic_Fox",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: BlakeSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "BlakeSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Elysian_Field_Flower",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: CelestineDuboisVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "CelestineDuboisVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Frilly_Gilly",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Clara.Ripley",
+			"When":{"HasMod: |contains=Clara.Ripley":true},
+			"Priority":"Late",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Clara.Ripley",
+				  1
+				],
+				"Value": "{{ModId}}_Queen_Bolete",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: DeryaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "DeryaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Smile_Of_Shumus",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: DialaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "DialaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Kiss_Of_Tamra",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: EliasSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "EliasSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Coral_Fungus",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: EzraSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "EzraSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Cherry",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: HeliaDiamantiVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "HeliaDiamantiVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Pearl_MoonDrop",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: ImanSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "ImanSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Peach",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Jonghyuk",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Arknir.Jonghyuk":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Jonghyuk",
+				  1
+				],
+				"Value": "{{ModId}}_Apricot",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: JumanaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "JumanaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Pixie_Breath",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: LaniSBV",
+			"When":{"HasMod: |contains=lilico.Lani":true},
+			"Priority":"Late",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "LaniSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Titania_Bell",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: LyenneSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "LyenneSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Faerie_Folly",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: MaddyPellegrinVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "MaddyPellegrinVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Pomegranate",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: MaiaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "MaiaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Sugar_Plum",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: MariamFortinVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "MariamFortinVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Orange",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: MiyoungSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "MiyoungSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Ambrosia",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: MoiraDuboisVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "MoiraDuboisVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Dream_Spinner",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: MoonSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "MoonSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Lunar_Poof",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: NadiaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "NadiaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Rustgill",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: NaveenFaycombeSereneVMV",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Lumisteria.MtVapius":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "NaveenFaycombeSereneVMV",
+				  1
+				],
+				"Value": "{{ModId}}_Candy_Button",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: OpheliaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "OpheliaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Mango",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: PanSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "PanSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Apple",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: ReihanaSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "ReihanaSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Phoenix_Fire",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: SilasSBV",
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "SilasSBV",
+				  1
+				],
+				"Value": "{{ModId}}_Midas_Cap",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: Spanner",
+			"Priority":"Late",
+			"When":{"HasMod: |contains=Arknir.Jonghyuk":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "Spanner",
+				  1
+				],
+				"Value": "{{ModId}}_Lapis_MoonDrop",
+				"Delimiter": " "
+			  }
+			]
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"LogName": "Gift tastes: WrenSong",
+			"Priority": "Late",
+			"When":{"HasMod: |contains=tiakall.wren":true},
+			"TextOperations": [
+			  {
+				"Operation": "Append",
+				"Target": [
+				  "Fields",
+				  "WrenSong",
+				  1
+				],
+				"Value": "{{ModId}}_Bubblegum_Funnel",
+				"Delimiter": " "
+			  }
+			]
+		  }
+
+  ]
+
+  
+
+}

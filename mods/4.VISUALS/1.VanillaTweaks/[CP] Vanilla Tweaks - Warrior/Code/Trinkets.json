@@ -1,0 +1,103 @@
+{
+    "Changes": 
+    [
+
+// TRINKETS
+        {
+			"LogName": "Basilisk Paw",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/BasiliskPaw.png",
+			"ToArea": {"X": "80", "Y": "144", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Basilisk Paw": true
+			}
+		},
+        {
+			"LogName": "Fairy Box",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/FairyBox.png",
+			"ToArea": {"X": "32", "Y": "144", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Fairy Box": true
+			}
+		},
+        {
+			"LogName": "Frog Egg",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/FrogEgg.png",
+			"ToArea": {"X": "96", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Frog Egg": true
+			}
+		},
+        {
+			"LogName": "Golden Spur",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/GoldenSpur.png",
+			"ToArea": {"X": "64", "Y": "144", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Golden Spur": true
+			}
+		},
+        {
+			"LogName": "Ice Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/IceRod.png",
+			"ToArea": {"X": "96", "Y": "144", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Ice Rod": true
+			}
+		},
+        {
+			"LogName": "Magic Hair Gel",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/MagicHairGel.png",
+			"ToArea": {"X": "16", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Magic Hair Gel": true
+			}
+		},		
+        {
+			"LogName": "Magic Quiver",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/MagicQuiver.png",
+			"ToArea": {"X": "16", "Y": "144", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Magic Quiver": true
+			}
+		},		
+        {
+			"LogName": "Parrot Egg",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Trinkets/ParrotEgg.png",
+			"ToArea": {"X": "32", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"TrinketsEnabled": "True",
+				"Trinkets |contains= Parrot Egg": true	
+			}
+		}
+    ]
+}

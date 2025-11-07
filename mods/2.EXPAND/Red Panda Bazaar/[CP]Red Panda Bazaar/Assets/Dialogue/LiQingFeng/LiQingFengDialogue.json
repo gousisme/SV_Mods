@@ -1,0 +1,372 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RedPandaBazaar_LiQingFeng",
+            "Entries": {
+
+                "AcceptBirthdayGift_Loved": "{{i18n:LiQingFeng.GiftReaction.Birthday.Love}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:LiQingFeng.GiftReaction.Birthday.Like}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:LiQingFeng.GiftReaction.Birthday.Neutral}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:LiQingFeng.GiftReaction.Birthday.Dislike}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:LiQingFeng.GiftReaction.Birthday.Hate}}",
+                "AcceptBouquet": "{{i18n:LiQingFeng.AcceptBouquet}}",
+
+                "AcceptGift_(O)18": "{{i18n:LiQingFeng.Gift.Daffodil}}",
+                "AcceptGift_(O)74": "{{i18n:LiQingFeng.Gift.Prismatic.Shard}}",
+                "AcceptGift_(O)184": "{{i18n:LiQingFeng.Gift.Milk}}",
+                "AcceptGift_(O)424": "{{i18n:LiQingFeng.Gift.Cheese}}",
+                "AcceptGift_(O)446": "{{i18n:LiQingFeng.Gift.Rabbit's.Foot}}",
+                "AcceptGift_(O)614": "{{i18n:LiQingFeng.Gift.Green.Tea}}",
+                "AcceptGift_(O)636": "{{i18n:LiQingFeng.Gift.Peach}}",
+                "AcceptGift_(O)797": "{{i18n:LiQingFeng.Gift.Pearl}}",
+
+                "AcceptGift_(O)RedPandaBazaar_Pearl_Milk_Tea": "{{i18n:LiQingFeng.Gift.Pearl.Milk.Tea}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:LiQingFeng.Gift.StardropTea}}",
+
+                "Introduction": "{{i18n:LiQingFeng.Introduction}}",
+                "danceRejection": "{{i18n:LiQingFeng.danceRejection}}",
+                "divorced": "{{i18n:LiQingFeng.divorced}}",
+                "breakUp": "{{i18n:LiQingFeng.breakUp}}",
+                "DumpsterDiveComment": "{{i18n:LiQingFeng.DumpsterDiveComment}}",
+                "HitBySlingshot": "{{i18n:LiQingFeng.HitBySlingshot}}",
+                "MovieInvitation": "{{i18n:LiQingFeng.MovieInvitation}}",
+                "Spouse_MonstersInHouse": "{{i18n:LiQingFeng.Spouse.MonstersInHouse}}",
+                "SpouseStardrop": "{{i18n:LiQingFeng.SpouseStardrop}}",
+
+                "RejectBouquet_Divorced": "{{i18n:LiQingFeng.RejectBouquet.Divorced}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:LiQingFeng.RejectBouquet.NpcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:LiQingFeng.RejectBouquet.VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:LiQingFeng.RejectBouquet.LowHearts}}",
+                "RejectGift_Divorced": "{{i18n:LiQingFeng.RejectGift.Divorced}}",
+
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:LiQingFeng.RejectMermaidPendant.PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:LiQingFeng.RejectMermaidPendant.Divorced}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:LiQingFeng.RejectMermaidPendant.NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:LiQingFeng.RejectMermaidPendant.Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:LiQingFeng.RejectMermaidPendant.Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:LiQingFeng.RejectMermaidPendant.Under10Hearts.AskedAgain}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:LiQingFeng.RejectMermaidPendant.NeedHouseUpgrade}}",
+
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:LiQingFeng.RejectMovieTicket.AlreadyInvitedBySomeoneElse}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:LiQingFeng.RejectMovieTicket.AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_Divorced": "{{i18n:LiQingFeng.RejectMovieTicket.Divorced}}",
+
+                "FlowerDance_Accept_Spouse": "{{i18n:LiQingFeng.FlowerDance.Accept_Spouse}}",
+                "FlowerDance_Accept": "{{i18n:LiQingFeng.FlowerDance.Accept}}",
+
+                "cc_Complete": "{{i18n:LiQingFeng.cc.Complete}}",
+                "cc_Bus": "{{i18n:LiQingFeng.cc.Bus}}",
+                "joja_Begin": "{{i18n:LiQingFeng.joja.Begin}}",
+                "movieTheater": "{{i18n:LiQingFeng.movieTheater}}",
+
+                "GreenRain": "{{i18n:LiQingFeng.GreenRain}}",
+                "GreenRainFinished": "{{i18n:LiQingFeng.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:LiQingFeng.GreenRain.2}}",
+
+                "Resort": "{{i18n:LiQingFeng.Resort}}",
+
+                "Mon": "{{i18n:LiQingFeng.Mon.0h}}",
+                "Tue": "{{i18n:LiQingFeng.Tue.0h}}",
+                "Wed": "{{i18n:LiQingFeng.Wed.0h}}",
+                "Thu": "{{i18n:LiQingFeng.Thu.0h}}",
+                "Fri": "{{i18n:LiQingFeng.Fri.0h}}",
+                "Sat": "{{i18n:LiQingFeng.Sat.0h}}",
+                "Sun": "{{i18n:LiQingFeng.Sun.0h}}",
+
+                "Mon2": "{{i18n:LiQingFeng.Mon.2h}}",
+                "Tue2": "{{i18n:LiQingFeng.Tue.2h}}",
+                "Wed2": "{{i18n:LiQingFeng.Wed.2h}}",
+                "Thu2": "{{i18n:LiQingFeng.Thu.2h}}",
+                "Fri2": "{{i18n:LiQingFeng.Fri.2h}}",
+                "Sat2": "{{i18n:LiQingFeng.Sat.2h}}",
+                "Sun2": "{{i18n:LiQingFeng.Sun.2h}}",
+
+                "Mon4": "{{i18n:LiQingFeng.Mon.4h}}",
+                "Tue4": "{{i18n:LiQingFeng.Tue.4h}}",
+                "Wed4": "{{i18n:LiQingFeng.Wed.4h}}",
+                "Thu4": "{{i18n:LiQingFeng.Thu.4h}}",
+                "Fri4": "{{i18n:LiQingFeng.Fri.4h}}",
+                "Sat4": "{{i18n:LiQingFeng.Sat.4h}}",
+                "Sun4": "{{i18n:LiQingFeng.Sun.4h}}",
+
+                "Mon6": "{{i18n:LiQingFeng.Mon.6h}}",
+                "Tue6": "{{i18n:LiQingFeng.Tue.6h}}",
+                "Wed6": "{{i18n:LiQingFeng.Wed.6h}}",
+                "Thu6": "{{i18n:LiQingFeng.Thu.6h}}",
+                "Fri6": "{{i18n:LiQingFeng.Fri.6h}}",
+                "Sat6": "{{i18n:LiQingFeng.Sat.6h}}",
+                "Sun6": "{{i18n:LiQingFeng.Sun.6h}}",
+
+                "Mon8": "{{i18n:LiQingFeng.Mon.8h}}",
+                "Tue8": "{{i18n:LiQingFeng.Tue.8h}}",
+                "Wed8": "{{i18n:LiQingFeng.Wed.8h}}",
+                "Thu8": "{{i18n:LiQingFeng.Thu.8h}}",
+                "Fri8": "{{i18n:LiQingFeng.Fri.8h}}",
+                "Sat8": "{{i18n:LiQingFeng.Sat.8h}}",
+                "Sun8": "{{i18n:LiQingFeng.Sun.8h}}",
+
+                "Mon10": "{{i18n:LiQingFeng.Mon.10h}}",
+                "Tue10": "{{i18n:LiQingFeng.Tue.10h}}",
+                "Wed10": "{{i18n:LiQingFeng.Wed.10h}}",
+                "Thu10": "{{i18n:LiQingFeng.Thu.10h}}",
+                "Fri10": "{{i18n:LiQingFeng.Fri.10h}}",
+                "Sat10": "{{i18n:LiQingFeng.Sat.10h}}",
+                "Sun10": "{{i18n:LiQingFeng.Sun.10h}}",
+
+                "summer_Mon": "{{i18n:LiQingFeng.summer.Mon.0h}}",
+                "summer_Tue": "{{i18n:LiQingFeng.summer.Tue.0h}}",
+                "summer_Wed": "{{i18n:LiQingFeng.summer.Wed.0h}}",
+                "summer_Thu": "{{i18n:LiQingFeng.summer.Thu.0h}}",
+                "summer_Fri": "{{i18n:LiQingFeng.summer.Fri.0h}}",
+                "summer_Sat": "{{i18n:LiQingFeng.summer.Sat.0h}}",
+                "summer_Sun": "{{i18n:LiQingFeng.summer.Sun.0h}}",
+
+                "summer_Mon2": "{{i18n:LiQingFeng.summer.Mon.2h}}",
+                "summer_Tue2": "{{i18n:LiQingFeng.summer.Tue.2h}}",
+                "summer_Wed2": "{{i18n:LiQingFeng.summer.Wed.2h}}",
+                "summer_Thu2": "{{i18n:LiQingFeng.summer.Thu.2h}}",
+                "summer_Fri2": "{{i18n:LiQingFeng.summer.Fri.2h}}",
+                "summer_Sat2": "{{i18n:LiQingFeng.summer.Sat.2h}}",
+                "summer_Sun2": "{{i18n:LiQingFeng.summer.Sun.2h}}",
+
+                "summer_Mon4": "{{i18n:LiQingFeng.summer.Mon.4h}}",
+                "summer_Tue4": "{{i18n:LiQingFeng.summer.Tue.4h}}",
+                "summer_Wed4": "{{i18n:LiQingFeng.summer.Wed.4h}}",
+                "summer_Thu4": "{{i18n:LiQingFeng.summer.Thu.4h}}",
+                "summer_Fri4": "{{i18n:LiQingFeng.summer.Fri.4h}}",
+                "summer_Sat4": "{{i18n:LiQingFeng.summer.Sat.4h}}",
+                "summer_Sun4": "{{i18n:LiQingFeng.summer.Sun.4h}}",
+
+                "summer_Mon6": "{{i18n:LiQingFeng.summer.Mon.6h}}",
+                "summer_Tue6": "{{i18n:LiQingFeng.summer.Tue.6h}}",
+                "summer_Wed6": "{{i18n:LiQingFeng.summer.Wed.6h}}",
+                "summer_Thu6": "{{i18n:LiQingFeng.summer.Thu.6h}}",
+                "summer_Fri6": "{{i18n:LiQingFeng.summer.Fri.6h}}",
+                "summer_Sat6": "{{i18n:LiQingFeng.summer.Sat.6h}}",
+                "summer_Sun6": "{{i18n:LiQingFeng.summer.Sun.6h}}",
+
+                "summer_Mon8": "{{i18n:LiQingFeng.summer.Mon.8h}}",
+                "summer_Tue8": "{{i18n:LiQingFeng.summer.Tue.8h}}",
+                "summer_Wed8": "{{i18n:LiQingFeng.summer.Wed.8h}}",
+                "summer_Thu8": "{{i18n:LiQingFeng.summer.Thu.8h}}",
+                "summer_Fri8": "{{i18n:LiQingFeng.summer.Fri.8h}}",
+                "summer_Sat8": "{{i18n:LiQingFeng.summer.Sat.8h}}",
+                "summer_Sun8": "{{i18n:LiQingFeng.summer.Sun.8h}}",
+
+                "summer_Mon10": "{{i18n:LiQingFeng.summer.Mon.10h}}",
+                "summer_Tue10": "{{i18n:LiQingFeng.summer.Tue.10h}}",
+                "summer_Wed10": "{{i18n:LiQingFeng.summer.Wed.10h}}",
+                "summer_Thu10": "{{i18n:LiQingFeng.summer.Thu.10h}}",
+                "summer_Fri10": "{{i18n:LiQingFeng.summer.Fri.10h}}",
+                "summer_Sat10": "{{i18n:LiQingFeng.summer.Sat.10h}}",
+                "summer_Sun10": "{{i18n:LiQingFeng.summer.Sun.10h}}",
+
+                "fall_Mon": "{{i18n:LiQingFeng.fall.Mon.0h}}",
+                "fall_Tue": "{{i18n:LiQingFeng.fall.Tue.0h}}",
+                "fall_Wed": "{{i18n:LiQingFeng.fall.Wed.0h}}",
+                "fall_Thu": "{{i18n:LiQingFeng.fall.Thu.0h}}",
+                "fall_Fri": "{{i18n:LiQingFeng.fall.Fri.0h}}",
+                "fall_Sat": "{{i18n:LiQingFeng.fall.Sat.0h}}",
+                "fall_Sun": "{{i18n:LiQingFeng.fall.Sun.0h}}",
+
+                "fall_Mon2": "{{i18n:LiQingFeng.fall.Mon.2h}}",
+                "fall_Tue2": "{{i18n:LiQingFeng.fall.Tue.2h}}",
+                "fall_Wed2": "{{i18n:LiQingFeng.fall.Wed.2h}}",
+                "fall_Thu2": "{{i18n:LiQingFeng.fall.Thu.2h}}",
+                "fall_Fri2": "{{i18n:LiQingFeng.fall.Fri.2h}}",
+                "fall_Sat2": "{{i18n:LiQingFeng.fall.Sat.2h}}",
+                "fall_Sun2": "{{i18n:LiQingFeng.fall.Sun.2h}}",
+
+                "fall_Mon4": "{{i18n:LiQingFeng.fall.Mon.4h}}",
+                "fall_Tue4": "{{i18n:LiQingFeng.fall.Tue.4h}}",
+                "fall_Wed4": "{{i18n:LiQingFeng.fall.Wed.4h}}",
+                "fall_Thu4": "{{i18n:LiQingFeng.fall.Thu.4h}}",
+                "fall_Fri4": "{{i18n:LiQingFeng.fall.Fri.4h}}",
+                "fall_Sat4": "{{i18n:LiQingFeng.fall.Sat.4h}}",
+                "fall_Sun4": "{{i18n:LiQingFeng.fall.Sun.4h}}",
+
+                "fall_Mon6": "{{i18n:LiQingFeng.fall.Mon.6h}}",
+                "fall_Tue6": "{{i18n:LiQingFeng.fall.Tue.6h}}",
+                "fall_Wed6": "{{i18n:LiQingFeng.fall.Wed.6h}}",
+                "fall_Thu6": "{{i18n:LiQingFeng.fall.Thu.6h}}",
+                "fall_Fri6": "{{i18n:LiQingFeng.fall.Fri.6h}}",
+                "fall_Sat6": "{{i18n:LiQingFeng.fall.Sat.6h}}",
+                "fall_Sun6": "{{i18n:LiQingFeng.fall.Sun.6h}}",
+
+                "fall_Mon8": "{{i18n:LiQingFeng.fall.Mon.8h}}",
+                "fall_Tue8": "{{i18n:LiQingFeng.fall.Tue.8h}}",
+                "fall_Wed8": "{{i18n:LiQingFeng.fall.Wed.8h}}",
+                "fall_Thu8": "{{i18n:LiQingFeng.fall.Thu.8h}}",
+                "fall_Fri8": "{{i18n:LiQingFeng.fall.Fri.8h}}",
+                "fall_Sat8": "{{i18n:LiQingFeng.fall.Sat.8h}}",
+                "fall_Sun8": "{{i18n:LiQingFeng.fall.Sun.8h}}",
+
+                "fall_Mon10": "{{i18n:LiQingFeng.fall.Mon.10h}}",
+                "fall_Tue10": "{{i18n:LiQingFeng.fall.Tue.10h}}",
+                "fall_Wed10": "{{i18n:LiQingFeng.fall.Wed.10h}}",
+                "fall_Thu10": "{{i18n:LiQingFeng.fall.Thu.10h}}",
+                "fall_Fri10": "{{i18n:LiQingFeng.fall.Fri.10h}}",
+                "fall_Sat10": "{{i18n:LiQingFeng.fall.Sat.10h}}",
+                "fall_Sun10": "{{i18n:LiQingFeng.fall.Sun.10h}}",
+
+                "winter_Mon": "{{i18n:LiQingFeng.winter.Mon.0h}}",
+                "winter_Tue": "{{i18n:LiQingFeng.winter.Tue.0h}}",
+                "winter_Wed": "{{i18n:LiQingFeng.winter.Wed.0h}}",
+                "winter_Thu": "{{i18n:LiQingFeng.winter.Thu.0h}}",
+                "winter_Fri": "{{i18n:LiQingFeng.winter.Fri.0h}}",
+                "winter_Sat": "{{i18n:LiQingFeng.winter.Sat.0h}}",
+                "winter_Sun": "{{i18n:LiQingFeng.winter.Sun.0h}}",
+
+                "winter_Mon2": "{{i18n:LiQingFeng.winter.Mon.2h}}",
+                "winter_Tue2": "{{i18n:LiQingFeng.winter.Tue.2h}}",
+                "winter_Wed2": "{{i18n:LiQingFeng.winter.Wed.2h}}",
+                "winter_Thu2": "{{i18n:LiQingFeng.winter.Thu.2h}}",
+                "winter_Fri2": "{{i18n:LiQingFeng.winter.Fri.2h}}",
+                "winter_Sat2": "{{i18n:LiQingFeng.winter.Sat.2h}}",
+                "winter_Sun2": "{{i18n:LiQingFeng.winter.Sun.2h}}",
+
+                "winter_Mon4": "{{i18n:LiQingFeng.winter.Mon.4h}}",
+                "winter_Tue4": "{{i18n:LiQingFeng.winter.Tue.4h}}",
+                "winter_Wed4": "{{i18n:LiQingFeng.winter.Wed.4h}}",
+                "winter_Thu4": "{{i18n:LiQingFeng.winter.Thu.4h}}",
+                "winter_Fri4": "{{i18n:LiQingFeng.winter.Fri.4h}}",
+                "winter_Sat4": "{{i18n:LiQingFeng.winter.Sat.4h}}",
+                "winter_Sun4": "{{i18n:LiQingFeng.winter.Sun.4h}}",
+
+                "winter_Mon6": "{{i18n:LiQingFeng.winter.Mon.6h}}",
+                "winter_Tue6": "{{i18n:LiQingFeng.winter.Tue.6h}}",
+                "winter_Wed6": "{{i18n:LiQingFeng.winter.Wed.6h}}",
+                "winter_Thu6": "{{i18n:LiQingFeng.winter.Thu.6h}}",
+                "winter_Fri6": "{{i18n:LiQingFeng.winter.Fri.6h}}",
+                "winter_Sat6": "{{i18n:LiQingFeng.winter.Sat.6h}}",
+                "winter_Sun6": "{{i18n:LiQingFeng.winter.Sun.6h}}",
+
+                "winter_Mon8": "{{i18n:LiQingFeng.winter.Mon.8h}}",
+                "winter_Tue8": "{{i18n:LiQingFeng.winter.Tue.8h}}",
+                "winter_Wed8": "{{i18n:LiQingFeng.winter.Wed.8h}}",
+                "winter_Thu8": "{{i18n:LiQingFeng.winter.Thu.8h}}",
+                "winter_Fri8": "{{i18n:LiQingFeng.winter.Fri.8h}}",
+                "winter_Sat8": "{{i18n:LiQingFeng.winter.Sat.8h}}",
+                "winter_Sun8": "{{i18n:LiQingFeng.winter.Sun.8h}}",
+
+                "winter_Mon10": "{{i18n:LiQingFeng.winter.Mon.10h}}",
+                "winter_Tue10": "{{i18n:LiQingFeng.winter.Tue.10h}}",
+                "winter_Wed10": "{{i18n:LiQingFeng.winter.Wed.10h}}",
+                "winter_Thu10": "{{i18n:LiQingFeng.winter.Thu.10h}}",
+                "winter_Fri10": "{{i18n:LiQingFeng.winter.Fri.10h}}",
+                "winter_Sat10": "{{i18n:LiQingFeng.winter.Sat.10h}}",
+                "winter_Sun10": "{{i18n:LiQingFeng.winter.Sun.10h}}",
+
+                "spring_12":"{{i18n:LiQingFeng.spring.12}}",
+                "spring_13":"{{i18n:LiQingFeng.spring.13}}",
+                "spring_16":"{{i18n:LiQingFeng.spring.16}}",
+                "spring_23":"{{i18n:LiQingFeng.spring.23}}",
+                "spring_24":"{{i18n:LiQingFeng.spring.24}}",
+                "summer_10": "{{i18n:LiQingFeng.summer.10}}",
+                "summer_11": "{{i18n:LiQingFeng.summer.11}}",
+                "summer_28": "{{i18n:LiQingFeng.summer.28}}",
+                "fall_15": "{{i18n:LiQingFeng.fall.15}}",
+                "fall_16": "{{i18n:LiQingFeng.fall.16}}",
+                "fall_27": "{{i18n:LiQingFeng.fall.27}}",
+                "winter_7": "{{i18n:LiQingFeng.winter.7}}",
+                "winter_14": "{{i18n:LiQingFeng.winter.14}}",
+                "winter_17": "{{i18n:LiQingFeng.winter.17}}",
+                "winter_24": "{{i18n:LiQingFeng.winter.24}}",
+                "winter_25": "{{i18n:LiQingFeng.winter.25}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RedPandaBazaar_LiQingFeng",
+            "Entries": {
+                "AcceptBirthdayGift_Loved": "{{i18n:Spouse.LiQingFeng.GiftReaction.Birthday.Love}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:Spouse.LiQingFeng.GiftReaction.Birthday.Like}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:Spouse.LiQingFeng.GiftReaction.Birthday.Neutral}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:Spouse.LiQingFeng.GiftReaction.Birthday.Dislike}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:Spouse.LiQingFeng.GiftReaction.Birthday.Hate}}",
+
+                "AcceptBouquet": "{{i18n:Spouse.LiQingFeng.AcceptBouquet}}",
+
+                "AcceptGift_(O)18": "{{i18n:Spouse.LiQingFeng.Gift.Daffodil}}",
+                "AcceptGift_(O)60": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)62": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)64": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)66": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)68": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)70": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)72": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)74": "{{i18n:Spouse.LiQingFeng.Gift.Prismatic.Shard}}",
+                "AcceptGift_(O)80": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)82": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)84": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)86": "{{i18n:Spouse.LiQingFeng.Gift.Gemstones}}",
+                "AcceptGift_(O)88": "{{i18n:Spouse.LiQingFeng.Gift.Coconut}}",
+                "AcceptGift_(O)90": "{{i18n:Spouse.LiQingFeng.Gift.Cactus.Fruit}}",
+
+                "AcceptGift_(O)96": "{{i18n:Spouse.LiQingFeng.Gift.Dwarf.Scroll}}",
+                "AcceptGift_(O)97": "{{i18n:Spouse.LiQingFeng.Gift.Dwarf.Scroll}}",
+                "AcceptGift_(O)98": "{{i18n:Spouse.LiQingFeng.Gift.Dwarf.Scroll}}",
+                "AcceptGift_(O)99": "{{i18n:Spouse.LiQingFeng.Gift.Dwarf.Scroll}}",
+
+                "AcceptGift_(O)303": "{{i18n:Spouse.LiQingFeng.Gift.Wine}}",
+                "AcceptGift_(O)346": "{{i18n:Spouse.LiQingFeng.Gift.Wine}}",
+                "AcceptGift_(O)348": "{{i18n:Spouse.LiQingFeng.Gift.Wine}}",
+                "AcceptGift_(O)459": "{{i18n:Spouse.LiQingFeng.Gift.Wine}}",
+
+                "AcceptGift_(O)184": "{{i18n:Spouse.LiQingFeng.Gift.Milk}}",
+                "AcceptGift_(O)424": "{{i18n:Spouse.LiQingFeng.Gift.Cheese}}",
+                "AcceptGift_(O)446": "{{i18n:Spouse.LiQingFeng.Gift.Rabbit's.Foot}}",
+                "AcceptGift_(O)614": "{{i18n:Spouse.LiQingFeng.Gift.Green.Tea}}",
+                "AcceptGift_(O)636": "{{i18n:Spouse.LiQingFeng.Gift.Peach}}",
+                "AcceptGift_(O)797": "{{i18n:Spouse.LiQingFeng.Gift.Pearl}}",
+
+                "AcceptGift_(O)RedPandaBazaar_Pearl_Milk_Tea": "{{i18n:Spouse.LiQingFeng.Gift.Pearl.Milk.Tea}}",
+
+                "AcceptGift_(O)SeaJelly": "{{i18n:Spouse.LiQingFeng.Gift.Jelly}}",
+                "AcceptGift_(O)RiverJelly": "{{i18n:Spouse.LiQingFeng.Gift.Jelly}}",
+                "AcceptGift_(O)CaveJelly": "{{i18n:Spouse.LiQingFeng.Gift.Jelly}}",
+
+                "AcceptGift_(O)MysticSyrup": "{{i18n:Spouse.LiQingFeng.Gift.MysticSyrup}}",
+                "AcceptGift_(O)GoldenAnimalCracker": "{{i18n:Spouse.LiQingFeng.Gift.GoldenAnimalCracker}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Spouse.LiQingFeng.Gift.StardropTea}}",
+
+                "DumpsterDiveComment": "{{i18n:Spouse.LiQingFeng.DumpsterDiveComment}}",
+                "HitBySlingshot": "{{i18n:Spouse.LiQingFeng.HitBySlingshot}}",
+                "MovieInvitation": "{{i18n:Spouse.LiQingFeng.MovieInvitation}}",
+
+                "cc_Complete": "{{i18n:Spouse.LiQingFeng.cc.Complete}}",
+                "cc_Bus": "{{i18n:Spouse.LiQingFeng.cc.Bus}}",
+                "joja_Begin": "{{i18n:Spouse.LiQingFeng.joja.Begin}}",
+                "movieTheater": "{{i18n:Spouse.LiQingFeng.movieTheater}}",
+
+                "GreenRain": "{{i18n:Spouse.LiQingFeng.GreenRain}}",
+                "GreenRainFinished": "{{i18n:Spouse.LiQingFeng.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:Spouse.LiQingFeng.GreenRain.2}}",
+
+                "Resort": "{{i18n:Spouse.LiQingFeng.Resort}}"
+            },
+                "When": {
+                    "Spouse": "RedPandaBazaar_LiQingFeng"
+                }
+            },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "RedPandaBazaar_LiQingFeng0": "{{i18n:LiQingFeng.Engagement.1}}",
+                "RedPandaBazaar_LiQingFeng1": "{{i18n:LiQingFeng.Engagement.2}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.3980": "{{i18n:LiQingFeng.cs.3980}}"
+            },
+            "When": {
+                "Relationship:RedPandaBazaar_LiQingFeng": "Dating"
+            }
+        }
+    ]
+}

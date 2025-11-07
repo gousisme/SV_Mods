@@ -1,0 +1,87 @@
+{
+  "Changes": [
+
+    {
+        "LogName": "Add Plant Catalogue Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "HXW.PlantLoverSet": {
+            "PriceModifiers": null,
+            "PriceModifierMode": "Stack",
+            "Items": [
+                {
+                "Price": 0,
+                "AvailableStockLimit": "Global",
+                "AvoidRepeat": false,
+                "UseObjectDataPrice": false,
+                "IgnoreShopPriceModifiers": false,
+                "PriceModifiers": null,
+                "PriceModifierMode": "Stack",
+                "AvailableStockModifiers": null,
+                "AvailableStockModifierMode": "Stack",
+                "Condition": null,
+                "Id": "Default",
+                "ItemId": "ALL_ITEMS (F)",
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwplantfurni"
+                }
+            ],
+            "CustomFields":{
+                "HappyHomeDesigner/Catalogue":"true"
+            }
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Plant Catalogue Item",
+        "Action": "EditData",
+        "Target": "Data/Furniture",
+        "Entries": {    
+                    "HXW.PlantLoversFurni_Catalogue": "HXW.PlantLoversFurni_Catalogue/other/1 2/1 1/1/35000/2/{{i18n:PlantLoversFurni_Catalogue}}/69/Mods\\HXW.PlantLoversFurni\\Furniture/true"
+        }
+    },
+  
+    {
+        "LogName": "Add Plant Catalogue Tile Actions",
+        "Action": "EditData",
+        "Target": "sophie.Calcifer/FurnitureActions",
+        "Entries": {
+            "(F)HXW.PlantLoversFurni_Catalogue": {
+                "TileActions": [
+                    {
+                        "TileAction": "OpenShop HXW.PlantLoverSet"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Plant Catalogue to Robin's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Carpenter", "Items" ],
+        "Entries": {
+            "HXW.PlantLoversFurni_Catalogue": {
+                "Id": "HXW.PlantLoversFurni_Catalogue",
+                "ItemId": "(F)HXW.PlantLoversFurni_Catalogue",
+                "Price": 35000
+            }
+        }
+    }
+   
+  ]
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,357 @@
+{
+    "Format": "2.0.0",
+    "CustomLocations": [
+        {
+            "Name": "Custom_SBV_RipleyHouse", //ALWAYS include 'Custom_' at the beginning of your map name, this will reflect the name used in-game.
+            "FromMapFile": "Assets/Maps/RipleyHouse.tmx" //You don't need to add the 'Custom' bit to this, this is just where your map is located in your folder.
+        }
+    ],
+    "Changes": [
+        // Load all texture sheets unconditionally
+        {
+            "LogName": "Ripley - Load Textures",
+            "Action": "Load",
+            "Target": "Characters/Clara.Ripley/Spring, Characters/Clara.Ripley/Summer, Characters/Clara.Ripley/Fall, Characters/Clara.Ripley/Winter, Characters/Clara.Ripley/Cloak_Outdoors, Characters/Clara.Ripley/Cloak_Indoors, Characters/Clara.Ripley/Beach, Characters/Clara.Ripley/FlowerDance, Characters/Clara.Ripley/SpiritsEve, Portraits/Clara.Ripley/Spring, Portraits/Clara.Ripley/Summer, Portraits/Clara.Ripley/Fall, Portraits/Clara.Ripley/Winter, Portraits/Clara.Ripley/Cloak_Outdoors, Portraits/Clara.Ripley/Cloak_Indoors, Portraits/Clara.Ripley/Beach, Portraits/Clara.Ripley/FlowerDance, Portraits/Clara.Ripley/SpiritsEve",
+            "FromFile": "assets/{{Target}}.png"
+        },
+
+        {
+            "LogName": "Ripley - Load Default Textures",
+            "Action": "Load",
+            "Target": "Characters/Clara.Ripley, Portraits/Clara.Ripley",
+            "FromFile": "assets/{{Target}}/spring.png"
+        },
+
+        //Blank JSON load for dialogue/schedules
+        {
+            "LogName": "Blank JSON load",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Clara.Ripley, Characters/schedules/Clara.Ripley, Strings/schedules/Clara.Ripley, Data/Events/Custom_SBV_RipleyHouse",
+            "FromFile": "Data/blank.json"
+        },
+
+        // Includes
+        {
+            "LogName": "Schedule/Dialogue Includes",
+            "Action": "Include",
+            "FromFile": "Data/schedule.json, Data/dialogue.json, Data/scheduledialogue.json"
+        },
+
+        // NPC Data
+        {
+            "LogName": "Include NPC Data",
+            "Action": "Include",
+            "FromFile": "Data/NPCData/Dispositions.json, Data/NPCData/Animations.json"
+        },
+
+        // Event Data
+        {
+            "LogName": "Include Event Data",
+            "Action": "Include",
+            "FromFile": "Data/EventData/RipleyEvents.json"
+        },
+
+        {
+            "LogName": "Ripley - Load Event Textures",
+            "Action": "Load",
+            "Target": "Portraits/Clara.Ripley_Cloak_Indoors",
+            "FromFile": "assets/Portraits/Clara.Ripley/Cloak_Indoors.png"
+        },
+
+        //Festival Data 
+        {
+            "LogName": "Festival Include",
+            "Action": "Include",
+            "FromFile": "Data/Festivals.json, Data/TwilightFestival.json"
+        },
+
+        //Actors
+        {
+            "Action": "Include",
+            "FromFile": "assets/tempActors.json"
+        },
+
+        {
+            "LogName": "Include Map Data",
+            "Action": "Include",
+            "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapPatches.json, Data/MapData/MapWarps.json, Data/MapData/ChristmasLights.json, Data/MapData/MapStrings.json"
+        },
+
+        {
+            "LogName": "Include Dependency Data",
+            "Action": "Include",
+            "FromFile": "Data/DependencyData/CustomCompanions.json"
+        },
+
+
+        // Dependency Data
+        {
+            //GiftTastes
+            "LogName": "Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Clara.Ripley": "Is this for me? Aw, thanks, buttercup, you're a real treat./205 222 281 257 422 259 Wildflour.SASS_Queen_Bolete AcceptGift_(O)Wildflour.SASS_Baby_Bluegill AcceptGift_(O)Wildflour.SASS_Blushing_TopHat AcceptGift_(O)Wildflour.SASS_Bubblegum_Funnel AcceptGift_(O)Wildflour.SASS_Candy_Button AcceptGift_(O)Wildflour.SASS_Coral_Fungus AcceptGift_(O)Wildflour.SASS_Frilly_Gilly AcceptGift_(O)Wildflour.SASS_Ghostly_Parasol AcceptGift_(O)Wildflour.SASS_Indigo_Cap AcceptGift_(O)Wildflour.SASS_Lilac_Funnel AcceptGift_(O)Wildflour.SASS_Limey_Bonnet AcceptGift_(O)Wildflour.SASS_Lunar_Poof AcceptGift_(O)Wildflour.SASS_Midas_Cap AcceptGift_(O)Wildflour.SASS_Midnight_Milkcap AcceptGift_(O)Wildflour.SASS_Mottled_Fieldcap AcceptGift_(O)Wildflour.SASS_Rosey_Elfcup AcceptGift_(O)Wildflour.SASS_Rustgill AcceptGift_(O)Wildflour.SASS_Seafoam_Waxcap AcceptGift_(O)Wildflour.SASS_Shrumbus AcceptGift_(O)Wildflour.SASS_Sparkling_Agaric AcceptGift_(O)Wildflour.SASS_Stout_Funnel/Hey, how thoughtful of ya! Thank you kindly!/404 408 410 420 724 721/Oh, well, thank you, I s'pose it's the thought that counts./190 728 232 197/Oh, I dunno if I can accept this... but thanks for thinking of me, darlin'./648 208/Oh, uh, thanks for thinkin' of me, sunshine!$9/./"
+                // LOVE - LIKE - DISLIKE - HATE - NEUTRAL
+            }
+        },
+
+        //RIPLEY FILES 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 15
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Warp 15 18 Custom_SBV_RipleyHouse"
+                    }
+                }
+            ],
+            "When": {
+                "HasMod: |contains=skellady.SBVCP": true
+            }
+        },
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_TwilightFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 15
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Warp 15 18 Custom_SBV_RipleyHouse"
+                    }
+                }
+            ],
+            "When": {
+                "HasMod: |contains=skellady.SBVCP": true
+            }
+        },
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "PatchMode": "Replace",
+            "FromFile": "Assets/Maps/ripley_stump.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 20,
+                "Y": 90,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "DayOfWeek": "Sunday, Monday, Wednesday, Thursday"
+            }
+        },
+
+        //Ripley's Twilight Festival Stall
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_TwilightFestival",
+            "PatchMode": "Overlay",
+            "FromFile": "Assets/Maps/ripley_twilightfestival.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 5,
+                "Height": 5
+            },
+            "ToArea": {
+                "X": 15,
+                "Y": 74,
+                "Width": 5,
+                "Height": 5
+            }
+        },
+
+        {
+            "LogName": "Ripley World Map Patch",
+            "Action": "EditImage",
+            "Target": "Mods/skellady.SBVCP/SBVMap",
+            "FromFile": "Assets/Maps/WorldMap/{{Season}}_SBVMap.png",
+
+            "FromArea": {
+                "X": 5,
+                "Y": 86,
+                "Width": 26,
+                "Height": 26
+            },
+            "ToArea": {
+                "X": 41,
+                "Y": 122,
+                "Width": 26,
+                "Height": 26
+            },
+            "PatchMode": "Replace"
+        }
+
+    ],
+    "DynamicTokens": [
+
+        {
+			"Name": "FestivalYear",
+			"Value": ""
+		},
+		
+		{
+			"Name": "FestivalYear",
+			"Value": "_y2", 
+			"When":
+			{
+				"Query: {{Year}} % 2 = 0": true
+			}
+		},
+
+	
+        //Coordinates
+        {
+            "Name": "SaloonCoords",
+            "Value": "20 19 3"
+        },
+
+        {
+            "Name": "SaloonCoords",
+            "Value": "21 19 1",
+            "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true}
+        },
+
+		// Key suffix
+		
+		// depending on hearts
+        {
+            "Name": "SuffixToken",
+            "Value": "0"
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 0, 2}}",
+            "When":
+            {
+                "Hearts:Clara.Ripley": "{{Range: 2, 3}}"
+            }
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 0, 2, 4}}",
+            "When":
+            {
+                "Hearts:Clara.Ripley": "{{Range: 4, 5}}"
+            }
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 0, 2, 4, 6}}",
+            "When":
+            {
+                "Hearts:Clara.Ripley": "{{Range: 6, 7}}"
+            }
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 2, 4, 6, 8}}",
+            "When":
+            {
+                "Hearts:Clara.Ripley": "{{Range: 8, 9}}"
+            }
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 2, 4, 6, 8, 10}}",
+            "When":
+            {
+                "Hearts:Clara.Ripley": "10"
+            }
+        },
+		// depending on relationship status
+        {
+            "Name": "SuffixToken",
+            "Value": "PostRejection",
+            "When":
+            {
+				"HasConversationTopic |contains=RipleyLTR": true
+            }
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 6, 8, 10, 12}}",
+            "When":
+            {
+                "HasSeenEvent |contains= Ripley_Choice": true,
+                "HasConversationTopic |contains=RipleyLTR": false
+            }
+        },
+        {
+            "Name": "SuffixToken",
+            "Value": "{{Random: 0, 2, 4, 6, BrokenUp, BrokenUp}}",
+            "When":
+            {
+                "HasFlag |contains=RipleyBreakup": true
+            }
+        },
+		
+		// Key prefix - we have to define this after the suffix because we need to know if it selected PostRejection or BrokenUp
+		
+        {
+            "Name": "PrefixToken",
+            "Value": "{{Random:{{Season}},{{DayOfWeek}},{{DayOfWeek}}}}"
+        },
+		// Make seasonal dialogue rarer in early hearts so it doesn't repeat as often (pool is smaller)
+		{
+            "Name": "PrefixToken",
+            "Value": "{{Random:{{Season}},{{DayOfWeek}},{{DayOfWeek}},{{DayOfWeek}}}}",
+            "When":
+            {
+                "Hearts:Clara.Ripley": "{{Range: 0, 3}}"
+            }
+		},
+		// can only be DayOfWeek if it's PostRejection or BrokenUp because there is no seasonal variant of those lines
+		{
+            "Name": "PrefixToken",
+            "Value": "{{DayOfWeek}}",
+            "When":
+            {
+				"SuffixToken |contains=PostRejection, BrokenUp": true
+            }
+		},
+
+		// putting the pieces together - main key
+		{
+			"Name": "KeyToken",
+			"Value": "Ripley.Dialogue.{{PrefixToken}}{{SuffixToken}}",
+		},
+		// in case main key fails for whatever reason
+		{
+			"Name": "BackupKeyToken",
+			"Value": "Ripley.Dialogue.Monday0"
+		},
+		
+		// the beast itself
+		
+		// use this version if you're okay with forcing users to update content patcher
+		{
+			"Name": "DialogueToken",
+			"Value": "{{i18n: {{KeyToken}} |defaultKeys={{BackupKeyToken}}}}"
+		}
+		
+		// otherwise use this version
+		//{
+		//	"Name": "DialogueToken",
+		//	"Value": "{{i18n: {{KeyToken}} |default={{i18n:{{BackupKeyToken}}}}}}
+		//}
+    ]
+}

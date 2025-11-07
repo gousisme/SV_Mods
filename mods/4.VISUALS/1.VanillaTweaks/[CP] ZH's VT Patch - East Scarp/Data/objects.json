@@ -1,0 +1,189 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "Azure Chrysanthemum - SeedSack",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Azure_Chrysanthemum2.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "AzureChrysanthemum": true,
+        "AzureChrysanthemumType": "SeedSack"
+      }
+    },
+    {
+      "LogName": "Azure Chrysanthemum - Seedspot",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Azure_Chrysanthemum.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "AzureChrysanthemum": true,
+        "AzureChrysanthemumType": "Seedspot"
+      }
+    },
+    {
+      "LogName": "Azure Chrysanthemum - Seedbag",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Azure_Chrysanthemum3.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "AzureChrysanthemum": true,
+        "AzureChrysanthemumType": "Seedbag"
+      }
+    },
+    {
+      "LogName": "Bird of Paradise",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Bird_Paradise.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "BirdOfParadise": true
+      }
+    },
+    {
+      "LogName": "Serruria - SeedSack",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Serruria1.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Serruria": true,
+        "SerruriaType": "SeedSack"
+      }
+    },
+    {
+      "LogName": "Serruria - Seedspot",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Serruria2.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Serruria": true,
+        "SerruriaType": "Seedspot"
+      }
+    },
+    {
+      "LogName": "Serruria - Seedbag",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{SeasonalColouredSeedbags}}/Serruria3.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Serruria": true,
+        "SerruriaType": "Seedbag"
+      }
+    },
+    {
+      "LogName": "Moonflower - RareSeed",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{MoonflowerSeasonal}}/Moonflower.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Moonflower": true,
+        "MoonflowerType": "RareSeed"
+      }
+    },
+    {
+      "LogName": "Moonflower - SeedSack",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Seeds/{{MoonflowerSeasonal}}/Moonflower2.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Moonflower": true,
+        "MoonflowerType": "SeedSack"
+      }
+    },
+    {
+      "LogName": "Heirloom Cherry",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Saplings/{{SeasonalColouredSaplings}}/Cherry.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "CherrySapling": true
+      }
+    },
+    {
+      "LogName": "Wild Plum",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/Lemurkat.EastScarp/esobjects",
+      "FromFile": "Assets/{{SaturationToggle}}/Saplings/{{SeasonalColouredSaplings}}/wild_plum.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "WildPlumSapling": true
+      }
+    }
+  ]
+}

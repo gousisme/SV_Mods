@@ -1,0 +1,180 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "LiQingFengCafe1.13.21": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "LiQingFengCafe1.13.21",
+                  "Dialogue": "{{i18n:Shops.LiQingFengCafe1.13.21}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "LiQingFengCafe1.CoffeePopsicle",
+              "ItemId": "RedPandaBazaar_Coffee_Popsicle",
+              "Price": 300,
+              "AvailableStock": 3
+            },
+            {
+              "Id": "LiQingFengCafe1.FernPopsicle",
+              "ItemId": "RedPandaBazaar_Fern_Popsicle",
+              "Price": 300,
+              "AvailableStock": 3
+            },
+            {
+              "Id": "LiQingFengCafe1.MangoPopsicle",
+              "ItemId": "RedPandaBazaar_Mango_Popsicle",
+              "Price": 300,
+              "AvailableStock": 3
+            },
+            {
+              "Id": "LiQingFengCafe1.Peach_Popsicle",
+              "ItemId": "RedPandaBazaar_Peach_Popsicle",
+              "Price": 300,
+              "AvailableStock": 3
+            },
+            {
+              "Id": "LiQingFengCafe1.PumpkinPopsicle",
+              "ItemId": "RedPandaBazaar_Pumpkin_Popsicle",
+              "Price": 300,
+              "AvailableStock": 3
+            }
+          ]
+        },
+        "LiQingFengCafe1.8.24": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "LiQingFengCafe1.8.24",
+                  "Dialogue": "{{i18n:Shops.LiQingFengCafe1.8.24}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar_Fern_Popsicle_Recipe",
+              "ItemId": "RedPandaBazaar_Fern_Popsicle",
+              "TradeItemId": "259",
+              "TradeItemAmount": 3,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Peach_Popsicle_Recipe",
+              "ItemId": "RedPandaBazaar_Peach_Popsicle",
+              "TradeItemId": "636",
+              "TradeItemAmount": 1,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Coffee_Popsicle_Recipe",
+              "ItemId": "RedPandaBazaar_Coffee_Popsicle",
+              "TradeItemId": "253",
+              "TradeItemAmount": 1,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Mango_Popsicle_Recipe",
+              "ItemId": "RedPandaBazaar_Mango_Popsicle",
+              "TradeItemId": "834",
+              "TradeItemAmount": 1,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Pumpkin_Popsicle_Recipe",
+              "ItemId": "RedPandaBazaar_Pumpkin_Popsicle",
+              "TradeItemId": "267",
+              "TradeItemAmount": 1,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Golden_Cupcake_Recipe",
+              "ItemId": "RedPandaBazaar_Golden_Cupcake",
+              "TradeItemId": "336",
+              "TradeItemAmount": 99,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Golden_Delight_Recipe",
+              "ItemId": "RedPandaBazaar_Golden_Delight",
+              "TradeItemId": "336",
+              "TradeItemAmount": 99,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Golden_Flavor_Popsicle_Recipe",
+              "ItemId": "RedPandaBazaar_Golden_Flavor_Popsicle",
+              "TradeItemId": "336",
+              "TradeItemAmount": 99,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Fairy_Rose_Cake_Recipe",
+              "ItemId": "RedPandaBazaar_Fairy_Rose_Cake",
+              "TradeItemId": "595",
+              "TradeItemAmount": 1,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Custard_Pie_Recipe",
+              "ItemId": "RedPandaBazaar_Custard_Pie",
+              "TradeItemId": "245",
+              "TradeItemAmount": 5,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Buttermilk_Bake_Recipe",
+              "ItemId": "RedPandaBazaar_Buttermilk_Bake",
+              "TradeItemId": "245",
+              "TradeItemAmount": 3,
+              "IsRecipe": "true"
+            },
+            {
+              "Id": "RedPandaBazaar_Milk_Pudding_Recipe",
+              "ItemId": "RedPandaBazaar_Milk_Pudding",
+              "TradeItemId": "RedPandaBazaar_Buttermilk_Bake",
+              "TradeItemAmount": 1,
+              "IsRecipe": "true"
+            }
+          ]
+        },
+        "LiQingFengCafe1.11.24": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "LiQingFengCafe1.11.24",
+                  "Dialogue": "{{i18n:Shops.LiQingFengCafe1.11.24}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "LiQingFengCafe1.Coffee1",
+              "ItemId": "395",
+              "Price": 0,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "LiQingFengCafe1.Coffee2",
+              "ItemId": "395",
+              "Price": 300
+            }
+          ]
+        }
+      }
+    }
+    ]
+}

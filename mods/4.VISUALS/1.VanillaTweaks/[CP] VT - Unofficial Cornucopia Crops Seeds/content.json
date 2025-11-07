@@ -1,0 +1,85 @@
+{
+	"Format": "2.0.0",
+    
+    "ConfigSchema": {
+    // TYPE TOGGLES
+        "SaturationToggle": 
+		{
+			// "AllowValues": "Saturated, Desaturated",
+            "AllowValues": "Saturated",
+            "Default": "Saturated"
+		},
+		"SeasonalColouredSeedbags": 
+		{
+			"AllowValues": "Seasonal, NonSeasonal",
+			"Default": "Seasonal"
+		},
+    // TOGGLES CATEGORIES
+        "SeedBagsEnabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggles"
+		},
+        "SaplingsEnabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggles"
+		},
+        // "BushesEnabled": {
+		// 	"AllowValues": "true, false",
+		// 	"Default": "true",
+		// 	"Section": "Toggles"
+		// },
+        
+        // "ToggleAltSeedbags": {
+        // "AllowValues": "true, false",
+		// 	"Default": "true",
+		// 	"Section": "Toggles"
+        // },
+        
+    // SEED COLLECTIONS
+        
+        "AltSeedbag": {
+            "AllowMultiple": true,
+            "AllowValues": "Watermelon, Capsicum, Sugarcane, Peanut, Wasabi, Wormwood, AdzukiBean, Coriander, Dill, Fennel, Fenugreek, Perilla, Rosemary, Sage, Tarragon, Thyme",
+            "Default": "Watermelon, Capsicum, Sugarcane, Peanut, Wasabi, Wormwood, AdzukiBean, Coriander, Dill, Fennel, Fenugreek, Perilla, Rosemary, Sage, Tarragon, Thyme",
+            "Section": "Alternate Seedbag Icons"
+        },
+
+        "UniqueSeedbag": {
+            "AllowMultiple": true,
+            "AllowValues": "Kiwifruit, Passionfruit, Ginseng",
+            "Default": "Kiwifruit, Passionfruit, Ginseng",
+            "Section": "Unique Bag Colours"
+        },
+        
+        "AltSapling": {
+            "AllowMultiple": true,
+            "AllowValues": "Cocoa, Cashew, Walnut, Camphor, Eucalyptus, Melaleuca",
+            "Default": "Cocoa, Cashew, Walnut, Camphor, Eucalyptus, Melaleuca",
+            "Section": "Alternate Saplings"
+        },
+    },
+
+    // CODE POINTERS
+    "Changes": [
+        {
+            "LogName": "Crops Seed Code",
+            "Action": "Include",
+            "FromFile": "Code/SeedBags.json",
+            "When": { "SeedBagsEnabled": true}
+        },
+        {
+            "LogName": "Crops Saplings Code",
+            "Action": "Include",
+            "FromFile": "Code/Sapling.json",
+            "When": { "SaplingsEnabled": true}
+        },
+        // {dddds
+        //     "LogName": "Crops Bushes Code",
+        //     "Action": "Include",
+        //     "FromFile": "Code/Bush.json",
+        //     "When": { "BushesEnabled": true}
+        // }
+    ]
+}

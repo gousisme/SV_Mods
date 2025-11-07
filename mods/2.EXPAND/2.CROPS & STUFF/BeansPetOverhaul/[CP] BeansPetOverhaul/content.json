@@ -1,0 +1,57 @@
+{
+
+  "Format": "2.4.0",
+  
+  "ConfigSchema": {
+	  "Fox": {
+		  "AllowValues": "FoxRed, FoxArctic, FoxBrown, FoxGray, FoxSilver",
+		  "AllowMultiple": true,
+		  "Default": "FoxRed"},
+    "Fennec": {
+		  "AllowValues": "FennecSand, FennecCream",
+		  "AllowMultiple": true,
+		  "Default": "FennecSand"},  
+    "MiniPig": {
+		  "AllowValues": "MiniPigPink, MiniPigBlack, MiniPigBrown, MiniPigCream",
+		  "AllowMultiple": true,
+		  "Default": "MiniPigCream"},
+    "Ferret": {
+		  "AllowValues": "FerretBrown, FerretBlack, FerretCream, FerretGray, FerretLightBrown",
+		  "AllowMultiple": true,
+		  "Default": "FerretBrown"},
+    "Hedgehog": {
+		  "AllowValues": "HedgehogBrown, HedgehogBlack, HedgehogGray, HedgehogBlue, HedgehogPinto",
+		  "AllowMultiple": true,
+		  "Default": "HedgehogGray"},
+    "Capybara": {
+		  "AllowValues": "Capybara",
+		  "AllowMultiple": true,
+		  "Default": "Capybara"},
+    "RedPanda": {
+		  "AllowValues": "RedPanda",
+		  "AllowMultiple": true,
+		  "Default": "RedPanda"},
+    "BeardedDragon": {
+		  "AllowValues": "BeardedAlbino, BeardedBrown, BeardedOrange, BeardedRed, BeardedSand, BeardedYellow",
+		  "AllowMultiple": true,
+		  "Default": "BeardedSand"},
+	"Gecko": {
+		  "AllowValues": "GeckoAlbino, GeckoBlack, GeckoBlue, GeckoBrown, GeckoLime, GeckoYellow",
+		  "AllowMultiple": true,
+		  "Default": "GeckoYellow"},
+	"Bear": {
+		  "AllowValues": "BearBrown, BearBlack, BearPanda, BearPolar",
+		  "AllowMultiple": true,
+		  "Default": "BearBrown"}
+    },
+	
+	
+  "Changes": [
+    //Include Pets
+    {
+      "LogName": "Beans.PetOverhaul.DataPets",
+      "Action": "Include",
+      "FromFile": "Data/pets.json"
+    }
+  ]
+}

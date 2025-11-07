@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "Priority": "Early",
+      "Entries": {
+        "Wander_Default": "{{i18n: Elliott_Wander_Default_{{Random:1,2,3,4,5}}}}",
+        "Wander_Building": "{{i18n: Elliott_Wander_{{Random:Building_1,Building_2,Building_3,Building_4,Default_5}}}}",
+        "Wander_Farmer": "{{i18n: Elliott_Wander_{{Random:Farmer_1,Farmer_2,Default_1,Default_2,Default_3,Default_4,Default_5}}}}",
+        "Wander_Barn": "{{i18n: Elliott_Wander_{{Random:Barn_1,Barn_2,Barn_3,Building_1,Building_2}}}}",
+        "Wander_Coop": "{{i18n: Elliott_Wander_{{Random:Coop_1,Coop_2,Coop_3,Coop_4,Building_3,Building_4}}}}",
+        "Wander_Tree": "{{i18n: Elliott_Wander_Tree_{{Random:1,2,3,4}}}}",
+        "Wander_Water": "{{i18n: Elliott_Wander_{{Random:Water_1,Water_2,Water_3,Water_4,Default_5}}}}",
+        "Wander_MatureCrop": "{{i18n: Elliott_Wander_{{Random:MatureCrop_1,MatureCrop_2,Default_1,Default_2,Default_3,Default_4}}}}",
+        "Wander_BrokenFence": "{{i18n: Elliott_Wander_{{Random:BrokenFence_1,BrokenFence_2,Default_1,Default_2,Default_3,Default_4,Default_5}}}}",
+        "Wander_FruitTree": "{{i18n: Elliott_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,Tree_1,Tree_2,Tree_3,Tree_4}}}}",
+        "Wander_Cave": "{{i18n: Elliott_Wander_{{Random:Cave_1,Cave_2,Cave_3,Default_1,Default_2,Default_3,Default_4}}}}",
+        "Wander_Shed": "{{i18n: Elliott_Wander_{{Random:Shed_1,Shed_2,Shed_3,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Greenhouse": "{{i18n: Elliott_Wander_{{Random:Greenhouse_1,Greenhouse_2,Greenhouse_3,Building_1,Building_2}}}}",
+        "Wander_Barn_Cow": "{{i18n: Elliott_Wander_{{Random:Barn_1,Barn_2,Barn_3,Barn_Cow_1,Barn_Cow_2,Barn_Cow_3}}}}",
+        "Wander_Coop_Chicken": "{{i18n: Elliott_Wander_{{Random:Coop_1,Coop_2,Coop_3,Coop_4,Coop_Chicken_1,Coop_Chicken_2,Coop_Chicken_3}}}}",
+        "Wander_PetBowl": "{{i18n: Elliott_Wander_{{Random:PetBowl_1,Building_1,Building_2,Building_3,Building_4}}}}"
+      }
+    }
+  ]
+}

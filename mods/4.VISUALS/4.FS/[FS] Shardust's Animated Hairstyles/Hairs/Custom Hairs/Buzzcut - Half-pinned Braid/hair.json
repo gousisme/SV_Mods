@@ -1,0 +1,204 @@
+{
+  "Name": "Buzzcut - Half-pinned Braid",
+  "FrontHair": {
+    "UseBaldHead": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      },
+      {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+      {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  },
+  "RightHair": {
+    "UseBaldHead": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 1
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  },
+  "LeftHair": {
+    "UseBaldHead": true,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 1
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+     {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      },
+      {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+      {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  },
+  "BackHair": {
+    "UseBaldHead": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 85
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 5,
+        "Duration": 85
+      },
+      {
+        "Frame": 6,
+        "Duration": 85
+      },
+      {
+        "Frame": 7,
+        "Duration": 85
+      },
+    ]
+  }
+}

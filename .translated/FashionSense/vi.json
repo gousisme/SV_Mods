@@ -1,0 +1,93 @@
+{
+  // Cấu hình
+  "config.general.title": "Gu Thời Trang",
+  "config.general.require_hand_mirror.name": "Yêu cầu Gương Tay",
+  "config.general.require_hand_mirror.description": "Khi bật, phím tắt Gương Tay chỉ hoạt động khi Gương Tay có trong hành trang người chơi.",
+  "config.general.shortcut_key.name": "Phím Tắt Gương Tay",
+  "config.general.shortcut_key.description": "Nhấn phím này sẽ mở menu Gương Tay.",
+  "config.general.allow_mannequin_animations.name": "Cho phép Hoạt ảnh Ma nơ canh",
+  "config.general.allow_mannequin_animations.description": "Khi bật, các ma nơ canh với trang phục Gu Thời Trang sẽ chơi hoạt ảnh của chúng.",
+
+  // Công cụ
+  "tools.name.hand_mirror": "Gương Tay",
+  "tools.description.hand_mirror": "Cho phép bạn thay đổi ngoại hình trở nên sinh động hơn.",
+
+  // Thông báo
+  "messages.warning.mannequin_copied_appearance": "Đã sao chép trang phục từ ma nơ canh!",
+  "messages.warning.mannequin_occupied": "Ma nơ canh đang mặc đồ. Hãy tháo ra để đặt trang phục Gu Thời Trang.",
+  "messages.warning.mannequin_using_fashion_sense": "Ma nơ canh đang dùng trang phục Gu Thời Trang. Shift + click với Gương Tay để gỡ.",
+  "messages.warning.requires_hand_mirror": "Không có Gương Tay trong hành trang! Tắt yêu cầu Gương Tay trong cấu hình để bỏ qua.",
+  "messages.warning.no_content_packs": "Bạn chưa cài gói nội dung Gu Thời Trang nào!",
+
+  // Thư
+  "letters.hand_mirror": "Tôi nghe nói có người mới chuyển đến thung lũng nên muốn tặng quà chào mừng.^ ^Gửi kèm Gương Tay cũ của tôi, sẽ giúp bạn tự tin hơn về gu thời trang.^ ^Nếu lỡ mất, bạn có thể mua lại ở cửa hàng của Pierre.  ^   -Haley %item tool HandMirror %%",
+
+  // UI - Tiêu đề
+  "ui.fashion_sense.title.search": "Chọn gói Gu Thời Trang",
+  "ui.fashion_sense.title.hair": "Kiểu tóc",
+  "ui.fashion_sense.title.accessory": "Phụ kiện",
+  "ui.fashion_sense.title.hat": "Mũ",
+  "ui.fashion_sense.title.shirt": "Áo",
+  "ui.fashion_sense.title.pants": "Quần",
+  "ui.fashion_sense.title.sleeves": "Tay áo",
+  "ui.fashion_sense.title.sleevesAndShoes": "Tay áo & Giày",
+  "ui.fashion_sense.title.shoes": "Giày",
+  "ui.fashion_sense.title.body": "Cơ thể",
+  "ui.fashion_sense.title.mask_layer": "Lớp",
+
+  // UI - Tìm kiếm
+  "ui.fashion_sense.search.filter.none": "Không",
+  "ui.fashion_sense.search.filter.author": "Tác giả",
+  "ui.fashion_sense.search.filter.pack_name": "Tên gói",
+  "ui.fashion_sense.search.filter.tags": "Thẻ",
+  "ui.fashion_sense.search.about": "{0}\n\nTác giả: {1}\nGói: {2}\nThẻ: {3}",
+
+  // UI - Trang phục
+  "ui.fashion_sense.title.outfits": "Trang phục",
+  "ui.fashion_sense.title.outfit_naming": "Tên trang phục",
+  "ui.fashion_sense.create_outfit_button": "Tạo Trang Phục",
+  "ui.fashion_sense.create_outfit_hover": "Tạo trang phục mới dựa trên bộ đồ hiện tại của bạn.",
+  "ui.fashion_sense.outfit_info.save": "Lưu bộ đồ hiện tại vào trang phục này.",
+  "ui.fashion_sense.outfit_info.rename": "Đổi tên trang phục này.",
+  "ui.fashion_sense.outfit_info.delete": "Xóa trang phục này.",
+  "ui.fashion_sense.outfit_info.share.active": "Đang chia sẻ trang phục này với các file lưu khác.",
+  "ui.fashion_sense.outfit_info.share.inactive": "Không chia sẻ trang phục này với các file lưu khác.",
+  "ui.fashion_sense.outfit_info.shared": "Đã chia sẻ",
+  "ui.fashion_sense.outfit_info.preset": "Mẫu",
+  "ui.fashion_sense.outfit_info.export": "Xuất JSON trang phục ra clipboard.",
+  "ui.fashion_sense.warning.name": "Tên trang phục trống hoặc đã tồn tại.",
+  "ui.fashion_sense.mask_layer.base": "Cơ bản",
+  "ui.fashion_sense.outfit_info.missing_appearances": "Các ngoại hình sau bị thiếu:\n{0}",
+  "ui.fashion_sense.buttons.import": "Nhập",
+  "ui.fashion_sense.buttons.import.description": "Nhập trang phục Gu Thời Trang từ clipboard.",
+  "ui.fashion_sense.buttons.presets": "Mẫu",
+  "ui.fashion_sense.buttons.presets.description": "Xem các mẫu do gói nội dung Gu Thời Trang cung cấp.",
+  "ui.fashion_sense.exported_outfit": "Đã sao chép trang phục vào clipboard.",
+  "ui.fashion_sense.preset_info": "{0}\n\nTác giả: {1}\nGói: {2}",
+
+  // UI - Khác
+  "ui.fashion_sense.start_with_hand_mirror": "Bắt đầu với Gương Tay",
+  "ui.fashion_sense.start_with_hand_mirror.description": "Bạn sẽ bắt đầu trò chơi mới với Gương Tay trong hành trang.",
+  "ui.fashion_sense.color_override.shoes": "Ghi đè màu giày",
+  "ui.fashion_sense.color_override.body": "Ghi đè màu cơ thể",
+  "ui.fashion_sense.search_button": "Tìm gói Gu Thời Trang cụ thể.",
+  "ui.fashion_sense.outfit_button": "Truy cập trang phục Gu Thời Trang.",
+  "ui.fashion_sense.color_copy_button": "Sao chép màu hiện tại.",
+  "ui.fashion_sense.color_paste_button": "Dán màu đã lưu.",
+  "ui.fashion_sense.color_paste_button_empty": "Dán màu đã lưu (trống).",
+  "ui.fashion_sense.clear_button": "Xóa mục Gu Thời Trang đang chọn.\nGiữ shift khi nhấn để xóa tất cả ngoại hình.",
+  "ui.fashion_sense.random_button": "Chọn ngẫu nhiên một mục Gu Thời Trang.",
+  "ui.fashion_sense.exit_button": "Thoát menu.",
+  "ui.fashion_sense.color_active.shoes": "Màu giày",
+  "ui.fashion_sense.color_active.generic": "Màu",
+  "ui.fashion_sense.color_disabled.generic": "(Bị bỏ qua)",
+  "ui.fashion_sense.color_info.hair": "Lớp màu không ảnh hưởng kiểu tóc này.",
+  "ui.fashion_sense.color_info.hat": "Lớp màu không ảnh hưởng mũ này.",
+  "ui.fashion_sense.color_info.shirt": "Lớp màu không ảnh hưởng áo này.",
+  "ui.fashion_sense.color_info.pants": "Lớp màu không ảnh hưởng quần này.",
+  "ui.fashion_sense.color_info.accessory": "Lớp màu không ảnh hưởng phụ kiện này.",
+  "ui.fashion_sense.color_info.sleeves": "Lớp màu không ảnh hưởng tay áo này.",
+  "ui.fashion_sense.color_info.shoes": "Lớp màu không ảnh hưởng giày này.",
+  "ui.fashion_sense.color_info.body": "Lớp màu không ảnh hưởng cơ thể này.",
+  "ui.fashion_sense.warning.hiding_player_sprite": "Ngoại hình này đang che sprite cơ bản của người chơi"
+}

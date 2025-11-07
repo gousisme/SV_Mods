@@ -1,0 +1,71 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Collections Tabs",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/UI/{{UIStyleToken}}/CollectionsTabs.png",
+			"ToArea": { "X": 640, "Y": 64, "Width": 64, "Height": 32 },
+			"When": 
+			{
+				"CollectionsTabsEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Menu Tabs",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/UI/{{UIStyleToken}}/MenuTabs.png",
+			"ToArea": { "X": 0, "Y": 368, "Width": 128, "Height": 32 },
+			"When": 
+			{
+				"MenuTabsEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Menu Chick",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "Assets/UI/{{UIStyleToken}}/Chick.png",
+			"ToArea": { "X": 257, "Y": 246, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MenuTabsEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Menu Star",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "Assets/UI/{{UIStyleToken}}/Star.png",
+			"ToArea": { "X": 216, "Y": 494, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MenuTabsEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Item Quality Stars",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/UI/QualityStars.png",
+			"ToArea": { "X": 338, "Y": 392, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Misc |contains= Item Quality Stars": true
+			}
+		},
+        {
+			"LogName": "Recipe Scroll",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/UI/RecipeScroll.png",
+			"ToArea": { "X": 304, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"Misc |contains= Recipe Scroll": true
+			}
+		}
+    ]
+}

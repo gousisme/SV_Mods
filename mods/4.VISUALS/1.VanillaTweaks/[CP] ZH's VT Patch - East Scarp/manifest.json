@@ -1,0 +1,18 @@
+{
+	"Name": "ZH's VT Patch - East Scarp",
+	"Author": "ZoeyHoshi",
+	"Version": "1.0.0",
+	"Description": "Seed and Saplings in Vanilla Tweak style for East Scarp",
+	"UniqueID": "ZoeyHoshi.VT_EastScarp",
+	"UpdateKeys": [ "Nexus:26155" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": true
+		}
+	]
+}

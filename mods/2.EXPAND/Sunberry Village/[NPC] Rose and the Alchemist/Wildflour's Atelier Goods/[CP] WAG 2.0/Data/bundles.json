@@ -1,0 +1,806 @@
+{
+  "Changes": [
+
+//Load Bundle Currency images
+
+	{
+		"LogName": "WAG Bundle Icons",
+		"Action": "Load",
+		"Target": "Mods/Wildflour.AtelierGoods/StarterBundle, Mods/Wildflour.AtelierGoods/FlorianBundle, Mods/Wildflour.AtelierGoods/WisteriaBundle, Mods/Wildflour.AtelierGoods/RoseBundle, Mods/Wildflour.AtelierGoods/ToffeeBundle, Mods/Wildflour.AtelierGoods/MasonBundle, Mods/Wildflour.AtelierGoods/StoutBundle, Mods/Wildflour.AtelierGoods/AlchemistBundle",
+		"FromFile": "Assets/ShopPortraits/{{TargetWithoutPath}}.png"
+	},
+
+	{
+		"LogName": "WAG Custom Currency Icon",
+		"Action": "Load",
+		"Target": "Mods/Wildflour.AtelierGoods/Currency",
+		"FromFile": "Assets/{{TargetWithoutPath}}.png"
+	},
+
+
+
+//VANILLA INTRO BUNDLE
+
+    {
+		"LogName":"Bundle 0 Vanilla Version",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"When": {"HasMod:|contains= skellady.SBVCP": false},
+		"Entries": {
+			"Wildflour.AtelierGoods_Starter_Bundle": {
+				"Location": "Forest",
+				"BundleName": "{{i18n: AtelierGoods_StarterBundle_Vanilla.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_StarterBundle_Vanilla.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/StarterBundle",
+				"BundleSlots": 1,
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_WarpBundleComplete}}\"/pause 100/end",  
+				"ShopPosition": "45, 94",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)Wildflour.AtelierGoods_Junimo_Gem": 5
+				}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch Vanilla Mush Circle",
+		"Action": "EditMap",
+		"Target": "Maps/Forest", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": false},
+		"FromFile": "assets/Maps/VanillaShopkeeperWarp.tmx",
+		"ToArea": {
+				"X": 44,
+				"Y": 93,
+				"Width": 4,
+				"Height": 4
+				}
+	},
+
+	{
+		"LogName":"Forest Warp Vanilla",
+		"Action": "EditMap",
+		"Target": "Maps/Forest",
+		"AddWarps": ["45 94 Wildflour.AtelierGoods_ShopkeeperGrove 24 18","45 95 Wildflour.AtelierGoods_ShopkeeperGrove 24 19"],
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": false}
+	},
+
+	{
+		"LogName":"Shopkeeper Warp Vanilla",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"AddWarps": ["24 22 Forest 42 95"],
+		"When": {"HasMod:|contains= skellady.SBVCP": false}
+	},
+
+//SBV INTRO BUNDLE
+
+    {
+		"LogName":"Bundle 0 SBV Version",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"When": {"HasMod:|contains= skellady.SBVCP": true},
+		"Entries": {
+			"Wildflour.AtelierGoods_Starter_Bundle": {
+				"Location": "Custom_SBV_SunberryRoad",
+				"BundleName": "{{i18n: AtelierGoods_StarterBundle_SBV.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_StarterBundle_SBV.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/StarterBundle",
+				"BundleSlots": 1,		
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_WarpBundleComplete}}\"/pause 100/end",  
+				"ShopPosition": "33, 10",
+				"ShopType": "CCBundle",				
+				"Price": {
+					"(O)Wildflour.AtelierGoods_Junimo_Gem": 5
+			}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch SBV",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_SBV_SunberryRoad", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": true},
+		"FromFile": "assets/Maps/SBVShopkeeperWarp.tmx",
+		"ToArea": {
+				"X": 32,
+				"Y": 7,
+				"Width": 3,
+				"Height": 5
+				}
+	},
+
+
+	{
+		"LogName":"SBV Warp",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_SBV_SunberryRoad",
+		"AddWarps": ["33 8 Wildflour.AtelierGoods_ShopkeeperGrove 24 18"],
+		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": true}
+	},
+
+	{
+		"LogName":"Shopkeeper Warps SBV",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"AddWarps": ["24 22 Custom_SBV_SunberryRoad 33 11"],
+		"When": {"HasMod:|contains= skellady.SBVCP": true}
+	},
+
+//BUNDLE 1 FLORIAN
+
+	{
+		"LogName":"Bundle 1 Florian",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"Entries": {
+			"Wildflour.AtelierGoods_Florian_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Florian_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Florian_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/FlorianBundle",
+				"BundleSlots": 5,	
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "8, 15",
+				"ShopType": "CCBundle",
+				"Price":{
+					"(O)MixedFlowerSeeds": 10,
+					"(O)591": 3,
+					"(O)402": 5,
+					"(O)421": 3
+				},
+				"PriceSpawnFields": [
+					{
+						"RandomItemId": [ "(O)Wildflour.AtelierGoods_Lavender", "(O)Wildflour.AtelierGoods_Chamomile", "(O)Wildflour.AtelierGoods_Mallow" ],
+						"Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+						"MinStack": 1,
+						"MaxStack": 3
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flower_Bouquet",
+						"Condition": "CAULDRON_CONFIG_VALUE Bouquets True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Butterfly_Garden_Bouquet",
+						"Condition": "CAULDRON_CONFIG_VALUE Bouquets True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Spring_Morning_Floral_Swag",
+						"Condition": "CAULDRON_CONFIG_VALUE Candles True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Floral_Swag",
+						"Condition": "CAULDRON_CONFIG_VALUE Candles True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flower_Incense",
+						"Condition": "CAULDRON_CONFIG_VALUE Incense True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Peaceful_Blue_Incense",
+						"Condition": "CAULDRON_CONFIG_VALUE Incense True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flower_Candles",
+						"Condition": "CAULDRON_CONFIG_VALUE Candles True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Cottage_Garden_Candles",
+						"Condition": "CAULDRON_CONFIG_VALUE Candles True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+						"MinStack": 10,
+						"MaxStack": 20
+					}
+				],
+				"BundleReward": {
+					  "(BC)Dehydrator": 2
+				}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch Florian Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Florian_Bundle"},
+		"FromFile": "assets/Maps/Florian_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 8,
+				"Y": 10,
+				"Width": 3,
+				"Height": 3
+				}
+	},
+
+	{
+		"LogName":"Add Shop Tile Action Florian",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 10, "Y": 13},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_FlorianShop"}
+			}
+		],
+		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Florian_Bundle"}
+	},
+
+//BUNDLE 2 WISTERIA
+
+	{
+		"LogName":"Bundle 2 Wisteria",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"Entries": {
+			"Wildflour.AtelierGoods_Wisteria_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Wisteria_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Wisteria_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/WisteriaBundle",
+				"BundleSlots": 3,
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "12, 15",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)66": 5,
+					"(O)72": 5,
+					"(O)64": 5
+			},
+			"PriceSpawnFields": [
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Mystic_Garden_Perfume",
+					"Condition": "CAULDRON_CONFIG_VALUE Perfume True, CAULDRON_CONFIG_VALUE Boutique Advanced"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Flower_Perfume",
+					"Condition": "CAULDRON_CONFIG_VALUE Perfume True, CAULDRON_CONFIG_VALUE Boutique Simple"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Charming_Pink_Soap",
+					"Condition": "CAULDRON_CONFIG_VALUE Soap True, CAULDRON_CONFIG_VALUE Boutique Advanced"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Flower_Soap",
+					"Condition": "CAULDRON_CONFIG_VALUE Soap True, CAULDRON_CONFIG_VALUE Boutique Simple"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Harvest_Goddess_Nail_Polish",
+					"Condition": "CAULDRON_CONFIG_VALUE Makeup True, CAULDRON_CONFIG_VALUE Boutique Advanced"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+					"MinStack": 10,
+					"MaxStack": 20
+				}
+				],
+				"BundleReward": {
+				  "(F)JunimoCatalogue": 1
+				}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch Wisteria Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Wisteria_Bundle"},
+		"FromFile": "assets/Maps/Wisteria_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 11,
+				"Y": 10,
+				"Width": 2,
+				"Height": 3
+				}
+	},
+
+	{	
+		"LogName":"Add Shop Tile Action Wisteria",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 11, "Y": 13},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_WisteriaShop"}
+			}
+		],
+		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Wisteria_Bundle"}
+	},
+
+//BUNDLE 3 ROSE
+
+	{
+		"LogName":"Bundle 3 Rose",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"When": {"HasMod:|contains= Wildflour.SASS": false},
+		"Entries": {
+			"Wildflour.AtelierGoods_Rose_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Rose_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Rose_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/RoseBundle",
+				"BundleSlots": 5,
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "24, 12",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)222": 3,
+					"(O)234": 3,
+					"(O)246": 15,
+					"(O)Raisins": 1
+			},
+			"PriceSpawnFields": [
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Doughnut_Bundle",
+					"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE Doughnuts true"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+					"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+					"MinStack":3,
+					"MaxStack":5
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Honey_Butter",
+					"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+				},
+				{
+					"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+					"MinStack": 10,
+					"MaxStack": 20
+				}
+				],
+				"BundleReward": {
+				  "(O)917": 10
+				}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch Rose Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"HasMod:|contains= Wildflour.SASS": false, "DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Rose_Bundle"},
+		"FromFile": "assets/Maps/Rose_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 24,
+				"Y": 8,
+				"Width": 3,
+				"Height": 2
+				}
+	},
+
+	{
+		"LogName":"Add Shop Tile Action Rose",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 26, "Y": 10},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_RoseShop"}
+			}
+		],
+		"When": {"HasMod:|contains= Wildflour.SASS": false, "DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Rose_Bundle"}
+	},
+
+//BUNDLE 4 TOFFEE
+
+	{
+		"LogName":"Bundle 4 Toffee",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"Entries": {
+			"Wildflour.AtelierGoods_Toffee_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Toffee_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Toffee_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/ToffeeBundle",
+				"BundleSlots": 5,	
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "28, 12",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)223": 3,
+					"(O)233": 3,
+					"(O)232": 3,
+					"(O)245": 3
+			},
+				"PriceSpawnFields": [
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+						"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Rainbow_Sprinkles",
+						"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Strawberry_Syrup",
+						"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+						"MinStack": 10,
+						"MaxStack": 20
+					}
+					],
+				"BundleReward": {
+				  "(BC)216": 1
+				}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch Toffee Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Toffee_Bundle"},
+		"FromFile": "assets/Maps/Toffee_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 27,
+				"Y": 7,
+				"Width": 2,
+				"Height": 3
+				}
+	},
+
+	{
+		"LogName":"Add Shop Tile Action Toffee",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 27, "Y": 10},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_ToffeeShop"}
+			}
+		],
+		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Toffee_Bundle"}
+	},
+
+//BUNDLE 5 MASON
+
+	{
+		"LogName":"Bundle 5 Mason",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"Entries": {
+			"Wildflour.AtelierGoods_Mason_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Mason_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Mason_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/MasonBundle",
+				"BundleSlots": 3,	
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "40, 16",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)344": 5,
+					"(O)342": 5
+			},
+				"PriceSpawnFields": [
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Cranberry_Chutney",
+						"Condition": "CAULDRON_CONFIG_VALUE Jams true, CAULDRON_CONFIG_VALUE FloristOnly False"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Pickled_Carrots",
+						"Condition": "CAULDRON_CONFIG_VALUE Pickles true, CAULDRON_CONFIG_VALUE Wildfood true, CAULDRON_CONFIG_VALUE FloristOnly False"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Orange_Curd",
+						"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Pectin",
+						"Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+						"MinStack": 5,
+						"MaxStack":10
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+						"MinStack": 10,
+						"MaxStack": 20
+					}
+					],
+				"BundleReward": {
+				  "(BC)15": 3
+				}
+			}
+		}
+	},
+
+	{
+		"LogName":"Map Patch Mason Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Mason_Bundle"},
+		"FromFile": "assets/Maps/Mason_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 40,
+				"Y": 12,
+				"Width": 3,
+				"Height": 2
+				}
+	},
+
+	{
+		"LogName":"Add Shop Tile Action Mason",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 42, "Y": 14},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_MasonShop"}
+			}
+		],
+		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Mason_Bundle"}
+	},
+
+//BUNDLE 6 STOUT
+
+	{
+		"LogName":"Bundle 6 Stout",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"Entries": {
+			"Wildflour.AtelierGoods_Stout_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Stout_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Stout_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/StoutBundle",
+				"BundleSlots": 6,	
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "44, 16",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)340": 5,
+					"(O)304": 15,
+					"(O)346": 3,
+					"(O)614": 3,
+					"(O)395": 3
+			},
+				"PriceSpawnFields": [
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Farmhouse_Cider_Mead",
+						"Condition": "CAULDRON_CONFIG_VALUE Meads True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flavored_Mead",
+						"Condition": "CAULDRON_CONFIG_VALUE Meads True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Lavender_Haze_IPA",
+						"Condition": "CAULDRON_CONFIG_VALUE Ales True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flavored_Ale",
+						"Condition": "CAULDRON_CONFIG_VALUE Ales True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Blueberry_Matcha_Tea",
+						"Condition": "CAULDRON_CONFIG_VALUE Tea True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flavored_Tea",
+						"Condition": "CAULDRON_CONFIG_VALUE Tea True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Coco_Cabana_Latte",
+						"Condition": "CAULDRON_CONFIG_VALUE Coffee True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Flavored_Latte",
+						"Condition": "CAULDRON_CONFIG_VALUE Coffee True, CAULDRON_CONFIG_VALUE DifficultyToggle Simple"
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+						"MinStack": 10,
+						"MaxStack": 20
+					}
+					],
+				"BundleReward": {
+					"(BC)10": 2,
+				  	"(BC)12": 2
+				}
+			}
+		}
+	},
+
+
+	{
+		"LogName":"Map Patch Stout Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Stout_Bundle"},
+		"FromFile": "assets/Maps/Stout_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 43,
+				"Y": 10,
+				"Width": 2,
+				"Height": 4
+				}
+	},
+
+	{
+		"LogName":"Add Shop Tile Action Stout",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 43, "Y": 14},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_StoutShop"}
+			}
+		],
+		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Stout_Bundle"}
+	},
+
+//BUNDLE 7 ALCHEMIST
+
+	{
+		"LogName":"Bundle 7 Alchemist",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/Bundles",
+		"When": {"Atelier.Cauldron/ConfigValue:WildFood": true, "HasMod:|contains= Wildflour.SASS": false},  
+		"Entries": {
+			"Wildflour.AtelierGoods_Alchemist_Bundle": {
+				"Location": "Wildflour.AtelierGoods_ShopkeeperGrove",
+				"BundleName": "{{i18n: AtelierGoods_Alchemist_Bundle.Name}}",
+				"BundleDescription": "{{i18n: AtelierGoods_Alchemist_Bundle.Description}}",
+				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/AlchemistBundle",
+				"BundleSlots": 5,
+				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_ShopBundleComplete}}\"/pause 100/end",
+				"ShopPosition": "37, 11",
+				"ShopType": "CCBundle",
+				"Price": {
+					"(O)257": 5,
+					"(O)281": 5,
+					"(O)408": 5,
+					"(O)Moss": 20
+			},
+				"PriceSpawnFields": [
+					{
+						"RandomItemId": [ "(O)Wildflour.AtelierGoods_Lemon", "(O)Wildflour.AtelierGoods_Lime", "(O)Wildflour.AtelierGoods_Elderberries", "(O)Wildflour.AtelierGoods_Almond", "(O)Wildflour.AtelierGoods_Walnut", "(O)Wildflour.AtelierGoods_Pistachio" ],
+						"Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+						"MinStack": 2,
+						"MaxStack": 4
+					},
+					{
+						"RandomItemId": [ "(O)Wildflour.AtelierGoods_Honey_Fungus", "(O)Wildflour.AtelierGoods_Milk_Mushroom", "(O)Wildflour.AtelierGoods_Meringue_Mushroom", "(O)Wildflour.AtelierGoods_Wheatberry_Mushroom", "(O)Wildflour.AtelierGoods_Chicken_Woods"],
+						"Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+						"MinStack": 2,
+						"MaxStack": 4
+					},
+					{
+						"RandomItemId": [ "(O)Wildflour.AtelierGoods_Basil", "(O)Wildflour.AtelierGoods_Thyme", "(O)Wildflour.AtelierGoods_Mint", "(O)Wildflour.AtelierGoods_Sage" ],
+						"Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+						"MinStack": 2,
+						"MaxStack": 4
+					},
+					{
+						"RandomItemId": [ "(O)Wildflour.AtelierGoods_Wild_Raspberry", "(O)Wildflour.AtelierGoods_Wild_Strawberry"],
+						"Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+						"MinStack": 10,
+						"MaxStack": 20
+					},
+					{
+						"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+						"MinStack": 10,
+						"MaxStack": 20
+					}
+					],
+				"BundleReward": {
+				  "(BC)25": 1
+				}
+			}
+		}
+	},
+
+	
+	{
+		"LogName":"Map Patch Alchemist Shop",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove", 
+		"When":{"HasMod:|contains= Wildflour.SASS": false, "DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Alchemist_Bundle"},
+		"FromFile": "assets/Maps/Alchemist_Shop_Edit.tmx",
+		"ToArea": {
+				"X": 36,
+				"Y": 9,
+				"Width": 2,
+				"Height": 2
+				}
+	},
+
+	{
+		"LogName":"Add Shop Tile Action Alchemist",
+		"Action": "EditMap",
+		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
+		"MapTiles": [
+			{
+				"Position": {"X": 37, "Y": 10},
+				"Layer": "Buildings",
+				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_AlchemistShop"}
+			}
+		],
+		"When": {"HasMod:|contains= Wildflour.SASS": false, "DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Alchemist_Bundle"}
+	},
+
+	{
+		"LogName":"Add Junimo Gem Object",
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"Wildflour.AtelierGoods_Junimo_Gem": {
+				"Name": "Wildflour.AtelierGoods_Junimo_Gem",
+				"DisplayName": "{{i18n:AtelierGoods_Junimo_Gem.name}}",
+				"Description": "{{i18n:AtelierGoods_Junimo_Gem.description}}",
+				"Type": "Basic",          
+				"Edibility": -300,
+				"Price": 1,
+				"ExcludeFromShippingCollection": true,
+				
+				"ContextTags":
+				["wildflour_currency_item",
+				"junimo_item",
+				"color_poppyseed"],
+
+				"Texture": "Mods/Wildflour.AtelierGoods/Objects",
+				"SpriteIndex": 63
+		}
+	}
+	},
+
+	{
+		"LogName": "Add Junimo Gems to Extra Outputs",
+		"Action": "EditData",
+		"Target": "selph.ExtraMachineConfig/ExtraOutputs",
+		"Entries": {
+		  "JunimoGemBP": {
+			"Id": "JunimoGemBP",
+			"ItemId": "Wildflour.AtelierGoods_Junimo_Gem"
+		  }
+		}
+	},
+	
+	{
+		"LogName":"Add Junimo Gem as New Wallet Currency",
+		"Action": "EditData",
+		"Target": "UnlockableBundles/WalletCurrencies",
+		"Entries": {
+			"JunimoGem": {
+				"Shared": true,
+				"DrawOverheadPickupAnimation": false,
+				"OverheadPickupTexture": "Mods/Wildflour.AtelierGoods/Currency",
+				"OverheadPickupTextureSize": 16,
+				
+				"BillboardTexture": "Mods/Wildflour.AtelierGoods/Currency",
+				"BillboardTextureSize": 16,
+				"BillboardDigits": 6,
+				"PlayMoneyRollSound": true,
+				"Items": [{
+					"ItemId": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+					"Value": 1
+					}],
+				"PowersData": {
+					"DisplayName": "Junimo Gem",
+					"TexturePath": "Mods/Wildflour.AtelierGoods/Currency",
+					"TexturePosition": { "X": 0, "Y": 0 }
+					}
+			}
+		}
+	}
+
+  ]
+}

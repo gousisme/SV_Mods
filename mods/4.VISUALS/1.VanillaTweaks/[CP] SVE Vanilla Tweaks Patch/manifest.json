@@ -1,0 +1,50 @@
+{
+   "Name": "Vanilla Tweaks SVE Patch",
+   "Author": "SeaSea, Taiyo and Airyn ",
+   "Version": "1.1.1",
+   "Description": "Retexture's crops from SVE to match Vanilla Tweaks Style",
+   "UniqueID": "SeaSea.VanillaTweaks.SVEPatch",
+   "UpdateKeys": ["Nexus:25721"],
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.3.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "flashshifter.immersivefarm2remastered",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "flashshifter.GrandpasFarm",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "DaisyNiko.EarthyRecolour",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Taiyo.VanillaTweaks.Farming",
+			"IsRequired": false
+		},
+				{
+			"UniqueID": "Taiyo.VanillaTweaks.Caves",
+			"IsRequired": false
+		},
+				{
+			"UniqueID": "Taiyo.VanillaTweaks.Warrior",
+			"IsRequired": false
+		},
+				{
+			"UniqueID": "Taiyo.VanillaTweaks.Aquarium",
+			"IsRequired": false
+		},
+						{
+			"UniqueID": "Taiyo.VanillaTweaks.Producer",
+			"IsRequired": false
+		}
+	]
+}

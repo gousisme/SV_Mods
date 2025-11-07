@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ArtisanShop1": {
+          "DisplayName": "{{i18n:ArtisanShop1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ArtisanShop1"
+          },
+          "FormerLocationNames": [
+            "ArtisanShop1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_ArtisanShop2": {
+          "DisplayName": "{{i18n:ArtisanShop2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_ArtisanShop2"
+          },
+          "FormerLocationNames": [
+            "ArtisanShop2"
+          ]
+        }
+      }
+    }
+  ]
+}

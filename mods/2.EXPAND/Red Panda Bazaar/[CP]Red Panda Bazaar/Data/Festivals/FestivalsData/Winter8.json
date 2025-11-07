@@ -1,0 +1,40 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "RedPandaBazaar_ChenXiaoMing 60 17 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "RedPandaBazaar_ChenXiaoMing 60 17 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "RedPandaBazaar_ChenXiaoMing 60 17 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "RedPandaBazaar_ChenXiaoMing 60 17 2",
+            "Delimiter": "/"
+          }
+        ]
+      }
+    ]
+}

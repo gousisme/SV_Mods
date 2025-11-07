@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="4" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="35">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" name="LiLaoliu's Tilesheets" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="1501" name="furniture_3" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="Vanilla_RedPandaBazaar_furniture_3.png" width="208" height="432"/>
+ </tileset>
+ <layer id="2" name="Back" width="4" height="5">
+  <data encoding="csv">
+537,537,537,537,
+537,537,537,537,
+537,537,537,537,
+537,537,537,537,
+537,537,537,537
+</data>
+ </layer>
+ <layer id="11" name="Back2" width="4" height="5">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+1584,0,1584,1584,
+1584,1584,1584,1584
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="4" height="5">
+  <data encoding="csv">
+0,1509,1510,0,
+0,1522,1523,0,
+0,1535,1536,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Paths" width="4" height="5">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="4" height="5">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="4" height="5">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Back"/>
+ <objectgroup id="12" name="Back2"/>
+ <objectgroup id="9" name="Buildings">
+  <object id="34" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 72 20 Custom_BazaarWest 600 2600"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="6" name="AlwaysFront"/>
+</map>

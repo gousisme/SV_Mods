@@ -1,0 +1,407 @@
+{
+  "Changes": [
+
+// ADD MAIL //
+
+{
+  "Action": "EditData",
+  "Target": "Data/Mail",
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Bouquet_Sam_reward": "{{i18n: AtelierGoods_SO_Bouquet_Sam_reward.text}} %item id (O)MixedFlowerSeeds 10 %%[#]{{i18n: AtelierGoods_SO_Bouquet_Sam_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Perfume_Haley_reward": "{{i18n: AtelierGoods_SO_Perfume_Haley_reward.text}} %item id Wildflour.AtelierGoods_Jasmine_Seeds 5 %%[#]{{i18n: AtelierGoods_SO_Perfume_Haley_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Soap_Maru_reward": "{{i18n: AtelierGoods_SO_Soap_Maru_reward.text}} %item id Wildflour.AtelierGoods_Milk_Mushroom_Seeds 5 %%[#]{{i18n: AtelierGoods_SO_Soap_Maru_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Floral_Challenge_reward": "{{i18n: AtelierGoods_SO_Floral_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Floral_Challenge_reward.name}}" 
+      }
+  },
+
+// SPECIAL ORDERS
+
+    {
+    "LogName": "Bouquets Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:Bouquets": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_FlowerStation"},
+    "Entries": {
+        "Wildflour.AtelierGoods_SO_Bouquet_Sam": {
+        "Name": "{{i18n:AtelierGoods_SO_Bouquet_Sam.name}}",
+        "Requester": "Sam",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Bouquet_Sam.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Bouquet_Sam.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "wildflour_bouquet_item",
+                "Message": "{{i18n:AtelierGoods_SO_Bouquet_Sam.accept}}",
+                "TargetName": "Sam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1200"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Sam"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Bouquet_Sam_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Bouquets_Shane": {
+        "Name": "{{i18n:AtelierGoods_SO_Bouquets_Shane.name}}",
+        "Requester": "Shane",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Bouquets_Shane.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Bouquets_Shane.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "wildflour_bouquet_item",
+                "Message": "{{i18n:AtelierGoods_SO_Bouquets_Shane.accept}}",
+                "TargetName": "Shane"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2500"
+              }
+            },
+  
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+      /*  "Wildflour.AtelierGoods_SO_Floral_Challenge": {
+      "Name": "{{i18n:AtelierGoods_SO_Floral_Challenge.name}}",
+      "Requester": "Lewis",
+      "Duration": "Month",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Floral_Challenge.text}}",
+      "Objectives": [
+          {
+            "Type": "Ship",
+            "Text": "{{i18n:AtelierGoods_SO_Floral_Challenge.ship}}",
+            "RequiredCount": "100",
+            "Data": {
+              "AcceptedContextTags": "wildflour_floral_item"
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "100000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "Wildflour.AtelierGoods_SO_Floral_Challenge_reward",
+                "NoLetter": "false"
+          }
+        }
+      ]
+      },*/
+    }
+  },
+
+  {
+    "LogName": "Perfume Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:Perfume": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_FragranceStation"},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_Perfume_Haley": {
+        "Name": "{{i18n:AtelierGoods_SO_Perfume_Haley.name}}",
+        "Requester": "Haley",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Perfume_Haley.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Perfume_Haley.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "DropBox": "Perfume_Haley",
+                "DropBoxGameLocation": "HaleyHouse",
+                "DropBoxIndicatorLocation": "7 15",
+                "AcceptedContextTags": "wildflour_perfume_item"
+              }
+            },
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "15000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Haley"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Perfume_Haley_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+      },
+    }
+  },
+
+  {
+    "LogName": "Swag Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:Incense": true, "HasCraftingRecipe":"Dehydrator"},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_Swag_Evelyn": {
+        "Name": "{{i18n:AtelierGoods_SO_Swag_Evelyn.name}}",
+        "Requester": "Evelyn",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Swag_Evelyn.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Swag_Evelyn.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "wildflour_swag_item",
+                "Message": "{{i18n:AtelierGoods_SO_Swag_Evelyn.accept}}",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3500"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Evelyn"
+                }
+              }
+          ]
+          
+      },
+    }
+  },
+
+  {
+    "LogName": "Soap Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:Soap": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_CandleStation"},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_Soap_Maru": {
+        "Name": "{{i18n:AtelierGoods_SO_Soap_Maru.name}}",
+        "Requester": "Maru",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Soap_Maru.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Soap_Maru.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "Soap_Maru",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "16 17",
+                "AcceptedContextTags": "soap_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+  
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Maru"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_Soap_Maru_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+      },
+      "Wildflour.AtelierGoods_SO_Soap_Willy": {
+        "Name": "{{i18n:AtelierGoods_SO_Soap_Willy.name}}",
+        "Requester": "Willy",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Soap_Willy.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Soap_Willy.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "soap_item",
+                "Message": "{{i18n:AtelierGoods_SO_Soap_Willy.accept}}",
+                "TargetName": "Willy"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6500"
+              }
+            },
+  
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+    }
+  },
+
+  {
+    "LogName": "Candle Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:Candles": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_CandleStation"},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_Candles_Krobus": {
+        "Name": "{{i18n:AtelierGoods_SO_Candles_Krobus.name}}",
+        "Requester": "Krobus",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Candles_Krobus.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Candles_Krobus.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "wildflour_candle_item",
+                "Message": "{{i18n:AtelierGoods_SO_Candles_Krobus.accept}}",
+                "TargetName": "Krobus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "10000"
+              }
+            },
+  
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  }
+
+  ]
+}
+

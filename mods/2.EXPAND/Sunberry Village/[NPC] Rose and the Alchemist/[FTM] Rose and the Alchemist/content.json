@@ -1,0 +1,1960 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": true,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Lapis_MoonDrop",
+          "Wildflour.SASS_Arctic_Fox",
+          "Wildflour.SASS_Avalune"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Amber_MoonDrop",
+          "Wildflour.SASS_Pixie_Breath",
+          "Wildflour.SASS_Yarrow"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Jade_MoonDrop",
+          "Wildflour.SASS_Sugar_Plum",
+          "Wildflour.SASS_Valerian"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Pearl_MoonDrop",
+          "Wildflour.SASS_Arctic_Fox",
+          "Wildflour.SASS_Avalune"
+        ],
+        "UniqueAreaID": "Abandoned Farm Forage",
+        "MapName": "Wildflour.NooksCrannies_AbandonedFarmhouse",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Apple",
+          "Wildflour.SASS_Pomegranate"
+        ],
+        "SummerItemIndex": [],
+        "FallItemIndex": [
+          "Wildflour.SASS_Apricot",
+          "Wildflour.SASS_Cherry",
+          "Wildflour.SASS_Sugar_Plum"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Orange",
+          "Wildflour.SASS_Peach"
+        ],
+        "UniqueAreaID": "Secret Orchard Forage",
+        "MapName": "Wildflour.NooksCrannies_SecretOrchard",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Tea_Grass_Fungus"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Cocoa_Agaric",
+          "Wildflour.SASS_Popping_Parasols"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Stout_Funnel",
+          "Wildflour.SASS_Cookie_Cap"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill"
+        ],
+        "UniqueAreaID": "Mystical Forest Forage",
+        "MapName": "Wildflour.NooksCrannies_MysticalForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Avalune",
+          "Wildflour.SASS_Lady_Luck"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Mugwort",
+          "Wildflour.SASS_Yarrow",
+          "Wildflour.SASS_Popping_Parasols"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Valerian",
+          "Wildflour.SASS_Thistle",
+          "Wildflour.SASS_Cookie_Cap"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Unicorn_Horn",
+          "Wildflour.SASS_Arctic_Fox"
+        ],
+        "UniqueAreaID": "Frog Hollow Forage",
+        "MapName": "Wildflour.NooksCrannies_FrogHollow",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "UniqueAreaID": "Rainforest Retreat Forage",
+        "MapName": "Wildflour.NooksCrannies_RainforestRetreat",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Coral_Fungus",
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Kiss_Of_Tamra",
+          "Wildflour.SASS_Fallen_Stars",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Phoenix_Fire",
+          "Wildflour.SASS_Smile_Of_Shumus",
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Coral_Fungus",
+          "Wildflour.SASS_Mango",
+          "Wildflour.SASS_Banana",
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "UniqueAreaID": "Mermaid Grotto Forage",
+        "MapName": "Wildflour.NooksCrannies_MermaidGrotto",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Pomegranate",
+          "Wildflour.SASS_Tea_Grass_Fungus"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Sylvan_Sigh",
+          "Wildflour.SASS_Rosey_Elfcup"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Phoenix_Fire",
+          "Wildflour.SASS_Sugar_Plum",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Peach",
+          "Wildflour.SASS_Unicorn_Horn"
+        ],
+        "UniqueAreaID": "Forage Sunberry Forest",
+        "MapName": "Custom_SBV_SunberryForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Lady_Luck"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Yarrow",
+          "Wildflour.SASS_Mugwort",
+          "Wildflour.SASS_Cocoa_Agaric"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Apricot",
+          "Wildflour.SASS_Mottled_Fieldcap",
+          "Wildflour.SASS_Valerian",
+          "Wildflour.SASS_Cookie_Cap"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Forage Secret Woods",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Avalune",
+          "Wildflour.SASS_Apple"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Fallen_Stars",
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Pixie_Breath"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Yarrow",
+          "Wildflour.SASS_Jack_Agaric"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Orange",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "UniqueAreaID": "Sunberry Mountain Forage",
+        "MapName": "Custom_SBV_SunberryMountain",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Arctic_Fox",
+          "Wildflour.SASS_Frilly_Gilly"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Faerie_Folly",
+          "Wildflour.SASS_Limey_Bonnet"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Rustgill",
+          "Wildflour.SASS_Mottled_Fieldcap",
+          "Wildflour.SASS_Valerian"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Sunberry Road Forage",
+        "MapName": "Custom_SBV_SunberryRoad",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Lapis_MoonDrop",
+          "Wildflour.SASS_Indigo_Cap",
+          "Wildflour.SASS_Rosefinch_Feather"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Amber_MoonDrop",
+          "Wildflour.SASS_Thistle",
+          "Wildflour.SASS_Alchemists_Hat"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Jade_MoonDrop",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Pearl_MoonDrop",
+          "Wildflour.SASS_Ghostly_Parasol"
+        ],
+        "UniqueAreaID": "Forest Shortcut Forage",
+        "MapName": "Custom_SBV_ForestShortcut",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Alchemists_Hat",
+          "Wildflour.SASS_Custard_Cap"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Lovebird_Feather",
+          "Wildflour.SASS_Cocoa_Agaric"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Apricot",
+          "Wildflour.SASS_Crow_Feather",
+          "Wildflour.SASS_Lunar_Poof"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Secret Forest 1 Forage",
+        "MapName": "Custom_SBV_SecretForest1",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Bubblegum_Funnel",
+          "Wildflour.SASS_Doughnut_Mushroom"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Kiss_Of_Tamra",
+          "Wildflour.SASS_Coral_Fungus",
+          "Wildflour.SASS_Mugwort"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Cherry",
+          "Wildflour.SASS_Lilac_Funnel",
+          "Wildflour.SASS_Jack_Agaric"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Secret Forest 2 Forage",
+        "MapName": "Custom_SBV_SecretForest2",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Alchemists_Hat",
+          "Wildflour.SASS_Doughnut_Mushroom"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Seafoam_Waxcap",
+          "Wildflour.SASS_Cocoa_Agaric",
+          "Wildflour.SASS_Popping_Parasols"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Stout_Funnel",
+          "Wildflour.SASS_Jack_Agaric"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Festive_Agaric",
+          "Wildflour.SASS_Gumdrop_Fungus"
+        ],
+        "UniqueAreaID": "SBV Secret Cave Forage",
+        "MapName": "Custom_SBV_SecretCave",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "UniqueAreaID": "SBV Mines Level 4 Mush",
+        "MapName": "Custom_SBV_Mines4",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Blushing_TopHat",
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Lunar_Poof",
+          "Wildflour.SASS_Sparkling_Agaric"
+        ],
+        "UniqueAreaID": "SBV Mines 6 Mush",
+        "MapName": "Custom_SBV_Mines6",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "UniqueAreaID": "SBV Mines 7 Mush",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "UniqueAreaID": "SBV Mines 11 Mush",
+        "MapName": "Custom_SBV_Mines11",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Candy_Button",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Queen_Bolete",
+          "Wildflour.SASS_Shrumbus"
+        ],
+        "UniqueAreaID": "SBV Mines Mush 13",
+        "MapName": "Custom_SBV_Mines13",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Lilac_Funnel",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Rustgill"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Lilac_Funnel",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Rustgill"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Lilac_Funnel",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Rustgill"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Lilac_Funnel",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Rustgill"
+        ],
+        "UniqueAreaID": "SBV Mines Final Level Mush",
+        "MapName": "Custom_SBV_MinesFinal",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Indigo_Cap",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Seafoam_Waxcap"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Indigo_Cap",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Seafoam_Waxcap"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Indigo_Cap",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Seafoam_Waxcap"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Indigo_Cap",
+          "Wildflour.SASS_Limey_Bonnet",
+          "Wildflour.SASS_Rosey_Elfcup",
+          "Wildflour.SASS_Seafoam_Waxcap"
+        ],
+        "UniqueAreaID": "VMV Miremirror SASS Mushrooms",
+        "MapName": "Lumisteria.MtVapius_ForestCaveMarsh",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Queen_Bolete"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Queen_Bolete"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Queen_Bolete"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Frilly_Gilly",
+          "Wildflour.SASS_Midas_Cap",
+          "Wildflour.SASS_Queen_Bolete"
+        ],
+        "UniqueAreaID": "VMV Crescent Lake SASS Mushrooms",
+        "MapName": "Lumisteria.MtVapius_ForestCaveMoonPond",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Baby_Bluegill",
+          "Wildflour.SASS_Ghostly_Parasol",
+          "Wildflour.SASS_Midnight_Milkcap"
+        ],
+        "UniqueAreaID": "VMV Winter Rift SASS Mushrooms",
+        "MapName": "Lumisteria.MtVapius_ForestCaveWinterRift",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Wildflour.SASS_Bubblegum_Funnel",
+          "Wildflour.SASS_Lunar_Poof"
+        ],
+        "SummerItemIndex": [
+          "Wildflour.SASS_Bubblegum_Funnel",
+          "Wildflour.SASS_Lunar_Poof"
+        ],
+        "FallItemIndex": [
+          "Wildflour.SASS_Bubblegum_Funnel",
+          "Wildflour.SASS_Lunar_Poof"
+        ],
+        "WinterItemIndex": [
+          "Wildflour.SASS_Bubblegum_Funnel",
+          "Wildflour.SASS_Lunar_Poof"
+        ],
+        "UniqueAreaID": "VMV Forest Pond SASS Mushrooms",
+        "MapName": "Lumisteria.MtVapius_ForestTrailPond",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Grass",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 1,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Overgrown_Stump1",
+          "Wildflour.SASS_Blue_Flower_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "SBV clumps secret forest",
+        "MapName": "Custom_SBV_SecretForest1",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Star_Flower_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "SBV clumps secret forest2",
+        "MapName": "Custom_SBV_SecretForest2",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Baby_Bluegill_Clump",
+          "Wildflour.SASS_Ghostly_Parasol_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "SBV clumps mines lvl 7",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Candy_Button_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "SBV clumps mines lvl 11",
+        "MapName": "Custom_SBV_Mines11",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Baby_Bluegill_Clump",
+          "Wildflour.SASS_Candy_Button_Clump",
+          "Wildflour.SASS_Ghostly_Parasol_Clump",
+          "Wildflour.SASS_Stout_Funnel_Clump",
+          "Wildflour.SASS_Sparkling_Agaric_Clump",
+          "Wildflour.SASS_LunarPoof_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "SBV clumps mines final level",
+        "MapName": "Custom_SBV_MinesFinal",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Candy_Button_Clump",
+          "Wildflour.SASS_Sparkling_Agaric_Clump",
+          "Wildflour.SASS_LunarPoof_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "SBV clumps mines lvl 4",
+        "MapName": "Custom_SBV_Mines4",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Baby_Bluegill_Clump",
+          "Wildflour.SASS_Candy_Button_Clump",
+          "Wildflour.SASS_Ghostly_Parasol_Clump",
+          "Wildflour.SASS_Stout_Funnel_Clump",
+          "Wildflour.SASS_Sparkling_Agaric_Clump",
+          "Wildflour.SASS_LunarPoof_Clump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Mushroom Forest clumps",
+        "MapName": "Wildflour.NooksCrannies_MysticalForest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "ObjectTypes": [
+          "Wildflour.SASS_Blue_Flower_Clump",
+          "Wildflour.SASS_Star_Flower_Clump",
+          "Wildflour.SASS_Overgrown_Stump1"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Frog Hollow clumps",
+        "MapName": "Wildflour.NooksCrannies_FrogHollow",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 10,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 2",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

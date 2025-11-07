@@ -1,0 +1,23 @@
+{
+  "Name": "Aimon's Farmhouse Rooms - Rooftops,Attics & Balcony (PIF)",
+  "Author": "Aimon111",
+  "Version": "1.0.0",
+  "Description": "Adds attic, rooftop and balcony as PIF doors.",
+  "UniqueID": "Aimon111.FarmhouseRoomsPIF",
+  "UpdateKeys": [ "Nexus:28199" ],
+     "MinimumApiVersion": "4.0.0",
+ "ContentPackFor":
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies":[
+		{
+			"UniqueID": "DLX.PIF",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "DaisyNiko.Tilesheets",
+			"IsRequired": true
+		}
+	]
+}

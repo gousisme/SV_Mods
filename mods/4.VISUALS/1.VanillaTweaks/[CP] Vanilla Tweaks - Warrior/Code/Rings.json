@@ -1,0 +1,335 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Amethyst Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/AmethystRing.png",
+			"ToArea": {	"X": 16, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Amethyst Ring": true
+			}
+		},
+        {
+			"LogName": "Aquamarine Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/AquamarineRing.png",
+			"ToArea": {	"X": 48, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Aquamarine Ring": true
+			}
+		},
+        {
+			"LogName": "Burglar's Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/BurglarsRing.png",
+			"ToArea": {	"X": 352, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Burglar's Ring": true
+			}
+		},
+        {
+			"LogName": "Crabshell Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/CrabshellRing.png",
+			"ToArea": {	"X": 288, "Y": 528, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Crabshell Ring": true
+			}
+		},
+        {
+			"LogName": "Emerald Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/EmeraldRing.png",
+			"ToArea": {	"X": 80, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Emerald Ring": true
+			}
+		},
+        {
+			"LogName": "Glow Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/GlowRing.png",
+			"ToArea": {	"X": 208, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Glow Ring": true
+			}
+		},
+        {
+			"LogName": "Glowstone Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/GlowstoneRing.png",
+			"ToArea": {	"X": 0, "Y": 592, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Glowstone Ring": true
+			}
+		},
+        {
+			"LogName": "Hot Java Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/HotJavaRing.png",
+			"ToArea": {	"X": 320, "Y": 560, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Hot Java Ring": true
+			}
+		},
+        {
+			"LogName": "Immunity Band",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/ImmunityBand.png",
+			"ToArea": {	"X": 368, "Y": 576, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Immunity Band": true
+			}
+		},
+        {
+			"LogName": "Iridium Band",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/IridiumBand.png",
+			"ToArea": {	"X": 368, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Iridium Band": true
+			}
+		},
+        {
+			"LogName": "Jade Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/JadeRing.png",
+			"ToArea": {	"X": 64, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Jade Ring": true
+			}
+		},
+        {
+			"LogName": "Jukebox Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/JukeboxRing.png",
+			"ToArea": {	"X": 0, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Jukebox Ring": true
+			}
+		},
+        {
+			"LogName": "Lucky Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/LuckyRing.png",
+			"ToArea": {	"X": 304, "Y": 560, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Lucky Ring": true
+			}
+		},
+        {
+			"LogName": "Magnet Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/MagnetRing.png",
+			"ToArea": {	"X": 240, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Magnet Ring": true
+			}
+		},
+        {
+			"LogName": "Napalm Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/NapalmRing.png",
+			"ToArea": {	"X": 304, "Y": 528, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Napalm Ring": true
+			}
+		},
+        {
+			"LogName": "Phoenix Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/PhoenixRing.png",
+			"ToArea": {	"X": 368, "Y": 560, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Phoenix Ring": true
+			}
+		},
+        {
+			"LogName": "Protection Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/ProtectionRing.png",
+			"ToArea": {	"X": 336, "Y": 560, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Protection Ring": true
+			}
+		},
+        {
+			"LogName": "Ring of Yoba",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/RingOfYoba.png",
+			"ToArea": {	"X": 320, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Ring of Yoba": true
+			}
+		},
+        {
+			"LogName": "Ruby Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/RubyRing.png",
+			"ToArea": {	"X": 96, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Ruby Ring": true
+			}
+		},
+        {
+			"LogName": "Savage Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/SavageRing.png",
+			"ToArea": {	"X": 304, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Savage Ring": true
+			}
+		},
+        {
+			"LogName": "Slime Charmer Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/SlimeCharmerRing.png",
+			"ToArea": {	"X": 256, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Slime Charmer Ring": true
+			}
+		},
+        {
+			"LogName": "Small Glow Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/SmallGlowRing.png",
+			"ToArea": {	"X": 192, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Small Glow Ring": true
+			}
+		},
+        {
+			"LogName": "Small Magnet Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/SmallMagnetRing.png",
+			"ToArea": {	"X": 224, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Small Magnet Ring": true
+			}
+		},
+        {
+			"LogName": "Soul Sapper Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/SoulSapperRing.png",
+			"ToArea": {	"X": 352, "Y": 560, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Soul Sapper Ring": true
+			}
+		},
+        {
+			"LogName": "Sturdy Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/SturdyRing.png",
+			"ToArea": {	"X": 336, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Sturdy Ring": true
+			}
+		},
+        {
+			"LogName": "Thorns Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/ThornsRing.png",
+			"ToArea": {	"X": 368, "Y": 544, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Thorns Ring": true
+			}
+		},
+        {
+			"LogName": "Topaz Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/TopazRing.png",
+			"ToArea": {	"X": 32, "Y": 352, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Topaz Ring": true
+			}
+		},
+        {
+			"LogName": "Vampire Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/VampireRing.png",
+			"ToArea": {	"X": 288, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Vampire Ring": true
+			}
+		},
+        {
+			"LogName": "Warrior Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/WarriorRing.png",
+			"ToArea": {	"X": 272, "Y": 336, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Warrior Ring": true
+			}
+		},
+        {
+			"LogName": "Wedding Ring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Rings/WeddingRing.png",
+			"ToArea": {	"X": 144, "Y": 528, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Rings |contains= Wedding Ring": true
+			}
+		}
+    ]
+}

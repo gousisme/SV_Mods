@@ -1,0 +1,48 @@
+{
+  "Name": "Aimon's Additional Bus Interior Map",
+  "Author": "Aimon111",
+  "Version": "2.0.4",
+  "Description": "Adds additional custom Bus interior map that player can visit and explore.",
+  "UniqueID": "Aimon111.BusInterior",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:20289" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+ "Dependencies": [
+
+	{
+        "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "Christoffyw.ExtendedBusStop",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "LilacLisianthus.PrettierBusStop",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "livipup.busstopsignmovedonetileup",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "Kolyenu.CleanerBusStop",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "DaisyNiko.SVR2",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "DaisyNiko.StardewValleyReimagined",
+		"IsRequired": false,
+    }, 
+	{
+        "UniqueID": "DaisyNiko.SVR3",
+		"IsRequired": false,
+    }, 
+
+]
+}

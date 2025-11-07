@@ -1,0 +1,101 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    //************************************
+    //         Colour Options
+    //************************************
+    "SaturationToggle": {
+      "AllowValues": "Saturated, Desaturated",
+      "Default": "Saturated",
+      "Description": "Saturated or desaturated seed bags.",
+      "Section": "ColourOptions"
+    },
+    "SeasonalColouredSeedbags": {
+      "AllowValues": "Seasonal, NonSeasonal",
+      "Default": "NonSeasonal",
+      "Description": "Seasonal option adds seed bags that are colour coded for their season.",
+      "Section": "ColourOptions"
+    },
+    "SeasonalColouredSaplings": {
+      "AllowValues": "Seasonal, NonSeasonal",
+      "Default": "NonSeasonal",
+      "Description": "Seasonal option adds saplings that are colour coded for their season.",
+      "Section": "ColourOptions"
+    },
+
+    //************************************
+    //          Seeds
+    //************************************
+    "AzureChrysanthemum": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable VT seed bags for Azure Chrysanthemum.",
+      "Section": "Crops"
+    },
+    "AzureChrysanthemumType": {
+      "AllowValues": "SeedSack, Seedspot, Seedbag",
+      "Default": "SeedSack",
+      "Description": "Choose what type of seedbag, seedbag sack, seedbag used for Seed Spot seeds or the normal seedbag.",
+      "Section": "Crops"
+    },
+    "BirdOfParadise": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable VT seed bags for Bird of Paradise.",
+      "Section": "Crops"
+    },
+    "Serruria": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable VT seed bags for Serruria.",
+      "Section": "Crops"
+    },
+    "SerruriaType": {
+      "AllowValues": "SeedSack, Seedspot, Seedbag",
+      "Default": "SeedSack",
+      "Description": "Choose what type of seedbag, seedbag sack, seedbag used for Seed Spot seeds or the normal seedbag.",
+      "Section": "Crops"
+    },
+    "Moonflower": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable VT seed bags for Moonflower.",
+      "Section": "Crops"
+    },
+    "MoonflowerType": {
+      "AllowValues": "RareSeed, SeedSack",
+      "Default": "RareSeed",
+      "Description": "Choose what type of seedbag, seedbag used for Rare Seeds, or the seedbag sack.",
+      "Section": "Crops"
+    },
+    "MoonflowerSeasonal": {
+      "AllowValues": "Seasonal, NonSeasonal",
+      "Default": "NonSeasonal",
+      "Description": "Seasonal option adds seed bags that are colour coded for their season.",
+      "Section": "Crops"
+    },
+
+    //************************************
+    //        Saplings
+    //************************************
+    "CherrySapling": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable VT saplings for Heirloom Cherry Tree.",
+      "Section": "Crops"
+    },
+    "WildPlumSapling": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable VT saplings for Wild Plum.",
+      "Section": "Crops"
+    }
+  },
+
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "Data/objects.json"
+    }
+  ]
+}

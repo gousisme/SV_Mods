@@ -1,0 +1,16 @@
+﻿{
+    "Name": "Better Friendship",
+    "Author": "Urbanyeti",
+    "Version": "1.1.3",
+    "Description": "Adds thought bubbles over villagers to indicate their favorite gifts from your inventory and when they'd like to talk.",
+    "UniqueID": "BetterFriendship",
+    "EntryDll": "BetterFriendship.dll",
+    "MinimumApiVersion": "4.1.0",
+    "UpdateKeys": [ "Nexus:10287" ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        }
+    ]
+}

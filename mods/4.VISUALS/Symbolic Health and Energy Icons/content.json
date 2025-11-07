@@ -1,0 +1,277 @@
+{
+    "Format": "2.8.0",
+        "ConfigSchema": {
+        
+        "Health Bar": {
+             "AllowValues": "Green, DarkGreen, Red, Rose, Pink, Cyan, Iridium, Gold, Copper, Silver, Custom",
+             "Default": "Red",
+			  "Section": "Bars",
+             },
+	 "Energy Bar": {
+             "AllowValues":  "Green, DarkGreen, Red, Rose, Pink, Cyan, Iridium, Gold, Copper, Silver, Custom",
+             "Default": "Green",
+			   "Section": "Bars",
+             },
+        "Health Icon": {
+                         "AllowValues": "Green, DarkGreen, Red, Rose, Pink, Cyan, Iridium, Gold, Copper, Silver, Custom",
+             "Default": "Red",
+			   "Section": "Icons",
+             },
+	"Energy Icon": {
+	"AllowValues": "Green, DarkGreen, Red, Rose, Pink, Cyan, Iridium, Gold, Copper, Silver, Custom",
+	"Default": "Green",
+	   "Section": "Icons",
+             },
+	"Personal Frames Recolor": {
+             "AllowValues": "true, false",
+             "Default": "false",
+             },
+},
+
+ "DynamicTokens": [
+ 
+      {
+         "Name": "Recolor",
+         "Value": "Vanilla"
+	
+      },
+      {
+         "Name": "Recolor",
+         "Value": "Bog's Forest UI Interface",
+         "When": {
+            "HasMod": "Bos.UIInterface",
+         }
+      },
+	 {
+         "Name": "Recolor",
+         "Value": "Lynnea's Witchy Purple UI",
+         "When": {
+            "HasMod": "Lynnea.WitchyPurpleUIInterface",
+         }
+      },
+ {
+         "Name": "Recolor",
+         "Value": "Citrus Interface",
+         "When": {
+            "HasMod": "ninthalley.CitrusInterface",
+         }
+      },
+	  {
+         "Name": "Recolor",
+         "Value": "DaisyNiko's Earthy",
+         "When": {
+            "HasMod": "DaisyNiko.EarthyRecolour",
+         }
+      },
+	   {
+         "Name": "Recolor",
+         "Value": "Lavender Dreams",
+         "When": {
+            "HasMod": "VinillaBean.LavenderDreams",
+         }
+      },
+	   {
+         "Name": "Recolor",
+         "Value": "Magical Valley",
+         "When": {
+            "HasMod": "HReenna.MagicalValleyInterfacee",
+         }
+      },
+	 {
+         "Name": "Recolor",
+         "Value": "Natural Dark Wood",
+         "When": {
+            "HasMod": "enteis.woodeninterfeis",
+         }
+      },
+	 {
+         "Name": "Recolor",
+         "Value": "Overgrown Flowery",
+         "When": {
+            "HasMod": "Maraluna.OvergrownFloweryInterface",
+         }
+      },
+	 {
+         "Name": "Recolor",
+         "Value": "Starry Blue",
+         "When": {
+            "HasMod": "Sqbr.StarryBlueUI",
+         }
+      },
+	 {
+         "Name": "Recolor",
+         "Value": "Vanilla Accent Interface",
+         "When": {
+            "HasMod": "Loe.VAccent",
+         }
+      },
+	   {
+         "Name": "Recolor",
+         "Value": "Vintage Interface v2",
+         "When": {
+            "HasMod": "ManaKirel.VintageInterface2",
+         }
+      },
+	     {
+         "Name": "Recolor",
+         "Value": "Void's Weird Wonders",
+         "When": {
+            "HasMod": "VWW.CP.WeirdInterface",
+         }
+      },
+	    {
+         "Name": "Recolor",
+         "Value": "VPR-Inspired UI",
+         "When": {
+            "HasMod": "Dora.VPRUI",
+         }
+      },
+	
+   ],
+
+    "Changes": [
+
+//Frames 
+  {
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Frames/BarsFrame_{{Recolor}}.png",
+		"When": {"Personal Frames Recolor": false },
+		
+		
+	 "PatchMode": "Replace",
+	"Priority": "Late",
+	    "ToArea":
+            {
+                "X": 256,
+                "Y": 408,
+                "Width": 24,
+                "Height": 12
+            },
+        },
+		{
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Frames/BarsFrame_Custom.png",
+		"When": {"Personal Frames Recolor": true },
+	 "PatchMode": "Replace",
+	"Priority": "Late",
+	    "ToArea":
+            {
+                "X": 256,
+                "Y": 408,
+                "Width": 24,
+                "Height": 12
+            },
+        },
+//BARSIcons HEALTH
+ { 
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Icons/BarsHealth_{{Health Bar}}.png",
+		//	"When": {"Health Bar": "{{Color}}" },
+
+	 "PatchMode": "Overlay",
+	 "Priority": "Late+1",
+	//"Priority": "Late+1",
+	    "ToArea":
+            {
+                "X": 269,
+                "Y": 406,
+                "Width": 12,
+                "Height": 14
+            },
+        },
+//BARSIcons Energy
+ { 
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Icons/BarsEnergy_{{Energy Bar}}.png",
+	 "PatchMode": "Overlay",
+	 "Priority": "Late+1",
+	//"Priority": "Late+1",
+	    "ToArea":
+            {
+                "X": 256,
+                "Y": 406,
+                "Width": 12,
+                "Height": 14
+            },
+        },
+//////////
+  //BigIcons HEALTH
+        {
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Icons/BigHealth_{{Health Icon}}.png",
+	 "PatchMode": "Replace",
+	 "Priority": "Late+1",
+	 //"Priority": "Late+1",
+	    "ToArea":
+            {
+                "X": 16,
+                "Y": 410,
+                "Width": 16,
+                "Height": 17
+            },
+        },  
+  {
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Icons/BigEnergy_{{Energy Icon}}.png",
+	 "PatchMode": "Replace",
+	 "Priority": "Late+1",
+	 //"Priority": "Late+1",
+	    "ToArea":
+            {
+                "X": 0,
+                "Y": 410,
+                "Width": 16,
+                "Height": 17
+            },
+        },  
+//SmallIcons Health
+        {
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Icons/SmallHealth_{{Health Icon}}.png",
+	 "PatchMode": "Replace",
+	 "Priority": "Late+1",
+	 //"Priority": "Late+1",
+	 "ToArea":
+            {
+                "X": 0,
+                "Y": 438,
+                "Width": 10,
+                "Height": 10
+            },
+        },  
+//SmallIcons Energy
+        {
+            "LogName": "CursorsMain",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Icons/SmallEnergy_{{Energy Icon}}.png",
+	 "PatchMode": "Replace",
+	 "Priority": "Late+1",
+	 //"Priority": "Late+1",
+	     "ToArea":
+            {
+                "X": 0,
+                "Y": 428,
+                "Width": 10,
+                "Height": 10
+            },
+	   
+        },  
+
+
+    ]
+}

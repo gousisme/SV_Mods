@@ -1,0 +1,951 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "ArtisanShop1.3.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.3.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.3.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.Keg.1",
+              "ItemId": "(BC)12",
+              "TradeItemId": "334",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.2",
+              "ItemId": "(BC)12",
+              "TradeItemId": "334",
+              "TradeItemAmount": 8,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.3",
+              "ItemId": "(BC)12",
+              "TradeItemId": "334",
+              "TradeItemAmount": 12,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.4",
+              "ItemId": "(BC)12",
+              "TradeItemId": "335",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.5",
+              "ItemId": "(BC)12",
+              "TradeItemId": "335",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.6",
+              "ItemId": "(BC)12",
+              "TradeItemId": "335",
+              "TradeItemAmount": 8,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.4.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.4.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.4.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.Keg.7",
+              "ItemId": "(BC)12",
+              "Price": 4000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.8",
+              "ItemId": "(BC)12",
+              "Price": 6000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.9",
+              "ItemId": "(BC)12",
+              "Price": 8000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.10",
+              "ItemId": "(BC)12",
+              "Price": 12000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.5.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.5.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.5.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.Keg.11",
+              "ItemId": "(BC)12",
+              "TradeItemId": "725",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.12",
+              "ItemId": "(BC)12",
+              "TradeItemId": "143",
+              "TradeItemAmount": 2,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.13",
+              "ItemId": "(BC)12",
+              "TradeItemId": "136",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.14",
+              "ItemId": "(BC)12",
+              "TradeItemId": "174",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.15",
+              "ItemId": "(BC)12",
+              "TradeItemId": "182",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.16",
+              "ItemId": "(BC)12",
+              "TradeItemId": "186",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Keg.17",
+              "ItemId": "(BC)12",
+              "TradeItemId": "438",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.6.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.6.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.6.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.PreservesJar.1",
+              "ItemId": "(BC)15",
+              "TradeItemId": "334",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.2",
+              "ItemId": "(BC)15",
+              "TradeItemId": "334",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.3",
+              "ItemId": "(BC)15",
+              "TradeItemId": "334",
+              "TradeItemAmount": 8,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.4",
+              "ItemId": "(BC)15",
+              "TradeItemId": "335",
+              "TradeItemAmount": 2,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.5",
+              "ItemId": "(BC)15",
+              "TradeItemId": "335",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.6",
+              "ItemId": "(BC)15",
+              "TradeItemId": "335",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.7",
+              "ItemId": "(BC)15",
+              "Price": 2500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.8",
+              "ItemId": "(BC)15",
+              "Price": 4000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.PreservesJar.9",
+              "ItemId": "(BC)15",
+              "Price": 6000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.17.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.17.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.17.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.Furnace.1",
+              "ItemId": "(BC)13",
+              "TradeItemId": "334",
+              "TradeItemAmount": 5,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.2",
+              "ItemId": "(BC)13",
+              "TradeItemId": "334",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.3",
+              "ItemId": "(BC)13",
+              "TradeItemId": "334",
+              "TradeItemAmount": 10,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.4",
+              "ItemId": "(BC)13",
+              "TradeItemId": "335",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.5",
+              "ItemId": "(BC)13",
+              "TradeItemId": "335",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.6",
+              "ItemId": "(BC)13",
+              "TradeItemId": "335",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.18.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.18.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.18.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.Furnace.7",
+              "ItemId": "(BC)13",
+              "Price": 1200,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.8",
+              "ItemId": "(BC)13",
+              "Price": 1800,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.9",
+              "ItemId": "(BC)13",
+              "Price": 2300,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Furnace.10",
+              "ItemId": "(BC)13",
+              "Price": 3200
+            }
+          ]
+        },
+        "ArtisanShop1.20.6": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.20.6",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.20.6}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.CharcoalKiln.1",
+              "ItemId": "(BC)114",
+              "TradeItemId": "334",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CharcoalKiln.2",
+              "ItemId": "(BC)114",
+              "TradeItemId": "334",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CharcoalKiln.3",
+              "ItemId": "(BC)114",
+              "TradeItemId": "334",
+              "TradeItemAmount": 5,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CharcoalKiln.4",
+              "ItemId": "(BC)114",
+              "Price": 2200,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CharcoalKiln.5",
+              "ItemId": "(BC)114",
+              "Price": 2500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CharcoalKiln.6",
+              "ItemId": "(BC)114",
+              "Price": 3000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.2.7": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.2.7",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.2.7}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.CheesePress.1",
+              "ItemId": "(BC)16",
+              "TradeItemId": "334",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CheesePress.2",
+              "ItemId": "(BC)16",
+              "TradeItemId": "334",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CheesePress.3",
+              "ItemId": "(BC)16",
+              "TradeItemId": "334",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CheesePress.4",
+              "ItemId": "(BC)16",
+              "Price": 2500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CheesePress.5",
+              "ItemId": "(BC)16",
+              "Price": 3000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.CheesePress.6",
+              "ItemId": "(BC)16",
+              "Price": 3800,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.16.7": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.16.7",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.16.7}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.LightningRod.1",
+              "ItemId": "(BC)9",
+              "TradeItemId": "335",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.LightningRod.2",
+              "ItemId": "(BC)9",
+              "TradeItemId": "335",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.LightningRod.3",
+              "ItemId": "(BC)9",
+              "Price": 3500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.LightningRod.4",
+              "ItemId": "(BC)9",
+              "Price": 5000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.LightningRod.5",
+              "ItemId": "(BC)9",
+              "Price": 7500,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.7.8": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.7.8",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.7.8}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.Cask.1",
+              "ItemId": "(BC)163",
+              "TradeItemId": "388",
+              "TradeItemAmount": 25,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.2",
+              "ItemId": "(BC)163",
+              "TradeItemId": "388",
+              "TradeItemAmount": 40,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.3",
+              "ItemId": "(BC)163",
+              "TradeItemId": "388",
+              "TradeItemAmount": 60,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.4",
+              "ItemId": "(BC)163",
+              "TradeItemId": "709",
+              "TradeItemAmount": 1,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.5",
+              "ItemId": "(BC)163",
+              "TradeItemId": "709",
+              "TradeItemAmount": 2,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.6",
+              "ItemId": "(BC)163",
+              "TradeItemId": "709",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.7",
+              "ItemId": "(BC)163",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.8",
+              "ItemId": "(BC)163",
+              "Price": 1500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.Cask.9",
+              "ItemId": "(BC)163",
+              "Price": 2000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.16.8": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.16.8",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.16.8}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.WoodChipper.1",
+              "ItemId": "(BC)211",
+              "TradeItemId": "334",
+              "TradeItemAmount": 2,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.WoodChipper.2",
+              "ItemId": "(BC)211",
+              "TradeItemId": "335",
+              "TradeItemAmount": 2,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.WoodChipper.3",
+              "ItemId": "(BC)211",
+              "Price": 500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.WoodChipper.4",
+              "ItemId": "(BC)211",
+              "Price": 750,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.WoodChipper.5",
+              "ItemId": "(BC)211",
+              "Price": 1000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.21.8": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.21.8",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.21.8}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.GeodeCrusher.1",
+              "ItemId": "(BC)182",
+              "TradeItemId": "749",
+              "TradeItemAmount": 9,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.GeodeCrusher.2",
+              "ItemId": "(BC)182",
+              "TradeItemId": "749",
+              "TradeItemAmount": 16,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.GeodeCrusher.3",
+              "ItemId": "(BC)182",
+              "TradeItemId": "749",
+              "TradeItemAmount": 21,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.GeodeCrusher.4",
+              "ItemId": "(BC)182",
+              "Price": 5000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.GeodeCrusher.5",
+              "ItemId": "(BC)182",
+              "Price": 6000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.GeodeCrusher.6",
+              "ItemId": "(BC)182",
+              "Price": 7500,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.3.9": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.3.9",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.3.9}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.MayonnaiseMachine.1",
+              "ItemId": "(BC)24",
+              "TradeItemId": "334",
+              "TradeItemAmount": 2,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.MayonnaiseMachine.2",
+              "ItemId": "(BC)24",
+              "TradeItemId": "334",
+              "TradeItemAmount": 3,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.MayonnaiseMachine.3",
+              "ItemId": "(BC)24",
+              "TradeItemId": "334",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.MayonnaiseMachine.4",
+              "ItemId": "(BC)24",
+              "Price": 750,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.MayonnaiseMachine.5",
+              "ItemId": "(BC)24",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.MayonnaiseMachine.6",
+              "ItemId": "(BC)24",
+              "Price": 1250,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.3.17": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.3.17",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.3.17}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.FishSmoker.1",
+              "ItemId": "(BC)FishSmoker",
+              "TradeItemId": "136",
+              "TradeItemAmount": 25,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.FishSmoker.2",
+              "ItemId": "(BC)FishSmoker",
+              "TradeItemId": "143",
+              "TradeItemAmount": 8,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.FishSmoker.3",
+              "ItemId": "(BC)FishSmoker",
+              "TradeItemId": "267",
+              "TradeItemAmount": 22,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.FishSmoker.4",
+              "ItemId": "(BC)FishSmoker",
+              "TradeItemId": "SeaJelly",
+              "TradeItemAmount": 6,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.FishSmoker.5",
+              "ItemId": "(BC)FishSmoker",
+              "TradeItemId": "CaveJelly",
+              "TradeItemAmount": 4,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.FishSmoker.6",
+              "ItemId": "(BC)FishSmoker",
+              "TradeItemId": "RiverJelly",
+              "TradeItemAmount": 8,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.9.16": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.9.16",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.9.16}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.CoffeeMaker.1",
+              "ItemId": "(BC)246",
+              "Price": 1999,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.15.16": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.15.16",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.15.16}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.SolarPanel.1",
+              "ItemId": "(BC)231",
+              "TradeItemId": "815",
+              "TradeItemAmount": 20,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.SolarPanel.2",
+              "ItemId": "(BC)231",
+              "TradeItemId": "815",
+              "TradeItemAmount": 30,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.SolarPanel.3",
+              "ItemId": "(BC)231",
+              "TradeItemId": "433",
+              "TradeItemAmount": 299,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.SolarPanel.4",
+              "ItemId": "(BC)231",
+              "TradeItemId": "433",
+              "TradeItemAmount": 399,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.SolarPanel.5",
+              "ItemId": "(BC)231",
+              "Price": 15000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.BatteryPack.1",
+              "ItemId": "787",
+              "TradeItemId": "400",
+              "TradeItemAmount": 10,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.21.17": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.21.17",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.21.17}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.HeavyTapper.1",
+              "ItemId": "(BC)264",
+              "TradeItemId": "725",
+              "TradeItemAmount": 20,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.2",
+              "ItemId": "(BC)264",
+              "TradeItemId": "725",
+              "TradeItemAmount": 25,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.3",
+              "ItemId": "(BC)264",
+              "TradeItemId": "725",
+              "TradeItemAmount": 30,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.4",
+              "ItemId": "(BC)264",
+              "TradeItemId": "725",
+              "TradeItemAmount": 35,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.5",
+              "ItemId": "(BC)264",
+              "TradeItemId": "725",
+              "TradeItemAmount": 40,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.6",
+              "ItemId": "(BC)264",
+              "TradeItemId": "(O)709",
+              "TradeItemAmount": 40,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.6",
+              "ItemId": "(BC)264",
+              "TradeItemId": "(O)709",
+              "TradeItemAmount": 45,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "ArtisanShop1.HeavyTapper.6",
+              "ItemId": "(BC)264",
+              "TradeItemId": "(O)709",
+              "TradeItemAmount": 50,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "ArtisanShop1.21.19": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "ArtisanShop1.21.19",
+                  "Dialogue": "{{i18n:Shops.ArtisanShop1.21.19}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "ArtisanShop1.CookoutKit.1",
+              "ItemId": "926",
+              "Price": 1000,
+              "AvailableStock": 5
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

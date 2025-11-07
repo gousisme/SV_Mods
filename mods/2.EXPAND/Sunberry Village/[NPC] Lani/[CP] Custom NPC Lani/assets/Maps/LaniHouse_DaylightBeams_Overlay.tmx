@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="21" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="52">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="DayTiles" value="Buildings 22 6 1624 Buildings 22 5 1568 Buildings 22 4 1512 Buildings 23 6 1625 Buildings 23 5 1569 Buildings 23 4 1513 Buildings 24 6 1626 Buildings 24 5 1570 Buildings 24 4 1514 Buildings 4 6 1624 Buildings 4 5 1568 Buildings 4 4 1512 Buildings 5 6 1625 Buildings 5 5 1569 Buildings 5 4 1513 Buildings 6 6 1626 Buildings 6 5 1570 Buildings 6 4 1514 Back+2 11 7 279 Back+2 16 7 281 Buildings 11 6 267 Buildings 11 5 255 Buildings 12 6 268 Buildings 12 5 256 Buildings 12 4 244 Buildings 13 6 268 Buildings 13 5 256 Buildings 13 4 244 Buildings 14 6 268 Buildings 14 5 256 Buildings 14 4 244 Buildings 15 6 268 Buildings 15 5 256 Buildings 15 4 244 Buildings 16 6 269 Buildings 16 5 257 Front+1 16 4 245 Front+1 11 4 243"/>
+  <property name="Doors" value="22 14 1 120 22 20 1 120"/>
+  <property name="NightTiles" value="Buildings 22 6 1630 Buildings 22 5 1574 Buildings 22 4 1518 Buildings 23 6 1631 Buildings 23 5 1575 Buildings 23 4 1519 Buildings 24 6 1632 Buildings 24 5 1576 Buildings 24 4 1520 Buildings 4 6 1630 Buildings 4 5 1574 Buildings 4 4 1518 Buildings 5 6 1631 Buildings 5 5 1575 Buildings 5 4 1519 Buildings 6 6 1632 Buildings 6 5 1576 Buildings 6 4 1520 Back+2 11 7 279 Back+2 16 7 281 Buildings 11 6 273 Buildings 11 5 261 Buildings 12 6 274 Buildings 12 5 262 Buildings 12 4 250 Buildings 13 6 274 Buildings 13 5 262 Buildings 13 4 250 Buildings 14 6 274 Buildings 14 5 262 Buildings 14 4 250 Buildings 15 6 274 Buildings 15 5 262 Buildings 15 4 250 Buildings 16 6 275 Buildings 16 5 263 Front+1 16 4 251 Front+1 11 4 249"/>
+  <property name="Warp" value="15 28 Custom_SBV_SunberryVillage 65 48"/>
+ </properties>
+ <tileset firstgid="1" name="z_lanilight" tilewidth="16" tileheight="16" tilecount="2516" columns="37">
+  <image source="z_lanilight.png" width="600" height="1088"/>
+ </tileset>
+ <layer id="6" name="AlwaysFront" width="21" height="4">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+313,314,315,316,0,0,27,535,536,537,538,539,540,0,0,0,0,0,313,314,315,
+350,351,352,0,0,0,64,572,573,574,575,576,577,0,0,0,0,0,350,351,352,
+387,388,389,390,0,0,101,609,610,611,612,613,614,0,0,0,0,386,387,388,389,
+424,425,426,427,0,0,138,646,647,648,649,650,651,0,0,0,0,423,424,425,426
+</data>
+ </layer>
+ <objectgroup id="13" name="AlwaysFront"/>
+</map>

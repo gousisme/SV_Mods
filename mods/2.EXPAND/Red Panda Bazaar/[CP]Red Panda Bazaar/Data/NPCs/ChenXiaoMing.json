@@ -1,0 +1,632 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing": {
+                    "DisplayName": "{{i18n:NPCName:RedPandaBazaar_ChenXiaoMing}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 7,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Teen",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "IsDarkSkinned": false,
+                    "CanSocialize":true,
+                    "CanBeRomanced": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": true,
+                    "CanVisitIsland": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "UnknownUntilMet",
+                    "SpouseWantsChildren": false,
+                    "SpouseGiftJealousy": true,
+                    "SpouseRoom": {
+                        "MapAsset": "Custom_ChenXiaoMingRoom",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Custom_ChenXiaoMing_Spouse_Area",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
+                        }
+                    },
+                    "SpouseFloors": null,
+                    "SpouseWallpapers": null,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": true,
+                    "EndSlideShow": "MainGroup",
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "FriendsAndFamily": {},
+                    "DumpsterDiveEmote": 40,
+                    "DumpsterDiveFriendshipEffect": -200,
+                    "UnlockConditions": null,
+                    "FlowerDanceCanDance": true,
+                    "WinterStarParticipant": true,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "Custom_ChenQiShop2",
+                            "Tile": {"X": 16, "Y": 14},
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": false,
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_ChenXiaoMingRoom",
+            "FromFile": "Assets/Maps/Room/ChenXiaoMingRoom.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_ChenXiaoMing_Spouse_Area",
+            "FromFile": "Assets/Maps/Spouse_Area/ChenXiaoMing_Spouse_Area.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_ChenXiaoMing",
+            "FromFile": "assets/Sprites/ChenXiaoMing.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_ChenXiaoMing",
+            "FromFile": "assets/Portraits/ChenXiaoMing.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_ChenXiaoMing_Beach",
+            "FromFile": "assets/Sprites/ChenXiaoMing_Beach.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_ChenXiaoMing_Beach",
+            "FromFile": "assets/Portraits/ChenXiaoMing_Beach.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "redpandabazaar_chenxiaoming_sleep": "29/29/29"
+            }
+        },
+        {
+            "LogName": "ChenXiaoMing's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.GiftTastes.love}}/400/{{i18n:ChenXiaoMing.GiftTastes.like}}/253 394 410 258 296 406/{{i18n:ChenXiaoMing.GiftTastes.dislike}}/74 265/{{i18n:ChenXiaoMing.GiftTastes.hate}}/174 176 180 182 376 -22 -28 -2 -4/{{i18n:ChenXiaoMing.GiftTastes.neutral}}/227 303 348 459 346 446//"
+            }
+        },
+        {
+            "LogName": "ChenXiaoMing's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing": "{{i18n:Spouse.ChenXiaoMing.GiftTastes.love}}/400/{{i18n:Spouse.ChenXiaoMing.GiftTastes.like}}/253 394 410 258 296 406/{{i18n:Spouse.ChenXiaoMing.GiftTastes.dislike}}/74 265/{{i18n:Spouse.ChenXiaoMing.GiftTastes.hate}}/174 176 180 182 376 -22 -28 -2 -4/{{i18n:Spouse.ChenXiaoMing.GiftTastes.neutral}}/227 303 348 459 346 446//"
+            },
+        "When": {
+            "Spouse": "RedPandaBazaar_ChenXiaoMing"
+        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.SummitEvent.Dialogue.01}}\"/pause 500/faceDirection farmer 1/pause 250/emote farmer 8/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:ChenXiaoMing.SummitEvent.Dialogue.02}}\"/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 3/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:ChenXiaoMing.SummitEvent.Dialogue.03}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:ChenXiaoMing.SummitEvent.Dialogue.04}}\""
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_RedPandaBazaar",
+            "Entries": {
+                "90328001/w sunny/t 1900 2400/f RedPandaBazaar_ChenXiaoMing 500": "spring_night_ambient/32 43/farmer 23 43 1 RedPandaBazaar_ChenXiaoMing 32 43 0/skippable/advancedMove farmer false 8 0 1 1500/pause 2000/emote RedPandaBazaar_ChenXiaoMing 12/pause 1000/faceDirection RedPandaBazaar_ChenXiaoMing 3/pause 500/stopMusic/pause 500/playSound echos/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.2}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.3}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.4}}\"/stopAdvancedMoves/pause 500/faceDirection farmer 0/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 0/pause 1000/globalFade/viewport -1000 -1000/pause 1000/warp RedPandaBazaar_ChenXiaoMing 31 48/warp farmer 32 48/faceDirection farmer 2 true/faceDirection RedPandaBazaar_ChenXiaoMing 2 true/viewport 31 48 true/pause 1500/addItem RedPandaBazaar_Golden_Flavor_Popsicle/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.5}}\"/pause 500/quickQuestion #{{i18n:90328001.6}}#{{i18n:90328001.7}}#{{i18n:90328001.8}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.9}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.10}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.11}}\"/pause 500/emote farmer 28/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 1 true/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.12}}\"/pause 500/quickQuestion #{{i18n:90328001.13}}#{{i18n:90328001.14}}#{{i18n:90328001.15}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.16}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.17}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.18}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.19}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328001.20}}\"/pause 1000/emote farmer 28/end",
+                "90328005/w sunny/t 2000 2600/f RedPandaBazaar_ChenXiaoMing 2500/n RedPandaBazaar_ChenXiaoMingMail01": "spring_night_ambient/27 78/farmer 35 78 3 RedPandaBazaar_ChenXiaoMing 27 78 2/skippable/animate RedPandaBazaar_ChenXiaoMing false true 1250 20 22/pause 1000/advancedMove farmer false -7 0 3 2000/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.1}}\"/pause 500/stopAnimation RedPandaBazaar_ChenXiaoMing/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 1/pause 500/emote RedPandaBazaar_ChenXiaoMing 40/emote farmer 40/pause 500/playMusic sadpiano/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.2}}\"/pause 500/faceDirection farmer 2 true/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 2 true/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.3}}\"/pause 500/emote RedPandaBazaar_ChenXiaoMing 28/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.4}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.5}}\"/pause 500/emote RedPandaBazaar_ChenXiaoMing 40/pause 500/jump RedPandaBazaar_ChenXiaoMing 8/textAboveHead RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.6}}\"/pause 500/quickQuestion #{{i18n:90328005.7}}#{{i18n:90328005.8}}#{{i18n:90328005.9}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.10}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.11}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.12}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.13}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328005.14}}\"/pause 500/positionOffset RedPandaBazaar_ChenXiaoMing 2 0/positionOffset RedPandaBazaar_ChenXiaoMing 2 0/positionOffset RedPandaBazaar_ChenXiaoMing 2 0/pause 500/shake RedPandaBazaar_ChenXiaoMing 300/pause 500/animate RedPandaBazaar_ChenXiaoMing false true 1250 28 28/specificTemporarySprite heart 27 78/pause 1000/emote farmer 20/pause 2500/end"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_ChenQiShop1",
+            "Entries": {
+                "90328002/e 90328001/t 900 1800/f RedPandaBazaar_ChenXiaoMing 1000": "marnieShop/9 21/farmer 100 100 0 RedPandaBazaar_ChenXiaoMing 9 21 2 RedPandaBazaar_ShiFuShan 13 22 0 RedPandaBazaar_Passersby.7 13 15 0 RedPandaBazaar_Passersby.6 12 15 0/skippable/pause 1000/warp farmer 9 23/playSound doorClose/pause 500/jump RedPandaBazaar_ChenXiaoMing 8/textAboveHead RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.1}}\"/pause 1000/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.2}}\"/pause 500/faceDirection RedPandaBazaar_ShiFuShan 3 true/pause 250/emote RedPandaBazaar_ShiFuShan 12/pause 250/faceDirection RedPandaBazaar_ShiFuShan 0 true/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.3}}\"/pause 500/textAboveHead RedPandaBazaar_ShiFuShan \"{{i18n:90328002.4}}\"/pause 250/emote RedPandaBazaar_ChenXiaoMing 28/pause 500/faceDirection farmer 1 true/pause 1000/faceDirection farmer 0 true/pause 1000/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.5}}\"/pause 500/quickQuestion #{{i18n:90328002.6}}#{{i18n:90328002.7}}#{{i18n:90328002.8}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.9}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.10}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.11}}\"/pause 500/emote farmer 40/speak RedPandaBazaar_ShiFuShan \"{{i18n:90328002.12}}\"/pause 250/faceDirection farmer 1 true/speak RedPandaBazaar_ShiFuShan \"{{i18n:90328002.13}}\"/pause 500/faceDirection farmer 0 true/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328002.14}}\"/pause 500/emote farmer 40/pause 500/end",
+                "90328004/e 90328003/t 1700 2600/f RedPandaBazaar_ChenXiaoMing 2000": "echos/9 7/farmer 8 11 0 RedPandaBazaar_ChenXiaoMing 9 7 0/skippable/advancedMove farmer false 0 -4 0 0 1 2000/pause 1000/textAboveHead RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.1}}\"/pause 2000/faceDirection RedPandaBazaar_ChenXiaoMing 3 true/pause 500/emote RedPandaBazaar_ChenXiaoMing 40/pause 1000/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.2}}\"/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 0 true/pause 1000/faceDirection farmer 0 true/pause 500/quickQuestion #{{i18n:90328004.3}}#{{i18n:90328004.4}}#{{i18n:90328004.5}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.6}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.7}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.8}}\"/pause 500/emote RedPandaBazaar_ChenXiaoMing 28/pause 250/faceDirection RedPandaBazaar_ChenXiaoMing 3 true/pause 250/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.9}}\"/pause 500/faceDirection farmer 1 true/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.10}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.11}}\"/pause 250/faceDirection farmer 2 true/pause 250/faceDirection RedPandaBazaar_ChenXiaoMing 2 true/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.12}}\"/quickQuestion #{{i18n:90328004.13}}#{{i18n:90328004.14}}#{{i18n:90328004.15}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.16}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.17}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.18}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.19}}\"/pause 500/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328004.20}}\"/pause 500/advancedMove RedPandaBazaar_ChenXiaoMing false 0 1 -10 0 1 2000/pause 500/emote farmer 8/pause 2000/end/"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_ChenQiShop2",
+            "Entries": {
+                "90328003/e 90328002/t 900 1800/f RedPandaBazaar_ChenXiaoMing 1500": "playful/4 7/farmer 100 100 2 RedPandaBazaar_ChenXiaoMing 4 7 0/stopMusic/skippable/pause 1000/shake RedPandaBazaar_ChenXiaoMing 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.1}}\"/pause 500/warp farmer 3 5/playSound doorClose/pause 500/pause 1000/advancedMove farmer false 0 2 0 0 1 2000/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 3 true/pause 500/playSound breezy/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.2}}\"/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 0 true/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.3}}\"/pause 500/emote farmer 40/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.4}}\"/pause 1000/playSound cowboy_gunload/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.5}}\"/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 3 true/emote RedPandaBazaar_ChenXiaoMing 28/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.6}}\"/pause 500/question fork1 \"{{i18n:90328003.7}}\"/fork 90328003_2/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.8}}\"/pause 500/emote RedPandaBazaar_ChenXiaoMing 40/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.9}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.10}}\"/quickQuestion #{{i18n:90328003.11}}#{{i18n:90328003.12}}#{{i18n:90328003.13}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.14}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.15}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.16}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.17}}\"/pause 500/addItem RedPandaBazaar_Prize_Ticket_1/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003.18}}\"/pause 500/emote farmer 16/end",
+                "90328003_2": "pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328003_2.1}}\"/pause 500/friendship RedPandaBazaar_ChenXiaoMing -500/end"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/farmhouse",
+            "Entries": {
+                "90328006/t 610 1400/f RedPandaBazaar_ChenXiaoMing 3500": "playful/6 5/farmer 6 9 0 RedPandaBazaar_ChenXiaoMing 6 5 0/advancedMove farmer false 0 -3 -1 0 0 -1 1 2000/skippable/pause 1500/emote farmer 8/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 3 true/pause 250/jump RedPandaBazaar_ChenXiaoMing 8/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.2}}\"/pause 500/emote farmer 40/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.3}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.4}}\"/pause 500/quickQuestion #{{i18n:90328006.5}}#{{i18n:90328006.6}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.7}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.8}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.9}}\"/pause 1000/end"
+            },
+            "When": {
+                "FarmhouseUpgrade": 1
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/farmhouse",
+            "Entries": {
+                "90328006/t 610 1400/f RedPandaBazaar_ChenXiaoMing 3500": "playful/24 24/farmer 24 28 0 RedPandaBazaar_ChenXiaoMing 24 24 0/advancedMove farmer false 0 -3 -1 0 0 -1 1 2000/skippable/pause 1500/emote farmer 8/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 3 true/pause 250/jump RedPandaBazaar_ChenXiaoMing 8/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.2}}\"/pause 500/emote farmer 40/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.3}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.4}}\"/pause 500/quickQuestion #{{i18n:90328006.5}}#{{i18n:90328006.6}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.7}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.8}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328006.9}}\"/pause 1000/end"
+            },
+            "When": {
+                "FarmhouseUpgrade|contains=2, 3": true
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "90328007/e 90328006/t 1900 2400/f RedPandaBazaar_ChenXiaoMing 3500": "Saloon1/10 19/Gus 10 18 2 Pam 7 18 1 Shane 21 17 2 Emily 13 17 0 farmer 11 20 0 RedPandaBazaar_ChenXiaoMing 10 20 0/skippable/animate Shane false true 100 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20 20 20 20 20 20 20 20 20/pause 1500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.1}}\"/pause 500/emote farmer 40/pause 500/quickQuestion #{{i18n:90328007.2}}#{{i18n:90328007.3}}#{{i18n:90328007.4}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.5}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.6}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.7}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.8}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.9}}\"/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 1 true/pause 500/faceDirection farmer 3 true/pause 500/quickQuestion #{{i18n:90328007.10}}#{{i18n:90328007.11}}#{{i18n:90328007.12}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.13}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.14}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.15}}\"/pause 500/faceDirection RedPandaBazaar_ChenXiaoMing 0 true/pause 500/faceDirection farmer 0 true/pause 500/speak Gus \"{{i18n:90328007.16}}\"/pause 500/emote RedPandaBazaar_ChenXiaoMing 28/speak Gus \"{{i18n:90328007.17}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.18}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.19}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.20}}\"/pause 500/quickQuestion #{{i18n:90328007.21}}#{{i18n:90328007.22}}#{{i18n:90328007.23}}(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.24}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.25}}\"(break)speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.26}}\"/pause 500/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.27}}\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/speak RedPandaBazaar_ChenXiaoMing \"{{i18n:90328007.28}}\"/pause 500/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing": {
+                    "Name": "RedPandaBazaar_ChenXiaoMing",
+                    "LovedTags": [
+                        "Cappuccino Mousse Cake",
+                        "Ice Cream Sandwich",
+                        "Chocolate Popcorn",
+                        "Popcorn",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Hummus Snack Pack",
+                        "Personal Pizza",
+                        "Rock Candy",
+                        "Star Cookie",
+                        "Apple Slices",
+                        "Salted Peanuts"
+                    ],
+                    "DislikedTags": [
+                        "Nachos",
+                        "Jasmine Tea",
+                        "Fries",
+                        "Black Licorice",
+                        "Sour Slimes",
+                        "Joja Cola",
+                        "Joja Corn",
+                        "Kale Smoothie",
+                        "Panzanella Salad",
+                        "Salmon Burger",
+                        "Truffle Popcorn",
+                        "Jawbreaker",
+                        "Cotton Candy"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing": {
+                    "NPCName": "RedPandaBazaar_ChenXiaoMing",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.0.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.0.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.0.ChenXiaoMing.Movies.AfterMovie}}"
+                                },
+                                "ID": "reaction_0"
+                            }
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.1.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.1.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.1.ChenXiaoMing.Movies.AfterMovie}}"
+                                },
+                                "ID": "reaction_1"
+                            }
+                        },
+                        {
+                            "ID": "reaction_2",
+                            "Tag": "summer_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.0.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.0.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.0.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_3",
+                            "Tag": "summer_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.1.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.1.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.1.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_4",
+                            "Tag": "fall_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.0.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.0.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.0.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_5",
+                            "Tag": "fall_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.1.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.1.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.1.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_6",
+                            "Tag": "winter_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.0.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.0.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.0.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_7",
+                            "Tag": "winter_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.1.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.1.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.1.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "RedPandaBazaar_ChenXiaoMing": {
+                    "NPCName": "RedPandaBazaar_ChenXiaoMing",
+                    "Reactions": [
+                        {
+                            "ID": "reaction_0",
+                            "Tag": "spring_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.0.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.0.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.0.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_1",
+                            "Tag": "spring_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.1.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.1.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:spring.1.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_2",
+                            "Tag": "summer_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.0.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.0.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.0.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_3",
+                            "Tag": "summer_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.1.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.1.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:summer.1.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_4",
+                            "Tag": "fall_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.0.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.0.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.0.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_5",
+                            "Tag": "fall_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.1.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.1.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:fall.1.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_6",
+                            "Tag": "winter_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.0.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.0.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.0.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        },
+                        {
+                            "ID": "reaction_7",
+                            "Tag": "winter_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.1.Spouse.ChenXiaoMing.Movies.BeforeMovie}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.1.Spouse.ChenXiaoMing.Movies.DuringMovie}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:winter.1.Spouse.ChenXiaoMing.Movies.AfterMovie}}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "When": {
+                "Spouse": "RedPandaBazaar_ChenXiaoMing"
+            }
+        }
+    ]
+}

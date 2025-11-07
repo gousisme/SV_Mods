@@ -1,0 +1,322 @@
+{
+	"Changes": [
+// Egg Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 65 68 down/RoseSASS 66 68 down",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 65 68 down/RoseSASS 66 68 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_EggFest.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_EggFest.Wildflour}}",
+			}
+			
+		},
+
+//flower dance
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 30 46 down/RoseSASS 31 46 down",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 30 46 down/RoseSASS 31 46 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_FlowerDance.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_FlowerDance.Wildflour}}"
+			}
+			
+		},
+
+//luau
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 66 32 up/RoseSASS 67 32 up",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 66 32 up/RoseSASS 67 32 up",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Luau - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_Luau.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_Luau.Wildflour}}"
+			}
+			
+		},
+
+//Moonlight Jellies
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 66 40 down/RoseSASS 67 40 down",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 66 40 down/RoseSASS 67 40 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_Jellies.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_Jellies.Wildflour}}"
+			}
+			
+		},
+
+//SDV Fair
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 60 28 down/RoseSASS 61 29 left",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 60 28 down/RoseSASS 61 29 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Stardew Valley Fair - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_StardewFair.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_StardewFair.Wildflour}}"
+			}
+			
+		},
+
+
+/*Spirits Eve - swap to sbv one instead
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 66 32 up/RoseSASS 67 32 up",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 66 32 up/RoseSASS 67 32 up",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Spirits Eve - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_SpiritEve.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_SpiritEve.Wildflour}}"
+			}
+			
+		},*/
+
+//Ice Fest
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 62 50 right/RoseSASS 63 50 left",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 62 50 right/RoseSASS 63 50 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_IceFest.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_IceFest.Wildflour}}"
+			}
+			
+		},
+
+//Winter Star
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "WildflourSASS 59 72 right/RoseSASS 59 73 right",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "WildflourSASS 59 72 right/RoseSASS 59 73 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ 	
+				"RoseSASS": "{{i18n:Festivals_WinterStar.Rose}}",
+				"WildflourSASS": "{{i18n:Festivals_WinterStar.Wildflour}}"
+			}
+			
+		}
+
+    ]
+}

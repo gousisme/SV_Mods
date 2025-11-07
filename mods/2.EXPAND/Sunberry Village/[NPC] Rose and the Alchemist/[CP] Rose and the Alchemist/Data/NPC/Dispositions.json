@@ -1,0 +1,79 @@
+{
+  "Changes": [
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "WildflourSASS": {
+          "DisplayName": "{{i18n:Name.Wildflour}}",
+          "BirthSeason": "fall",
+          "BirthDay": 22,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "CanVisitIsland":false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModId}}_Atelier",
+              "Tile": {
+                "X": 7,
+                "Y": 7
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "RoseSASS": {
+          "DisplayName": "{{i18n:Name.Rose}}",
+          "BirthSeason": "winter",
+          "BirthDay": 3,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "CanVisitIsland":false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModId}}_Atelier",
+              "Tile": {
+                "X": 23,
+                "Y": 7
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        }
+      }
+    }
+  ]
+}

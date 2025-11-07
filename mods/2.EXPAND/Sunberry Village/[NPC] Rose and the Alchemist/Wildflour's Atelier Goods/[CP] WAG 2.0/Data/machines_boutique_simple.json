@@ -1,0 +1,665 @@
+{
+    "Changes": [
+
+///////////////////////
+// BOUTIQUE MACHINES //
+///////////////////////
+
+{
+    "LogName": "Add Flower Station to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Bouquets": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_FlowerStation": {
+            "Name": "Wildflour.AtelierGoods_FlowerStation",
+            "DisplayName": "{{i18n: AtelierGoods_FlowerStation.name}}",
+            "Description": "{{i18n: AtelierGoods_FlowerStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 112,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Flower Station Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Bouquets": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_FlowerStation": "388 50 771 10 382 5/Home/Wildflour.AtelierGoods_FlowerStation/true/{{RecipeConfig}}/{{i18n: AtelierGoods_FlowerStation.name}}",
+    }
+},
+
+{
+    "LogName": "Add Fragrance Station to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Perfume}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_FragranceStation": {
+            "Name": "Wildflour.AtelierGoods_FragranceStation",
+            "DisplayName": "{{i18n: AtelierGoods_FragranceStation.name}}",
+            "Description": "{{i18n: AtelierGoods_FragranceStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 104,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Fragrance Station Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Perfume}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_FragranceStation": "388 50 771 10 766 5/Home/Wildflour.AtelierGoods_FragranceStation/true/{{RecipeConfig}}/{{i18n: AtelierGoods_FragranceStation.name}}"
+    }
+},
+
+{
+    "LogName": "Add Wax Cauldron to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Soap}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CandleStation": {
+            "Name": "Wildflour.AtelierGoods_CandleStation",
+            "DisplayName": "{{i18n: AtelierGoods_CandleStation.name}}",
+            "Description": "{{i18n: AtelierGoods_CandleStation.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 120,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Wax Cauldron Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Soap}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CandleStation": "388 50 771 10 Wildflour.AtelierGoods_Honeycomb 5/Home/Wildflour.AtelierGoods_CandleStation/true/{{RecipeConfig}}/{{i18n: AtelierGoods_CandleStation.name}}"
+    }
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Basic Bouquet Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Bouquets": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_FlowerStation": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Bouquet",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Floral_Swag",
+                            "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Bouquet",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Bouquet",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Bouquet %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Bouquet",
+                            "PreserveId": "DROP_IN_PRESERVE", 
+                            "CopyColor":true, 
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 400
+                }
+            ], 
+            "InvalidCountMessage":"{{i18n:AtelierGoods_FlowerStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:AtelierGoods_FlowerStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Perfume Only Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Perfume": true, "Atelier.Cauldron/ConfigValue:Incense": false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_FragranceStation":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Perfume",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "category_flowers"
+                            ],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Perfume",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Perfume",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Perfume %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Perfume",
+                            "PreserveId": "DROP_IN",  
+                            "CopyColor":true,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                }
+                ],
+            "InvalidCountMessage":"{{i18n:AtelierGoods_FragranceStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:AtelierGoods_FragranceStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+{
+    "LogName": "Basic Incense Only Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Incense": true, "Atelier.Cauldron/ConfigValue:Perfume": false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_FragranceStation":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Floral_Swag",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Incense",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Incense",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Incense %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Incense",
+                            "PreserveId": "DROP_IN_PRESERVE",  
+                            "CopyQuality": true,
+                            "CopyColor":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 300
+                }
+                ],
+            "InvalidCountMessage":"{{i18n:AtelierGoods_FragranceStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:AtelierGoods_FragranceStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+{
+    "LogName": "Basic Perfume AND Incense",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Incense": true, "Atelier.Cauldron/ConfigValue:Perfume": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_FragranceStation":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Perfume",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "category_flowers"
+                            ],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Perfume",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Perfume",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Perfume %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Perfume",
+                            "PreserveId": "DROP_IN", 
+                            "CopyColor":true,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 2000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Incense",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Floral_Swag",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Incense",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Incense",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Incense %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Incense",
+                            "PreserveId": "DROP_IN_PRESERVE",  
+                            "CopyColor":true,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.25
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 300
+                }
+                ],
+            "InvalidCountMessage":"{{i18n:AtelierGoods_FragranceStation_InvalidCount.message}}",
+            "InvalidItemMessage":"{{i18n:AtelierGoods_FragranceStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+{
+    "LogName": "Basic Candle Only Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Candles": true, "Atelier.Cauldron/ConfigValue:Soap": false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CandleStation": {
+            "OutputRules": [              
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Floral_Swag",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Candles",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Candles",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Candles %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Candles",
+                            "PreserveId": "DROP_IN_PRESERVE",  
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 30
+                                },
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 240
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Honeycomb",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CandleStation_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandleStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Soap Only Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Soap": true, "Atelier.Cauldron/ConfigValue:Candles": false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CandleStation": {
+            "OutputRules": [              
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "category_flowers"
+                            ],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Soap",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Soap",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Soap %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Soap",
+                            "PreserveId": "DROP_IN",  
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 30
+                                },
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1200
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Honeycomb",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CandleStation_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandleStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+            ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Candle AND Soap Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Candles": true, "Atelier.Cauldron/ConfigValue:Soap": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CandleStation": {
+            "OutputRules": [              
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Candles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Floral_Swag",
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Candles",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Candles",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Candles %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Candles",
+                            "PreserveId": "DROP_IN_PRESERVE",  
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 30
+                                },
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flower_Soap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "category_flowers"
+                            ],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flower_Soap",
+                            "ItemId": "Wildflour.AtelierGoods_Flower_Soap",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flower_Soap %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Soap",
+                            "PreserveId": "DROP_IN",  
+                            "CopyColor":true,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 30
+                                },
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 1200
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Honeycomb",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CandleStation_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandleStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+//Edit Vanilla Machines floral
+
+{
+    "LogName": "Floral Addition to Dehydrator Machine Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Dehydrator", "OutputRules"],
+    "When":{"Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Bouquets}} = 'true')":true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Dehydrator_Dried_Flowers": {
+            "Id": "Wildflour.AtelierGoods_Dehydrator_Dried_Flowers",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": [
+                        "category_flowers"
+                    ],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Floral_Swag",
+                    "ItemId": "Wildflour.AtelierGoods_Floral_Swag",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Floral_Swag %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Floral Swag",
+                    "PreserveId": "DROP_IN",  
+                    "CopyPrice": true,
+                    "CopyQuality": true,
+                    "CopyColor":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 1.25
+                        }
+                    ]
+                }
+            ],
+                "MinutesUntilReady": 50,
+        }
+    }
+},
+
+
+{
+    "LogName": "Honey into Honeycomb",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Dehydrator", "OutputRules"],
+    "Entries": {
+        "wildflour.honeybees_Dehydrator_Honeycomb": {
+            "Id": "wildflour.honeybees_Dehydrator_Honeycomb",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)340",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Honeycomb",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Honeycomb",
+                    "MinStack": 3,
+                    "MaxStack": 5
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+    }
+},
+
+]
+}

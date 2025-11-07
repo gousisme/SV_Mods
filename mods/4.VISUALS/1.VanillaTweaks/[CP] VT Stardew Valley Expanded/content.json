@@ -1,0 +1,46 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "{{ModID}}/Joja Berry Starter, {{ModID}}/Joja Veggie Seeds, {{ModID}}/Cucumber Seed, {{ModID}}/Butternut Squash Seed, {{ModID}}/Sweet Potato Seed",
+			"FromFile": "assets/{{Spiderbuttons.CMCT/Config: Taiyo.VanillaTweaks.Farming, SaturationToggle}}/{{Spiderbuttons.CMCT/Config: Taiyo.VanillaTweaks.Farming, SeasonalColouredSeedbags}}/{{TargetWithoutPath}}.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "{{ModID}}/Nectarine Sapling, {{ModID}}/Pear Sapling, {{ModID}}/Persimmon Sapling",
+			"FromFile": "assets/{{Spiderbuttons.CMCT/Config: Taiyo.VanillaTweaks.Farming, SaturationToggle}}/Saplings/{{TargetWithoutPath}}.png",
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Joja_Berry_Starter": {
+            		"Texture": "{{ModID}}/Joja Berry Starter",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Joja_Veggie_Seeds": {
+            		"Texture": "{{ModID}}/Joja Veggie Seeds",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
+            		"Texture": "{{ModID}}/Cucumber Seed",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
+            		"Texture": "{{ModID}}/Butternut Squash Seed",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
+            		"Texture": "{{ModID}}/Sweet Potato Seed",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
+            		"Texture": "{{ModID}}/Pear Sapling",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
+            		"Texture": "{{ModID}}/Nectarine Sapling",
+        		},
+        		"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
+            		"Texture": "{{ModID}}/Persimmon Sapling",
+        		},
+			},
+			"Priority": "Late"
+	}
+	]
+}

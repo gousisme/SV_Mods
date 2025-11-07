@@ -1,0 +1,38 @@
+{
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Gray Turkey": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Enables the Gray/Ocellated Turkey texture and adds it to the possible turkey appearances."
+		}
+	},
+	
+	"Changes": [
+		// add item + animal images
+		{
+			"Action": "Load",
+			"Target": "Mizu.Turkey/BabyTurkey, Mizu.Turkey/BabyWhiteTurkey, Mizu.Turkey/BrownTurkey, Mizu.Turkey/WhiteTurkey, Mizu.Turkey/GrayTurkey, Mizu.Turkey/shopicon, Mizu.Turkey/objects, Mizu.Turkey/book",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		
+		// add music cues
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Mizu.Turkey_TurkeySound": {
+                    "ID": "Mizu.Turkey_TurkeySound",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: sfx/turkey1.wav}}", "{{AbsoluteFilePath: sfx/turkey2.wav}}", "{{AbsoluteFilePath: sfx/turkey3.wav}}", "{{AbsoluteFilePath: sfx/turkey4.wav}}" ]
+                }
+            }
+        },
+		
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/animals.json, data/books.json, data/machines.json, data/objects.json, data/recipes.json, data/shops.json"
+		}
+	]
+}

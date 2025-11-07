@@ -1,0 +1,1067 @@
+{
+    "Changes": [
+        
+/////////////////////
+// BREWER MACHINES //
+/////////////////////
+
+{
+    "LogName": "Add Ale Keg to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Ales": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_AleKeg": {
+            "Name": "Wildflour.AtelierGoods_AleKeg",
+            "DisplayName": "{{i18n: AtelierGoods_AleKeg.name}}",
+            "Description": "{{i18n: AtelierGoods_AleKeg.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 144,
+            "CustomFields": {}
+    }
+}
+},
+
+{
+    "LogName": "Ale Keg Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Ales": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_AleKeg": "335 1 725 2 709 30/Home/Wildflour.AtelierGoods_AleKeg/true/{{RecipeConfig}}/{{i18n: AtelierGoods_AleKeg.name}}"
+    }
+},
+
+{
+    "LogName": "Add Mead Keg to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Meads": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_MeadKeg": {
+            "Name": "Wildflour.AtelierGoods_MeadKeg",
+            "DisplayName": "{{i18n: AtelierGoods_MeadKeg.name}}",
+            "Description": "{{i18n: AtelierGoods_MeadKeg.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 145,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Mead Keg Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Meads": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_MeadKeg": "335 1 709 30 340 2/Home/Wildflour.AtelierGoods_MeadKeg/true/{{RecipeConfig}}/{{i18n: AtelierGoods_MeadKeg.name}}",
+    }
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Advanced Ale Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Ales": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_AleKeg": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Bobbin_For_Aleples",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)613",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Bobbin_For_Aleples",
+                        "ItemId": "Wildflour.AtelierGoods_Bobbin_For_Aleples",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Bonfire_Ale",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Mallow",
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["vanilla_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Bonfire_Ale",
+                        "ItemId": "Wildflour.AtelierGoods_Bonfire_Ale",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)709",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Hardwood_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Dust_Sprite_Stout",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)382",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Dust_Sprite_Stout",
+                        "ItemId": "Wildflour.AtelierGoods_Dust_Sprite_Stout",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)433",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeBean_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Jingle_Ale_The_Way",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Jingle_Ale_The_Way",
+                        "ItemId": "Wildflour.AtelierGoods_Jingle_Ale_The_Way",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "vanilla_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Vanilla_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Lavender_Haze_IPA",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["lavender_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Lavender_Haze_IPA",
+                        "ItemId": "Wildflour.AtelierGoods_Lavender_Haze_IPA",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Livin_Off_The_Land_Ale",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)638",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Livin_Off_The_Land_Ale",
+                        "ItemId": "Wildflour.AtelierGoods_Livin_Off_The_Land_Ale",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)634",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apricot_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pelican_Pilsner",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)834",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pelican_Pilsner",
+                        "ItemId": "Wildflour.AtelierGoods_Pelican_Pilsner",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)396",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SpiceBerry_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sandcastle_IPA",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)88",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sandcastle_IPA",
+                        "ItemId": "Wildflour.AtelierGoods_Sandcastle_IPA",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)829",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Ginger_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Scarecrow_Stout",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)280",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Scarecrow_Stout",
+                        "ItemId": "Wildflour.AtelierGoods_Scarecrow_Stout",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cream_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cream_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Scrooge_Tripel",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)406",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Scrooge_Tripel",
+                        "ItemId": "Wildflour.AtelierGoods_Scrooge_Tripel",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Snowman_Cream_Ale",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)635",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Snowman_Cream_Ale",
+                        "ItemId": "Wildflour.AtelierGoods_Snowman_Cream_Ale",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Wednesdays_Void_Lager",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)276",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Wednesdays_Void_Lager",
+                        "ItemId": "Wildflour.AtelierGoods_Wednesdays_Void_Lager",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)769",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:VoidEssence_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 5.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)304",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_AleKeg_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_AleKeg_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false
+        }
+    }
+},
+
+{ 
+    "LogName": "Add Simple Ale Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_AleKeg", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Ales": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Ale":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Ale",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["category_fruits"],
+                "RequiredCount": 1
+                },
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["edible_flower_item"],
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Ale",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Ale",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Ale %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Ale",
+                "PreserveId": "DROP_IN",  
+                "CopyQuality":true,
+                "CopyPrice": true,
+                "CopyColor":true,
+                "PriceModifiers": 
+                [
+                    {
+                        "Modification": "Multiply",
+                        "Amount": 3.0
+                    },
+                    {
+                        "Modification": "Add",
+                        "Amount": 25
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 1600
+        }
+}
+},
+
+{
+    "LogName": "Advanced Mead Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Meads": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_MeadKeg":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Beach_Party_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)268",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Beach_Party_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Beach_Party_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Falling_Petals_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)597",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Falling_Petals_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Falling_Petals_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)400",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Strawberry_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Farmhouse_Cider_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)613",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Farmhouse_Cider_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Farmhouse_Cider_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)829",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Ginger_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Fireworks_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)258",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Fireworks_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Fireworks_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Gentle_Breeze_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)22",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Gentle_Breeze_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Gentle_Breeze_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Leaf_Pile_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)724",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Leaf_Pile_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Leaf_Pile_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)410",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Blackberry_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Picnic_Basket_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["elderberries_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Picnic_Basket_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Picnic_Basket_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "almond_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Almond_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Spellbound_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)414",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Spellbound_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Spellbound_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sunny_Daze_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["basil_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sunny_Daze_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Sunny_Daze_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Twinkle_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)418",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Twinkle_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Twinkle_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyRose_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Weird_Sisters_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["wormwood_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Weird_Sisters_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Weird_Sisters_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyRose_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Yule_Log_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["cinnamon_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Yule_Log_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Yule_Log_Mead",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "star_anise_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:StarAnise_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                        }    
+                ],
+                "MinutesUntilReady": 800
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_MeadKeg_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_MeadKeg_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false
+           
+        }
+    }
+},
+
+{ 
+    "LogName": "Add Simple Mead Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_MeadKeg", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Meads": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Mead":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Mead",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["category_fruits"],
+                "RequiredCount": 1
+                },
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["edible_flower_item"],
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Mead",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Mead",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Mead %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Mead",
+                "PreserveId": "DROP_IN",  
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "CopyColor":true,
+                "PriceModifiers": 
+                [
+                    {
+                        "Modification": "Multiply",
+                        "Amount": 2.0
+                    },
+                    {
+                        "Modification": "Add",
+                        "Amount": 100
+                    }
+                ]
+            }    
+        ],
+        "MinutesUntilReady": 800
+        }
+}
+}
+
+]
+}

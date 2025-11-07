@@ -1,0 +1,476 @@
+{
+    "Changes": 
+    [
+// SCYTHES
+        {
+			"LogName": "Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Scythes/Scythe.png",
+			"ToArea": {"X": "112", "Y": "80", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ScythesEnabled": "True",
+				"Scythes |contains= Scythe": true
+			}
+		},
+        {
+			"LogName": "Golden Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Scythes/GoldenScythe.png",
+			"ToArea": {"X": "80", "Y": "96", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ScythesEnabled": "True",
+				"Scythes |contains= Golden Scythe": true
+			}
+		},
+        {
+			"LogName": "Iridium Scythe",
+			"Action": "EditImage",
+			"Target": "TileSheets/weapons",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Scythes/IridiumScythe.png",
+			"ToArea": {"X": "32", "Y": "128", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"ScythesEnabled": "True",
+				"Scythes |contains= Iridium Scythe": true
+			}
+		},
+
+// HOES
+        {
+			"LogName": "Regular Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Hoes/RegularHoe.png",
+			"ToArea": {"X": "0", "Y": "16", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"HoesEnabled": "True",
+				"Hoes |contains= Regular Hoe": true
+			}
+		},
+        {
+			"LogName": "Copper Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Hoes/CopperHoe.png",
+			"ToArea": {"X": "112", "Y": "16", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"HoesEnabled": "True",
+				"Hoes |contains= Copper Hoe": true
+			}
+		},
+        {
+			"LogName": "Iron Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Hoes/IronHoe.png",
+			"ToArea": {"X": "224", "Y": "16", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"HoesEnabled": "True",
+				"Hoes |contains= Iron Hoe": true
+			}
+		},
+        {
+			"LogName": "Gold Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Hoes/GoldHoe.png",
+			"ToArea": {"X": "0", "Y": "48", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"HoesEnabled": "True",
+				"Hoes |contains= Gold Hoe": true
+			}
+		},
+        {
+			"LogName": "Iridium Hoe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Hoes/IridiumHoe.png",
+			"ToArea": {"X": "112", "Y": "48", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"HoesEnabled": "True",
+				"Hoes |contains= Iridium Hoe": true
+			}
+		},
+
+// PICKAXES
+        {
+			"LogName": "Regular Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pickaxes/RegularPickaxe.png",
+			"ToArea": {"X": "0", "Y": "80", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"PickaxesEnabled": "True",
+				"Pickaxes |contains= Regular Pickaxe": true
+			}
+		},
+        {
+			"LogName": "Copper Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pickaxes/CopperPickaxe.png",
+			"ToArea": {"X": "112", "Y": "80", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"PickaxesEnabled": "True",
+				"Pickaxes |contains= Copper Pickaxe": true
+			}
+		},
+        {
+			"LogName": "Iron Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pickaxes/IronPickaxe.png",
+			"ToArea": {"X": "224", "Y": "80", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"PickaxesEnabled": "True",
+				"Pickaxes |contains= Iron Pickaxe": true
+			}
+		},
+        {
+			"LogName": "Gold Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pickaxes/GoldPickaxe.png",
+			"ToArea": {"X": "0", "Y": "112", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"PickaxesEnabled": "True",
+				"Pickaxes |contains= Gold Pickaxe": true
+			}
+		},
+        {
+			"LogName": "Iridium Pickaxe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pickaxes/IridiumPickaxe.png",
+			"ToArea": {"X": "112", "Y": "112", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"PickaxesEnabled": "True",
+				"Pickaxes |contains= Iridium Pickaxe": true
+			}
+		},
+
+// AXES
+        {
+			"LogName": "Regular Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Axes/RegularAxe.png",
+			"ToArea": {"X": "0", "Y": "144", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"AxesEnabled": "True",
+				"Axes |contains= Regular Axe": true
+			}
+		},
+        {
+			"LogName": "Copper Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Axes/CopperAxe.png",
+			"ToArea": {"X": "112", "Y": "144", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"AxesEnabled": "True",
+				"Axes |contains= Copper Axe": true
+			}
+		},
+        {
+			"LogName": "Iron Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Axes/IronAxe.png",
+			"ToArea": {"X": "224", "Y": "144", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"AxesEnabled": "True",
+				"Axes |contains= Iron Axe": true
+			}
+		},
+        {
+			"LogName": "Gold Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Axes/GoldAxe.png",
+			"ToArea": {"X": "0", "Y": "176", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"AxesEnabled": "True",
+				"Axes |contains= Gold Axe": true
+			}
+		},
+        {
+			"LogName": "Iridium Axe",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Axes/IridiumAxe.png",
+			"ToArea": {"X": "112", "Y": "176", "Width": "96", "Height": "32"},
+			"When": 
+			{
+				"AxesEnabled": "True",
+				"Axes |contains= Iridium Axe": true
+			}
+		},
+
+// WATERING CANS
+        {
+			"LogName": "Regular Watering Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/WateringCans/RegularWateringCan.png",
+			"ToArea": {"X": "0", "Y": "208", "Width": "80", "Height": "32"},
+			"When": 
+			{
+				"WateringCansEnabled": "True",
+				"WateringCans |contains= Regular Watering Can": true
+			}
+		},
+        {
+			"LogName": "Copper Watering Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/WateringCans/CopperWateringCan.png",
+			"ToArea": {"X": "112", "Y": "208", "Width": "80", "Height": "32"},
+			"When": 
+			{
+				"WateringCansEnabled": "True",
+				"WateringCans |contains= Copper Watering Can": true
+			}
+		},
+        {
+			"LogName": "Iron Watering Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/WateringCans/IronWateringCan.png",
+			"ToArea": {"X": "224", "Y": "208", "Width": "80", "Height": "32"},
+			"When": 
+			{
+				"WateringCansEnabled": "True",
+				"WateringCans |contains= Iron Watering Can": true
+			}
+		},
+        {
+			"LogName": "Gold Watering Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/WateringCans/GoldWateringCan.png",
+			"ToArea": {"X": "0", "Y": "240", "Width": "80", "Height": "32"},
+			"When": 
+			{
+				"WateringCansEnabled": "True",
+				"WateringCans |contains= Gold Watering Can": true
+			}
+		},
+        {
+			"LogName": "Iridium Watering Can",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/WateringCans/IridiumWateringCan.png",
+			"ToArea": {"X": "112", "Y": "240", "Width": "80", "Height": "32"},
+			"When": 
+			{
+				"WateringCansEnabled": "True",
+				"WateringCans |contains= Iridium Watering Can": true
+			}
+		},
+
+// FISHING RODS
+        {
+			"LogName": "Training Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/TrainingRod.png",
+			"ToArea": {"X": "128", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Training Rod": true
+			}
+		},
+        {
+			"LogName": "Bamboo Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/BambooRod.png",
+			"ToArea": {"X": "144", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Bamboo Rod": true
+			}
+		},
+        {
+			"LogName": "Fiberglass Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/FiberglassRod.png",
+			"ToArea": {"X": "160", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Fiberglass Rod": true
+			}
+		},
+        {
+			"LogName": "Iridium Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/IridiumRod.png",
+			"ToArea": {"X": "176", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Iridium Rod": true
+			}
+		},
+        {
+			"LogName": "Advanced Iridium Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/AdvancedIridiumRod.png",
+			"ToArea": {"X": "272", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Advanced Iridium Rod": true
+			}
+		},
+        {
+			"LogName": "Cast 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/Cast1.png",
+			"ToArea": {"X": "0", "Y": "288", "Width": "320", "Height": "96"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Training Rod, Bamboo Rod, Fiberglass Rod, Iridium Rod, Advanced Iridium Rod": true
+			}
+		},
+        {
+			"LogName": "Cast 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/FishingRods/Cast2.png",
+			"ToArea": {"X": "288", "Y": "240", "Width": "32", "Height": "48"},
+			"When": 
+			{
+				"FishingRodsEnabled": "True",
+				"FishingRods |contains= Training Rod, Bamboo Rod, Fiberglass Rod, Iridium Rod, Advanced Iridium Rod": true
+			}
+		},
+
+// PANS
+        {
+			"LogName": "Copper Pan",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pans/CopperPan.png",
+			"ToArea": {"X": "192", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"PansEnabled": "True",
+				"Pans |contains= Copper Pan": true
+			}
+		},
+        {
+			"LogName": "Iron Pan",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pans/IronPan.png",
+			"ToArea": {"X": "288", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"PansEnabled": "True",
+				"Pans |contains= Iron Pan": true
+			}
+		},
+        {
+			"LogName": "Gold Pan",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pans/GoldPan.png",
+			"ToArea": {"X": "304", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"PansEnabled": "True",
+				"Pans |contains= Gold Pan": true
+			}
+		},
+        {
+			"LogName": "Iridium Pan",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/Pans/IridiumPan.png",
+			"ToArea": {"X": "320", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"PansEnabled": "True",
+				"Pans |contains= Iridium Pan": true
+			}
+		},
+
+// OTHER TOOLS
+        {
+			"LogName": "Horse Flute",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/OtherTools/HorseFlute.png",
+			"ToArea": {"X": "368", "Y": "592", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Horse Flute": true
+			}
+		},
+        {
+			"LogName": "Milk Pail",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/OtherTools/MilkPail.png",
+			"ToArea": {"X": "96", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Milk Pail": true
+			}
+		},
+        {
+			"LogName": "Shears",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/OtherTools/Shears_{{ShearsStyle}}.png",
+			"ToArea": {"X": "112", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Shears": true
+			}
+		},
+        {
+			"LogName": "Return Scepter",
+			"Action": "EditImage",
+			"Target": "TileSheets/tools",
+			"FromFile": "Assets/{{SaturationToggle}}/Tools/OtherTools/ReturnScepter.png",
+			"ToArea": {"X": "32", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OtherToolsEnabled": "True",
+				"OtherTools |contains= Return Scepter": true
+			}
+		}
+    ]
+}

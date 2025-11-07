@@ -1,0 +1,32 @@
+{
+	//{{name}} has to stay the english word
+	"blank": "{{name}}",
+	"asterisk": "{{name}} =",
+	"any": "bất kỳ {{name}}",
+	"vanilla": "{{name}} (Bất kỳ)",
+	
+	"config.Ingredient Indicator.name": "Chỉ báo Nguyên liệu",
+    "config.Ingredient Indicator.description": "Gắn nhãn các nguyên liệu linh hoạt trong thực đơn nấu ăn với tùy chọn này. Tất cả các nguyên liệu trong công thức gốc sẽ được gắn nhãn! Ngoài tùy chọn này, các danh mục nguyên liệu rộng hơn sẽ tuân theo quy ước gốc, chẳng hạn như Phô mai (Bất kỳ) và Dầu ăn (Bất kỳ).",
+    "config.Ingredient Indicator.values.A": "Vật phẩm",
+    "config.Ingredient Indicator.values.B": "Vật phẩm =",
+    "config.Ingredient Indicator.values.C": "vật phẩm bất kỳ",
+    "config.Ingredient Indicator.values.D": "Vật phẩm (Bất kỳ)",
+	
+	"config.Extra Changes.name": "Thay đổi bổ sung",
+    "config.Extra Changes.description": "Đối với một vài công thức, thay thế một số nguyên liệu bằng các danh mục khác nhau để đa dạng. Ví dụ, thay vì dùng Tỏi tây để làm Salad, bạn có thể dùng Rau ăn lá bất kỳ. Hoặc dùng Rau củ bất kỳ thay vì Cà rốt hang động để làm món Xào. Cũng làm cho Sashimi và Maki Roll chỉ có thể được làm từ cá thật chứ không phải những thứ như Ốc, Ngao, v.v. từ lồng bắt cua.",
+	
+	//follow vanilla format such as for Egg (Any) and Milk (Any)
+	"Ingredient_EggAny": "Trứng (Bất kỳ)",
+	"Ingredient_MilkAny": "Sữa (Bất kỳ)",
+	"Ingredient_CheeseAny": "Phô mai (Bất kỳ)",
+	"Ingredient_ChiliAny": "Ớt (Bất kỳ)",
+	"Ingredient_FlourAny": "Bột mì (Bất kỳ)",
+	"Ingredient_FishAny": "Cá (Bất kỳ)",
+	"Ingredient_FishNonCrabPot": "Cá (Không phải từ lồng bắt cua)",
+	"Ingredient_EdibleMushroomAny": "Nấm ăn được (Bất kỳ)",
+	"Ingredient_LeafyGreenAny": "Rau ăn lá (Bất kỳ)",
+	"Ingredient_RootVegetableAny": "Rau củ (Bất kỳ)",
+	"Ingredient_MayonnaiseAny": "Sốt Mayonnaise (Bất kỳ)",
+	"Ingredient_OilAny": "Dầu ăn (Bất kỳ)",
+	"Ingredient_SugarAny": "Đường (Bất kỳ)"
+}

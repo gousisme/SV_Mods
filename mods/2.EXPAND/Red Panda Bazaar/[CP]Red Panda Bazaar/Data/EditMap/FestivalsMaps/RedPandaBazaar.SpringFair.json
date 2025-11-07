@@ -1,0 +1,46 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar.SpringFair",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.31.41.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 31,
+        "Y": 41,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasSeenEvent ": "90328001"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar.SpringFair",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar.SpringFair/RedPandaBazaar.47.43.SpringFair.Divorced.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 3,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 47,
+        "Y": 43,
+        "Width": 3,
+        "Height": 1
+      },
+      "When": {
+        "Relationship:RedPandaBazaar_LiQingFeng": "Divorced"
+      }
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+  {
+    "Action": "EditData",
+    "Target": "Data/Mail",
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Ale_Gus_reward": "{{i18n: AtelierGoods_SO_Ale_Gus_reward.text}} %item id (BC)117 1 %%[#]{{i18n: AtelierGoods_SO_Ale_Gus_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Ale_Challenge_reward": "{{i18n: AtelierGoods_SO_Ale_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Ale_Challenge_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Mead_Leah_reward": "{{i18n: AtelierGoods_SO_Mead_Leah_reward.text}} %item id (O)645 2 %%[#]{{i18n: AtelierGoods_SO_Mead_Leah_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Mead_Challenge_reward": "{{i18n: AtelierGoods_SO_Mead_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Mead_Challenge_reward.name}}"        
+        }
+  },
+
+
+///////////////////
+// MAIL TRIGGERS //
+///////////////////
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+    {
+      "LogName": "Ale Special Orders",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Ales": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_AleKeg"},
+      "Entries": {
+        "Wildflour.AtelierGoods_SO_Ale_Pam": {
+            "Name": "{{i18n:AtelierGoods_SO_Ale_Pam.name}}",
+            "Requester": "Pam",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Ale_Pam.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Ale_Pam.deliver}}",
+                  "RequiredCount": "5",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_ale_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Ale_Pam.accept}}",
+                    "TargetName": "Pam"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "5000"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Pam"
+                    }
+                  }
+              ]
+          },
+        "Wildflour.AtelierGoods_SO_Ale_Shane": {
+            "Name": "{{i18n:AtelierGoods_SO_Ale_Shane.name}}",
+            "Requester": "Shane",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Ale_Shane.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Ale_Shane.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_ale_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Ale_Shane.accept}}",
+                    "TargetName": "Shane"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "2000"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Shane"
+                    }
+                  },
+
+                  {
+                    "Type": "Mail",
+                    "Data": {
+                          "MailReceived": "Wildflour.AtelierGoods_SO_Ale_Shane_reward",
+                          "NoLetter": "false"
+                    }
+                  }
+              ]
+          },
+        "Wildflour.AtelierGoods_SO_Ale_Gus": {
+            "Name": "{{i18n:AtelierGoods_SO_Ale_Gus.name}}",
+            "Requester": "Gus",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Ale_Gus.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Ale_Gus.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "DropBox": "GusFridge",
+                    "DropBoxGameLocation": "Saloon",
+                    "DropBoxIndicatorLocation": "18 16",
+                    "AcceptedContextTags": "wildflour_ale_item"
+                  }
+                },
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "15000"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Gus"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Ale_Gus_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Ale_Challenge": {
+            "Name": "{{i18n:AtelierGoods_SO_Ale_Challenge.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Ale_Challenge.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:AtelierGoods_SO_Ale_Challenge.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_ale_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "AtelierGoods_SO_Ale_Challenge_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          }
+
+      }
+    },
+
+    {
+      "LogName": "Mead Special Orders",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Meads": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_MeadKeg"},
+      "Entries": {
+        "Wildflour.AtelierGoods_SO_Mead_Shane": {
+            "Name": "{{i18n:AtelierGoods_SO_Mead_Shane.name}}",
+            "Requester": "Shane",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Mead_Shane.text}}",
+            "Objectives": [
+
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Mead_Shane.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_mead_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Mead_Shane.accept}}",
+                    "TargetName": "Shane"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "2700"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Shane"
+                    }
+                  }
+              ]
+          },
+        "Wildflour.AtelierGoods_SO_Mead_Leah": {
+            "Name": "{{i18n:AtelierGoods_SO_Mead_Leah.name}}",
+            "Requester": "Leah",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Mead_Leah.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Mead_Leah.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "DropBox": "Mead_Leah",
+                    "DropBoxGameLocation": "LeahHouse",
+                    "DropBoxIndicatorLocation": "13 4",
+                    "AcceptedContextTags": "wildflour_mead_item"
+                  }
+                },
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "7350"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Leah"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "AtelierGoods_SO_Mead_Leah_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          },
+        "Wildflour.AtelierGoods_SO_Mead_Willy": {
+            "Name": "{{i18n:AtelierGoods_SO_Mead_Willy.name}}",
+            "Requester": "Willy",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Mead_Willy.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Mead_Willy.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_mead_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Mead_Willy.accept}}",
+                    "TargetName": "Willy"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "3900"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Willy"
+                    }
+                  }
+              ]
+          },
+        "Wildflour.AtelierGoods_SO_Mead_Challenge": {
+            "Name": "{{i18n:AtelierGoods_SO_Mead_Challenge.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Mead_Challenge.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:AtelierGoods_SO_Mead_Challenge.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_mead_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "AtelierGoods_SO_Mead_Challenge_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          }
+      }
+    }
+
+  ]
+}
+

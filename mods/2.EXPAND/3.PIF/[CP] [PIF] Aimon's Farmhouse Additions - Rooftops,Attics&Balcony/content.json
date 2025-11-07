@@ -1,0 +1,325 @@
+﻿{
+    "Format": "2.3.0",
+	
+	
+	
+	
+	"ConfigSchema": {
+   
+		
+			"Balcony Recolor": { 
+		"AllowValues": "Vanilla, Elegant, VPR, Starblue, Rustic Country Town (Dark), Rustic Country Town (White)",
+		"Default": "Vanilla",
+			},
+		},
+    "Changes": [
+	//tilesheets
+
+		{
+			"Action": "Load",
+			"Target": "Maps/Aimon_RooftopStars, Maps/Aimon_Rooftops, Maps/Aimon_RooftopMist, Maps/Aimon_BalconyPif, Maps/Aimon_BalconyPif_Lights",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
+		},
+		
+	//seasonal balcony
+
+
+		
+	//door textures
+	  {
+        "Action": "Load",
+        "Target": "Mods/Aimon111.Rooftops$AtticsPIF/Rooftop, Mods/Aimon111.Rooftops$AtticsPIF/Attic, Mods/Aimon111.Rooftops$AtticsPIF/Balcony",
+        "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
+    },
+	
+	
+	
+	//tilesheet edits
+	{
+			"Action": "EditImage",
+			"Target": "Mods/Aimon111.Rooftops$AtticsPIF/Balcony",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_Dark.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": false, "Time": "{{Range: 1900, 2600}}", },	
+	},
+{
+			"Action": "EditImage",
+			"Target": "Mods/Aimon111.Rooftops$AtticsPIF/Balcony",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_Dark.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": true, },	
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif_Lights",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_No.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": false, "Time": "{{Range: 1900, 2600}}", },	
+	},
+{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif_Lights",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_No.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": true, },	
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_RooftopStars",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_Yes.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": false, "Time": "{{Range: 1900, 2600}}", },	
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_RooftopMist",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_Yes.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": true, },	
+	},
+	
+	//seasonal
+	
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_Rain_Yes.png",
+			 "PatchMode": "Overlay",
+			"When": { "Weather |contains=Rain, Storm": true, },	
+		"Update": "OnTimeChange",
+		
+	},
+	
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif",
+			"FromFile": "assets/Tilesheets/Recolors/{{TargetWithoutPath}}_Elegant.png",
+			 "PatchMode": "Overlay",
+			"When": { "Balcony Recolor": "Elegant", },	
+		"Update": "OnTimeChange",
+		
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif",
+			"FromFile": "assets/Tilesheets/Recolors/{{TargetWithoutPath}}_VPR.png",
+			 "PatchMode": "Overlay",
+			"When": { "Balcony Recolor": "VPR", },	
+		"Update": "OnTimeChange",
+		
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif",
+			"FromFile": "assets/Tilesheets/Recolors/{{TargetWithoutPath}}_RKTIDark.png",
+			 "PatchMode": "Overlay",
+			"When": { "Balcony Recolor": "Rustic Country Town (Dark)", },	
+		"Update": "OnTimeChange",
+		
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif",
+			"FromFile": "assets/Tilesheets/Recolors/{{TargetWithoutPath}}_RKTIWhite.png",
+			 "PatchMode": "Overlay",
+			"When": { "Balcony Recolor": "Rustic Country Town (White)", },	
+		"Update": "OnTimeChange",
+		
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_BalconyPif",
+			"FromFile": "assets/Tilesheets/Recolors/{{TargetWithoutPath}}_Starblue.png",
+			 "PatchMode": "Overlay",
+			"When": { "Balcony Recolor": "Starblue", },	
+		"Update": "OnTimeChange",
+		
+	},
+
+	
+	//balcony recolor 
+	
+	{
+			"Action": "EditImage",
+			"Target": "Maps/Aimon_RooftopStars",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}_Yes.png",
+			 "PatchMode": "Replace",
+		"Update": "OnTimeChange",
+			"When": { "Weather |contains=Rain, Storm": false, "Time": "{{Range: 1900, 2600}}", },	
+	},
+	
+	
+	
+	
+      {
+        "Action": "EditData",
+        "Target": "DLX.PIF/Farms",
+        "Entries": {
+          "Aimon111.Rooftop": {
+            "DisplayName": "Farmhouse Rooftop",
+            "DefaultArrivalTile": {  "X": 19, "Y": 18 },
+            "ExcludeFromNpcPathfinding": true,
+
+            "ArrivalTile_T0": {  "X": 17, "Y": 19  },
+            "ArrivalTile_T1": {  "X": 16, "Y": 19  },
+            "ArrivalTile_T2": {  "X": 15, "Y": 19  },
+
+            "MapAsset_T0": "Maps/PIF/Aimon111.Rooftop0",
+            "MapAsset_T1": "Maps/PIF/Aimon111.Rooftop1",
+            "MapAsset_T2": "Maps/PIF/Aimon111.Rooftop2",
+
+            "Preview": "Aimon111.Rooftop_Preview"
+          },
+		  
+		  "Aimon111.Attic": {
+            "DisplayName": "Farmhouse Attic",
+            "DefaultArrivalTile": {  "X": 7, "Y": 14},
+            "ExcludeFromNpcPathfinding": true,
+
+            "ArrivalTile_T0": {  "X": 7, "Y": 15  },
+            "ArrivalTile_T1": {  "X": 9, "Y": 16  },
+            "ArrivalTile_T2": {  "X": 11, "Y": 17  },
+
+            "MapAsset_T0": "Maps/PIF/Aimon111.Attic0",
+            "MapAsset_T1": "Maps/PIF/Aimon111.Attic1",
+            "MapAsset_T2": "Maps/PIF/Aimon111.Attic2",
+
+            "Preview": "Aimon111.Attic_Preview"
+          },
+		  
+		    "Aimon111.Balcony": {
+            "DisplayName": "Farmhouse Balcony",
+            "DefaultArrivalTile": {  "X": 10, "Y": 9  },
+            "ExcludeFromNpcPathfinding": true,
+			          "UseVanillaSeasonLogic": true,
+	
+			
+
+            "ArrivalTile_T0": {  "X": 10, "Y": 9  },
+            "ArrivalTile_T1": {  "X": 10, "Y": 9  },
+            "ArrivalTile_T2": {  "X": 10, "Y": 10  },
+
+            "MapAsset_T0": "Maps/PIF/Aimon111.Balcony0",
+            "MapAsset_T1": "Maps/PIF/Aimon111.Balcony1",
+            "MapAsset_T2": "Maps/PIF/Aimon111.Balcony2",
+
+            "Preview": "Aimon111.Balcony_Preview"
+          },
+		  
+		  
+    
+        
+        }
+      },
+      
+		
+
+        {
+			"Action": "Load",
+			"Target": "Maps/PIF/Aimon111.Rooftop0, Maps/PIF/Aimon111.Rooftop1, Maps/PIF/Aimon111.Rooftop2, Maps/PIF/Aimon111.Attic0, Maps/PIF/Aimon111.Attic1, Maps/PIF/Aimon111.Attic2, Maps/PIF/Aimon111.Balcony0, Maps/PIF/Aimon111.Balcony1, Maps/PIF/Aimon111.Balcony2",
+			"FromFile": "assets/{{TargetWithoutPath}}.tmx"
+		},
+		
+			  // prewiev image
+			  
+			  
+		{
+			"Action": "Load",
+			"Target": "Aimon111.Rooftop_Preview, Aimon111.Attic_Preview, Aimon111.Balcony_Preview",
+			"FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
+		},
+		
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/PIF/Aimon111.Balcony2",
+			"FromFile": "assets/BalcSeasonal/{{TargetWithoutPath}}_{{season}}.tmx",
+			 "PatchMode": "Overlay",
+		"Update": "OnTimeChange",
+		
+	},	
+	{
+			"Action": "EditMap",
+			"Target": "Maps/PIF/Aimon111.Balcony1",
+			"FromFile": "assets/BalcSeasonal/{{TargetWithoutPath}}_{{season}}.tmx",
+			 "PatchMode": "Overlay",
+		"Update": "OnTimeChange",
+		
+	},	
+	{
+			"Action": "EditMap",
+			"Target": "Maps/PIF/Aimon111.Balcony0",
+			"FromFile": "assets/BalcSeasonal/{{TargetWithoutPath}}_{{season}}.tmx",
+			 "PatchMode": "Overlay",
+		"Update": "OnTimeChange",
+		
+	},	
+	
+	
+	
+			//custom door 
+		
+		{
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+     
+"Aimon111.RooftopDoor": "Rooftop Ladder/painting/1 3/1 3/1/1000/2/Rooftop Ladder/0/Mods\\Aimon111.Rooftops$AtticsPIF\\Rooftop/true",
+"Aimon111.AtticDoor": "Attic Ladder/painting/1 3/1 3/1/2500/2/Attic Ladder/0/Mods\\Aimon111.Rooftops$AtticsPIF\\Rooftop/true",
+"Aimon111.BalconyDoor": "Balcony Door/painting/2 3/2 3/2/2000/2/Balcony Door/0/Mods\\Aimon111.Rooftops$AtticsPIF\\Balcony/true",
+		},
+		
+	},
+		{
+  "Action": "EditData",
+  "Target": "DLX.PIF/Doors",
+  "Entries": {
+
+    "Aimon111.RooftopDoor": {  "RoomId": "Aimon111.Rooftop" }, 
+   "Aimon111.AtticDoor": {  "RoomId": "Aimon111.Attic" }, 
+      "Aimon111.BalconyDoor": {  "RoomId": "Aimon111.Balcony" }, 
+  
+
+		}
+	},
+
+ {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+
+            "LogName": "Robin sells attic and rooftop",
+            "TargetField": ["Carpenter", "Items"],
+            "Entries": {
+                "{{ModId}}_Aimon111.RooftopDoor": {
+                    "Price": 1500,
+                    "ItemId": "(F)Aimon111.RooftopDoor",
+					"IsRecipe": false,
+					//"AvailableStock": 1,
+                    "IgnoreShopPriceModifiers": true,
+                },
+				"{{ModId}}_Aimon111.AtticDoor": {
+                    "Price": 2500,
+                    "ItemId": "(F)Aimon111.AtticDoor",
+					"IsRecipe": false,
+					//"AvailableStock": 1,
+                    "IgnoreShopPriceModifiers": true,
+                },
+				"{{ModId}}_Aimon111.BalconyDoor": {
+                    "Price": 2000,
+                    "ItemId": "(F)Aimon111.BalconyDoor",
+					"IsRecipe": false,
+					//"AvailableStock": 1,
+                    "IgnoreShopPriceModifiers": true,
+                },
+		
+            }
+        },
+      
+    ]
+}

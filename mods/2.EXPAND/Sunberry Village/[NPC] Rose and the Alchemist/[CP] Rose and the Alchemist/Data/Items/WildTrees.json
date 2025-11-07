@@ -1,0 +1,592 @@
+{
+
+"Changes":[
+
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Blushing_TopHat_Tree, Mods/{{ModId}}/Candy_Button_Tree, Mods/{{ModId}}/Coral_Fungus_Tree, Mods/{{ModId}}/Frilly_Gilly_Tree, Mods/{{ModId}}/Ghostly_Parasol_Tree, Mods/{{ModId}}/Indigo_Cap_Tree, Mods/{{ModId}}/Lilac_Funnel_Tree, Mods/{{ModId}}/Limey_Bonnet_Tree, Mods/{{ModId}}/Lunar_Poof_Tree, Mods/{{ModId}}/Rustgill_Tree, Mods/{{ModId}}/Seafoam_Waxcap_Tree, Mods/{{ModId}}/Sparkling_Agaric_Tree, Mods/{{ModId}}/Stout_Funnel_Tree",
+        "FromFile": "Assets/Trees/{{TargetWithoutPath}}.png"
+    },
+
+    {
+        "LogName":"SASS Wild Tree Seeds",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+
+            "{{ModId}}_Blushing_TopHat_Seeds": {
+                "Name": "{{ModId}}_Blushing_TopHat_Seeds",
+                "DisplayName": "{{i18n:SASS_Blushing_TopHat_Seeds.name}}",
+                "Description": "{{i18n:SASS_Blushing_TopHat_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 78
+        },
+            "{{ModId}}_Candy_Button_Seeds": {
+                "Name": "{{ModId}}_Candy_Button_Seeds",
+                "DisplayName": "{{i18n:SASS_Candy_Button_Seeds.name}}",
+                "Description": "{{i18n:SASS_Candy_Button_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 79
+        },
+            "{{ModId}}_Coral_Fungus_Seeds": {
+                "Name": "{{ModId}}_Coral_Fungus_Seeds",
+                "DisplayName": "{{i18n:SASS_Coral_Fungus_Seeds.name}}",
+                "Description": "{{i18n:SASS_Coral_Fungus_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 90
+        },
+            "{{ModId}}_Frilly_Gilly_Seeds": {
+                "Name": "{{ModId}}_Frilly_Gilly_Seeds",
+                "DisplayName": "{{i18n:SASS_Frilly_Gilly_Seeds.name}}",
+                "Description": "{{i18n:SASS_Frilly_Gilly_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 91
+        },
+            "{{ModId}}_Ghostly_Parasol_Seeds": {
+                "Name": "{{ModId}}_Ghostly_Parasol_Seeds",
+                "DisplayName": "{{i18n:SASS_Ghostly_Parasol_Seeds.name}}",
+                "Description": "{{i18n:SASS_Ghostly_Parasol_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 92
+        },
+            "{{ModId}}_Indigo_Cap_Seeds": {
+                "Name": "{{ModId}}_Indigo_Cap_Seeds",
+                "DisplayName": "{{i18n:SASS_Indigo_Cap_Seeds.name}}",
+                "Description": "{{i18n:SASS_Indigo_Cap_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 93
+        },
+            "{{ModId}}_Lilac_Funnel_Seeds": {
+                "Name": "{{ModId}}_Lilac_Funnel_Seeds",
+                "DisplayName": "{{i18n:SASS_Lilac_Funnel_Seeds.name}}",
+                "Description": "{{i18n:SASS_Lilac_Funnel_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 94
+        },
+            "{{ModId}}_Limey_Bonnet_Seeds": {
+                "Name": "{{ModId}}_Limey_Bonnet_Seeds",
+                "DisplayName": "{{i18n:SASS_Limey_Bonnet_Seeds.name}}",
+                "Description": "{{i18n:SASS_Limey_Bonnet_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 95
+        },
+            "{{ModId}}_Lunar_Poof_Seeds": {
+                "Name": "{{ModId}}_Lunar_Poof_Seeds",
+                "DisplayName": "{{i18n:SASS_Lunar_Poof_Seeds.name}}",
+                "Description": "{{i18n:SASS_Lunar_Poof_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 106
+        },
+            "{{ModId}}_Rustgill_Seeds": {
+                "Name": "{{ModId}}_Rustgill_Seeds",
+                "DisplayName": "{{i18n:SASS_Rustgill_Seeds.name}}",
+                "Description": "{{i18n:SASS_Rustgill_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 107
+        },
+            "{{ModId}}_Seafoam_Waxcap_Seeds": {
+                "Name": "{{ModId}}_Seafoam_Waxcap_Seeds",
+                "DisplayName": "{{i18n:SASS_Seafoam_Waxcap_Seeds.name}}",
+                "Description": "{{i18n:SASS_Seafoam_Waxcap_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 108
+        },
+            "{{ModId}}_Sparkling_Agaric_Seeds": {
+                "Name": "{{ModId}}_Sparkling_Agaric_Seeds",
+                "DisplayName": "{{i18n:SASS_Sparkling_Agaric_Seeds.name}}",
+                "Description": "{{i18n:SASS_Sparkling_Agaric_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 109
+        },
+            "{{ModId}}_Stout_Funnel_Seeds": {
+                "Name": "{{ModId}}_Stout_Funnel_Seeds",
+                "DisplayName": "{{i18n:SASS_Stout_Funnel_Seeds.name}}",
+                "Description": "{{i18n:SASS_Stout_Funnel_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 110
+        }
+        }
+    },
+
+////////////////
+// WILD TREES //
+////////////////
+
+{
+    "LogName":"SASS Wild Trees",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "Entries": {
+        "{{ModId}}_Blushing_TopHat_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Blushing_TopHat_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Blushing_TopHat_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Blushing_TopHat",
+                "DaysUntilReady":4,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Candy_Button_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Candy_Button_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Candy_Button_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Candy_Button",
+                "DaysUntilReady":2,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Coral_Fungus_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Coral_Fungus_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Coral_Fungus_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Coral_Fungus",
+                "DaysUntilReady":5,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Frilly_Gilly_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Frilly_Gilly_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Frilly_Gilly_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Frilly_Gilly",
+                "DaysUntilReady":3,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Ghostly_Parasol_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Ghostly_Parasol_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Ghostly_Parasol_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Ghostly_Parasol",
+                "DaysUntilReady":2,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Indigo_Cap_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Indigo_Cap_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Indigo_Cap_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Indigo_Cap",
+                "DaysUntilReady":5,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Lilac_Funnel_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Lilac_Funnel_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Lilac_Funnel_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Lilac_Funnel",
+                "DaysUntilReady":2,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Limey_Bonnet_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Limey_Bonnet_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Limey_Bonnet_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Limey_Bonnet",
+                "DaysUntilReady":7,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Lunar_Poof_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Lunar_Poof_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Lunar_Poof_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Lunar_Poof",
+                "DaysUntilReady":2,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Rustgill_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Rustgill_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Rustgill_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Rustgill",
+                "DaysUntilReady":7,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Seafoam_Waxcap_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Seafoam_Waxcap_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Seafoam_Waxcap_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Seafoam_Waxcap",
+                "DaysUntilReady":5,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Sparkling_Agaric_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Sparkling_Agaric_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Sparkling_Agaric_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Sparkling_Agaric",
+                "DaysUntilReady":2,
+                "Chance":"1"
+                }
+            ]
+        },
+        "{{ModId}}_Stout_Funnel_Tree": {
+            "Textures": [
+                {
+                    "Texture":"Mods/{{ModId}}/Stout_Funnel_Tree"
+                }
+            ],
+            "SeedItemId":"{{ModId}}_Stout_Funnel_Seeds",
+            "SeedChance":0.15,
+            "IsLeafy": false,
+            "IsLeafyInWinter": false,
+            "GrowsInWinter": true,
+            "SeedPlantable": true,
+            "GrowthChance": 0.25,
+            "FertilizedGrowthChance": 1,
+            "SeedOnChopChance": 0.15,
+            "DropWoodOnChop": true,
+            "DropHardwoodOnLumberChop": true,
+            "TapItems":[
+                {
+                "ItemId":"{{ModId}}_Stout_Funnel",
+                "DaysUntilReady":4,
+                "Chance":"1"
+                }
+            ]
+        }
+    }
+},
+
+
+////////////////////////////
+// FEATHERS IN BASE TREES //
+////////////////////////////
+
+{
+    "LogName":"Add Feather to Pine Tree Choppable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["3","ChopItems"],
+    "Entries": {
+        "{{ModId}}_Lovebird_Feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": null,
+            "Chance": 0.1,
+            "Condition": null,
+            "Id": "{{ModId}}_Lovebird_Feather",
+            "ItemId": "(O){{ModId}}_Lovebird_Feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        }
+    }
+},
+
+{
+    "LogName":"Add Feather to Oak Tree Choppable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["1","ChopItems"],
+    "Entries": {
+        "{{ModId}}_Crow_Feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": null,
+            "Chance": 0.1,
+            "Condition": null,
+            "Id": "{{ModId}}_Crow_Feather",
+            "ItemId": "(O){{ModId}}_Crow_Feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        }
+    }
+},
+
+{
+    "LogName":"Add Feather to Maple Tree Choppable Items",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField": ["2","ChopItems"],
+    "Entries": {
+        "{{ModId}}_Rosefinch_Feather": {
+            "MinSize": "Tree",
+            "MaxSize": null,
+            "ForStump": false,
+            "Season": null,
+            "Chance": 0.1,
+            "Condition": null,
+            "Id": "{{ModId}}_Rosefinch_Feather",
+            "ItemId": "(O){{ModId}}_Rosefinch_Feather",
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack"
+        }
+    }
+}
+
+]
+
+
+}

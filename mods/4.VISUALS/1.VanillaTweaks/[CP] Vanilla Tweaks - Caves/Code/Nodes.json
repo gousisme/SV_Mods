@@ -1,0 +1,451 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Amethyst Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Amethyst.png",
+			"ToArea": {"X": "128", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Amethyst": true
+			}
+		},
+        {
+			"LogName": "Aquamarine Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Aquamarine.png",
+			"ToArea": {"X": "224", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Aquamarine": true
+			}
+		},
+        {
+			"LogName": "Diamond Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Diamond.png",
+			"ToArea": {"X": "32", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Diamond": true
+			}
+		},
+        {
+			"LogName": "Emerald Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Emerald.png",
+			"ToArea": {"X": "192", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Emerald": true
+			}
+		},
+        {
+			"LogName": "Jade Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Jade.png",
+			"ToArea": {"X": "96", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Jade": true
+			}
+		},
+        {
+			"LogName": "Ruby Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Ruby.png",
+			"ToArea": {"X": "64", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Ruby": true
+			}
+		},
+        {
+			"LogName": "Topaz Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Topaz.png",
+			"ToArea": {"X": "160", "Y": "0", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Topaz": true
+			}
+		},
+        {
+			"LogName": "Gem Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Gem.png",
+			"ToArea": {"X": "320", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Gem": true
+			}
+		},
+        {
+			"LogName": "Geode Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Geode.png",
+			"ToArea": {"X": "48", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Geode": true
+			}
+		},
+        {
+			"LogName": "Frozen Geode Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/FrozenGeode.png",
+			"ToArea": {"X": "64", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Frozen Geode": true
+			}
+		},
+        {
+			"LogName": "Magma Geode Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/MagmaGeode.png",
+			"ToArea": {"X": "80", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Magma Geode": true
+			}
+		},
+        {
+			"LogName": "Cinder Shard Node 1",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Cinder1.png",
+			"ToArea": {"X": "48", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Cinder Shard": true
+			}
+		},
+        {
+			"LogName": "Cinder Shard Node 2",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Cinder2.png",
+			"ToArea": {"X": "64", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Cinder Shard": true
+			}
+		},
+        {
+			"LogName": "Copper Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Copper.png",
+			"ToArea": {"X": "112", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Copper": true
+			}
+		},
+        {
+			"LogName": "Iron Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Iron.png",
+			"ToArea": {"X": "32", "Y": "192", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Iron": true
+			}
+		},
+        {
+			"LogName": "Gold Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Gold.png",
+			"ToArea": {"X": "320", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Gold": true
+			}
+		},
+        {
+			"LogName": "Iridium Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Iridium.png",
+			"ToArea": {"X": "336", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Iridium": true
+			}
+		},
+        {
+			"LogName": "Mystic Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Mystic.png",
+			"ToArea": {"X": "352", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Mystic": true
+			}
+		},
+        {
+			"LogName": "Radioactive Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Radioactive.png",
+			"ToArea": {"X": "368", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Radioactive": true
+			}
+		},
+        {
+			"LogName": "Mussel Node",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Mussel.png",
+			"ToArea": {"X": "16", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Mussel": true
+			}
+		},
+        {
+			"LogName": "Coal Node 1",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Coal1.png",
+			"ToArea": {"X": "32", "Y": "288", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Coal": true
+			}
+		},
+        {
+			"LogName": "Coal Node 2",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Nodes/Coal2.png",
+			"ToArea": {"X": "48", "Y": "288", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Nodes |contains= Coal": true
+			}
+		},
+
+// ROCK
+
+		{
+			"LogName": "Rock Node 1",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock1.png",
+			"ToArea": {"X": "0", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 2",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock2.png",
+			"ToArea": {"X": "32", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 3",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock3.png",
+			"ToArea": {"X": "64", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 4",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock4.png",
+			"ToArea": {"X": "96", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 5",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock5.png",
+			"ToArea": {"X": "128", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 6",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock6.png",
+			"ToArea": {"X": "160", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 7",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock7.png",
+			"ToArea": {"X": "192", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 8",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock8.png",
+			"ToArea": {"X": "224", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 9",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock9.png",
+			"ToArea": {"X": "256", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 10",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock10.png",
+			"ToArea": {"X": "288", "Y": "16", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 11",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock11.png",
+			"ToArea": {"X": "128", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 12",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock12.png",
+			"ToArea": {"X": "160", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 13",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock13.png",
+			"ToArea": {"X": "256", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+		{
+			"LogName": "Rock Node 14",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/Rocks/Rock14.png",
+			"ToArea": {"X": "288", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RockNodesEnabled": "True"
+			}
+		},
+
+// ROCK CRABS
+
+        {
+			"LogName": "Iridium Crab",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/Iridium Crab",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/RockCrabs/IridiumCrab.png",
+			"When": 
+			{
+				"MatchingRockCrabs": "True",
+				"Nodes |contains= Iridium": true
+			}
+		},
+        {
+			"LogName": "Lava Crab",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/Lava Crab",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/RockCrabs/LavaCrab.png",
+			"When": 
+			{
+				"MatchingRockCrabs": "True",
+				"RockNodesEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Lava Crab",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/Lava Crab_dangerous",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/RockCrabs/LavaCrabDangerous.png",
+			"When": 
+			{
+				"MatchingRockCrabs": "True",
+				"RockNodesEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Rock Crab",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/Rock Crab",
+			"FromFile": "Assets/{{SaturationToggle}}/Nodes/RockCrabs/RockCrab.png",
+			"When": 
+			{
+				"MatchingRockCrabs": "True",
+				"RockNodesEnabled": "True"
+			}
+		}
+    ]
+}

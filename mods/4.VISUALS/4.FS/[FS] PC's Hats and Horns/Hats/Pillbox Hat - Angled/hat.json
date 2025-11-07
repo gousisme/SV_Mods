@@ -1,0 +1,90 @@
+{
+  "Name": "Pillbox Hat - Angled",
+  "FrontHat": {
+  "ColorMasks": [
+      [ 227, 227, 227 ],
+      [ 180, 180, 180 ],
+      [ 137, 137, 137 ],
+      [ 97, 97, 97 ],
+      [ 56, 56, 56 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+
+  "RightHat": {
+  "ColorMasks": [
+      [ 227, 227, 227 ],
+      [ 180, 180, 180 ],
+      [ 137, 137, 137 ],
+      [ 97, 97, 97 ],
+      [ 56, 56, 56 ]
+    ], 
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+  "LeftHat": {
+  "ColorMasks": [
+      [ 227, 227, 227 ],
+      [ 180, 180, 180 ],
+      [ 137, 137, 137 ],
+      [ 97, 97, 97 ],
+      [ 56, 56, 56 ]
+    ], 
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+
+  "BackHat": {
+  "ColorMasks": [
+      [ 227, 227, 227 ],
+      [ 180, 180, 180 ],
+      [ 137, 137, 137 ],
+      [ 97, 97, 97 ],
+      [ 56, 56, 56 ]
+    ],
+      "StartingPosition": {
+      "X": 0,
+      "Y": 96
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  }
+}

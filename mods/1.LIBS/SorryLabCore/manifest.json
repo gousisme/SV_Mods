@@ -1,0 +1,18 @@
+{
+    "Name": "*SorryLabCore*",
+    "Author": "YunHikari",
+    "Version": "1.0.14",
+    "Description": "Core mod for YunHikari's mods.",
+    "UniqueID": "YunHikari.SorryLabCore",
+    "EntryDll": "SorryLabCore.dll",
+    "MinimumApiVersion": "4.1.5",
+    "UpdateKeys": [
+        "Nexus:29793"
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	"Changes": [
+	{
+		"Action": "Load",
+		"Target": "Maps/Beach-NightMarket",
+		"FromFile": "assets/beach.tmx"
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_Fireworks",
+		"FromFile": "assets/Fireworks.tmx"
+	},
+		{
+		"Action": "Load",
+		"Target": "Maps/NightMarketExtras",
+		"FromFile": "assets/NightMarketExtras.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/ChairTiles",
+		"Entries": {
+			"NightMarketExtras/21/3": "3/1/down/picnic/21/3/false/Maps\\NightMarketExtras",
+			"NightMarketExtras/21/4": "3/1/up/picnic/21/5/false/Maps\\NightMarketExtras",
+			"NightMarketExtras/21/0": "3/1/down/bench/-1/-1/false/Maps\\NightMarketExtras",
+		}
+	},
+]
+}

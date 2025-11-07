@@ -1,0 +1,376 @@
+     { 
+        "Changes":
+    [ 
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Assets/Resources",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "LogName": "Add SASS Item Extensions Clumps",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_Sparkling_Agaric_Clump": {
+                    "DisplayName":"{{i18n:Sparkling_Agaric_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 20,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Sparkling_Agaric",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Frilly_Gilly",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Lilac_Funnel",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_LunarPoof_Clump": {
+                    "DisplayName":"{{i18n:LunarPoof_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 22,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Lunar_Poof",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Shrumbus",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Rosey_Elfcup",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_Baby_Bluegill_Clump": {
+                    "DisplayName":"{{i18n:Baby_Bluegill_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 34,
+                    "Width": 2,
+                    "Height": 1,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Baby_Bluegill",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Midnight_Milkcap",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Indigo_Cap",
+                            "Chance": 0.4,
+                            "Condition":""
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_Candy_Button_Clump": {
+                    "DisplayName":"{{i18n:Candy_Button_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 36,
+                    "Width": 2,
+                    "Height": 1,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Candy_Button",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Blushing_TopHat",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Bubblegum_Funnel",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Coral_Fungus",
+                            "Chance": 0.4,
+                            "Condition":""
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_Ghostly_Parasol_Clump": {
+                    "DisplayName":"{{i18n:Baby_Bluegill_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 2,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Ghostly_Parasol",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Limey_Bonnet",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Seafoam_Waxcap",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Rustgill",
+                            "Chance": 0.4,
+                            "Condition":""
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_Stout_Funnel_Clump": {
+                    "DisplayName":"{{i18n:Stout_Funnel_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 14,
+                    "Width": 2,
+                    "Height": 1,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "wood #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Stout_Funnel",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Mottled_Fieldcap",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Midas_Cap",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Queen_Bolete",
+                            "Chance": 0.4,
+                            "Condition":""
+                        }
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 2,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_Overgrown_Stump1": {
+                    "DisplayName":"{{i18n:Overgrown_Stump1}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 0,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 8,
+                    "Sound": "axe",
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Moss",
+                            "Chance": 0.8
+                            
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Stout_Funnel",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Mugwort",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Thistle",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Valerian",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                         {
+                            "ItemId": "(O){{ModId}}_Yarrow",
+                            "Chance": 0.4,
+                            "Condition":""
+                        },
+                       
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": ["color_dark_brown"]
+                },
+                "{{ModId}}_Blue_Flower_Clump": {
+                    "DisplayName":"{{i18n:Blue_Flower_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 8,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 6, 
+                    "Sound": "axe", 
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Unicorn_Horn",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Arctic Fox",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Avalune",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Pixie_Breath",
+                            "Chance": 0.5
+                        },
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": [
+                        "color_brown"
+                    ]
+                },
+                "{{ModId}}_Star_Flower_Clump": {
+                    "DisplayName":"{{i18n:Star_Flower_Clump}}",
+                    "Texture": "Mods/{{ModId}}/Assets/Resources",
+                    "SpriteIndex": 6,
+                    "Width": 2,
+                    "Height": 2,
+                    "Health": 6, 
+                    "Sound": "axe", 
+                    "BreakingSound": "treethud",
+                    "Debris": "stump #CBC3E3",
+                    "ItemDropped": "(O)709",
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O){{ModId}}_Lady_Luck",
+                            "Chance": 0.8
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Ambrosia",
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O){{ModId}}_Dream_Spinner",
+                            "Chance": 0.5
+                        },
+                                                {
+                            "ItemId": "(O){{ModId}}_Fallen_Stars",
+                            "Chance": 0.5
+                        },
+                    ],
+                    "Tool": "Axe",
+                    "MinToolLevel": 1,
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "ContextTags": [
+                        "color_brown"
+                    ]
+                }
+                
+            }
+        }
+
+    ]
+    }

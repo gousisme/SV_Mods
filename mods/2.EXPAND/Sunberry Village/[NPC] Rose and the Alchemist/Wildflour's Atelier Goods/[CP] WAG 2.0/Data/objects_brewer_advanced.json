@@ -1,0 +1,570 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Advanced Ale Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Ales": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Bobbin_For_Aleples": {
+                "Name": "Wildflour.AtelierGoods_Bobbin_For_Aleples",
+                "DisplayName": "{{i18n:AtelierGoods_Bobbin_For_Aleples.name}}",
+                "Description": "{{i18n:AtelierGoods_Bobbin_For_Aleples.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 286
+        },
+            "Wildflour.AtelierGoods_Bonfire_Ale": {
+                "Name": "Wildflour.AtelierGoods_Bonfire_Ale",
+                "DisplayName": "{{i18n:AtelierGoods_Bonfire_Ale.name}}",
+                "Description": "{{i18n:AtelierGoods_Bonfire_Ale.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_dark_orange"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 287
+        },
+            "Wildflour.AtelierGoods_Dust_Sprite_Stout": {
+                "Name": "Wildflour.AtelierGoods_Dust_Sprite_Stout",
+                "DisplayName": "{{i18n:AtelierGoods_Dust_Sprite_Stout.name}}",
+                "Description": "{{i18n:AtelierGoods_Dust_Sprite_Stout.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_copper"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 288
+        },
+            "Wildflour.AtelierGoods_Jingle_Ale_The_Way": {
+                "Name": "Wildflour.AtelierGoods_Jingle_Ale_The_Way",
+                "DisplayName": "{{i18n:AtelierGoods_Jingle_Ale_The_Way.name}}",
+                "Description": "{{i18n:AtelierGoods_Jingle_Ale_The_Way.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_copper"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 289
+        },
+            "Wildflour.AtelierGoods_Lavender_Haze_IPA": {
+                "Name": "Wildflour.AtelierGoods_Lavender_Haze_IPA",
+                "DisplayName": "{{i18n:AtelierGoods_Lavender_Haze_IPA.name}}",
+                "Description": "{{i18n:AtelierGoods_Lavender_Haze_IPA.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 290
+        },
+            "Wildflour.AtelierGoods_Livin_Off_The_Land_Ale": {
+                "Name": "Wildflour.AtelierGoods_Livin_Off_The_Land_Ale",
+                "DisplayName": "{{i18n:AtelierGoods_Livin_Off_The_Land_Ale.name}}",
+                "Description": "{{i18n:AtelierGoods_Livin_Off_The_Land_Ale.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 291
+        },
+            "Wildflour.AtelierGoods_Pelican_Pilsner": {
+                "Name": "Wildflour.AtelierGoods_Pelican_Pilsner",
+                "DisplayName": "{{i18n:AtelierGoods_Pelican_Pilsner.name}}",
+                "Description": "{{i18n:AtelierGoods_Pelican_Pilsner.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_orange"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 292
+        },
+            "Wildflour.AtelierGoods_Sandcastle_IPA": {
+                "Name": "Wildflour.AtelierGoods_Sandcastle_IPA",
+                "DisplayName": "{{i18n:AtelierGoods_Sandcastle_IPA.name}}",
+                "Description": "{{i18n:AtelierGoods_Sandcastle_IPA.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 293
+        },
+            "Wildflour.AtelierGoods_Scarecrow_Stout": {
+                "Name": "Wildflour.AtelierGoods_Scarecrow_Stout",
+                "DisplayName": "{{i18n:AtelierGoods_Scarecrow_Stout.name}}",
+                "Description": "{{i18n:AtelierGoods_Scarecrow_Stout.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_copper"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 294
+        },
+            "Wildflour.AtelierGoods_Scrooge_Tripel": {
+                "Name": "Wildflour.AtelierGoods_Scrooge_Tripel",
+                "DisplayName": "{{i18n:AtelierGoods_Scrooge_Tripel.name}}",
+                "Description": "{{i18n:AtelierGoods_Scrooge_Tripel.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 295
+        },
+            "Wildflour.AtelierGoods_Snowman_Cream_Ale": {
+                "Name": "Wildflour.AtelierGoods_Snowman_Cream_Ale",
+                "DisplayName": "{{i18n:AtelierGoods_Snowman_Cream_Ale.name}}",
+                "Description": "{{i18n:AtelierGoods_Snowman_Cream_Ale.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 296
+        },
+            "Wildflour.AtelierGoods_Wednesdays_Void_Lager": {
+                "Name": "Wildflour.AtelierGoods_Wednesdays_Void_Lager",
+                "DisplayName": "{{i18n:AtelierGoods_Wednesdays_Void_Lager.name}}",
+                "Description": "{{i18n:AtelierGoods_Wednesdays_Void_Lager.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 297
+        },
+    }
+    },
+
+    { 
+        "LogName": "Add Flavored Ale Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:Ales": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flavored_Ale": {
+                "Name": "Wildflour.AtelierGoods_Flavored_Ale",
+                "DisplayName": "{{i18n:AtelierGoods_Flavored_Ale.name}}",
+                "Description": "{{i18n:AtelierGoods_Flavored_Ale.description}}",
+                "Type": "ArtisanGoods",      
+                "ColorOverlayFromNextIndex":true,    
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 298
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:Ales": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Ale": "{{i18n: AtelierGoods_Flavored_Ale}}"
+
+        }
+    },
+
+    {
+        "LogName":"Add Advanced Mead Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Meads": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Beach_Party_Mead": {
+                "Name": "Wildflour.AtelierGoods_Beach_Party_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Beach_Party_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Beach_Party_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 300
+        },
+            "Wildflour.AtelierGoods_Falling_Petals_Mead": {
+                "Name": "Wildflour.AtelierGoods_Falling_Petals_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Falling_Petals_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Falling_Petals_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 301
+        },
+            "Wildflour.AtelierGoods_Farmhouse_Cider_Mead": {
+                "Name": "Wildflour.AtelierGoods_Farmhouse_Cider_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Farmhouse_Cider_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Farmhouse_Cider_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_dark_orange"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 302
+        },
+            "Wildflour.AtelierGoods_Fireworks_Mead": {
+                "Name": "Wildflour.AtelierGoods_Fireworks_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Fireworks_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Fireworks_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 303
+        },
+            "Wildflour.AtelierGoods_Gentle_Breeze_Mead": {
+                "Name": "Wildflour.AtelierGoods_Gentle_Breeze_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Gentle_Breeze_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Gentle_Breeze_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_dark_blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 304
+        },
+            "Wildflour.AtelierGoods_Leaf_Pile_Mead": {
+                "Name": "Wildflour.AtelierGoods_Leaf_Pile_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Leaf_Pile_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Leaf_Pile_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_dark_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 305
+        },
+            "Wildflour.AtelierGoods_Picnic_Basket_Mead": {
+                "Name": "Wildflour.AtelierGoods_Picnic_Basket_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Picnic_Basket_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Picnic_Basket_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_poppyseed"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 306
+        },
+            "Wildflour.AtelierGoods_Spellbound_Mead": {
+                "Name": "Wildflour.AtelierGoods_Spellbound_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Spellbound_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Spellbound_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_light_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 307
+        },
+            "Wildflour.AtelierGoods_Sunny_Daze_Mead": {
+                "Name": "Wildflour.AtelierGoods_Sunny_Daze_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Sunny_Daze_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Sunny_Daze_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 308
+        },
+            "Wildflour.AtelierGoods_Twinkle_Mead": {
+                "Name": "Wildflour.AtelierGoods_Twinkle_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Twinkle_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Twinkle_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_iridium"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 309
+        },
+            "Wildflour.AtelierGoods_Weird_Sisters_Mead": {
+                "Name": "Wildflour.AtelierGoods_Weird_Sisters_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Weird_Sisters_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Weird_Sisters_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_pale_violet_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 310
+        },
+            "Wildflour.AtelierGoods_Yule_Log_Mead": {
+                "Name": "Wildflour.AtelierGoods_Yule_Log_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Yule_Log_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Yule_Log_Mead.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 311
+        }
+    }
+    },
+
+    { 
+        "LogName": "Add Flavored Mead Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:Meads": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flavored_Mead": {
+                "Name": "Wildflour.AtelierGoods_Flavored_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Flavored_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Flavored_Mead.description}}",
+                "Type": "ArtisanGoods",   
+                "ColorOverlayFromNextIndex":true,       
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 312
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+  "When":{"Atelier.Cauldron/ConfigValue:Meads": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Mead": "{{i18n: AtelierGoods_Flavored_Mead}}"
+        }
+    }
+
+
+]
+}

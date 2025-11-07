@@ -1,0 +1,203 @@
+{
+    "Changes": [
+
+/////////////////////
+// BREWER MACHINES //
+/////////////////////
+
+{
+    "LogName": "Add Ale Keg to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Ales": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_AleKeg": {
+            "Name": "Wildflour.AtelierGoods_AleKeg",
+            "DisplayName": "{{i18n: AtelierGoods_AleKeg.name}}",
+            "Description": "{{i18n: AtelierGoods_AleKeg.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 144,
+            "CustomFields": {}
+    }
+}
+},
+
+{
+    "LogName": "Ale Keg Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Ales": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_AleKeg": "335 1 725 2 709 30/Home/Wildflour.AtelierGoods_AleKeg/true/{{RecipeConfig}}/{{i18n: AtelierGoods_AleKeg.name}}"
+    }
+},
+
+{
+    "LogName": "Add Mead Keg to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Meads": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_MeadKeg": {
+            "Name": "Wildflour.AtelierGoods_MeadKeg",
+            "DisplayName": "{{i18n: AtelierGoods_MeadKeg.name}}",
+            "Description": "{{i18n: AtelierGoods_MeadKeg.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 145,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Mead Keg Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Meads": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_MeadKeg": "335 1 709 30 340 2/Home/Wildflour.AtelierGoods_MeadKeg/true/{{RecipeConfig}}/{{i18n: AtelierGoods_MeadKeg.name}}",
+    }
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Brewer Basic Ale Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Ales": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_AleKeg": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Ale",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Ale",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Ale",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Ale %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Ale",
+                        "PreserveId": "DROP_IN",  
+                        "CopyColor":true,
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1600
+                }        
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)304",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_AleKeg_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_AleKeg_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false
+        }
+    }
+},
+
+{
+    "LogName": "Brewer Basic Mead Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Meads": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_MeadKeg":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Mead",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Mead",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Mead",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Mead %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Mead",
+                        "PreserveId": "DROP_IN",  
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CopyColor":true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 2.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                    }    
+            ],
+                "MinutesUntilReady": 800
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_MeadKeg_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_MeadKeg_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false
+           
+        }
+       
+    }
+}
+
+]
+}

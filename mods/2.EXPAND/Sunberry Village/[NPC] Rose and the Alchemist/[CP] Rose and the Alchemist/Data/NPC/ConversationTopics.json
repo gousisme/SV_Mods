@@ -1,0 +1,130 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Alchemist CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WildflourSASS",
+            "Entries": {
+                "cc_Complete": "{{i18n:Alchemist_Dialogue.cc_Complete}}",
+                "cc_Bridge": "{{i18n:Alchemist_Dialogue.cc_Bridge}}",
+                "cc_Bus": "{{i18n:Alchemist_Dialogue.cc_Bus}}",
+                "cc_Begin": "{{i18n:Alchemist_Dialogue.cc_Begin}}",
+                "cc_Boulder": "{{i18n:Alchemist_Dialogue.cc_Boulder}}",
+                "cc_Greenhouse": "{{i18n:Alchemist_Dialogue.cc_Greenhouse}}",
+                "cc_Minecart": "{{i18n:Alchemist_Dialogue.cc_Minecart}}",
+
+                "willyCrabs": "{{i18n:Alchemist_Dialogue.willyCrabs}}",
+                "pamHouseUpgrade": "{{i18n:Alchemist_Dialogue.pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n:Alchemist_Dialogue.pamHouseUpgradeAnonymous}}",
+
+                "movieTheater": "{{i18n:Alchemist_Dialogue.movieTheater}}",
+
+                "LucikielArrives": "{{i18n:Alchemist_Dialogue.LucikielArrives}}",
+                "ReputationIncreased": "{{i18n:Alchemist_Dialogue.ReputationIncreased}}",
+
+                "SterlingTrash": "{{i18n:Alchemist_Dialogue.SterlingTrash}}",
+                "SterlingDrugs": "{{i18n:Alchemist_Dialogue.SterlingDrugs}}",
+                "SterlingRelapse": "{{i18n:Alchemist_Dialogue.SterlingRelapse}}",
+                "SterlingApology": "{{i18n:Alchemist_Dialogue.SterlingApology}}",
+                /*"SterlingSobriety": "{{i18n:Alchemist_Dialogue.SterlingSobriety}}",*/
+
+                "MeetTheCats": "{{i18n:Alchemist_Dialogue.MeetTheCats}}",
+                "ButteredJorts": "{{i18n:Alchemist_Dialogue.ButteredJorts}}",
+                "keahi_prank": "{{i18n:Alchemist_Dialogue.keahi_prank}}",
+
+                "ReihanaIntro": "{{i18n:Alchemist_Dialogue.ReihanaIntro}}",
+
+                "wedding": "{{i18n:Alchemist_Dialogue.wedding}}",
+                "luauBest": "{{i18n:Alchemist_Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Alchemist_Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Alchemist_Dialogue.luauPoisoned}}",
+                "AriGetsSlimed": "{{i18n:Alchemist_Dialogue.AriGetsSlimed}}"
+
+            }
+        },
+        {
+            "LogName": "Rose CTs 0 Heart",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RoseSASS",
+            "When": {"Query: {{Hearts:RoseSASS}} >= 2": false},
+            "Entries": {
+                "cc_Complete": "{{i18n:Rose_Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Rose_Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Rose_Dialogue.movieTheater}}",
+                "MeetTheCats": "{{i18n:Rose_Dialogue.MeetTheCats}}",
+                "ReihanaIntro": "{{i18n:Rose_Dialogue.ReihanaIntro}}",
+
+                "wedding": "{{i18n:Rose_Dialogue.wedding}}",
+                "luauBest": "{{i18n:Rose_Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Rose_Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Rose_Dialogue.luauPoisoned}}",
+                "AriGetsSlimed": "{{i18n:Rose_Dialogue.AriGetsSlimed}}",
+
+                "cc_Begin": "{{i18n:Rose_Dialogue.cc_Begin}}",
+                "cc_Greenhouse": "{{i18n:Rose_Dialogue.cc_Greenhouse}}",
+                "cc_Minecart": "{{i18n:Rose_Dialogue.cc_Minecart}}",
+
+                "pamHouseUpgrade": "{{i18n:Rose_Dialogue.pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n:Rose_Dialogue.pamHouseUpgradeAnonymous}}",
+
+                "LucikielArrives": "{{i18n:Rose_Dialogue.LucikielArrives}}",
+                "ReputationIncreased": "{{i18n:Rose_Dialogue.ReputationIncreased}}",
+
+                "SterlingTrash": "{{i18n:Rose_Dialogue.SterlingTrash}}",
+                /*"SterlingDrugs": "{{i18n:Rose_Dialogue.SterlingDrugs}}",*/
+                "SterlingRelapse": "{{i18n:Rose_Dialogue.SterlingRelapse}}",
+                "SterlingApology": "{{i18n:Rose_Dialogue.SterlingApology}}",
+                /*"SterlingSobriety": "{{i18n:Rose_Dialogue.SterlingSobriety}}",*/
+
+                "ButteredJorts": "{{i18n:Rose_Dialogue.ButteredJorts}}",
+                "keahi_prank": "{{i18n:Rose_Dialogue.keahi_prank}}"
+            }
+        },
+
+        {
+            "LogName": "Rose CTs Friendly",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/RoseSASS",
+            "When": {"Query: {{Hearts:RoseSASS}} >= 2": true},
+            "Entries": {
+                "cc_Complete": "{{i18n:Rose_Dialogue_Friendly.cc_Complete}}",
+                "cc_Bus": "{{i18n:Rose_Dialogue_Friendly.cc_Bus}}",
+                "movieTheater": "{{i18n:Rose_Dialogue_Friendly.movieTheater}}",
+                "MeetTheCats": "{{i18n:Rose_Dialogue_Friendly.MeetTheCats}}",
+                "ReihanaIntro": "{{i18n:Rose_Dialogue_Friendly.ReihanaIntro}}",
+
+                "wedding": "{{i18n:Rose_Dialogue_Friendly.wedding}}",
+                "luauBest": "{{i18n:Rose_Dialogue_Friendly.luauBest}}",
+                "luauShorts": "{{i18n:Rose_Dialogue_Friendly.luauShorts}}",
+                "luauPoisoned": "{{i18n:Rose_Dialogue_Friendly.luauPoisoned}}",
+                "AriGetsSlimed": "{{i18n:Rose_Dialogue_Friendly.AriGetsSlimed}}",
+
+                "cc_Begin": "{{i18n:Rose_Dialogue_Friendly.cc_Begin}}",
+                "cc_Greenhouse": "{{i18n:Rose_Dialogue_Friendly.cc_Greenhouse}}",
+                "cc_Minecart": "{{i18n:Rose_Dialogue_Friendly.cc_Minecart}}",
+
+                "pamHouseUpgrade": "{{i18n:Rose_Dialogue_Friendly.pamHouseUpgrade}}",
+                "pamHouseUpgradeAnonymous": "{{i18n:Rose_Dialogue_Friendly.pamHouseUpgradeAnonymous}}",
+
+                "LucikielArrives": "{{i18n:Rose_Dialogue_Friendly.LucikielArrives}}",
+                "ReputationIncreased": "{{i18n:Rose_Dialogue_Friendly.ReputationIncreased}}",
+
+                "SterlingTrash": "{{i18n:Rose_Dialogue_Friendly.SterlingTrash}}",
+                /*"SterlingDrugs": "{{i18n:Rose_Dialogue_Friendly.SterlingDrugs}}",*/
+                "SterlingRelapse": "{{i18n:Rose_Dialogue_Friendly.SterlingRelapse}}",
+                "SterlingApology": "{{i18n:Rose_Dialogue_Friendly.SterlingApology}}",
+                /*"SterlingSobriety": "{{i18n:Rose_Dialogue_Friendly.SterlingSobriety}}",*/
+
+                "ButteredJorts": "{{i18n:Rose_Dialogue_Friendly.ButteredJorts}}",
+                "keahi_prank": "{{i18n:Rose_Dialogue_Friendly.keahi_prank}}",
+
+                "GreenRain":"{{i18n:Rose_Dialogue_Friendly.GreenRain}}",
+                "GreenRainFinished":"{{i18n:Rose_Dialogue_Friendly.GreenRainFinished}}",
+                "GreenRain_2":"{{i18n:Rose_Dialogue_Friendly.GreenRain2}}",
+
+            }
+        }
+ 
+    ]
+}

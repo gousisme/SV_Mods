@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "LogName": "SASS Letters",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModId}}_AlchemyTable": "{{i18n: SASS_AlchemyTable.text}}[#]{{i18n: SASS_AlchemyTable.name}}",
+                "{{ModId}}_Bee_Familiars": "{{i18n: SASS_Bee_Familiars.text}}[#]{{i18n: SASS_Bee_Familiars.name}}",
+                "{{ModId}}_Cat_Familiars": "{{i18n: SASS_Cat_Familiars.text}}[#]{{i18n: SASS_Cat_Familiars.name}}",
+                "{{ModId}}_Crow_Familiars": "{{i18n: SASS_Crow_Familiars.text}}[#]{{i18n: SASS_Crow_Familiars.name}}",
+                "{{ModId}}_Fox_Familiars": "{{i18n: SASS_Fox_Familiars.text}}[#]{{i18n: SASS_Fox_Familiars.name}}",
+                "{{ModId}}_Toad_Familiars": "{{i18n: SASS_Toad_Familiars.text}}[#]{{i18n: SASS_Toad_Familiars.name}}",
+                "{{ModId}}_Rose_Party_Prep": "{{i18n: SASS_Rose_Party_Prep.text}}%item id (O){{ModId}}_Party_Invitation 5 %action AddSpecialOrder {{ModId}}_SO_RoseParty[#]{{i18n: SASS_Rose_Party_Prep.name}}",
+            }
+        },
+
+       
+
+//////////////////////////
+// MAIL TRIGGER ACTIONS //
+//////////////////////////
+
+{
+    "LogName":"SASS Mail Triggers",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "Entries": {
+        "{{ModId}}_AlchemyTable_Trigger": {
+            "Id": "{{ModId}}_AlchemyTable_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current WildflourSASS 1250, PLAYER_HAS_CRAFTING_RECIPE Any skellady.SBVCP_AlchemyTable",
+            "Action": "AddMail Current {{ModId}}_AlchemyTable tomorrow"
+        },
+        "{{ModId}}_Bee_Familiars_Trigger": {
+            "Id": "{{ModId}}_Bee_Familiars_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_SO_5",
+            "Action": "AddMail Current {{ModId}}_Bee_Familiars tomorrow"
+        },
+        "{{ModId}}_Cat_Familiars_Trigger": {
+            "Id": "{{ModId}}_Cat_Familiars_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_SO_2",
+            "Action": "AddMail Current {{ModId}}_Cat_Familiars tomorrow"
+        },
+        "{{ModId}}_Crow_Familiars_Trigger": {
+            "Id": "{{ModId}}_Crow_Familiars_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_SO_1",
+            "Action": "AddMail Current {{ModId}}_Crow_Familiars tomorrow"
+        },
+        "{{ModId}}_Fox_Familiars_Trigger": {
+            "Id": "{{ModId}}_Fox_Familiars_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_SO_3",
+            "Action": "AddMail Current {{ModId}}_Fox_Familiars tomorrow"
+        },
+        "{{ModId}}_Toad_Familiars_Trigger": {
+            "Id": "{{ModId}}_Toad_Familiars_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_SO_4",
+            "Action": "AddMail Current {{ModId}}_Toad_Familiars tomorrow"
+        }
+    }
+},
+
+
+
+    ]
+}

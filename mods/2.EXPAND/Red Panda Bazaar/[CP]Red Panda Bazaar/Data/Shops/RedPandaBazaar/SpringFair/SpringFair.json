@@ -1,0 +1,886 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "RedPandaBazaar.47.43.SpringFair": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "RedPandaBazaar_LiQingFeng",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.47.43.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.47.43.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.47.43.RedPandaBazaar_Prize_Ticket_1",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_1",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.47.43.SpringFair.Coffee",
+              "ItemId": "(O)395",
+              "Price": 0,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.47.43.SpringFair.Cooking1",
+              "RandomItemId": [
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 0,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.47.43.SpringFair.Cooking2",
+              "RandomItemId": [
+                "(O)221",
+                "(O)220",
+                "(O)206",
+                "(O)732",
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 0,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.47.43.SpringFair.Cooking3",
+              "RandomItemId": [
+                "(O)221",
+                "(O)220",
+                "(O)206",
+                "(O)732",
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 0,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "RedPandaBazaar.26.48.SpringFair": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Marlon",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.26.48.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.26.48.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.RedPandaBazaar.Prize.Ticket.1",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_1",
+              "AvailableStock": 1,
+              "Price": 1000
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Glowstone.Ring",
+              "ItemId": "(O)888",
+              "AvailableStock": 1,
+              "Price": 2000
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Smal.Glow.Ring",
+              "ItemId": "(O)516",
+              "AvailableStock": 1,
+              "Price": 500
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Small.Magnet.Ring",
+              "ItemId": "(O)518",
+              "AvailableStock": 1,
+              "Price": 500
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Dark.Boots",
+              "ItemId": "(B)511",
+              "AvailableStock": 1,
+              "Price": 2500
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Firewalker.Boots",
+              "ItemId": "(B)512",
+              "AvailableStock": 1,
+              "Price": 3000
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Tempered.Broadsword",
+              "ItemId": "(W)52",
+              "AvailableStock": 1,
+              "Price": 3500
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Dark.Sword",
+              "ItemId": "(W)2",
+              "AvailableStock": 1,
+              "Price": 4200
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Wicked.Kris",
+              "ItemId": "(W)45",
+              "AvailableStock": 1,
+              "Price": 3500
+            },
+            {
+              "Id": "RedPandaBazaar.26.48.SpringFair.Dragontooth.Club",
+              "ItemId": "(W)58",
+              "AvailableStock": 1,
+              "Price": 17500
+            }
+          ]
+        },
+        "RedPandaBazaar.49.116.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Marnie",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.49.116.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.49.116.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.49.116.SpringFair.Golden.Animal.Cracker",
+              "ItemId": "(O)GoldenAnimalCracker",
+              "AvailableStock": 1,
+              "Price": 500
+            },
+            {
+              "Id": "RedPandaBazaar.49.116.SpringFair.Hay",
+              "ItemId": "(O)178",
+              "AvailableStock": 20,
+              "Price": 50
+            },
+            {
+              "Id": "RedPandaBazaar.49.116.SpringFair.Pumpkin.Pie",
+              "ItemId": "(O)608",
+              "AvailableStock": 1,
+              "Price": 100
+            }
+          ]
+        },
+        "RedPandaBazaar.27.48.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Marlon",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.27.48.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.27.48.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.27.48.SpringFair.GamblerHat",
+              "ItemId": "(H)RedPandaBazaar_GamblerHat",
+              "AvailableStock": 1,
+              "Price": 7500
+            },
+            {
+              "Id": "RedPandaBazaar.27.48.SpringFair.Phoenix.Ring",
+              "ItemId": "(O)863",
+              "AvailableStock": 1,
+              "Price": 4500
+            },
+            {
+              "Id": "RedPandaBazaar.27.48.SpringFair.Hot.Java.Ring",
+              "ItemId": "(O)860",
+              "AvailableStock": 1,
+              "Price": 2500
+            },
+            {
+              "Id": "RedPandaBazaar.27.48.SpringFair.Mermaid.Boots",
+              "ItemId": "(B)854",
+              "AvailableStock": 1,
+              "Price": 4500
+            },
+            {
+              "Id": "RedPandaBazaar.27.48.SpringFair.Dwarf.Dagger",
+              "ItemId": "(W)56",
+              "AvailableStock": 1,
+              "Price": 7500
+            },
+            {
+              "Id": "RedPandaBazaar.27.48.SpringFair.Dragontooth.Cutlass",
+              "ItemId": "(W)57",
+              "AvailableStock": 1,
+              "Price": 9500
+            }
+          ]
+        },
+        "RedPandaBazaar.26.62.SpringFair": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Pierre",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.26.62.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.26.62.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.RedPandaBazaar.Prize.Ticket.1",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_1",
+              "AvailableStock": 1,
+              "Price": 1000
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.Horseradish",
+              "ItemId": "(O)16",
+              "AvailableStock": 10,
+              "Price": 50
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.Daffodil",
+              "ItemId": "(O)18",
+              "AvailableStock": 10,
+              "Price": 50
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.Leek",
+              "ItemId": "(O)20",
+              "AvailableStock": 10,
+              "Price": 50
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.Dandelion",
+              "ItemId": "(O)22",
+              "AvailableStock": 10,
+              "Price": 50
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.SpringSeeds",
+              "ItemId": "(O)495",
+              "Price": 30
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.CarrotSeeds",
+              "ItemId": "(O)CarrotSeeds",
+              "Price": 45
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.StrawberrySeeds",
+              "ItemId": "(O)745",
+              "Price": 100
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.GarlicSeeds",
+              "ItemId": "(O)476",
+              "AvailableStock": 1,
+              "Price": 120
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.TeaSapling",
+              "ItemId": "(O)251",
+              "AvailableStock": 1,
+              "Price": 1500
+            },
+            {
+              "Id": "RedPandaBazaar.26.62.SpringFair.Rarecrow#5",
+              "ItemId": "(BC)137",
+              "AvailableStock": 1,
+              "Price": 2500
+            }
+          ]
+        },
+        "RedPandaBazaar.27.62.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Pierre",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.27.62.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.27.62.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Basic.Fertilizer",
+              "ItemId": "(O)368",
+              "AvailableStock": 10,
+              "Price": 200
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Quality.Fertilizer",
+              "ItemId": "(O)369",
+              "AvailableStock": 10,
+              "Price": 300
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Basic.Retaining.Soil",
+              "ItemId": "(O)370",
+              "AvailableStock": 10,
+              "Price": 200
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Quality.Retaining.Soil",
+              "ItemId": "(O)371",
+              "AvailableStock": 10,
+              "Price": 300
+            },
+
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Speed-Gro",
+              "ItemId": "(O)465",
+              "AvailableStock": 10,
+              "Price": 200
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Deluxe.Speed-Gro",
+              "ItemId": "(O)466",
+              "AvailableStock": 10,
+              "Price": 400
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Sprinkler",
+              "ItemId": "(O)599",
+              "AvailableStock": 1,
+              "Price": 500
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Quality.Sprinkler",
+              "ItemId": "(O)621",
+              "AvailableStock": 1,
+              "Price": 1250
+            },
+            {
+              "Id": "RedPandaBazaar.27.62.SpringFair.Iridium.Sprinkler",
+              "ItemId": "(O)645",
+              "AvailableStock": 1,
+              "Price": 5000
+            }
+          ]
+        },
+        "RedPandaBazaar.75.62.SpringFair": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.75.62.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.75.62.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.75.62.SpringFair.Joja.Catalogue",
+              "ItemId": "(F)JojaCatalogue",
+              "Price": 15000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.75.62.SpringFair.Sugar",
+              "ItemId": "(O)245",
+              "Price": 100,
+              "AvailableStock": 10
+            },
+            {
+              "Id": "RedPandaBazaar.75.62.SpringFair.Wheat.Flour",
+              "ItemId": "(O)246",
+              "Price": 100,
+              "AvailableStock": 15
+            },
+            {
+              "Id": "RedPandaBazaar.75.62.SpringFair.Rice",
+              "ItemId": "(O)423",
+              "Price": 100,
+              "AvailableStock": 5
+            },
+            {
+              "Id": "RedPandaBazaar.75.62.SpringFair.Grass.Starter",
+              "ItemId": "(O)297",
+              "Price": 5,
+              "AvailableStock": 999
+            }
+          ]
+        },
+        "RedPandaBazaar.76.62.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.76.62.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.76.62.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.76.62.SpringFair.Auto.Petter",
+              "ItemId": "(BC)272",
+              "Price": 9500,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.76.62.SpringFair.Joja.Cola",
+              "ItemId": "(O)167",
+              "Price": 25,
+              "AvailableStock": 99
+            },
+            {
+              "Id": "RedPandaBazaar.76.62.SpringFair.Joja.Cap",
+              "ItemId": "(H)JojaCap",
+              "Price": 1000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "RedPandaBazaar.63.75.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.63.75.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.63.75.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.63.75.SpringFair.Bucket.Hat",
+              "ItemId": "(H)BucketHat",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.63.75.SpringFair.RedPandaBazaar.Angler.Hat",
+              "ItemId": "(H)RedPandaBazaar_AnglerHat",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.63.75.SpringFair.RedPandaBazaar.Burlap.Hat.Red.Strap",
+              "ItemId": "(H)RedPandaBazaar_BurlapHatRedStrap",
+              "Price": 1000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "RedPandaBazaar.73.75.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.73.75.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.73.75.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.1",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.1",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.2",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.2",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.3",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.3",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.4",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.4",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.5",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.5",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.6",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.6",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.7",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.7",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.8",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.8",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat.9",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat.9",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.White.Cowboy.Hat",
+              "ItemId": "(H)RedPandaBazaar_WhiteCowboyHat",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.1",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.1",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.2",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.2",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.3",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.3",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.4",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.4",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.5",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.5",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.6",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.6",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.7",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.7",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.8",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.8",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat.9",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat.9",
+              "Price": 1000,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.73.75.SpringFair.RedPandaBazaar.Black.Cowboy.Hat",
+              "ItemId": "(H)RedPandaBazaar_BlackCowboyHat",
+              "Price": 1000,
+              "AvailableStock": 1
+            }
+          ]
+        },
+        "RedPandaBazaar.10.77.SpringFair": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Evelyn",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.10.77.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.10.77.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.10.77.RedPandaBazaar.Prize.Ticket.1",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_1",
+              "Price": 1000
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.CoffeeBean",
+              "ItemId": "(O)433",
+              "Price": 220
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.Strawberry",
+              "ItemId": "(O)400",
+              "Price": 120
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.StrawberrySeeds",
+              "ItemId": "(O)745",
+              "Price": 80
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.TulipBulb",
+              "ItemId": "(O)591",
+              "Price": 10
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.Tulip",
+              "ItemId": "(O)427",
+              "Price": 30
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.Kale",
+              "ItemId": "(O)250",
+              "Price": 110
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.KaleSeeds",
+              "ItemId": "(O)477",
+              "Price": 40
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.Potato",
+              "ItemId": "(O)192",
+              "Price": 80
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.PotatoSeeds",
+              "ItemId": "(O)475",
+              "Price": 30
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.Carrot",
+              "ItemId": "(O)Carrot",
+              "Price": 35
+            },
+            {
+              "Id": "RedPandaBazaar.10.77.SpringFair.CarrotSeeds",
+              "ItemId": "(O)CarrotSeeds",
+              "Price": 15
+            }
+          ]
+        },
+        "RedPandaBazaar.11.77.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "Evelyn",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.11.77.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.11.77.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.11.77.SpringFair.Garden.Pot",
+              "ItemId": "(BC)62",
+              "Price": 500,
+              "AvailableStock": 5
+            },
+            {
+              "Id": "RedPandaBazaar.11.77.SpringFair.Tub.Flowers",
+              "ItemId": "(BC)108",
+              "Price": 200
+            },
+            {
+              "Id": "RedPandaBazaar.11.77.SpringFair.Tulip",
+              "ItemId": "(O)591",
+              "Price": 100,
+              "AvailableStock": 6
+            },
+            {
+              "Id": "RedPandaBazaar.11.77.SpringFair.Blue.Jazz",
+              "ItemId": "(O)597",
+              "Price": 100,
+              "AvailableStock": 6
+            },
+            {
+              "Id": "RedPandaBazaar.11.77.SpringFair.Summer.Spangle",
+              "ItemId": "(O)593",
+              "Price": 240,
+              "AvailableStock": 6
+            },
+            {
+              "Id": "RedPandaBazaar.11.77.SpringFair.Fairy.Rose",
+              "ItemId": "(O)595",
+              "Price": 240,
+              "AvailableStock": 6
+            }
+          ]
+        },
+        "RedPandaBazaar.29.97.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.29.97.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.29.97.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.29.97.SpringFair.RedPandaBazaar.StarryNight",
+              "ItemId": "(F)RedPandaBazaar_StarryNight",
+              "Price": 1889,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.29.97.SpringFair.RedPandaBazaar.Redemption.Coupon.1",
+              "Price": 500,
+              "AvailableStock": 1,
+              "RandomItemId": [
+                "(O)RedPandaBazaar_Redemption_Coupon_1",
+                "(O)RedPandaBazaar_Redemption_Coupon_2",
+                "(O)RedPandaBazaar_Redemption_Coupon_3",
+                "(O)RedPandaBazaar_Redemption_Coupon_4",
+                "(O)RedPandaBazaar_Redemption_Coupon_5",
+                "(O)RedPandaBazaar_Redemption_Coupon_6",
+                "(O)RedPandaBazaar_Redemption_Coupon_7",
+                "(O)RedPandaBazaar_Redemption_Coupon_8",
+                "(O)RedPandaBazaar_Redemption_Coupon_9",
+                "(O)RedPandaBazaar_Redemption_Coupon_10",
+                "(O)RedPandaBazaar_Redemption_Coupon_11",
+                "(O)RedPandaBazaar_Redemption_Coupon_12",
+                "(O)RedPandaBazaar_Redemption_Coupon_13",
+                "(O)RedPandaBazaar_Redemption_Coupon_14",
+                "(O)RedPandaBazaar_Redemption_Coupon_15",
+                "(O)RedPandaBazaar_Redemption_Coupon_16",
+                "(O)RedPandaBazaar_Redemption_Coupon_17"
+              ]
+            }
+          ]
+        },
+        "RedPandaBazaar.23.97.SpringFair": {
+          "Currency": 1,
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaar.23.97.SpringFair",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaar.23.97.SpringFair}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar.23.97.SpringFair.RedPandaBazaar.SunFlower",
+              "ItemId": "(F)RedPandaBazaar_SunFlower",
+              "Price": 1888,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar.23.97.SpringFair.RedPandaBazaar.Redemption.Coupon.1",
+              "Price": 500,
+              "AvailableStock": 1,
+              "RandomItemId":
+              [
+                "(O)RedPandaBazaar_Redemption_Coupon_1",
+                "(O)RedPandaBazaar_Redemption_Coupon_2",
+                "(O)RedPandaBazaar_Redemption_Coupon_3",
+                "(O)RedPandaBazaar_Redemption_Coupon_4",
+                "(O)RedPandaBazaar_Redemption_Coupon_5",
+                "(O)RedPandaBazaar_Redemption_Coupon_6",
+                "(O)RedPandaBazaar_Redemption_Coupon_7",
+                "(O)RedPandaBazaar_Redemption_Coupon_8",
+                "(O)RedPandaBazaar_Redemption_Coupon_9",
+                "(O)RedPandaBazaar_Redemption_Coupon_10",
+                "(O)RedPandaBazaar_Redemption_Coupon_11",
+                "(O)RedPandaBazaar_Redemption_Coupon_12",
+                "(O)RedPandaBazaar_Redemption_Coupon_13",
+                "(O)RedPandaBazaar_Redemption_Coupon_14",
+                "(O)RedPandaBazaar_Redemption_Coupon_15",
+                "(O)RedPandaBazaar_Redemption_Coupon_16",
+                "(O)RedPandaBazaar_Redemption_Coupon_17"
+
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

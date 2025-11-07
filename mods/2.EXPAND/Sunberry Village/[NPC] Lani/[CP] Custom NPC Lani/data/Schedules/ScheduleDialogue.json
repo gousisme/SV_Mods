@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+		    "Target": "Strings/schedules/LaniSBV",
+		    "Entries": {
+				"SeedShop.000": "{{i18n:Lani.Schedule.SeedShop.000}}",
+				"BathHouse.000": "{{i18n:Lani.Schedule.BathHouse.{{Random:0,1,2}} }}",
+				"NightMarket.000": "{{i18n:Lani.Schedule.NightMarket.000}}",
+            }
+        }
+    ]
+}

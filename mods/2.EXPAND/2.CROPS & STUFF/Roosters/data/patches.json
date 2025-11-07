@@ -1,0 +1,150 @@
+{
+	"Changes": [
+		//Weather/Season Fix. All because it errors if I combine these
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [ "cockbrown"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Weather": "Rain, Storm, Snow, GreenRain"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockwhite"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Weather": "Rain, Storm, Snow, GreenRain"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockblue"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Weather": "Rain, Storm, Snow, GreenRain"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockvoid"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Weather": "Rain, Storm, Snow, GreenRain"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockgold"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Weather": "Rain, Storm, Snow, GreenRain"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [ "cockbrown"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Season |contains=winter": "true"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockwhite"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Season |contains=winter": "true"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockblue"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Season |contains=winter": "true"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockvoid"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Season |contains=winter": "true"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockgold"],
+			"Entries": {
+				"HarvestType": "DropOvernight"
+			},
+			"When": {
+				"Season |contains=winter": "true"
+			}
+		},
+//Chickens Drop New Eggs
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Blue Chicken"],
+			"Entries":{	
+                "BirthText": "{{i18n:bluechicken.birthtext}}",				
+                "ProduceItemIDs": [
+                    {"ItemID": "{{ModId}}BlueEgg"}
+                    ],
+                "DeluxeProduceItemIds": [
+                    {"MinimumFriendship": 600, "ItemID": "{{ModId}}LargeBlueEgg"}
+                    ]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Void Chicken"],
+			"Entries":{
+                "DeluxeProduceItemIds": [
+                    {"MinimumFriendship": 600, "ItemID": "{{ModID}}LargevoidEgg"}
+                    ]
+			}					
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Golden Chicken"],
+			"Entries":{
+                "DeluxeProduceItemIds": [
+                    {"MinimumFriendship": 600, "ItemID": "{{ModID}}LargegoldEgg"}
+                    ]
+			}					
+		},
+	]
+}

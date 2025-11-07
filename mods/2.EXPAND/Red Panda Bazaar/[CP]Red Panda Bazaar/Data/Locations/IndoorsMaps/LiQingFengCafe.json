@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LiQingFengCafe1": {
+          "DisplayName": "{{i18n:LiQingFengCafe1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LiQingFengCafe1"
+          },
+          "FormerLocationNames": [
+            "LiQingFengCafe1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LiQingFengCafe2": {
+          "DisplayName": "{{i18n:LiQingFengCafe2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LiQingFengCafe2"
+          },
+          "FormerLocationNames": [
+            "LiQingFengCafe2"
+          ]
+        }
+      }
+    }
+  ]
+}

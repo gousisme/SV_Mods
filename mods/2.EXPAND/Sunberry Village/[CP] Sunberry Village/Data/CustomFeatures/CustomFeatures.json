@@ -1,0 +1,412 @@
+{
+    "Changes": [
+
+        // Ari's Market Daily Special
+
+        {
+            "LogName": "Ari's Market Daily Special TileAction",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_AriMarket",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 20
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_MarketDailySpecial",
+                        "TileDesc": "interactables,Daily Special,static_tile-common-shop_counter"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Ari's Market Daily Special Base Pool",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_BaseItems": {
+                    "Items": [
+                        // Random house plant
+                        {
+                            "ItemId": "RANDOM_ITEMS (F) 1376 1390",
+                            "MaxItems": 1
+                        },
+                        // 12 pack of joja cola
+                        {
+                            "ItemId": "(O)167",
+                            "MinStack": 12,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.12PackJojaCola}}"
+                            }
+                        },
+                        // random fruit wine (silver quality)
+                        {
+                            "ItemId": "FLAVORED_ITEM Wine (O){{Random:613,631,634,635,636,637,638,410,258,254,834}}",
+                            "Quality": "1"
+                        },
+                        // Random seeds
+                        {
+                            "ItemId": "{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}}",
+                            "MinStack": 10,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.10PackSeeds |SeedPacketName={{i18n: MarketSpecial.SeedPacket_{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}} }} }}"
+                            }
+                        },
+                        // Grass starters
+                        {
+                            "ItemId": "(O)297",
+                            "MinStack": 70,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 10000
+                            }
+                        },
+                        // Blue grass starter
+                        {
+                            "ItemId": "(O)BlueGrassStarter",
+                            "MinStack": 70,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 30000
+                            }
+                        },
+                        // Random Qi fertilizers
+                        {
+                            "RandomItemId": [
+                                "(O)918",
+                                "(O)919",
+                                "(O)920"
+                            ],
+                            "MinStack": 15,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 5000,
+                            }
+                        },
+                        // Enricher
+                        {
+                            "ItemId": "(O)913",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 15000
+                            }
+                        },
+                        // Nozzle
+                        {
+                            "ItemId": "(O)915",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 20000
+                            }
+                        },
+                        // Elias' catch of the day (spring)
+                        {
+                            "RandomItemId": [
+                                "(O)129",
+                                "(O)143",
+                                "(O)148",
+                                "(O)706",
+                                "(O)skellady.SBVCP_SeaCow",
+                                "(O)skellady.SBVCP_Najelfish",
+                                "(O)skellady.SBVCP_BonbonFish",
+                            ],
+                            "Season": "Spring",
+                            "MaxItems": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
+                            }
+                        },
+                        // Elias' catch of the day (summer)
+                        {
+                            "RandomItemId": [
+                                "(O)128",
+                                "(O)130",
+                                "(O)698",
+                                "(O)150",
+                                "(O)skellady.SBVCP_EmeraldSnapper",
+                                "(O)skellady.SBVCP_EeltailedCatfish",
+                                "(O)skellady.SBVCP_ChartreuseTilapia",
+                            ],
+                            "Season": "Summer",
+                            "MaxItems": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
+                            }
+                        },
+                        // Elias' catch of the day (fall)
+                        {
+                            "RandomItemId": [
+                                "(O)139",
+                                "(O)705",
+                                "(O)140",
+                                "(O)skellady.SBVCP_FiretailGuppy",
+                                "(O)skellady.SBVCP_AzureanCarp",
+                            ],
+                            "Season": "Fall",
+                            "MaxItems": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
+                            }
+                        },
+                        // Tea sapling
+                        {
+                            "ItemId": "(O)251",
+                            "MinStack": 5
+                        },
+                        // Caviar
+                        {
+                            "ItemId": "(O)445",
+                            "MaxItems": 1
+                        },
+                        // Qi seasoning
+                        {
+                            "ItemId": "(O)917",
+                            "MaxItems": 1
+                        }
+                    ] 
+                } 
+            } 
+        },
+        {
+            "LogName": "Ari's Market Daily Special - WAG",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_WAGItems": {
+                    "Items": [
+                        {
+                            "ItemId": "(O)wildflour.gourmetpantry_pectin",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 200
+                            }
+                        },
+                        {
+                            "ItemId": "(O)wildflour.gourmetpantry_brown_sugar",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
+                            }
+                        },
+                        {
+                            "ItemId": "(O)wildflour.gourmetpantry_confectioners_sugar",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
+                            }
+                        },
+                    ] 
+                }
+            },
+            "When": {
+                "HasMod": "wildflour.gourmetpantry"
+            } 
+        },
+        {
+            "LogName": "Ari's Market Daily Special - S&S",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_SwordSorceryItems": {
+                    "Items": [
+                        {
+                            "ItemId": "(O)DN.SnS_portfiredrakesparkler",
+                            "MaxItems": 1
+                        },
+                        {
+                            "ItemId": "(O)DN.SnS_zuzustylepizza",
+                            "MaxItems": 1
+                        },
+                        {
+                            "ItemId": "(O)DN.SnS_zuzustylecheesecake",
+                            "MaxItems": 1
+                        },
+                        {
+                            "ItemId": "(O)DN.SnS_zuzustyleclamchowder",
+                            "MaxItems": 1
+                        }, 
+                        {
+                            "ItemId": "(O)DN.SnS_zuzustylebagelwithlox",
+                            "MaxItems": 1
+                        }
+                    ] 
+                }
+            },
+            "When": {
+                "HasMod": "DN.SnS"
+            } 
+        },
+        {
+            "LogName": "Ari's Market Daily Special - VMV",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_VMVItems": {
+                    "Items": [
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_FireBeansStarter",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
+                            }
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_BasilSeeds",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 680
+                            }
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_LambLettuceSeeds",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 600
+                            }
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_Butter",
+                            "MinStack": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 210
+                            }
+                        }
+                    ]
+                }
+            },
+            "When": {
+                "HasMod": "Lumisteria.MtVapius"
+            }
+        },
+        {
+            "LogName": "String Pool Test",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/StringPools",
+            "Entries": {
+                "BetaTesters": {
+                    "Messages": {
+                        "skellady.SBVCP_Beta1": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta1}}"
+                        },
+                        "skellady.SBVCP_Beta2": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta2}}"
+                        },
+                        "skellady.SBVCP_Beta3": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta3}}"
+                        },
+                        "skellady.SBVCP_Beta4": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta4}}"
+                        },
+                        "skellady.SBVCP_Beta5": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta5}}"
+                        },
+                        "skellady.SBVCP_Beta6": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta6}}"
+                        },
+                        "skellady.SBVCP_Beta7": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta7}}"
+                        },
+                        "skellady.SBVCP_Beta8": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta8}}"
+                        },
+                        "skellady.SBVCP_Beta9": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta9}}"
+                        },
+                        "skellady.SBVCP_Beta10": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta10}}"
+                        },
+                        "skellady.SBVCP_Beta11": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta11}}"
+                        },
+                        "skellady.SBVCP_Beta12": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta12}}"
+                        },
+                        "skellady.SBVCP_Beta13": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta13}}"
+                        },
+                        "skellady.SBVCP_Beta14": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta14}}"
+                        },
+                        "skellady.SBVCP_Beta15": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta15}}"
+                        },
+                        "skellady.SBVCP_Beta16": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta16}}"
+                        },
+                        "skellady.SBVCP_Beta17": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta17}}"
+                        },
+                        "skellady.SBVCP_Beta18": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta18}}"
+                        },
+                        "skellady.SBVCP_Beta19": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta19}}"
+                        },
+                        "skellady.SBVCP_Beta20": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta20}}"
+                        },
+                        "skellady.SBVCP_Beta21": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta21}}"
+                        },
+                        "skellady.SBVCP_Beta22": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta22}}"
+                        },
+                        "skellady.SBVCP_Beta23": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta23}}"
+                        },
+                        "skellady.SBVCP_Beta24": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta24}}"
+                        },
+                        "skellady.SBVCP_Beta25": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta25}}"
+                        },
+                        "skellady.SBVCP_Beta26": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta26}}"
+                        },
+                        "skellady.SBVCP_Beta27": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta27}}"
+                        },
+                        "skellady.SBVCP_Beta28": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta28}}"
+                        },
+                        "skellady.SBVCP_Beta29": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta29}}"
+                        },
+                        "skellady.SBVCP_Beta30": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta30}}"
+                        },
+                        "skellady.SBVCP_Beta31": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta31}}"
+                        },
+                        "skellady.SBVCP_Beta32": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta32}}"
+                        },
+                        "skellady.SBVCP_Beta33": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta33}}"
+                        },
+                        "skellady.SBVCP_Beta34": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta34}}"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "String Pool Beta Bookshelf",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryLibrary",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_StringPool BetaTesters",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
+                    }
+                }
+            ]
+        }
+    ]
+}

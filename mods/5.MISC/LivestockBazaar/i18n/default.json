@@ -1,0 +1,27 @@
+{
+  "$schema": "https://smapi.io/schemas/i18n.json",
+  // Shop Messages
+  "shop.time-range": "Open from {{openTime}} to {{closeTime}}",
+  "shop.time-start": "Opened {{openTime}}",
+  "shop.time-end": "Closed {{closeTime}}",
+  // Config
+  "config.VanillaMarnieStock.name": "Vanilla Marnie Menu",
+  "config.VanillaMarnieStock.tooltip": "Do not override Marnie's vanilla stock or shop menu.",
+  "config.SortMode.name": "Livestock Sort Mode",
+  "config.SortMode.tooltip": "Current sort mode of the livestock portion of shop, can also be changed from the custom animal shop menu directly.",
+  "config.SortIsAsc.name": "Livestock Sort Is Ascending",
+  "config.SortIsAsc.tooltip": "Current sort direction of the livestock portion of shop, can also be changed from the custom animal shop menu directly.",
+  // GUI
+  "GUI.PurchaseButton": "Purchase",
+  "GUI.SortAsc": "{{mode}} (ASC)",
+  "GUI.SortDesc": "{{mode}} (DESC)",
+  "GUI.SortMode.Name": "Name",
+  "GUI.SortMode.Price": "Price",
+  "GUI.SortMode.House": "House",
+  "GUI.SortMode.CanBuy": "Can Buy",
+  // Animal Manage Menu
+  "GUI.LivestockBazaar.Title": "Livestock Bazaar",
+  "GUI.AnimalManage.Title": "Manage Farm Animals",
+  "GUI.CombineTitle": "{{lbTitle}}: {{amTitle}}",
+  "GUI.AnimalManage.Cannot": "Another player is currently managing farm animals!"
+}

@@ -1,0 +1,159 @@
+﻿{
+    "Changes": [
+
+        //MARRIAGE
+        {
+            "LogName": "Sterling - Marriage Fix",
+            "Action": "EditData",
+            "Target": "strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5377": "{{i18n:Utility.cs.5377}}",
+				"Utility.cs.5371": "{{i18n:Utility.cs.5371}}",
+				"Utility.cs.5367": "{{i18n:Utility.cs.5367}}",
+				"Utility.cs.5369": "{{i18n:Utility.cs.5369}}",
+
+            },
+            "When": {
+                "Relationship:Sterling": "Engaged, Married"
+            }
+        },
+
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sterling",
+            "Entries": {
+       "Event.cs.1801": "{{i18n:Event.cs.1801}}",
+		"NPC.cs.4001": "{{i18n:NPC.cs.4001}}",
+		"NPC.cs.4440": "{{i18n:NPC.cs.4440}}",
+		"NPC.cs.4441": "{{i18n:NPC.cs.4441}}",
+
+ 
+                
+            }
+        },
+   
+	
+/*	//FLOWER DANCE
+		{
+			"LogName": "Flower Dance Just Met",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...Hửm?#$r -1 0 danceAsk#(Hãy yêu cầu Sterling làm bạn nhảy của bạn)#$r -1 0 null#Đừng bận tâm...",
+				"Event.cs.1738": "$q -1 null#...Hửm?#$r -1 0 danceAsk#(Hãy yêu cầu Sterling làm bạn nhảy của bạn)#$r -1 0 null#Đừng bận tâm...",
+				"Event.cs.1635": "...No.",
+			},
+			"When": {
+				"Hearts:Sterling": "0, 1, 2"
+			}
+		},
+		{
+			"LogName": "CFD Flower Dance Friendliest",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...Có chuyện gì thế, @?#$r -1 0 danceAsk#(Hãy yêu cầu Sterling làm bạn nhảy của bạn)#$r -1 0 null#Đừng bận tâm...",
+				"Event.cs.1738": "$q -1 null#...Có chuyện gì thế, @?#$r -1 0 danceAsk#(Hãy yêu cầu Sterling làm bạn nhảy của bạn)#$r -1 0 null#Đừng bận tâm...",
+				"Event.cs.1632": "Được thôi, nhưng chỉ vì đó là em thôi.$6",
+				"Event.cs.1633": "Được thôi, nhưng chỉ vì đó là em thôi.$6",
+				"Event.cs.1634": "Được thôi, nhưng chỉ vì đó là em thôi.$6",
+				"Event.cs.1635": "Xin lỗi, @. Anh đã nói là anh sẽ nhảy với người khác rồi.",
+			},
+			"When": {
+				"Hearts:Sterling": "3, 4, 5, 6, 7, 8"
+			}
+		},
+		{
+			"LogName": "CFD Flower Dance Romantic",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...Ừm, ừm?#$r -1 0 danceAsk#(Hãy yêu cầu Sterling làm bạn nhảy của bạn)#$r -1 0 null#Đừng bận tâm...",
+				"Event.cs.1738": "$q -1 null#...Ừm, ừm?#$r -1 0 danceAsk#(Hãy yêu cầu Sterling làm bạn nhảy của bạn)#$r -1 0 null#Đừng bận tâm...",
+				"Event.cs.1632": "Nhảy à? Hoo-boy. Được rồi, cho anh một phút để xem anh có còn nhớ cách làm không...$6",
+				"Event.cs.1633": "Nhảy à? Hoo-boy. Được rồi, cho anh một phút để xem anh có còn nhớ cách làm không...$6",
+				"Event.cs.1634": "Nhảy à? Hoo-boy. Được rồi, cho anh một phút để xem anh có còn nhớ cách làm không...$6",
+				"Event.cs.1635": "Nhảy à? Hoo-boy. Được rồi, cho anh một phút để xem anh có còn nhớ cách làm không...$6",
+			},
+			"When": {
+				"Relationship:Sterling": "Dating, Engaged, Married",
+			},
+		},
+
+//EXTRA DIALOGUE
+		{
+			"LogName": "CFD Extra Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"ExtraDialogue_NewChild_SecondChild1": "Hãy nhìn vào gia đình chúng ta... Chúng ta đã đi một chặng đường dài, phải không?$6",
+				"ExtraDialogue_NewChild_SecondChild2": "Ba đứa trẻ tuyệt vời... Chúng ta đã đi một chặng đường dài, phải không?$6",
+				"ExtraDialogue_NewChild_Adoption": "Vậy, em đã sẵn sàng để trở thành cha mẹ tuyệt vời nhất mà %kid1 có thể có chưa?$6#$b#Đó là một nhiệm vụ khá khó khăn, nhưng anh nghĩ chúng ta sẽ làm được.$h",
+				"ExtraDialogue_NewChild_FirstChild": "Vậy, em đã sẵn sàng để trở thành cha mẹ tuyệt vời nhất mà %kid1 có thể có chưa?$6#$b#Đó là một nhiệm vụ khá khó khăn, nhưng anh nghĩ chúng ta sẽ làm được.$h",
+				"ExtraDialogue_Spouse_KitchenBlocked": "Em có một đống đồ chặn ngang bếp... Anh không biết em muốn để tất cả những thứ đó ở đâu, em có thể dọn dẹp chúng được không?",
+				"ExtraDialogue_Spouse_MonstersInHouse": "Ừm... đào? Lũ quái vật này làm gì ở đây thế?",
+				"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerMale": "Em đi lâu quá nên tôi bắt đầu lo cho em! Có chuyện gì xảy ra ở dưới đó vậy? Em có đi được không?$10",
+				"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerFemale": "Em đi lâu quá nên tôi bắt đầu lo cho em! Có chuyện gì xảy ra ở dưới đó vậy? Em có đi được không?$10",
+				},
+			},*/
+		{
+			"LogName": "CFD Dumpster Dive Strangers",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:Sterling.ExtraDialogue_Town_DumpsterDiveComment_Adult.2}}",
+
+			},
+			"When": {
+				"Hearts:Sterling": "{{Range: 0, 1,}}",
+			},
+		},
+		{
+			"LogName": "CFD Dumpster Dive Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:Sterling.ExtraDialogue_Town_DumpsterDiveComment_Adult.1}}",
+
+			},
+			"When": {
+				"Hearts:Sterling": "{{Range: 2, 3, 4, 5, 6, 7, 8}}",
+			},
+		},
+		{
+			"LogName": "CFD Dumpster Dive Dating",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+					"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:Sterling.ExtraDialogue_Town_DumpsterDiveComment_Adult}}",
+
+			},
+			"When": {
+				"Relationship:Sterling": "Dating, Engaged, Married",
+			},
+		},
+//Movie Invite
+		{
+			"LogName": "Movie Invitation Reactions Married",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+				"Characters_MovieInvite_Spouse_Sterling": "{{i18n:Characters_MovieInvite_Spouse_Sterling}}",
+
+			},
+		}, 
+//Summit Event
+
+		{
+			"LogName": "Summit Event Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_Sterling": "Khi chúng ta gặp nhau, anh đã cho em thấy tất cả những phần tệ hại nhất của anh...$3#$b#Và dù sao thì em vẫn chọn ở lại bên anh.\"/pause 500/speak Sterling \"{{i18n:SummitEvent_Dialogue3_Sterling.0}}\"/pause 1000/speak Sterling \"{{i18n:SummitEvent_Dialogue3_Sterling.1}}\"/pause 100/emote farmer 12/pause 200/speak Sterling \"{{i18n:SummitEvent_Dialogue3_Sterling.2}}\"/pause 1000/emote Sterling 40/pause 1000/speak Sterling \"{{i18n:SummitEvent_Dialogue3_Sterling.3}}\"/faceDirection Sterling 3/speak Sterling \"{{i18n:SummitEvent_Dialogue3_Sterling.4}}\"/pause 1000/speak Sterling \"{{i18n:SummitEvent_Dialogue3_Sterling.5}}\"/pause 500",
+
+
+			},
+		},
+	]
+}

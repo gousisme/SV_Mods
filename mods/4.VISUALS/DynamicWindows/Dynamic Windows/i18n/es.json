@@ -1,0 +1,161 @@
+{
+"config.section.toggles-text": "■ Opciones",
+"config.section.toggles-tooltip": "Sección principal para activar o desactivar opciones del sistema.",
+
+"config.toggles.enablewindow-name": "Habilitar Animaciones",
+"config.toggles.enablewindow-tooltip": "Si está habilitado, las ventanas tendrán una animación de abrir/cerrar al interactuar con ellas.",
+
+"config.toggles.greenhousepanes-name": "Paneles del Invernadero",
+"config.toggles.greenhousepanes-tooltip": "Elige qué paneles del invernadero mostrar.",
+
+"config.toggles.enableweather-name": "Habilitar Clima (Todo)",
+"config.toggles.enableweather-tooltip": "Si está habilitado, se mostrarán todas las partículas del clima. De lo contrario, no se mostrará ninguna. Para dejar de mostrar una partícula específica, configura la densidad en 0 en Opciones Avanzadas.",
+
+"config.toggles.enableGHweather-name": "Habilitar Clima (Invernadero)",
+"config.toggles.enableGHweather-tooltip": "Si está habilitado, aplica efectos climáticos en el Invernadero. Desactiva esto para compatibilidad con otros mods de retexturización de Invernaderos si tienes problemas.",
+
+"config.toggles.enableGHBG-name": "Habilitar Fondo (Invernadero)",
+"config.toggles.enableGHBG-tooltip": "Si está habilitado, muestra el fondo personalizado del Invernadero. Esto no debería ser desactivado si se usa Content Patcher.",
+
+"config.toggles.enablecritter-name": "Habilitar Criaturas",
+"config.toggles.enablecritter-tooltip": "Activa para permitir que criaturas como mariposas entren por las ventanas abiertas.",
+
+"config.toggles.enabledrift-name": "Habilitar Deriva",
+"config.toggles.enabledrift-tooltip": "Activa para permitir que las partículas entren a la deriva por las ventanas.",
+
+"config.toggles.enablelightshaft-name": "Habilitar Rayo de Luz",
+"config.toggles.enablelightshaft-tooltip": "Activa para mostrar el rayo de luz durante un día soleado.",
+
+"config.toggles.enablelightfill-name": "Deshabilitar Relleno de Luz",
+"config.toggles.enablelightfill-tooltip": "Activa para deshabilitar el relleno cuadrado de luz detrás de las ventanas para el efecto de día soleado si no se está mostrando correctamente.",
+
+"config.toggles.disablevanillalight-name": "Deshabilitar la luz estándar",
+"config.toggles.disablevanillalight-tooltip": "Activa para mostrar o quitar la luz de fondo predeterminada.",
+
+"config.toggles.enablethunder-name": "SFX de Trueno",
+"config.toggles.enablethunder-tooltip": "Activa para reproducir el efecto de sonido del trueno cuando cae un rayo.",
+
+"config.toggles.enablelightning-name": "Efecto de Rayo",
+"config.toggles.enablelightning-tooltip": "Activa para que el efecto esté activado o no.",
+
+
+
+"config.section.general-text": "■ Efectos Generales",
+"config.section.general-tooltip": "Controla los efectos generales.",
+
+"config.general.driftchance-name": "Probabilidad de Deriva",
+"config.general.driftchance-tooltip": "Establece la probabilidad porcentual de que las partículas entren a la deriva si están en la ventana inferior.",
+
+"config.general.critterchance-name": "Probabilidad de Criatura",
+"config.general.critterchance-tooltip": "Establece la probabilidad porcentual de que las criaturas aparezcan dentro, 1 = 100%.",
+
+"config.general.lightshaftalpha-name": "Alfa del Rayo de Luz",
+"config.general.lightshaftalpha-tooltip": "Multiplicador del Alfa del Rayo de Luz.",
+
+
+
+"config.section.rain-text": "■ Efecto de Lluvia en la Ventana",
+"config.section.rain-tooltip": "Ajustes para el efecto visual de lluvia en interiores.",
+
+"config.rain.density-name": "Densidad de la Lluvia",
+"config.rain.density-tooltip": "Cuántas gotas de lluvia aparecen en la ventana. Más es más fuerte. *Nota: Una mayor densidad puede afectar el rendimiento.",
+
+"config.rain.speed-name": "Velocidad de la Lluvia",
+"config.rain.speed-tooltip": "Qué tan rápido cae la lluvia. Más alto significa más rápido.",
+
+"config.rain.size-name": "Tamaño de la Gota de Lluvia",
+"config.rain.size-tooltip": "La escala/tamaño de las rachas de gotas de lluvia individuales.",
+
+"config.rain.alpha-name": "Opacidad de la Gota de Lluvia",
+"config.rain.alpha-tooltip": "La transparencia de las gotas de lluvia. 1.0 es completamente visible.",
+
+"config.rain.speedX-name": "Variación de Velocidad",
+"config.rain.speedX-tooltip": "Añade aleatoriedad a la velocidad de las gotas de lluvia para crear un efecto de profundidad. 0 es velocidad uniforme.",
+
+
+
+"config.section.snow-text": "■ Efecto de Nieve en la Ventana",
+"config.section.snow-tooltip": "Ajustes para el efecto visual de nieve en interiores.",
+
+"config.snow.density-name": "Densidad de la Nieve",
+"config.snow.density-tooltip": "Controla cuántos copos de nieve aparecen en la ventana. *Nota: Una mayor densidad puede afectar el rendimiento.",
+
+"config.snow.size-name": "Tamaño del Copo de Nieve",
+"config.snow.size-tooltip": "La escala/tamaño de las partículas de copo de nieve individuales.",
+
+"config.snow.speedX-name": "Variación de Velocidad",
+"config.snow.speedX-tooltip": "Añade aleatoriedad a la velocidad de los copos de nieve para crear un efecto de profundidad. 0 es velocidad uniforme.",
+
+
+
+"config.section.sunny-text": "■ Efecto de Día Soleado",
+"config.section.sunny-tooltip": "Controla las motas de polvo que aparecen en los rayos de sol durante los días soleados.",
+
+"config.sunny.density-name": "Densidad de las Motas",
+"config.sunny.density-tooltip": "Cuántas motas de polvo aparecen en cada ventana. *Nota: Una mayor densidad puede afectar el rendimiento.",
+
+"config.sunny.size-name": "Escala de las Motas",
+"config.sunny.size-tooltip": "El tamaño base de cada mota de polvo.",
+
+"config.sunny.alpha-name": "Opacidad de las Motas",
+"config.sunny.alpha-tooltip": "La transparencia base de las motas de polvo.",
+
+
+
+"config.section.leaf-text": "■ Efecto de Viento/Hojas",
+"config.section.leaf-tooltip": "Ajustes para las hojas que soplan a través de las ventanas en días ventosos.",
+
+"config.leaf.density-name": "Densidad de las Hojas",
+"config.leaf.density-tooltip": "Cuántas hojas aparecen en la pantalla a la vez. *Nota: Una mayor densidad puede afectar el rendimiento.",
+
+"config.leaf.size-name": "Escala de las Hojas",
+"config.leaf.size-tooltip": "El tamaño general de los sprites de las hojas.",
+
+"config.leaf.alpha-name": "Opacidad de las Hojas",
+"config.leaf.alpha-tooltip": "La transparencia de las hojas. 1.0 es completamente visible.",
+
+"config.leaf.speed-name": "Velocidad de las Hojas",
+"config.leaf.speed-tooltip": "Ajusta la velocidad general de las hojas. Más alto es más rápido.",
+
+"config.section.snow.foreground-text": "■ Nieve: Capa de Primer Plano",
+"config.section.snow.foreground-tooltip": "Controla los copos más rápidos y opacos, los más cercanos a ti.",
+
+"config.snow.foreground.speed-name": "Velocidad",
+"config.snow.foreground.alpha-name": "Opacidad",
+"config.snow.foreground.diagonal-name": "Movimiento Diagonal",
+"config.snow.foreground.shake.freq-name": "Frecuencia de Movimiento",
+"config.snow.foreground.shake.amp-name": "Cantidad de Movimiento",
+
+
+
+"config.section.snow.midground-text": "■ Nieve: Capa de Plano Medio",
+"config.section.snow.midground-tooltip": "Controla los copos estándar que conforman la mayor parte del efecto.",
+
+"config.snow.midground.speed-name": "Velocidad",
+"config.snow.midground.alpha-name": "Opacidad",
+"config.snow.midground.diagonal-name": "Movimiento Diagonal",
+"config.snow.midground.shake.freq-name": "Frecuencia de Movimiento",
+"config.snow.midground.shake.amp-name": "Cantidad de Movimiento",
+
+
+
+"config.section.snow.background-text": "■ Nieve: Capa de Segundo Plano",
+"config.section.snow.background-tooltip": "Controla los copos más lentos y transparentes, los más alejados.",
+
+"config.snow.background.speed-name": "Velocidad",
+"config.snow.background.alpha-name": "Opacidad",
+"config.snow.background.diagonal-name": "Movimiento Diagonal",
+"config.snow.background.shake.freq-name": "Frecuencia de Movimiento",
+"config.snow.background.shake.amp-name": "Cantidad de Movimiento",
+
+
+"config.section.debugging-text": "--- [Depuración] ---",
+"config.section.debugging-tooltip": "Controles de Depuración",
+
+"config.debugging.enablelog-name": "Habilitar Depuración",
+"config.debugging.enablelog-tooltip": "Si está activado, aparecerán mensajes detallados de depuración en la consola de SMAPI. Habilitar solo para resolver problemas.",
+
+"config.debugging.logtype-name": "Tipo de Depuración",
+"config.debugging.logtype-tooltip": "Si la depuración está activa, elige el tipo de registro. Normal: Registro lento de alta prioridad. Flood: Registro de alta frecuencia para depuración completa."
+
+}

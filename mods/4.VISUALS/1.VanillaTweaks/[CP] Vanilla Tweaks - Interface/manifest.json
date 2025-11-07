@@ -1,0 +1,49 @@
+{
+	"Name": "Vanilla Tweaks - Interface",
+	"Author": "Tai & Airyn",
+	"Version": "1.2.0",
+	"Description": "A Vanilla Tweaks collection pack! It provide you a few GUI Changes and new visuals for your Skill Icons.",
+	"UniqueID": "Taiyo.VanillaTweaks.UI",
+	"UpdateKeys": ["Nexus:21436"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Dora.VPRUI",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "DaisyNiko.EarthyInterface",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "VinillaBean.LavenderDreams",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "ManaKirel.VMI",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "ManaKirel.VintageInterface2",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "sinisteanaturalaccent",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "Sqbr.StarryBlueUI",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "Maraluna.OvergrownFloweryInterface",
+			"IsRequired": "false"
+		},
+		{
+			"UniqueID": "VWW.CP.WeirdInterface",
+			"IsRequired": "false"
+		},
+	]
+}

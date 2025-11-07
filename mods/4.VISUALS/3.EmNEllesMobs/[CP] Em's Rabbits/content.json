@@ -1,0 +1,28 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Palomino, Rex, English, Alaska, Beveren, Tan, Dutch, Lop, Angora",
+		"Default": "Palomino",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/BabyRabbit”,
+		"FromFile": "assets/{{Type}}BabyRabbit.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/Rabbit",
+		"FromFile": "assets/{{Type}}Rabbit.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/Icon.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 33, "Height": 17 },
+		"ToArea": {"X": 64, "Y": 464,"Width": 33, "Height": 17}
+		},
+	]
+}

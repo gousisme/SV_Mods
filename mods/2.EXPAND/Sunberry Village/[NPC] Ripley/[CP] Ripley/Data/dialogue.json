@@ -1,0 +1,136 @@
+{
+    "Changes": [
+    
+        {
+            "LogName": "Ripley Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/clara.ripley",
+            "Entries": {
+
+                "Introduction": "{{i18n:Ripley.Introduction}}",
+                "cc_Begin": "{{i18n:Ripley.Dialogue.cc_Begin}}",
+                "cc_Complete": "{{i18n:Ripley.Dialogue.cc_Complete}}",
+                "cc_Boulder": "{{i18n:Ripley.Dialogue.cc_Boulder}}",
+                "movieTheater": "{{i18n:Ripley.Dialogue.movieTheater}}",
+                "FlowerDance_Accept": "{{i18n:Ripley.FlowerDance_Accept}}",
+                "FlowerDance_Decline": "{{i18n:Ripley.FlowerDance_Decline}}",
+                "WinterStar_GiveGift_Before": "{{i18n:Ripley.WinterStar_GiveGift_Before}}",
+                "WinterStar_GiveGift_After": "{{i18n:Ripley.WinterStar_GiveGift_After}}",
+                "WinterStar_ReceiveGift": "{{i18n:Ripley.WinterStar_ReceiveGift}}",
+
+                "AcceptBouquet": "{{i18n:Ripley.AcceptBouquet}}",
+                "RejectBouquet_AlreadyAccepted": "{{i18n:Ripley.RejectBouquet_AlreadyAccepted}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:Ripley.RejectBouquet_VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:Ripley.RejectBouquet_LowHearts}}",
+                "breakUp": "{{i18n:Ripley.breakUp}}",
+                "RejectItem_(O)460": "{{i18n:Ripley.RejectMermaidPendant}}",
+                "RejectMermaidPendant": "{{i18n:Ripley.RejectMermaidPendant}}",
+                "GreenRain": "{{i18n:Ripley.GreenRain1}}",
+                "GreenRain_2": "{{i18n:Ripley.GreenRain2}}",
+
+                //GIFTS
+                "AcceptBirthdayGift": "{{i18n:Ripley.BirthdayGift}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:Ripley.BirthdayGift_Negative}}",
+                "AcceptGift_(O)205": "{{i18n:Ripley.FriedMushroom}}",
+                "AcceptGift_(O)222": "{{i18n:Ripley.RhubarbPie}}",
+                "AcceptGift_(O)281": "{{i18n:Ripley.Chanterelle}}",
+                "AcceptGift_(O)257": "{{i18n:Ripley.Morel}}",
+                "AcceptGift_(O)422": "{{i18n:Ripley.PurpleMushroom}}",
+                "AcceptGift_(O)259": "{{i18n:Ripley.Fiddlehead}}",
+                "AcceptGift_(O)404": "{{i18n:Ripley.CommonMushroom}}",
+                "AcceptGift_(O)408": "{{i18n:Ripley.Hazelnut}}",
+                "AcceptGift_(O)410": "{{i18n:Ripley.Blackberry}}",
+                "AcceptGift_(O)420": "{{i18n:Ripley.RedMushroom}}",
+                "AcceptGift_(O)724": "{{i18n:Ripley.MapleSyrup}}",
+                "AcceptGift_(O)721": "{{i18n:Ripley.Snail}}",
+
+                //GIFTS - OTHER MODS
+                "AcceptGift_(O)Wildflour.AtelierGoods_Chicken_Woods": "{{i18n:Ripley.ChickenOfTheWoods}}",
+                "AcceptGift_(O)Wildflour.AtelierGoods_Honey_Fungus": "{{i18n:Ripley.HoneyFungus}}",
+                "AcceptGift_(O)Wildflour.AtelierGoods_Meringue_Mushroom": "{{i18n:Ripley.MeringueMushroom}}",
+                "AcceptGift_(O)Wildflour.AtelierGoods_Milk_Mushroom": "{{i18n:Ripley.MilkyWhiteMushroom}}",
+                "AcceptGift_(O)Wildflour.AtelierGoods_Wheatberry_Mushroom": "{{i18n:Ripley.WheatberryMushroom}}",
+
+                "AcceptGift_(O)Wildflour.SASS_Queen_Bolete": "{{i18n:Ripley.QueenBolete}}",
+                "AcceptGift_(O)Wildflour.SASS_Baby_Bluegill": "{{i18n:Ripley.BabyBluegill}}",
+                "AcceptGift_(O)Wildflour.SASS_Blushing_TopHat": "{{i18n:Ripley.BlushingTopHat}}",
+                "AcceptGift_(O)Wildflour.SASS_Bubblegum_Funnel": "{{i18n:Ripley.BubblegumFunnel}}",
+                "AcceptGift_(O)Wildflour.SASS_Candy_Button": "{{i18n:Ripley.CandyButton}}",
+                "AcceptGift_(O)Wildflour.SASS_Coral_Fungus": "{{i18n:Ripley.CoralFungus}}",
+                "AcceptGift_(O)Wildflour.SASS_Frilly_Gilly": "{{i18n:Ripley.FrillyGilly}}",
+                "AcceptGift_(O)Wildflour.SASS_Ghostly_Parasol": "{{i18n:Ripley.GhostlyParasol}}",
+                "AcceptGift_(O)Wildflour.SASS_Indigo_Cap": "{{i18n:Ripley.IndigoCap}}",
+                "AcceptGift_(O)Wildflour.SASS_Lilac_Funnel": "{{i18n:Ripley.LilacFunnel}}",
+                "AcceptGift_(O)Wildflour.SASS_Limey_Bonnet": "{{i18n:Ripley.LimeyBonnet}}",
+                "AcceptGift_(O)Wildflour.SASS_Lunar_Poof": "{{i18n:Ripley.LunarPoof}}",
+                "AcceptGift_(O)Wildflour.SASS_Midas_Cap": "{{i18n:Ripley.MidasCap}}",
+                "AcceptGift_(O)Wildflour.SASS_Midnight_Milkcap": "{{i18n:Ripley.MidnightMilkcap}}",
+                "AcceptGift_(O)Wildflour.SASS_Mottled_Fieldcap": "{{i18n:Ripley.MottledFieldcap}}",
+                "AcceptGift_(O)Wildflour.SASS_Rosey_Elfcup": "{{i18n:Ripley.RoseyElfcup}}",
+                "AcceptGift_(O)Wildflour.SASS_Rustgill": "{{i18n:Ripley.Rustgill}}",
+                "AcceptGift_(O)Wildflour.SASS_Seafoam_Waxcap": "{{i18n:Ripley.SeafoamWaxcap}}",
+                "AcceptGift_(O)Wildflour.SASS_Shrumbus": "{{i18n:Ripley.Shrumbus}}",
+                "AcceptGift_(O)Wildflour.SASS_Sparkling_Agaric": "{{i18n:Ripley.SparklingAgaric}}",
+                "AcceptGift_(O)Wildflour.SASS_Stout_Funnel": "{{i18n:Ripley.StoutFunnel}}",
+
+
+                // SPECIFIC DAY DIALOGUE
+                "spring_12": "{{i18n:Ripley.Dialogue.spring_12}}",
+                "spring_16": "{{i18n:Ripley.Dialogue.spring_16}}",
+                "spring_17": "{{i18n:Ripley.Dialogue.spring_17}}",
+                "spring_23": "{{i18n:Ripley.Dialogue.spring_23}}",
+                "summer_10": "{{i18n:Ripley.Dialogue.summer_10}}",
+                "summer_27": "{{i18n:Ripley.Dialogue.summer_27}}",
+                "fall_15": "{{i18n:Ripley.Dialogue.fall_15}}",
+                "fall_26": "{{i18n:Ripley.Dialogue.fall_26}}",
+                "winter_7": "{{i18n:Ripley.Dialogue.winter_7}}",
+                "winter_24": "{{i18n:Ripley.Dialogue.winter_24}}",
+
+				// Daily Dialogue
+                "Mon": "{{DialogueToken}}",
+                "Tue": "{{DialogueToken}}",
+                "Wed": "{{DialogueToken}}",
+                "Thu": "{{DialogueToken}}",
+                "Fri": "{{DialogueToken}}",
+                "Sat": "{{DialogueToken}}",
+                "Sun": "{{DialogueToken}}",
+                
+                
+                //Resort
+                
+                "Resort_Entering": "{{i18n:Ripley.Dialogue.Resort_Entering}}",
+                "Resort_Leaving": "{{i18n:Ripley.Dialogue.Resort_Leaving}}",
+                "Resort_Shore": "{{i18n:Ripley.Dialogue.Resort_Shore}}",
+                "Resort_Chair": "{{i18n:Ripley.Dialogue.Resort_Chair}}",
+                "Resort_Bar": "{{i18n:Ripley.Dialogue.Resort_Bar}}",
+                "Resort": "{{i18n:Ripley.Dialogue.Resort}}",
+
+                //Conversation Topics
+
+                //Ripley Events
+                "RipleyMonsters": "{{i18n:RipleyMonsters}}",
+                "RipleyFolkHero": "{{i18n:RipleyFolkHero}}",
+                "RipleyLostCow": "{{i18n:RipleyLostCow}}",
+                "RipleyLTR": "{{i18n:Ripley.Dialogue.RipleyLTR}}",
+
+                //ARV
+                "SterlingTrash": "{{i18n:Ripley.Dialogue.SterlingTrash}}",
+                "SterlingDrugs": "{{i18n:Ripley.Dialogue.SterlingDrugs}}",
+                "SterlingRelapse": "{{i18n:Ripley.Dialogue.SterlingRelapse}}",
+                "SterlingApology": "{{i18n:Ripley.Dialogue.SterlingApology}}",
+                "SterlingSobriety": "{{i18n:Ripley.Dialogue.SterlingSobriety}}",
+                "SterlingSwim": "{{i18n:Ripley.Dialogue.SterlingSwim}}",
+                "SterlingTrain": "{{i18n:Ripley.Dialogue.SterlingTrain}}",
+
+                //WREN THE PLUMBER
+                "WrenFliesIn": "{{i18n:Ripley.Dialogue.WrenFliesIn}}",
+                "ShoujoIsForGirls": "{{i18n:Ripley.Dialogue.ShoujoIsForGirls}}",
+
+                //SBV
+                "MeetDND": "{{i18n:Ripley.Dialogue.MeetDND}}"
+
+            }
+        }
+            
+    ]
+}

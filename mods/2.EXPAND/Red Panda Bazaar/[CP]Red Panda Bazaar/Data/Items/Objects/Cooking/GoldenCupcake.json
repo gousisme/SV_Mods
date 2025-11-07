@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Golden Cupcake": "336 10 246 1 -5 1/9999 9999/RedPandaBazaar_Golden_Cupcake/null/{{i18n:RedPandaBazaar.Object.Golden.Cupcake.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Golden_Cupcake": {
+          "Name": "Golden Cupcake",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Golden.Cupcake.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Golden.Cupcake.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 1000,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 30,
+          "Edibility": 120,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Love"
+          ],
+          "Value": "RedPandaBazaar_Golden_Cupcake",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

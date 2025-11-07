@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="2" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="52">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="DayTiles" value="Buildings 22 6 1624 Buildings 22 5 1568 Buildings 22 4 1512 Buildings 23 6 1625 Buildings 23 5 1569 Buildings 23 4 1513 Buildings 24 6 1626 Buildings 24 5 1570 Buildings 24 4 1514 Buildings 4 6 1624 Buildings 4 5 1568 Buildings 4 4 1512 Buildings 5 6 1625 Buildings 5 5 1569 Buildings 5 4 1513 Buildings 6 6 1626 Buildings 6 5 1570 Buildings 6 4 1514 Back+2 11 7 279 Back+2 16 7 281 Buildings 11 6 267 Buildings 11 5 255 Buildings 12 6 268 Buildings 12 5 256 Buildings 12 4 244 Buildings 13 6 268 Buildings 13 5 256 Buildings 13 4 244 Buildings 14 6 268 Buildings 14 5 256 Buildings 14 4 244 Buildings 15 6 268 Buildings 15 5 256 Buildings 15 4 244 Buildings 16 6 269 Buildings 16 5 257 Front+1 16 4 245 Front+1 11 4 243"/>
+  <property name="Doors" value="22 14 1 120 22 20 1 120"/>
+  <property name="NightTiles" value="Buildings 22 6 1630 Buildings 22 5 1574 Buildings 22 4 1518 Buildings 23 6 1631 Buildings 23 5 1575 Buildings 23 4 1519 Buildings 24 6 1632 Buildings 24 5 1576 Buildings 24 4 1520 Buildings 4 6 1630 Buildings 4 5 1574 Buildings 4 4 1518 Buildings 5 6 1631 Buildings 5 5 1575 Buildings 5 4 1519 Buildings 6 6 1632 Buildings 6 5 1576 Buildings 6 4 1520 Back+2 11 7 279 Back+2 16 7 281 Buildings 11 6 273 Buildings 11 5 261 Buildings 12 6 274 Buildings 12 5 262 Buildings 12 4 250 Buildings 13 6 274 Buildings 13 5 262 Buildings 13 4 250 Buildings 14 6 274 Buildings 14 5 262 Buildings 14 4 250 Buildings 15 6 274 Buildings 15 5 262 Buildings 15 4 250 Buildings 16 6 275 Buildings 16 5 263 Front+1 16 4 251 Front+1 11 4 249"/>
+  <property name="Warp" value="15 29 Custom_SBV_SunberryVillage 65 48"/>
+ </properties>
+ <tileset firstgid="1" name="z_lanihousetiles" tilewidth="16" tileheight="16" tilecount="576" columns="12">
+  <image source="z_lanihousetiles.png" width="192" height="768"/>
+  <tile id="492">
+   <animation>
+    <frame tileid="492" duration="100"/>
+    <frame tileid="493" duration="100"/>
+    <frame tileid="494" duration="100"/>
+    <frame tileid="495" duration="100"/>
+    <frame tileid="496" duration="100"/>
+    <frame tileid="497" duration="100"/>
+    <frame tileid="498" duration="100"/>
+    <frame tileid="499" duration="100"/>
+    <frame tileid="500" duration="100"/>
+    <frame tileid="501" duration="100"/>
+    <frame tileid="516" duration="100"/>
+    <frame tileid="517" duration="100"/>
+    <frame tileid="518" duration="100"/>
+    <frame tileid="519" duration="100"/>
+    <frame tileid="520" duration="100"/>
+    <frame tileid="521" duration="100"/>
+    <frame tileid="522" duration="100"/>
+    <frame tileid="523" duration="100"/>
+    <frame tileid="525" duration="100"/>
+    <frame tileid="540" duration="100"/>
+    <frame tileid="541" duration="100"/>
+    <frame tileid="542" duration="100"/>
+    <frame tileid="543" duration="100"/>
+    <frame tileid="544" duration="100"/>
+    <frame tileid="545" duration="100"/>
+    <frame tileid="546" duration="100"/>
+    <frame tileid="547" duration="100"/>
+    <frame tileid="548" duration="100"/>
+    <frame tileid="549" duration="100"/>
+    <frame tileid="564" duration="100"/>
+    <frame tileid="565" duration="100"/>
+    <frame tileid="566" duration="100"/>
+    <frame tileid="567" duration="100"/>
+    <frame tileid="568" duration="100"/>
+    <frame tileid="569" duration="100"/>
+    <frame tileid="570" duration="100"/>
+    <frame tileid="571" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="577" name="z_sammytiles" tilewidth="16" tileheight="16" tilecount="20" columns="5">
+  <image source="z_sammytiles.png" width="80" height="64"/>
+  <tile id="11">
+   <animation>
+    <frame tileid="13" duration="1500"/>
+    <frame tileid="11" duration="1500"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="18" duration="1500"/>
+    <frame tileid="16" duration="1500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="2" height="2">
+  <data encoding="csv">
+3,3,
+15,15
+</data>
+ </layer>
+ <layer id="18" name="Back+1" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <layer id="2" name="Back+2" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <layer id="3" name="Buildings" width="2" height="2">
+  <data encoding="csv">
+0,179,
+0,191
+</data>
+ </layer>
+ <layer id="17" name="Buildings+1" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="csv">
+0,179,
+0,191
+</data>
+ </layer>
+ <layer id="4" name="Front" width="2" height="2">
+  <data encoding="csv">
+0,0,
+7,8
+</data>
+ </layer>
+ <layer id="5" name="Front+1" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+577,578,
+582,583
+</data>
+ </layer>
+ <layer id="19" name="Front+2" width="2" height="2">
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <layer id="6" name="AlwaysFront" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <layer id="7" name="Paths" width="2" height="2">
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Back"/>
+ <objectgroup id="9" name="Back+1"/>
+ <objectgroup id="10" name="Buildings"/>
+ <objectgroup id="11" name="Front"/>
+ <objectgroup id="12" name="Front+1"/>
+ <objectgroup id="13" name="AlwaysFront"/>
+ <objectgroup id="14" name="Paths"/>
+</map>

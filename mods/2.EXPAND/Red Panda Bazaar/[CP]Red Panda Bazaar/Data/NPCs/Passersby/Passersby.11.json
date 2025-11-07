@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RedPandaBazaar_Passersby.11": {
+                    "DisplayName": "{{i18n:NPCName:RedPandaBazaar_Passersby}}",
+                    "Language": "default",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Other",
+
+                    "CanSocialize": false,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts":false,
+                    "CanCommentOnPurchasedShopItems":false,
+                    "CanGreetNearbyCharacters":false,
+                    "CanVisitIslandCondition": false,
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "UnknownUntilMet",
+                    "ExcludeFromIntroductionsQuest": false,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "EndSlideShow": "Hidden",
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Custom_BazaarWest.84.19",
+                            "Condition": null,
+                            "Location": "Custom_BazaarWest.84.19",
+                            "Tile": {
+                                "X": 0,
+                                "Y": 4
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_Passersby.11",
+            "FromFile": "assets/Sprites/Passersby/Passersby.11.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_Passersby.11",
+            "FromFile": "assets/Portraits/Blank.png"
+        }
+    ]
+}

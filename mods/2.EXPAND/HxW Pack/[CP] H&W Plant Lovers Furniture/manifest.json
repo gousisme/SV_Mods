@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] H&W Plant Lovers Furniture",
+    "Author": "HimeTarts and wildflourmods",
+    "Version": "1.0.2",
+    "Description": "Tons of cozy, cute plant-focused furniture.",
+    "UniqueID": "HXW.PlantLoversFurni",
+    "UpdateKeys": ["Nexus:27124"], 
+    "Dependencies": [
+        {
+            "UniqueID": "sophie.Calcifer",
+            "IsRequired": true
+        }
+    ], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

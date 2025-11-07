@@ -1,0 +1,70 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.summer11.festivals}}",
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.summer11.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.summer11.2.festivals}}",
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.summer11.2.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.summer11.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_LiQingFeng",
+          "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "RedPandaBazaar_": "{{i18n:LiQingFeng.summer11.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_LiQingFeng",
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.summer11.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_ChenXiaoMing",
+          "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/summer11",
+        "Entries": {
+          "RedPandaBazaar_": "{{i18n:ChenXiaoMing.summer11.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_ChenXiaoMing",
+          "IsOddYear": false
+        }
+      }
+    ]
+}

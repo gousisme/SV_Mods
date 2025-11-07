@@ -1,0 +1,96 @@
+{
+    // Tarot Prompt and Responses
+    "TarotBuffDisplaySource": "Diala's Tarot Reading",
+    "TarotDialaBusy": "Diala is busy.",
+    "TarotDialaAway": "Come back when Diala is here.",
+    "TarotAlreadyReadToday": "You've already had a reading done today. Come back another time.",
+    "TarotPrompt": "Would you like to have a tarot reading done?",
+
+    // Card Names
+
+    "AceOfSwords.name": "The Ace of Swords",
+    "Sun.name": "The Sun",
+    "ThreeOfWands.name": "The Three of Wands",
+    "AceOfCups.name": "The Ace of Cups",
+    "Empress.name": "The Empress",
+    "Moon.name": "The Moon",
+    "Lovers.name": "The Lovers",
+    "TowerReversed.name": "The Tower, Reversed",
+    "AceOfPentacles.name": "The Ace of Pentacles",
+    "ThreeOfSwordsReversed.name": "The Three of Swords, Reversed",
+    "WheelOfFortune.name": "The Wheel of Fortune",
+    "Fool.name": "The Fool",
+    "Temperance.name": "Temperance",
+    "World.name": "The World",
+
+    // Card Descriptions
+
+    "AceOfSwords.desc": "You're compelled by sheer power. Emerge from the clouds to see the truth. (Attack +3)",
+    "Sun.desc": "Warmth, happiness, and success follow you. You're invincible. (Immunity to debuffs)",
+    "ThreeOfWands.desc": "Indicates growth moving forward. Your hard work will pay off. (Mining +3)",
+    "AceOfCups.desc": "A new beginning is here. Open yourself up and be vulnerable. (Magnetism +75)",
+    "Empress.desc": "This is a sign for you to be kind to yourself. Embrace your creativity and quirks. (Speed +1)",
+    "Moon.desc": "You might be experiencing confusion or anxiety. Take it slow today. (Speed -1)",
+    "Lovers.desc": "Pure harmony and love are in your path. Show your truest feelings. (Max Energy +50)",
+    "TowerReversed.desc": "Something looms on the horizon. Don't be afraid. Embrace the change. (Darkness)",
+    "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities. (Foraging +3)",
+    "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back. (Defense +3)",
+    "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control. (Luck +3)",
+    "Fool.desc": "A new adventure begins. Take a step forward. Embrace the change. (Luck +1)",
+    "Temperance.desc": "Everything is balanced, as all things should be. Remain calm and think of your next step. (Balanced HP and Energy)",
+    "World.desc": "The four elements surround you. You feel a sense of belonging. You made it. (All Skills +1)",
+
+    // Elias Song Dialogue
+
+    "SongIntro": "Tonight's song is called...",
+    "poppy.name": "Poppy",
+    "SettlingIn.name": "Settling In",
+    "kindadumbautumn.name": "Grapefruit Sky",
+    "skellady.SBVCP_EliasTheme.name": "Townsville", //FOR TRANSLATORS: NEW 1.0.1
+    "poppy.SongCredits": ", by Eric Barone.", //FOR TRANSLATORS: NEW 1.0.1
+    "SettlingIn.SongCredits": ", by Eric Barone.", //FOR TRANSLATORS: NEW 1.0.1
+    "kindadumbautumn.SongCredits": ", by Eric Barone.", //FOR TRANSLATORS: NEW 1.0.1
+    "skellady.SBVCP_EliasTheme.SongCredits": ", by Kevin MacLeod.", //FOR TRANSLATORS: NEW 1.0.1
+    "SongOutro": "Thanks for listenin', y'all.",
+
+    // Ari's Market Special Dialogue
+    "MarketDailySpecialAriNotAround": "Today's special is {0}. Come back when Ari is around to purchase it.",
+    "MarketDailySpecialAlreadyPurchasedToday": "Sorry, {0}. Today's special is all sold out. Come back by tomorrow and see what I've got then!$9",
+    "MarketDailySpecialOffer1": "Eyeing the daily special offer? It's {0}! You can take it home for only {1}$.$u",
+    "MarketDailySpecialOffer2": "Today's special is {0}. A real steal at only {1}$!$u", // when you interact with the daily special
+    "MarketDailySpecialConfirmPurchase": "Do you want to buy {0} for {1} gold?",
+    "MarketDailySpecialRejectPurchase1": "Oh... okay.$12",
+    "MarketDailySpecialRejectPurchase2": "Damn. No money to spend, huh?$12", // if you choose not to buy it
+    "MarketDailySpecialNotEnoughMoney1": "Sorry, {0}, I can't give credit. Come back when you've got enough, alright?$10",
+    "MarketDailySpecialNotEnoughMoney2": "Nuh uh. Put that back, {0}. You'll need to pay the full amount up front, I'm afraid.$8", // try to buy it but don't have enough
+    "MarketDailySpecialPurchased1": "Enjoy! Make sure to come back tomorrow to check out the new offer.$h",
+    "MarketDailySpecialPurchased2": "Enjoy your purchase! You won't find anything this good at Pierre's!$h", // successfully bought it
+    "MarketDailySpecialQuantityIndicator": "x", // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
+
+    // Phone Confession
+    "PhoneConfession.System.Today": "Today",
+    "PhoneConfession.System.Yesterday": "Yesterday",
+    "PhoneConfession.Message.1": "going to Ari's, do you need anything",
+    "PhoneConfession.Message.2": "ice creammm",
+    "PhoneConfession.Message.3": "lol ok",
+    "PhoneConfession.Message.4": "you have to share this time tho",
+    "PhoneConfession.Message.5": "... no promises",
+    "PhoneConfession.Message.6": "got u some chocolate",
+    "PhoneConfession.Message.7": "ur the best",
+    "PhoneConfession.Message.8": "no u",
+    "PhoneConfession.Message.9": "i think im in love u",
+    "PhoneConfession.Message.10": "witj",
+    "PhoneConfession.Message.11": "WITH",
+    "PhoneConfession.Message.12": "WITH YOU",
+
+    // SocialPage patch for elias
+    "RelationshipStatus.Locked": "(Locked)", // FOR TRANSLATORS: NEW IN 1.0.3
+
+    // Farm Purchase
+    "FarmPurchase_AlreadyPurchased": "You've already purchased Sunberry Farm.", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_Question": "Would you like to purchase Sunberry Farm?", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_Yes": "Yes", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_No": "No", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_SeeEventAgain": "See event again", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_NotEnoughMoney": "You don't currently have enough money to purchase Sunberry Farm. Come back when you have {0}$." // FOR TRANSLATORS: NEW IN 1.0.3 - Don't translate the {0}
+}

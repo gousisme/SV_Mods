@@ -1,0 +1,85 @@
+
+{
+   "Format": "2.3.0",
+   "ConfigSchema": {
+	       // Category configs 
+        "Tilesheets Enabled": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Categories"
+        },
+        "Objects Enabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+    
+    
+    //OBJECTS
+    "Objects":
+    {
+        "Section": "Objects",
+        "AllowValues": "Apricot Juice, Clementine Juice, Entombed Ring, Richard's Glasses, Wild Apple Juice, Yuuma's Lost Ring",
+        "AllowMultiple": true,
+        "AllowBlank": true,
+        "Default": "Apricot Juice, Clementine Juice, Entombed Ring, Richard's Glasses, Wild Apple Juice, Yuuma's Lost Ring"
+    },
+
+    //TILESHEET EDITS
+    "Retexture Crop Maps": {
+            "AllowValues": "true, false",
+            "Default": true,
+			"Description": "Retexture's crops to the Vanilla Tweaks style around the Ridge",
+            "Section": "Tilesheet"
+        },
+    "Retexture Fruit Trees": {
+            "AllowValues": "true, false",
+            "Default": true,
+			"Description": "Retexture's the tree fruit to the Vanilla Tweaks style in Ridgeside Village",
+            "Section": "Tilesheet"
+        },
+    "Festivals Retexture": {
+            "AllowValues": "true, false",
+            "Default": true,
+			"Description": "Retexture's Ridgeside Village festival tilesheets to match the Vanilla Tweaks Style",
+            "Section": "Tilesheet" 
+        },
+    "Garden Retexture": {
+            "AllowValues": "true, false",
+            "Default": true,
+			"Description": "Retexture's the Ridgeside Village Garden to match the Vanilla Tweaks Style",
+            "Section": "Tilesheet" 
+        },
+
+    //Both z_rsvinterior.png and sproomsts.png 
+    "Interior Retexture": {
+            "AllowValues": "true, false",
+            "Default": true,
+			"Description": "Retexture's interior tilesheets to match the Vanilla Tweaks Style",
+            "Section": "Tilesheet" 
+        }
+},
+	
+"Changes": [
+    {
+        "LogName": "Tilesheet",
+        "Action": "Include",
+        "FromFile": "code/Tilesheets.json",
+        "When": 
+        {
+            "Tilesheets Enabled": true
+        }
+    },
+    {
+        "LogName": "Objects enabled code",
+        "Action": "Include",
+        "FromFile": "code/Objects.json",
+        "When": 
+        {
+            "Objects Enabled": true
+        }
+    }
+]
+}

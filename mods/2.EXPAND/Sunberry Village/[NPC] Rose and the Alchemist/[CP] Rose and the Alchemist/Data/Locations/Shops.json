@@ -1,0 +1,292 @@
+{
+    "Changes": [
+    
+        {
+            "LogName":"Add Atelier Shops Rose and Wildflour Base Inventory",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_AlchemistShop": {
+                    "ID": "{{ModId}}_AlchemistShop",
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "AlchemistDefault",
+                            "Portrait": "Portraits/AlchemistShop",
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_AlchemistShop_Default",
+                                    "Dialogue": "{{i18n:SASS_AlchemistShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [ 
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Arctic_Fox_Seeds",
+                            "ItemId": "(O){{ModId}}_Arctic_Fox_Seeds",
+                            "Condition": null,
+                            "Price": 125,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Avalune_Seeds",
+                            "ItemId": "(O){{ModId}}_Avalune_Seeds",
+                            "Condition": null,
+                            "Price": 140,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Daisy_Seeds",
+                            "ItemId": "(O){{ModId}}_Daisy_Seeds",
+                            "Condition": null,
+                            "Price": 125,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Hibiscus_Seeds",
+                            "ItemId": "(O){{ModId}}_Hibiscus_Seeds",
+                            "Condition": null,
+                            "Price": 140,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Lily_Seeds",
+                            "ItemId": "(O){{ModId}}_Lily_Seeds",
+                            "Condition": null,
+                            "Price": 125,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Nasturtium_Seeds",
+                            "ItemId": "(O){{ModId}}_Nasturtium_Seeds",
+                            "Condition": null,
+                            "Price": 140,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Peony_Seeds",
+                            "ItemId": "(O){{ModId}}_Peony_Seeds",
+                            "Condition": null,
+                            "Price": 125,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Pixie_Breath_Seeds",
+                            "ItemId": "(O){{ModId}}_Pixie_Breath_Seeds",
+                            "Condition": null,
+                            "Price": 140,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Snapdragon_Seeds",
+                            "ItemId": "(O){{ModId}}_Snapdragon_Seeds",
+                            "Condition": null,
+                            "Price": 140,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_Yarrow_Seeds",
+                            "ItemId": "(O){{ModId}}_Yarrow_Seeds",
+                            "Condition": null,
+                            "Price": 140,
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Player"
+                        },
+                    ]
+                },
+                "{{ModId}}_RoseShop": {
+                    "ID": "{{ModId}}_RoseShop",
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "RoseDefault",
+                            "Portrait": "Portraits/RoseShop",
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_RoseShop_Default",
+                                     "Dialogue": "{{i18n:SASS_RoseShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [ 
+                        {   
+                            "Id": "{{ModId}}_RoseShop_BlackberryCobbler",
+                            "ItemId": "(O)611",
+                            "MinStack": 3,
+                            "MaxStack": 5,
+                            "Price": 300,
+                            "AvailableStock": 2,
+                            "Condition": null
+                        },
+                        {   
+                            "Id": "{{ModId}}_RoseShop_RhubarbPie",
+                            "ItemId": "(O)222",
+                            "Price": 425,
+                            "AvailableStock": 3,
+                            "Condition": null
+                        },
+                        {   
+                            "Id": "{{ModId}}_RoseShop_BlueberryTart",
+                            "ItemId": "(O)234",
+                            "Price": 200,
+                            "AvailableStock": 3,
+                            "Condition": null
+                        },
+                        {   
+                            "Id": "{{ModId}}_RoseShop_MapleBar",
+                            "ItemId": "(O)731",
+                            "Price": 325,
+                            "AvailableStock": 3,
+                            "Condition": null
+                        }
+                    ]
+                },
+                "{{ModId}}_FamiliarsShop": {
+                    "ID": "{{ModId}}_FamiliarsShop",
+                    "Currency": 0,
+                    "StackSizeVisibility": null,
+                    "OpenSound": null,
+                    "PurchaseSound": null,
+                    "PurchaseRepeatSound": null,
+                    "ApplyProfitMargins": null,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "AlchemistDefault",
+                            "Portrait": "Portraits/AlchemistShop",
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_FamiliarsShop_Default",
+                                    "Dialogue": "{{i18n:SASS_FamiliarsShop.Dialogue}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "VisualTheme": null,
+                    "SalableItemTags": [],
+                    "Items": [],
+                    "CustomFields": null
+                },
+                "{{ModId}}_AlchemistShop_TwilightFestival": {
+                    "ID": "{{ModId}}_AlchemistShop_TwilightFestival",
+                    "Owners": [
+                        {
+                            "Condition": "TIME 1600",
+                            "Portrait": "WildflourSASS",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:SASS_Alchemist_TwilightShop}}"
+                                }
+                            ],
+                            "Name": "WildflourSASS",
+                            "Id": "WildflourSASS"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SASS_Alchemist_TwilightShop_Closed}}"
+                        },
+                            ],
+                    "Items": [ 
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_TwilightFestival_Honeyshire_Sapling",
+                            "ItemId": "(O){{ModId}}_Honeyshire_Sapling",
+                            "Condition": null,
+                            "TradeItemID": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_TwilightFestival_Summerdell_Sapling",
+                            "ItemId": "(O){{ModId}}_Summerdell_Sapling",
+                            "Condition": null,
+                            "TradeItemID": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_TwilightFestival_Noonvale_Sapling",
+                            "ItemId": "(O){{ModId}}_Noonvale_Sapling",
+                            "Condition": null,
+                            "TradeItemID": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_TwilightFestival_Lilygrove_Sapling",
+                            "ItemId": "(O){{ModId}}_Lilygrove_Sapling",
+                            "Condition": null,
+                            "TradeItemID": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_AlchemistShop_TwilightFestival_Mossflower_Sapling",
+                            "ItemId": "(O){{ModId}}_Mossflower_Sapling",
+                            "Condition": null,
+                            "TradeItemID": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 25,
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                    ]
+                }
+            }
+        },
+
+        {
+            "LogName": "Load Shop Portraits",
+            "Action": "Load",
+            "Target": "Portraits/RoseShop, Portraits/AlchemistShop",
+            "FromFile": "Assets/ShopPortraits/{{TargetWithoutPath}}.png"
+        }
+
+    ]
+}

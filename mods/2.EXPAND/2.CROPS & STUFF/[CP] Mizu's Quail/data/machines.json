@@ -1,0 +1,45 @@
+{
+	"Changes": [
+		// add mayonnaise
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)24", "OutputRules" ],
+			"Entries": {
+				"QuailMayonnaise": {
+					"Id": "QuailMayonnaise",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Mizu.Quail_QuailEgg"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Mizu.Quail_QuailMayonnaise"
+							}
+						],
+					"MinutesUntilReady": 180
+				},
+				"QuailMayonnaiseQuailty": {
+					"Id": "QuailMayonnaiseQuailty",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)Mizu.Quail_LargeQuailEgg"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Mizu.Quail_QuailMayonnaise",
+								"Quality": 2
+							}
+						],
+					"MinutesUntilReady": 180
+				}
+			}
+		}
+	]
+}

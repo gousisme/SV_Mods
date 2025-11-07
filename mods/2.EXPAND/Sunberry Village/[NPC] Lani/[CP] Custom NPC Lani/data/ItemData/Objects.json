@@ -1,0 +1,109 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Soju Object",
+            "Action": "Load",
+            "Target": "Mods/atelier99.SBV.NPCLani/Soju",
+            "FromFile": "assets/Items/Soju.png"
+        },
+		{
+            "LogName": "Flavored Soju String",
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+				"{{ModId}}_Soju_Flavored_Name": "{{i18n:Lani.Item.Soju_Flavored}}"
+			}
+        },
+		{
+            "LogName": "Soju Item Additions",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_FreshSoju": {
+                    "Name": "{{ModId}}_FreshSoju",
+                    "DisplayName": "{{i18n:Lani.Item.Soju.Name}}",
+                    "Description": "{{i18n:Lani.Item.Soju.Description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 400,
+                    "Texture": "Mods\\atelier99.SBV.NPCLani\\Soju",
+                    "SpriteIndex": 0,
+                    "ColorOverlayFromNextIndex": false,
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buffs": [
+						{
+							"Id": "Tipsy",
+							"BuffId": "17",
+							"IconTexture": null,
+							"IconSpriteIndex": 0,
+							"Duration": 0,
+							"IsDebuff": false,
+							"GlowColor": null,
+							"CustomAttributes": null,
+							"CustomFields": null
+						}
+					],
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
+					"ArtifactSpotChances": null,
+					"CanBeGivenAsGift": true,
+					"CanBeTrashed": true,
+					"ExcludeFromFishingCollection": false,
+					"ExcludeFromShippingCollection": false,
+					"ExcludeFromRandomSale": false,
+					"ContextTags": [
+					  "alcohol_item",
+					  "soju_item",
+					  "wine_item",
+					  "drink_item",
+					  "color_green",
+					  "use_reverse_name_for_sorting"
+					],
+                },
+				"{{ModId}}_FlavoredSoju": {
+                    "Name": "{{ModId}}_FlavoredSoju",
+                    "DisplayName": "{{i18n:Lani.Item.FlavoredSoju.Name}}",
+                    "Description": "{{i18n:Lani.Item.FlavoredSoju.Description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 400,
+                    "Texture": "Mods\\atelier99.SBV.NPCLani\\Soju",
+                    "SpriteIndex": 0,
+                    "ColorOverlayFromNextIndex": true,
+					"Edibility": 20,
+					"IsDrink": true,
+					"Buffs": [
+						{
+							"Id": "Tipsy",
+							"BuffId": "17",
+							"IconTexture": null,
+							"IconSpriteIndex": 0,
+							"Duration": 0,
+							"IsDebuff": false,
+							"GlowColor": null,
+							"CustomAttributes": null,
+							"CustomFields": null
+						}
+					],
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": null,
+					"ArtifactSpotChances": null,
+					"CanBeGivenAsGift": true,
+					"CanBeTrashed": true,
+					"ExcludeFromFishingCollection": false,
+					"ExcludeFromShippingCollection": false,
+					"ExcludeFromRandomSale": false,
+					"ContextTags": [
+					  "alcohol_item",
+					  "soju_item",
+					  "wine_item",
+					  "drink_item",
+					  "color_green",
+					  "use_reverse_name_for_sorting"
+					]
+                }
+			}
+		}
+	]
+}

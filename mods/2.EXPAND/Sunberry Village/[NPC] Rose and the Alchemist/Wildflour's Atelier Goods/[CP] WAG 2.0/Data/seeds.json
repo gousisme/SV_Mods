@@ -1,0 +1,271 @@
+{
+
+    "Changes": [
+        {
+            "LogName":"Wildflour Garden Variety Seeds Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Wildflour.AtelierGoods_Fruit_Seeds": {
+                    "Name": "Wildflour.AtelierGoods_Fruit_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Fruit_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Fruit_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Wildflour.AtelierGoods\\Objects",
+                    "SpriteIndex": 391,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                },
+                "Wildflour.AtelierGoods_Veggie_Seeds": {
+                    "Name": "Wildflour.AtelierGoods_Veggie_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Veggie_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Veggie_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Wildflour.AtelierGoods\\Objects",
+                    "SpriteIndex": 394,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                },
+                "Wildflour.AtelierGoods_Herb_Seeds": {
+                    "Name": "Wildflour.AtelierGoods_Herb_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Herb_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Herb_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Wildflour.AtelierGoods\\Objects",
+                    "SpriteIndex": 393,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                },
+                "Wildflour.AtelierGoods_Flower_Seeds": {
+                    "Name": "Wildflour.AtelierGoods_Flower_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Flower_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Flower_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Wildflour.AtelierGoods\\Objects",
+                    "SpriteIndex": 392,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                }
+            }
+        },
+
+        {
+            "LogName":"Wildflour Garden Variety Seeds Mixed Seed Data",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/MixedSeeds",
+            "Entries": {
+              "Wildflour.AtelierGoods_Fruit_Seeds": [
+                {
+                    "ItemId": "478",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "433",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer"
+                },
+                {
+                    "ItemId": "745",
+                    "Weight": 2,
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "481",
+                    "Weight": 2,
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "479",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "486",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "493",
+                    "Weight": 2,
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Wild_Raspberry_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Wild_Strawberry_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+              ],
+              "Wildflour.AtelierGoods_Veggie_Seeds": [
+               
+                {
+                    "ItemId": "492",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "477",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "480",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "485",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "299",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "494",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "491",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Red_Onion_Seeds",
+                    "Condition":"SEASON spring fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Chicken_Woods_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Honey_Fungus_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Meringue_Mushroom_Seeds",
+                    "Condition":"SEASON fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Milk_Mushroom_Seeds",
+                    "Condition":"SEASON summer fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Wheatberry_Mushroom_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                }
+              ],
+              "Wildflour.AtelierGoods_Herb_Seeds": [
+                {
+                    "ItemId": "302",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "476",
+                    "Weight": 2,
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Basil_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Cilantro_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Sage_Seeds",
+                    "Condition":"SEASON fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Rosemary_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Thyme_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Mint_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Wormwood_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.SASS_Yarrow_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer",
+                    "HasMod":"Wildflour.SASS"
+                }
+
+              ],
+              "Wildflour.AtelierGoods_Flower_Seeds": [
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Vanilla_Seeds",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Chamomile_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Lavender_Seeds",
+                    "Condition":"SEASON spring summer fall"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Jasmine_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Mallow_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.SASS_Arctic_Fox_Seeds",
+                    "Condition":"SEASON spring summer",
+                    "HasMod":"Wildflour.SASS"
+                },
+                {
+                    "ItemId": "Wildflour.SASS_Avalune_Seeds",
+                    "Condition":"SEASON spring summer",
+                    "HasMod":"Wildflour.SASS"
+                },
+                {
+                    "ItemId": "Lumisteria.MtVapius_PrimroseSeeds",
+                    "HasMod": "Lumisteria.MtVapius",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "Lumisteria.MtVapius_CosmosSeeds",
+                    "HasMod": "Lumisteria.MtVapius",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "Lumisteria.SereneMeadow_HollyhockSeeds",
+                    "HasMod": "Lumisteria.SereneMeadow",
+                    "Condition":"SEASON spring summer fall"
+                },
+                {
+                    "ItemId": "Lumisteria.SereneMeadow_CornflowerSeeds",
+                    "HasMod": "Lumisteria.SereneMeadow",
+                    "Condition":"SEASON summer fall"
+                }
+               
+              ]
+            }
+        },
+
+
+    ]
+}

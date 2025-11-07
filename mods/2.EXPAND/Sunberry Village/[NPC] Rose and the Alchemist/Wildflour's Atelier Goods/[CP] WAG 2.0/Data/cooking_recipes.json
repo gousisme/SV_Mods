@@ -1,0 +1,150 @@
+{
+  "Changes": [
+
+///////////////////////////
+// BASE GAME JAM RECIPES //
+///////////////////////////
+
+    {
+      "LogName": "Jam and Jelly Base Game Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When":{"Atelier.Cauldron/ConfigValue:Jams":true},
+      "Entries": 
+          {
+            "Wildflour.AtelierGoods_Banana_Maple_Jam": "91 3 724 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Banana_Maple_Jam/default/{{i18n: AtelierGoods_Banana_Maple_Jam.name}}",
+            "Wildflour.AtelierGoods_Banana_Split_Jam": "91 1 400 1 638 1 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Banana_Split_Jam/default/{{i18n: AtelierGoods_Banana_Split_Jam.name}}",
+            "Wildflour.AtelierGoods_Blue_Jazz_Jelly": "597 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Blue_Jazz_Jelly/default/{{i18n: AtelierGoods_Blue_Jazz_Jelly.name}}",
+            "Wildflour.AtelierGoods_Cranberry_Chutney": "282 3 635 1 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Cranberry_Chutney/default/{{i18n: AtelierGoods_Cranberry_Chutney.name}}",
+            "Wildflour.AtelierGoods_Crocus_Jelly": "418 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Crocus_Jelly/default/{{i18n: AtelierGoods_Crocus_Jelly.name}}",
+            "Wildflour.AtelierGoods_Dandelion_Jelly": "22 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Dandelion_Jelly/default/{{i18n: AtelierGoods_Dandelion_Jelly.name}}",
+            "Wildflour.AtelierGoods_Honey_Apricot_Preserves": "634 3 340 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Honey_Apricot_Preserves/default/{{i18n: AtelierGoods_Honey_Apricot_Preserves.name}}",
+            "Wildflour.AtelierGoods_Honey_Peach_Preserves": "636 3 340 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Honey_Peach_Preserves/default/{{i18n: AtelierGoods_Honey_Peach_Preserves.name}}",
+            "Wildflour.AtelierGoods_Mango_Chutney": "834 3 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Mango_Chutney/default/{{i18n: AtelierGoods_Mango_Chutney.name}}",
+            "Wildflour.AtelierGoods_Mixed_Berry_Preserves": "258 1 410 1 638 1 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Mixed_Berry_Preserves/default/{{i18n: AtelierGoods_Mixed_Berry_Preserves.name}}",
+            "Wildflour.AtelierGoods_Rose_Petal_Jelly": "595 3 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Rose_Petal_Jelly/default/{{i18n: AtelierGoods_Rose_Petal_Jelly.name}}",
+            "Wildflour.AtelierGoods_Flower_Dance_Jelly": "22 2 591 2 597 2 340 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Flower_Dance_Jelly/default/{{i18n: AtelierGoods_Flower_Dance_Jelly.name}}",
+            "Wildflour.AtelierGoods_Luau_Jam": "258 3 254 2 268 1 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Luau_Jam/default/{{i18n: AtelierGoods_Luau_Jam.name}}",
+            "Wildflour.AtelierGoods_Spirits_Eve_Jam": "276 1 280 2 282 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Spirits_Eve_Jam/default/{{i18n: AtelierGoods_Spirits_Eve_Jam.name}}",
+            "Wildflour.AtelierGoods_Winter_Star_Jelly": "414 3 418 3 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Winter_Star_Jelly/default/{{i18n: AtelierGoods_Winter_Star_Jelly.name}}",
+            "Wildflour.AtelierGoods_Wild_Strawberry_Rhubarb_Jam": "400 2 252 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Wild_Strawberry_Rhubarb_Jam/default/{{i18n: AtelierGoods_Wild_Strawberry_Rhubarb_Jam.name}}",
+            "Wildflour.AtelierGoods_Spangle_Jelly": "593 2 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Spangle_Jelly/default/{{i18n: AtelierGoods_Spangle_Jelly.name}}",
+            "Wildflour.AtelierGoods_Orange_Marmalade": "635 5 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Orange_Marmalade/default/{{i18n: AtelierGoods_Orange_Marmalade.name}}",
+            "Wildflour.AtelierGoods_Tulip_Jelly": "591 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Tulip_Jelly/default/{{i18n: AtelierGoods_Tulip_Jelly.name}}",
+          }
+    },
+
+///////////////////////////////
+// MODDED JAM PICKLE RECIPES //
+///////////////////////////////
+
+    {
+      "LogName": "Jam and Jelly Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When":{"Atelier.Cauldron/ConfigValue:Jams":true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+      "Entries": 
+          {
+            "Wildflour.AtelierGoods_Blackberry_Mint_Jelly": "410 3 Wildflour.AtelierGoods_Mint 1 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Blackberry_Mint_Jelly/default/{{i18n: AtelierGoods_Blackberry_Mint_Jelly.name}}",
+            "Wildflour.AtelierGoods_Blueberry_Lavender_Jelly": "258 2 Wildflour.AtelierGoods_Lavender 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Blueberry_Lavender_Jelly/default/{{i18n: AtelierGoods_Blueberry_Lavender_Jelly.name}}",
+            "Wildflour.AtelierGoods_Chamomile_Jelly": "Wildflour.AtelierGoods_Chamomile 2 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Chamomile_Jelly/default/{{i18n: AtelierGoods_Chamomile_Jelly.name}}",
+            "Wildflour.AtelierGoods_Cherry_Vanilla_Jam": "638 2 Wildflour.AtelierGoods_Vanilla 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Cherry_Vanilla_Jam/default/{{i18n: AtelierGoods_Cherry_Vanilla_Jam.name}}",
+            "Wildflour.AtelierGoods_Cinnamon_Apple_Preserves": "Wildflour.AtelierGoods_Cinnamon 2 613 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Cinnamon_Apple_Preserves/default/{{i18n: AtelierGoods_Cinnamon_Apple_Preserves.name}}",
+            "Wildflour.AtelierGoods_Peach_Blossom_Jelly": "Wildflour.AtelierGoods_Cherry_Blossoms 1 636 3 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Peach_Blossom_Jelly/default/{{i18n: AtelierGoods_Peach_Blossom_Jelly.name}}",
+            "Wildflour.AtelierGoods_Lemon_Marmalade": "Wildflour.AtelierGoods_Lemon 5 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Lemon_Marmalade/default/{{i18n: AtelierGoods_Lemon_Marmalade.name}}",
+            "Wildflour.AtelierGoods_Jasmine_Jelly": "Wildflour.AtelierGoods_Jasmine 2 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Jasmine_Jelly/default/{{i18n: AtelierGoods_Jasmine_Jelly.name}}",
+            "Wildflour.AtelierGoods_Lime_Marmalade": "Wildflour.AtelierGoods_Lime 5 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Lime_Marmalade/default/{{i18n: AtelierGoods_Lime_Marmalade.name}}",
+            "Wildflour.AtelierGoods_Vanilla_Wild_Raspberry_Preserves": "Wildflour.AtelierGoods_Vanilla 1 Wildflour.AtelierGoods_Wild_Raspberry 3 245 1 Wildflour.AtelierGoods_Pectin 1/25 5/Wildflour.AtelierGoods_Vanilla_Wild_Raspberry_Preserves/default/{{i18n: AtelierGoods_Vanilla_Wild_Raspberry_Preserves.name}}",
+          }
+    },
+
+    {
+      "LogName": "Specialty Pickles Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When":{"Atelier.Cauldron/ConfigValue:Pickles":true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+      "Entries": {
+        "Wildflour.AtelierGoods_Bruschetta": "256 2 248 1 Wildflour.AtelierGoods_Basil 1/25 5/Wildflour.AtelierGoods_Bruschetta/default/{{i18n: AtelierGoods_Bruschetta.name}}",
+        "Wildflour.AtelierGoods_Onion_Chutney": "Wildflour.AtelierGoods_Red_Onion 3 245 1 Wildflour.AtelierGoods_Olive_Oil 1/25 5/Wildflour.AtelierGoods_Onion_Chutney/default/{{i18n: AtelierGoods_Onion_Chutney.name}}",
+        "Wildflour.AtelierGoods_Pineapple_Salsa": "832 2 260 2 Wildflour.AtelierGoods_Cilantro 1/25 5/Wildflour.AtelierGoods_Pineapple_Salsa/default/{{i18n: AtelierGoods_Pineapple_Salsa.name}}",
+        "Wildflour.AtelierGoods_Giardiniera": "260 3 190 2 Carrot 1/25 5/Wildflour.AtelierGoods_Giardiniera/default/{{i18n: AtelierGoods_Giardiniera.name}}",
+        "Wildflour.AtelierGoods_Horseradish_Chips": "16 2 188 1 419 1/25 5/Wildflour.AtelierGoods_Horseradish_Chips/default/{{i18n: AtelierGoods_Horseradish_Chips.name}}",
+        "Wildflour.AtelierGoods_Kale_Pesto": "250 2 248 1 Wildflour.AtelierGoods_Olive_Oil 1/25 5/Wildflour.AtelierGoods_Kale_Pesto/default/{{i18n: AtelierGoods_Kale_Pesto.name}}",
+        "Wildflour.AtelierGoods_Marinated_Mushrooms": "404 2 281 2 Wildflour.AtelierGoods_Olive_Oil 1 Wildflour.AtelierGoods_Thyme 1/25 5/Wildflour.AtelierGoods_Marinated_Mushrooms/default/{{i18n: AtelierGoods_Marinated_Mushrooms.name}}",
+        "Wildflour.AtelierGoods_Tomato_Salsa": "256 2 Wildflour.AtelierGoods_Red_Onion 1 Wildflour.AtelierGoods_Cilantro 1 248 1/25 5/Wildflour.AtelierGoods_Tomato_Salsa/default/{{i18n: AtelierGoods_Tomato_Salsa.name}}",
+        "Wildflour.AtelierGoods_Olive_Tapenade": "Wildflour.AtelierGoods_Olive 3 Wildflour.AtelierGoods_Olive_Oil 1 Wildflour.AtelierGoods_Lemon 1/25 5/Wildflour.AtelierGoods_Olive_Tapenade/default/{{i18n: AtelierGoods_Olive_Tapenade.name}}",
+        "Wildflour.AtelierGoods_Peach_Salsa": "636 3 260 2 Wildflour.AtelierGoods_Cilantro 1 248 1/25 5/Wildflour.AtelierGoods_Peach_Salsa/default/{{i18n: AtelierGoods_Peach_Salsa.name}}",
+        "Wildflour.AtelierGoods_Pepper_Relish": "260 2 Wildflour.AtelierGoods_Red_Onion 2 Wildflour.AtelierGoods_Olive_Oil 1/25 5/Wildflour.AtelierGoods_Pepper_Relish/default/{{i18n: AtelierGoods_Pepper_Relish.name}}",
+        "Wildflour.AtelierGoods_Artichoke_Hearts": "274 2 Wildflour.AtelierGoods_Olive_Oil 1 Wildflour.AtelierGoods_Rosemary 1/25 5/Wildflour.AtelierGoods_Artichoke_Hearts/default/{{i18n: AtelierGoods_Artichoke_Hearts.name}}",
+        "Wildflour.AtelierGoods_Pickled_Fish": "-4 2 Wildflour.AtelierGoods_Red_Onion 1 419 1 248 1/25 5/Wildflour.AtelierGoods_Pickled_Fish/default/{{i18n: AtelierGoods_Pickled_Fish.name}}",
+        "Wildflour.AtelierGoods_Pickled_Olives": "Wildflour.AtelierGoods_Olive 2 419 1/25 5/Wildflour.AtelierGoods_Pickled_Olives/default/{{i18n: AtelierGoods_Pickled_Olives.name}}",
+        "Wildflour.AtelierGoods_Pickled_Onions": "Wildflour.AtelierGoods_Red_Onion 2 419 1 245 1/25 5/Wildflour.AtelierGoods_Pickled_Onions/default/{{i18n: AtelierGoods_Pickled_Onions.name}}",
+        "Wildflour.AtelierGoods_Pickled_Carrots": "Carrot 3 419 1 245 1 Wildflour.AtelierGoods_Thyme 1/25 5/Wildflour.AtelierGoods_Pickled_Carrots/default/{{i18n: AtelierGoods_Pickled_Carrots.name}}",
+        "Wildflour.AtelierGoods_Roasted_Peppers": "260 2 382 1 Wildflour.AtelierGoods_Olive_Oil 1/25 5/Wildflour.AtelierGoods_Roasted_Peppers/default/{{i18n: AtelierGoods_Roasted_Peppers.name}}",
+        "Wildflour.AtelierGoods_Sauerkraut": "266 2 419 1 Wildflour.AtelierGoods_Rosemary 1/25 5/Wildflour.AtelierGoods_Sauerkraut/default/{{i18n: AtelierGoods_Sauerkraut.name}}",
+        "Wildflour.AtelierGoods_Mango_Salsa": "834 2 260 2 Wildflour.AtelierGoods_Cilantro 1 Wildflour.AtelierGoods_Red_Onion 1/25 5/Wildflour.AtelierGoods_Mango_Salsa/default/{{i18n: AtelierGoods_Mango_Salsa.name}}",
+        "Wildflour.AtelierGoods_Spicy_Tomato_Salsa": "256 3 260 2 Wildflour.AtelierGoods_Cilantro 1 248 1/25 5/Wildflour.AtelierGoods_Spicy_Tomato_Salsa/default/{{i18n: AtelierGoods_Spicy_Tomato_Salsa.name}}",
+        "Wildflour.AtelierGoods_Sundried_Tomatoes": "256 5 Wildflour.AtelierGoods_Olive_Oil 1 Wildflour.AtelierGoods_Basil 1 768 1/25 5/Wildflour.AtelierGoods_Sundried_Tomatoes/default/{{i18n: AtelierGoods_Sundried_Tomatoes.name}}",
+        "Wildflour.AtelierGoods_Basil_Pesto": "Wildflour.AtelierGoods_Basil 3 Wildflour.AtelierGoods_Lemon 1 Wildflour.AtelierGoods_Olive_Oil 1 Wildflour.AtelierGoods_Almond 1/25 5/Wildflour.AtelierGoods_Basil_Pesto/default/{{i18n: AtelierGoods_Basil_Pesto.name}}",
+        "Wildflour.AtelierGoods_Tomato_Corn_Salsa": "256 3 270 2 248 1 Wildflour.AtelierGoods_Cilantro 1/25 5/Wildflour.AtelierGoods_Tomato_Corn_Salsa/default/{{i18n: AtelierGoods_Tomato_Corn_Salsa.name}}"
+      }
+    },
+
+///////////////////
+// BAKER RECIPES //
+///////////////////
+
+{
+
+  "LogName": "Add Cake Mix Recipe",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Cakes}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:TinyCakes}} = 'true')": true},
+  "Entries": {
+    "Wildflour.AtelierGoods_Cake_Mix": "Wildflour.AtelierGoods_Cake_Flour 1 245 1 Wildflour.AtelierGoods_Butter 1 -5 1 -6 1/25 5/Wildflour.AtelierGoods_Cake_Mix 5/default/{{i18n:AtelierGoods_Cake_Mix.name}}"
+  }
+},
+
+{
+  "LogName": "Add Muffin Mix Recipe ",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "When": { "Atelier.Cauldron/ConfigValue:Muffins": true},
+  "Entries": {
+    "Wildflour.AtelierGoods_Muffin_Mix": "246 1 247 1 Wildflour.AtelierGoods_Brown_Sugar 1 -5 1/25 5/Wildflour.AtelierGoods_Muffin_Mix 5/default/{{i18n:AtelierGoods_muffin_Mix.name}}"
+  }
+},
+
+{
+  "LogName": "Add Bread Mix Recipe",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
+  "Entries": {
+      "Wildflour.AtelierGoods_Bread_Mix": "Wildflour.AtelierGoods_Bread_Flour 1 245 1 247 1 -5 1/25 5/Wildflour.AtelierGoods_Bread_Mix 5/default/{{i18n:AtelierGoods_bread_Mix.name}}"
+  }
+},
+
+{
+  "LogName": "Add Cookie Mix Recipe",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "When": { "Atelier.Cauldron/ConfigValue:Cookies": true},
+  "Entries": {
+    "Wildflour.AtelierGoods_Cookie_Mix": "246 1 245 1 Wildflour.AtelierGoods_Brown_Sugar 1 Wildflour.AtelierGoods_Butter 1 -5 1/25 5/Wildflour.AtelierGoods_Cookie_Mix 5/default/{{i18n:AtelierGoods_cookie_Mix.name}}"
+  }
+},
+
+{
+  "LogName": "Add Pie Mix Recipe",
+  "Action": "EditData",
+  "Target": "Data/CookingRecipes",
+  "When": { "Atelier.Cauldron/ConfigValue:Pies": true},
+  "Entries": {
+      "Wildflour.AtelierGoods_Pie_Mix": "Wildflour.AtelierGoods_Pastry_Flour 1 245 1 Wildflour.AtelierGoods_Butter 1 -5 1/25 5/Wildflour.AtelierGoods_Pie_Mix 5/default/{{i18n:AtelierGoods_pie_Mix.name}}"
+    }
+}
+
+
+  ]
+}

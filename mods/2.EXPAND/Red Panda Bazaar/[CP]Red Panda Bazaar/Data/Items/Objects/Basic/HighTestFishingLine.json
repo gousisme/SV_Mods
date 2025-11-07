@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_High_Test_Fishing_Line": {
+          "Name": "Pocket Money",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.High.Test.Fishing.Line.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.High.Test.Fishing.Line.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1000,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 44
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Willy",
+            1
+          ],
+          "Value": "RedPandaBazaar_High_Test_Fishing_Line",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

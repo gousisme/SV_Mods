@@ -1,0 +1,77 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Broken CD",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Trash/BrokenCD.png",
+			"ToArea": { "X": 48, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TrashSpritesEnabled": "True",
+				"Trash |contains= Broken CD": true
+			}
+		},
+        {
+			"LogName": "Broken Glasses",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Trash/BrokenGlasses.png",
+			"ToArea": { "X": 32, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TrashSpritesEnabled": "True",
+				"Trash |contains= Broken Glasses": true
+			}
+		},
+        {
+			"LogName": "Driftwood",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Trash/Driftwood.png",
+			"ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TrashSpritesEnabled": "True",
+				"Trash |contains= Driftwood": true
+			}
+		},
+        {
+			"LogName": "Joja Cola",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Trash/JojaCola.png",
+			"ToArea": { "X": 368, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TrashSpritesEnabled": "True",
+				"Trash |contains= Joja Cola": true
+			}
+		},
+        {
+			"LogName": "Soggy Newspaper",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Trash/SoggyNewspaper.png",
+			"ToArea": { "X": 64, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TrashSpritesEnabled": "True",
+				"Trash |contains= Soggy Newspaper": true
+			}
+		},
+        {
+			"LogName": "Trash",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Trash/Trash.png",
+			"ToArea": { "X": 0, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TrashSpritesEnabled": "True",
+				"Trash |contains= Trash": true
+			}
+		}
+    ]
+}

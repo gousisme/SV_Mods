@@ -1,0 +1,94 @@
+﻿{
+    // Tarot Prompt and Responses
+    "TarotBuffDisplaySource": "Đọc bài Tarot của Diala",
+    "TarotDialaBusy": "Diala đang bận.",
+    "TarotDialaAway": "Quay lại khi Diala có mặt nhé.",
+    "TarotAlreadyReadToday": "Em đã xem bài hôm nay rồi. Hãy quay lại vào lúc khác nhé.",
+    "TarotPrompt": "Em có muốn xem bài Tarot không?",
+
+    // Card Names
+
+    "AceOfSwords.name": "Át Kiếm",
+    "Sun.name": "Mặt trời",
+    "ThreeOfWands.name": "Ba Gậy",
+    "AceOfCups.name": "Át Cốc",
+    "Empress.name": "Hoàng hậu",
+    "Moon.name": "Mặt Trăng",
+    "Lovers.name": "Những người yêu nhau",
+    "TowerReversed.name": "Tòa Tháp (Đảo ngược)",
+    "AceOfPentacles.name": "Át tiền",
+    "ThreeOfSwordsReversed.name": "Ba Kiếm (Đảo ngược)",
+    "WheelOfFortune.name": "Bánh Xe Số Phận",
+    "Fool.name": "Kẻ Khờ",
+    "Temperance.name": "Sự Tiết Chế",
+    "World.name": "Thế giới",
+
+    // Card Descriptions
+
+    "AceOfSwords.desc": "Bạn được tiếp thêm sức mạnh rõ ràng và quyết đoán. Hãy vượt qua những đám mây mù để nhìn ra sự thật. (Tấn công +3)",
+    "Sun.desc": "Sự ấm áp, hạnh phúc và thành công đang ở bên bạn. Bạn bất khả chiến bại. (Miễn nhiễm với hiệu ứng xấu)",
+    "ThreeOfWands.desc": "Tăng trưởng đang dần thành hình. Nỗ lực của bạn sẽ được đền đáp. (Khai thác +3)",
+    "AceOfCups.desc": "Một khởi đầu mới đang mở ra. Hãy mở lòng và đón nhận sự mong manh. (Từ tính +75)",
+    "Empress.desc": "Hãy dịu dàng với chính mình. Chào đón sự sáng tạo và tính lập dị của bạn. (Tốc độ +1)",
+    "Moon.desc": "Bạn có thể cảm thấy mơ hồ hoặc lo lắng. Hãy bước chậm lại hôm nay. (Tốc độ -1)",
+    "Lovers.desc": "Sự hòa hợp và tình yêu thuần khiết đang đến với bạn. Hãy sống thật với cảm xúc của mình. (Năng lượng tối đa +50)",
+    "TowerReversed.desc": "Một điều gì đó mới đang ló dạng. Đừng sợ hãi. Hãy đón nhận sự thay đổi. (Bóng tối)",
+    "AceOfPentacles.desc": "Thịnh vượng và dư dả đang đến. Hãy mở lòng đón nhận mọi cơ hội. (Tìm kiếm +3)",
+    "ThreeOfSwordsReversed.desc": "Hãy cho bản thân không gian để chữa lành và buông bỏ quá khứ. Đừng ngoái lại. (Phòng thủ +3)",
+    "WheelOfFortune.desc": "Hôm nay vận may nghiêng về phía bạn. Hãy đón nhận điều không thể kiểm soát. (May mắn +3)",
+    "Fool.desc": "Một cuộc phiêu lưu mới bắt đầu. Hãy can đảm bước tới. Đón nhận sự đổi thay. (May mắn +1)",
+    "Temperance.desc": "Mọi thứ đều trong trạng thái cân bằng, như lẽ thường. Hãy bình tĩnh và tính bước tiếp theo. (HP và Năng lượng cân bằng)",
+    "World.desc": "Bốn nguyên tố bao quanh bạn. Bạn cảm thấy mình thuộc về nơi này. Bạn đã hoàn thành. (Tất cả kỹ năng +1)",
+
+    // Elias Song Dialogue
+
+    "SongIntro": "Bài hát đêm nay có tên là...",
+    "poppy.name": "Poppy",
+    "SettlingIn.name": "Định Cư",
+    "kindadumbautumn.name": "Bầu trời bưởi",
+    "skellady.SBVCP_EliasTheme.name": "Thị trấn", //FOR TRANSLATORS: NEW 1.0.1
+    "poppy.SongCredits": ", do Eric Barone sáng tác.", //FOR TRANSLATORS: NEW 1.0.1
+    "SettlingIn.SongCredits": ", do Eric Barone sáng tác.", //FOR TRANSLATORS: NEW 1.0.1
+    "kindadumbautumn.SongCredits": ", do Eric Barone sáng tác.", //FOR TRANSLATORS: NEW 1.0.1
+    "skellady.SBVCP_EliasTheme.SongCredits": ", do Kevin MacLeod sáng tác.", //FOR TRANSLATORS: NEW 1.0.1
+    "SongOutro": "Cảm ơn mọi người đã lắng nghe.",
+
+    // Ari's Market Special Dialogue
+    "MarketDailySpecialAriNotAround": "Khuyến mãi đặc biệt hôm nay là {0}. Hãy quay lại khi Ari có mặt để mua nhé.",
+    "MarketDailySpecialAlreadyPurchasedToday": "Xin lỗi, {0}. Ưu đãi hôm nay đã bán hết mất rồi. Quay lại vào ngày mai xem tôi có gì mới nhé!$9",
+    "MarketDailySpecialOffer1": "Bạn đang để mắt đến ưu đãi đặc biệt hôm nay à? Chỉ {0} thôi đấy! Bạn có thể mang nó về chỉ với {1}$.$u",
+    "MarketDailySpecialOffer2": "Khuyến mãi đặc biệt hôm nay là {0}. Giá siêu hời, chỉ {1}$ thôi!$u", // when you interact with the daily special
+    "MarketDailySpecialConfirmPurchase": "Bạn có muốn mua {0} với giá {1} vàng không?",
+    "MarketDailySpecialRejectPurchase1": "Ồ... được thôi.$12",
+    "MarketDailySpecialRejectPurchase2": "Chà... Hết tiền tiêu rồi hả?$12", // if you choose not to buy it
+    "MarketDailySpecialNotEnoughMoney1": "Xin lỗi, {0}, tôi không thể cho nợ đâu. Quay lại khi bạn có đủ tiền nhé?$10",
+    "MarketDailySpecialNotEnoughMoney2": "Nuh uh. Nghĩ lại đi, {0}. Bạn sẽ phải trả đủ toàn bộ số tiền trước đã.$8", // try to buy it but don't have enough
+    "MarketDailySpecialPurchased1": "Thưởng thức nhé! Nhớ quay lại vào ngày mai để xem ưu đãi mới nha.$h",
+    "MarketDailySpecialPurchased2": "Chúc bạn mua sắm vui vẻ! Bạn sẽ không tìm được món nào ngon thế này ở chỗ Pierre đâu!$h", // successfully bought it
+    "MarketDailySpecialQuantityIndicator": "x", // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
+
+    // Phone Confession
+    "PhoneConfession.System.Today": "Hôm nay",
+    "PhoneConfession.System.Yesterday": "Hôm qua",
+    "PhoneConfession.Message.1": "Đi đến chỗ Ari, bạn cần gì không?",
+    "PhoneConfession.Message.2": "Kemmm",
+    "PhoneConfession.Message.3": "Haha được thôi",
+    "PhoneConfession.Message.4": "Lần này bạn phải chia đấy nhé",
+    "PhoneConfession.Message.5": "... Không hứa đâu nha",
+    "PhoneConfession.Message.6": "Có sô cô la cho bạn nè",
+    "PhoneConfession.Message.7": "Bạn là tuyệt nhất luôn đó",
+    "PhoneConfession.Message.8": "Không, là bạn mới đúng",
+    "PhoneConfession.Message.9": "Tôi nghĩ là tôi yêu bạn mất rồi",
+    "PhoneConfession.Message.10": "Khôn ngoan đấy~",
+    "PhoneConfession.Message.11": "CÙNG",
+    "PhoneConfession.Message.12": "CÙNG BẠN",
+	
+	"RelationshipStatus.Locked": "(Bị khóa)",
+    
+    "FarmPurchase_AlreadyPurchased": "Bạn đã mua Nông trại Sunberry rồi.",
+    "FarmPurchase_Question": "Bạn có muốn mua Nông trại Sunberry không?",
+    "FarmPurchase_Yes": "Có",
+    "FarmPurchase_No": "Không",
+    "FarmPurchase_SeeEventAgain": "Xem lại sự kiện",
+    "FarmPurchase_NotEnoughMoney": "Hiện tại bạn không có đủ tiền để mua Nông trại Sunberry. Hãy quay lại khi bạn có đủ {0}$." // FOR TRANSLATORS: NEW IN 1.0.3 - Don't translate the {0}
+}

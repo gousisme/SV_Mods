@@ -1,0 +1,28 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/critters",
+      "FromFile": "Assets/Tilesheets/WhiteButterfly.png",
+      "Update": "OnLocationChange",
+      "PatchMode": "Replace",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 320,
+        "Height": 64
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 96,
+        "Width": 320,
+        "Height": 64
+      },
+      "When": {
+        "LocationName": "Temp",
+        "Season": "Fall",
+        "Day": "11"
+      }
+    }
+  ]
+}

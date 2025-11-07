@@ -1,0 +1,79 @@
+{
+	"Changes": [
+		{
+			"LogName": "LBXLW's RFRF Furniture Catalogue Data",
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"LBXLW.RedFoxRainFrogCatalogueDesk": "Red Fox Rain Frog Catalogue Desk/other/2 2/2 1/1/5200/2/{{i18n:RedFoxRainFrogCatalogueDesk}}/0/Mods\\LBXLW_RFRF_Furniture\\Furniture2/true"
+      }
+  },
+
+		{
+			"LogName": "LBXLW's RFRF Furniture Catalogue Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "LBXLW.RedFoxRainFrogShop": {
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Items": [
+                        {
+                            "Price": 0,
+                            "AvailableStockLimit": "Global",
+                            "AvoidRepeat": false,
+                            "UseObjectDataPrice": false,
+                            "IgnoreShopPriceModifiers": false,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "AvailableStockModifiers": null,
+                            "AvailableStockModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "ALL_ITEMS (F)",
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_LBXLWRFRFFurniture"
+                        }
+                    ],
+                    "CustomFields": {
+                        "HappyHomeDesigner/Catalogue": "true"
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "Add Catalogue Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)LBXLW.RedFoxRainFrogCatalogueDesk": {
+                    "TileActions": [
+                        {
+                            "TileAction": "OpenShop LBXLW.RedFoxRainFrogShop"
+                        }
+					]
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Carpenter",
+                "Items"
+            ],
+            "Entries": {
+                "LBXLW.RedFoxRainFrogCatalogueDesk": {
+                    "Id": "RedFoxRainFrogCatalogueDesk",
+                    "ItemId": "(F)LBXLW.RedFoxRainFrogCatalogueDesk",
+                    "UseObjectDataPrice": true
+                }
+            }
+        }
+            
+
+	]
+}
+

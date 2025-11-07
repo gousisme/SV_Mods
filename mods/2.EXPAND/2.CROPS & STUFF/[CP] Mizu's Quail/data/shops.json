@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		//add shop entry
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Bookseller", "Items" ],
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+			"Entries": {
+				"Mizu.Quail_QualityQuail": {
+					"Price": "1000",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Id": "(O)Mizu.Quail_QualityQuail",
+					"ItemId": "(O)Mizu.Quail_QualityQuail",
+				}
+			}
+		}
+	]
+}

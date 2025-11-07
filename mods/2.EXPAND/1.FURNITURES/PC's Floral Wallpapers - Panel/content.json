@@ -1,0 +1,35 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":
+	{
+		"WoodColor": {
+			"AllowValues":"vanilla, dark, white, vanillasquare, darksquare, whitesquare",
+			"Default":"dark",
+			"Description":"Wood color & panel style options."
+			}
+		},
+	"Changes": [
+        {
+			"LogName": "PC's Floral Wallpapers Texture Load",
+			"Action": "Load",
+			"Target": "Mods/PC.FloralWallpapersPanel/Wallpapers",
+            "FromFile": "assets/{{TargetWithoutPath}}_{{WoodColor}}.png" },
+
+		{
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "PC.FloralWallpapersPanel": {
+                    "ID": "PC.FloralWallpapersPanel",
+                    "Texture": "Mods/PC.FloralWallpapersPanel/Wallpapers",
+                    "IsFlooring": false,
+                    "Count": 36
+                },
+ 
+            }
+        },   
+        
+        
+           
+	]
+}

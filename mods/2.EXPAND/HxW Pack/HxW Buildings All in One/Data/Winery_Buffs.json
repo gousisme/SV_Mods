@@ -1,0 +1,32 @@
+{
+    "Changes":[
+
+         {
+          "LogName": "Add Winery Buffs",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)12","ReadyTimeModifiers"],
+			    "Entries": {
+              "{{ModId}}_SpeedyBuff": {
+                "Id": "{{ModId}}_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+               "{{ModId}}_SpeedyBuff2": {
+                "Id": "{{ModId}}_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+               "{{ModId}}_SpeedyBuff3": {
+                "Id": "{{ModId}}_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Winery_XL",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              }
+          }
+        }
+
+    ]
+}

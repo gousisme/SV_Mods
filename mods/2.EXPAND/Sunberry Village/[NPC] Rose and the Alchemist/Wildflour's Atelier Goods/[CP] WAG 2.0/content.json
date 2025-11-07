@@ -1,0 +1,340 @@
+{
+    "Format": "2.3.0",
+
+    "DynamicTokens": [
+        {
+			"Name": "PerfectionToggle",
+			"Value": "False",
+			"When":{"Atelier.Cauldron/ConfigValue:PerfectionShipment": true}
+		},
+		{
+			"Name": "PerfectionToggle",
+			"Value": "True",
+			"When":{"Atelier.Cauldron/ConfigValue:PerfectionShipment": false}
+		},
+        {
+            "Name": "DifficultyToggle",
+            "Value": "simple",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Simple"}
+        },
+        {
+            "Name": "DifficultyToggle",
+            "Value": "advanced",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"}
+        },
+        {
+            "Name": "RecipeConfig",
+            "Value": "default",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": true}
+        },
+        {
+            "Name": "RecipeConfig",
+            "Value": "null",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": false}
+        },
+        {
+            "Name": "MachineStyle",
+            "Value": "Kitchen",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineStyle": "Kitchen"}
+        },
+        {
+            "Name": "MachineStyle",
+            "Value": "Boutique",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineStyle": "Boutique"}
+        },
+        {
+            "Name": "MachineStyle",
+            "Value": "Market",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineStyle": "Market"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Classic",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Classic"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Chocolate",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Chocolate"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Cream",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Cream"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Strawberry",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Strawberry"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Blueberry",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Blueberry"}
+        },
+        {
+            "Name": "PriorityConfig",
+            "Value": null,
+            "When":{"Atelier.Cauldron/ConfigValue:SOPriority": "Immediate"}
+        },
+        {
+            "Name": "PriorityConfig",
+            "Value": "willyBugWadCutscene, pamPotatoJuice, pierreQualityCrops, robinDeluxeBed, emilyStones, DemetriusReward, gusGiantOmelet, MSB_Lewis, ClintReward, linusTrashCleanup, georgeGifts, WizardReward, robinResource, guntherBones",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPriority": "Later"}
+        },
+        {
+            "Name": "PriorityConfig",
+            "Value": "willyBugWadCutscene, pamPotatoJuice, pierreQualityCrops, robinDeluxeBed, emilyStones, DemetriusReward, gusGiantOmelet, MSB_Lewis, ClintReward, linusTrashCleanup, georgeGifts, WizardReward, robinResource, guntherBones, carolineSO, WillyTropicalFish",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPriority": "PostGI"}
+        },
+    ],
+
+    "Changes": [
+
+//Include Objects
+
+        {
+            "LogName": "WAG Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects_baker_{{DifficultyToggle}}.json, Data/objects_barista_{{DifficultyToggle}}.json, Data/objects_boutique_{{DifficultyToggle}}.json, Data/objects_brewer_{{DifficultyToggle}}.json, Data/objects_confectioner_{{DifficultyToggle}}.json"
+        },
+
+		{
+            "LogName": "WAG Gourmand Objects and Rules",
+            "Action": "Include",
+            "FromFile": "Data/objects_gourmand.json, Data/machines_gourmand.json",
+            "When":{"Atelier.Cauldron/ConfigValue:FloristOnly": false}
+        },
+
+		{
+            "LogName": "WAG Wild Food Objects and Rules",
+            "Action": "Include",
+            "FromFile": "Data/wildfood.json, Data/machines_forager.json",
+			"When":  {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+//Context Tag Compatibility
+
+		{
+            "LogName": "WAG Quaint Living Context Tags",
+            "Action": "Include",
+            "FromFile": "Data/ql_contexttags.json",
+			"When": {"HasMod:|contains= PC.CP.QL.FlowerGarden2": true}
+        },
+
+//Recipes, Gift Tastes, Mail
+
+        {
+            "LogName": "WAG Recipes, Gift Tastes, Mail, Shops",
+            "Action": "Include",
+            "FromFile": "Data/cooking_recipes.json, Data/gift_tastes.json, Data/mail.json, Data/shops.json"
+        },
+
+//Machines
+
+		{
+            "LogName": "WAG Machine Rules",
+            "Action": "Include",
+            "FromFile": "Data/machines_baker_{{DifficultyToggle}}.json, Data/machines_barista_{{DifficultyToggle}}.json, Data/machines_boutique_{{DifficultyToggle}}.json, Data/machines_brewer_{{DifficultyToggle}}.json, Data/machines_confectioner_{{DifficultyToggle}}.json, Data/z_byproducts.json"
+        },
+
+    //Include Seed Mixes
+
+        {
+            "LogName": "WAG Garden Variety Mixed Seeds",
+            "Action": "Include",
+            "FromFile": "Data/seeds.json",
+            "When":{"Atelier.Cauldron/ConfigValue:MixedSeeds": true, "HasMod:|contains= mistyspring.ItemExtensions":true}
+        },
+
+    //Add Special Orders
+
+    {
+        "LogName": "Special Orders",
+        "Action": "Include",
+        "FromFile": "Data/orders_dropboxes.json, Data/orders_barista.json, Data/orders_boutique.json, Data/orders_brewer.json, Data/orders_confectioner.json, Data/orders_pantry.json",
+        "When":{"Atelier.Cauldron/ConfigValue:SpecialOrders": true}
+    },
+
+    {
+        "LogName": "Wild Food Special Orders",
+        "Action": "Include",
+        "FromFile": "Data/orders_wildfood.json",
+        "When":{"Atelier.Cauldron/ConfigValue:WildFood": true, "Atelier.Cauldron/ConfigValue:SpecialOrders": true}
+    },
+
+    //Include Textures
+
+        {
+            "LogName": "WAG Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json"
+        },
+
+    //Add shop location
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+            "Wildflour.AtelierGoods_ShopkeeperGrove": {
+                "CreateOnLoad": {"MapPath": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove"},
+                "DisplayName": "{{i18n: AtelierGoods_ShopkeeperGrove}}",
+                "DefaultArrivalTile": {
+                        "X": 26,
+                        "Y": 18
+                    },
+                "ArtifactSpots": [],
+                "ExcludeFromNpcPathfinding": true
+            }
+        }
+        },
+	 
+    //Load shop maps
+
+        {
+            "LogName": "Load Shopkeeper Maps",
+            "Action": "Load",
+            "Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove, Maps/VanillaShopkeeperWarp, Maps/SBVShopkeeperWarp, Maps/Florian_Shop_Edit, Maps/Wisteria_Shop_Edit, Maps/Rose_Shop_Edit, Maps/Toffee_Shop_Edit, Maps/Mason_Shop_Edit, Maps/Stout_Shop_Edit, Maps/Alchemist_Shop_Edit",
+            "FromFile": "assets/{{Target}}.tmx"
+        },
+
+    //Unlockable Bundles
+
+        {
+            "LogName":"Unlockable Bundles Base Game Version",
+            "Action":"Include",
+            "FromFile":"Data/bundles.json"
+        },
+
+    //Bush Bloom Edits - must stay here in content.json!
+
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+			"Entries": {
+				"Wildflour.AtelierGoods/spring_Strawberry": {
+					"Enabled": true,
+					"ShakeOff": "Wildflour.AtelierGoods_Wild_Strawberry",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 7,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"],
+					"Weather": [ "Sun"  ]		
+				},
+				"Wildflour.AtelierGoods/spring_Cherry_Blossoms": {
+					"Enabled": true,
+					"ShakeOff": "Wildflour.AtelierGoods_Cherry_Blossoms",
+					"StartSeason": "spring",
+					"StartDay": 20,
+					"EndSeason": "spring",
+					"EndDay": 28,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"]	
+				},
+				"Wildflour.AtelierGoods/summer_Wild_Raspberry": {
+					"Enabled": true,
+					"ShakeOff": "Wildflour.AtelierGoods_Wild_Raspberry",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 7,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"]
+				},
+                "Wildflour.AtelierGoods/spring_grove_Strawberry": {
+					"Enabled": true,
+					"ShakeOff": "Wildflour.AtelierGoods_Wild_Strawberry",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 14,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun"  ]
+				},
+                "Wildflour.AtelierGoods/spring_grove_TeaLeaves": {
+					"Enabled": true,
+					"ShakeOff": 815,
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 14,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun"  ]
+				},
+				"Wildflour.AtelierGoods/summer_grove_Wild_Raspberry": {
+					"Enabled": true,
+					"ShakeOff": "Wildflour.AtelierGoods_Wild_Raspberry",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 28,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun" ]
+				}
+			}
+		},
+		
+        {
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"When": {"Atelier.Cauldron/ConfigValue:Tea": true},
+			"Entries": {
+				"Wildflour.AtelierGoods/spring_TeaLeaves": {
+					"Enabled": true,
+					"ShakeOff": 815,
+					"StartSeason": "spring",
+					"StartDay": 8,
+					"EndSeason": "spring",
+					"EndDay": 19,
+					"Chance": 0.3,
+					"Locations":["Town","Mountain","Backwoods","Wildflour.NooksCrannies_BerryGrove"],
+					"Weather": [ "Sun"  ]
+				},
+			}
+		},
+
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_TeaLeaves",
+			"FromFile": "Assets/teablooms.png"
+		},
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_grove_TeaLeaves",
+			"FromFile": "Assets/teablooms.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_Strawberry",
+			"FromFile": "Assets/strawberry.png"
+		},
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_grove_Strawberry",
+			"FromFile": "Assets/strawberry.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_Cherry_Blossoms",
+			"FromFile": "Assets/sakurapetals.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/summer_Wild_Raspberry",
+			"FromFile": "Assets/raspberry.png"
+		},
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/summer_grove_Wild_Raspberry",
+			"FromFile": "Assets/raspberry.png"
+		}
+
+    ]
+}

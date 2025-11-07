@@ -1,0 +1,304 @@
+{
+    "Changes":[
+
+
+        {
+            "LogName": "Add Optional Indoor Bakery Furniture Items",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["{{ModId}}_Bakery", "IndoorItems"],
+            "Priority":"Late",
+            "Entries": {
+                  "{{ModId}}_CoffeeShelves":  {
+                    "Id": "Bakery_CoffeeShelves",
+                    "ItemId": "(F)HXW.BakeryFurni_CoffeeShelves",
+                    "Tile": {
+                      "X": 2,
+                      "Y": 9
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Window1":  {
+                    "Id": "Bakery_Window1",
+                    "ItemId": "(F)HXW.BakeryFurni_CafeWindow",
+                    "Tile": {
+                      "X": 4,
+                      "Y": 9
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Window2":  {
+                    "Id": "Bakery_Window2",
+                    "ItemId": "(F)HXW.BakeryFurni_CafeWindow",
+                    "Tile": {
+                      "X": 13,
+                      "Y": 9
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_SmCoffeeBagShelves":  {
+                    "Id": "Bakery_SmCoffeeBagShelves",
+                    "ItemId": "(F)HXW.BakeryFurni_SmCoffeeBagShelves",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_VerticalWallMenu1":  {
+                    "Id": "Bakery_VerticalWallMenu1",
+                    "ItemId": "(F)HXW.BakeryFurni_VerticalWallMenu1",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_VerticalWallMenu2":  {
+                    "Id": "Bakery_VerticalWallMenu2",
+                    "ItemId": "(F)HXW.BakeryFurni_VerticalWallMenu2",
+                    "Tile": {
+                      "X": 11,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_VerticalWallMenu3":  {
+                    "Id": "Bakery_VerticalWallMenu3",
+                    "ItemId": "(F)HXW.BakeryFurni_VerticalWallMenu3",
+                    "Tile": {
+                      "X": 12,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_CoffeeShelf":  {
+                    "Id": "Bakery_CoffeeShelf",
+                    "ItemId": "(F)HXW.BakeryFurni_CoffeeShelf",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_SmCoffeeDisplay":  {
+                    "Id": "Bakery_SmCoffeeDisplay",
+                    "ItemId": "(F)HXW.BakeryFurni_SmCoffeeDisplay",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterL":  {
+                    "Id": "Bakery_DIYCounterL",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounterEdge_Left",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterCenter1":  {
+                    "Id": "Bakery_DIYCounterCenter1",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounter",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterCenter2":  {
+                    "Id": "Bakery_DIYCounterCenter2",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounter",
+                    "Tile": {
+                      "X": 9,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterCenter3":  {
+                    "Id": "Bakery_DIYCounterCenter3",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounter",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterR":  {
+                    "Id": "Bakery_DIYCounterCenterR",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounterEdge_Right",
+                    "Tile": {
+                      "X": 11,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_StandingCoffeeSign":  {
+                    "Id": "Bakery_StandingCoffeeSign",
+                    "ItemId": "(F)HXW.BakeryFurni_StandingCoffeeSign",
+                    "Tile": {
+                      "X": 12,
+                      "Y": 14
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_LgBakeryShelf1":  {
+                    "Id": "Bakery_LgBakeryShelf1",
+                    "ItemId": "(F)HXW.BakeryFurni_LgBakeryShelf1",
+                    "Tile": {
+                      "X": 16,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_HorizontalWallMenu":  {
+                    "Id": "Bakery_HorizontalWallMenu",
+                    "ItemId": "(F)HXW.BakeryFurni_HorizontalWallMenu",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 19
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_LgBakeryShelf2":  {
+                    "Id": "Bakery_LgBakeryShelf2",
+                    "ItemId": "(F)HXW.BakeryFurni_LgBakeryShelf2",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_LgBakeryShelf3":  {
+                    "Id": "Bakery_LgBakeryShelf3",
+                    "ItemId": "(F)HXW.BakeryFurni_LgBakeryShelf3",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterL2":  {
+                    "Id": "Bakery_DIYCounterL2",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounterEdge_Left",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterR2":  {
+                    "Id": "Bakery_DIYCounterR2",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounterEdge_Right",
+                    "Tile": {
+                      "X": 11,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_TallBakeryShelf2":  {
+                    "Id": "Bakery_TallBakeryShelf2",
+                    "ItemId": "(F)HXW.BakeryFurni_TallBakeryShelf2",
+                    "Tile": {
+                      "X": 12,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_TallBakeryShelf3":  {
+                    "Id": "Bakery_TallBakeryShelf3",
+                    "ItemId": "(F)HXW.BakeryFurni_TallBakeryShelf3",
+                    "Tile": {
+                      "X": 15,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterL3":  {
+                    "Id": "Bakery_DIYCounterL3",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounterEdge_Left",
+                    "Tile": {
+                      "X": 13,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_DIYCounterR3":  {
+                    "Id": "Bakery_DIYCounterR3",
+                    "ItemId": "(F)HXW.BakeryFurni_ShortBakeryCounterEdge_Right",
+                    "Tile": {
+                      "X": 14,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Window3":  {
+                    "Id": "Bakery_Window3",
+                    "ItemId": "(F)HXW.BakeryFurni_CafeWindow",
+                    "Tile": {
+                      "X": 13,
+                      "Y": 19
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_IngredientShelf":  {
+                    "Id": "Bakery_IngredientShelf",
+                    "ItemId": "(F)HXW.BakeryFurni_IngredientShelf",
+                    "Tile": {
+                      "X": 15,
+                      "Y": 19
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_BakeryPlatesTongs":  {
+                    "Id": "Bakery_BakeryPlatesTongs",
+                    "ItemId": "(F)HXW.BakeryFurni_BakeryPlatesTongs",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_BreadCounter":  {
+                    "Id": "Bakery_BreadCounter",
+                    "ItemId": "(F)HXW.BakeryFurni_BreadCounter",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_BakeryCounterwithMenu":  {
+                    "Id": "Bakery_BakeryCounterwithMenu",
+                    "ItemId": "(F)HXW.BakeryFurni_BakeryCounterwithMenu",
+                    "Tile": {
+                      "X": 11,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_CashierCounter":  {
+                    "Id": "Bakery_CashierCounter",
+                    "ItemId": "(F)HXW.BakeryFurni_CashierCounter",
+                    "Tile": {
+                      "X": 14,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_MedBakeryDisplayCounter":  {
+                    "Id": "Bakery_MedBakeryDisplayCounter",
+                    "ItemId": "(F)HXW.BakeryFurni_MedBakeryDisplayCounter",
+                    "Tile": {
+                      "X": 16,
+                      "Y": 26
+                    },
+                    "Indestructible": false
+                  }
+            }
+        },
+        
+    ]
+}

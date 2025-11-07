@@ -1,0 +1,58 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "RedPandaBazaar_LiQingFeng 26 78 3/RedPandaBazaar_ChenXiaoMing 51 95 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "RedPandaBazaar_LiQingFeng 24 79 0/RedPandaBazaar_ChenXiaoMing 51 95 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "RedPandaBazaar_LiQingFeng 47 88 0/RedPandaBazaar_ChenXiaoMing 51 95 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "RedPandaBazaar_LiQingFeng 47 88 0/RedPandaBazaar_ChenXiaoMing 51 95 2",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+        }
+      }
+    ]
+}

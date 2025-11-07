@@ -1,0 +1,50 @@
+{
+"Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage", //Target the map you're adding your house to.
+      "PatchMode": "Replace", //Use this PatchMode to Replace the existing area we're about to target.
+      "FromFile": "Assets/Maps/RipleyExterior.tmx", //The name of the patch we just made. 
+      "ToArea": { //The X and Y of the ToArea are the SECOND set of coordinates we saved. This is where your patch 'starts'.
+        "X": 0,
+        "Y": 71,
+        "Width": 37,
+        "Height": 29
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival", 
+      "PatchMode": "Replace", 
+      "FromFile": "Assets/Maps/RipleyExterior.tmx",  
+      "ToArea": { 
+        "X": 0,
+        "Y": 71,
+        "Width": 37,
+        "Height": 29
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_RipleyHouse",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 26,
+            "Y": 5
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "Bed": "T",
+            "TouchAction": "Sleep"
+          }
+        }
+      ],
+      "When": {
+        "HasSeenEvent |contains= Ripley_Choice": true,
+        "HasFlag |contains= RipleyBreakup": false
+        }
+    }
+  ]
+}

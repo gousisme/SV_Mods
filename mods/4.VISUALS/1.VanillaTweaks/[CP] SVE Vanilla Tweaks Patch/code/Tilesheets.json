@@ -1,0 +1,261 @@
+
+{   
+"Changes": [
+
+//Tilesheets
+//{{Seasons}}_z_extra Tilesheets
+{ //Crop Replacement 1 - e.g. the two vertical crops
+	"LogName": "Crops Replacement 1",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 143, "Y": 0, "Width": 32, "Height": 144 },
+	"ToArea": { "X": 143, "Y": 0, "Width": 32, "Height": 144 },
+	"When": {
+        "season": "spring, summer, fall",
+        "Retexture Crop Maps": true
+    }
+},
+{ //Crop Replacement 2 - e.g. big pile of different crops like pumpkins and sunflowers
+	"LogName": "Crops Replacement 2",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 176, "Y": 0, "Width": 224, "Height": 128 },
+	"ToArea": { "X": 176, "Y": 0, "Width": 224, "Height": 128 },
+	"When": {
+        "season": "spring, summer, fall",
+        "Retexture Crop Maps": true
+    }
+},
+{ //Crop Replacement 3
+	"LogName": "Crops Replacement 3",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 189, "Y": 128, "Width": 211, "Height": 160 },
+	"ToArea": { "X": 189, "Y": 128, "Width": 211, "Height": 160 },
+	"When": {
+        "season": "spring, summer, fall",
+        "Retexture Crop Maps": true
+    }
+},
+// Crop Replacement Winter
+{
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 179, "Y": 128, "Width": 127, "Height": 34 },
+	"ToArea": { "X": 179, "Y": 128, "Width": 127, "Height": 34 },
+	"When": { 
+        "season": "winter",
+        "Retexture Crop Maps": true
+    }
+},
+{ //Fairy Roses Collection
+	"LogName": "Fairy Rose Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 127, "Y": 2708, "Width": 127, "Height": 66 },
+	"ToArea": { "X": 127, "Y": 2708, "Width": 127, "Height": 66 },
+	"When": { "season": "spring, summer, fall" }
+},
+
+{ //Fairy Roses for Sophias Outdoor Spouse Area
+	"LogName": "Fairy Rose Flowers Outdoor Spouse Area",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 0, "Y": 2704, "Width": 64, "Height": 32 },
+	"ToArea": { "X": 0, "Y": 2704, "Width": 64, "Height": 32 },
+	"When": { "season": "spring, summer, fall" }
+},
+
+//House Edits
+{
+	"LogName":"Susan House Edits",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 324, "Y": 611, "Width": 67, "Height": 29 },
+	"ToArea": { "X": 324, "Y": 611, "Width": 67, "Height": 29 },
+	"When": {
+		"Susan's House Edits": true,
+		"season": "spring, fall"
+	}
+},
+{
+	"LogName":"Sophia House Edits",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 1, "Y": 254, "Width": 35, "Height": 29 },
+	"ToArea": { "X": 1, "Y": 254, "Width": 35, "Height": 29 },
+	"When": {
+		"Sophia's House Edits": true,
+		"season": "spring, fall"
+	}
+},
+{
+	"LogName":"Joja Emporium",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 36, "Y": 1930, "Width": 37, "Height":27 },
+	"ToArea": { "X": 36, "Y": 1930, "Width": 37, "Height":27 },
+	"When": { "Joja Emporium": true }
+},
+{ //Salad on Table
+	"LogName": "Salad",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 63, "Y": 1276, "Width": 46, "Height": 52 },
+	"ToArea": { "X": 63, "Y": 1276, "Width": 46, "Height": 52 },
+	"When": {
+		"Summer Table with Salad": true,
+		"season": "summer"
+	}
+},
+//RETEXTURES IN ALL SEASONS YAYYYYY
+
+{ //Flower Circle
+	"LogName": "Flower Circle",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 247, "Y": 2816, "Width": 96, "Height": 111 },
+	"ToArea": { "X": 247, "Y": 2816, "Width": 96, "Height": 111 }
+	},
+
+
+{ //FORAGE MUSHROOMS
+	"LogName": "ForageNear bottom of tilesheet",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 161, "Y": 3504, "Width": 46, "Height": 16 },
+	"ToArea": { "X": 161, "Y": 3504, "Width": 46, "Height": 16 }
+	},
+
+{ //FORAGE SPRING
+	"LogName": "ForageNear bottom of tilesheet",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea":{ "X": 144, "Y": 0, "Width": 32, "Height": 144 },
+	"ToArea": { "X": 144, "Y": 0, "Width": 32, "Height": 144 }
+	},
+
+
+{ //Minerals
+	"LogName": "MineralsNear Castle Village",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 256, "Y": 1200, "Width": 64, "Height": 64 },
+	"ToArea": { "X": 256, "Y": 1200, "Width": 64, "Height": 64 }
+	},
+
+//Table with Ocean stone or whatever it was I can't be bothered checking rn
+{
+	"LogName": "Table with rock",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 192, "Y": 1313, "Width": 16, "Height": 47 },
+	"ToArea": { "X": 192, "Y": 1313, "Width": 16, "Height": 47 }
+	},
+
+//Stardew Valley Fair Presentation tables Part 1
+{
+	"LogName": "Andy and Susans Display Tables",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 0, "Y": 647, "Width": 96, "Height": 57 },
+	"ToArea": { "X": 0, "Y": 647, "Width": 96, "Height": 57 },
+	"When": {
+		"Stardew Valley Fair SVE Edits": true
+	}
+	},
+
+//Stardew Valley Fair Presentation tables Part 2
+{
+	"LogName": "Sophias Display Tables",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 0, "Y": 708, "Width": 48, "Height": 60 },
+	"ToArea": { "X": 0, "Y": 708, "Width": 48, "Height": 60 },
+	"When": {
+		"Stardew Valley Fair SVE Edits": true,
+		"Objects | contains= Aged Blue Moon Wine": true
+	}
+	},
+
+//Presenting Tables for joja or whatever its from in the tilesheets
+{
+	"LogName": "Fertilizers Food and Artifacts",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 0, "Y": 2274, "Width": 96, "Height": 189 },
+	"ToArea": { "X": 0, "Y": 2274, "Width": 96, "Height": 189 }
+	},
+
+//Glass Tables Part 1
+	{
+		"LogName": "Glass Tables Part 1",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_z_extras",
+		"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+		"FromArea": { "X": 96, "Y": 2273, "Width": 128, "Height": 47 },
+		"ToArea": { "X": 96, "Y": 2273, "Width": 128, "Height": 47 }
+		},
+
+//Glass Tables Part 2
+	{
+		"LogName": "Glass Tables Part 2",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_z_extras",
+		"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+		"FromArea": { "X": 96, "Y": 2320, "Width": 192, "Height": 63 },
+		"ToArea": { "X": 96, "Y": 2320, "Width": 192, "Height": 63 }
+		},
+
+//Glass Tables Part 3 - Foods
+	{
+		"LogName": "Glass Tables Part 3",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_z_extras",
+		"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+		"FromArea": { "X": 304, "Y": 2348, "Width": 64, "Height": 51 },
+		"ToArea": { "X": 304, "Y": 2348, "Width": 64, "Height": 51 }
+		},
+
+//Glass Tables Part 4 - Cakes
+	{
+		"LogName": "Glass Tables Part 4",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_z_extras",
+		"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+		"FromArea": { "X": 368, "Y": 2260, "Width": 32, "Height": 43 },
+		"ToArea": { "X": 368, "Y": 2260, "Width": 32, "Height": 43 }
+		},
+
+//Little Fairy Rose and Fairy Stone Table
+{
+	"LogName": "Fariy Rose and Fairy Stone Table",
+	"Action": "EditImage",
+    "Update": "OnLocationChange",
+    "Priority": "Late",
+	"Target": "Maps/{{season}}_z_extras",
+	"FromFile": "assets/Tilesheets/{{season}}_z_extras.png",
+	"FromArea": { "X": 88, "Y": 2736, "Width": 32, "Height": 24 },
+	"ToArea": { "X": 88, "Y": 2736, "Width": 32, "Height": 24 }
+	}
+
+	]
+}

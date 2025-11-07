@@ -1,0 +1,408 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.61.51.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 61,
+        "Y": 51,
+        "Width": 2,
+        "Height": 1
+      },
+      "When": {
+        "DayOfWeek ": "Sunday"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.31.41.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 31,
+        "Y": 41,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasSeenEvent ": "90328001"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.52.42.Spouse.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 52,
+        "Y": 42,
+        "Width": 1,
+        "Height": 1
+      },
+      "When": {
+        "Spouse": "RedPandaBazaar_LiQingFeng"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.52.42.Divorced.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 52,
+        "Y": 42,
+        "Width": 1,
+        "Height": 1
+      },
+      "When": {
+        "Relationship:RedPandaBazaar_LiQingFeng": "Divorced"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "DayOfWeek": "Monday",
+        "Time": "{{Range: 0600, 1990}}",
+        "Season": "Summer,Fall"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.Night.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "DayOfWeek": "Monday",
+        "Time": "{{Range: 2000, 2600}}",
+        "Season": "Summer,Fall"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.SpringFair.Night.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "Time": "{{Range: 2200, 2600}}",
+        "Season": "Spring",
+        "Day": "8"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.SpringFair.Night.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "Time": "{{Range: 2200, 2600}}",
+        "Season": "Spring",
+        "Day": "8"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.Winter.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "DayOfWeek": "Monday",
+        "Time": "{{Range: 0600, 1990}}",
+        "Season": "Winter",
+        "Day": "1,8,22"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.Spring.Night.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "DayOfWeek": "Monday",
+        "Time": "{{Range: 2000, 2600}}",
+        "Season": "Spring",
+        "Day": "1,8,22"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.Spring.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "DayOfWeek": "Monday",
+        "Time": "{{Range: 0600, 1990}}",
+        "Season": "Spring",
+        "Day": "1,8,22"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.58.57.Winter.Night.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 58,
+        "Y": 57,
+        "Width": 9,
+        "Height": 6
+      },
+      "When": {
+        "DayOfWeek": "Monday",
+        "Time": "{{Range: 2000, 2600}}",
+        "Season": "Winter",
+        "Day": "1,8,22"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.35.100.Spring7.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 19,
+        "Height": 17
+      },
+      "ToArea": {
+        "X": 35,
+        "Y": 100,
+        "Width": 19,
+        "Height": 17
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "7"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.35.100.Spring8.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 19,
+        "Height": 17
+      },
+      "ToArea": {
+        "X": 35,
+        "Y": 100,
+        "Width": 19,
+        "Height": 17
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "8"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.35.100.Spring9.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 19,
+        "Height": 17
+      },
+      "ToArea": {
+        "X": 35,
+        "Y": 100,
+        "Width": 19,
+        "Height": 17
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "9"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.49.68.Spring7.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 28,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 49,
+        "Y": 68,
+        "Width": 28,
+        "Height": 16
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "7"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.49.68.Spring8.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 28,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 49,
+        "Y": 68,
+        "Width": 28,
+        "Height": 16
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "8"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_RedPandaBazaar",
+      "FromFile": "assets/Maps/EditMap/RedPandaBazaar/RedPandaBazaar.49.68.Spring9.tmx",
+      "Update": "OnLocationChange",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 28,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 49,
+        "Y": 68,
+        "Width": 28,
+        "Height": 16
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "9"
+      }
+    }
+  ]
+}

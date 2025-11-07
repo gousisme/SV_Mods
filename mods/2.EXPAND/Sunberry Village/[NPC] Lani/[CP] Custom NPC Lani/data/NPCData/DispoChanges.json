@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"LogName": "Jonghyuk - Disposition Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"Jonghyuk": {
+					"CanBeRomanced": false
+				}
+			},
+			"When": { 
+				"HasFlag:currentPlayer": "{{ModId}}_LoveRouteCompleted",
+				"spouseRoute": "Jonghyuk"
+			}
+		}
+	]
+}

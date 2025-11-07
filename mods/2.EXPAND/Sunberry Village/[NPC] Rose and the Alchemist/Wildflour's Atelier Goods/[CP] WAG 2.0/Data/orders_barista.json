@@ -1,0 +1,1042 @@
+{
+  "Changes": [
+
+// ADD MAIL //
+
+{
+  "Action": "EditData",
+  "Target": "Data/Mail",
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Tea_Evelyn_reward": "{{i18n: AtelierGoods_SO_Tea_Evelyn_reward.text}} %item id (O)251 5 %%[#]{{i18n: AtelierGoods_SO_Tea_Evelyn_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Kombucha_Robin_reward": "{{i18n: AtelierGoods_SO_Kombucha_Robin_reward.text}} %item id (O)Wildflour.AtelierGoods_Cacao_Sapling 1 %%[#]{{i18n: AtelierGoods_SO_Kombucha_Robin_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_TeaSachets_Jodi_reward": "{{i18n: AtelierGoods_SO_TeaSachets_Jodi_reward.text}} %item id (O)835 1 %%[#]{{i18n: AtelierGoods_SO_TeaSachets_Jodi_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Tea_Challenge_reward": "{{i18n: AtelierGoods_SO_Tea_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Tea_Challenge_reward.name}}",
+          "Wildflour.AtelierGoods_SO_BubbleTea_Caroline_reward": "{{i18n: AtelierGoods_SO_BubbleTea_Caroline_reward.text}} %item id (O)412 25 %%[#]{{i18n: AtelierGoods_SO_BubbleTea_Caroline_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Lemonade_George_reward": "{{i18n: AtelierGoods_SO_Lemonade_George_reward.text}} %item id (O)Wildflour.AtelierGoods_Lemon_Sapling 1 %%[#]{{i18n: AtelierGoods_SO_Lemonade_George_reward.name}}",
+          "Wildflour.AtelierGoods_SO_Coffee_Haley_reward": "{{i18n: AtelierGoods_SO_Coffee_Haley_reward.text}} %item id (O)860 1 %%[#]{{i18n: AtelierGoods_SO_Coffee_Haley_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Coffee_Sebastian_reward": "{{i18n: AtelierGoods_SO_Coffee_Sebastian_reward.text}} %item id (O)253 10 %%[#]{{i18n: AtelierGoods_SO_Coffee_Sebastian_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Coffee_Gus_reward": "{{i18n: AtelierGoods_SO_Coffee_Gus_reward.text}} %item id (O)Wildflour.AtelierGoods_Pistachio_Sapling 1 %%[#]{{i18n: AtelierGoods_SO_Coffee_Gus_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Coffee_Challenge_reward": "{{i18n: AtelierGoods_SO_Coffee_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Coffee_Challenge_reward.name}}"
+      }
+  },
+
+// ORDERS
+
+    {
+      "LogName": "Orders Tea",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_TeaProcessor"},
+      "Entries": {
+        "Wildflour.AtelierGoods_SO_TeaSachet_Caroline": {
+          "Name": "{{i18n:AtelierGoods_SO_TeaSachet_Caroline.name}}",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_TeaSachet_Caroline.text}}",
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_TeaSachet_Caroline.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "tea_sachet_item",
+                "TargetName": "Caroline"
+              }
+            }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "3000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Caroline"
+                  }
+                }
+            ]
+          },
+          "Wildflour.AtelierGoods_SO_Tea_Evelyn": {
+            "Name": "{{i18n:AtelierGoods_SO_Tea_Evelyn.name}}",
+            "Requester": "Evelyn",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Tea_Evelyn.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Tea_Evelyn.deliver}}",
+                  "RequiredCount": "6",
+                  "Data": {
+                    "DropBox": "Tea_Evelyn",
+                    "DropBoxGameLocation": "JoshHouse",
+                    "DropBoxIndicatorLocation": "2 16",
+                    "AcceptedContextTags": "tea_item"
+                  }
+                },
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "6000"
+                  }
+                },
+    
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Evelyn"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Tea_Evelyn_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Kombucha_Robin": {
+            "Name": "{{i18n:AtelierGoods_SO_Kombucha_Robin.name}}",
+            "Requester": "Robin",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Kombucha_Robin.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Kombucha_Robin.deliver}}",
+                  "RequiredCount": "8",
+                  "Data": {
+                    "DropBox": "Kombucha_Robin",
+                    "DropBoxGameLocation": "ScienceHouse",
+                    "DropBoxIndicatorLocation": "6 19",
+                    "AcceptedContextTags": "kombucha_item"
+                  }
+                },
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "15000"
+                  }
+                },
+          
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Robin"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Kombucha_Robin_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_TeaSachets_Jodi": {
+            "Name": "{{i18n:AtelierGoods_SO_TeaSachets_Jodi.name}}",
+            "Requester": "Jodi",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_TeaSachets_Jodi.text}}",
+            "Objectives": [
+    
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_TeaSachets_Jodi.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "DropBox": "TeaSachet_Jodi",
+                    "DropBoxGameLocation": "SamHouse",
+                    "DropBoxIndicatorLocation": "4 4",
+                    "AcceptedContextTags": "tea_sachet_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5500"
+                }
+              },
+    
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Jodi"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "Wildflour.AtelierGoods_SO_TeaSachets_Jodi_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          },
+          "Wildflour.AtelierGoods_SO_Tea_Challenge": {
+            "Name": "{{i18n:AtelierGoods_SO_Tea_Challenge.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Tea_Challenge.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:AtelierGoods_SO_Tea_Challenge.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "tea_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+    
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "Wildflour.AtelierGoods_SO_Tea_Challenge_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          },
+          "Wildflour.AtelierGoods_SO_Kombucha_Alex": {
+            "Name": "{{i18n:AtelierGoods_SO_Kombucha_Alex.name}}",
+            "Requester": "Alex",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Kombucha_Alex.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Kombucha_Alex.deliver}}",
+                  "RequiredCount": "4",
+                  "Data": {
+                    "AcceptedContextTags": "kombucha_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Kombucha_Alex.accept}}",
+                    "TargetName": "Alex"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "7500"
+                  }
+                },
+            
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Tea_Haley": {
+            "Name": "{{i18n:AtelierGoods_SO_Tea_Haley.name}}",
+            "Requester": "Haley",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Tea_Haley.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Tea_Haley.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "tea_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Tea_Haley.accept}}",
+                    "TargetName": "Haley"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "3000"
+                  }
+                },
+      
+              {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_TeaSachet_Sandy": {
+            "Name": "{{i18n:AtelierGoods_SO_TeaSachet_Sandy.name}}",
+            "Requester": "Sandy",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_TeaSachet_Sandy.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_TeaSachet_Sandy.deliver}}",
+                  "RequiredCount": "8",
+                  "Data": {
+                    "AcceptedContextTags": "tea_sachet_item",
+                    "Message": "{{i18n:AtelierGoods_SO_TeaSachet_Sandy.accept}}",
+                    "TargetName": "Sandy"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "4500"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+            "Wildflour.AtelierGoods_SO_BubbleTea_Emily": {
+              "Name": "{{i18n:AtelierGoods_SO_BubbleTea_Emily.name}}",
+              "Requester": "Emily",
+              "Duration": "Week",
+              "Repeatable": "False",
+              "RequiredTags": "{{PriorityConfig}}",
+              "OrderType": "",
+              "SpecialRule": "",
+              "ItemToRemoveOnEnd": null,
+              "MailToRemoveOnEnd": null,
+              "RandomizedElements": null,
+              "Text": "{{i18n:AtelierGoods_SO_BubbleTea_Emily.text}}",
+              "Objectives": [
+                  {
+                    "Type": "Deliver",
+                    "Text": "{{i18n:AtelierGoods_SO_BubbleTea_Emily.deliver}}",
+                    "RequiredCount": "4",
+                    "Data": {
+                      "AcceptedContextTags": "bubble_tea_item",
+                      "Message": "{{i18n:AtelierGoods_SO_BubbleTea_Emily.accept}}",
+                      "TargetName": "Emily"
+                    }
+                  }
+                ],
+                "Rewards": [
+                  {
+                    "Type": "Money",
+                    "Data": {
+                      "Amount": "6000"
+                    }
+                  },
+      
+                  {
+                    "Type": "Friendship",
+                    "Data": {}
+                    }
+                ]
+          },
+            "Wildflour.AtelierGoods_SO_BubbleTea_Caroline": {
+            "Name": "{{i18n:AtelierGoods_SO_BubbleTea_Caroline.name}}",
+            "Requester": "Caroline",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_BubbleTea_Caroline.text}}",
+            "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:AtelierGoods_SO_BubbleTea_Caroline.deliver}}",
+                "RequiredCount": "6",
+                "Data": {
+                  "DropBox": "BubbleTea_Caroline",
+                  "DropBoxGameLocation": "SeedShop",
+                  "DropBoxIndicatorLocation": "34 4",
+                  "AcceptedContextTags": "bubble_tea_item"
+                }
+              }
+            ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "6000"
+                  }
+                },
+    
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Caroline"
+                    }
+                  },
+    
+                  {
+                    "Type": "Mail",
+                    "Data": {
+                          "MailReceived": "Wildflour.AtelierGoods_SO_BubbleTea_Caroline_reward",
+                          "NoLetter": "false"
+                    }
+                  }
+              ]
+          },
+        }
+    },
+
+    {
+      "LogName": "Orders Smoothies",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_KitchenBlender"},
+      "Entries": {
+        "Wildflour.AtelierGoods_SO_Smoothies_Haley": {
+          "Name": "{{i18n:AtelierGoods_SO_Smoothies_Haley.name}}",
+          "Requester": "Haley",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Smoothies_Haley.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_Smoothies_Haley.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "AcceptedContextTags": "smoothie_item",
+                  "Message": "{{i18n:AtelierGoods_SO_Smoothies_Haley.accept}}",
+                  "TargetName": "Haley"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "4500"
+                }
+              },
+  
+            {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        },
+        "Wildflour.AtelierGoods_SO_Smoothies_Alex": {
+          "Name": "{{i18n:AtelierGoods_SO_Smoothies_Alex.name}}",
+          "Requester": "Alex",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Smoothies_Alex.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_Smoothies_Alex.deliver}}",
+                "RequiredCount": "5",
+                "Data": {
+                  "AcceptedContextTags": "smoothie_item",
+                  "Message": "{{i18n:AtelierGoods_SO_Smoothies_Alex.accept}}",
+                  "TargetName": "Alex"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5600"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Alex"
+                  }
+                }
+            ]
+        },
+        /*"Wildflour.AtelierGoods_SO_Smoothie_Challenge": {
+          "Name": "{{i18n:AtelierGoods_SO_Smoothie_Challenge.name}}",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Smoothie_Challenge.text}}",
+          "Objectives": [
+              {
+                "Type": "Ship",
+                "Text": "{{i18n:AtelierGoods_SO_Smoothie_Challenge.ship}}",
+                "RequiredCount": "100",
+                "Data": {
+                  "AcceptedContextTags": "smoothie_item"
+                }
+              }
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "100000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Smoothie_Challenge_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+      },*/
+      }
+    },
+
+    {
+      "LogName": "Orders Lemonade",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_LemonadeStand"},
+      "Entries": {
+        "Wildflour.AtelierGoods_SO_Lemonade_George": {
+          "Name": "{{i18n:AtelierGoods_SO_Lemonade_George.name}}",
+          "Requester": "George",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Lemonade_George.text}}",
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Lemonade_George.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "DropBox": "Lemonade_George",
+                "DropBoxGameLocation": "JoshHouse",
+                "DropBoxIndicatorLocation": "4 16",
+                "AcceptedContextTags": "lemonade_item"
+              }
+            }
+          ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "George"
+                  }
+                }
+            ]
+        },
+        "Wildflour.AtelierGoods_SO_Lemonade_Shane": {
+          "Name": "{{i18n:AtelierGoods_SO_Lemonade_Shane.name}}",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Lemonade_Shane.text}}",
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Lemonade_Shane.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "DropBox": "Lemonade_Shane",
+                "DropBoxGameLocation": "AnimalShop",
+                "DropBoxIndicatorLocation": "24 4",
+                "AcceptedContextTags": "lemonade_item"
+              }
+            },
+
+          ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "3500"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Shane"
+                  }
+                },
+  
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Lemonade_Shane_reward",
+                        "NoLetter": "false"
+                  }
+                }
+            ]
+        },
+      }
+    },
+
+
+    {
+      "LogName": "Orders Coffee",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_CoffeeGrinder"},
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Coffee_Harvey": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Harvey.name}}",
+            "Requester": "Harvey",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Harvey.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Harvey.deliver}}",
+                  "RequiredCount": "6",
+                  "Data": {
+                    "AcceptedContextTags": "ground_coffee_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Coffee_Harvey.accept}}",
+                    "TargetName": "Harvey"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "4600"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Harvey"
+                    }
+                  }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Haley": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Haley.name}}",
+            "Requester": "Haley",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Haley.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Haley.deliver}}",
+                  "RequiredCount": "5",
+                  "Data": {
+                    "AcceptedContextTags": "latte_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Coffee_Haley.accept}}",
+                    "TargetName": "Haley"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "6000"
+                  }
+                },
+      
+                {
+                 "Type": "Friendship",
+                 "Data": {
+                       "Amount": "250",
+                      "TargetName": "Haley"
+                   }
+                 },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Coffee_Haley_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Sebastian": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Sebastian.name}}",
+            "Requester": "Sebastian",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Sebastian.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Sebastian.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "DropBox": "Coffee_Sebastian",
+                    "DropBoxGameLocation": "SebastianRoom",
+                    "DropBoxIndicatorLocation": "3 4",
+                    "AcceptedContextTags": "ground_coffee_item"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "10000"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Sebastian"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Coffee_Sebastian_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Gus": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Gus.name}}",
+            "Requester": "Gus",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Gus.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Gus.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "DropBox": "GusFridge",
+                    "DropBoxGameLocation": "Saloon",
+                    "DropBoxIndicatorLocation": "18 16",
+                    "AcceptedContextTags": "latte_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "16000"
+                }
+              },
+      
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                     "TargetName": "Gus"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "Wildflour.AtelierGoods_SO_Coffee_Gus_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Challenge": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Challenge.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Challenge.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Challenge.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_coffee_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "Wildflour.AtelierGoods_SO_Coffee_Challenge_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Sandy": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Sandy.name}}",
+            "Requester": "Sandy",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Sandy.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Sandy.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "iced_latte_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Coffee_Sandy.accept}}",
+                    "TargetName": "Sandy"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "3000"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Marnie": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Marnie.name}}",
+            "Requester": "Marnie",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Marnie.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Marnie.deliver}}",
+                  "RequiredCount": "4",
+                  "Data": {
+                    "AcceptedContextTags": "latte_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Coffee_Marnie.accept}}",
+                    "TargetName": "Marnie"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "4500"
+                  }
+                },
+      
+              {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+          "Wildflour.AtelierGoods_SO_Coffee_Pierre": {
+            "Name": "{{i18n:AtelierGoods_SO_Coffee_Pierre.name}}",
+            "Requester": "Pierre",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Coffee_Pierre.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Coffee_Pierre.deliver}}",
+                  "RequiredCount": "8",
+                  "Data": {
+                    "AcceptedContextTags": "ground_coffee_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Coffee_Pierre.accept}}",
+                    "TargetName": "Pierre"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "8000"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+          },
+        }
+    }
+
+  ]
+}
+

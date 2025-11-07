@@ -1,0 +1,138 @@
+{
+	"Changes": [
+		// add items
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Mizu.Quail_QuailEgg": {
+					  "Name": "Mizu.Quail_QuailEgg",
+					  "Type": "Basic",
+					  "Category": -5,
+					  "SpriteIndex": 1,
+					  "DisplayName": "{{i18n:QuailEgg_name}}",
+					  "Description": "{{i18n:QuailEgg_description}}",
+					  "Texture": "Mizu.Quail/objects",
+					  "Price": 40,
+					  "Edibility": 25,
+					  "ContextTags": [
+						"color_sand",
+						"modid_mizu.quail",
+						"food_nonvegan",
+						"allergen_egg"
+						]
+					},
+				"Mizu.Quail_LargeQuailEgg": {
+					  "Name": "Mizu.Quail_LargeQuailEgg",
+					  "Type": "Basic",
+					  "Category": -5,
+					  "SpriteIndex": 2,
+					  "DisplayName": "{{i18n:LargeQuailEgg_name}}",
+					  "Description": "{{i18n:LargeQuailEgg_description}}",
+					  "Texture": "Mizu.Quail/objects",
+					  "Price": 75,
+					  "Edibility": 38,
+					  "ContextTags": [
+						"color_sand",
+						"modid_mizu.quail",
+						"food_nonvegan",
+						"allergen_egg"
+						]
+					},
+				"Mizu.Quail_QuailMayonnaise": {
+					  "Name": "Mizu.Quail_QuailMayonnaise",
+					  "Type": "Basic",
+					  "Category": -26,
+					  "SpriteIndex": 3,
+					  "DisplayName": "{{i18n:QuailMayonnaise_name}}",
+					  "Description": "{{i18n:QuailMayonnaise_description}}",
+					  "Texture": "Mizu.Quail/objects",
+					  "Price": 250,
+					  "Edibility": 75,
+					  "IsDrink": true,
+					  "ContextTags": [
+						"color_sand",
+						"mayo_item",
+						"modid_mizu.quail",
+						"food_nonvegan",
+						"allergen_egg"
+						]
+					}
+			}
+		},
+		// add items
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+            "Entries": {
+				"Mizu.Quail_QuailMeat": {
+					  "Name": "Mizu.Quail_QuailMeat",
+					  "Type": "Basic",
+					  "Category": -14,
+					  "SpriteIndex": 4,
+					  "DisplayName": "{{i18n:QuailMeat_name}}",
+					  "Description": "{{i18n:QuailMeat_description}}",
+					  "Texture": "Mizu.Quail/objects",
+					  "Price": 350,
+					  "Edibility": 20,
+					  "ContextTags": [
+						"color_pink",
+						"meat_item",
+						"modid_mizu.quail",
+						"food_nonvegan",
+						]
+					},
+				"Mizu.Quail_SpatchcockedQuailandGreens": {
+					  "Name": "Mizu.Quail_SpatchcockedQuailandGreens",
+					  "Type": "Cooking",
+					  "Category": -7,
+					  "SpriteIndex": 6,
+					  "DisplayName": "{{i18n:SpatchcockedQuailandGreens_name}}",
+					  "Description": "{{i18n:SpatchcockedQuailandGreens_description}}",
+					  "Texture": "Mizu.Quail/objects",
+					  "Price": 250,
+					  "Edibility": 60,
+					  "ContextTags": [
+						"color_orange",
+						"modid_mizu.quail",
+						"food_nonvegan",
+						]
+				},
+				"Mizu.Quail_StuffedQuail": {
+					  "Name": "Mizu.Quail_StuffedQuail",
+					  "Type": "Cooking",
+					  "Category": -7,
+					  "SpriteIndex": 5,
+					  "DisplayName": "{{i18n:StuffedQuail_name}}",
+					  "Description": "{{i18n:StuffedQuail_description}}",
+					  "Texture": "Mizu.Quail/objects",
+					  "Price": 250,
+					  "Edibility": 60,
+					  "ContextTags": [
+						"color_orange",
+						"modid_mizu.quail",
+						"food_nonvegan",
+						]
+				},
+				 "Mizu.Quail_QualityQuail": {
+                    "Name": "Mizu.Quail_QualityQuail",
+                    "DisplayName": "{{i18n: QualityQuail_name}}",
+                    "Description": "{{i18n: QualityQuail_description}}",
+                    "Type": "asdf",
+                    "Category": -102,
+                    "Price": 500,
+                    "Texture": "Mizu.Quail/book",
+					"ContextTags": [
+						"color_purple",
+						"modid_mizu.quail",
+						"book_item"
+						],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/Message": "{{i18n: QualityQuail_power}}"
+						}
+				},
+			}
+		}
+	]
+}

@@ -1,0 +1,760 @@
+{
+    "Changes": [
+//////////////////////
+// BARISTA MACHINES //
+//////////////////////
+
+{
+    "LogName": "Add Barista Tea Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TeaProcessor": {
+            "Name": "Wildflour.AtelierGoods_TeaProcessor",
+            "DisplayName": "{{i18n: AtelierGoods_TeaProcessor.name}}",
+            "Description": "{{i18n: AtelierGoods_TeaProcessor.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 16,
+            "CustomFields": {}
+    },
+        "Wildflour.AtelierGoods_TeaKettle": {
+            "Name": "Wildflour.AtelierGoods_TeaKettle",
+            "DisplayName": "{{i18n: AtelierGoods_TeaKettle.name}}",
+            "Description": "{{i18n: AtelierGoods_TeaKettle.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 56,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Barista Craftable Tea Machine Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TeaProcessor": "388 30 330 10 815 2/Home/Wildflour.AtelierGoods_TeaProcessor/true/{{RecipeConfig}}/{{i18n: AtelierGoods_TeaProcessor.name}}",
+        "Wildflour.AtelierGoods_TeaKettle": "388 30 330 10 335 2/Home/Wildflour.AtelierGoods_TeaKettle/true/{{RecipeConfig}}/{{i18n: AtelierGoods_TeaKettle.name}}",
+    } 
+},
+
+{
+    "LogName": "Add Barista Coffee Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CoffeeGrinder": {
+        "Name": "Wildflour.AtelierGoods_CoffeeGrinder",
+        "DisplayName": "{{i18n: AtelierGoods_CoffeeGrinder.name}}",
+        "Description": "{{i18n: AtelierGoods_CoffeeGrinder.description}}",
+        "Price": 2550,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+        "SpriteIndex": 40,
+        "CustomFields": {}
+    },
+        "Wildflour.AtelierGoods_CoffeeBrewer": {
+        "Name": "Wildflour.AtelierGoods_CoffeeBrewer",
+        "DisplayName": "{{i18n: AtelierGoods_CoffeeBrewer.name}}",
+        "Description": "{{i18n: AtelierGoods_CoffeeBrewer.description}}",
+        "Price": 2550,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+        "SpriteIndex": 32,
+        "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Barista Craftable Coffee Machine Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CoffeeGrinder": "388 25 378 10/Home/Wildflour.AtelierGoods_CoffeeGrinder/true/{{RecipeConfig}}/{{i18n:AtelierGoods_CoffeeGrinder.name}}",
+        "Wildflour.AtelierGoods_CoffeeBrewer": "388 25 378 10/Home/Wildflour.AtelierGoods_CoffeeBrewer/true/{{RecipeConfig}}/{{i18n:AtelierGoods_CoffeeBrewer.name}}"
+    } 
+},
+
+{
+    "LogName": "Add Lemonade Stand to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_LemonadeStand": {
+            "Name": "Wildflour.AtelierGoods_LemonadeStand",
+            "DisplayName": "{{i18n: AtelierGoods_LemonadeStand.name}}",
+            "Description": "{{i18n: AtelierGoods_LemonadeStand.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 24,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Barista Craftable Lemonade Stand Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_LemonadeStand": "388 50 334 2 382 5/Home/Wildflour.AtelierGoods_LemonadeStand/true/{{RecipeConfig}}/{{i18n: AtelierGoods_LemonadeStand.name}}"
+    } 
+},
+
+{
+    "LogName": "Add Blender to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Milkshakes}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Smoothies}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_KitchenBlender": {
+            "Name": "Wildflour.AtelierGoods_KitchenBlender",
+            "DisplayName": "{{i18n: AtelierGoods_KitchenBlender.name}}",
+            "Description": "{{i18n: AtelierGoods_KitchenBlender.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+    }
+}
+},
+
+{
+    "LogName": "Add Blender Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Milkshakes}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Smoothies}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_KitchenBlender": "335 2 388 50 330 10/Home/Wildflour.AtelierGoods_KitchenBlender/true/{{RecipeConfig}}/{{i18n: AtelierGoods_KitchenBlender.name}}",
+    } 
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Basic Tea Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_TeaProcessor": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Sachet",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Sachet %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Tea Sachet",  
+                        "PreserveID":"DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                }               
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)815",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_TeaProcessor_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_TeaProcessor_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "TeaTimeSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "TeaTimeSuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)Wildflour.AtelierGoods_TeaKettle": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Tea",
+                        "ItemId": "(O)Wildflour.AtelierGoods_Flavored_Tea",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Tea %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Tea",
+                        "PreserveID":"DROP_IN_PRESERVE",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 100
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 300
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_TeaKettle_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_TeaKettle_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "TeaTimeSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "TeaTimeSuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+
+{
+    "LogName": "Basic Coffee Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CoffeeGrinder": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["nut_Item"],
+                            "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Ground_Coffee %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Ground Coffee",  
+                        "PreserveID":"DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 800
+                }      
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)433",
+                    "RequiredCount":5,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CoffeeGrinder_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CoffeeGrinder_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)Wildflour.AtelierGoods_CoffeeBrewer": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Latte",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Latte %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Latte",
+                        "PreserveID":"DROP_IN_PRESERVE",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.5
+                            },
+                            {
+                                "Modification": "Add",
+                                "Amount": 150
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 400
+                }               
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Cream",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CoffeeBrewer_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CoffeeBrewer_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5],
+                    "Interval":200
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Lemonade Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_LemonadeStand":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits","!lemon_item"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Lemonade",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Lemonade %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Lemonade",
+                        "PreserveID":"DROP_IN",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 2.2
+                            }
+                        ]
+                    }    
+                ],
+                        "MinutesUntilReady": 640
+                }
+            ],
+            "AdditionalConsumedItems":[],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_LemonadeStand_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+
+{
+    "LogName": "Basic Smoothie Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true, "Atelier.Cauldron/ConfigValue:Milkshakes":false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flavored_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Flavored_Smoothie",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Smoothie %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Smoothie",
+                            "PreserveID":"DROP_IN",
+                            "CopyColor":true,
+                            "CopyPrice":true,
+                            "CopyQuality":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.75
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                }
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
+    }
+}
+},
+
+
+{
+    "LogName": "Add Basic Milkshake Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": false, "Atelier.Cauldron/ConfigValue:Milkshakes": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                            },
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Flavored_Milkshake",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Milkshake %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Milkshake",
+                            "PreserveId": "DROP_IN",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                }
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
+        }
+    }
+},
+
+{
+    "LogName": "Add Basic Smoothie AND Milkshake Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true, "Atelier.Cauldron/ConfigValue:Milkshakes": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flavored_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Flavored_Smoothie",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Smoothie %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Smoothie",
+                            "PreserveID":"DROP_IN",
+                            "CopyColor":true,
+                            "CopyPrice":true,
+                            "CopyQuality":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.75
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+               {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Flavored_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Flavored_Milkshake",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Milkshake %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Milkshake",
+                            "PreserveId": "DROP_IN_PRESERVE",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                }
+                    
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ]
+        }
+    }
+},
+
+{
+    "LogName": "Add Basic Kombucha Rules to Keg",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)12", "OutputRules"],
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Keg_Flavored_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Flavored_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Flavored_Kombucha",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Kombucha %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Kombucha",
+                    "PreserveID":"DROP_IN_PRESERVE",
+                    "CopyColor":true,
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 900
+        }
+    }
+},
+
+]
+}

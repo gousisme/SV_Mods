@@ -1,0 +1,203 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Cinderclown Shoes",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/CinderclownShoes.png",
+			"ToArea": {"X": "208", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Cinderclown Shoes": true
+			}
+		},
+        {
+			"LogName": "Combat Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/CombatBoots.png",
+			"ToArea": {"X": "64", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Combat Boots": true
+			}
+		},
+        {
+			"LogName": "Cowboy Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/CowboyBoots.png",
+			"ToArea": {"X": "176", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Cowboy Boots": true
+			}
+		},
+        {
+			"LogName": "Crystal Shoes",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/CrystalShoes.png",
+			"ToArea": {"X": "224", "Y": "576", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Crystal Shoes": true
+			}
+		},
+        {
+			"LogName": "Dark Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/DarkBoots.png",
+			"ToArea": {"X": "112", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Dark Boots": true
+			}
+		},
+        {
+			"LogName": "Dragonscale Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/DragonscaleBoots.png",
+			"ToArea": {"X": "240", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Dragonscale Boots": true
+			}
+		},
+        {
+			"LogName": "Emily's Magic Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/EmilysMagicBoots.png",
+			"ToArea": {"X": "192", "Y": "528", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Emily's Magic Boots": true
+			}
+		},
+        {
+			"LogName": "Firewalker Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/FirewalkerBoots.png",
+			"ToArea": {"X": "128", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Firewalker Boots": true
+			}
+		},
+        {
+			"LogName": "Genie Shoes",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/GenieShoes.png",
+			"ToArea": {"X": "144", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Genie Shoes": true
+			}
+		},
+        {
+			"LogName": "Leather Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/LeatherBoots.png",
+			"ToArea": {"X": "32", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Leather Boots": true
+			}
+		},
+        {
+			"LogName": "Leprechaun Shoes",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/LeprechaunShoes.png",
+			"ToArea": {"X": "224", "Y": "528", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Leprechaun Shoes": true
+			}
+		},
+        {
+			"LogName": "Mermaid Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/MermaidBoots.png",
+			"ToArea": {"X": "224", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Mermaid Boots": true
+			}
+		},
+        {
+			"LogName": "Rubber Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/RubberBoots.png",
+			"ToArea": {"X": "16", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Rubber Boots": true
+			}
+		},
+        {
+			"LogName": "Sneakers",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/Sneakers.png",
+			"ToArea": {"X": "0", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Sneakers": true
+			}
+		},
+        {
+			"LogName": "Space Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/SpaceBoots.png",
+			"ToArea": {"X": "160", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Space Boots": true
+			}
+		},
+        {
+			"LogName": "Thermal Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/ThermalBoots.png",
+			"ToArea": {"X": "96", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Thermal Boots": true
+			}
+		},
+        {
+			"LogName": "Tundra Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/TundraBoots.png",
+			"ToArea": {"X": "80", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Tundra Boots": true
+			}
+		},
+        {
+			"LogName": "Work Boots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Shoes/WorkBoots.png",
+			"ToArea": {"X": "48", "Y": "336", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"Shoes |contains= Work Boots": true
+			}
+		}
+    ]
+}

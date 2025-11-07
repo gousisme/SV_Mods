@@ -1,0 +1,310 @@
+{
+  "Changes": [
+    //Festival Spawn
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 26 74 up",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Lavril 26 74 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 25 74 up",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Void 25 74 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 8 31 right",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Lavril 18 31 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 9 31 left",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+          "Value": "Void 19 31 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 16 14 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 17 14 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 83 40 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 82 39 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 40 91 left",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 34 62 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 34 59 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 39 91 right",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 67 37 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 66 37 up",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Lavril 19 74 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+          "Value": "Void 18 74 down",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+
+    //Festival Dialogue
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Lavril": "Em không biết thỏ có thể đẻ trứng...#$b#Liệu thỏ có nở ra từ trứng không?$7#$b#Như vậy có nghĩa là Void cũng có thể đẻ trứng phải không?$13",
+        "Void": "Không, Lavril. Tôi không phải là thỏ thực sự. Do đó, tôi không thể đẻ trứng.#$e#Sigh."
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Lavril": "Vincent nói rằng cậu ấy muốn trở thành nữ hoàng hoa tiếp theo. Em hy vọng một ngày nào đó cậu ấy sẽ chiến thắng.$16",
+        "Void": "Nếu tôi là nữ hoàng hoa, tôi sẽ khiến mọi người phải cúi đầu và tôn thờ tôi.#$b#Những thần dân trung thành của tôi sẽ quỳ lạy trước mặt tôi, ca ngợi vùng đất mà tôi đặt chân đến.#$e#'Xin chào Dunn Nemecia.'$u#$b#%Void bắt đầu cười khùng khục."
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Lavril": "Ừm... Chúng em đã hái một ít anh đào trước đó và cho vào nồi. Em hy vọng mọi người thích chúng...$3",
+        "Void": "Tốt hơn hết là đừng thêm bất cứ thứ gì kỳ lạ vào nồi. Tôi đang theo dõi cậu đấy."
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Lavril": "Những con sứa ánh trăng phát sáng trong bóng tối, đúng không?$4?#$b#Nếu những ngôi sao lại lạc trên bờ biển một lần nữa, có lẽ sứa có thể giúp dẫn đường cho chúng trở lại bầu trời đêm.$4",
+        "Void": "...Tôi đoán là có rất ít cảnh đẹp đáng tham quan trên thế giới này."
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Lavril": "Tôi vừa xem bói xong... *hic*$9",
+        "Void": "Bà thầy bói đó... Tôi nhớ những gì họ đã nói với Lavril.#$b#'Bạn sẽ gặp vô số người sẽ yêu quý bạn. Chẳng bao lâu nữa, bạn sẽ gặp những người bạn mà bạn đã chờ đợi.'"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Lavril": "Void.. Quay lại đây ngay lập tức!$5#$b#Tôi không muốn gặp rắc rối!$5",
+        "Void": "Những bộ xương đáng sợ...! Khiến bạn rùng mình~!"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Lavril": "T-trơn quá! Tôi suýt ngã...$13",
+        "Void": "Cẩn thận đừng rơi vào đó. Sẽ rất khó khăn để kéo bạn ra khi bạn đã thực sự là một que kem."
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Lavril": "Từ lần đầu gặp nhau, tôi đã có cảm giác ấm áp bên trong mặc dù trời lạnh. Tôi không biết phải diễn tả thế nào...$4#$b#Tôi chỉ muốn nói lời cảm ơn vì đã có mặt trong cuộc sống của chúng tôi.$h",
+        "Void": "Lavril sẽ vui hơn nhiều khi có bạn ở bên... và tôi đoán tôi cũng vậy.#$b#Mong Ngôi Sao Mùa Đông dẫn đường cho cậu.#$e#Tôi biết rằng đôi khi tôi có thể khó tính. Cảm ơn vì đã chịu đựng tôi."
+      }
+    }
+  ]
+}

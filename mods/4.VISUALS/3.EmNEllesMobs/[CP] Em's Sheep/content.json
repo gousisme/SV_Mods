@@ -1,0 +1,33 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "WhiteWelsh, BrownWelsh, Suffolk, Balwen, Dutch, Coburg, Zwartbles, Hampshire, Gute",
+		"Default": "WhiteWelsh",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/BabySheep”,
+		"FromFile": "assets/{{Type}}Lamb.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/Sheep",
+		"FromFile": "assets/{{Type}}Sheep.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/ShearedSheep",
+		"FromFile": "assets/{{Type}}Sheared.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{Type}}Icon.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 33, "Height": 17 },
+		"ToArea": {"X": 32, "Y": 464,"Width": 33, "Height": 17}
+		},
+	]
+}

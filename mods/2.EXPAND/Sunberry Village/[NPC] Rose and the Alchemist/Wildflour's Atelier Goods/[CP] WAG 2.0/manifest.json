@@ -1,0 +1,23 @@
+{
+    "Name": "Wildflour's Atelier Goods",
+    "Author": "wildflourmods",
+    "Version": "2.1.2",
+    "Description": "Run the atelier of your dreams with this highly configurable, all-in-one artisan goods expansion mod.",
+    "UniqueID": "Wildflour.AtelierGoods",
+    "UpdateKeys": ["Nexus:27049"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "DLX.Bundles","IsRequired": true},
+        {"UniqueID": "selph.ExtraMachineConfig", "IsRequired": true},
+        {"UniqueID": "hxw.tilesheets", "IsRequired":true},
+        {"UniqueID": "mistyspring.ItemExtensions","IsRequired": false},
+        {"UniqueID": "sophie.Calcifer","IsRequired": false},
+        {"UniqueID":"NCarigon.BushBloomMod","IsRequired": false},
+        {"UniqueID":"Esca.FarmTypeManager","IsRequired": false},
+        {"UniqueID":"PC.CP.QL.FlowerGarden2","IsRequired": false}
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

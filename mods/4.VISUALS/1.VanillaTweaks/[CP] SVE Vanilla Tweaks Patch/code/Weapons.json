@@ -1,0 +1,37 @@
+
+{   
+"Changes": [
+
+//Weapons
+{
+	"LogName": "Tempered Galaxy Dagger",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Tempered Galaxy Dagger",
+	"FromFile": "assets/Weapons/Tempered Galaxy Dagger.png",
+	"When": {" Weapons | contains= Tempered Galaxy Dagger": true }
+},
+{
+	"LogName": "Tempered Galaxy Hammer",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Tempered Galaxy Hammer",
+	"FromFile": "assets/Weapons/Tempered Galaxy Hammer.png",
+	"When": {" Weapons | contains= Tempered Galaxy Hammer": true }
+},
+{
+	"LogName": "Tempered Galaxy Sword",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Tempered Galaxy Sword",
+	"FromFile": "assets/Weapons/Tempered Galaxy Sword.png",
+	"When": {" Weapons | contains= Tempered Galaxy Sword": true }
+},
+//Galaxy Slingshot
+{
+	"LogName": "Galaxy Slingshot",
+	"Action": "EditImage",
+	"Target": "TileSheets/weapons",
+	"FromFile": "assets/Weapons/Galaxy Slingshot.png",
+	"ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 16},
+	"When": {" Weapons | contains= Galaxy Slingshot": true }
+}
+	]
+}

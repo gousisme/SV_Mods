@@ -1,0 +1,1060 @@
+{
+    "Changes": 
+    [
+
+// REGULAR FISH
+
+        {
+			"LogName": "Pufferfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Pufferfish": true
+			}
+		},
+        {
+			"LogName": "Anchovy Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 24, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 24, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Anchovy": true
+			}
+		},
+        {
+			"LogName": "Goby Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 288, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 288, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Goby": true
+			}
+		},		
+        {
+			"LogName": "Tuna Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 48, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 48, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Tuna": true
+			}
+		},
+        {
+			"LogName": "Sardine Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 72, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 72, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Sardine": true
+			}
+		},
+        {
+			"LogName": "Bream Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 96, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 96, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Bream": true
+			}
+		},
+        {
+			"LogName": "Largemouth Bass Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 120, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 120, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Largemouth Bass": true
+			}
+		},
+        {
+			"LogName": "Smallmouth Bass Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 144, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 144, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Smallmouth Bass": true
+			}
+		},
+        {
+			"LogName": "Rainbow Trout Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 168, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 168, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Rainbow Trout": true
+			}
+		},
+        {
+			"LogName": "Salmon Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 192, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 192, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Salmon": true
+			}
+		},
+        {
+			"LogName": "Walleye Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 216, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 216, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Walleye": true
+			}
+		},
+        {
+			"LogName": "Perch Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 240, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 240, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Perch": true
+			}
+		},
+        {
+			"LogName": "Carp Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 264, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 264, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Carp": true
+			}
+		},
+        {
+			"LogName": "Catfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 288, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 288, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Catfish": true
+			}
+		},
+        {
+			"LogName": "Pike Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 312, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 312, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Pike": true
+			}
+		},
+        {
+			"LogName": "Sunfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 336, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 336, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Sunfish": true
+			}
+		},
+        {
+			"LogName": "Red Mullet Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 360, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 360, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Red Mullet": true
+			}
+		},
+        {
+			"LogName": "Herring Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 384, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 384, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Herring": true
+			}
+		},
+        {
+			"LogName": "Eel Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 408, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 408, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Eel": true
+			}
+		},
+        {
+			"LogName": "Octopus Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 432, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 432, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Octopus": true
+			}
+		},
+        {
+			"LogName": "Red Snapper Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 456, "Y": 0, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 456, "Y": 0, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Red Snapper": true
+			}
+		},
+        {
+			"LogName": "Sea Cucumber Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 24, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 24, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Sea Cucumber": true
+			}
+		},
+        {
+			"LogName": "Super Cucumber Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 48, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 48, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Super Cucumber": true
+			}
+		},
+        {
+			"LogName": "Ghostfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 72, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 72, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Ghostfish": true
+			}
+		},
+        {
+			"LogName": "Stonefish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 96, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 96, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Stonefish": true
+			}
+		},
+        {
+			"LogName": "Ice Pip Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 168, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 168, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Ice Pip": true
+			}
+		},
+        {
+			"LogName": "Lava Eel Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 192, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 192, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Lava Eel": true
+			}
+		},
+        {
+			"LogName": "Sandfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 288, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 288, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Sandfish": true
+			}
+		},
+        {
+			"LogName": "Scorpion Carp Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 312, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 312, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Scorpion Carp": true
+			}
+		},
+        {
+			"LogName": "Flounder Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 336, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 336, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Flounder": true
+			}
+		},
+        {
+			"LogName": "Midnight Carp Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 360, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 360, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Midnight Carp": true
+			}
+		},
+        {
+			"LogName": "Sturgeon Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 0, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 0, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Sturgeon": true
+			}
+		},
+        {
+			"LogName": "Tiger Trout Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 24, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 24, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Tiger Trout": true
+			}
+		},
+        {
+			"LogName": "Bullhead Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 48, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 48, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Bullhead": true
+			}
+		},
+        {
+			"LogName": "Tilapia Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 72, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 72, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Tilapia": true
+			}
+		},
+        {
+			"LogName": "Chub Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 96, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 96, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Chub": true
+			}
+		},
+        {
+			"LogName": "Dorado Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 120, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 120, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Dorado": true
+			}
+		},
+        {
+			"LogName": "Albacore Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 144, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 144, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Albacore": true
+			}
+		},
+        {
+			"LogName": "Shad Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 168, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 168, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Shad": true
+			}
+		},
+        {
+			"LogName": "Lingcod Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 192, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 192, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Lingcod": true
+			}
+		},
+        {
+			"LogName": "Halibut Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 216, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 216, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Halibut": true
+			}
+		},
+        {
+			"LogName": "Woodskip Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 240, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 240, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Woodskip": true
+			}
+		},
+        {
+			"LogName": "Void Salmon Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 264, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 264, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Void Salmon": true
+			}
+		},
+        {
+			"LogName": "Slimejack Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 288, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 288, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Slimejack": true
+			}
+		},
+        {
+			"LogName": "Spookfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 336, "Y": 96, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 336, "Y": 96, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Spookfish": true
+			}
+		},
+        {
+			"LogName": "Squid Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 0, "Y": 144, "Width": 120, "Height": 48 },
+			"ToArea": { "X": 0, "Y": 144, "Width": 120, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Squid": true
+			}
+		},
+        {
+			"LogName": "Blobfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 192, "Y": 144, "Width": 48, "Height": 48 },
+			"ToArea": { "X": 192, "Y": 144, "Width": 48, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Blobfish": true
+			}
+		},
+        {
+			"LogName": "Stingray Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 240, "Y": 144, "Width": 120, "Height": 48 },
+			"ToArea": { "X": 240, "Y": 144, "Width": 120, "Height": 48 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Stingray": true
+			}
+		},
+        {
+			"LogName": "Midnight Squid Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 360, "Y": 144, "Width": 120, "Height": 24 },
+			"ToArea": { "X": 360, "Y": 144, "Width": 120, "Height": 24 },
+			"When": 
+			{
+				"RegularFishEnabled": "True",
+				"RegularFish |contains= Midnight Squid": true
+			}
+		},
+
+// LEGENDARY FISH
+
+        {
+			"LogName": "Crimsonfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 120, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 120, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Crimsonfish": true
+			}
+		},
+        {
+			"LogName": "Angler Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 144, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 144, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Angler": true
+			}
+		},
+        {
+			"LogName": "Legend Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 216, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 216, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Legend": true
+			}
+		},
+        {
+			"LogName": "Glacierfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 240, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 240, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Glacierfish": true
+			}
+		},
+        {
+			"LogName": "Mutant Carp Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 264, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 264, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Mutant Carp": true
+			}
+		},
+        {
+			"LogName": "Son of Crimsonfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 168, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 168, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Son of Crimsonfish": true
+			}
+		},
+        {
+			"LogName": "Ms Angler Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 192, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Ms Angler": true
+			}
+		},
+        {
+			"LogName": "Legend II Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 216, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 216, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Legend II": true
+			}
+		},
+        {
+			"LogName": "Radioactive Carp Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 240, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 240, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Radioactive Carp": true
+			}
+		},
+        {
+			"LogName": "Glacierfish Jr Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 264, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 264, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"LegendaryFishEnabled": "True",
+				"LegendaryFish |contains= Glacierfish Jr": true
+			}
+		},
+
+// CRABPOT FISH
+
+        {
+			"LogName": "Lobster Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 384, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 384, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Lobster": true
+			}
+		},
+        {
+			"LogName": "Shrimp Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 432, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 432, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Shrimp": true
+			}
+		},
+        {
+			"LogName": "Crayfish Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 456, "Y": 48, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 456, "Y": 48, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Crayfish": true
+			}
+		},
+        {
+			"LogName": "Crab Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 120, "Y": 144, "Width": 72, "Height": 48 },
+			"ToArea": { "X": 120, "Y": 144, "Width": 72, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Crab": true
+			}
+		},
+        {
+			"LogName": "Clam Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 0, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 0, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Clam": true
+			}
+		},
+        {
+			"LogName": "Oyster Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 24, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 24, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Oyster": true
+			}
+		},
+        {
+			"LogName": "Cockle Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 48, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 48, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Cockle": true
+			}
+		},
+        {
+			"LogName": "Mussel Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 72, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 72, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Mussel": true
+			}
+		},
+        {
+			"LogName": "Periwinkle Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 96, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 96, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Periwinkle": true
+			}
+		},
+        {
+			"LogName": "Snail Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 120, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 120, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"CrabpotFishEnabled": "True",
+				"CrabpotFish |contains= Snail": true
+			}
+		},
+
+// BEACH FORAGE
+
+        {
+			"LogName": "Sea Urchin Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 144, "Y": 192, "Width": 24, "Height": 48 },
+			"ToArea": { "X": 144, "Y": 192, "Width": 24, "Height": 48 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Sea Urchin": true
+			}
+		},
+        {
+			"LogName": "Coral Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 0, "Y": 256, "Width": 80, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 256, "Width": 80, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Coral": true
+			}
+		},
+        {
+			"LogName": "Seaweed Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 0, "Y": 288, "Width": 48, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 288, "Width": 48, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Seaweed": true
+			}
+		},
+
+// MISC
+
+		{
+			"LogName": "Treasure Chest Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 64, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Treasure Chest": true
+			}
+		},
+		{
+			"LogName": "Pearl Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 80, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Pearl": true
+			}
+		},
+		{
+			"LogName": "Pineapple Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Pineapple": true
+			}
+		},
+		{
+			"LogName": "Ancient Sword Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 112, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Ancient Sword": true
+			}
+		},
+		{
+			"LogName": "Hardwood Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Hardwood": true
+			}
+		},
+		{
+			"LogName": "Nautilus Fossil Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 144, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Nautilus Fossil": true
+			}
+		},
+		{
+			"LogName": "Rainbow Shell Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 160, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Rainbow Shell": true
+			}
+		},
+		{
+			"LogName": "Joja Cola Aquarium",
+			"Action": "EditImage",
+			"Target": "LooseSprites/AquariumFish",
+			"FromFile": "Assets/{{SaturationToggle}}/Aquarium/Aquarium.png",
+			"FromArea": { "X": 176, "Y": 288, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Joja Cola": true
+			}
+		},		
+    ]
+}

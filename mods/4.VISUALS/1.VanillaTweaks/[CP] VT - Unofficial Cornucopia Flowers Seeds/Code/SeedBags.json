@@ -1,0 +1,300 @@
+{
+    "Changes": 
+    [
+
+        //   SINGLE-SEASON SEEDBAGS
+
+        //Example code (toggle with "Ctrl+/" in VS-Code)
+		// { "LogName": "x",
+		// 	"Action": "EditImage",
+		// 	"Target": "Cornucopia.MoreCrops/Objects",
+		// 	"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/x.png",
+		// 	"ToArea": { "X": 00, "Y": 00, "Width": 16, "Height": 16 },
+		// 	"When": { "AltSeedbag |contains= x": false}
+		// },
+		
+		//  Row 1
+        { "LogName": "Blue Mist Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/BlueMist.png",
+			"ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Chamomile Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Chamomile.png",
+			"ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Clary Sage Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/ClarySage.png",
+			"ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Bee Balm Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/BeeBalm.png",
+			"ToArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Violet Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Violet.png",
+			"ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Pink Cat Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/PinkCat.png",
+			"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Lavender Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Lavender.png",
+			"ToArea": { "X": 240, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Fairy Duster Pod",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/FairyDuster.png",
+			"ToArea": { "X": 304, "Y": 0, "Width": 16, "Height": 16 }
+		},
+
+		// Row 2
+		{ "LogName": "Purple Coneflower Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/PurpleConeflower.png",
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Clematis Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Clematis.png",
+			"ToArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Buttercup Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Buttercup.png",
+			"ToArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Daisy Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Daisy.png",
+			"ToArea": { "X": 144, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Morning Glory Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/MorningGlory.png",
+			"ToArea": { "X": 208, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Iris Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Iris.png",
+			"ToArea": { "X": 272, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Bluebonnet Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Bluebonnet.png",
+			"ToArea": { "X": 304, "Y": 16, "Width": 16, "Height": 16 }
+		},
+
+		// Row 4
+		{ "LogName": "Rafflesia Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Rafflesia.png",
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Rafflesia": false}
+
+		},
+		{ "LogName": "Rafflesia Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Unique/Rafflesia.png",
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Rafflesia": true}
+
+		},
+		{ "LogName": "Petunia Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Petunia.png",
+			"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Peony Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Peony.png",
+			"ToArea": { "X": 112, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Geranium Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Geranium.png",
+			"ToArea": { "X": 144, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Spring Rose Trellis",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/SpringRose.png",
+			"ToArea": { "X": 176, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Summer Rose Trellis",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/SummerRose.png",
+			"ToArea": { "X": 208, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Fall Rose Trellis",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/FallRose.png",
+			"ToArea": { "X": 240, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Winter Rose Trellis",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/WinterRose.png",
+			"ToArea": { "X": 272, "Y": 48, "Width": 16, "Height": 16 }
+		},
+
+		// Row 5
+		{ "LogName": "Wolfsbane Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Wolfsbane.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		
+		// Row 7
+		{ "LogName": "Lily Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Lily.png",
+			"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Hyacinth Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Hyacinth.png",
+			"ToArea": { "X": 128, "Y": 96, "Width": 16, "Height": 16 }
+		},
+
+		{ "LogName": "Carnation Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Carnation.png",
+			"ToArea": { "X": 224, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Larkspur Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Larkspur.png",
+			"ToArea": { "X": 272, "Y": 96, "Width": 16, "Height": 16 }
+		},
+
+		// Row 8
+		{ "LogName": "Lupine Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Lupine.png",
+			"ToArea": { "X": 32, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Dahlia Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Dahlia.png",
+			"ToArea": { "X": 80, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Chrysanthemum Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Chrysanthemum.png",
+			"ToArea": { "X": 128, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Freesia Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Freesia.png",
+			"ToArea": { "X": 176, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Pansy Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Pansy.png",
+			"ToArea": { "X": 224, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Hydrangea Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Hydrangea.png",
+			"ToArea": { "X": 272, "Y": 112, "Width": 16, "Height": 16 }
+		},
+
+		//   MULTI-SEASON SEEDBAGS
+
+        // { "LogName": "y",
+		// 	"Action": "EditImage",
+		// 	"Target": "Cornucopia.MoreCrops/Objects",
+		// 	"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/x_{{Season}}.png",
+		// 	"ToArea": { "X": 00, "Y": 00, "Width": 16, "Height": 16 },
+		// 	"When": { "Season": "spring", "RegularSeedbags |contains= x": true}
+		// },
+
+		// Row 2
+		{ "LogName": "Honeysuckle Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Honeysuckle.png",
+			"ToArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16 }
+		},
+
+		// Row 4
+		{ "LogName": "Prismatic Rose Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/PrismaticRose.png",
+			"ToArea": { "X": 304, "Y": 48, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Prismatic Rose": false}
+		},
+		{ "LogName": "Prismatic Rose Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Unique/PrismaticRose.png",
+			"ToArea": { "X": 304, "Y": 48, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Prismatic Rose": true}
+		},
+
+		// Row 7
+		{ "LogName": "Rose Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Rose.png",
+			"ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Rose": false}
+		},
+		{ "LogName": "Rose Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Unique/Rose.png",
+			"ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Rose": true}
+		},
+		{ "LogName": "Orchid Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Orchid.png",
+			"ToArea": { "X": 176, "Y": 96, "Width": 16, "Height": 16 }
+		}
+		
+    ]
+}

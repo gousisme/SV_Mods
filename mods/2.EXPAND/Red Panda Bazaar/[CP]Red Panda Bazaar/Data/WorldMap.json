@@ -1,0 +1,206 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Mods/RedPandaBazaar/RedPandaBazaar",
+      "FromFile": "assets/Maps/WorldMap/RedPandaBazaar.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "Entries": {
+        "Custom_RedPandaBazaar": {
+          "BaseTexture": [
+            {
+              "Id": "Custom_RedPandaBazaar",
+              "Texture": "Mods/RedPandaBazaar/RedPandaBazaar",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 242,
+                "Height": 199
+              }
+            }
+          ],
+          "MapAreas": [
+            {
+              "Id": "Custom_RedPandaBazaar",
+              "PixelArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 158
+              },
+              "ScrollText": "{{i18n:RedPandaBazaar}}",
+              "WorldPositions": [
+                {
+                  "Id": "Custom_RedPandaBazaar",
+                  "LocationName": "Custom_RedPandaBazaar",
+                  "MapPixelArea": {
+                    "X": 94,
+                    "Y": 40,
+                    "Width": 80,
+                    "Height": 158
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "Custom_BazaarWest": {
+          "BaseTexture": [
+            {
+              "Id": "Custom_BazaarWest",
+              "Texture": "Mods/RedPandaBazaar/RedPandaBazaar",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 242,
+                "Height": 199
+              }
+            }
+          ],
+          "MapAreas": [
+            {
+              "Id": "Custom_BazaarWest",
+              "PixelArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 94,
+                "Height": 110
+              },
+              "ScrollText": "{{i18n:RedPandaBazaar}}",
+              "WorldPositions": [
+                {
+                  "Id": "Custom_BazaarWest",
+                  "LocationName": "Custom_BazaarWest",
+                  "MapPixelArea": {
+                    "X": 0,
+                    "Y": 40,
+                    "Width": 94,
+                    "Height": 110
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "Custom_MapleBridge": {
+          "BaseTexture": [
+            {
+              "Id": "Custom_MapleBridge",
+              "Texture": "Mods/RedPandaBazaar/RedPandaBazaar",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 242,
+                "Height": 199
+              }
+            }
+          ],
+          "MapAreas": [
+            {
+              "Id": "Custom_MapleBridge",
+              "PixelArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 130
+              },
+              "ScrollText": "{{i18n:RedPandaBazaar}}",
+              "WorldPositions": [
+                {
+                  "Id": "Custom_MapleBridge",
+                  "LocationName": "Custom_MapleBridge",
+                  "MapPixelArea": {
+                    "X": 178,
+                    "Y": 66,
+                    "Width": 64,
+                    "Height": 130
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "Custom_MirrorLake": {
+          "BaseTexture": [
+            {
+              "Id": "Custom_MirrorLake",
+              "Texture": "Mods/RedPandaBazaar/RedPandaBazaar",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 242,
+                "Height": 199
+              }
+            }
+          ],
+          "MapAreas": [
+            {
+              "Id": "Custom_MirrorLake",
+              "PixelArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 168,
+                "Height": 60
+              },
+              "ScrollText": "{{i18n:RedPandaBazaar}}",
+              "WorldPositions": [
+                {
+                  "Id": "Custom_MirrorLake",
+                  "LocationName": "Custom_MirrorLake",
+                  "MapPixelArea": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 168,
+                    "Height": 60
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "Custom_LiQingFengCourtyard": {
+          "BaseTexture": [
+            {
+              "Id": "Custom_LiQingFengCourtyard",
+              "Texture": "Mods/RedPandaBazaar/RedPandaBazaar",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 242,
+                "Height": 199
+              }
+            }
+          ],
+          "MapAreas": [
+            {
+              "Id": "Custom_LiQingFengCourtyard",
+              "PixelArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 60,
+                "Height": 88
+              },
+              "ScrollText": "{{i18n:RedPandaBazaar}}",
+              "WorldPositions": [
+                {
+                  "Id": "Custom_LiQingFengCourtyard",
+                  "LocationName": "Custom_LiQingFengCourtyard",
+                  "MapPixelArea": {
+                    "X": 169,
+                    "Y": -3,
+                    "Width": 60,
+                    "Height": 88
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

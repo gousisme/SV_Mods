@@ -1,0 +1,183 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [
+                "900",
+                "ContextTags"
+            ],
+            "Entries": {
+                "propose_roommate_misterginger": "propose_roommate_misterginger"
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [
+                "899",
+                "ContextTags"
+            ],
+            "Entries": {
+                "propose_roommate_misterginger":"propose_roommate_misterginger"
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [
+                "898",
+                "ContextTags"
+            ],
+            "Entries": {
+                "propose_roommate_misterginger":"propose_roommate_misterginger"
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [
+                "901",
+                "ContextTags"
+            ],
+            "Entries": {
+                "propose_roommate_misterginger": "propose_roommate_misterginger"
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [
+                "902",
+                "ContextTags"
+            ],
+            "Entries": {
+                "propose_roommate_misterginger":"propose_roommate_misterginger"
+            }
+        },
+        /* {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "TextOperations": [
+                // Adding roommate proposal code to any legendary fish
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Angler"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Legend"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Crimsonfish"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Mutant Carp"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Glacierfish"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Ms. Angler"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Son of Crimsonfish"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Legend II"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Radioactive Carp"
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Glacierfish Jr."
+                    ],
+                    "Value": "propose_roommate_misterginger",
+                    "Delimiter": ", "
+                },
+            ]
+        },*/
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "MisterGinger_EngagedRoommate": "{{i18n:strings.engagedRoommate}}"
+            }
+        },
+        /*{
+            "Action": "EditData",
+            "Target": "Strings/Characters/MisterGinger",
+            "Entries": {
+                "MovieInvite_NoTheater": "Nope, not in the mood. Maybe another day. What? I like to leave my options open, okay?"
+            }
+        },*/
+        //Spouse Patio
+        /*{
+            "Action": "Load",
+            "Target": "Maps/Lemurkat_MrGinger_SpousePatio",
+            "FromFile": "assets/SpousePatioMrGinger.tmx",
+            "When":{"HasSeenEvent |contains=5295000": false}
+        },*/
+        {
+            "Action": "Load",
+            "Target": "Maps/Lemurkat_MrGinger_SpouseRoom",
+            "FromFile": "assets/SpouseRoomMrGingerRev.tmx",
+            "When":{"HasSeenEvent |contains=5295000": false}
+        }
+    ]
+}

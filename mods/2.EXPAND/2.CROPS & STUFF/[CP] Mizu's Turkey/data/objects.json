@@ -1,0 +1,169 @@
+{
+	"Changes": [
+		// add items
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"Mizu.Turkey_TurkeyEgg": {
+					  "Name": "Mizu.Turkey_TurkeyEgg",
+					  "Type": "Basic",
+					  "Category": -5,
+					  "SpriteIndex": 1,
+					  "DisplayName": "{{i18n:TurkeyEgg_name}}",
+					  "Description": "{{i18n:TurkeyEgg_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 200,
+					  "Edibility": 25,
+					  "ContextTags": [
+						"color_brown",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						"allergen_egg"
+						]
+					},
+				"Mizu.Turkey_TurkeyFeather": {
+					  "Name": "Mizu.Turkey_TurkeyFeather",
+					  "Type": "Basic",
+					  "Category": -5,
+					  "SpriteIndex": 2,
+					  "DisplayName": "{{i18n:TurkeyFeather_name}}",
+					  "Description": "{{i18n:TurkeyFeather_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 350,
+					  "Edibility": -300,
+					  "ContextTags": [
+						"color_dark_brown",
+						"modid_mizu.turkey"
+						]
+					},
+				"Mizu.Turkey_TurkeyMayonnaise": {
+					  "Name": "Mizu.Turkey_TurkeyMayonnaise",
+					  "Type": "Basic",
+					  "Category": -26,
+					  "SpriteIndex": 3,
+					  "DisplayName": "{{i18n:TurkeyMayonnaise_name}}",
+					  "Description": "{{i18n:TurkeyMayonnaise_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 400,
+					  "Edibility": 75,
+					  "IsDrink": true,
+					  "ContextTags": [
+						"color_brown",
+						"mayo_item",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						"allergen_egg"
+						]
+					}
+			}
+		},
+		// add items
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+            "Entries": {
+				"Mizu.Turkey_TurkeyMeat": {
+					  "Name": "Mizu.Turkey_TurkeyMeat",
+					  "Type": "Basic",
+					  "Category": -14,
+					  "SpriteIndex": 8,
+					  "DisplayName": "{{i18n:TurkeyMeat_name}}",
+					  "Description": "{{i18n:TurkeyMeat_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 550,
+					  "Edibility": 20,
+					  "ContextTags": [
+						"color_pink",
+						"meat_item",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						]
+					},
+				"Mizu.Turkey_TurkeyRice": {
+					  "Name": "Mizu.Turkey_TurkeyRice",
+					  "Type": "Cooking",
+					  "Category": -7,
+					  "SpriteIndex": 6,
+					  "DisplayName": "{{i18n:TurkeyRice_name}}",
+					  "Description": "{{i18n:TurkeyRice_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 275,
+					  "Edibility": 60,
+					  "ContextTags": [
+						"color_sand",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						]
+				},
+				"Mizu.Turkey_RoastTurkey": {
+					  "Name": "Mizu.Turkey_RoastTurkey",
+					  "Type": "Cooking",
+					  "Category": -7,
+					  "SpriteIndex": 4,
+					  "DisplayName": "{{i18n:RoastTurkey_name}}",
+					  "Description": "{{i18n:RoastTurkey_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 550,
+					  "Edibility": 50,
+					  "ContextTags": [
+						"color_brown",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						]
+				},
+				"Mizu.Turkey_Turducken": {
+					  "Name": "Mizu.Turkey_Turducken",
+					  "Type": "Cooking",
+					  "Category": -7,
+					  "SpriteIndex": 5,
+					  "DisplayName": "{{i18n:Turducken_name}}",
+					  "Description": "{{i18n:Turducken_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 800,
+					  "Edibility": 80,
+					  "ContextTags": [
+						"color_brown",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						"allergen_egg",
+						]
+				},
+				"Mizu.Turkey_TurkeyLeg": {
+					  "Name": "Mizu.Turkey_TurkeyLeg",
+					  "Type": "Cooking",
+					  "Category": -7,
+					  "SpriteIndex": 7,
+					  "DisplayName": "{{i18n:TurkeyLeg_name}}",
+					  "Description": "{{i18n:TurkeyLeg_description}}",
+					  "Texture": "Mizu.Turkey/objects",
+					  "Price": 150,
+					  "Edibility": 50,
+					  "ContextTags": [
+						"color_orange",
+						"modid_mizu.turkey",
+						"food_nonvegan",
+						]
+				},
+				 "Mizu.Turkey_PrimarilyPoultry": {
+                    "Name": "Mizu.Turkey_PrimarilyPoultry",
+                    "DisplayName": "{{i18n: PrimarilyPoultry_name}}",
+                    "Description": "{{i18n: PrimarilyPoultry_description}}",
+                    "Type": "asdf",
+                    "Category": -102,
+                    "Price": 1000,
+                    "Texture": "Mizu.Turkey/book",
+					"ContextTags": [
+						"color_brown",
+						"modid_mizu.turkey",
+						"book_item"
+						],
+					"CustomFields": {
+						"Spiderbuttons.SpecialPowerUtilities/Books/Message": "{{i18n: PrimarilyPoultry_power}}"
+						}
+				}
+			}
+		}
+	]
+}

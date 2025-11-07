@@ -1,0 +1,21 @@
+{
+
+    "Changes": [
+
+        {
+            "LogName": "Remove water trough",
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "Assets/Maps/removewater.png",
+            "ToArea": { "X": 352, "Y": 1056, "Width": 16, "Height": 16 }
+        },
+
+        {
+            "LogName": "Load Interior Maps",
+            "Action": "Load",
+            "Target": "Maps/SlimeHutch",
+            "FromFile": "Assets/Maps/{{SlimeHutchRenovation}}_Interior.tmx"
+        }
+
+    ]
+}

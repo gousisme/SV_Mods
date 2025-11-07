@@ -1,0 +1,55 @@
+﻿{
+  "Format": "2.0.0",
+  "DynamicTokens": [
+    {
+      "Name": "night",
+      "Value": "1900",
+      "When": { "Season": "spring,summer" }
+    },
+    {
+      "Name": "night",
+      "Value": "1800",
+      "When": { "Season": "fall" }
+    },
+    {
+      "Name": "night",
+      "Value": "1700",
+      "When": { "Season": "winter" }
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "Load furniture tilesheet",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Doors",
+      "FromFile": "assets/doors.png"
+    },
+    {
+      "LogName": "Edit furniture tilesheet in rain",
+      "Action": "EditImage",
+      "Target": "Mods/{{ModId}}/Doors",
+      "PatchMode": "Overlay",
+      "FromFile": "assets/doors_night.png",
+      "When": { "Weather": "rain,storm" }
+    },
+    {
+      "LogName": "Edit furniture tilesheet at night",
+      "Action": "EditImage",
+      "Target": "Mods/{{ModId}}/Doors",
+      "FromFile": "assets/doors_night.png",
+      "PatchMode": "Overlay",
+      "When": { "Time": "{{Range: {{night}}, 2600}}" },
+      "Update": "OnTimeChange"
+    },
+    {
+      "LogName": "Add furniture data",
+      "Action": "Include",
+      "FromFile": "Data/furniture.json"
+    },
+    {
+      "LogName": "Add catalogue and shop data",
+      "Action": "Include",
+      "FromFile": "Data/shop.json"
+    }
+  ]
+}

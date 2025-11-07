@@ -1,0 +1,136 @@
+{
+  "Name": "Vanilla Hair 26",
+  "FrontHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+	  {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      },
+      {
+        "Frame": 3,
+        "Duration": 85
+      },
+    ]
+  },
+  "RightHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },    
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 85
+      },
+    ]
+  },
+  "LeftHair": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },
+     {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      },
+      {
+        "Frame": 3,
+        "Duration": 85
+      },
+    ]
+  },
+  "BackHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 85
+      },    
+      {
+        "Frame": 1,
+        "Duration": 85
+      },
+      {
+        "Frame": 2,
+        "Duration": 85
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 85
+      },
+    ]
+  }
+}

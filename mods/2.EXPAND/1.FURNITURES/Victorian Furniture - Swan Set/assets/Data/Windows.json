@@ -1,0 +1,45 @@
+{
+	"Changes": [
+        {
+			"LogName": "Victorian Furniture - Swan Windows Texture Load",
+			"Action": "Load",
+			"Target": "Mods/VF.SwanFurniture/VFWindowsSwan",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },         
+         
+		{
+			"LogName": "VF - Swan Windows Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+				"VF.WhiteCurtainsWindow": "WhiteCurtainsWindow/painting/2 3/2 3/1/800/-1/{{i18n: WhiteCurtainsWindow}}/0/Mods\\VF.SwanFurniture\\VFWindowsSwan/false/collection_Swan",    
+				"VF.LaceCurtainsWindow": "LaceCurtainsWindow/painting/2 3/2 3/1/800/-1/{{i18n: LaceCurtainsWindow}}/4/Mods\\VF.SwanFurniture\\VFWindowsSwan/false/collection_Swan"       
+			}
+		},
+		{
+			"LogName": "VF - Swan Windows Rain Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "When": {
+                "Weather": "Rain, Storm, Snow"            },
+            "Entries": {
+				"VF.WhiteCurtainsWindow": "WhiteCurtainsWindow/painting/2 3/2 3/1/800/-1/{{i18n: WhiteCurtainsWindow}}/2/Mods\\VF.SwanFurniture\\VFWindowsSwan/false/collection_Swan",    
+				"VF.LaceCurtainsWindow": "LaceCurtainsWindow/painting/2 3/2 3/1/800/-1/{{i18n: LaceCurtainsWindow}}/6/Mods\\VF.SwanFurniture\\VFWindowsSwan/false/collection_Swan"
+			}
+		},
+		{
+			"LogName": "VF - Swan Windows Night Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+			"When": {"Time": "{{Range: 1900, 2600}}"},
+		 "Update": "OnLocationChange",
+            "Entries": {
+				"VF.WhiteCurtainsWindow": "WhiteCurtainsWindow/painting/2 3/2 3/1/800/-1/{{i18n: WhiteCurtainsWindow}}/2/Mods\\VF.SwanFurniture\\VFWindowsSwan/false/collection_Swan",    
+				"VF.LaceCurtainsWindow": "LaceCurtainsWindow/painting/2 3/2 3/1/800/-1/{{i18n: LaceCurtainsWindow}}/6/Mods\\VF.SwanFurniture\\VFWindowsSwan/false/collection_Swan"
+			}
+		}
+        
+        
+        
+           
+	]
+}

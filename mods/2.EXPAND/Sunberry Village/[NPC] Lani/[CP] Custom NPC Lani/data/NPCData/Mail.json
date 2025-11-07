@@ -1,0 +1,15 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Mail",
+		"Entries": {
+			"{{ModId}}_SolarionMMOReleaseMail": "{{i18n:Lani.Mail.SCMMOReleaseMail}} %item conversationTopic SolarionMMORelease 3 %%[#]{{i18n:Lani.Mail.SCMMOReleaseMailName}}",
+			"{{ModId}}_CongratulationsMail": "{{i18n:Lani.Mail.CongratulationsMail}} %item id (O)348%%[#]{{i18n:Lani.Mail.CongratulationsMailName}}",
+			"{{ModId}}_FertilizerQuestMail": "{{i18n:Lani.Mail.FertilizerQuestMail}} %item quest {{ModId}}_FertilizerQuest%%[#]{{i18n:Lani.Mail.FertilizerMailName}}",
+			"{{ModId}}_MarginalMail": "{{i18n:Lani.Mail.MarginalMail}}[#]{{i18n:Lani.Mail.MarginalMailName}}",
+			"{{ModId}}_MakingAmendsMail": "{{i18n:Lani.Mail.MakingAmendsMail}}[#]{{i18n:Lani.Mail.MakingAmendsMailName}}"
+		}
+	}
+	]
+}

@@ -1,0 +1,71 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Farming",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Skills/Farming.png",
+			"ToArea": { "X": 10, "Y": 428, "Width": 10, "Height": 10 },
+			"When": 
+			{
+				"Skills |contains= Farming": true
+			}
+		},
+        {
+			"LogName": "Fishing",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Skills/Fishing.png",
+			"ToArea": { "X": 20, "Y": 428, "Width": 10, "Height": 10 },
+			"When": 
+			{
+				"Skills |contains= Fishing": true
+			}
+		},
+        {
+			"LogName": "Mining",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Skills/Mining.png",
+			"ToArea": { "X": 30, "Y": 428, "Width": 10, "Height": 10 },
+			"When": 
+			{
+				"Skills |contains= Mining": true
+			}
+		},
+        {
+			"LogName": "Combat",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Skills/Combat.png",
+			"ToArea": { "X": 120, "Y": 428, "Width": 10, "Height": 10 },
+			"When": 
+			{
+				"Skills |contains= Combat": true
+			}
+		},
+        {
+			"LogName": "Luck",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Skills/Luck.png",
+			"ToArea": { "X": 50, "Y": 428, "Width": 10, "Height": 10 },
+			"When": 
+			{
+				"Skills |contains= Luck": true
+			}
+		},
+        {
+			"LogName": "Foraging",
+			"Action": "EditImage",
+			"Target": "LooseSprites/cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Skills/Foraging.png",
+			"ToArea": { "X": 60, "Y": 428, "Width": 10, "Height": 10 },
+			"When": 
+			{
+				"Skills |contains= Foraging": true
+			}
+		}
+    ]
+}

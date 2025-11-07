@@ -1,0 +1,48 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "Assets/Tilesheets/Door.png",
+      "Update": "OnLocationChange",
+      "PatchMode": "Replace",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 48
+      },
+      "ToArea": {
+        "X": 512,
+        "Y": 144,
+        "Width": 64,
+        "Height": 48
+      },
+      "When": {
+        "LocationName": "Custom_ShiFuShanHouse1,Custom_ShiFuShanHouse2,Custom_SandalwoodHotel1,Custom_SandalwoodHotel2,Custom_ArtisanShop1,Custom_ArtisanShop2,Custom_LiQingFengCafe1,Custom_LiQingFengCafe2,Custom_LiQingFengHouse1,Custom_LiQingFengHouse2,Custom_LiQingFengHouse3,Custom_ChenQiShop1,Custom_ChenQiShop2,Custom_MarlinShop1,Custom_MirrorLake.Building4.1,Custom_RedPandaBazaar.Building1.1,Custom_RedPandaBazaar.Building1.2"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "Assets/Tilesheets/townInterior_Door.png",
+      "Update": "OnLocationChange",
+      "PatchMode": "Replace",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 48
+      },
+      "ToArea": {
+        "X": 384,
+        "Y": 16,
+        "Width": 16,
+        "Height": 48
+      },
+      "When": {
+        "LocationName": "Custom_ShiFuShanHouse1,Custom_ShiFuShanHouse2,Custom_SandalwoodHotel1,Custom_SandalwoodHotel2,Custom_ArtisanShop1,Custom_ArtisanShop2,Custom_LiQingFengCafe1,Custom_LiQingFengCafe2,Custom_LiQingFengHouse1,Custom_LiQingFengHouse2,Custom_LiQingFengHouse3,Custom_ChenQiShop1,Custom_ChenQiShop2,Custom_MarlinShop1,Custom_MirrorLake.Building4.1,Custom_RedPandaBazaar.Building1.1,Custom_RedPandaBazaar.Building1.2"
+      }
+    }
+  ]
+}

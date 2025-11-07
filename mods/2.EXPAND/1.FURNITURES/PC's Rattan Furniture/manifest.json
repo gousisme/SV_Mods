@@ -1,0 +1,20 @@
+{
+    "Name": "PC's Rattan Furniture",
+    "Author": "PlatinumCats",
+    "Version": "2.0.0",
+    "Description": "A collection of rattan furniture by PlatinumCats.",
+    "UniqueID": "PC.RattanFurniture",
+    "UpdateKeys": [
+        "Nexus:27047"
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "sophie.Calcifer",
+            "IsRequired": true
+        }
+    ], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    }
+}

@@ -1,0 +1,34 @@
+
+{
+	"Changes": [
+		{
+
+      "LogName": "Add Bus Map For Events",
+      "Action": "Load",
+      "Target": "Data/Events/Aimon111.BusInterior_BusInterior",
+      "FromFile": "assets/code/blank.json"
+    },
+		
+	//-----------------------------------------EVENTS
+	 
+	 
+	
+	//---------------------------------------------------------bus Intro
+	 {
+	 "LogName": "Bus intro",
+      "Action": "EditData",
+      "Target": "Data/Events/Aimon111.BusInterior_BusInterior",
+      "Entries": {
+        "Aimon111.BusInterior1/w sunny/!e Aimon111.BusInterior2": 
+
+		"none/-1000 -1000/farmer 2 7 0/skippable/addConversationTopic Aimon111.BusIntorTalk/pause 1000/playSound stoneStep/pause 700/playSound stoneStep/pause 700/playSound stoneStep/pause 1000/stopMusic/pause 300/playMusic Hospital_Ambient/viewport 7 5 true/move farmer 0 -2 1/move farmer 2 0 1/pause 500/emote farmer 40/pause 1500/message \"Trông có vẻ đã bị bỏ hoang...\"/pause 1000/viewport move 1 0 2000/move farmer 2 0 1/pause 200/jump farmer 3/pause 800/message \"Kia có phải là...?\"/pause 500/message \"Gớm quá!\"/pause 400/speed farmer 4/jump farmer 8/speed farmer 3/move farmer 2 0 1/pause 300/faceDirection farmer 3/pause 700/faceDirection farmer 1/pause 1000/speed farmer 1/move farmer 7 0 0/pause 1000/emote farmer 8/pause 1000/message \"...Một cái thùng rác.\"/emote farmer 40/pause 1500/globalFade/viewport -1000 -1000/pause 1000/playSound dwop/pause 1000/playSound trashcanlid/pause 1000/playSound dirtyHit/pause 1000/playSound slimeHit/pause 1000/playSound trashcan/pause 200/playSound backpackIN/addItem (O)168 1 0/pause 1000/viewport 14 5 true/pause 500/faceDirection farmer 2/pause 500/move farmer -10 0 3 true/pause 500/emote farmer 56/pause 500/globalFade/viewport -1000 -1000/end warpOut",
+
+ "Aimon111.BusInterior2/w rainy/!e Aimon111.BusInterior1": 
+
+		"rain/-1000 -1000/farmer 2 7 0/skippable/addConversationTopic Aimon111.BusIntorTalk/pause 1000/playSound stoneStep/pause 700/playSound stoneStep/pause 700/playSound stoneStep/pause 1000/viewport 7 5 true/move farmer 0 -2 1/move farmer 2 0 1/pause 500/emote farmer 40/pause 1500/message \"Trông có vẻ đã bị bỏ hoang...\"/pause 1000/viewport move 1 0 2000/move farmer 2 0 1/pause 200/jump farmer 3/pause 800/message \"Kia có phải là...?\"/pause 500/message \"Gớm quá!\"/pause 400/speed farmer 4/jump farmer 8/speed farmer 3/move farmer 2 0 1/pause 300/faceDirection farmer 3/pause 700/faceDirection farmer 1/pause 1000/speed farmer 1/move farmer 7 0 0/pause 1000/emote farmer 8/pause 1000/message \"...Một cái thùng rác.\"/emote farmer 40/pause 1500/globalFade/viewport -1000 -1000/pause 1000/playSound dwop/pause 1000/playSound trashcanlid/pause 1000/playSound dirtyHit/pause 1000/playSound slimeHit/pause 1000/playSound trashcan/pause 200/playSound backpackIN/addItem (O)168 1 0/pause 1000/viewport 14 5 true/pause 500/faceDirection farmer 2/pause 500/move farmer -10 0 3 true/pause 500/emote farmer 56/pause 500/globalFade/viewport -1000 -1000/end warpOut"		
+		   }
+		},
+
+  ]
+}
+

@@ -1,0 +1,620 @@
+{
+    "Changes": [
+
+{
+"LogName": "Alchemy Table Rules",
+"Action": "EditData",
+"Target": "Data/Machines",
+"TargetField": ["(BC)skellady.SBVCP_AlchemyTable", "OutputRules"],
+"Priority":"Late",
+"Entries": {
+    "{{ModId}}_AlchemyTable_Candy_Button": {
+        "Id": "{{ModId}}_AlchemyTable_Candy_Button",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Candy_Button",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Deluxe Fertilizer",
+                "ItemId": "(O)919",
+                "MinStack": 7,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 60
+    },
+    "{{ModId}}_AlchemyTable_Stout_Funnel": {
+        "Id": "{{ModId}}_AlchemyTable_Stout_Funnel",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Stout_Funnel",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Deluxe Retaining Soil",
+                "ItemId": "(O)920",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 60
+    },
+    "{{ModId}}_AlchemyTable_Baby_Bluegill": {
+        "Id": "{{ModId}}_AlchemyTable_Baby_Bluegill",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Baby_Bluegill",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Quality Retaining Soil",
+                "ItemId": "(O)371",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 60
+    },
+    "{{ModId}}_AlchemyTable_Indigo_Cap": {
+        "Id": "{{ModId}}_AlchemyTable_Indigo_Cap",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Indigo_Cap",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Quality Fertilizer",
+                "ItemId": "(O)369",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Ghostly_Parasol": {
+        "Id": "{{ModId}}_AlchemyTable_Ghostly_Parasol",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Ghostly_Parasol",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Hyper Speed Gro",
+                "ItemId": "(O)918",
+                "MinStack": 5,
+                "MaxStack": 7,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Frilly_Gilly": {
+        "Id": "{{ModId}}_AlchemyTable_Frilly_Gilly",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Frilly_Gilly",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Deluxe Speed Gro",
+                "ItemId": "(O)466",
+                "MinStack": 7,
+                "MaxStack": 7,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Rustgill": {
+        "Id": "{{ModId}}_AlchemyTable_Rustgill",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Rustgill",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Tree Fertilizer",
+                "ItemId": "(O)805",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Midas_Cap": {
+        "Id": "{{ModId}}_AlchemyTable_Midas_Cap",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Midas_Cap",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Cinder Shards",
+                "ItemId": "(O)848",
+                "MinStack": 10,
+                "MaxStack": 10,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Mottled_Fieldcap": {
+        "Id": "{{ModId}}_AlchemyTable_Mottled_Fieldcap",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Mottled_Fieldcap",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Frozen Tear",
+                "ItemId": "(O)84",
+                "MinStack": 10,
+                "MaxStack": 10
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Coral_Fungus": {
+        "Id": "{{ModId}}_AlchemyTable_Coral_Fungus",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Coral_Fungus",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Battery Pack",
+                "ItemId": "(O)787",
+                "MinStack": 1,
+                "MaxStack": 3
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Unicorn_Horn": {
+        "Id": "{{ModId}}_AlchemyTable_Unicorn_Horn",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Unicorn_Horn",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Artifact Trove",
+                "ItemId": "(O)275",
+                "MinStack": 10,
+                "MaxStack": 10
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+    "{{ModId}}_AlchemyTable_Lady_Luck": {
+        "Id": "{{ModId}}_AlchemyTable_Lady_Luck",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Lady_Luck",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Blue Grass",
+                "ItemId": "(O)BlueGrassStarter",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+       /* "{{ModId}}_AlchemyTable_Chicken_Woods": {
+        "Id": "{{ModId}}_AlchemyTable_Chicken_Woods",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Chicken_Woods",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Egg",
+                "ItemId": "(O)174",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+        "{{ModId}}_AlchemyTable_Honey_Fungus": {
+        "Id": "{{ModId}}_AlchemyTable_Honey_Fungus",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Honey_Fungus",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Honey",
+                "ItemId": "(O)340",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+        "{{ModId}}_AlchemyTable_Meringue_Mushroom": {
+        "Id": "{{ModId}}_AlchemyTable_Meringue_Mushroom",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Meringue_Mushroom",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Sugar",
+                "ItemId": "(O)245",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+        "{{ModId}}_AlchemyTable_Milk_Mushroom": {
+        "Id": "{{ModId}}_AlchemyTable_Milk_Mushroom",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Milk_Mushroom",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Milk",
+                "ItemId": "(O)186",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },
+        "{{ModId}}_AlchemyTable_Wheatberry_Mushroom": {
+        "Id": "{{ModId}}_AlchemyTable_Wheatberry_Mushroom",
+        "Triggers": [
+            {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "{{ModId}}_Wheatberry_Mushroom",
+                "RequiredCount": 1
+            }
+        ],
+        "OutputItem": [
+            {
+                "Id": "Wheat_Flour",
+                "ItemId": "(O)246",
+                "MinStack": 1,
+                "MaxStack": 3,
+                "StackModifiers": [
+                    {
+                        "Id": "GoodForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                        "Modification": "Add",
+                        "Amount": 1
+                    },
+                    {
+                        "Id": "GreatForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                        "Modification": "Add",
+                        "Amount": 2
+                    },
+                    {
+                        "Id": "GreatestForager",
+                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                        "Modification": "Add",
+                        "Amount": 3
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 20
+    },*/
+},
+
+
+}
+
+]
+}

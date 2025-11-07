@@ -1,0 +1,481 @@
+{
+    "Changes": 
+    [
+
+// REGULAR FORAGE
+
+		{
+			"LogName": "Blackberry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Blackberry.png",
+			"ToArea": { "X": 32, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Blackberry": true
+			}
+		},
+        {
+			"LogName": "Cactus Fruit",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/CactusFruit.png",
+			"ToArea": { "X": 288, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+            {
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Cactus Fruit": true
+			}
+		},
+        {
+			"LogName": "Cave Carrot",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/CaveCarrot.png",
+			"ToArea": { "X": 96, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Cave Carrot": true
+			}
+		},
+        {
+			"LogName": "Coconut",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Coconut.png",
+			"ToArea": { "X": 256, "Y": 48, "Width": 16, "Height": 16 },
+			"When": 
+            {
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Coconut": true
+			}
+		},
+		{
+			"LogName": "Crocus",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Crocus.png",
+			"ToArea": { "X": 160, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Crocus": true
+			}
+		},
+        {
+			"LogName": "Crystal Fruit",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/CrystalFruit.png",
+			"ToArea": { "X": 96, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Crystal Fruit": true
+			}
+		},
+		{
+			"LogName": "Daffodil",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Daffodil.png",
+			"ToArea": { "X": 288, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Daffodil": true
+			}
+		},
+		{
+			"LogName": "Dandelion",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Dandelion.png",
+			"ToArea": { "X": 352, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Dandelion": true
+			}
+		},
+        {
+			"LogName": "Fiddlehead Fern",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/FiddleheadFern.png",
+			"ToArea": { "X": 304, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Fiddlehead Fern": true
+			}
+		},
+        {
+			"LogName": "Ginger",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Ginger.png",
+			"ToArea": { "X": 208, "Y": 544, "Width": 16, "Height": 16 },
+			"When": 
+            {
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Ginger": true
+			}
+		},
+        {
+			"LogName": "Golden Coconut",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/GoldenCoconut.png",
+			"ToArea": { "X": 368, "Y": 512, "Width": 16, "Height": 16 },
+			"When": 
+            {
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Golden Coconut": true
+			}
+		},
+        {
+			"LogName": "Hazelnut",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Hazelnut.png",
+			"ToArea": { "X": 0, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Hazelnut": true
+			}
+		},
+        {
+			"LogName": "Holly",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Holly.png",
+			"ToArea": { "X": 304, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Holly": true
+			}
+		},
+        {
+			"LogName": "Leek",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Leek.png",
+			"ToArea": { "X": 320, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Leek": true
+			}
+		},
+        {
+			"LogName": "Mystic Seed",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/MysticSeed.png",
+			"ToArea": { "X": 80, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+            {
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Mystic Seed": true
+			}
+		},
+        {
+			"LogName": "Salmonberry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/Salmonberry.png",
+			"ToArea": { "X": 128, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Salmonberry": true
+			}
+		},
+        {
+			"LogName": "Snow Yam",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/SnowYam.png",
+			"ToArea": { "X": 128, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Snow Yam": true
+			}
+		},
+        {
+			"LogName": "Spice Berry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/SpiceBerry.png",
+			"ToArea": { "X": 192, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Spice Berry": true
+			}
+		},
+        {
+			"LogName": "Spring Onion",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/SpringOnion.png",
+			"ToArea": { "X": 240, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Spring Onion": true
+			}
+		},
+        {
+			"LogName": "Sweet Pea",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/SweetPea.png",
+			"ToArea": { "X": 288, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Sweet Pea": true
+			}
+		},
+        {
+			"LogName": "Wild Horseradish",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/WildHorseradish.png",
+			"ToArea": { "X": 256, "Y": 0, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Wild Horseradish": true
+			}
+		},
+        {
+			"LogName": "Wild Plum",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/WildPlum.png",
+			"ToArea": { "X": 352, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Wild Plum": true
+			}
+		},
+        {
+			"LogName": "Winter Root",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Forage/WinterRoot.png",
+			"ToArea": { "X": 64, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularForageEnabled": "True",
+				"RegularForage |contains= Winter Root": true
+			}
+		},
+
+// MUSHROOMS
+
+		{
+			"LogName": "Chanterelle",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/Chanterelle.png",
+			"ToArea": { "X": 272, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Chanterelle": true
+			}
+		},
+        {
+			"LogName": "Common Mushroom",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/CommonMushroom.png",
+			"ToArea": { "X": 320, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Common Mushroom": true
+			}
+		},
+        {
+			"LogName": "Magma Cap",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/MagmaCap.png",
+			"ToArea": { "X": 176, "Y": 560, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Magma Cap": true
+			}
+		},
+        {
+			"LogName": "False Magma Cap",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/False Magma Cap",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/FalseMagmaCap.png",
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Magma Cap": true
+			}
+		},
+		{
+			"LogName": "Morel",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/Morel.png",
+			"ToArea": { "X": 272, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Morel": true
+			}
+		},
+        {
+			"LogName": "Purple Mushroom",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/PurpleMushroom.png",
+			"ToArea": { "X": 224, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Purple Mushroom": true
+			}
+		},
+		{
+			"LogName": "Red Mushroom",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/Mushrooms/RedMushroom.png",
+			"ToArea": { "X": 192, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MushroomForageEnabled": "True",
+				"MushroomForage |contains= Red Mushroom": true
+			}
+		},
+
+// TREE FORAGE
+
+		{
+			"LogName": "Acorn",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/Acorn.png",
+			"ToArea": { "X": 336, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Acorn": true
+			}
+		},
+		{
+			"LogName": "Mahogany Seed",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/MahoganySeed.png",
+			"ToArea": { "X": 64, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Mahogany Seed": true
+			}
+		},
+		{
+			"LogName": "Maple Seed",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/MapleSeed.png",
+			"ToArea": { "X": 352, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Maple Seed": true
+			}
+		},
+		{
+			"LogName": "Maple Syrup",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/MapleSyrup.png",
+			"ToArea": { "X": 64, "Y": 480, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Maple Syrup": true
+			}
+		},
+		{
+			"LogName": "Mystic Syrup",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/MysticSyrup.png",
+			"ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Mystic Syrup": true
+			}
+		},		
+		{
+			"LogName": "Oak Resin",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/OakResin.png",
+			"ToArea": { "X": 80, "Y": 480, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Oak Resin": true
+			}
+		},
+		{
+			"LogName": "Pinecone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/Pinecone.png",
+			"ToArea": { "X": 368, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Pinecone": true
+			}
+		},
+		{
+			"LogName": "Pine Tar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/PineTar.png",
+			"ToArea": { "X": 96, "Y": 480, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Pine Tar": true
+			}
+		},
+		{
+			"LogName": "Sap",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Forage/TreeForage/Sap.png",
+			"ToArea": { "X": 320, "Y": 48, "Width": 16, "Height": 16 },
+			"When":
+			{
+				"TreeForageEnabled": "True",
+				"TreeForage |contains= Sap": true
+			}
+		}
+    ]
+}

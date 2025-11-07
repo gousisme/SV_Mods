@@ -1,0 +1,78 @@
+{
+	"Changes": [
+		{
+		"LogName": "LBXLW_DCUWCF Catalogue Data",
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+		"LBXLW_DCUWCF_CatalogueDesk": "LBXLW DCUWCF Catalogue Desk/other/2 2/2 1/1/5200/2/{{i18n:LBXLW_DCUWCF_CatalogueDesk}}/8/Mods\\LBXLW_DCUWC_Furniture\\Furniture1/true"
+        }
+        },
+        {
+		"LogName": "LBXLW_DCUWCF Catalogue Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+        "LBXLW_DCUWCF_Catalogue_Shop": {
+                "PriceModifiers": null,
+                "PriceModifierMode": "Stack",
+                "Items": [
+                    {
+                        "Price": 0,
+                        "AvailableStockLimit": "Global",
+                        "AvoidRepeat": false,
+                        "UseObjectDataPrice": false,
+                        "IgnoreShopPriceModifiers": false,
+                        "PriceModifiers": null,
+                        "PriceModifierMode": "Stack",
+                        "AvailableStockModifiers": null,
+                        "AvailableStockModifierMode": "Stack",
+                        "Condition": null,
+                        "Id": "Default",
+                        "ItemId": "ALL_ITEMS (F)",
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_LBXLWDCUWCFurniture"
+                    }
+                ],
+                "CustomFields": {
+                        "HappyHomeDesigner/Catalogue": "true"
+                    }
+                }
+        }
+        },
+        {
+        "LogName": "Add Catalogue Tile Actions",
+        "Action": "EditData",
+        "Target": "sophie.Calcifer/FurnitureActions",
+        "Entries": {
+        "(F)LBXLW_DCUWCF_CatalogueDesk": {
+                "TileActions": [
+                    {
+                    "TileAction": "OpenShop LBXLW_DCUWCF_Catalogue_Shop"
+                    }
+			    ]
+	    }
+		}
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [
+            "Carpenter",
+            "Items"
+        ],
+        "Entries": {
+        "LBXLW_DCUWCF_CatalogueDesk": {
+        "Id": "LBXLW TailorShop CatalogueDesk",
+        "ItemId": "(F)LBXLW_DCUWCF_CatalogueDesk",
+        "UseObjectDataPrice": true
+        }
+        }
+        }
+            
+
+	]
+}
+

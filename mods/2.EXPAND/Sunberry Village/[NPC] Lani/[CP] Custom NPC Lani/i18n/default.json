@@ -1,0 +1,758 @@
+{
+	"$schema": "https://smapi.io/schemas/i18n.json",
+	// DISPOSITION
+	"Lani.Name": "Lani",
+	"Lani.Gift.Love": "OMG, I love this!$4#$b#Thank you so much for thinking of me, seriously.$1",
+	"Lani.Gift.Like": "Oh, wow! Thank you so much.$1#$b#How'd you know I liked this?$1",
+	"Lani.Gift.Neutral": "Oh, uh, thanks!$12#$b#I... am I supposed to give you something back?$7#$b#No?$7#$b#Oh, okay.",
+	"Lani.Gift.Dislike": "Um... Thanks, I guess.$8",
+	"Lani.Gift.Hate": "Are you kidding me right now?$5#$b#Jokes are supposed to be funny, y'know.$13",
+	"Lani.Gift.Sunflower": "Aww, a Sunflower? This is my favorite flower! Thank you so much.$4#$b#I'm gonna plant the seeds in my garden! I'll reserve a special space for the @ Sunflower.$12",
+	"Lani.Gift.Spangle": "A Summer Spangle! These are gorgeous! @, thank you so much...$4#$b#I'm a little embarrassed, I don't have anything to give you in return!$7#$b#I appreciate it, nonetheless.$9#$e#Thanks again.$1",
+	"Lani.Gift.BatteryPack": "I was actually just about to order another pack of these on Jojazon! Thanks so much, @.$1#$b#If you ever come across any more, feel free to donate them to me! I'll make good use of them.$12",
+	"Lani.Gift.Opals": "Ah! It's so pretty! It's... for me?$1#$b#Really?$4#$b#Oh my gosh, I LOVE Opals so much. I wish they were my birthstone so I'd have a passable societal excuse to hoard some cool rocks, but instead, they're just my little trinkets.$4#$b#Maybe I'll have Clint fashion this into some jewelry for me...$1#$e#Thanks, @!$4",
+	"Lani.Gift.Soju": "Ahhh, yes, the pinnacle of alcohol... Thank you so much, @! Soju is my absolute favorite.$4#$b#I could kiss you right now.$1#$b#But I won't.#$b#Haha, unless..?$11",
+	
+	// CTs
+	"Lani.Dialogue.Introduction": "Hi.$6#$b#I'm Lani.#$b#Sorry, I'm not one for introductions...$7#$e#See you around, I guess.",
+	"Lani.Dialogue.danceAccept": "Oh, sure! Let's do this thing.$1#$e#See you up there!$3",
+	"Lani.Dialogue.danceRejection": "Um, I'm kind of hoping someone else asks me... Sorry.$7",
+	"Lani.Dialogue.GreenRain": "What on Yoba's green earth is this weird weather?$13#$b#My alarm didn't even work this morning.$5#$e#I get I'm supposed to be scared, but like... if this means nobody's bothering me, I love it.$3",
+	"Lani.Dialogue.GreenRainFinished": "Finally. Ugh.$13#$b#I hope my PC survived this weird rain.$2",
+	"Lani.Dialogue.GreenRain_2": "Ugh, this weather again.$6#$b#PC is inexplicably fine, so I don't mind. I do wish the TV worked, though...$2",
+	//"Lani.Dialogue.Resort_Entering": "",
+	//"Lani.Dialogue.Resort_Leaving": "",
+	//"Lani.Dialogue.Resort_Shore": "",
+	//"Lani.Dialogue.Resort_Chair": "",
+	//"Lani.Dialogue.Resort_Bar": "",
+	//"Lani.Dialogue.Resort": "",
+	//"Lani.Dialogue.Resort_Towel": "",
+	//"Lani.Dialogue.Resort_Umbrella": "",
+	//"Lani.Dialogue.Resort_Wander": "",
+	"Lani.Dialogue.Movie_Invitation": "Oh, woah. Yeah, sure, I'll go!$1#$b#...As long as you're buying! Hehe.$11",
+	"Lani.Dialogue.cc_Begin": "Did Lewis try and recruit you to 'fix up the old community center'?#$b#Yeah, he does that to... everyone.$7#$e#I just stared at him like this when he tried to get me to do it.$8",
+	"Lani.Dialogue.cc_Boulder": "Did you hear the explosion last night?#$b#I thought it was an earthquake or something and freaked out.$2",
+	"Lani.Dialogue.cc_Bridge": "Did Robin fix that bridge by the mines?#$b#I asked her about it, but she acted like she didn't know...$2#$e#Who else would've fixed it?$6",
+	"Lani.Dialogue.cc_Bus": "The bus got fixed overnight. Do you know what this means?$3#$b#It means I don't have to pay a bunch of money to get an Oober to drive me to the city!$4",
+	"Lani.Dialogue.cc_Bus.NoModern": "The bus got fixed overnight. Do you know what this means?$3#$b#It means I don't have to pay a bunch of money to get a taxi to drive me to the city!$4",
+	"Lani.Dialogue.cc_Greenhouse": "Pelican Town won't shut up about your greenhouse getting fixed.$7#$e#What're you gonna grow?",
+	"Lani.Dialogue.cc_Complete": "Hey, at least Lewis'll stop asking whatever young person moves in to fix the damn thing.$7#$e#I'll cheers to that.$3",
+	"Lani.Dialogue.movieTheater": "Now that we have a movie theatre in town, I don’t have to go all the way to Grampleton!$1#$b#Then again, I usually just watch things at home, anyways...$7",
+	"Lani.Dialogue.luauBest": "Y'know how I said the soup always tastes the same? Maaaybe I was wrong...$7#$b#This is really good.$4",
+	"Lani.Dialogue.luauShorts": "LOL, the shorts in the soup is a crazy move. Probably Top 1 thing I've gotten to experience in this town.$11#$b#If only there was chaos like this every year!$3",
+	"Lani.Dialogue.luauPoisoned": "Um... You, uh, you tasted that soup?$8#$b#Yeah, that's... That's the stuff of nightmares, lowkey.$7#$b#I'm gonna dump the rest of this...$2",
+	"Lani.Dialogue.luauPoisoned.NoModern": "Um... You, uh, you tasted that soup?$8#$b#Yeah, that's... That's the stuff of nightmares, honestly.$7#$b#I'm gonna dump the rest of this...$2",
+	"Lani.Dialogue.AriGetsSlimed": "Big yikes. Didja hear? Blake and Lyenne are in hot water right now...$2#$e#See, this is why I don't do pranks. One variable goes wrong and the whole thing goes to shit.$13",
+	"Lani.Dialogue.AriGetsSlimed.NoModern": "Didja hear? Blake and Lyenne are in hot water right now...$2#$e#See, this is why I don't do pranks. One variable goes wrong and the whole thing goes to shit.$13",
+	"Lani.Dialogue.TellAbigail": "I can't believe you told her. She keeps making jokes about it...$2#$e#I can't face Pierre like this. I'm going to die of embarrassment.$17",
+	"Lani.Dialogue.TellAbigail_Abigail": "Oh, I totally had a feeling Lani had a thing for my dad.$1#$b#Nobody else comes in here as much as she does to 'browse the shelves', if you know what I mean.#$e#My mom thinks it's hilarious, and my dad is sooo embarrassed. It's great.$1",
+	"Lani.Dialogue.TellAbigail_Pierre": "...Well then.$4#$b#Maybe I should just...$2#$b#Oh, uh, sorry about that, Farmer @! I was talking to myself about something...$1",
+	"Lani.Dialogue.TellAbigail_Caroline": "It's flattering to me to know that my husband still has admirers.#$b#Especially ones as darling as Lani is!$1",
+	"Lani.Dialogue.DiggingOnSterling.0": "How did I not know he's been back? For FOUR MONTHS?$14#$b#How did I miss him? There's just no possible way...$2",
+	"Lani.Dialogue.DiggingOnSterling.1": "'Hey, Sterling!'$1#$b#...No, no, that's too cheery.$6#$b#'What's up, dude?'$3#$b#Oh Yoba, I'm never leaving my house again. I can't.$14",
+	"Lani.Dialogue.DiggingOnSterling.2": "Sterling and I didn't end on bad terms or anything.$7#$b#In fact, I'd venture to say we ended on a high note, if y'know what I mean...$11#$b#B-But that's besides the point.$8#$e#Has he said anything about me?$15#$b#No, I don't care, I'm just... extremely curious.$10",
+	"Lani.Dialogue.DiggingOnSterling.3": "But seriously, dude, what do you even say to someone you hooked up with like, three years ago after randomly running into them again?$8#$e#Am I overthinking this? This is like, textbook awkward situation, right?$7",
+	"Lani.Dialogue.DiggingOnSterling.4": "%Lani is stewing about the Sterling situation.#$b#...Do you think he'd...$2#$b#No, no... He wouldn't.$7",
+	"Lani.Dialogue.grillHangout.0": "Oh, nice! You came!$12#$b#Make sure you have some of my chili. I promise it's really good!$1",
+	"Lani.Dialogue.grillHangout.1": "Jonghyuk's got his shirt off...$4#$b#%Lani is staring at him unabashed.",
+	"Lani.Dialogue.twilightFestival": "You tried any of this food? It's AMAZING.$4#$e#I think if I keep standing here, I'm gonna overeat...$2",
+	"Lani.Dialogue.twilightFestival2": "Oh, you found me again. Enjoying yourself?$12#$e#I'd go to where the action is, but I always get a little overwhelmed with all the people.$6",
+	"Lani.Dialogue.SolarionMMORelease.0": "The Solarion Chronicles MMO is finally released... I'm so excited!$4#$e#I'm gonna play it all weekend.$1",
+	"Lani.Dialogue.SolarionMMORelease.1": "Didja hear about the new Solarion Chronicles MMO that came out?$1#$b#Sebastian, Sam and I are gonna play together after we go to the Saloon on Friday.#$b#You should join!$1",  
+	"Lani.Dialogue.SolarionMMORelease.2": "Hey, @. Sebastian, Sam and I are gonna hop onto the Solarion Chronicles MMO tonight for the opening.$12#$b#Wanna join?$1",
+	"Lani.Dialogue.keahi_prank": "Um, there's not a nice way to say this, but...$2#$b#You smell SO bad.$14",
+	"Lani.Dialogue.MeetTheCats": "Have you seen the cats hanging around here? They're sooo cute!$1#$b#One of them let me pet them before I went to work.$4#$e#I hope they're eating enough...$2",
+	"Lani.Dialogue.JukeboxFire": "Jonghyuk told me about the jukebox fire. Honestly, pretty hilarious.$3#$b#I don't know if you know who it was, so I'll just... be quiet about it.#$e#At least I won't have to deal with Sam sabotaging the queue with horrible songs for a while...$11",
+	"Lani.Dialogue.dating_Jonghyuk": "So... Uh, I heard you're dating Jonghyuk?$7#$b#Oh, just heard it through the grapevine... Small town and all, haha.$7#$b#Sorry, do I look sad? I'm not. Really. It's just my face.$2#$e#%Lani doesn't seem to want to talk to you anymore.",
+	"Lani.Dialogue.SpannerRaccoonRivalry": "I hope the raccoon enjoys that sandwich.$3#$e#What? I like animals, sue me.$6#$b#They deserve a little treat sometimes, even if it was snatched out of a child's hands.$3#$b#It's easy to take candy from a baby, after all.$11",
+	"Lani.Dialogue.jhWaterLantern1": "I cried a lot at the lantern festival yesterday.$2#$b#My eyes are probably still red, huh?$7",
+	"Lani.Dialogue.SpannerMinesCollapse": "Did you hear the quake last night? Silas said the mines collapsed.$16#$e#Do you think..?$6#$b#Yeah, it was definitely him. That kid worries me.$2",
+	
+	"Lani.Dialogue.GiveGift_Before": "Soooo, as you can see, I'm your gift giver this year...#$b#I hope you like it, @. Happy Winter Star!$12", //winter star
+	"Lani.Dialogue.GiveGift_After": "Do you like it? I thought long and hard about what to get you.$12#$b#Hopefully you enjoy it!$1", //winter star
+	"Lani.Dialogue.ReceiveGift": "I had a feeling you were my gift-giver this year!$1#$b#Thank you for the present, @, I really appreciate it.$9#$b#Happy Winter Star!$1",
+	"Lani.Dialogue.ReceiveGift_Jelly": "...Are you serious?$13#$b#Is this a joke?$5#$b#You probably think this is really funny, but you just ruined my Winter Star.$13#$b#Screw you.$5",
+	
+	// Vanilla+ CFD
+	"Lani.Dialogue.RejectBouquet_NotDatable.0": "I'm gonna have to pass on that, chief.$6", //give_flowersA
+	"Lani.Dialogue.RejectBouquet_NotDatable.1": "Oh! These are... nice.$16#$b#...What do you want me to do with them?$7", //give_flowersB
+	"Lani.Dialogue.RejectBouquet_NotDatable.2": "Uhhh, no. Thanks.$6", //rejectNPCA
+	"Lani.Dialogue.RejectBouquet_NotDatable.3": "You're not my type. Sorry.$8", //rejectNPCB
+	"Lani.Dialogue.RejectMermaidPendant_NotDatable": "Nice! Who is this for?$1#$b#...Surely not me, right?$7", //give_pendant
+	"Lani.Dialogue.RejectBouquet_VeryLowHearts.0": "I'm flattered, but... sorry.$7", //reject_two_heartA
+	"Lani.Dialogue.RejectBouquet_VeryLowHearts.1": "Um, I, uh... I don't really want to.$8", //reject_two_heartB
+	"Lani.Dialogue.RejectBouquet_LowHearts.0": "If you'd asked me a year ago, I'd have said yes.$3", //reject_four_heartA
+	"Lani.Dialogue.RejectBouquet_LowHearts.1": "I like someone else, I'm sorry.$7", //reject_four_heartB
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.0": "Umm, are you serious?$8#$b#Are you blind?$13#$b#Stupid, perhaps?$6", //engageA
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.1": "Okay, you're not hot enough to be doing this weird shit.$14#$b#Stop while you're ahead.$13", //engageB
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.2": "Very funny. I sure hope {0} doesn't find out about this...$13", //marriedA
+	"Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.3": "%Lani stares ominously at you before pulling out her phone and dialing {0}'s number.", //marriedB
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts.0": "*sigh* Really...$13", //refusal_knownA
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts.1": "Please leave me alone. I don't have the spoons for this.$13", //refusal_knownB
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts_AskedAgain.0": "Take a hint and buzz off!$5", //refusal_botherA
+	"Lani.Dialogue.RejectMermaidPendant_Under10Hearts_AskedAgain.1": "Asking me again isn't going to change the answer.$5", //refusal_botherB
+	"Lani.Dialogue.RejectMermaidPendant.2": "Is this a prank?$13", //refusal_no_heartsA
+	"Lani.Dialogue.RejectMermaidPendant.1": "%Lani stares at you with an eyebrow raised.", //refusal_no_heartsB
+	"Lani.Dialogue.AcceptBirthdayGift_Loved.0": "@!$4#$b#...@!$17#$b#I'm sorry, it's just so nice to be cared about...$18#$e#Thank you.$10", //birthdayLoveA
+	"Lani.Dialogue.AcceptBirthdayGift_Loved.1": "No way! Is that...$16#$b#Oh Yoba, it is!$1#$b#Thank you! You just made my day!$4", //birthdayLoveB
+	"Lani.Dialogue.AcceptBirthdayGift_Liked.0": "Ooh, thank you! I like these.$1", //birthdayLikeA
+	"Lani.Dialogue.AcceptBirthdayGift_Liked.1": "You got me this birthday gift just as I was thinking about buying the same thing...$12#$b#Thank you, @.$1", //birthdayLikeB
+	"Lani.Dialogue.AcceptBirthdayGift_Negative.0": "Oh... You didn't have to get me anything...$7#$b#No, really, you shouldn't have...$8", //birthdayDislikeA
+	"Lani.Dialogue.AcceptBirthdayGift_Negative.1": "...Uh, thanks..? I... okay.$7", //birthdayDislikeB
+	"Lani.Dialogue.AcceptBirthdayGift_Neutral.0": "Thanks for the gift!$12", //birthdayNeutralA
+	"Lani.Dialogue.AcceptBirthdayGift_Neutral.1": "Oh. Thanks for thinking of me.$12", //birthdayNeutralB
+	
+	"Lani.Dialogue.spring_1_2": "Spring is here. Cheers to new beginnings!$1#$e#I’m excited to plant more flowers.$12",
+	"Lani.Dialogue.spring_12": "If I had it my way, I'd destroy everyone at the Egg Festival.$11#$e#Lewis banned me from participating because I was 'overly competitive'.$13#$b#Whatever.$6#$e#If Abigail wins again, I'm gonna lose my mind.$5", // Day before the Egg Festival
+	"Lani.Dialogue.spring_14": "@! Hot tip for ya: give Haley something nice today.$12#$e#Don’t ask me why, just do it!$1#$b#She’ll be really happy.$1", // Haley's birthday
+	"Lani.Dialogue.spring_23": "Tomorrow's the Flower Dance...#$b#Last year was a trainwreck, so hopefully it goes better this year.$6#$e#No, I will not elaborate.$8", // Day before the Flower Dance
+	"Lani.Dialogue.spring_26": "I got Pierre the best gift this year. He's gonna flip!$1#$e#I hope he likes it, though... I worked hard on it.$9", // Pierre's birthday
+	"Lani.Dialogue.summer_1": "Aaand it's hot out now. Great.$2#$b#Hope you're ready to sweat, because it gets WAY too hot here.$2",
+	"Lani.Dialogue.summer_10": "You didn’t hear this from me, but Maru’s birthday is today, and she’s on the market for a Battery Pack...$3#$b#You didn’t hear it from me, though!$11", // Day before the Luau & MARU'S BDAY
+	"Lani.Dialogue.summer_15": "Guess what day it is? I'm a year older now.$9#$b#I'm not a fan of birthdays, really... no real reason, just stopped caring.$7#$b#Always love the free stuff, though!$12", // Lani's birthday
+	"Lani.Dialogue.summer_27": "Are you going to the festival tomorrow?$12#$b#Maybe I'll see you there.", // Day before the Midnight Jellies
+	"Lani.Dialogue.fall_1": "Fall is so beautiful here in Pelican Town. The leaves ACTUALLY change color.$12#$e#If you see me jump in a pile of leaves, no you didn't.$8",
+	"Lani.Dialogue.fall_15": "Pierre's already deciding his setup for the fair tomorrow.$1#$e#Grampleton's fair has really cool rides, but Pelican Town's has way better food.", // Day before the Stardew Fair
+	"Lani.Dialogue.fall_21": "Oh, you just reminded me it's Robin's birthday today!$1#$b#Aaand I left her gift on the kitchen counter...$8", // Robin's birthday
+	"Lani.Dialogue.fall_26": "Gonna debut my costume at the Spirit's Eve festival tomorrow...$12#$b#I don’t feel mentally ready, do you?$7", // Day before Spirit's Eve
+	"Lani.Dialogue.winter_1": "It's snow season!!!$4#$e#Every time I see snow, I always get excited.$1#$b#Where I grew up never had snow, so getting to see it all the time here is awesome.$12",
+	"Lani.Dialogue.winter_7": "Worst festival of the year is tomorrow...$2#$b#Ready to freeze your butt off?$6", // Day before the Ice Festival
+	"Lani.Dialogue.winter_10": "Oh, @! Make sure to tell Sebastian happy birthday today.$3#$b#He hates it when I remind everyone.$11#$b#I have to do my duty as a friend by letting everyone know!$3", // Sebastian's Birthday
+	"Lani.Dialogue.winter_14": "Maru, Seb and I are gonna go to the Night Market on the 16th.#$b#You should come! It's pretty neato.$12", // Day before the Night Market
+	"Lani.Dialogue.winter_24": "Did you already get your gift for your Winter Star gift buddy?#$e#I hope they like my present... I put a lot of thought into it.$12", // Day before Winter Star
+	
+	// Schedule Strings
+	"Lani.Schedule.NightMarket.000": "I think these Lupini paintings are fakes. Why else would they sell for so cheap? Plus, the brushwork is all wonked...",
+	"Lani.Schedule.SeedShop.000": "%Lani is slowly stacking shelves and peering at the front desk from between the products.#$b#Oh, uh. Hey. Did you need something in this aisle?$12",
+	"Lani.Schedule.BathHouse.0": "Oh, hey. How's it hangin'?$12",
+	"Lani.Schedule.BathHouse.1": "There's an entire pool here, and you just... have to be right here, huh?$7",
+	"Lani.Schedule.BathHouse.2": "Jeez, you scared me! I didn't expect anyone else to be in here.$16",
+	
+	
+	// Dialogue 
+	"Lani.Dialogue.Mon.0": "Uh, hi.#$b#I'm kind of in the middle of something, so... Yeah.",
+	"Lani.Dialogue.Mon.1": "Guh... what a day...$2#$e#I can't believe how tech-illiterate people are in this day and age...$13",
+	"Lani.Dialogue.Mon.2": "%Lani raises an eyebrow.#$b#Need something?$6",
+	"Lani.Dialogue.summer_Mon": "If the bugs weren't in full swing in spring, they're sure out now...$2#$e#Ugh...$2",
+	"Lani.Dialogue.fall_Mon": "Enjoying the season?#$b#It's the prettiest one, color-wise, in my opinion.$12",
+	"Lani.Dialogue.winter_Mon": "It's freakin' cold out today.$2#$e#Aren't you cold?$7",
+	
+	"Lani.Dialogue.Tue.0": "%Lani looks at you expectantly with an eyebrow raised.",
+	"Lani.Dialogue.Tue.1": "%Lani is listening to something on her phone. If you peer over her shoulder, you can almost see the title.#$e#Are you... What are you doing?$6#$b#Are you about to do that stupid TokTok trend where you ask me what I'm listening to?$14#$b#Please don't.$13",
+	"Lani.Dialogue.Tue.1.NoModern": "%Lani is listening to something on her DiscThing. If you lean close enough, you can almost hear through her headphones.#$e#Are you... What are you doing?$6#$b#Um, hello? Ever heard of personal space?$14#$b#If you wanted to know what I was listening to, just ask next time.$13",
+	"Lani.Dialogue.Tue.2": "Hey, @.$6#$b#I just... ugh, I saw some news on Tweeter about this game I was looking forward to getting cancelled.$2#$b#Game dev is tough.$2",
+	"Lani.Dialogue.Tue.2.NoModern": "Hey, @.$6#$b#I just... ugh, I saw some news in the Electronic Gaming Monthly magazine about this game I was looking forward to getting cancelled.$2#$b#Game dev is tough.$2",
+	"Lani.Dialogue.summer_Tue": "It's summer, and it's hot.$13#$b#If you don't need anything, I'm gonna be melting.$2",
+	"Lani.Dialogue.fall_Tue": "New school year just started. Y'know what that means?$2#$b#New beasts- I mean, students, to avoid...$7",
+	"Lani.Dialogue.winter_Tue": "I love snow, but Yoba, I do horrible with cold.$2#$b#Makes me want to stay inside all day and cocoon in blankets.",
+	
+	"Lani.Dialogue.Wed.0": "Did you, like, need something? Or...$6#$e#Uh huh. Hi, I guess.",
+	"Lani.Dialogue.Wed.1": "...This cake isn't for me. It's for Haley. %revealtasteHaley:(O)221#$e#I... I'm bringing her a Pink Cake. From Zuzu.#$b#It's her favorite thing to eat.$12", 
+	"Lani.Dialogue.Wed.2": "It is Wednesday, my dudes.#$b#%Lani starts screaming.",
+	"Lani.Dialogue.summer_Wed": "Have you seen...$6#$b#Nevermind.#$e#Something you just did reminded me of a NewTube video I saw... That's all.$8",
+	"Lani.Dialogue.summer_Wed.NoModern": "Have you seen...$6#$b#Nevermind.#$e#Something you just did reminded me of something I saw on the internet once... That's all.$8",
+	"Lani.Dialogue.fall_Wed": "Fall means it's Blackberry season.#$b#Blackberry pie, blackberry cobbler, blackberry jam, blackberry everything...$2#$b#%Lani grimaces at the thought.", 
+	"Lani.Dialogue.winter_Wed": "I stayed up late last night just watching snow fall outside my window.$12#$b#Worth it, I'd say, but man, am I tired.",
+	
+	"Lani.Dialogue.Thu.0": "...Hi. You, uh, seem to be pretty social. I see you around town talking to people.#$b#I'm more of an introvert. I don't really do too well with talking to people.$2",
+	"Lani.Dialogue.Thu.1": "Today's one of those days where you just gotta put on a playlist and just... decompress.$2",
+	"Lani.Dialogue.Thu.2": "Marnie's cows are so cute...$9#$b#I go to the forest and feed them sometimes.$12",
+	"Lani.Dialogue.summer_Thu": "Oh, it's you again.#$b#Are you growing any Sunflowers on your farm? They're my f...$1#$b#...nevermind.#$e#Uh, bye.$7",
+	"Lani.Dialogue.fall_Thu": "Pretty sure the only thing people look forward to this season is the Fair and the Spirit's Eve festival. Always draws such a crowd...#$e#Fall is the season of chaos and ruining my serenity.$2",
+	"Lani.Dialogue.winter_Thu": "This stupid jacket can't keep me warm enough...$2",
+	
+	"Lani.Dialogue.Fri.0": "I'm not great at small talk, so...#$b#I hope you're okay with silence.",
+	"Lani.Dialogue.Fri.1": "Must be lonely on that huge farm.#$e#If it were my land, I'd build a barn and a few coops for some animals.$12",
+	"Lani.Dialogue.Fri.2": "Oh, hey. By the way, I never asked... how old are you? I'm twenty five.
+	#$q SBVLani.ageQuestion.younger/SBVLani.ageQuestion.same/SBVLani.ageQuestion.older ageQuestion_followup#Are you younger or older than me?
+	#$r SBVLani.ageQuestion.younger 0 ageQuestion_younger#I'm younger than you.
+	#$r SBVLani.ageQuestion.same 10 ageQuestion_same#We're the same age!
+	#$r SBVLani.ageQuestion.older 0 ageQuestion_older#I'm older than you.",
+	"Lani.Dialogue.ageQuestion_younger": "Oh, you're still a baby! Lucky you.$3",
+	"Lani.Dialogue.ageQuestion_same": "It's always nice having some people your age in a small town like this.$12#$b#Like, I definitely wouldn't want to be friends with an eighteen year old...$2#$b#They just don't understand things like we do yet.$7",
+	"Lani.Dialogue.ageQuestion_older": "What?! No way! I thought you were my age!$16#$b#Well, if it's any consolation, you look pretty young.$12",
+	"Lani.Dialogue.ageQuestion_followup": "I never would've guessed that's how old you were.",
+	"Lani.Dialogue.summer_Fri": "Still running around chatting up the town, I see.#$b#Well, don't let me stop your crusade. Carry on.$3",
+	"Lani.Dialogue.fall_Fri": "Grampleton High mailed me my paycheck, but it got lost in transit.$2#$b#How? How do you lose that?$13#$b#I don't even know why they mailed it when I could've taken the bus there to get it. Makes absolutely zero sense.$5",
+	"Lani.Dialogue.winter_Fri": "Too cold.$2#$b#Can’t talk.$2#$b#Shutting down social functions to stay warm.$2",
+	
+	"Lani.Dialogue.Sat.0": "%Lani raises her hand in greeting. She doesn't say a word.",
+	"Lani.Dialogue.Sat.1": "You should go to the library once in a while. Reading is fun.$12",
+	"Lani.Dialogue.Sat.2": "Have you ever gone to an aquarium?#$b#I love seeing the fishies.$12",
+	"Lani.Dialogue.summer_Sat": "...I had a dream about you yesterday.$6#$b#You didn't say anything, but you were there.",
+	"Lani.Dialogue.fall_Sat": "If you're not allergic to cats, you should go to the Cat Cafe.$12#$b#They're having their Autumn Arrivals event next week for the new cats.",
+	"Lani.Dialogue.winter_Sat": "Still working? On a gorgeous winter day?$16#$b#Sucks for you, dude.$11",
+	
+	"Lani.Dialogue.Sun.0": "Alright, genuine question: why are you talking to me?$6#$b#Not trying to be mean or anything, I'm just... confused.$2#$e#Just because you 'want to'?$7#$b#%Lani looks at you suspiciously before shrugging.#$b#Well, whatever. Your life, not mine.$6",
+	"Lani.Dialogue.Sun.1": "...Maybe I'll hit up Pierre's today...$9#$e#Oh, hey. Heading to Pierre's?#$b#I gotta buy a lot of oil for a recipe I'm making, so...#$b#See ya around.$12",
+	"Lani.Dialogue.Sun.2": "This boss fight is kicking my ass. Maybe if I just...$13#$b#%Lani immerses herself back into strategizing.",
+	"Lani.Dialogue.summer_Sun": "Hey.#$b#Working hard or hardly working? Hehe.$11#$b#I hate when people say that to me, too.$7",
+	"Lani.Dialogue.fall_Sun": "It's fall... You made any friends in town yet?$6#$e#Didn't expect anything less from Pelican Town's social butterfly.$3",
+	"Lani.Dialogue.winter_Sun": "If I step in one more deep patch of sleet and my sock gets wet, I'm gonna snap.#$b#Snap, I tell you.$13#$b#SNAP!$5",
+	
+	"Lani.Dialogue.Mon2.0": "Have you met everyone in Sunberry yet? There's a few houses in unexpected places.#$b#Make sure to tell people 'hi' when you see them.$12",
+	"Lani.Dialogue.Mon2.1": "What sorts of crops do you grow on your farm?#$b#Do you specialize, or do you just plant a bit of everything?#$e#My only farming experience is on my parent's lavender farm, so I figured I’d ask.$12",
+	"Lani.Dialogue.Mon2.2": "I order stuff from Jojazon a lot.#$b#The Joja Emporium in Grampleton has some stuff, but not everything I need.$6",
+	"Lani.Dialogue.Mon2.2.NoModern": "Do you subscribe to the JojaBox catalogue?#$b#I keep my subscription going because I like looking at the pictures.$12#$e#I don't buy much from it, except for things like Battery Packs or plants.$7#$b#But sometimes, there's really cute things, and I have to resist the urge to call about them...$8",
+	"Lani.Dialogue.Mon2.3": "Have you met Jonghyuk yet? He lives down the way from me.#$e#He's, a, uh, friend of mine. If you see him, tell him I said 'hi'.$9",
+	"Lani.Dialogue.summer_Mon2": "How many times a week do people ask you about your farm? A lot, I bet.#$b#Welcome to nosy small towns.$3",
+	"Lani.Dialogue.fall_Mon2": "I had to set up some speakers in the school's band room today.#$b#Man, being in that room took me back...$7#$e#I used to play cello. Picked it up to learn music theory stuff so I could eventually compose my own.#$b#I stopped playing after I graduated, but I know my mom still has my cello in the garage somewhere.#$e#Oh, sorry. Kind of just lore-dumped on you.$8",
+	"Lani.Dialogue.winter_Mon2": "Did the snow make it difficult on your way down here?#$b#I know Sunberry’s kind of a ways away from Pelican Town proper.",
+	
+	"Lani.Dialogue.Tue2.0": "I've begun to expect your presence in my daily life.#$b#It's now more concerning when you don't come and talk to me.$12",
+	"Lani.Dialogue.Tue2.1": "It gets lonely in my house sometimes.$2#$b#I’d like a pet, but I don’t know if I have the energy to take care of one...$2",
+	"Lani.Dialogue.Tue2.2": "“Do you have any animals?#$b#You do?!$1#$b#Do you have any cows?$1#$b#Are they friendly?$1#$b#What about sheep?$4#$e#...Uh. I mean...$8#$b#Yeah, that's cool.$7",
+	"Lani.Dialogue.summer_Tue2": "Maybe I should quit my IT job and become a farmer like you.$6#$b#You're absolutely rolling in money...",
+	"Lani.Dialogue.fall_Tue2": "Half the time, I don't even need to be at work to do my job. I wish they'd let us work remote.$2#$b#Then I wouldn't get any work done, though...$7",
+	"Lani.Dialogue.fall_Tue2.NoModern": "Half the time, I don't even need to be at work to do my job. I wish they'd just call us in when they need us.$2#$b#Then I would probably spend a lot of time on the phone, though...$7",
+	"Lani.Dialogue.winter_Tue2": "You ever stumbled across a Snow Yam before? Nearly broke my neck after tripping over one the other day.$13#$e#Someone was digging around and just... left their little foraging fun for me to fall over.$13#$b#Ugh.$5",
+	
+	"Lani.Dialogue.Wed2.0": "Hey. It's @, right?#$b#I mean, I knew that, I was just... making sure.$7#$b#Hi, @.$12",
+	"Lani.Dialogue.Wed2.1": "Sunberry doesn't get many visitors.$6#$b#Makes me wonder why we even have an Inn.#$e#I wish we had a mysterious visitor or something...$9#$e#What? I didn't say anything.$6#$b#You're imagining things.$8",
+	"Lani.Dialogue.Wed2.2": "I don't understand how you can enjoy fishing.$6#$b#It takes way too long.#$b#...Or maybe I'm just not that great at it.#$b#Whatever.$13",
+	"Lani.Dialogue.summer_Wed2": "I haaate hot weather.$2#$b#You can only take so many layers off, but in cold weather, you can pile on as many layers as you want. Way better.$3#$b#Besides, who doesn’t love a nice fuzzy blanket?$12",
+	"Lani.Dialogue.fall_Wed2": "I've got a weird urge to jump in a pile of leaves, but my outfit...$2#$e#Jump in some leaves on my behalf. Hear the sweet crunch.$3#$e#Enjoy your day, @.$12",
+	"Lani.Dialogue.winter_Wed2": "Ugh, the computer parts I want are selling for super high prices right now.$13#$b#Seems they’re in demand for Winter Star.#$e#'Tis the season, I guess.$6",
+	
+	"Lani.Dialogue.Thu2.0": "Whatever jackass carrier threw my Jojazon package into my plants is gonna catch these hands.$5#$e#Maybe I should be a mail carrier to right these package injustices in the world.$6",
+	"Lani.Dialogue.Thu2.0.NoModern": "Whatever jackass carrier threw my package into my plants is gonna catch these hands.$5#$e#Maybe I should be a mail carrier to right these package injustices in the world.$6",
+	"Lani.Dialogue.Thu2.1": "I stayed up super late looking at Tweeter and I feel like garbage.$2#$b#Does seeing people doing better than you make you feel unreasonably bitter? Because it makes me feel that way.$2",
+	"Lani.Dialogue.Thu2.1.NoModern": "I stayed up super late looking at celebrity magazines and I feel like garbage.$2#$b#Does seeing people doing better than you make you feel unreasonably bitter? Because it makes me feel that way.$2",
+	"Lani.Dialogue.Thu2.2": "I have dinner with Haley on Thursdays. We made it our weekly thing about two years ago.#$b#Sometimes, even Maru joins us for food if she gets off early.$12",
+	"Lani.Dialogue.summer_Thu2": "I shockingly had a very, very good day today.$12#$b#What did I do? Pfft. What else?$3#$b#Played video games and took a midday nap like usual.$11",
+	"Lani.Dialogue.fall_Thu2": "Do you do anything besides farming? Like, for fun, anyways.#$b#I do IT for Grampleton High. It's... a job, I suppose.$6#$b#I wanted to do game dev, but... That didn't work out too well.$7#$e#At least I don't have to work the full year.$12",
+	"Lani.Dialogue.winter_Thu2": "It’s sunny, so why are my hands like popsicles? It’s supposed to be warm, damnit.$2#$e#Meanwhile, you’re out here just livin' it up without a jacket...#$b#Are you insane?$7",
+	
+	"Lani.Dialogue.Fri2.0": "My parents are farmers, too. Ever heard of Pine Grove Farm?#$b#They're a ways out of Pine Mesa proper where there's still sprawling hills and stuff.",
+	"Lani.Dialogue.Fri2.1": "Everyone in Sunberry gets together at the outdoor bar on Saturday nights.#$b#I usually bring my Three Bean Chili. It's a fan favorite.$3",
+	"Lani.Dialogue.Fri2.2": "I heard some weird sounds outside my house last night.$2#$b#It sounded like... y'know those little Peekmin guys? How they make the 'meep meep' noise?#$b#It sounded just like that.$2",
+	"Lani.Dialogue.summer_Fri2": "I like your shirt.#$b#It's a good color on you. Goes well with your skin tone.$12",
+	"Lani.Dialogue.fall_Fri2": "Maybe I'll visit the Cat Cafe today, say hi to the little stinky beasts.$12#$b#I mean this completely affectionately.",
+	"Lani.Dialogue.winter_Fri2": "Does your pet sleep in your bed with you sometimes?#$b#Sammy's like a little space heater, so I allow it in winter.$12#$b#During summer she sleeps in her own bed.",
+	
+	"Lani.Dialogue.Sat2.0": "I heard they're building a new Bruno's Burritos in Grampleton.#$b#I'm glad I won't have to drive an hour to Zuzu to get some anymore!$1",
+	"Lani.Dialogue.Sat2.0.NoModern": "I heard they're building a new burrito place in Grampleton.#$b#I'm glad I won't have to take the bus to Zuzu to get some anymore!$1",
+	"Lani.Dialogue.Sat2.1": "I don't understand how Joja is still afloat in this town.$6#$b#Grampleton has a Joja Emporium already. Why'd they make a mini mart here?$6#$e#Capitalism strikes again, I suppose...$7",
+	"Lani.Dialogue.Sat2.2": "I wonder if there's any neat flowers growing up in the mountain...#$b#%Lani seems to be mumbling to herself.",
+	"Lani.Dialogue.summer_Sat2": "It’s a perfect day to go swimming!$1#$b#...If I even knew how. I’ll probably just stick my toes in the water and call it a day.$7",
+	"Lani.Dialogue.fall_Sat2": "Seeing the leaves change colors never gets old.$12#$e#Pine Mesa didn't really have seasons, if that makes any sense. It's kind of neutral all year round.",
+	"Lani.Dialogue.winter_Sat2": "I slipped on ice this morning walking out of my house...$2#$b#The world has it out for me today.$13#$e#Maybe it’s a sign to stay home.$3", 
+	
+	"Lani.Dialogue.Sun2.0": "Sorry if I come off like I'm being rude.#$b#I've been told I'm... awkward around new people.$7#$b#Or any people, really.$8#$e#I appreciate you talking to me.",
+	"Lani.Dialogue.Sun2.1": "What’s your favorite kind of music? I’m kind of an 'everything but country' person.#$b#Living in a small town like this, though, you kind of start liking country music by proximity...$7",
+	"Lani.Dialogue.Sun2.2": "My TV remote died the other night, so I got stuck watching the shopping channels.#$b#This is why it's always good to have a spare Battery Pack!$1 %revealtasteLani:(O)787#$e#They sell some interesting stuff on there, though...$3",
+	"Lani.Dialogue.summer_Sun2": "I try to make myself breakfast and dinner every day.#$b#Lunch is usually up in the air.$8",
+	"Lani.Dialogue.fall_Sun2": "I don't want to go back to work tomorrow...$2#$e#I hope the gremlins spirit me away in my sleep or something so I don't have to go.",
+	"Lani.Dialogue.winter_Sun2": "I've been playing PocketMon all weekend.#$b#I finally bred a 6IV 'Mon after several hundred eggs. 435 to be exact, hah...$7#$e#Hours of my life I will not be getting back...$2",
+	"Lani.Dialogue.winter_Sun2.NoModern": "I've been playing PocketMon all weekend on my GameGirl.#$b#I finally bred a really good PocketMon with the right DVs, hah...$7#$e#Hours of my life I will not be getting back...$2",
+	
+	"Lani.Dialogue.Mon4.0": "I'm a little jealous of you, @. Manual labor is actually super fulfilling.$12#$e#If you ever need anything built, hit me up.",
+	"Lani.Dialogue.Mon4.1": "Have you ever chatted with that old guy at the Adventurer’s Guild up the mountain? He’s a great storyteller.#$b#Told me all about how he used to slay all these monsters when he was younger...$1#$b#It's nice he’s still got an active imagination at that age.#$b#I wish I still had that spark.$2",
+	"Lani.Dialogue.Mon4.2": "Every time I hang out with Maru, I feel like Demetrius is giving me the stink eye.$14#$e#Helicopter parents are the worst...$2",
+	"Lani.Dialogue.summer_Mon4": "I woke up this morning and remembered I don't have work.$1#$b#That means I can play some Ballatro today...$12#$e#I hope your day goes well, @!$1",
+	"Lani.Dialogue.summer_Mon4.NoModern": "I woke up this morning and remembered I don't have work.$1#$b#That means I can play some video games today...$12#$e#I hope your day goes well, @!$1",
+	"Lani.Dialogue.fall_Mon4": "Mondays are the worst.$6#$b#It's when my gachas reset and it's also when everyone's stuff decides to break at work.",
+	"Lani.Dialogue.fall_Mon4.NoModern": "Mondays are the worst.$6#$b#It's when everyone's stuff decides to break at work.",
+	"Lani.Dialogue.winter_Mon4": "Should I cut my hair before the season ends?#$b#It gets weirdly hot here in spring sometimes and I don't want to trap heat on the back of my neck.",
+	
+	"Lani.Dialogue.Tue4.0": "Sammy's so loving.#$b#She likes to snuggle by my head when I sleep, so my head is always warm.$12",
+	"Lani.Dialogue.Tue4.1": "I don't know why Maru works at the clinic if her true passion is robotics. Like, how do those two things go together?$6#$b#I guess prosthesis, but she’s really only expressed interest in more 'sci-fi' things.#$e#Maybe I’ll ask her about it.",
+	"Lani.Dialogue.Tue4.2": "The previous owners of my house actually had a café in the building. I think it was called Stella Rose?#$e#My family helped me convert it to a more of an 'open floor' plan or something.#$b#I just sorta stood there while my dad did everything.#$e#I did decorate and design everything in here though, which is cool.$12#$e#Maybe I should’ve been an interior designer...$6",
+	"Lani.Dialogue.summer_Tue4": "@, important question, life or death, you ready?!
+	#$q SBVLani.AnimalQuestion.Dogs/SBVLani.AnimalQuestion.Cats animalquestion_followup#Dogs or cats?
+	#$r SBVLani.AnimalQuestion.Dogs 0 animalquestion_dogs#Dogs
+	#$r SBVLani.AnimalQuestion.Cats 15 animalquestion_cats#Cats",
+	"Lani.Dialogue.animalquestion_followup": "$p SBVLani.AnimalQuestion.Cats#I promise she's really nice. She'll probably just sit in your lap.$12|I've tried to get her used to dogs, but she just doesn't like them very much...$7",
+	"Lani.Dialogue.animalquestion_dogs": "Aw, I guess no pet playdates. Sammy's not too great with dogs.$2",
+	"Lani.Dialogue.animalquestion_cats": "You should come visit Sammy sometime then. She loves people.$1",
+	"Lani.Dialogue.fall_Tue4": "Working at Grampleton High is nice. It's not where I imagined myself being, but it's whatever.#$b#I get to mess around all day until I'm summoned from my lair to do some menial task.#$b#Set up a monitor? Sure! Reconnect some cords? On it.$3#$b#Getting paid to mess around is the best. Gotta love capitalism!$11",
+	"Lani.Dialogue.winter_Tue4": "I had seven people ask me to 'fix' their projectors today.$13#$b#Seven.$13#$b#The fix?$6#$b#Restarting the damn thing.$5#$e#Yoba almighty.$13",
+
+	"Lani.Dialogue.Wed4.0": "Have I ever told you I speak another language? Not super well, unless I’m drunk, but I can read and write just fine.#$b#I don’t get to speak it a lot since the Valley is kinda... y’know.$8#$b#But Miyoung speaks it, so I’ve been practicing with her for a while now!$12#$e#She says I talk like a kindergartner sometimes, though...$7",
+	"Lani.Dialogue.Wed4.1": "My mom’s practically my best friend.$12#$b#We text every day and she’s always been a great support system for me.#$e#I miss her a lot.$2",
+	"Lani.Dialogue.Wed4.1.NoModern": "My mom’s practically my best friend.$12#$b#We call every day and she’s always been a great support system for me.#$e#I miss her a lot.$2",
+	"Lani.Dialogue.Wed4.2": "Pawston Dynamics posted some new videos about their robots.#$b#It's so bizarre that we as humans are able to create such crazy technology.#$e#I'm glad I get to experience living through events like this.$12",
+	"Lani.Dialogue.Wed4.2.NoModern": "I saw some new pics in EGM about these robots being developed.#$b#It's so bizarre that we as humans are able to create such crazy technology.#$e#I'm glad I get to experience living through events like this.$12",
+	"Lani.Dialogue.Wed4.3": "Have I ever told you I speak another language? Not super well, unless I’m drunk, but I can read and write just fine.#$b#I don’t get to speak it a lot since the Valley is kinda... y’know.$8#$b#But Jonghyuk and Miyoung speak it, so I’ve been practicing with them for a while now!$12#$e#Miyoung says I talk like a kindergartner sometimes, though...$7",
+	"Lani.Dialogue.summer_Wed4": "Ooh, the sushi place in Zuzu is having a special today...#$b#Maybe I should make the trip to grab some Fried Calamari for Pierre.%revealtastePierre:(O)202#$b#I bet he'd flip.$9",
+	"Lani.Dialogue.fall_Wed4": "Not even work could ruin my good mood today.$12#$b#My new graphics card came in! I'm so excited to install it and play some 4tNite.$1#$b#I unironically disliked it before because I thought it was stupid, but...#$b#For me, someone who usually sucks at FPS games, I have SO much fun playing.$1#$b#It's got a great gameplay loop!$4#$e#Do you play? You should.$12",
+	"Lani.Dialogue.fall_Wed4.NoModern": "Not even work could ruin my good mood today.$12#$b#My new graphics card came in! I'm so excited to install it and try running EarthQuake.$1#$b#I unironically disliked it before because I thought it was too hard, but...#$b#For me, someone who usually sucks at shooter games, I have SO much fun playing.$1#$b#It's got a great gameplay loop!$4#$e#Do you play? You should.$12",
+	"Lani.Dialogue.winter_Wed4": "My coworkers are all a lot older than me.#$b#Sometimes, I get mistaken for a high schooler by staff...$7#$b#Always awkward when I flash my badge and they suddenly remember I’m their coworker.$8",
+	
+	"Lani.Dialogue.Thu4.0": "I thought I'd be doing something bigger with my life, but I guess troubleshooting projectors and connecting printers to laptops is alright.#$b#Pays well, anyways.$3#$e#Not everyone can be an indie game dev, after all. Hah. Hah.$7#$b#Hah...$8",
+	"Lani.Dialogue.Thu4.0.NoModern": "I thought I'd be doing something bigger with my life, but I guess troubleshooting projectors and connecting printers to laptops is alright.#$b#Pays well, anyways.$3#$e#Not everyone can make video games, after all. Hah. Hah.$7#$b#Hah...$8",
+	"Lani.Dialogue.Thu4.1": "I feel kinda bad for Maru sometimes.#$b#Her dad is really...#$b#Um, how do I put it nicely... protective?$7#$b#I try and avoid hanging out with her when he’s home...$2",
+	"Lani.Dialogue.Thu4.2": "If it were possible... I think I'd have a robot pet, for sure.#$b#You wouldn't have to worry about anything, really!#$b#No food and no poop. Sounds great to me!$3",
+	"Lani.Dialogue.summer_Thu4": "LOL, imagine working during the summer.$3#$b#Oh, wait. You don't have to.$11",
+	"Lani.Dialogue.fall_Thu4": "Shockingly, most of the technology in schools is pretty up-to-date. It's easy to work on because it's current.#$b#Now, the DMV, however...$13",
+	"Lani.Dialogue.fall_Thu4.NoModern": "You'd think most of the technology in schools is pretty up-to-date and that it's easy to work on because it's modern.#$b#Now, Grampleton High, however...$13",
+	"Lani.Dialogue.winter_Thu4": "I heard there's a few crops that grow in winter, actually. They're like hundreds of years old.#$b#Pretty neat.$12",
+	
+	"Lani.Dialogue.Fri4.0": "My brother called me today telling me about his girl problems...#$b#Oh, that's right, I never told you about my family.$16#$e#I'm the middle child between two brothers.#$b#Yeah, they still live in Pine Mesa. I don't get to see them much anymore, but we try to call every week.",
+	"Lani.Dialogue.Fri4.1": "Oh, hey, @!$1#$b#I’ve been totally hyperfixating on this farming sim game called Stardew Valley... Have you heard about it?$12#$e#It’s by ConcernedMonkey. I follow him on Tweeter!$1#$e#I can't believe he made the game by himself...$4",
+	"Lani.Dialogue.Fri4.1.NoModern": "Oh, hey, @!$1#$b#I’ve been totally hyperfixating on this new GameGirl game called Stardew Valley... Have you heard about it?$12#$e#It’s by this guy named ConcernedMonkey. I've seen his stuff in EGM!$1#$e#I can't believe he made the game by himself...$4",
+	"Lani.Dialogue.Fri4.2": "I'm gonna visit my mom in a few weeks.#$b#If you want anything from Pine Mesa, let me know. I'll bring back a souvenir.$12",
+	"Lani.Dialogue.summer_Fri4": "When I was at Maru's the other day, Robin managed to rope me into a discussion about woodworking.#$b#I was inspired to try to do some at home and busted my finger open with a chisel.$8#$b#Not a fun experience, I'll tell you that much.$7#$b#But, I had so much fun doing it, so that counts for something.$12",
+	"Lani.Dialogue.fall_Fri4": "Yoba, I'm so glad pumpkin spice craze is not a thing in this town.#$b#I'd lose my mind if it was.$13",
+	"Lani.Dialogue.winter_Fri4": "Happy Friday, @.$12#$b#I'm only happy because today, my chilly weekend begins, and I get to absolutely veg out.",
+	
+	"Lani.Dialogue.Sat4.0": "Y'know, if Sebastian ditched the emo fringe, he'd rival Alex in terms of 'hottest bachelor in town'.#$b#What? He's my friend and I have eyes. I don't like him or anything.#$b#He's like a diamond in the rough.#$e#I feel privileged to understand the breadth of Sebastian's potential as a future hot person.$3",
+	"Lani.Dialogue.Sat4.1": "Living here is so awful sometimes because of how fast word travels.$6#$b#I remember Sebastian walked me back from the Saloon one night, and the next day, I couldn't take one step without someone asking if we were dating.#$b#Um, no? He's my friend's older brother.$7#$b#Can't imagine how the rumor mill would react if, Yoba forbid, a relationship didn't work out.$8",
+	"Lani.Dialogue.Sat4.2": "I ordered a mousepad off of that Betsy site, and it looks a little... weird...$2#$b#Should I send it back?$7",
+	"Lani.Dialogue.Sat4.2.NoModern": "I ordered a mousepad off of that new Betsy magazine, and it looks a little... weird...$2#$b#Should I send it back?$7",
+	"Lani.Dialogue.summer_Sat4": "Summer's the best because it means no more hating Sundays, no more annoying gremlins, and no more stupid problems...$4#$b#For now, anyways.#$b#Once fall comes back around... *sigh*$7",
+	"Lani.Dialogue.fall_Sat4": "Robin is really easy to talk to. She let me take home some of her old woodworking tools so I could try to whittle something small.$12#$e#Hopefully I don't chop my finger off... again...$8",
+	"Lani.Dialogue.winter_Sat4": "Ooh, this weather is perfect for a hot springs trip. Relaxing in steaming hot water sounds amazing right now...$4#$b#I think I’m gonna go do that, actually. See ya.$12",
+	
+	"Lani.Dialogue.Sun4.0": "I think I've become the unofficial IT person of Sunberry at this point.#$b#The Cat Cafe asked me to set up their new camera system... It was just plug and play.#$b#But I made some money off of it, so no real loss to me.$3",
+	"Lani.Dialogue.Sun4.1": "This is a weird question, but do you know what, uh... Pocaloid is?$7#$b#It's, uh, how do I explain it... virtual singing software? Some of the voicebanks have character designs to make them more marketable to producers.#$b#You might know one of the more famous ones, Matsune Hiku - her and GOOMY are my favorites.$12#$b#Sorry, was I rambling? If you express literally any interest in it, I'll end up lore dumping about it!$1",
+	"Lani.Dialogue.Sun4.2": "Aw, man, I left my makeup bag at Haley's...$2#$e#Ugh, I hope nobody comments on how 'tired' I look.$6",
+	"Lani.Dialogue.summer_Sun4": "Yeesh, it’s hotter than the devil’s asshole today! How are you not drenched in sweat?!$7#$e#I’m literally this close to just walking around naked.$5",
+	"Lani.Dialogue.fall_Sun4": "Fall is shrimply amazing, isn't it?$12#$e#What? Did I say something weird?#$b#I thought it was a pretty shrimple observation...$11",
+	"Lani.Dialogue.winter_Sun4": "Winter Star celebrations are soon...#$b#Have you come up with any gift ideas yet?#$e#I usually stick with something that guarantees a positive reaction if I don't know the person that well, like food or gift cards.",
+
+	"Lani.Dialogue.Mon6.0": "I'm glad I don't have to interact with the kids very often...#$b#High schoolers leave me feeling unsettled.$7#$b#But hey, the job pays well, and I get looots of vacay time, so I let the few weird interactions I do have slide.$3",
+	"Lani.Dialogue.Mon6.1": "Back when I still did art, I did a lot of graphic design work.#$b#I’ve been getting back into it recently. Just little things for fun on these forums I hang out on.$1",
+	"Lani.Dialogue.Mon6.2": "Learning an instrument makes you more in tune with sounds, I think.#$b#I've noticed I'm able to guess what comes next in song melodies based on a few previous notes.#$b#There's probably a music theory term for that...$6",
+	"Lani.Dialogue.Mon6.3": "Jonghyuk's allergic to cats, so I have to make sure I deep clean my house and put Sammy away before he comes over.#$e#Haven't had any allergy attacks so far...$1#$b#Guess I'm good at cleaning.$3",
+	"Lani.Dialogue.summer_Mon6": "Sunberry's library has a better selection than Pelican Town's.#$b#Don't mention this to anybody, but I've been browsing the smut corner recently, and there's some great stuff in there...$10#$e#How are you shocked I read smut?$3#$b#Oh, please. I grew up on the internet.$11",
+	"Lani.Dialogue.summer_Mon6.NoModern": "Sunberry's library has a better selection than Pelican Town's.#$b#Don't mention this to anybody, but I've been browsing the smut corner recently, and there's some great stuff in there...$10#$e#How are you shocked I read smut?$3#$b#Oh, please. I practically live on fandom websites.$11",
+	"Lani.Dialogue.fall_Mon6": "When I get home from work, I always have to take a nap.#$b#Socializing is exhausting.$2#$e#After I wake up from my nap, I get to eat, so I sorta treat the nap like a quick ticket to dinnertime.$3",
+	"Lani.Dialogue.winter_Mon6": "It's time for the twerkulator...$3#$b#It's time for the twerkulator...$3#$b#Oh. Haha. Hey, @.$15#$b#Just, uh, listening to some music, that's all...$10",
+	
+	"Lani.Dialogue.Tue6.0": "I read this fascinating book in the library the other day.#$b#It was this dusty book about elves. Looked like it hadn't been touched in ages.#$b#Some of the stories were so detailed, it made me almost believe it happened.$1#$e#Wouldn't that be wild? Elves on the Ferngill continent? Hah!$3",
+	"Lani.Dialogue.Tue6.1": "Being outside in this weather makes me want to draw something...#$e#I wish it were that easy.$13#$b#Just pick up a pencil and draw.$2#$e#Hah... So much for art school, huh?$7", 
+	"Lani.Dialogue.Tue6.2": "My new rocks came in! They're all Fire Opal since those are my favorite gemstone.$4#$b#They're gorgeous to look at, so I keep a collection in my house.$1#$e#Nature can create such beautiful things sometimes...$4#$b#I'm glad I get to experience its gifts.$12",
+	"Lani.Dialogue.summer_Tue6": "I don't really have a huge preference between going to Ari's or Pierre's. It's really dependent on how I feel that day.#$b#If I'm looking cute, then obviously I'll make the trip to Pierre's...$9",
+	"Lani.Dialogue.fall_Tue6": "School's internet modem finally blew up. About damn time.$13#$b#I've been telling them they needed a new one, but noooo, can't take the young person's advice...$5",
+	"Lani.Dialogue.winter_Tue6": "Had to shovel snow off my doorstep this morning. It was relaxing.$12#$e#What? I'm being completely serious.$16",
+	
+	"Lani.Dialogue.Wed6.0": "Y'know, if I had to pick, I'd say Sunflowers are my favorite flower. %revealtasteLani:(O)421#$b#They always face the sun, did you know that? I wish I had that sort of outlook on life sometimes...#$b#Always looking at the bright side, just like a Sunflower.$12",
+	"Lani.Dialogue.Wed6.1": "Robin does some amazing carpentry work.$1#$b#She showed me some wood sculptures she made and they were so cool!$4#$b#So much detail in the woodwork...$1#$e#She moved onto more practical ventures once she got her business set up here.#$b#Reminds me of my own life, honestly. Aiming for creative heights and settling for practicality.$7",
+	"Lani.Dialogue.Wed6.2": "Do you... participate in fandom stuff at all?#$b#I recently got into Duty Calls and I really love Lieutenant Spectre... He's my favorite.$12#$b#Captain Cash is a close second.$1",
+	"Lani.Dialogue.summer_Wed6": "Even in the summer, I still have my school brain activated on weekdays.$13#$b#My body starts shutting down for sleep around 9:00PM even if I have nothing to do tomorrow.$2",
+	"Lani.Dialogue.fall_Wed6": "Okay, so, hear me out.$7#$b#I know romance is already out of the question, but... there's this new computer skills teacher...$9#$b#He's SO cute. I know he's married, so I'm just admiring from afar! A girl is allowed to observe!$10#$b#Like you've never done the same to the singles in town.$3#$b#Yeah, I see you, @!$11",
+	"Lani.Dialogue.winter_Wed6": "Reason number infinity as to why I hate the countryside...$13#$b#Gets too damn cold...$13",
+	
+	"Lani.Dialogue.Thu6.0": "Ugh, just remembered I have to buy some more fertilizer from Pierre.$6#$b#It's really pricey, and I don't feel like it's a justified purchase given I only have a small garden...$2#$b#I guess I'll save my money for a different trip.",
+	"Lani.Dialogue.Thu6.1": "My parents have a running bet that I won't find someone before I turn 30.#$e#Honestly, I think they're gonna win. I'm picky with my people.",
+	"Lani.Dialogue.Thu6.2": "Sunberry's the perfect place for me. I still have my independence, but I also have a community I actually want to be involved in and people who care about me.$9#$b#Gotta love small towns, huh?$12",
+	"Lani.Dialogue.summer_Thu6": "Whenever I take care of chickens, it makes me realize that to them, I must be the biggest bird...$16",
+	"Lani.Dialogue.fall_Thu6": "I'm torn between what I want to wear as my costume for Spirit's Eve...$13#$b#I was thinking either my player character from the Solarion Chronicles games or my old Hiku cosplay...",
+	"Lani.Dialogue.fall_Thu6.NoModern": "I'm torn between what I want to wear as my costume for Spirit's Eve...$13#$b#I was thinking either my player character from the Solarion Chronicles games or my Hiku cosplay I made...",
+	"Lani.Dialogue.winter_Thu6": "Snow days are the best. It means I get to stay home and do absolutely nothing.$3",
+	
+	"Lani.Dialogue.Fri6.0": "Everyone in Sunberry gets together at the outdoor bar on Saturday nights.#$b#Maybe I'll see you there tomorrow?$12",
+	"Lani.Dialogue.Fri6.1": "Sebastian took me and Sam to his favorite sushi place last weekend. Let me tell you, that guy loves himself some sashimi, good grief.%revealtasteSebastian:(O)227#$b#With how much he ordered, I'm shocked I didn't have to foot the bill at all.$16#$b#I think the owner gave him a discount because he's a regular.",
+	"Lani.Dialogue.Fri6.2": "Do you drink?$12#$b#I'm a huge fan of rice wines like soju or sake, but it's really difficult to get them in the valley.$12#$e#Maybe you should try making some on your farm for me!$1",
+	"Lani.Dialogue.summer_Fri6": "Hey, do I look weird to you?$8#$b#Seb gave me some of his, erm, special brownies last night and I didn't know if I still looked zoinked.$7",
+	"Lani.Dialogue.fall_Fri6": "I got asked out on a date by a 15-year-old today. Reason number infinity as to why I hate working near children...$5#$b#They treat you as one of them if you let on that you understand their jokes.$13#$b#Weirdest phenomenon ever.$13",
+	"Lani.Dialogue.winter_Fri6": "It's s-s-so c-cold out...$2#$b#B-but my snowg-goon...$2",
+	
+	"Lani.Dialogue.Sat6.0": "Sometimes Haley and I go down to the forest to go on nature walks.#$b#You should come with us!$1#$b#I even wrangled Sebastian into going one time, so you’ll definitely enjoy it.$12",
+	"Lani.Dialogue.Sat6.1": "All of these fantasy books in the library make me wish I could have an otherworldly encounter.#$b#Like, what if I met one of those 'shadow people'? Or a dwarf? Maybe a forest spirit?$1#$e#It's fantasy, but it sounds so fun.$12",
+	"Lani.Dialogue.Sat6.2": "Sam would be cute if he cut his hair and acted his age.#$b#...You're making that face again. Am I not allowed to compliment my friends?#$b#No offense, but I'm not interested in the guy like that.#$b#He's in his twenties but his vibes are so... adolescent.$8",
+	"Lani.Dialogue.summer_Sat6": "OMG, so I stumbled upon this really good fanfic last night, and I stayed up all night catching up on the chapters...$4#$b#I regret it a little bit, but I had a good time.$7",
+	"Lani.Dialogue.fall_Sat6": "$query PLAYER_HAS_MAIL Current {{ModId}}_SolarionMMOReleaseMail#Sebastian, Sam and I play the Solarion Chronicles MMO together.#$b#Seb's a black mage, Sam's a paladin and I'm a white mage.#$b#Don't tell him I told you, but Sam actually plays as the catgirl race.$11#$b#It's really funny hearing him yell about boss mechanics on voice chat while his character runs around in a maid outfit...$3|Hey, @, do you know about Solarion Chronicles? Have you played before?#$b#It's such a great game! I joined one of Sebastian's sessions once, but I kinda fell off because I got so busy...#$e#Maybe I'll hit him up to try playing again.",
+	"Lani.Dialogue.fall_Sat6.NoModern": "$query PLAYER_HAS_MAIL Current {{ModId}}_SolarionMMOReleaseMail#Sebastian, Sam and I play the Solarion Chronicles MMO together.#$b#Seb's a black mage, Sam's a paladin and I'm a white mage.#$b#Don't tell him I told you, but Sam actually plays as the catgirl race.$11#$b#It's really funny seeing him yell about boss mechanics over chat while his character runs around in a maid outfit...$3|Hey, @, do you know about Solarion Chronicles? Have you played before?#$b#It's such a great game! I joined one of Sebastian's sessions once, but I kinda fell off because I got so busy...#$e#Maybe I'll hit him up to try playing again.",
+	"Lani.Dialogue.winter_Sat6": "I got snow in my shoes...$2#$b#My socks are wet...$2#$b#Death, please take me...$2#$b#I cannot stand the splort...$14",
+	
+	"Lani.Dialogue.Sun6.0": "I like to visit Miyoung together on the weekends.#$b#You've met her before, right? She's a nice lady.#$e#She always smiles a lot more when I spend time with her.#$e#I don't say this lightly, but she's...#$b#...she's become my family of sorts since I moved to Sunberry by myself.$9#$e#Sorry, was that weird? I just... emotions are still new for me, y'know?$10",
+	"Lani.Dialogue.Sun6.1": "The PocketMon games are too easy nowadays.$13#$b#I get it's a children's franchise, but come on.$13#$e#The Superb 4 were WAY too easy.$5#$b#I swept 3 out of 4 of them with my starter.$5#$b#And the Champion? Ugh...$13#$e#See, if I were to make a PocketMon game...$3#$b#%Lani continues rambling about game mechanics and enemy AI difficulty.#$b#...Anyways, that's why Fame Greak game quality has gone down the toilet.$13",
+	"Lani.Dialogue.Sun6.1.NoModern": "The PocketMon games are way too easy.$13#$b#I get it's a children's franchise, but come on.$13#$e#The Superb 4 were WAY too easy.$5#$b#I swept 3 out of 4 of them with my starter.$5#$b#And the Champion? Ugh...$13#$e#See, if I were to make a PocketMon game...$3#$b#%Lani continues rambling about game mechanics and enemy difficulty.#$b#...Anyways, I'm just mad because I thought it'd be harder. I grinded for hours, y'know!$13",
+	"Lani.Dialogue.Sun6.2": "Do you ever just... strongly dislike someone for no apparent reason?$7#$b#I feel that way about someone in town... Everything that comes out of her mouth makes me want to pull my hair out.$8#$e#She's literally done nothing wrong, but I just can't stand her.$7",
+	"Lani.Dialogue.Sun6.3": "Jonghyuk and I like to visit Miyoung together on the weekends.#$b#You've met her before, right? She's a nice lady.#$e#She always smiles a lot more when Jonghyuk and I spend time with her.#$e#I don't say this lightly, but she's...#$b#...she's become my family of sorts since I moved to Sunberry by myself.$9#$e#Sorry, was that weird? I just... emotions are still new for me, y'know?$10",
+	"Lani.Dialogue.summer_Sun6": "I can't even enjoy Sundays anymore knowing I have to venture willingly into the fiery depths of Hell the next day.$13#$e#Capitalism, gotta love it.$2",
+	"Lani.Dialogue.fall_Sun6": "There's this group of students I've shockingly come to... tolerate.$6#$b#Whenever I'm in my office, they come to bother me.#$b#They learned that I won't rat them out for being truant if they bring me chocolate.$11#$e#I'm pretty sure I've gained weight because of them.$8",
+	"Lani.Dialogue.winter_Sun6": "I'm wearing two sweaters right now, @.$6#$b#Two.$6#$b#And I'm still cold.$6#$e#No. Stop laughing.$5#$b#I'm so cold.$2#$b#My toes are numb.$2", 
+	
+	"Lani.Dialogue.Mon8.0": "Kids freak me out. I don’t know how to talk to them.$2#$b#I know they're technically small humans, but... still weird.$7#$b#They don't know anything about the economy, or like, the world. How am I supposed to talk to them?$14",
+	"Lani.Dialogue.Mon8.1": "When I first moved here, I was a total recluse.#$b#Well, I still sorta am. But within a few hours of me getting settled, I had so many people knocking on my door and welcoming me to town, and it just...$7#$b#I ended up crying because of how nice everyone was. Embarrassing, but it endeared me to everyone, apparently.$10",
+	"Lani.Dialogue.Mon8.2": "I wonder what goes on in some Pocaloid producers' heads sometimes.#$b#Like, Keekuo? I'm a little worried about the guy who makes gruesome topics sound like such a bop...$7",
+	"Lani.Dialogue.summer_Mon8": "When I went to college for art, the goal was to get into the game dev industry.#$b#I really wanted to design characters.#$e#The industry... well, was a bit too saturated, and I didn’t stand out enough.$7#$b#I gave up pretty fast.$2#$e#I tried doing the indie dev thing after that, and it killed all my desire to create.$2#$b#I guess this is why they say don't monetize your hobbies?$10",
+	"Lani.Dialogue.summer_Mon8.NoModern": "When I went to college for art, the goal was to try getting into the game dev industry.#$b#I really wanted to design characters.#$e#The industry... well, was a bit too difficult to enter, and I didn’t stand out enough.$7#$b#I gave up pretty fast.$2#$e#I tried doing the solo dev thing after that, and it killed all my desire to create.$2#$b#I guess this is why they say don't monetize your hobbies?$10",
+	"Lani.Dialogue.fall_Mon8": "I used to play the cello when I was in high school.#$b#Every time I see some kid cart their instrument case around, I get nostalgic.#$e#I wish I hadn’t given up on it when I graduated.$2",
+	"Lani.Dialogue.winter_Mon8": "Sammy touched snow today.#$b#She dipped her little feeties in there and jumped so freakin' high before running back into the house.$1#$b#I guess she's not a winter cat!$3",
+	
+	"Lani.Dialogue.Tue8.0": "Did I ever tell you about that dusty old elvish book I found? I was reading it again, and man, I forgot how cool it was.$1#$b#Did you know that the elves and dwarves worked together to advance ancient metalworking and goldsmithing techniques?$4#$b#Archaeologists still don't know how elvish jewelry withstood the test of time today when our modern stuff just kinda...$1#$b#%Lani makes a 'prrbt' noise and waves her hands.",
+	"Lani.Dialogue.Tue8.1": "I'm gonna let you in on a secret, @.#$b#I think you're really cute. Like, 'we could've maybe dated if I met you earlier' cute.$9#$b#I've got my eye on someone else, though, so... Don't think about trying it on with me!$3",
+	"Lani.Dialogue.Tue8.2": "I had some soup from Gus' and I'm not sure what it was called, but holy shit it was delicious.$4#$b#Knowing me, it's better that I don't know what's in it.$7#$e#It was probably the best thing I've ever eaten -- besides pork belly, of course.$3",
+	"Lani.Dialogue.summer_Tue8": "I convinced Seb to take a break from being emo and play Citizen Evil with me and Maru.#$b#It's much less scary with two people screaming in your ear to kill zombies.$3",
+	"Lani.Dialogue.fall_Tue8": "Whenever I pass by the band room at work, I always say 'hi' to the instructor.#$e#Hearing someone play the cello makes me want to play again.$12",
+	"Lani.Dialogue.winter_Tue8": "Seen any deer this winter?#$b#I spotted a few by my house and they were gorgeous.#$b#I even saw a buck with a full set of antlers!$4",
+	
+	"Lani.Dialogue.Wed8.0": "I did some research on potential job paths for Maru the other day. Mixing robotics and nursing isn't as hard as you think!$1#$b#I did manage to make some headway into medical prosthesis, though, so maybe she'll like that..?$12",
+	"Lani.Dialogue.Wed8.1": "It boggles my mind how people have to drink coffee to function.%revealtasteLani:(O)395#$b#Just... wake up?$7#$b#Exist?$7#$b#Function?$7#$b#It's so easy.$10#$e#Although I will admit it smells great. Sucks that the one sip I've had of it tasted like cement. Gross. Blargh.$2#$b#Nobody should be drinking that.$13",
+	"Lani.Dialogue.Wed8.2": "I picked up a weird activity recently.#$b#Foraging. Can you believe it?$1#$b#But really, though, it's actually so refreshing to just be out in nature.$12#$e#I'm still learning what's safe to eat and what's not.#$b#Maru knows way more than me about it.",
+	"Lani.Dialogue.summer_Wed8": "I passed by Marnie's the other day and the cows approached the fence when I walked by.#$b#I got to pet one! I think her name was Sunny?$4#$b#I would do anything for that cow.$12",
+	"Lani.Dialogue.fall_Wed8": "Do people not understand how to plug things in?$13#$b#How hard is it to put the phone cord in the phone jack?!$5#$b#They're shaped the exact same!$5#$b#It isn't rocket science!$13#$b#Ugh!$5",
+	"Lani.Dialogue.winter_Wed8": "I'm enjoying the novelty of shoveling snow.#$b#Sebastian said I was crazy for enjoying manual labor.$7#$e#Little does he know I'm actually insane...$11",
+	
+	"Lani.Dialogue.Thu8.0": "YUMAHA is releasing a new voicebank this season... I listened to the demos and it sounds SO good.$4#$b#Definitely a different sound from what I'm used to hearing!$1#$b#Now to hope it doesn't fall into obscurity upon release...$14",
+	"Lani.Dialogue.Thu8.1": "Did I ever tell you I tried to be an indie dev once? Just for a few months.#$b#I was, uh, in a horrible place mentally after that, so I'm a little shocked to find myself enjoying being creative again...$7",
+	"Lani.Dialogue.Thu8.1.NoModern": "Did I ever tell you I tried to get into game dev once? Just for a few months.#$b#I was, uh, in a horrible place mentally after that, so I'm a little shocked to find myself enjoying being creative again...$7",
+	"Lani.Dialogue.Thu8.2": "World is Hiku's came on my playlist this morning and I had to stop what I was doing to pretend I was performing at my concert, hairbrush microphone and all.$1#$e#That song... it fuels me.$3",
+	"Lani.Dialogue.summer_Thu8": "I wanna go to the desert someday, but there's like nothing there except some top secret backroom place.$6#$b#What do you think is in there?#$e#...Maybe they sell drugs.$11",
+	"Lani.Dialogue.fall_Thu8": "I started bringing my tablet to work and drawing again.#$b#I managed a few doodles, but it's just not... coming out how I want.$2#$b#I'd show you, but it's kind of embarrassing to show the nitty gritty.$10#$e#Maybe I'm not cut out for digital art anymore.$2",
+	"Lani.Dialogue.fall_Thu8.NoModern": "I started bringing my sketchbook to work and drawing again.#$b#I managed a few doodles, scanned them to the computer, but it's just not... coming out how I want.$2#$b#I'd show you, but it's kind of embarrassing to show the nitty gritty.$10#$e#Maybe I'm not cut out for digital art anymore.$2",
+	"Lani.Dialogue.winter_Thu8": "I hope your animals are warm in their houses.#$e#If your chickens need a hug, I'm here!$4",
+	
+	"Lani.Dialogue.Fri8.0": "Haley recommended me some new concealer, and I have to say, it's fantastic.$1#$b#Way too expensive for a regular purchase sadly, so I'm gonna make the most of it while it lasts.$7",
+	"Lani.Dialogue.Fri8.1": "I wish SeeYou's voicebank got an update...$2#$b#The world needs more multilingual Pocaloids...$2",
+	"Lani.Dialogue.Fri8.2": "OMG, did you hear? They're making a live-action Legend of Lonk film.$16#$b#There is no actor androgynous enough to play Lonk. There just isn't.$7#$e#I just hope it's not another Crisp Rat situation...$14",
+	"Lani.Dialogue.Fri8.2.NoModern": "OMG, did you hear? They're making a live-action Legend of Lonk film.$16#$b#There is no actor androgynous enough to play Lonk. There just isn't.$7#$e#I just hope it doesn't end up cancelled...$14",
+	"Lani.Dialogue.summer_Fri8": "Sammy's so funny. She totally puffs up when I approach her food bowl because she's so excited for food.$1#$b#My little fat baby.$9#$e#Yoba, I love that cat so much.$9",
+	"Lani.Dialogue.fall_Fri8": "Hircus-P finally released a new song with Kimi!!!$4#$b#I know you probably don't know what I'm talking about, but this is huge!$1#$b#Hircus hasn't used her voicebank in years.$1",
+	"Lani.Dialogue.fall_Fri8.NoModern": "Hircus-P just released a new song with Kimi!!!$4#$b#I know you probably don't know what I'm talking about, but this is huge!$1#$b#Hircus just got her voicebank the other day! She sounds amazing!$1",
+	"Lani.Dialogue.winter_Fri8": "People say winter is a barren season but it's so beautiful.$12#$b#Sure, the leaves fell off the trees, but you can see wildlife way more frequently since they can't hide in the foliage.",
+	
+	"Lani.Dialogue.Sat8.0": "I tried some sketching today.#$b#Sammy kept climbing into my lap while I was drawing so they aren't too high quality, sadly...$7",
+	"Lani.Dialogue.Sat8.1": "It feels so awkward sometimes being one of the few mixed kids in town.$6#$b#Not that it’s an issue – everyone’s pretty nice, but it just... feels lonely sometimes.$7#$e#Pine Mesa had all sorts of folks.#$b#I miss it sometimes.$2",
+	"Lani.Dialogue.Sat8.2": "Maru really wants Sebastian to like her.$2#$b#His relationship with Demetrius gets in the way of the relationship he has with her, and it's really sad to see.$2#$b#I've been meddling and getting them to spend time together with me as a buffer, and I think it's been going pretty well!$1#$e#This stays between us. Can’t have you ruining my master plan, after all.$3", 
+	"Lani.Dialogue.summer_Sat8": "I looked at my old art. Dumbest thing I could've done.$7#$b#I kept seeing all of the errors, and I got it in my head that I was never actually good at drawing...$10#$b#Now I'm sad.$17#$e#No, I'm not crying. There's just dust in the air.$18",
+	"Lani.Dialogue.fall_Sat8": "As much as these kids get on my nerves, it's sort of sweet seeing them grow up and learn to be human.$12#$e#I get to be a proud parent from like, a safe distance.",
+	"Lani.Dialogue.winter_Sat8": "The icicles on the trees look so gorgeous in the sunlight. It makes me want to paint.$12",
+	
+	"Lani.Dialogue.Sun8.0": "Happy Sunday, @. Are you doing anything fun today?$12#$e#I'm recovering from a biiit of a hangover from last night's festivities, hehe...$7#$b#Hopefully you're doing a bit better than I am.",
+	"Lani.Dialogue.Sun8.1": "@... Have you ever thought about getting married?#$b#I've considered it, but... I dunno.$2#$b#The nuclear family seems so... Blargh.$7",
+	"Lani.Dialogue.Sun8.2": "I'm a little envious of people who go to church.#$b#They have something to, y'know, believe in.#$b#Something that gives them a purpose for living.#$b#Not a lot of people can cope with the fact life may mean nothing in the grand scheme of things.$2#$e#Just some food for thought on a Sunday.",
+	"Lani.Dialogue.summer_Sun8": "Today would be a terrible day to find a body. Easily an 8 out of 10 on the stink scale.$14",
+	"Lani.Dialogue.fall_Sun8": "I got bored and ended up taking a love languages test. Have you ever taken it?$12#$e#My highest one is quality time. Although, I feel like my giving and receiving languages are different...$6#$b#I like giving gifts to people I like to show them I care, but I like when people spend time with me to show them they care.$12#$b#Does that make sense?#$e#Apparently, there's other sorts of languages, too!$1", 
+	"Lani.Dialogue.fall_Sun8.NoModern": "I got bored and ended up taking this love language test in my magazine. Have you ever heard of it?$12#$e#My highest one is quality time. Although, I feel like my giving and receiving languages are different...$6#$b#I like giving gifts to people I like to show them I care, but I like when people spend time with me to show them they care.$12#$b#Does that make sense?#$e#Apparently, there's other sorts of languages, too!$1", 
+	"Lani.Dialogue.winter_Sun8": "Perfect weather for hot chocolate and a horror movie, dont'cha think?$1#$b#Ixnay on the horror?$3#$b#Yeah, I can rock with that.$1",
+	
+	"Lani.Dialogue.Mon10.0": "I wish I had the confidence to wear fandom gear out in public.$2#$b#I'll wear it in my house, but I always feel... judged if I wear it out.$7#$b#Like there's someone out there scrutinizing me for wearing it or something...$8",
+	"Lani.Dialogue.Mon10.1": "Sooo... I thought about you when I was in Zuzu the other day, aaand I got you something.$9#$b#I don't know if you can do anything with it, but... Here. [ (O)369 (O)349 (O)351 (O)371 ]",
+	"Lani.Dialogue.Mon10.2": "Y'know, I didn't think I'd ever actually love someone. But I do. And it's crazy.$9#$b#My only frame of reference for that stuff was books and movies, but real life is way different.$1#$e#Love can exist in so many ways... It's amazing, @.$9",
+	"Lani.Dialogue.summer_Mon10": "I grew a flower for you. Here you go.$1#$b#I started reserving a spot in my garden to grow some just for my favorite farmer.$12 [ (O)421 ]",
+	"Lani.Dialogue.fall_Mon10": "Some days I wake up and think about how I'm replaceable in the greater scheme of things.$6#$b#We're all just mice running in our little wheels, trying to survive.$8#$e#Just some Monday thoughts for ya!$1",
+	"Lani.Dialogue.winter_Mon10": "%Lani is mumbling conspiratorily to herself.#$b#If I go to the bathhouse later tonight, then maybe I can...$6#$b#%Her mumbles are carried away by the wind.",
+	
+	"Lani.Dialogue.Tue10.0": "Most days I don't even want to get out of bed, but I know that Sammy won't be taken care of if I don't get up.#$b#She keeps me going.",
+	"Lani.Dialogue.Tue10.1": "I'm so miffed.$13#$b#The new PocketMon Conquest sequel came out. On a TUESDAY.$5#$b#Buuut... it's getting delivered to my house around noon...$4#$e#I'm gonna stay up all night playing it so I can't get spoiled by Tweeter.$1#$b#I've been waiting YEARS for this.$1",
+	"Lani.Dialogue.Tue10.1.NoModern": "I'm so miffed.$13#$b#The new PocketMon Conquest game came out. On a TUESDAY.$5#$b#Buuut... I'm going to go to Zuzu to pick it up at noon...$4#$e#I'm gonna stay up all night playing it so I can't get spoiled by the forums.$1#$b#I've been waiting YEARS for this ever since they teased it in EGM.$1",
+	"Lani.Dialogue.Tue10.2": "Do you love anybody, @? Being in love is different than loving someone, y'know!$1#$b#I'm still trying to figure out the difference, but I'm really happy.$9",
+	"Lani.Dialogue.summer_Tue10": "The beach is probably the worst place ever. You know why?$13#$b#You put one toe in the water, and suddenly sand ends up in all of your crevices.$7#$b#All of 'em.$8#$b#It makes no sense... It's some cosmic joke...$14",
+	"Lani.Dialogue.fall_Tue10": "Having a strong support system has really helped me get through the more difficult days at work.#$b#I'm glad I have you as a friend, @. Seriously.$1#$b#You're the best.$12",
+	"Lani.Dialogue.winter_Tue10": "As a woman, I hate bras, but I also love 'em.$6#$b#Yoba knows my nips would've fallen off from the cold by now if I didn't have one on.$613#$e#What?! It's freezing out here!$7#$b#I'm close enough with you to tell you these things!$1",
+	
+	"Lani.Dialogue.Wed10.0": "I got into Pocaloid in early middle school. The music got me through difficult times.$6#$e#...I honestly wouldn’t be here today had it not been for Pocaloid.$17#$b#Sorry... too deep?$7",
+	"Lani.Dialogue.Wed10.0.NoModern": "I got into Pocaloid pretty recently. The music got me through difficult times in college.$6#$e#...I honestly wouldn’t be here today had it not been for Pocaloid.$17#$b#Sorry... too deep?$7",
+	"Lani.Dialogue.Wed10.1": "Seb and Haley are total film buffs, so I'm thinking of inviting them over for some art house watches.$12#$b#You can join if you'd like!$1#$e#If you're not good with horror, I'd have to recommend against it.$7",
+	"Lani.Dialogue.Wed10.2": "Jonghyuk moved here a little after I did.$12#$b#When he became the new kid, I was the first person to knock on his door.$1#$b#He opened up and... Yoba, I’m pretty sure I fell for him then and there.$4#$e#Don’t tell him I said that. It’s corny, but it’s true.$9",
+	"Lani.Dialogue.summer_Wed10": "Living in the valley has its perks.$12#$b#You get to know everyone's business, but in turn, they also get to know yours. Thankfully, I have no business!$3#$b#Unless you count the bodies in the basement...$7#$e#Kidding!$11",
+	"Lani.Dialogue.fall_Wed10": "You should totally let yourself into my normally-locked basement.$12#$b#I have something so spooktacular to show you!$1#$e#No, really, do it! Go on in!$1#$b#Enter.$12",
+	"Lani.Dialogue.winter_Wed10": "I don't have thick enough pants for this weather, so I'm wearing... this.$6#$b#At least I look cute. The skirt makes my legs look long.$3",
+	
+	"Lani.Dialogue.Thu10.0": "What would solidify Pelican Town as a certified small town would be the inclusion of The Three Fast Food Chains: Burger Queen, WacDonalds, and Taco Time. Anything else can be ignored.$3#$e#Do I eat at any of those places?#$b#No.$6#$b#Do they provide any benefit to me?#$b#Also no.$6",
+	"Lani.Dialogue.Thu10.1": "Have you ever wondered where the streets are in this town?#$b#Like, Lewis has a truck next to his house, the Joja trucks by the JojaMart... how'd they get there?#$b#I mean, I guess you could drive on the cobblestone, but that's a little...#$b#%She shrugs.",
+	"Lani.Dialogue.Thu10.2": "What?$6#$b#Oh, the jacket?$16#$b#Jonghyuk let me borrow his hoodie after we...$1#$b#...$15#$e#%Lani is too embarrassed to continue talking.", 
+	"Lani.Dialogue.summer_Thu10": "Nothin' like summer on a Thursday, am I right, @?$3#$b#Just one of those classic summer Thursdays. Uh huh.$3#$b#Thursday in the summer... those are the days!$1#$e#Definitely my favorite type of Thursday -- one in summer.$12",
+	"Lani.Dialogue.fall_Thu10": "At one point, I was desperate for any kind of creative job.#$b#I unironically considered getting into taxidermy.$8#$b#E-mailed a guy about an apprenticeship and everything.$7#$b#Then I landed my IT job at Grampleton.#$e#IT was never my first choice of a job, but I'm young and good with computers, so... it seemed right.$7#$b#I haven't really gotten to think about the taxidermy thing since.#$e#Small town folk love their mounted deer heads, so maaaybe there's a market here...$3",
+	"Lani.Dialogue.winter_Thu10": "I fell asleep watching a Hillmark movie last night and had the cheesiest dream ever.$12#$b#You know the usual plot of those Winter Star movies, right?$3#$b#Well, the main love interest who swept me off my feet was not my childhood friend, but Lieutenant Spectre from Duty Calls...$1#$e#Do you remember your dreams?$12", 
+	
+	"Lani.Dialogue.Fri10.0": "Ugh... Hey.$13#$b#No, it's nothing you did.$2#$b#I'm just annoyed that my art comes out SO good on paper, but when I try and draw digitally, it looks like garbage. It's not like I hold the pencil any differently!$5#$e#Maybe technology really has gone too far...$6",
+	"Lani.Dialogue.Fri10.0.NoModern": "Ugh... Hey.$13#$b#No, it's nothing you did.$2#$b#I'm just annoyed that my art comes out SO good on paper, but when I try and draw digitally, it looks like garbage. It's not like I do anything any differently with a mouse!$5#$e#Maybe technology really has gone too far...$6",
+	"Lani.Dialogue.Fri10.1": "Do you ever have moments where you don't feel real?#$b#You see yourself in third person going about your day, and it all feels... fake?#$b#I get that feeling a lot. If I think about it too long, it makes me upset, so I just try to ignore it.$6",
+	"Lani.Dialogue.Fri10.2": "I'm not great at receiving gifts, to be honest.#$b#It makes me feel bad because it's like, 'well I didn't get you anything, so now I feel like I owe you'? Even though it's literally just a gift... *sigh*$7#$e#I'm fine GIVING gifts because I know I don't expect something in return, but I'm not a mind-reader, so...$7#$b#What if they DO want something back?$14",
+	"Lani.Dialogue.summer_Fri10": "Too much time on my hands since school is out, and now I'm back on my bullshit.#$b#I found a really nice fanfic the other day, and now I'm wishing fictional men were real.$7#$b#Again.$8#$b#I thought I was cured of this sickness, but it keeps coming back...$2#$e#Don't give me that look, @. The heart wants what it wants!$3",
+	"Lani.Dialogue.fall_Fri10": "It turns out my boss at work does taxidermy, which I did not expect at ALL from an IT dude.$1#$b#We talked about it for a good 30 minutes before he got called.#$b#Apparently, you don't actually need formaldehyde to preserve anything! You just need to do this other thing called...$1#$b#Uh, what was it again? I already forgot.$8#$e#Maybe I'll remember later.$7",
+	"Lani.Dialogue.winter_Fri10": "A zombie apocalypse would be over within a year, if we're following world logic.#$b#The corpses would decay and then they wouldn't be able to... y'know. Zombie anymore.#$b#But that begs the question, how DOES becoming a zombie work?$1#$b#%She rattles on for a few minutes, lost in her own world.#$e#...So I think we'd be able to survive a year if we made a base at your farm. You in or what?$3",
+	
+	"Lani.Dialogue.Sat10.0": "I'm working today. Weird, right?#$b#I started working in my downtime on a project to standardize the login and password reset process for the school, and the higher ups noticed...$7#$b#Now I've got a deadline to meet.$13#$e#I don't even want to do it anymore, but they're giving me a pretty fat check for it, so... Hehehe.$11",
+	"Lani.Dialogue.Sat10.1": "Sometimes I just have anime fight scenes in my head whenever I argue with someone.#$b#Lani attacks with Logic!$3#$b#Internet Rando completely ignores the attack and fires off a 'ur mom'! Oh no!!!$16#$b#It just makes it more fun, I think.$12",
+	"Lani.Dialogue.Sat10.2": "Do you cry a lot?#$b#Crying's a good thing to do. Helps get a lot of emotions out.$12#$b#It's important to have a good cry every so often.$1#$e#Think of your emotions like a bubbling pot; put too much water in there and it'll boil over and make a mess.#$b#Empty that water out on occasion.$12#$e#...Completely unrelated, but man, I really want a burger right now.$6",
+	"Lani.Dialogue.summer_Sat10": "I was feeling overwhelmed a bit ago, so I took a walk to the lake and just... sat.#$b#Listened to nature, breathed, existed...#$b#I felt a lot better afterwards.$12#$e#Sometimes, you just need a mental break from everything.",
+	"Lani.Dialogue.fall_Sat10": "Have you heard of the Fall Guys?$12#$b#Yeah, they don't fall down or anything, they're just guys who really like fall.$1#$b#They wear these funny suits...$3#$b#Anyways, I'm bringing this up because Matsune Hiku is doing a collab with them. It's absolutely nuts.$1",
+	"Lani.Dialogue.fall_Sat10.NoModern": "So there's this new Pocaloid thing going on called Spinleek, and someone made Matsune Hiku do it!$7#$b#Anyways, it's this really cool Blash animation that's getting popular on the forums.$12",
+	"Lani.Dialogue.winter_Sat10": "Growing up, I always associated winter with romance.#$b#I know spring is technically mating season for animals or whatever, but you can't go on romantic sleigh rides in the snow in spring, can you?$3#$b#Well, maybe that doesn't happen in Pelican Town, but it would definitely happen in Grampleton!$1#$e#I'm serious! It really does happen, I saw it in a Hillmark movie once!$10",
+	
+	"Lani.Dialogue.Sun10.0": "@... aren't you tired of being nice? Don't you just want to go ape shit?$11#$e#...Nevermind. You just don't get it.$2",
+	"Lani.Dialogue.Sun10.1": "I hate when someone assumes something and gives the excuse, 'oh, it was just an educated guess'.$13#$b#Like, oh, is that right? Where did you go to school?$16#$b#You're so educated you must have some master's or a doctorate to be making such bold claims?$5#$b#Give me a break, man.$13#$e#Yes, this is about PocketMon lore.$7#$b#Yes, it was some rando on a Harmony server.$7#$b#Let me fume, okay.$7",
+	"Lani.Dialogue.Sun10.1.NoModern": "I hate when someone assumes something and gives the excuse, 'oh, it was just an educated guess'.$13#$b#Like, oh, is that right? Where did you go to school?$16#$b#You're so educated you must have some master's or a doctorate to be making such bold claims?$5#$b#Give me a break, man.$13#$e#Yes, this is about video games.$7#$b#Yes, it was some rando on the forums.$7#$b#Let me fume, okay.$7",
+	"Lani.Dialogue.Sun10.2": "I miss my mom and dad sometimes. Almost enough to regret moving out.#$b#I know that not everyone has great relationships with their parents, which... well, it just makes me sad.$2#$b#Parents are supposed to be your rock and your mentor.#$b#If they're not supportive of you, then they're pretty shit at their job.$6",
+	"Lani.Dialogue.summer_Sun10": "Maru, Sebastian and I are in a group chat together where we just send each other stupid videos.$12#$b#Seeing how their sense of humor overlaps is fascinating.#$e#It's reassuring to know that silly animals are a universally agreed-upon funny thing.$12",
+	"Lani.Dialogue.summer_Sun10.NoModern": "Maru, Sebastian and I make group chats together on ICR and share funny Blash videos.$12#$b#Seeing how their sense of humor overlaps is fascinating.#$e#Sebastian keeps using those times as an opportunity to slap me with a fish, and I don't like it...#$b#That probably makes no sense if you don't use ICR, huh. Well, there's this function...#$b#%Lani starts rambling about the origins of /fish.",
+	"Lani.Dialogue.fall_Sun10": "I read a neat article about the pressures of standardized testing in schools, and how parents make those scores define their children.#$b#I was one of those kids, so the article hit a bit close to home.$7#$e#I know now that a test score doesn't and never will be equivalent to my self worth, but it's hard to convey that to a kid.$6#$b#It's a wisdom that comes with age, I guess.",
+	"Lani.Dialogue.fall_Sun10.NoModern": "I read a neat article in the paper about the pressures of standardized testing in schools, and how parents make those scores define their children.#$b#I was one of those kids, so the article hit a bit close to home.$7#$e#I know now that a test score doesn't and never will be equivalent to my self worth, but it's hard to convey that to a kid.$6#$b#It's a wisdom that comes with age, I guess.",
+	"Lani.Dialogue.winter_Sun10": "I woke up this morning to Sammy straight up suffocating me.#$b#She was sitting on my face! And not even in the fun way!$10#$bI just got a mouthful of fur!!!$10#$b#You legally cannot laugh at my predicament. If you do, it's a hate crime.$13#$b#Yes, it is, because I hated you laughing at me!$2",
+	
+	// FESTIVAL DIALOGUE
+	"festival-default": "If this is showing, something is wrong!",
+	
+	"festival-spring13.Jonghyuk": "Jonghyuk and I concocted a plan to sabotage Abigail and let Jas win this year.#$e#I hate to give up the glory of the hunt, but... damnit, he says all these sweet words and I can't help but listen to him!$10",
+	"festival-spring13": "I, uh, 'convinced' Mayor Lewis into letting me participate again this year.$3#$b#I'm going to wipe the floor with these kids.$11#$b#May the best ${man^woman^player}$ win, @.$3",
+	
+	"festival-spring24.Jonghyuk": "Jonghyuk in a tux... Yoba be damned, I may just pass out.$10#$b#Just kidding. But seriously, the way those pants hug his-$9#$b#%Lani's rambles are drowned out by mic feedback.",
+	"festival-spring24": "I dressed up last year, but didn't get to dance.#$b#I, uh, got so nervous I forgot all the steps, haha...$7#$b#And then I cried.$8#$b#But, like, it's all good. I'm good now. For sure.$12",
+	
+	"festival-summer11.Jonghyuk": "Jonghyuk always puts something high quality into the soup.#$b#He always offers some of his stuff at home for me to put in, but I'd feel bad taking credit for it...$7",
+	"festival-summer11": "The governor's always so picky with the soup. Like, it's always good.$6#$e#Lewis talks out of his ass and just agrees with what the governor thinks about it.#$b#Swear that guy's delusional.$13",
+	
+	"festival-summer28.Jonghyuk": "Jonghyuk always looks good, but the shirt he has on tonight fits him in all the right places...$9#$b#What?! I'm not wrong! He's... y'know! Hot!$10",
+	"festival-summer28": "I went to bed early and nearly forgot about the festival...#$e#If Miyoung hadn't woken me up, I wouldn't even be here.",
+	
+	"festival-fall16.Jonghyuk": "Jonghyuk won me a stuffed Peekachu from the strength game! I can't get over the smile he had when he handed it to me.$9#$b#He's so... *sighs*$9",
+	"festival-fall16": "Pelican Town's fair is... cute.#$b#I might head over to Grampleton's a bit later since I want to ride on the rides.$1#$e#You should try the funnel cake Gus made, though -- Grampleton WISHES theirs was this good.$11",
+	
+	"festival-fall27.Jonghyuk": "If I'm a catgirl... and Jonghyuk is a werewolf...$15#$b#Oh, hey, @. I definitely wasn't checking Jonghyuk out. Nope.$10#$b#Not at... all... haha...$10",
+	"festival-fall27": "I decided to go as my Solarion Chronicles character. The costume doesn't look too silly, does it?$2#$b#%Lani does a twirl, smiling.#$b#I dunno, I feel pretty cute.$3",
+	
+	"festival-winter8.Jonghyuk": "%Lani is standing pretty close to Jonghyuk. It looks like she's trying to subtly grab his hand.",
+	"festival-winter8": "Maru deceived me and made me come out here.$13#$b#I can't feel my ass.$13#$b#Or my toes.$13#$b#Or fingers.$13#$e#The things you do for friendship...$6",
+	
+	"festival-winter25.Jonghyuk": "I have things planned tonight that I cannot discuss here, @.$3#$b#Let's just say I got Jonghyuk a lil' somethin' special, ya feel me?$11#$b#...What? No! It's not a sex thing! Come on!$15#$e#...it's an RGB keyboard...$10",
+	"festival-winter25": "Every year, I think I've outgrown Winter Star, but I still get excited when someone hands me a present.#$b#Maybe I'll get something nice this year.$12",
+	
+	//MAIL + EVENTS + QUESTS 
+	"Lani.Mail.SCMMOReleaseMail": "ELECTRONIC GAMING MONTHLY: SOLARION CHRONICLES EDITION^^Square Benix announced the Solarion Chronicles MMO release date during their annual Summer FanFest, and that date is pretty close. The Solarion Chronicles MMO launches TOMORROW and brings a new take on the franchise from Game Director Poshi-Y with new jobs, 1v1 and large scale PVP support, and modern graphics. The collector's edition, available for 15,000G, nets you an 80-page art book, an album of songs from the Solarion Chronicles composers, and an account-wide mount of your choice!^Please look forward to it!",
+	"Lani.Mail.SCMMOReleaseMailName": "EGM #123: Solarion Chronicles",
+	
+	"Lani.Mail.CongratulationsMail": "Hey Farmer @,^Congrats on your marriage! I got you a wedding gift (if you can even call it that). I know things have been a little weird between us, but I'm hoping we can move past it... starting with this gift!^In other news, I started seeing someone else and y'know... things are looking up in Lani Town!^I wouldn't have been able to have this chance had it not been for... the incident. So I guess I have you to thank? A teeny bit?^Anyways, hope you're doing well, and happy marriage!^(My threat from before is still valid.)^   - Lani",
+	"Lani.Mail.CongratulationsMailName": "Congratulations",
+	
+	"Lani.Mail.MakingAmendsMail": "Hey @,^7 days have passed. I'm dating Jonghyuk now. I confessed last night.^I know this whole situation is awkward and soured our friendship, but I'd really like to meet and talk about it. I don't want this hanging over our heads, y'know?^Meet me in Sunberry Village when you can and we'll talk.^^   - Lani",
+	"Lani.Mail.MakingAmendsMailName": "Making Amends",
+	
+	"Lani.Mail.FertilizerQuestMail": "Hey @,^This is kind of a weird ask, but I just ran out of fertilizer and I really really need some more. As much as I'd like to throw money at Pierre or Ari, I'm a little on the broke side right now until I get my next paycheck. I figured you probably have some just laying around, so...^^Could you bring me some Quality Fertilizer?^   - Lani",
+	"Lani.Mail.FertilizerMailName": "Some Quality Fertilizer",
+	
+	"Lani.Mail.MarginalMail": "Hey @,^^I just had an epiphany and had to write you this letter.^Remember when we talked on the phone? About expectations and stuff? I realized how much my own expectations have been weighing down on me.^I've been trying to break free of them lately, and it's not as easy as I thought it'd be. But... maybe you'll be glad to hear I've started making art again. It's shitty, but I'm making it just to make something. I write poetry with no meaning, whittle sticks for the sake of whittling...^Stopping yourself from chasing perfection is so difficult, but it's so freeing just... not caring. Living. Y'know?^I couldn't have made this progress without you giving me the courage to, so thanks.^   - Lani",
+	"Lani.Mail.MarginalMailName": "Marginal",
+	
+	"Lani.Quest.Fertilizer.Name": "WANTED: Fertilizer",
+	"Lani.Quest.Fertilizer.Description": "I need Quality Fertilizer for my garden. I'd really appreciate it if you could bring me some. Just one would do!",
+	"Lani.Quest.Fertilizer.Hint": "Deliver 1 Quality Fertilizer to Lani.",
+	"Lani.Quest.Fertilizer.Reaction": "You're the best, @! My flowers thank you in advance.",
+	
+	"Lani.SpecialOrders.CabbageSurprise.Name": "Cabbage Surprise",
+	"Lani.SpecialOrders.CabbageSurprise.Text": "Miyoung just ran out of Cabbage and I want to surprise her with some. Please help! I just need 10!",
+	"Lani.SpecialOrders.CabbageSurprise.Objective0Text": "Gather 10 Cabbage",
+	"Lani.SpecialOrders.CabbageSurprise.Objective1Text": "Place the Cabbage in the fridge in Lani's house.",
+	
+	"Lani.SpecialOrders.LearnToBrewSoju.Name": "Learn To Brew: Soju",
+	"Lani.SpecialOrders.LearnToBrewSoju.Text": "If you have a Keg, have you ever tried fermenting rice for a liiittle longer than usual? And perhaps with a fruit? Well... that's soju! It takes a bit longer than regular wine, so try to brew some and show me the results!",
+	"Lani.SpecialOrders.LearnToBrewSoju.Objective0Text": "Brew 5 Soju",
+	"Lani.SpecialOrders.LearnToBrewSoju.Objective1Text": "Place the Soju in the fridge in Lani's house.",
+	
+	"Lani.Item.Soju_Flavored": "{0} Soju",
+	"Lani.Item.FlavoredSoju.Name": "Flavored Soju",
+	"Lani.Item.FlavoredSoju.Description": "A fruit-flavored clear and colorless alcoholic beverage made from rice. Drink in moderation.",
+	"Lani.Item.Soju.Name": "Fresh Soju",
+	"Lani.Item.Soju.Description": "A clear and colorless alcoholic beverage made from rice. Drink in moderation.",
+	"Lani.Item.Fruit_Needed_Message": "Needs 1 Fruit",
+	
+	
+	// MOVIE REACTIONS
+	"Lani.MoviesReactions.DuringMovie.Crying": "%Lani is sniffling and holding back tears.",
+	"Lani.MoviesReactions.DuringMovie.Watching": "%Lani is watching with rapt attention.",
+	"Lani.MoviesReactions.DuringMovie.Bored": "%Lani seems bored out of her mind.",
+	
+	"Lani.MoviesReactions.spring_movie_0.BeforeMovie": "Family movies always have a little something for everyone, that's why I enjoy them so much.$12", // brave little sapling
+	"Lani.MoviesReactions.spring_movie_0.AfterMovie": "Okay, yes, I'm totally still crying, but you would too once you realize The Little Sapling essentially dies alone at the end by leaving his friends to become a stationary tree!$18#$b#He can't talk to anyone anymore! It's heartbreaking!$19",
+	
+	"Lani.MoviesReactions.spring_movie_1.BeforeMovie": "Documentaries are always a nice, chill choice. You excited to watch?", // natural wonders
+	"Lani.MoviesReactions.spring_movie_1.AfterMovie": "That was a lovely documentary. I didn't know that about Prairie Island!$1",
+	
+	"Lani.MoviesReactions.summer_movie_0.BeforeMovie": "I'm hoping, with the recent trend of video game movies, that this one is good.", // prairie king
+	"Lani.MoviesReactions.summer_movie_0.AfterMovie": "I really wish they had included the plotline about the Prairie King and Glub Shitto, but y'know, 2-hour runtime and all that...$6",
+	
+	"Lani.MoviesReactions.summer_movie_1.BeforeMovie": "Really? 'Wumbus'? What kind of slop is this gonna be?$13", // wumbus :nauseous:
+	"Lani.MoviesReactions.summer_movie_1.DuringMovie": "...This actually funny.$16",
+	"Lani.MoviesReactions.summer_movie_1.AfterMovie": "...Perhaps I judged you too harshly, Wumbus... You were not the slop I imagined you to be...$3",
+	
+	"Lani.MoviesReactions.fall_movie_0.BeforeMovie": "I heard Mysterium was crazy good. I'm excited to see it!$1", // mysterium
+	"Lani.MoviesReactions.fall_movie_0.AfterMovie": "Woah... that movie was an experience. I'm gonna be thinking about that for a while.$1",
+	
+	"Lani.MoviesReactions.fall_movie_1.BeforeMovie": "I LOVE found footage films! I'm betting money this is gonna be a sleeper hit.$3", // it howls in the rain
+	"Lani.MoviesReactions.fall_movie_1.AfterMovie": "Oh. My. Yoba. That was terrifying. 10 out of 10 all around.$4",
+	
+	"Lani.MoviesReactions.winter_movie_0.BeforeMovie": "I'm not really a fan of Winter Star-themed movies, but we'll see how this goes...$6", // miracle at coldstar ranch
+	"Lani.MoviesReactions.winter_movie_0.AfterMovie": "Cry? Me? At this... stupid movie? No way... *sniff*$18",
+	
+	"Lani.MoviesReactions.winter_movie_1.BeforeMovie": "I'm giving this a try because I have nothing better to do.$2", // zuzu city express
+	"Lani.MoviesReactions.winter_movie_1.AfterMovie": "This movie really, uh, showed its age with some of the tropes in it...$14",
+	
+	// MISC STRINGS 
+	"Lani.Strings.HouseDisplayName": "Lani's House",
+	
+	// MAP STRINGS
+	"LaniHouse.1": "Lani's fridge. There's a lot of pork belly in here...",
+	"LaniHouse.2": "Lani's stove. It's shiny!",
+	"LaniHouse.3": "The seat is warm from the sun.",
+	"LaniHouse.4": "A mirror. Lookin' good, farmer.",
+	"LaniHouse.5": "A couple photos of Lani, Haley and Maru. They're dated about two years ago.",
+	"LaniHouse.6": "A photo of Lani, Sam and Sebastian at the beach. Sebastian is flipping off the camera.",
+	"LaniHouse.7": "This side of the bookshelf has a lot of worn manga volumes.",
+	"LaniHouse.8": "This side of the bookshelf has... wait, are these all sketchbooks?!",
+	"LaniHouse.9": "A duo of multicolored creatures, one blue and one red. Their design reminds you of a jet plane.",
+	"LaniHouse.10": "A blue-haired girl with twintails. She seems oddly familiar...",
+	"LaniHouse.11": "Lani's gaming computer. The RGB lights are hypnotizing...",
+	"LaniHouse.12": "A happy plant that's almost outgrowing its pot.",
+	"LaniHouse.13": "This plant's leaves feel fuzzy. How odd!",
+	"LaniHouse.14": "That's a spiky plant. Please resist the urge to touch it.",
+	"LaniHouse.15": "Yoga mats, one yellow and one black. You wonder who uses these.",
+	"LaniHouse.16": "An opal. It reminds you of a kaleidoscope.",
+	"LaniHouse.17": "A fire opal. If you tilt it, different colors emerge from the silica spheres.",
+	"LaniHouse.18": "...You're not sure what this is. A rock? It's emitting warmth, though...",
+	"LaniHouse.19": "Where does this door go? It won't open.",
+	"LaniHouse.Sammy": "Sammy is sleeping.",
+	
+	// EVENTS
+	"TheKindlingMatch.0": "I know, right?!",
+	"TheKindlingMatch.1": "It was crazy.",
+	"TheKindlingMatch.2": "Sterling?$16#$b#Sterling Cooper?$16",
+	"TheKindlingMatch.3": "Uhhh, yeah, that's me. Do I...$3",
+	"TheKindlingMatch.4": "No way. There is no way.$8",
+	"TheKindlingMatch.5": "Ohhh! Holy shit! Lani?!$7",
+	"TheKindlingMatch.6": "Why are you here? Are you following me?$14",
+	"TheKindlingMatch.7": "I'm just as shocked as you! I live here!$3",
+	"TheKindlingMatch.8": "It's so weird seeing you again. How are you?$1",
+	"TheKindlingMatch.9": "Oh, yeah. You're probably confused. Sterling is a...$7#$b#Uh...$8",
+	"TheKindlingMatch.10": "Old friend.$10",
+	"TheKindlingMatch.11": "Old friend of mine.$7#$b#From Zuzu.$7#$b#Years ago. Yeah.$8",
+	"TheKindlingMatch.12": "Anyways, this is, uh... awkward, so I'm gonna go and get my groceries.$10#$b#See y'all later.$10",
+	
+	"ThePerfectVideoGame.0": "What are you talking about? Obviously good character customization matters most.$1",
+	"ThePerfectVideoGame.1": "You've got your priorities wrong, man. The story has gotta be good, otherwise, what's the point?$7",
+	"ThePerfectVideoGame.2": "Pfft, you're both not exactly wrong, buuut... Hear me out.$3#$b#If the game can't be modded, I won't be playing it. No question.$3",
+	"ThePerfectVideoGame.3": "Hey, @. You play video games, right?",
+	"ThePerfectVideoGame.4": "What part of a video game matters most to you?",
+	"ThePerfectVideoGame.Choice1": "Customization",
+	"ThePerfectVideoGame.Choice2": "Story",
+	"ThePerfectVideoGame.Choice3": "Moddability",
+	"ThePerfectVideoGame.5": "Heck yeah!#$b#If I can't live my wildest dreams in the character creator, what's the point?$1",
+	"ThePerfectVideoGame.6": "Right?#$b#I need a good story to keep me hooked, otherwise I end up not finishing it.$1",
+	"ThePerfectVideoGame.7": "See, modding a game gives me the ability to have customization AND a good plot!$4#$b#...Provided someone makes a mod that edits those things, anyways. But you understand the vision, @.$3",
+	"ThePerfectVideoGame.8": "I mean, a good art direction seems to be pretty important in any video game, right?$2",
+	"ThePerfectVideoGame.9": "Yeah, graphics ARE pretty important.$12#$b#I'm a fan of more stylized stuff, though, since realistic graphics can get dated pretty quickly.$7#$b#Stylized toony stuff and pixel art are timeless.$1",
+	"ThePerfectVideoGame.10": "Honestly, any game is good if I can make a cute girl.",
+	"ThePerfectVideoGame.11": "Of course that's your only focus, Sam.$6#$b#Don't you play a catgirl in Solarion Chronicles Online?$3",
+	"ThePerfectVideoGame.12": "And?$h#$b#If I'm playing a video game, I don't want to stare at a dude's backside the whole time.$2",
+	"ThePerfectVideoGame.13": "...Solid point. Can't argue with that.$2",
+	"ThePerfectVideoGame.14": "Plus, the catgirls have better animations than the humans do.$1",
+	"ThePerfectVideoGame.15": "Sam, your furry is showing.$11",
+	"ThePerfectVideoGame.16": "Hey!",
+	"ThePerfectVideoGame.17": "What's a furry?$2",
+	"ThePerfectVideoGame.18": "So, it's like...",
+	"ThePerfectVideoGame.19": "Oh boy.",
+	
+	"PierresSecretAdmirer.0": "Oh, I'm not actually here to buy anything...$7",
+	"PierresSecretAdmirer.1": "I come here sometimes to... visit Pierre, is all.$15#$b#He's really nice! To me, anyways.$10#$b#He always gives me free stuff when I come to visit.$9#$b#Sometimes, I bring him takeout if I go into Zuzu for the day.$1",
+	"PierresSecretAdmirer.2": "I'm gonna say something controversial.$7#$b#It's weird to admit because... it just is, but... he's kind of hot.$9",
+	"PierresSecretAdmirer.3": "I don't flirt with him or anything, honest! That'd be... bad.$14",
+	"PierresSecretAdmirer.4": "...Compliments aren't flirting, right?$s",
+	"PierresSecretAdmirer.Choice1": "You need help.",
+	"PierresSecretAdmirer.Choice2": "To each their own, I suppose.",
+	"PierresSecretAdmirer.Choice3": "I'm gonna tell Abigail!",
+	"PierresSecretAdmirer.5": "Trust me, that ain't news to anybody. But like...$10#$b#You can see it a little bit, right?$9#$b#...Right?$15",
+	"PierresSecretAdmirer.6": "Unfortunately, the heart wants what it wants... and mine gravitates towards older men.$10#$b#Mostly.$15",
+	"PierresSecretAdmirer.7": "Oh my Yoba. Please don't tell Abigail. She'll never let me live it down!$15",
+	"PierresSecretAdmirer.8": "...$8#$b#Well, back to my, uh, observations. See you around, @.$9",
+	
+	"KyoufuuAllBack.0": "Oh, hey, @! Thanks for picking up.$1#$b#Kinda random, but I'm struggling with something right now, and you seemed like the right person to ask.$2#$b#You used to work in the city, right?$7",
+	"KyoufuuAllBack.Question": "Did you ever see yourself becoming a farmer?",
+	"KyoufuuAllBack.Yes": "Yes",
+	"KyoufuuAllBack.No": "No",
+	"KyoufuuAllBack.1": "I always imagined myself as a game artist, but... haha.$7#$b#You're lucky you get to fulfill your dream now.$1#$b#How did you make such a huge change without feeling like you wasted your time?$s",
+	"KyoufuuAllBack.2": "Wait, really?$16#$b#You had no inkling at all you were gonna be a farmer? That's a huge change from corporate to... well, this.$16",
+	"KyoufuuAllBack.3": "Tell the story about how you became a farmer.",
+	"KyoufuuAllBack.4": "You explain how you were tired of corporate life and finally read your grandfather's letter you'd kept for years.",
+	"KyoufuuAllBack.5": "At first, the words are a little forced, but as you talk more about your new life, the words flow easier.",
+	"KyoufuuAllBack.6": "A few minutes pass...",
+	"KyoufuuAllBack.7": "Woah, I didn't know you went through all that! It sounds straight out of a TV show.$16#$b#You get a letter from your grandfather, get a whole bunch of land, and escape the city to become a farmer...$12#$b#I guess there really isn't a problem with starting something new. You're right, @.$1",
+	"KyoufuuAllBack.8": "But... I feel like if I give up on everything now, I'll feel guilty. I'll feel like I'm letting myself down.$s#$b#Sunk cost fallacy and all that. *sigh*$7",
+	"KyoufuuAllBack.9": "Hopefully it won't always be this hard.$7",
+	"KyoufuuAllBack.10": "Well, thanks for talking to me about all this, @. I appreciate it.$12#$b#Talk to you later!$h",
+	
+	"OpenWounds.0": "Oh, hey, @. I'm just reorganizing my bookshelves.",
+	"OpenWounds.1": "I kinda got sidetracked looking at my old sketchbooks...$7#$b#I used to draw several full on pieces a day when I was younger.$6#$b#It was horrible OC art, but I pumped it out like crazy.$7",
+	"OpenWounds.2": "My dream was to design a PocketMon that made it into a game. Just one. And then I could die happy.$1#$b#If I flip a few pages, you can see some of them...$12",
+	"OpenWounds.3": "Oh my gosh! I forgot about Inferdog!$4#$b#Yeah, dumb name, forgive me. I was like, 11.$14#$b#I really liked this PocketMon named Abbsol at the time...$7",
+	"OpenWounds.4": "But yeah, I ended up pursuing a degree in art thinking it'd give me the skills to get my foot in the door.$7#$b#Spoiler alert: it did not.$8",
+	"OpenWounds.5": "I'd spent all these years improving my art skill to achieve this pipe dream of becoming a game artist.$6#$b#I felt if I didn't do something with it, I wouldn't be able to live with myself...$2#$b#I burnt myself out so hard in college that I haven't drawn a single thing since.$2",
+	"OpenWounds.6": "I flip through the sketchbooks hoping one day I'll get enough of a spark to actually do something.$2",
+	"OpenWounds.7": "Um, wow, sorry. I totally just dumped all that on you.$14#$b#Um...$17",
+	"OpenWounds.8": "Well, uh, now that that old wound has been reopened, I kinda want to be alone.$10#$b#I'm sorry for cutting the visit short. But... thanks anyways for listening to me.$17#$b#See you around, farmer.$10",
+	
+	"TheDesireToCreate.0": "Hey, @.#$b#Bathing in the sunlight helps me calm down.$2",
+	"TheDesireToCreate.1": "Nothing I'm doing is coming out right.$2#$b#When I draw with a pen and paper, it looks so much better, but the second I try on the damn computer, it looks like shit.$13#$b#Why is that? It isn't my hands, surely.$5",
+	"TheDesireToCreate.1.NoModern": "Nothing I'm doing is coming out right.$2#$b#When I draw with a pen and paper, it looks so much better, but the second I try refining it on the damn computer, it looks like shit.$13#$b#Why is that? It isn't my hands, surely.$5",
+	"TheDesireToCreate.2": "It's so... hard to draw after all these years. My standards are set too high for myself.$2#$b#I know I can't meet them unless I practice, but since I know I'll compare myself to them when I draw, I don't even try.$13",
+	"TheDesireToCreate.3": "Art school killed my desire to create. I used to draw all the time up until I majored in it, and then...$13#$b#I lost the spark. I miss it so, so much.$2#$b#It feels like a part of me died back then.$17",
+	"TheDesireToCreate.4": "I see artists on Tweeter all the time, and I want to be like them, but the second I try...$17#$b#It all ends up looking like garbage. I don't know why I bother anymore.$19",
+	"TheDesireToCreate.4.NoModern": "I see artists on the internet all the time, and I want to be like them, but the second I try...$17#$b#It all ends up looking like garbage. I don't know why I bother anymore.$19",
+	"TheDesireToCreate.5": "#Why do it if it makes you upset?",
+	"TheDesireToCreate.6": "It used to NOT make me upset, but now when I draw, I just get unreasonably angry.$19#$b#Being creative used to be fun.$18",
+	"TheDesireToCreate.7": "#Maybe try something other than digital art?",
+	"TheDesireToCreate.8": "...Maybe.$18#$b#Thanks for trying to help, @.$18",
+	
+	"PaintingWithLyenne.0": "...Hm. I decided to try something different.$6",
+	"PaintingWithLyenne.1": "Ooh! Let me see!",
+	"PaintingWithLyenne.2": "I know you suggested painting how the music made me feel, but...$7",
+	"PaintingWithLyenne.3": "I keep... I keep wanting to make concrete things.$7#$b#I can't even do the painting thing right. Ugh.$5",
+	"PaintingWithLyenne.4": "Lani, no! You did something, and you should be proud of it.$3#$b#Not everyone is going to paint the Mona Lisa when they pick up a brush.",
+	"PaintingWithLyenne.5": "It's clear the brush strokes on the left are hesitant, trying to form a hazy idea, but the ones on the right are careless, angry, and resentful.",
+	"PaintingWithLyenne.6": "It's not bad, all things considered, but it's not what Lani's aiming for.",
+	"PaintingWithLyenne.7": "I tried to be a little more 'interpretive' and paint a representation of an emotion, but you can obviously see how that went.$6",
+	"PaintingWithLyenne.8": "Umm, obviously good? I can totally see how you were feeling.$1#$b#See your brush strokes on the right? Totally angry.$3",
+	"PaintingWithLyenne.9": "Well, I was pissed when I was painting 'em, so that makes sense.$13#$b#...It's a little embarrassing how easy it was for you to tell.$7",
+	"PaintingWithLyenne.10": "To be fair, I was watching your face the entire time you were painting.$12#$b#You CANNOT hide your expressions AT ALL.$7#$b#It's SO funny.$3",
+	"PaintingWithLyenne.11": "Oh, come on, I'm not THAT bad!$7#$b#...Am I?$10",
+	"PaintingWithLyenne.12": "Well, I'm glad my vent session was entertaining, at least.$7#$b#I'll keep trying.$12#$b#Thanks, Lyenne.$12",
+	"PaintingWithLyenne.13": "You're always welcome here, Lani!$1#$b#It's honestly nice to see you get out more. I've always wanted to talk to you but never really got the chance before.#$b#I'm glad we got to hang out today.$3",
+	"PaintingWithLyenne.14": "Thank you. That's... that's really nice of you to say.$16#$b#I'll, uh, see you around then?$1",
+	"PaintingWithLyenne.15": "For sure!#$b#See ya later, Lani!$3",
+	
+	"CeramicsWithLeah.0": "So... I made... a cup. Or, tried to.$7#$b#This looks like a cup, right?$8#$b#It's... kinda lumpy.$7",
+	"CeramicsWithLeah.1": "You've never used a pottery wheel before, right? This is a great first try!$1",
+	"CeramicsWithLeah.2": "...I'm not used to NOT being perfect at things the first time I do them, if I'm being honest.$7#$b#But... trust me, Leah, I am shocked to admit this...$6#$b#I had fun.$1#$b#It just looks so awful!$7",
+	"CeramicsWithLeah.3": "I'm having so many mixed feelings right now. I feel amazing, but also really embarrassed.$7",
+	"CeramicsWithLeah.4": "Mixed feelings are better than bad ones, I'd say.",
+	"CeramicsWithLeah.5": "Y'know, this definitely isn't my calling or anything, but I would've never attempted this if @ didn't encourage me to explore.$12",
+	"CeramicsWithLeah.6": "Ah, so the art exploration is because of @? I didn't expect that.$3",
+	"CeramicsWithLeah.7": "Well, they told me to try different things outside of digital art, so... well, I'm trying things.$1",
+	"CeramicsWithLeah.8": "Oh, uh, I can take this home, right?$12",
+	"CeramicsWithLeah.9": "You actually wanna keep it?$6#$b#I thought you said it looked awful.$7",
+	"CeramicsWithLeah.10": "I know, but it's a good memento of sorts.$1#$b#A signifier of progress.$12",
+	"CeramicsWithLeah.11": "Well, don't let me stop you, then.",
+	"CeramicsWithLeah.12": "Yay!",
+	"CeramicsWithLeah.13": "Thanks for doing this with me, Leah!$12",
+	"CeramicsWithLeah.14": "I'll see you later.$1",
+	"CeramicsWithLeah.15": "Come back any time!$1",
+	
+	"WoodworkingWithRobin.0": "Welcome home!",
+	"WoodworkingWithRobin.1": "Hi!",
+	"WoodworkingWithRobin.2": "Yo, dude! Look what I'm working on!$4",
+	"WoodworkingWithRobin.3": "Looks cute. What is it?$7",
+	"WoodworkingWithRobin.4": "It's a little cow!$4#$b#He's not done yet, but I think he's coming out really well.$1",
+	"WoodworkingWithRobin.5": "She's been whittling away at that guy for hours under my guidance.#$b#I might make an apprentice of her yet!$1",
+	"WoodworkingWithRobin.6": "Maru, you're doing this too?",
+	"WoodworkingWithRobin.7": "No. I'm waiting for a solution to set, but it sounded like they were having fun, so I joined them.#$b#I think you'd like it, Seb.",
+	"WoodworkingWithRobin.8": "Come ooooon, Seb, join us! You can be an honorary member of the girls.$12",
+	"WoodworkingWithRobin.9": "Well, I don't have anything else to do, so-$2",
+	"WoodworkingWithRobin.10": "Yay! C'mere, I can teach you how to do it.$4#$b#It's not as hard as it looks, I promise.$12",
+	"WoodworkingWithRobin.11": "You're awfully chipper about this. Did my mom brainwash you or something?$1",
+	"WoodworkingWithRobin.12": "I heard that, you little brat.$6",
+	"WoodworkingWithRobin.13": "It was actually Lani who just sorta barged in here and asked mom to teach her this stuff...$1",
+	"WoodworkingWithRobin.14": "I didn't 'barge' in here... I just kinda... politely came in and asked about woodworking.$8#$b#I swear.$7",
+	"WoodworkingWithRobin.15": "We both know that's the furthest thing from the truth, dude.$7",
+	"WoodworkingWithRobin.16": "Roooobin, your children are bullying me!$7",
+	
+	// CUSTOM COMPANION LINES
+	"LSammy.Inspection.1":"Sammy stares up at you quietly.",
+	"LSammy.Inspection.2":"Sammy doesn't seem to have any interest in you.",
+	"LSammy.Inspection.3":"Sammy's busy licking her paws.",
+	"LSammy.Inspection.4":"Sammy slinks around your legs.",
+	"LSammy.Inspection.5":"Sammy sniffs your hand, but pulls away shortly after.",
+	"LSammy.Inspection.6":"Sammy hisses when you try and pet her too firmly.",
+	"LSammy.Inspection.7":"Sammy's tail puffs up as you get closer.",
+	"LSammy.Inspection.8":"Sammy approaches you cautiously, curious.",
+	"LSammy.Inspection.9":"You pet Sammy. She'll allow it, for now.",
+	"LSammy.Inspection.10":"Sammy purrs as you pet her.",
+	"LSammy.Inspection.11":"Sammy's tail wraps around your ankle as she walks around you.",
+	"LSammy.Inspection.12":"Sammy meows happily when you pet her.",
+	"LSammy.Inspection.13":"Sammy seems to be searching for something...",
+	"LSammy.Inspection.14":"Sammy flops down and shows you her belly. She looks like she's up to something, though...",
+	"LSammy.Inspection.15":"Sammy sniffs and licks your hand, grooming you. Her tongue feels like sandpaper.",
+}

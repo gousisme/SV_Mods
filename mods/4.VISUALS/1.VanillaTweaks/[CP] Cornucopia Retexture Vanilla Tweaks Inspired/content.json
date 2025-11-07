@@ -1,0 +1,641 @@
+
+{
+   "Format": "2.3.0",
+   "ConfigSchema": {
+//Essential Pack
+    "Essential Pack Crops":{
+            "AllowValues": "Cucumber, Olive, Onion, Peanut, Soybeans",
+            "Default": "Cucumber, Olive, Onion, Peanut, Soybeans",
+			"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+            "Section": "Essential Pack Crops",
+            "AllowMultiple": true,
+            "AllowBlank": true
+        },
+//Essential Pack Fruit
+    "Essential Pack Fruit":{
+            "AllowValues": "Avocado, Cocoa Pod, Pear",
+            "Default": "Avocado, Cocoa Pod, Pear",
+			"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+            "Section": "Essential Pack Fruit",
+            "AllowMultiple": true,
+            "AllowBlank": true
+        },
+//Extended Crops Pack
+    "Extended Crops Pack":{
+            "AllowValues": "Barley, Black Beans, Buckwheat, Cabbage, Durum, Elderberries, Green Peas, Honeydew, Jalapeno, Kidney Beans, Navy Beans, Pinto Beans, Red Onion, Sweet Potato, White Grape",
+            "Default": "Barley, Black Beans, Buckwheat, Cabbage, Durum, Elderberries, Green Peas, Honeydew, Jalapeno, Kidney Beans, Navy Beans, Pinto Beans, Red Onion, Sweet Potato, White Grape",
+			"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+            "Section": "Extended Crops Pack",
+            "AllowMultiple": true,
+            "AllowBlank": true
+        },
+//Extended Fruit Pack
+    "Extended Fruit Pack":{
+            "AllowValues": "Cashew, Fig, Grapefruit, Lemon, Lime, Nectarine, Persimmon, Plantain, Pomelo, Ume, Yuzu, Sapodilla",
+            "Default": "Cashew, Fig, Grapefruit, Lemon, Lime, Nectarine, Persimmon, Plantain, Pomelo, Ume, Yuzu, Sapodilla",
+			"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+            "Section": "Extended Fruit Pack",
+            "AllowMultiple": true,
+            "AllowBlank": true
+        },
+//Herbs Pack
+    "Herbs Pack":{
+            "AllowValues": "Cumin Seeds, Tumeric",
+            "Default": "Cumin Seeds, Tumeric",
+			"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+            "Section": "Herbs Pack",
+            "AllowMultiple": true,
+            "AllowBlank": true
+        },
+//Artisan Edits
+	"Artisan Edits":{
+		"AllowValues": "Olive Oil, Molasses, Buckwheat Flour, Dark Ale, Porter, Semolina Flour, Sparkling Wine, Stout, Whole Grain Flour, Chicle Rubber",
+		"Default": "Olive Oil, Molasses, Buckwheat Flour, Dark Ale, Porter, Semolina Flour, Sparkling Wine, Stout, Whole Grain Flour, Chicle Rubber",
+		"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+		"Section": "Artisan Edits",
+		"AllowMultiple": true,
+		"AllowBlank": true
+	},
+//Crop Growth Phases
+	"Crop Growth Phases":{
+		"AllowValues": "Barley, Buckwheat, Oat, Durum, Habanero Seeds, Jalapeno, Hot Pepper, Kiwi, Passion Fruit, White Grape",
+		"Default": "Barley, Buckwheat, Oat, Durum, Habanero Seeds, Jalapeno, Hot Pepper, Kiwi, Passion Fruit, White Grape",
+		"Description": "Enables Vanilla Tweaks retexture - untick to turn off",
+		"Section": "Crop Growth Phases",
+		"AllowMultiple": true,
+		"AllowBlank": true
+	},
+//Teabushes Edits
+	"Bush Crop Edits":{
+		"AllowValues": "true, false",
+		"Default": true,
+		"Description": "Retexture's the Grape Bushe's sprites to match Vanilla Tweaks",
+		"Section": "Bush Crop Edits"
+	}
+	},
+
+    "Changes": [
+//Essential Pack Crops
+{//Cucumber
+		"LogName": "Cucumber",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Crops |contains= Cucumber": true }
+		},
+{//Olive
+		"LogName": "Olive",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 96, "Y": 208, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 208, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Crops |contains= Olive": true }
+		},
+{//Onion
+		"LogName": "Onion",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 256, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 256, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Crops |contains= Onion": true }
+		},
+{//Peanut
+		"LogName": "Peanut",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16},
+        "ToArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Crops |contains= Peanut": true }
+		},
+{//Soybeans
+		"LogName": "Soybeans",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 224, "Y": 48, "Width": 16, "Height": 16},
+        "ToArea": { "X": 224, "Y": 48, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Crops |contains= Soybeans": true }
+		},
+
+// Essential Pack Fruit
+{//Avocado
+		"LogName": "Avocado",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16},
+        "ToArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Fruit |contains= Avocado": true }
+		},
+{//Cocoa Pod
+		"LogName": "Cocoa Pod",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 32, "Y": 304, "Width": 16, "Height": 16},
+        "ToArea": { "X": 32, "Y": 304, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Fruit |contains= Cocoa Pod": true }
+		},
+{//Pear
+		"LogName": "Pear",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 160, "Y": 288, "Width": 16, "Height": 16},
+        "ToArea": { "X": 160, "Y": 288, "Width": 16, "Height": 16},
+		"When": { "Essential Pack Fruit |contains= Pear": true }
+		},
+//Extended Crops Pack
+{//Cabbage
+		"LogName": "Cabbage",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Cabbage": true }
+		},
+{//Barley
+		"LogName": "Barley",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 288, "Y": 64, "Width": 16, "Height": 16},
+        "ToArea": { "X": 288, "Y": 64, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Barley": true }
+		},
+{//Black Beans
+		"LogName": "Black Beans",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 160, "Y": 112, "Width": 16, "Height": 16},
+        "ToArea": { "X": 160, "Y": 112, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Black Beans": true }
+		},
+{//Buckwheat
+		"LogName": "Buckwheat",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 64, "Y": 96, "Width": 16, "Height": 16},
+        "ToArea": { "X": 64, "Y": 96, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Buckwheat": true }
+		},
+{//Durum
+		"LogName": "Durum",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 64, "Y": 144, "Width": 16, "Height": 16},
+        "ToArea": { "X": 64, "Y": 144, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Durum": true }
+		},
+{//Elderberries
+		"LogName": "Elderberries",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 0, "Y": 64, "Width": 16, "Height": 16},
+        "ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Elderberries": true }
+		},
+{//Green Peas
+		"LogName": "Green Peas",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 160, "Y": 64, "Width": 16, "Height": 16},
+        "ToArea": { "X": 160, "Y": 64, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Green Peas": true }
+		},
+{//Honeydew
+		"LogName": "Honeydew",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 160, "Y": 96, "Width": 16, "Height": 16},
+        "ToArea": { "X": 160, "Y": 96, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Honeydew": true }
+		},
+{//Jalapeno
+		"LogName": "Jalapeno",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 192, "Y": 64, "Width": 16, "Height": 16},
+        "ToArea": { "X": 192, "Y": 64, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Jalapeno": true }
+		},
+{//Kidney Beans
+		"LogName": "Kidney Beans",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 192, "Y": 112, "Width": 16, "Height": 16},
+		"ToArea": { "X": 192, "Y": 112, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Kidney Beans": true }
+		},
+{//Navy Beans
+		"LogName": "Navy Beans",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 128, "Y": 112, "Width": 16, "Height": 16},
+        "ToArea": { "X": 128, "Y": 112, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Navy Beans": true }
+		},
+{//Pinto Beans
+		"LogName": "Pinto Beans",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Pinto Beans": true }
+		},
+ {//Red Onion
+		"LogName": "Red Onion",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 0, "Y": 144, "Width": 16, "Height": 16},
+        "ToArea": { "X": 0, "Y": 144, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Red Onion": true }
+		},
+ {//Sweet Potato
+		"LogName": "Sweet Potato",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 192, "Y": 16, "Width": 16, "Height": 16},
+        "ToArea": { "X": 192, "Y": 16, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= Sweet Potato": true }
+		},
+ {//White Grape
+		"LogName": "White Grape",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 224, "Y": 64, "Width": 16, "Height": 16},
+        "ToArea": { "X": 224, "Y": 64, "Width": 16, "Height": 16},
+		"When": { "Extended Crops Pack | contains= White Grape": true }
+		},
+//Extended Fruit Pack		
+ {//Cashew
+		"LogName": "Cashew",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 96, "Y": 304, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 304, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Cashew": true }
+		},
+{//Fig
+		"LogName": "Fig",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16},
+        "ToArea": { "X": 128, "Y": 288, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Fig": true }
+		},
+{//Grapefruit
+		"LogName": "Grapefruit",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 64, "Y": 336, "Width": 16, "Height": 16},
+        "ToArea": { "X": 64, "Y": 336, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Grapefruit": true }
+		},
+{//Lemon
+		"LogName": "Lemon",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 288, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Lemon": true }
+		},
+{//Lime
+		"LogName": "Lime",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 288, "Y": 288, "Width": 16, "Height": 16},
+        "ToArea": { "X": 288, "Y": 288, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Lime": true }
+		},
+{//Nectarine
+		"LogName": "Nectarine",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16},
+        "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Nectarine": true }
+		},
+{//Persimmon
+		"LogName": "Persimmon",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 256, "Y": 288, "Width": 16, "Height": 16},
+        "ToArea": { "X": 256, "Y": 288, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Persimmon": true }
+		},
+{//Plantain
+		"LogName": "Plantain",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 224, "Y": 304, "Width": 16, "Height": 16},
+        "ToArea": { "X": 224, "Y": 304, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Plantain": true }
+		},
+{//Pomelo
+		"LogName": "Pomelo",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 32, "Y": 336, "Width": 16, "Height": 16},
+        "ToArea": { "X": 32, "Y": 336, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Pomelo": true }
+		},  
+{//Ume
+		"LogName": "Ume",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 192, "Y": 304, "Width": 16, "Height": 16},
+        "ToArea": { "X": 192, "Y": 304, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Ume": true }
+		},
+{//Yuzu
+		"LogName": "Yuzu",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 160, "Y": 304, "Width": 16, "Height": 16},
+        "ToArea": { "X": 160, "Y": 304, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Yuzu": true }
+		},
+{//Sapodilla
+		"LogName": "Sapodilla",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 64, "Y": 352, "Width": 16, "Height": 16},
+        "ToArea": { "X": 64, "Y": 352, "Width": 16, "Height": 16},
+		"When": { "Extended Fruit Pack | contains= Sapodilla": true }
+		},
+//Herbs Edits
+{//Cumin Seeds
+		"LogName": "Cumin Seeds",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 288, "Y": 160, "Width": 16, "Height": 16},
+        "ToArea": { "X": 288, "Y": 160, "Width": 16, "Height": 16},
+		"When": { "Herbs Pack | contains= Cumin Seeds": true }
+		},
+{//Tumeric
+		"LogName": "Tumeric",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 96, "Y": 192, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 192, "Width": 16, "Height": 16},
+		"When": { "Herbs Pack | contains= Tumeric": true }
+		},
+//Artisan Edits
+	{//Olive Oil
+		"LogName": "Olive Oil",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Olive Oil": true }
+		},
+	{//Molasses
+		"LogName": "Molasses",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Molasses": true }
+		},
+	{//Buckwheat Flour
+		"LogName": "Buckwheat Flour",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Buckwheat Flour": true }
+		},
+	{//Dark Ale
+		"LogName": "Dark Ale",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 130, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 130, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Dark Ale": true }
+		},
+	{//Porter
+		"LogName": "Porter",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Porter": true }
+		},
+	{//Semolina Flour
+		"LogName": "Semolina Flour",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Semolina Flour": true }
+		},
+
+	{//Sparkling Wine
+		"LogName": "Sparkling Wine",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Sparkling Wine": true }
+		},
+	{//Stout
+		"LogName": "Stout",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Stout": true }
+		},
+	{//Whole Grain Flour
+		"LogName": "Whole Grain Flour",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/Objects-Artisan",
+		"FromFile": "assets/objects-artisan.png",
+		"FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16},
+        "ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Whole Grain Flour": true }
+		},
+	{//Chicle Rubber
+		"LogName": "Chicle Rubber",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/objects",
+		"FromFile": "assets/objects.png",
+		"FromArea": { "X": 32, "Y": 352, "Width": 16, "Height": 16},
+        "ToArea": { "X": 32, "Y": 352, "Width": 16, "Height": 16},
+		"When": { "Artisan Edits | contains= Chicle Rubber": true }
+		},
+//Crop Growth Phases
+	{ 
+		"LogName": "Buckwheat Crop growth retexture",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32},
+		"ToArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32},
+		"When": { "Crop Growth Phases | contains= Buckwheat": true }
+		},
+	{ 
+		"LogName": "Barley Crop growth retexture",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32},
+		"ToArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32},
+		"When": { "Crop Growth Phases | contains= Barley": true }
+		},
+	{ 
+		"LogName": "Oat Crop Growth Retexture",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32},
+		"ToArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32},
+		"When": { "Crop Growth Phases | contains= Oat": true }
+	},
+	{ 
+		"LogName": "Durum Crop growth retexture",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 0, "Y": 64, "Width": 128, "Height": 32},
+		"ToArea": { "X": 0, "Y": 64, "Width": 128, "Height": 32},
+		"When": { "Crop Growth Phases | contains= Durum": true }
+		},
+	{ 
+		"LogName": "Retextures the Habanero Seeds sprite ONLY",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 131, "Y": 499, "Width": 25, "Height": 10},
+		"ToArea": { "X": 131, "Y": 499, "Width": 25, "Height": 10},
+		"When": { "Crop Growth Phases | contains= Durum": true }
+		},
+		{ 
+		"LogName": "Jalapeno growth retexture",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 0, "Y": 518, "Width": 128, "Height": 26},
+		"ToArea": { "X": 0, "Y": 518, "Width": 128, "Height": 26},
+		"When": { "Crop Growth Phases | contains= Jalapeno": true }
+		},
+			{ 
+		"LogName": "Hot Pepper growth retexture",
+		"Action": "EditImage",
+		"Target": "Cornucopia.MoreCrops/crops",
+		"FromFile": "assets/crops.png",
+		"FromArea": { "X": 128, "Y": 518, "Width": 128, "Height": 26},
+		"ToArea": { "X": 128, "Y": 518, "Width": 128, "Height": 26},
+		"When": { "Crop Growth Phases | contains= Hot Pepper": true }
+		},
+
+		{ 
+			"LogName": "Kiwi Crop growth retexture",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/crops",
+			"FromFile": "assets/crops.png",
+			"FromArea": { "X": 128, "Y": 736, "Width": 128, "Height": 32},
+			"ToArea": { "X": 128, "Y": 736, "Width": 128, "Height": 32},
+			"When": { "Crop Growth Phases | contains= Kiwi": true }
+			},
+		{ 
+			"LogName": "Passion Fruit Crop growth retexture",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/crops",
+			"FromFile": "assets/crops.png",
+			"FromArea": { "X": 0, "Y": 897, "Width": 128, "Height": 32},
+			"ToArea": { "X": 0, "Y": 897, "Width": 128, "Height": 32},
+			"When": { "Crop Growth Phases | contains= Passion Fruit": true }
+			},
+
+		{ 
+			"LogName": "White Grape Crop growth retexture",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/crops",
+			"FromFile": "assets/crops.png",
+			"FromArea": { "X": 128, "Y": 897, "Width": 128, "Height": 32},
+			"ToArea": { "X": 128, "Y": 897, "Width": 128, "Height": 32},
+			"When": { "Crop Growth Phases | contains= White Grape": true }
+			},
+
+//Teabush Edits - to match VT style
+	{ //Teabushes Edits Seasonal White Grapes
+			"LogName": "Teabushes Edits Seasonal",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/teabushes_{{season}}",
+			"FromFile": "assets/teabushes_{{season}}.png",
+			"FromArea": { "X": 0, "Y": 32, "Width": 64, "Height": 32},
+			"TextureSpriteRow": 2,
+			"When": { "Bush Crop Edits": true }
+			},
+	{ //Teabushes Edit for Indoors White Grapes
+			"LogName": "Teabushes Edit Indoors",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/teabushes_indoors",
+			"FromFile": "assets/teabushes_indoors.png",
+			"FromArea": { "X": 0, "Y": 32, "Width": 64, "Height": 32},
+			"TextureSpriteRow": 2,
+			"When": { "Bush Crop Edits": true }
+			},
+	{ //Teabushes Edits Seasonal Normal Grapes
+			"LogName": "Teabushes Edits Seasonal",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/teabushes_{{season}}",
+			"FromFile": "assets/teabushes_{{season}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32},
+			"TextureSpriteRow": 0,
+			"When": { "Bush Crop Edits": true }
+			},
+	{ //Teabushes Edit for Indoors Normal Grapes
+			"LogName": "Teabushes Edit Indoors",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/teabushes_indoors",
+			"FromFile": "assets/teabushes_indoors.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32},
+			"TextureSpriteRow": 0,
+			"When": { "Bush Crop Edits": true }
+			}
+]
+}

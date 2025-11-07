@@ -1,0 +1,22 @@
+{
+  "Name": "Balcony (PIF)",
+  "Author": "Sharogg",
+  "Version": "1.1.3",
+  "Description": "A cute balcony with scenic background for your farmhouse.",
+  "UniqueID": "Sharogg.PIF_Balcony",
+  "UpdateKeys": [ "Nexus:25552" ],
+  "ContentPackFor":
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies":[
+		{
+			"UniqueID": "DLX.PIF",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "DaisyNiko.Tilesheets",
+			"IsRequired": true
+		}
+	]
+}

@@ -1,0 +1,128 @@
+{
+
+
+    "Changes": [
+
+
+//■■■「Ukrainian Food」 インストール時 ■■■
+
+
+    //●移動用ボートの追加
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_Boat.tmx",
+        "PatchMode": "Overlay",
+        "ToArea": { "X": 15, "Y": 37, "Width": 4, "Height": 3 }
+      },
+
+    //●マップポトレ追加(ライト、デイ、ナイト)
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "TextOperations": [
+            {
+              "Operation": "Append",
+              "Target": ["MapProperties", "DayTiles"],
+              "Value": "AlwaysFront 55 38 369 Front 73 37 369",
+              "Delimiter": " "
+            },
+            {
+              "Operation": "Append",
+              "Target": ["MapProperties", "Light"],
+              "Value": "55 38 4 73 37 4",
+              "Delimiter": " "
+            },
+            {
+              "Operation": "Append",
+              "Target": ["MapProperties", "NightTiles"],
+              "Value": "AlwaysFront 55 38 368 Front 73 37 368",
+              "Delimiter": " "
+            }
+        ]
+      },
+
+    //●エリア追加 足場"有り"
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_CS.tmx",
+        "FromArea": { "X": 0, "Y": 0, "Width": 21, "Height": 1 },
+        "ToArea": { "X": 50, "Y": 37, "Width": 21, "Height": 1 },
+        "PatchMode": "Overlay",
+        "When": {
+            "ScaffoldPattern": "CenterScaffold"
+        }
+      },
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_CS.tmx",
+        "FromArea": { "X": 0, "Y": 1, "Width": 24, "Height": 10 },
+        "ToArea": { "X": 50, "Y": 38, "Width": 24, "Height": 10 },
+        "PatchMode": "Overlay",
+        "When": {
+            "ScaffoldPattern": "CenterScaffold"
+        }
+      },
+
+    //●エリア追加 足場"無し"
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_N-CS.tmx",
+        "FromArea": { "X": 0, "Y": 0, "Width": 21, "Height": 1 },
+        "ToArea": { "X": 50, "Y": 37, "Width": 21, "Height": 1 },
+        "PatchMode": "Overlay",
+        "When": {
+            "ScaffoldPattern": "No_CenterScaffold"
+        }
+      },
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_N-CS.tmx",
+        "FromArea": { "X": 0, "Y": 1, "Width": 24, "Height": 10 },
+        "ToArea": { "X": 50, "Y": 38, "Width": 24, "Height": 10 },
+        "PatchMode": "Overlay",
+        "When": {
+            "ScaffoldPattern": "No_CenterScaffold"
+        }
+      },
+
+    //●ボート"非"出現日にパッチ
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_CS.tmx",
+        "FromArea": { "X": 21, "Y": 0, "Width": 2, "Height": 1 },
+        "ToArea": { "X": 71, "Y": 37, "Width": 2, "Height": 1 },
+        "PatchMode": "Overlay",
+        "When": {
+          "Year": "1"
+        }
+      },
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_CS.tmx",
+        "FromArea": { "X": 21, "Y": 0, "Width": 2, "Height": 1 },
+        "ToArea": { "X": 71, "Y": 37, "Width": 2, "Height": 1 },
+        "PatchMode": "Overlay",
+        "When": {
+          "Year |contains=1": "false",
+          "DayOfWeek |contains=Friday": "false"
+        }
+      },
+
+    //●被る桟橋を修正（共通）
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension(UkrainianFood)_BridgeFix.tmx",
+        "ToArea": { "X": 71, "Y": 38, "Width": 4, "Height": 4 }
+      }
+
+
+    ]//▼▼"Changes"の終了▼▼
+}

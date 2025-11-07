@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="45">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" name="LiLaoliu's Tilesheets" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="1501" name="LiLaoliu's Tilesheets2" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets2.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="3001" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="3037" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="5213" name="furniture_3" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="Vanilla_RedPandaBazaar_furniture_3.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="5564" name="LiLaoliu's Tilesheets3" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets3.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="7064" name="furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="Vanilla_RedPandaBazaar_furniture.png" width="512" height="1488"/>
+ </tileset>
+ <layer id="2" name="Back" width="3" height="2">
+  <data encoding="csv">
+739,739,739,
+739,739,739
+</data>
+ </layer>
+ <layer id="14" name="Back2" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+5627,5628,5629
+</data>
+ </layer>
+ <layer id="5" name="Paths" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="3" height="2">
+  <data encoding="csv">
+5602,5603,5604,
+132,132,132
+</data>
+ </layer>
+ <layer id="16" name="Front2" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="11" name="AlwaysFront2" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Back"/>
+ <objectgroup id="15" name="Back2"/>
+ <objectgroup id="9" name="Buildings">
+  <object id="44" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop ChenQiShop1.15.23"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="17" name="Front2"/>
+ <objectgroup id="6" name="AlwaysFront"/>
+ <objectgroup id="12" name="AlwaysFront2"/>
+</map>

@@ -1,0 +1,120 @@
+ {
+
+   "Changes": [
+ 
+    {
+        "LogName": "Load Furniture Textures - Birch",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/Furniture",
+        "FromFile": "assets/{{TargetWithoutPath}}.png",
+        "When": {"Color": "Birch"}
+    },
+
+    {
+        "LogName": "Load Furniture Front Textures - Birch",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/FurnitureFront",
+        "FromFile": "assets/{{TargetWithoutPath}}.png",
+        "When": {"Color": "Birch"}
+    },
+
+    {
+        "LogName": "Load Furniture Textures - Oak",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/Furniture",
+        "FromFile": "assets/Furniture_Oak.png",
+        "When": {"Color": "Oak"}
+    },
+
+    {
+        "LogName": "Load Furniture Front Textures - Oak",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/FurnitureFront",
+        "FromFile": "assets/FurnitureFront_Oak.png",
+        "When": {"Color": "Oak"}
+    },
+
+    {
+        "LogName": "Load Furniture Textures - Walnut",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/Furniture",
+        "FromFile": "assets/Furniture_Walnut.png",
+        "When": {"Color": "Walnut"}
+    },
+
+    
+    {
+        "LogName": "Load Furniture Front Textures - Walnut",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/FurnitureFront",
+        "FromFile": "assets/FurnitureFront_Walnut.png",
+        "When": {"Color": "Walnut"}
+    },
+
+    {
+        "LogName": "Load Furniture Textures - Chocolate",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/Furniture",
+        "FromFile": "assets/Furniture_Chocolate.png",
+        "When": {"Color": "Chocolate"}
+    },
+
+    
+    {
+        "LogName": "Load Furniture Front Textures - Chocolate",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/FurnitureFront",
+        "FromFile": "assets/FurnitureFront_Chocolate.png",
+        "When": {"Color": "Chocolate"}
+    },
+
+    {
+        "LogName": "Load Furniture Textures - Cream",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/Furniture",
+        "FromFile": "assets/Furniture_Cream.png",
+        "When": {"Color": "Cream"}
+    },
+
+    {
+        "LogName": "Load Furniture Front Textures - Cream",
+        "Action": "Load",
+        "Target": "Mods/HXW.PlantLoversFurni/FurnitureFront",
+        "FromFile": "assets/FurnitureFront_Cream.png",
+        "When": {"Color": "Cream"}
+    },
+
+//////////////////////////////
+// foliage recolor overlays //
+//////////////////////////////
+
+
+{
+    "LogName": "Foliage Recolor - Earthy",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.PlantLoversFurni/Furniture,",
+    "FromFile": "assets/PlantsOnly_Earthy.png",
+    "PatchMode":"Overlay",
+    "When": {"Foliage": "Earthy"}
+},
+
+{
+    "LogName": "Foliage Recolor - VPR",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.PlantLoversFurni/Furniture,",
+    "FromFile": "assets/PlantsOnly_VPR.png",
+    "PatchMode":"Overlay",
+    "When": {"Foliage": "VPR"}
+},
+
+{
+    "LogName": "Foliage Recolor - Starblue",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.PlantLoversFurni/Furniture,",
+    "FromFile": "assets/PlantsOnly_Starblue.png",
+    "PatchMode":"Overlay",
+    "When": {"Foliage": "Starblue"}
+}
+
+    ]
+}

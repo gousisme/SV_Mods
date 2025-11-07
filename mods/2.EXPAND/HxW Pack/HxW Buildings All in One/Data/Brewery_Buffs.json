@@ -1,0 +1,33 @@
+{
+    "Changes":[
+
+         {
+          "LogName": "Add Brewery Buffs",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)12","ReadyTimeModifiers"],
+			    "Entries": {
+              "{{ModId}}_SpeedyBuff": {
+                "Id": "{{ModId}}_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+               "{{ModId}}_SpeedyBuff2": {
+                "Id": "{{ModId}}_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+               "{{ModId}}_SpeedyBuff3": {
+                "Id": "{{ModId}}_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_Brewery_XL",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              }
+          }
+        },
+
+
+    ]
+}

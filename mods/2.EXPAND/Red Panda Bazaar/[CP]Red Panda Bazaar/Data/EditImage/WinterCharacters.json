@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/RedPandaBazaar_LiQingFeng",
+      "FromFile": "assets/Portraits/LiQingFeng_Winter.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "winter"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/RedPandaBazaar_ChenXiaoMing",
+      "FromFile": "assets/Portraits/ChenXiaoMing_Winter.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "winter"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/RedPandaBazaar_LiQingFeng",
+      "FromFile": "assets/Sprites/LiQingFeng_Winter.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "winter"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/RedPandaBazaar_ChenXiaoMing",
+      "FromFile": "assets/Sprites/ChenXiaoMing_Winter.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "winter"
+      }
+    }
+  ]
+}

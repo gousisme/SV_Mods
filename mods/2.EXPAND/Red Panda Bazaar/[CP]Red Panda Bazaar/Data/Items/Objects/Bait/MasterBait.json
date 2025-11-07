@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Master_Bait": {
+          "Name": "Master Bait",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Master.Bait.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Master.Bait.Description}}",
+          "Type": "Bait",
+          "Category": -21,
+          "Price": 1000,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 39
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Willy",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pocket_Money",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "Changes": [
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+            "{{ModId}}_Atelier": {
+            "CreateOnLoad": {
+                "MapPath": "Maps/{{ModId}}_Atelier"
+            },
+            "DisplayName": "{{i18n: SASS_AtelierInterior}}",
+            "ExcludeFromNpcPathfinding": false,
+            "ArtifactSpots": [],
+            "FishAreas": {},
+            "Fish": [],
+            "Forage": []
+            }
+        }
+    },
+
+    {
+        "LogName": "Load Atelier Interior Map",
+        "Action": "Load",
+        "Target": "Maps/{{ModId}}_Atelier",
+        "FromFile": "Assets/Maps/Atelier.tmx"
+    },
+
+    {
+        "LogName": "Add Atelier Interior Door Warp",
+        "Action": "EditMap",
+        "Target": "Maps/Custom_SBV_SunberryForest",
+        "MapTiles": [
+            {
+                "Position": {"X": 48, "Y": 27},
+                "Layer": "Buildings",
+                "SetProperties": {"Action": "LockedDoorWarp 6 29 {{ModId}}_Atelier 900 2000"}
+            }
+        ]
+    },
+
+    {
+        "LogName":"Twilight Festival Alchemist Shop Map Patch",
+        "Action":"EditMap",
+        "Target": "Maps/Custom_SBV_TwilightFestival",
+        "FromFile": "Assets/Maps/Alchemist_FestivalShop.tmx",
+        "ToArea": {
+            "X": 22,
+            "Y": 37,
+            "Width": 4,
+            "Height": 5
+        }
+    },
+
+    /////////////////////////
+//SBV FOREST TREE EDIT //
+/////////////////////////
+
+{
+	"Action": "EditMap",
+	"Target": "Maps/Custom_SBV_SunberryForest",
+	"MapTiles": [
+		{
+			"Position": { "X": 62, "Y": 46 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 628 5"
+			}
+		},
+		{
+			"Position": { "X": 67, "Y": 46 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 629 5"
+			}
+		},
+		{
+			"Position": { "X": 60, "Y": 50 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 630 5"
+			}
+		},
+		{
+			"Position": { "X": 69, "Y": 50 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 631 5"
+			}
+		},
+		{
+			"Position": { "X": 62, "Y": 54 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 632 5"
+			}
+		},
+        {
+			"Position": { "X": 67, "Y": 54 },
+			"Layer": "Paths",
+			"SetIndex": "34",
+			"SetTilesheet":"Paths",
+			"SetProperties": {
+				"SpawnTree": "fruit 633 5"
+			}
+		}
+	]
+},
+
+  ]
+}

@@ -1,0 +1,300 @@
+{
+	"Changes":[
+
+{ 	"LogName": "Movie Theatre Default",
+	"Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	"Entries": {
+		"MisterGinger": {
+		"NPCName": "MisterGinger",
+		"Reactions": [
+	  	{
+			"Tag": "*",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+		  	"BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.0.{{CatTalk}}.1}}"
+		  	},
+		  	"DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "{{i18n:movies.0.{{CatTalk}}.2}}",
+			"Text": ""
+		  	},
+		  	"AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.0.{{CatTalk}}.3}}"
+		  }
+		},
+		"ID": "reaction_0"
+	  },
+	  {
+		"Tag": "spring_movie_0",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.1.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": "sprout_leave",
+			"Script": "{{i18n:movies.1.{{CatTalk}}.2}}",
+			"Text": "{{i18n:movies.1.{{CatTalk}}.3}}"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.1.{{CatTalk}}.4}}"
+		  }
+		},
+		"ID": "reaction_1"
+	  },
+	  {
+		"Tag": "spring_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+			"BeforeMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "{{i18n:movies.2.{{CatTalk}}.1}}"
+			},
+			"DuringMovie": {
+			  "ResponsePoint": null,
+			  "Script": "{{i18n:movies.2.{{CatTalk}}.2}}",
+			  "Text": ""
+			},
+			"AfterMovie": {
+			  "ResponsePoint": null,
+			  "Script": "",
+			  "Text": "{{i18n:movies.2.{{CatTalk}}.3}}"
+			}
+		},
+		"ID": "reaction_2"
+	  },
+	  {
+		"Tag": "winter_movie_0",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.3.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "{{i18n:movies.3.{{CatTalk}}.2}}",
+			"Text": ""
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.3.{{CatTalk}}.3}}"
+		  }
+		},
+		"ID": "reaction_3"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "love",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.4.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.4.{{CatTalk}}.2}}"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.4.{{CatTalk}}.3}}"
+		  }
+		},
+		"ID": "reaction_4"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.5.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "{{i18n:movies.5.{{CatTalk}}.2}}",
+			"Text": "{{i18n:movies.5.{{CatTalk}}.3}}"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.5.{{CatTalk}}.4}}"
+		  }
+		},
+		"ID": "reaction_5"
+	  },
+	  {
+		"Tag": "winter_movie_1",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.6.{{CatTalk}}.1}}"
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "{{i18n:movies.6.{{CatTalk}}.2}}",
+		  "Text": ""
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.6.{{CatTalk}}.3}}"
+		  }
+		},
+		"ID": "reaction_6"
+	  },
+	  {
+		"Tag": "summer_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.7.{{CatTalk}}.1}}"
+		},
+		"DuringMovie": {
+		  "ResponsePoint": null,
+		  "Script": "{{i18n:movies.7.{{CatTalk}}.2}}",
+		  "Text": "{{i18n:movies.7.{{CatTalk}}.3}}"
+		},
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.7.{{CatTalk}}.4}}"
+		  }
+		},
+		"ID": "reaction_7"
+	  },
+	  {
+		"Tag": "fall_movie_1",
+		"Response": "dislike",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.8.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.8.{{CatTalk}}.2}}"
+		  },
+		  "AfterMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.8.{{CatTalk}}.3}}"
+		  }
+		},
+		"ID": "reaction_8"
+	  },
+	  {
+		"Tag": "seen_love",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.9.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_9"
+	  },
+	  {
+		"Tag": "seen_like",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.10.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_10"
+	  },
+	  {
+		"Tag": "seen_dislike",
+		"Response": "like",
+		"Whitelist": [],
+		"SpecialResponses": {
+		  "BeforeMovie": {
+			"ResponsePoint": null,
+			"Script": "",
+			"Text": "{{i18n:movies.11.{{CatTalk}}.1}}"
+		  },
+		  "DuringMovie": null,
+		  "AfterMovie": null
+		},
+		"ID": "reaction_11"
+		}
+		]
+        }
+ 	   }
+	},
+
+
+
+{   "LogName": "Movie Theatre - Concession Tastes Default",
+	"Action": "EditData",
+	"Target": "Data/ConcessionTastes",	
+ 	"Entries": { 
+		"MisterGinger": {
+			"Name": "MisterGinger",
+			"LovedTags": [
+					"Fries",
+					"Personal Pizza",
+					"Salmon Burger",
+					"Stardrop Sorbet"
+					],
+			"LikedTags": [
+					"Ice Cream Sandwich",
+					"Nachos",
+					"Hummus Snack Pack"
+					],
+			"DislikedTags": [
+					"Jawbreaker",
+					"Kale Smoothie",
+					"Panzanella Salad"
+						]
+  					} 
+ 				}
+			}
+
+
+]
+}
+	  
+

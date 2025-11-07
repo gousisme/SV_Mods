@@ -1,0 +1,142 @@
+{
+	"Format": "2.8.0",
+	"ConfigSchema": {
+		"Ingredient Indicator": {
+			"AllowValues": "A, B, C, D",
+			"Default": "B",
+			"Description": "Label flexible ingredients in the cooking menu with this option. All ingredients in vanilla recipes will be labeled! Outside of this option, broader ingredient categories will follow vanilla convention, such as Cheese (Any) and Cooking Oil (Any)."
+		},
+		"Extra Changes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "For a few recipes, replaces some ingredients with different categories for variety. For example, instead of using a Leek to make Salad, you can use Any Leafy Green (any leafy vegetable). Or use Any Root Vegetable instead of a Cave Carrot to make Stir Fry. Also makes it so Sashimi and Maki Roll can only be made with real fish and not stuff like Snail, Clam, etc from crab pots."
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "indicator",
+			"Value": "blank"
+		},
+		{
+			"Name": "indicator",
+			"Value": "asterisk",
+			"When": {
+				"Ingredient Indicator": "B"
+				}
+		},
+		{
+			"Name": "indicator",
+			"Value": "any",
+			"When": {
+				"Ingredient Indicator": "C"
+				}
+		},
+		{
+			"Name": "indicator",
+			"Value": "vanilla",
+			"When": {
+				"Ingredient Indicator": "D"
+				}
+		},
+	],
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/contexttags.json, data/flexiblerecipes.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/flexiblerecipes_loc.json",
+			"When": {
+				"HasMod|contains=blueberry.LoveOfCooking": true,
+                "blueberry.LoveOfCooking/AddCookingSkillAndRecipes": true
+			}
+		},
+		{
+			"Action": "Include",
+			"When": {
+				"Extra Changes": true
+			},
+			"FromFile": "data/extrachanges.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_wag.json",
+			"When": {
+				"HasMod|contains=Wildflour.AtelierGoods": true,
+				"HasMod|contains=Atelier.Cauldron": true,
+				"Atelier.Cauldron/ConfigValue:FloristOnly": false,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_vmv.json",
+			"When": {
+				"HasMod|contains=Lumisteria.MtVapius": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_sve.json",
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_sbv.json",
+			"When": {
+				"HasMod|contains=skellady.SBVCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_rata.json",
+			"When": {
+				"HasMod|contains=Wildflour.SASS": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_rsv.json",
+			"When": {
+				"HasMod|contains=Rafseazz.RSVCP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_es.json",
+			"When": {
+				"HasMod|contains=LemurKat.EastScarpe.CP": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_mnf.json",
+			"When": {
+				"HasMod|contains=MoreFish": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "contexttags_compat/contexttags_bonster.json",
+			"When": {
+				"HasMod|contains=BFV.CombinedCrops": true,
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasMod|contains=blueberry.LoveOfCooking.CP": true,
+			},
+			"TargetField": [
+				"blueberry.LoveOfCooking_chocolate",
+				"ContextTags"
+			],
+			"Entries": {
+				"chocolate_item": "chocolate_item"
+			}
+		},
+	]
+}

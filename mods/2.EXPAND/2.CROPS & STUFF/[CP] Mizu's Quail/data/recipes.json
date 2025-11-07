@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		// add items
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+            "Entries": {
+				"Mizu.Quail_SpatchcockedQuailandGreens": "Mizu.Quail_QuailMeat 2 250 1 412 1//Mizu.Quail_SpatchcockedQuailandGreens//",
+				"Mizu.Quail_StuffedQuail": "Mizu.Quail_QuailMeat 1 613 1 408 1 426 1//Mizu.Quail_StuffedQuail//",
+				}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			},
+            "Fields": {
+				"Mizu.Quail_SpatchcockedQuailandGreens": {
+					"0": "Mizu.Quail_QuailMeat 2 Cornucopia_Spinach 1 412 1"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When": {
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			},
+            "Fields": {
+				"Mizu.Quail_StuffedQuail": {
+					"0": "Mizu.Quail_QuailMeat 1 Cornucopia_Fig 1 Cornucopia_Almond 1 426 1"
+				}
+			}
+		}
+	]
+}

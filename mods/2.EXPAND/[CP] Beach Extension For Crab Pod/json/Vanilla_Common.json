@@ -1,0 +1,75 @@
+{
+
+
+
+    "Changes": [
+
+
+
+//■■■バニラ、共通部分のエディット■■■
+
+
+
+    //●移動用ボートの追加
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_Boat.tmx",
+        "PatchMode": "Overlay",
+        "ToArea": { "X": 15, "Y": 37, "Width": 4, "Height": 3 }
+      },
+
+    //●マップポトレ追加(ライト、デイ、ナイト)
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "TextOperations": [
+            {
+              "Operation": "Append",
+              "Target": ["MapProperties", "DayTiles"],
+              "Value": "AlwaysFront 55 38 369",
+              "Delimiter": " "
+            },
+            {
+              "Operation": "Append",
+              "Target": ["MapProperties", "Light"],
+              "Value": "55 38 4",
+              "Delimiter": " "
+            },
+            {
+              "Operation": "Append",
+              "Target": ["MapProperties", "NightTiles"],
+              "Value": "AlwaysFront 55 38 368",
+              "Delimiter": " "
+            }
+        ]
+      },
+
+    //●エリア追加 足場"有り"
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_CS.tmx",
+        "ToArea": { "X": 50, "Y": 37, "Width": 28, "Height": 11 },
+        "PatchMode": "Overlay",
+        "When": {
+            "ScaffoldPattern": "CenterScaffold"
+        }
+      },
+
+    //●エリア追加 足場"無し"
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Beach",
+        "FromFile": "assets/Ts_BeachExtension_N-CS.tmx",
+        "ToArea": { "X": 50, "Y": 37, "Width": 28, "Height": 11 },
+        "PatchMode": "Overlay",
+        "When": {
+            "ScaffoldPattern": "No_CenterScaffold"
+        }
+      }
+
+
+
+    ]//▼▼"Changes"の終了▼▼
+}

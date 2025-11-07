@@ -1,0 +1,1341 @@
+{
+  "Name": "Cardigan",
+  "FrontAccessory": {
+    "DisableGrayscale": false,
+    "DrawAfterSleeves": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -12
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+     },
+     {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "IsSitting",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+      },
+      {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "RidingHorse",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+     },
+     {
+        "Frame": 7,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingHeavyTool",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCasting",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 9,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsFishing",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsNibbling",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 10,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingMilkPail",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 11,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingShears",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 12,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingSlingshot",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 6,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+      },
+    ],
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 5,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "Duration": 0
+      },
+      {
+        "Frame": 6,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true
+      },
+      {
+            "Name": "IsRunning",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 3,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 4,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+    ]
+  },
+  "BackAccessory": {
+    "DisableGrayscale": false,
+    "DrawBeforeHair": false,
+    "DrawAfterSleeves": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -12
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+     },
+     {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "IsSitting",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+      },
+      {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "RidingHorse",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+     },
+     {
+        "Frame": 7,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingHeavyTool",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCasting",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 9,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsFishing",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsNibbling",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 10,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingMilkPail",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 11,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingShears",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 12,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingSlingshot",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 6,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+      },
+    ],
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 5,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "Duration": 0
+      },
+      {
+        "Frame": 6,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true
+      },
+      {
+            "Name": "IsRunning",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 3,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 4,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+    ]
+  },
+  "RightAccessory": {
+    "Flipped": true,
+    "DisableGrayscale": false,
+    "DrawAfterSleeves": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -10
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+     },
+     {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "IsSitting",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+      },
+      {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "RidingHorse",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+     },
+     {
+        "Frame": 7,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingHeavyTool",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCasting",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 9,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsFishing",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsNibbling",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 10,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingMilkPail",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 11,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingShears",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 12,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingSlingshot",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 6,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+      },
+    ],
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 5,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "Duration": 0
+      },
+      {
+        "Frame": 6,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true
+      },
+      {
+            "Name": "IsRunning",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 3,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 4,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+    ]
+  },
+  "LeftAccessory": {
+    "DisableGrayscale": false,
+    "DrawAfterSleeves": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -10
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 10
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+     },
+     {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "IsSitting",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+      },
+      {
+         "Frame": 5,
+         "OverrideStartingIndex": true,
+         "Conditions": [
+             {
+                 "Name": "RidingHorse",
+                 "Independent": true,
+                 "Value": true
+          }
+        ]
+     },
+     {
+        "Frame": 7,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingHeavyTool",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCasting",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 9,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsFishing",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 8,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsNibbling",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 10,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingMilkPail",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 11,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingShears",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 12,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsUsingSlingshot",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+     },
+     {
+        "Frame": 6,
+        "OverrideStartingIndex": true,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true,
+            "Independent": true,
+          }
+        ]
+      },
+    ],
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 5,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Independent": true,
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "Duration": 0
+      },
+      {
+        "Frame": 6,
+        "Conditions": [
+          {
+            "Name": "IsCarrying",
+            "Value": true
+      },
+      {
+            "Name": "IsRunning",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsWalking",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 3,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 1,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 0,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 4,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      },
+      {
+        "Frame": 2,
+        "EndWhenFarmerFrameUpdates": true,
+        "Conditions": [
+          {
+            "Name": "IsRunning",
+            "Value": true
+      },
+      {
+            "Name": "IsCarrying",
+            "Value": false
+          }
+        ]
+      }
+    ]
+  }
+}

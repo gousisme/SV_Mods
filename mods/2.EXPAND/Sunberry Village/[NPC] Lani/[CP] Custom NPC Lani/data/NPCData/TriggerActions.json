@@ -1,0 +1,50 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_CongratulationsMailTrigger": {
+				"Id": "{{ModId}}_CongratulationsMailTrigger",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_MakingAmends, PLAYER_NPC_RELATIONSHIP Current Jonghyuk Married",
+				"Actions": [
+					"AddMail Current {{ModId}}_CongratulationsMail"
+				]
+			},
+			"{{ModId}}_SolarionMMOReleaseMailTrigger": {
+				"Id": "{{ModId}}_SolarionMMOReleaseMailTrigger",
+				"Trigger": "DayStarted",
+				"Condition": "SEASON Fall, DAY_OF_WEEK 4",
+				"Actions": [
+					"AddMail Current {{ModId}}_SolarionMMOReleaseMail now", "AddConversationTopic SolarionMMORelease 3"
+				]
+			},
+			"{{ModId}}_FertilizerQuestMailTrigger": {
+				"Id": "{{ModId}}_FertilizerQuestMailTrigger",
+				"Trigger": "DayStarted",
+				"Condition": "!SEASON Winter, DAY_OF_WEEK Monday, PLAYER_HEARTS Current LaniSBV 3",
+				"Actions": [
+					"AddMail Current {{ModId}}_FertilizerQuestMail"
+				]
+			},
+			"{{ModId}}_MarginalMailTrigger": {
+				"Id": "{{ModId}}_MarginalMailTrigger",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_TheDesireToCreate, PLAYER_HEARTS Current LaniSBV 8",
+				"Actions": [
+					"AddMail Current {{ModId}}_MarginalMail"
+				]
+			},
+			"{{ModId}}_MakingAmendsMailTrigger": {
+				"Id": "{{ModId}}_MakingAmendsMailTrigger",
+				"Trigger": "DayEnding",
+				"Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_LoveRivals, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_LoveIsWar",
+				"Actions": [
+					"AddMail Current {{ModId}}_MakingAmendsMail"
+				]
+			}
+		}
+	}
+	]
+}

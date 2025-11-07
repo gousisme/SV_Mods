@@ -1,0 +1,260 @@
+{
+    "Changes":[
+
+         //Bush Bloom Edits - must stay here in content.json!
+
+    {
+      "Action": "EditData",
+      "Target": "NCarigon.BushBloomMod/Schedules",
+      "Entries": {
+        "{{ModId}}/summer_Amber_MoonDrop": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Amber_MoonDrop",
+          "StartSeason": "summer",
+          "StartDay": 1,
+          "EndSeason": "summer",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2", "Woods"],
+          "Weather": [ "Storm"  ],
+          "DestroyWeather":["Sun"]
+        },
+        "{{ModId}}/fall_Jade_MoonDrop": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Jade_MoonDrop",
+          "StartSeason": "fall",
+          "StartDay": 1,
+          "EndSeason": "fall",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2", "Woods"],
+          "Weather": [ "Rain"  ],
+          "DestroyWeather": [ "Sun" ]			
+        },
+        "{{ModId}}/spring_Lapis_MoonDrop": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Lapis_MoonDrop",
+          "StartSeason": "spring",
+          "StartDay": 1,
+          "EndSeason": "spring",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2", "Woods"],
+          "Weather": [ "Rain"  ],
+          "DestroyWeather":["Sun"]			
+        },
+        "{{ModId}}/winter_Pearl_MoonDrop": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Pearl_MoonDrop",
+          "StartSeason": "winter",
+          "StartDay": 1,
+          "EndSeason": "winter",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2", "Woods"],
+          "Weather": [ "Snow"  ],
+          "DestroyWeather":["Sun"]	
+        }
+     
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "NCarigon.BushBloomMod/Schedules",
+      "When":{"Query: {{DailyLuck}} > 0.02": true },
+      "Entries": {
+        "{{ModId}}/spring_Elysian_Field_Flower": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Elysian_Field_Flower",
+          "StartSeason": "spring",
+          "StartDay": 1,
+          "EndSeason": "spring",
+          "EndDay": 14,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/spring_Avalon_Mist_Flower": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Avalon_Mist_Flower",
+          "StartSeason": "spring",
+          "StartDay": 14,
+          "EndSeason": "spring",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/spring_Ambrosia": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Ambrosia",
+          "StartSeason": "spring",
+          "StartDay": 7,
+          "EndSeason": "spring",
+          "EndDay": 21,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/summer_Sylvan_Sigh": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Sylvan_Sigh",
+          "StartSeason": "summer",
+          "StartDay": 1,
+          "EndSeason": "summer",
+          "EndDay": 14,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/summer_Faerie_Folly": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Faerie_Folly",
+          "StartSeason": "summer",
+          "StartDay": 7,
+          "EndSeason": "summer",
+          "EndDay": 21,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/summer_Dream_Spinner": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Dream_Spinner",
+          "StartSeason": "summer",
+          "StartDay": 14,
+          "EndSeason": "summer",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/fall_Kiss_Of_Tamra": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Kiss_Of_Tamra",
+          "StartSeason": "fall",
+          "StartDay": 1,
+          "EndSeason": "fall",
+          "EndDay": 14,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/fall_Smile_Of_Shumus": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Smile_Of_Shumus",
+          "StartSeason": "fall",
+          "StartDay": 7,
+          "EndSeason": "fall",
+          "EndDay": 21,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/fall_Phoenix_Fire": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Phoenix_Fire",
+          "StartSeason": "fall",
+          "StartDay": 14,
+          "EndSeason": "fall",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/winter_Titania_Bell": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Titania_Bell",
+          "StartSeason": "winter",
+          "StartDay": 1,
+          "EndSeason": "winter",
+          "EndDay": 14,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        },
+        "{{ModId}}/winter_Fallen_Stars": {
+          "Enabled": true,
+          "ShakeOff": "{{ModId}}_Fallen_Stars",
+          "StartSeason": "winter",
+          "StartDay": 14,
+          "EndSeason": "winter",
+          "EndDay": 28,
+          "Chance": 0.3,
+          "Locations": [ "Wildflour.NooksCrannies_BerryGrove", "Custom_SBV_SunberryForest","Wildflour.NooksCrannies_MysticalForest","Wildflour.NooksCrannies_FrogHollow","Custom_SBV_ForestShortcut", "Custom_SBV_SecretForest1","Custom_SBV_SecretForest2"],
+        }
+      }
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_Amber_MoonDrop",
+      "FromFile": "Assets/BushBloom/Amber.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/fall_Jade_MoonDrop",
+      "FromFile": "Assets/BushBloom/Jade.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_Lapis_MoonDrop",
+      "FromFile": "Assets/BushBloom/Lapis.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/winter_Pearl_MoonDrop",
+      "FromFile": "Assets/BushBloom/Pearl.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_Elysian_Field_Flower",
+      "FromFile": "Assets/BushBloom/Elysian.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_Avalon_Mist_Flower",
+      "FromFile": "Assets/BushBloom/Avalon.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_Ambrosia",
+      "FromFile": "Assets/BushBloom/Ambrosia.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_Sylvan_Sigh",
+      "FromFile": "Assets/BushBloom/Sylvan.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_Faerie_Folly",
+      "FromFile": "Assets/BushBloom/Faerie.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_Dream_Spinner",
+      "FromFile": "Assets/BushBloom/Dream.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/fall_Kiss_Of_Tamra",
+      "FromFile": "Assets/BushBloom/Tamra.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/fall_Smile_Of_Shumus",
+      "FromFile": "Assets/BushBloom/Shumus.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/fall_Phoenix_Fire",
+      "FromFile": "Assets/BushBloom/Phoenix.png"
+    },
+
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/winter_Titania_Bell",
+      "FromFile": "Assets/BushBloom/Titania.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/winter_Fallen_Stars",
+      "FromFile": "Assets/BushBloom/Stars.png"
+    }
+
+
+
+    ]
+}

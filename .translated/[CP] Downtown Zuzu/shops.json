@@ -1,0 +1,1013 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_SancStall": {
+              "Owners": [
+                  {
+                      "Condition": "TIME 800 1800",
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Gian hàng này mở cửa hàng ngày từ 8 giờ sáng đến 6 giờ chiều",
+                      "Id": "DTZ.DowntownZuzuSTF_SancStall-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 800 1800",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_SancStall-OpenOwnerDialogue",
+                              "Dialogue": "...đây không phải là lừa đảo, tôi thề luôn."
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_SancStall-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancStall_Item_0",
+                      "Price": 5000,
+                      "ItemId": "(W)46",
+                      "AvailableStock": 1
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancStall_Item_1",
+                      "Price": 4000,
+                      "ItemId": "(O)166",
+                      "AvailableStock": 1
+                  }
+              ]
+          }
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/DTZ.DowntownZuzuSTF_SecretQi_Portrait",
+        "FromFile": "assets/qi.png"
+    },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_SecretQi": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 610 2400",
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Quá muộn rồi, nhóc. Ngày mai quay lại nhé.",
+                      "Id": "DTZ.DowntownZuzuSTF_SecretQi-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 610 2400",
+                      "Portrait": "Portraits/DTZ.DowntownZuzuSTF_SecretQi_Portrait",
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_SecretQi-OpenOwnerDialogue",
+                              "Dialogue": "Này nhóc. Ta có một số thứ hay ho ở đây."
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_SecretQi-OpenOwner",
+                      "Name": "MrQi"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SecretQi_Item_0",
+                      "Price": 50000,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_QiCrystal",
+                      "AvailableStock": 1
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SecretQi_Item_1",
+                      "Price": 0,
+                      "ItemId": "(W)DTZ.DowntownZuzuCP_QiBlade",
+                      "AvailableStock": 1
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SecretQi_Item_2",
+                      "Price": 0,
+                      "ItemId": "(W)DTZ.DowntownZuzuCP_Serpent'sSmallsword",
+                      "AvailableStock": 1
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_SancInt": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 610 2300",
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Ồ, xin lỗi. Chúng tôi đã đóng cửa rồi.",
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 610 2300",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_SancInt-OpenOwnerDialogue",
+                              "Dialogue": "Này, tôi có thể lấy gì cho bạn??"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt-OpenOwner",
+                      "Name": "David"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_0",
+                      "Price": 200,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_Popcorn"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_1",
+                      "Price": 100,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaSoda"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_2",
+                      "Price": 200,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaFries"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_3",
+                      "Price": 150,
+                      "ItemId": "(O)614"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_4",
+                      "Price": 300,
+                      "ItemId": "(O)395"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_5",
+                      "Price": 750,
+                      "ItemId": "(O)346"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_SancInt_Item_6",
+                      "Price": 300,
+                      "ItemId": "(O)233"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_ZuzuUnder": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 610 2500",
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Ồ, xin lỗi. Trời đã muộn rồi, sao bạn không về nhà ngay bây giờ??",
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 610 2500",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder-OpenOwnerDialogue",
+                              "Dialogue": "Chào mừng đến với Zuzu Underground, vùng đất của những khoảng thời gian vui vẻ! Tôi có thể giúp gì cho bạn??"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder_Item_0",
+                      "Price": 750,
+                      "ItemId": "(O)346"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder_Item_1",
+                      "Price": 800,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ZuzuSignatureCocktail"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder_Item_2",
+                      "Price": 300,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaCocktail"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder_Item_3",
+                      "Price": 600,
+                      "ItemId": "(O)613"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder_Item_4",
+                      "Price": 1000,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ZuzuChampagne"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ZuzuUnder_Item_5",
+                      "Price": 800,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_StrawberryDaiquiri"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_JojaCafe": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 610 2300",
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Quán cà phê Joja HQ đóng cửa lúc 11 giờ tối. Hãy quay lại vào ngày mai.",
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 610 2300",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_JojaCafe-OpenOwnerDialogue",
+                              "Dialogue": "Chào mừng đến với Joja HQ Cafe. Tôi có thể giúp gì cho bạn??"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe_Item_0",
+                      "Price": 50,
+                      "ItemId": "(O)167"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe_Item_1",
+                      "Price": 300,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ChocolateIceCream"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe_Item_2",
+                      "Price": 400,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaCocktail"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe_Item_3",
+                      "Price": 400,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_IceDelight"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe_Item_4",
+                      "Price": 300,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaSoda"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaCafe_Item_5",
+                      "Price": 100,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaFries"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_JojaEnergy": {
+              "Owners": [
+                  {
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "We're closed.",
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_JojaEnergy-OpenOwnerDialogue",
+                              "Dialogue": "Chào mừng đến với Joja Energy. Tôi có thể giúp gì cho bạn?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy_Item_0",
+                      "Price": 50,
+                      "ItemId": "(O)167"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy_Item_1",
+                      "Price": 300,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaSoda"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy_Item_2",
+                      "Price": 200,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_JojaFries"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy_Item_3",
+                      "Price": 500000,
+                      "ItemId": "(BC)272"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy_Item_4",
+                      "Price": 10000,
+                      "ItemId": "(H)16"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_JojaEnergy_Item_5",
+                      "Price": 50000,
+                      "ItemId": "(H)88"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_BlockPartyFood": {
+              "Owners": [
+                  {
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_BlockPartyFood-OpenOwnerDialogue",
+                              "Dialogue": "Món ăn ngon nằm trên vỉ nướng. Bạn muốn mua gì?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_BlockPartyFood-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_BlockPartyFood_Item_0",
+                      "Price": 300,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_BigBurger"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_BlockPartyFood_Item_1",
+                      "Price": 250,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_Cider"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_BlockPartyFood_Item_2",
+                      "Price": 300,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_DowntownDog"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_BlockParty": {
+              "Owners": [
+                  {
+                    "Condition": true,
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_BlockParty-OpenOwnerDialogue",
+                              "Dialogue": "Xin chào! Bạn muốn mua gì ở gian hàng của tôi?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_BlockParty-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_BlockParty_Item_0",
+                      "Price": 200,
+                      "ItemId": "(S)DTZ.DowntownZuzuCP_ZuzuUniversityJersey"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_BlockParty_Item_1",
+                      "Price": 350,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ZuzuSignatureCocktail"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_BlockParty_Item_2",
+                      "Price": 25000,
+                      "ItemId": "(H)19"
+                  },
+                  {
+                    "Id": "DTZ.DowntownZuzuSTF_BlockParty_Item_3",
+                    "Price": 2500,
+                    "RandomItemId": ["(WP)DTZ.DowntownZuzuCP_ZuzuWallpapers:0", "(WP)DTZ.DowntownZuzuCP_ZuzuWallpapers:1"]
+                },
+                {
+                    "Id": "DTZ.DowntownZuzuSTF_BlockParty_Item_4",
+                    "Price": 2500,
+                    "RandomItemId": ["(WP)DTZ.DowntownZuzuCP_ZuzuWallpapers:2", "(WP)DTZ.DowntownZuzuCP_ZuzuWallpapers:3"]
+                }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "Load",
+      "Target": "Portraits/DTZ.DowntownZuzuSTF_PinkBakery_Portrait",
+      "FromFile": "assets/pcb.png"
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_PinkBakery": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 600 1900",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Tôi xin lỗi. Chúng tôi không mở cửa. Chúng tôi đóng cửa lúc 7 giờ tối.",
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 600 1900",
+                      "Portrait": "Portraits/DTZ.DowntownZuzuSTF_PinkBakery_Portrait",
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_PinkBakery-OpenOwnerDialogue",
+                              "Dialogue": "Này bạn của tôi ơi! Chào mừng đến với Pink Cake Bakery! Bạn muốn gì?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_0",
+                      "Price": 400,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_BubblegumIceCream"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_1",
+                      "Price": 950,
+                      "ItemId": "(O)221"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_2",
+                      "Price": 800,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_LemonDrizzleCheesecake"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_3",
+                      "Price": 100,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_StrawberryPopsicle"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_4",
+                      "Price": 750,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ZuzuMilkshake"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_5",
+                      "Price": 750,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ZuzuIceCream"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_6",
+                      "Price": 600,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_IceDelight"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_7",
+                      "Price": 700,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ChocolateSlice"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_8",
+                      "Price": 500,
+                      "ItemId": "(O)223"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_9",
+                      "Price": 800,
+                      "ItemId": "(O)222"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_10",
+                      "Price": 900,
+                      "ItemId": "(O)220"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PinkBakery_Item_11",
+                      "Price": 1500,
+                      "ItemId": "(O)243",
+                      "AvailableStock": 2
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_PharmacyZuzu": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 1000 1700, !DAY_OF_WEEK Mon Tue Sat Sun",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Hiệu thuốc không mở cửa. Mở cửa từ 10 giờ sáng đến 5 giờ chiều vào các ngày thứ Tư, thứ Năm và thứ Sáu.^Trong trường hợp khẩn cấp, hãy đến Bệnh viện Quận Zuzu.",
+                      "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 1000 1700, !DAY_OF_WEEK Mon Tue Sat Sun",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu-OpenOwnerDialogue",
+                              "Dialogue": "How can I help?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu-OpenOwner",
+                      "Name": "Buddy"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu_Item_0",
+                      "Price": 1500,
+                      "ItemId": "(O)349"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu_Item_1",
+                      "Price": 1500,
+                      "ItemId": "(O)351"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu_Item_2",
+                      "Price": 1750,
+                      "ItemId": "(O)773"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_PharmacyZuzu_Item_3",
+                      "Price": 2000,
+                      "ItemId": "(O)772"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_StardropCafe": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 600 2600",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "... xin chúc mừng, bro đã phá vỡ bản mod. Cửa hàng này nên luôn mở cửa.",
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 600 2600",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_StardropCafe-OpenOwnerDialogue",
+                              "Dialogue": "Chào mừng đến với Stardrop Cafe. Tôi có thể giúp gì cho bạn?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_0",
+                      "Price": 500,
+                      "ItemId": "(O)395"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_1",
+                      "Price": 450,
+                      "ItemId": "(O)223"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_2",
+                      "Price": 795,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_LemonDrizzleCheesecake"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_3",
+                      "Price": 750,
+                      "ItemId": "(O)614"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_4",
+                      "Price": 750,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ZuzuMilkshake"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_5",
+                      "Price": 750,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_ChocolateSlice"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_6",
+                      "Price": 750,
+                      "ItemId": "(O)222"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_7",
+                      "Price": 1000,
+                      "ItemId": "(O)220"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_StardropCafe_Item_8",
+                      "Price": 1500,
+                      "ItemId": "(O)243",
+                      "AvailableStock": 1
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_MollyFlowers": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 1000 2230",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Sorry, I'm closed.",
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 1000 2230",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_MollyFlowers-OpenOwnerDialogue",
+                              "Dialogue": "Hi! Looking to buy some flowers?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_0",
+                      "Price": 200,
+                      "ItemId": "(O)402"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_1",
+                      "Price": 200,
+                      "ItemId": "(O)418"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_2",
+                      "Price": 200,
+                      "ItemId": "(O)18"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_3",
+                      "Price": 250,
+                      "ItemId": "(O)421"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_4",
+                      "Price": 500,
+                      "ItemId": "(O)593"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_5",
+                      "Price": 600,
+                      "ItemId": "(O)595"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_6",
+                      "Price": 300,
+                      "ItemId": "(O)376"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_MollyFlowers_Item_7",
+                      "Price": 50,
+                      "ItemId": "(O)22"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_Furnisure": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 600 2600",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "congrats, you broke the mod :)",
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 600 2600",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_Furnisure-OpenOwnerDialogue",
+                              "Dialogue": "Xin chào, chào mừng đến với Furni-sure, cửa hàng nội thất trọn gói của bạn!"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_0",
+                      "Price": 350,
+                      "ItemId": "(F)0"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_1",
+                      "Price": 400,
+                      "ItemId": "(F)288"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_2",
+                      "Price": 450,
+                      "ItemId": "(F)416"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_3",
+                      "Price": 350,
+                      "ItemId": "(F)704"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_4",
+                      "Price": 350,
+                      "ItemId": "(F)704"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_5",
+                      "Price": 400,
+                      "ItemId": "(F)1120"
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Furnisure_Item_6",
+                      "Price": 2000,
+                      "ItemId": "(F)1136"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_CrabSeller": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 800 2230",
+                      "Portrait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Hả? Bạn muốn mua cua? KHÔNG! Về nhà đi!",
+                      "Id": "DTZ.DowntownZuzuSTF_CrabSeller-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 800 2230",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_CrabSeller-OpenOwnerDialogue",
+                              "Dialogue": "Này!! Chú có muốn mua một ít cua không??"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_CrabSeller-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_CrabSeller_Item_0",
+                      "Price": 175,
+                      "ItemId": "(O)717",
+                      "AvailableStock": 1
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_ResortShop": {
+              "Owners": [
+                  {
+                      "Condition": "!TIME 800 2230",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Cửa hàng không mở cửa.",
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 800 2230",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_ResortShop-OpenOwnerDialogue",
+                              "Dialogue": "Muốn mua gì?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop-OpenOwner",
+                      "Name": "None"
+                  }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_0",
+                      "Price": 10000,
+                      "ItemId": "(O)460",
+                      "AvailableStock": 1
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_1",
+                      "Price": 1000,
+                      "ItemId": "(O)268",
+                      "AvailableStock": 5
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_2",
+                      "Price": 7500,
+                      "ItemId": "(O)114",
+                      "AvailableStock": 1
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_3",
+                      "Price": 10000,
+                      "ItemId": "(O)347",
+                      "AvailableStock": 2
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_4",
+                      "Price": 1000,
+                      "ItemId": "(O)91",
+                      "AvailableStock": 10
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_5",
+                      "Price": 250,
+                      "ItemId": "(O)372",
+                      "AvailableStock": 10
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_ResortShop_Item_6",
+                      "Price": 5000,
+                      "ItemId": "(O)446",
+                      "AvailableStock": 1
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+          "DTZ.DowntownZuzuSTF_Pizzeria": {
+              "Owners": [
+                {
+                    "Condition": "TIME 600 750",
+                    "Portait": null,
+                    "Dialogues": null,
+                    "ClosedMessage": "Quán pizza mở cửa lúc 8 giờ sáng.",
+                    "Id": "DTZ.DowntownZuzuSTF_Pizzeria-ClosedOwner-Pre",
+                    "Name": "None"
+                },
+                  {
+                      "Condition": "!TIME 800 2100",
+                      "Portait": null,
+                      "Dialogues": null,
+                      "ClosedMessage": "Quán pizza đóng cửa cả ngày.",
+                      "Id": "DTZ.DowntownZuzuSTF_Pizzeria-ClosedOwner",
+                      "Name": "None"
+                  },
+                  {
+                      "Condition": "TIME 800 2100",
+                      "Portrait": null,
+                      "Dialogues": [
+                          {
+                              "Id": "DTZ.DowntownZuzuSTF_Pizzeria-OpenOwnerDialogueHazel",
+                              "Dialogue": "Bạn muốn đặt món gì?"
+                          }
+                      ],
+                      "ClosedMessage": null,
+                      "Id": "DTZ.DowntownZuzuSTF_Pizzeria-OpenOwnerHazel",
+                      "Name": "DTZ.DowntownZuzuCP_Hazel"
+                  },
+                  {
+                    "Condition": "TIME 800 2100",
+                    "Portrait": null,
+                    "Dialogues": [
+                        {
+                            "Id": "DTZ.DowntownZuzuSTF_Pizzeria-OpenOwnerDialogueGio",
+                            "Dialogue": "Hey hey hey! Muốn gọi món gì?"
+                        }
+                    ],
+                    "ClosedMessage": null,
+                    "Id": "DTZ.DowntownZuzuSTF_Pizzeria-OpenOwner",
+                    "Name": "DTZ.DowntownZuzuCP_Giovanni"
+                }
+              ],
+              "Items": [
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Pizzeria_Item_0",
+                      "Price": 500,
+                      "ItemId": "(O)206",
+                      "AvailableStock": 3
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Pizzeria_Item_1",
+                      "Price": 500,
+                      "ItemId": "(O)224",
+                      "AvailableStock": 3
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Pizzeria_Item_2",
+                      "Price": 1000,
+                      "ItemId": "(O)241",
+                      "AvailableStock": 1
+                  },
+                  {
+                      "Id": "DTZ.DowntownZuzuSTF_Pizzeria_Item_3",
+                      "Price": 350,
+                      "ItemId": "(O)DTZ.DowntownZuzuCP_MozzarellaSlice",
+                      "AvailableStock": 10
+                  }
+              ]
+          }
+      }
+  }
+  ]
+}

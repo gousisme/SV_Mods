@@ -1,0 +1,758 @@
+{
+  "Changes": [
+
+
+// VANILLA NPC ADDED GIFT TASTES //
+
+{
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Abigail",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Abigail",
+          1
+        ],
+        "Value": "rock_candy_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Alex",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Alex",
+          1
+        ],
+        "Value": "kombucha_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Alex",
+          3
+        ],
+        "Value": "ice_cream_item wildflour_smoothie_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Alex",
+          7
+        ],
+        "Value": "wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Caroline",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Caroline",
+          1
+        ],
+        "Value": "wildflour_bouquet_item wildflour_tea_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Caroline",
+          3
+        ],
+        "Value": "wildflour_incense_item wildflour_swag_item wildflour_perfume_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Clint",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Clint",
+          1
+        ],
+        "Value": "rock_candy_item wildflour_ale_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Demetrius",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Demetrius",
+          1
+        ],
+        "Value": "milkshake_item ice_cream_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Demetrius",
+          3
+        ],
+        "Value": "popsicle_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Dwarf",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Dwarf",
+          1
+        ],
+        "Value": "rock_candy_item wildflour_ale_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Elliott",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Elliott",
+          1
+        ],
+        "Value": "chocolate_item wildflour_mead_item tart_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Emily",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Emily",
+          1
+        ],
+        "Value": "fairy_floss_item wildflour_incense_item cookie_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Evelyn",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Evelyn",
+          1
+        ],
+        "Value": "wildflour_swag_item cookie_item cake_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Evelyn",
+          3
+        ],
+        "Value": "wildflour_tea_item tart_item muffin_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: George",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "George",
+          1
+        ],
+        "Value": "lollipop_item milkshake_item doughnut_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Gus",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Gus",
+          1
+        ],
+        "Value": "wildflour_syrup_item wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Haley",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Haley",
+          1
+        ],
+        "Value": "fairy_floss_item wildflour_candle_item wildflour_perfume_item cake_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Haley",
+          3
+        ],
+        "Value": "kombucha_item bubble_tea_item wildflour_latte_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Harvey",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Harvey",
+          1
+        ],
+        "Value": "wildflour_pickle_item wildflour_latte_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Harvey",
+          3
+        ],
+        "Value": "_ground_coffee_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Jas",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Jas",
+          1
+        ],
+        "Value": "wildflour_confectioner_item wildflour_frozen_item wildflour_lemonade_item wildflour_bakery_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Jas",
+          7
+        ],
+        "Value": "wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Jodi",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Jodi",
+          1
+        ],
+        "Value": "Wildflour.SASS_Sugar_Plum",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Kent",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Kent",
+          1
+        ],
+        "Value": "gumball_item wildflour_ale_item muffin_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Krobus",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Krobus",
+          1
+        ],
+        "Value": "fairy_floss_item wildflour_candle_item pudding_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Leah",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Leah",
+          1
+        ],
+        "Value": "wildflour_jam_item wildflour_mead_item wildflour_incense_item kombucha_item muffin_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Leo",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Leo",
+          1
+        ],
+        "Value": "wildflour_confectioner_item wildflour_frozen_item wildflour_bakery_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Leo",
+          3
+        ],
+        "Value": "wildflour_lemonade_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Leo",
+          7
+        ],
+        "Value": "wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Lewis",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Lewis",
+          1
+        ],
+        "Value": "_jelly_bean_item wildflour_lemonade_item wildflour_tea_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Linus",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Linus",
+          1
+        ],
+        "Value": "tart_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Linus",
+          3
+        ],
+        "Value": "kombucha_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Marnie",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Marnie",
+          1
+        ],
+        "Value": "ice_cream_item wildflour_bouquet_item tart_item cake_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Maru",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Maru",
+          1
+        ],
+        "Value": "lollipop_item bubble_tea_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Pam",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Pam",
+          1
+        ],
+        "Value": "wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Penny",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Penny",
+          1
+        ],
+        "Value": "lollipop_item wildflour_swag_item muffin_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Penny",
+          7
+        ],
+        "Value": "wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Pierre",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Pierre",
+          1
+        ],
+        "Value": "wildflour_pickle_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Robin",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Robin",
+          1
+        ],
+        "Value": "wildflour_jam_item milkshake_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Sam",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Sam",
+          1
+        ],
+        "Value": "wildflour_bouquet_item bubble_tea_item cookie_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Sandy",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Sandy",
+          1
+        ],
+        "Value": "wildflour_boutique_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Sebastian",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Sebastian",
+          1
+        ],
+        "Value": "wildflour_latte_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Sebastian",
+          3
+        ],
+        "Value": "_ground_coffee_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Shane",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Shane",
+          1
+        ],
+        "Value": "wildflour_brewer_item doughnut_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Shane",
+          3
+        ],
+        "Value": "marshmallow_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Vincent",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Vincent",
+          1
+        ],
+        "Value": "wildflour_confectioner_item wildflour_frozen_item wildflour_bakery_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Vincent",
+          3
+        ],
+        "Value": "wildflour_lemonade_item",
+        "Delimiter": " "
+      },
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Vincent",
+          7
+        ],
+        "Value": "wildflour_brewer_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Willy",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Willy",
+          1
+        ],
+        "Value": "wildflour_mead_item wildflour_latte_item",
+        "Delimiter": " "
+      }
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "LogName": "Gift tastes: Wizard",
+    "TextOperations": [
+      {
+        "Operation": "Append",
+        "Target": [
+          "Fields",
+          "Wizard",
+          1
+        ],
+        "Value": "wildflour_confectioner_item",
+        "Delimiter": " "
+      }
+    ]
+  }
+
+/////////////////////////
+// SBV NPC GIFT TASTES //
+/////////////////////////
+
+
+/////////////////////////
+// VMV NPC GIFT TASTES //
+/////////////////////////
+
+
+  ]
+
+}

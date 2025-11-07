@@ -1,0 +1,44 @@
+﻿{
+    "Changes": [
+
+
+//Sterling
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "Entries":
+          {
+    "MobilePhoneGreeting": "Này, nóng bỏng. Em khỏe chứ?",
+    "MobilePhoneReminisce": "Ừm, hôm nay có ai đó đang cảm thấy hoài niệm, phải không?",
+    "MobilePhoneGoodBye": "Hẹn gặp lại, @! Em biết phải liên lạc với anh ở đâu nếu em muốn trò chuyện."
+    }
+  },
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "When":  {
+    "Relationship:Sterling": "Dating"
+    },
+    "Entries":
+    {
+      "MobilePhoneGreeting": "Này, bánh nướng nhỏ. Em nhớ giọng nói của anh đến thế sao, em yêu?",
+      "MobilePhoneReminisce": "Làm sao em biết hoạt động yêu thích của anh là nghĩ về khoảng thời gian bên em?",
+      "MobilePhoneGoodBye": "Nói chuyện sau nhé, cưng. Biết là anh chỉ cách em một tiếng chuông nếu em cần anh, được chứ?"
+    }
+  },
+   {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "When":  {
+      "Relationship:Sterling": "Married"
+      },
+    "Entries":
+    {
+      "MobilePhoneGreeting": "Xin chào, em đã đến văn phòng của người đàn ông đã kết hôn may mắn nhất còn sống. Anh có thể giúp gì cho em, hotstuff?",
+      "MobilePhoneReminisce": "Mmm, không gì tuyệt hơn khi ôn lại những kỷ niệm yêu thích của anh với em. Em muốn nói về điều gì, tình yêu?",
+      "MobilePhoneGoodBye": "Bây giờ anh sẽ hôn điện thoại cho đến khi em cúp máy. Mwah, mwah mw-"
+    }
+   }
+
+               ]
+}

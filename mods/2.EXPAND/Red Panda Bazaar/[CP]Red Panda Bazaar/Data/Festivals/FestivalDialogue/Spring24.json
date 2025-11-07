@@ -1,0 +1,71 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.spring24.festivals}}",
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.spring24.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": true
+        }
+      }, 
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.spring24.2.festivals}}",
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.spring24.2.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.spring24.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_LiQingFeng",
+          "IsOddYear": true
+        }
+      },
+     
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "RedPandaBazaar_LiQingFeng": "{{i18n:LiQingFeng.spring24.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_LiQingFeng",
+          "IsOddYear": false
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.spring24.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_ChenXiaoMing",
+          "IsOddYear": true
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/spring24",
+        "Entries": {
+          "RedPandaBazaar_ChenXiaoMing": "{{i18n:ChenXiaoMing.spring24.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "RedPandaBazaar_ChenXiaoMing",
+          "IsOddYear": false
+        }
+      }
+    ]
+}

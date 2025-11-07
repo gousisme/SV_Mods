@@ -1,0 +1,28 @@
+{
+	"Format": "2.7.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "OstrichMale, OstrichFemale, Emu, Rhea, WhiteRhea, Moa, Cassowary",
+		"Default": "OstrichMale"
+	}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/BabyOstrich",
+		"FromFile": "assets/{{Type}}Baby.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/Ostrich",
+		"FromFile": "assets/{{Type}}Adult.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{Type}}Icon.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 33, "Height": 17 },
+		"ToArea": {"X": 32, "Y": 480,"Width": 33, "Height": 17}
+		},
+	]
+}

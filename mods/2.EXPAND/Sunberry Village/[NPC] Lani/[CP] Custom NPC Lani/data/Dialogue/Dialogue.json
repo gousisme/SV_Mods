@@ -1,0 +1,125 @@
+{
+	"Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/LaniSBV",
+            "Entries": {
+                "Introduction": "{{i18n:Lani.Dialogue.Introduction}}",
+				"FlowerDance_Accept": "{{i18n:Lani.Dialogue.danceAccept}}",
+				"FlowerDance_Decline": "{{i18n:Lani.Dialogue.danceRejection}}",
+				"Movie_Invitation": "{{i18n:Lani.Dialogue.Movie_Invitation}}",
+				
+				"GreenRain": "{{i18n:Lani.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Lani.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Lani.Dialogue.GreenRain_2}}",
+				
+				/*"Resort": "",
+				"Resort_Entering": "",
+				"Resort_Leaving": "",
+				"Resort_Shore": "",
+				"Resort_Chair": "",
+				"Resort_Bar": "",
+				"Resort_Towel": "",
+				"Resort_Umbrella": "",
+				"Resort_Wander": "",*/
+				
+				"WinterStar_GiveGift_Before": "{{i18n:Lani.Dialogue.GiveGift_Before}}",
+				"WinterStar_GiveGift_After": "{{i18n:Lani.Dialogue.GiveGift_After}}",
+				"WinterStar_ReceiveGift": "{{i18n:Lani.Dialogue.ReceiveGift}}",
+				"WinterStar_ReceiveGift_(O)344": "{{i18n:Lani.Dialogue.ReceiveGift_Jelly}}",
+				
+				"AcceptGift_(O)421": "{{i18n:Lani.Gift.Sunflower}}",
+				"AcceptGift_(O)593": "{{i18n:Lani.Gift.Spangle}}",
+				"AcceptGift_(O)787": "{{i18n:Lani.Gift.BatteryPack}}",
+				"AcceptGift_(O)564": "{{i18n:Lani.Gift.Opals}}",
+				"AcceptGift_(O)565": "{{i18n:Lani.Gift.Opals}}",
+				"AcceptGift_soju_item": "{{i18n:Lani.Gift.Soju}}",
+				
+				"RejectBouquet_NotDatable": "{{i18n:Lani.Dialogue.RejectBouquet_NotDatable.{{Random:0,1,2,3}} }}",
+				"RejectMermaidPendant_NotDatable": "{{i18n:Lani.Dialogue.RejectMermaidPendant_NotDatable}}",
+				"RejectBouquet_VeryLowHearts": "{{i18n:Lani.Dialogue.RejectBouquet_VeryLowHearts.{{Random:0,1}} }}",
+				"RejectBouquet_LowHearts": "{{i18n:Lani.Dialogue.RejectBouquet_LowHearts.{{Random:0,1}} }}",
+				"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.{{Random:0,1}} }}",
+				"RejectMermaidPendant_Under10Hearts": "{{i18n:Lani.Dialogue.RejectMermaidPendant_Under10Hearts.{{Random:0,1}} }}",
+				"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Lani.Dialogue.RejectMermaidPendant_Under10Hearts_AskedAgain.{{Random:0,1}} }}",
+				"RejectMermaidPendant": "{{i18n:Lani.Dialogue.RejectMermaidPendant.{{Random:0,1}} }}",
+				
+				"AcceptBirthdayGift_Loved": "{{i18n:Lani.Dialogue.AcceptBirthdayGift_Loved.{{Random:0,1}} }}",
+				"AcceptBirthdayGift_Liked": "{{i18n:Lani.Dialogue.AcceptBirthdayGift_Liked.{{Random:0,1}} }}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Lani.Dialogue.AcceptBirthdayGift_Negative.{{Random:0,1}} }}",
+				"AcceptBirthdayGift_Neutral": "{{i18n:Lani.Dialogue.AcceptBirthdayGift_Neutral.{{Random:0,1}} }}",
+				
+				// Location Dialogue
+				"Custom_SBV_SunberryVillage_60_83": "{{i18n:Lani.Dialogue.grillHangout.0}}", // SBV Saturday Hangout
+				"Custom_SBV_SunberryVillage_25_65": "{{i18n:Lani.Dialogue.twilightFestival}}", // Twilight Festival
+				"Custom_SBV_SunberryVillage_70_13": "{{i18n:Lani.Dialogue.twilightFestival2}}", // Twilight Festival 2
+				//"Beach_11_32": "{{i18n:Lani.Dialogue.nightMarket.0}}", // Night Market
+				
+				"spring_1_2": "{{i18n:Lani.Dialogue.spring_1_2}}",
+				"spring_12": "{{i18n:Lani.Dialogue.spring_12}}", // Day before the Egg Festival
+				"spring_14": "{{i18n:Lani.Dialogue.spring_14}}", // Haley's birthday
+				"spring_23": "{{i18n:Lani.Dialogue.spring_23}}", // Day before the Flower Dance
+				"spring_26": "{{i18n:Lani.Dialogue.spring_26}}", // Pierre's birthday
+				"summer_1": "{{i18n:Lani.Dialogue.summer_1}}",
+				"summer_10": "{{i18n:Lani.Dialogue.summer_10}}", // Day before the Luau & MARU'S BDAY
+				"summer_15": "{{i18n:Lani.Dialogue.summer_15}}", // Lani's birthday
+				"summer_27": "{{i18n:Lani.Dialogue.summer_27}}", // Day before the Midnight Jellies
+				"fall_1": "{{i18n:Lani.Dialogue.fall_1}}",
+				"fall_15": "{{i18n:Lani.Dialogue.fall_15}}", // Day before the Stardew Fair
+				"fall_21": "{{i18n:Lani.Dialogue.fall_21}}", // Robin's birthday
+				"fall_26": "{{i18n:Lani.Dialogue.fall_26}}", // Day before Spirit's Eve
+				"winter_1": "{{i18n:Lani.Dialogue.winter_1}}",
+				"winter_7": "{{i18n:Lani.Dialogue.winter_7}}", // Day before the Ice Festival
+				"winter_10": "{{i18n:Lani.Dialogue.winter_10}}", // Sebastian's Birthday
+				"winter_14": "{{i18n:Lani.Dialogue.winter_14}}", // Day before the Night Market
+				//"winter_15": "{{i18n:Lani.Dialogue.winter_15}}",
+				//"winter_16": "{{i18n:Lani.Dialogue.winter_16}}",
+				"winter_24": "{{i18n:Lani.Dialogue.winter_24}}", // Day before Winter Star
+				
+				"{{DayToken}}": "{{DialogueToken}}",
+				
+				"Mon10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Mon10, Mon10.{{Random:0,1}}, Mon10.{{Random:0,1}} }} | defaultKeys = Lani.Dialogue.Mon10.{{Random:0,1}} }}",
+				"Tue10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Tue10, Tue10.{{Random:0,1}}{{NoModern}}, Tue10.{{Random:0,1}}{{NoModern}} }} | defaultKeys = Lani.Dialogue.Tue10.{{Random:0,1}} }}",
+				"Wed10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Wed10, Wed10.{{Random:0,1}}{{NoModern}}, Wed10.{{Random:0,1}}{{NoModern}} }} | defaultKeys = Lani.Dialogue.Wed10.{{Random:0,1}} }}",
+				"Thu10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Thu10, Thu10.{{Random:0,1}}, Thu10.{{Random:0,1}} }} | defaultKeys = Lani.Dialogue.Thu10.{{Random:0,1}} }}",
+				
+				// QUESTION RESPONSES
+				"ageQuestion_younger": "{{i18n:Lani.Dialogue.ageQuestion_younger}}",
+				"ageQuestion_same": "{{i18n:Lani.Dialogue.ageQuestion_same}}",
+				"ageQuestion_older": "{{i18n:Lani.Dialogue.ageQuestion_older}}",
+				"ageQuestion_followup": "{{i18n:Lani.Dialogue.ageQuestion_followup}}",
+				
+				"animalquestion_dogs": "{{i18n:Lani.Dialogue.animalquestion_dogs}}",
+				"animalquestion_cats": "{{i18n:Lani.Dialogue.animalquestion_cats}}",
+				"animalquestion_followup": "{{i18n:Lani.Dialogue.animalquestion_followup}}"
+            }
+		},
+		{
+			"LogName": "Jonghyuk Dialogue Additions",
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/LaniSBV",
+			"Entries": {
+				"Mon2": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Mon2, Mon2.{{Random:1,2,3}}{{NoModern}}, Mon2.{{Random:1,2,3}}{{NoModern}} }} | defaultKeys = Lani.Dialogue.Mon2.{{Random:1,2,3}} }}",
+				"Wed4": "{{i18n: Lani.Dialogue.{{Random: {{SeasonalDialogueKeyToken}}, Wed4.{{Random:1,2,3}}{{NoModern}}, Wed4.{{Random:1,2,3}}{{NoModern}} }} | defaultKeys = Lani.Dialogue.Wed4.{{Random:1,2,3}} }}",
+				"Mon6": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Mon6, Mon6.{{Random:0,1,2,3}}{{NoModern}}, Mon6.{{Random:0,1,2,3}}{{NoModern}} }} | defaultKeys = Lani.Dialogue.Mon6.{{Random:0,1,2,3}} }}",
+				"Sun6": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Sun6, Sun6.{{Random:1,2,3}}{{NoModern}}, Sun6.{{Random:1,2,3}}{{NoModern}} }} | defaultKeys = Lani.Dialogue.Sun6.{{Random:1,2,3}} }}",
+				//"Mon10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Mon10, Mon10.{{Random:0,1,2}}, Mon10.{{Random:0,1,2}} }} | defaultKeys = Lani.Dialogue.Mon10.{{Random:0,1,2}} }}",
+				"Mon10": "{{DialogueToken}}",
+				"Tue10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Tue10, {{DailyDialogueKeyToken}}, {{DailyDialogueKeyToken}} }} | defaultKeys = Lani.Dialogue.Tue10.{{Random:0,1,2}} }}",
+				"Wed10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Wed10, {{DailyDialogueKeyToken}}, {{DailyDialogueKeyToken}} }} | defaultKeys = Lani.Dialogue.Wed10.{{Random:0,1,2}} }}",
+				//"Thu10": "{{i18n: Lani.Dialogue.{{Random: {{season}}_Thu10, Thu10.{{Random:0,1,2}}, Thu10.{{Random:0,1,2}} }} | defaultKeys = Lani.Dialogue.Thu10.{{Random:0,1,2}} }}",
+				"Thu10": "{{DialogueToken}}",
+				"Custom_SBV_SunberryVillage_60_83": "{{i18n:Lani.Dialogue.grillHangout.{{Random:0,1}} }}" // SBV Saturday Hangout
+			},
+			"When": { "HasMod: |contains=Arknir.Jonghyuk": "true" }
+		},
+		{
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/LaniSBV",
+			"When": { "HasValue:{{spouse}}": "true" }, // checks if player is married
+            "Entries": {
+				"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Lani.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse.{{Random:2,3}} }}"
+			}
+		}
+    ]
+}

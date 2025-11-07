@@ -1,0 +1,27 @@
+{
+  "$schema": "https://smapi.io/schemas/i18n.json",
+  // Shop Messages
+  "shop.time-range": "Mở từ {{openTime}} đến {{closeTime}}",
+  "shop.time-start": "Mở cửa lúc {{openTime}}",
+  "shop.time-end": "Đóng cửa lúc {{closeTime}}",
+  // Config
+  "config.VanillaMarnieStock.name": "Menu Marnie Gốc",
+  "config.VanillaMarnieStock.tooltip": "Không ghi đè kho hàng hoặc menu gốc của Marnie.",
+  "config.SortMode.name": "Chế Độ Sắp Xếp Gia Súc",
+  "config.SortMode.tooltip": "Chế độ sắp xếp hiện tại của phần gia súc trong cửa hàng, có thể thay đổi trực tiếp trong menu cửa hàng động vật tùy chỉnh.",
+  "config.SortIsAsc.name": "Sắp Xếp Gia Súc Tăng Dần",
+  "config.SortIsAsc.tooltip": "Hướng sắp xếp hiện tại của phần gia súc trong cửa hàng, có thể thay đổi trực tiếp trong menu cửa hàng động vật tùy chỉnh.",
+  // GUI
+  "GUI.PurchaseButton": "Mua",
+  "GUI.SortAsc": "{{mode}} (Tăng Dần)",
+  "GUI.SortDesc": "{{mode}} (Giảm Dần)",
+  "GUI.SortMode.Name": "Tên",
+  "GUI.SortMode.Price": "Giá",
+  "GUI.SortMode.House": "Chuồng",
+  "GUI.SortMode.CanBuy": "Có Thể Mua",
+  // Animal Manage Menu
+  "GUI.LivestockBazaar.Title": "Chợ Gia Súc",
+  "GUI.AnimalManage.Title": "Quản Lý Gia Súc",
+  "GUI.CombineTitle": "{{lbTitle}}: {{amTitle}}",
+  "GUI.AnimalManage.Cannot": "Người chơi khác đang quản lý gia súc!"
+}

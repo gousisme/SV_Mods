@@ -1,0 +1,261 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Bouquet Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Bouquets": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Flower_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "ColorOverlayFromNextIndex":true,
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 430
+        }
+    }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Bouquets": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Bouquet": "{{i18n: AtelierGoods_Flower_Bouquet}}"
+        }
+    },
+
+    {
+        "LogName":"Add Perfume Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Perfume": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Flower_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Perfume.description}}",
+                "Type": "ArtisanGoods",     
+                "ColorOverlayFromNextIndex":true,     
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 478
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Perfume": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Perfume": "{{i18n: AtelierGoods_Flower_Perfume}}"
+        }
+    },
+
+    {
+        "LogName":"Add Floral Swag Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Bouquets}} = 'true')":true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",    
+                "ColorOverlayFromNextIndex":true,      
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 414
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When":{"Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Bouquets}} = 'true')":true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Floral_Swag": "{{i18n: AtelierGoods_Floral_Swag}}"
+        }
+    },
+
+    {
+        "LogName":"Add Incense Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Incense": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Incense": {
+                "Name": "Wildflour.AtelierGoods_Flower_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Incense.description}}",
+                "Type": "ArtisanGoods",   
+                "ColorOverlayFromNextIndex":true,       
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 462
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Incense": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Incense": "{{i18n: AtelierGoods_Flower_Incense}}"
+        }
+    },
+
+    {
+        "LogName":"Add Candles",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Candles": true},
+        "Entries": { 
+            "Wildflour.AtelierGoods_Flower_Candles": {
+                "Name": "Wildflour.AtelierGoods_Flower_Candles",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Candles.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Candles.description}}",
+                "Type": "ArtisanGoods", 
+                "ColorOverlayFromNextIndex":true,         
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_candle_item",
+                "wildflour_boutique_item",
+                "candle_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 446
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Candles": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Candles": "{{i18n: AtelierGoods_Flower_Candles}}"
+        }
+    },
+
+    {
+        "LogName":"Add Soap",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Soap": true},
+        "Entries": { 
+            "Wildflour.AtelierGoods_Flower_Soap": {
+                "Name": "Wildflour.AtelierGoods_Flower_Soap",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Soap.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Soap.description}}",
+                "Type": "ArtisanGoods",      
+                "ColorOverlayFromNextIndex":true,    
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_boutique_item",
+                "soap_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 494
+        }
+    }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Soap": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Soap": "{{i18n: AtelierGoods_Flower_Soap}}"
+        }
+    },
+
+    {
+        "LogName":"Add Honeycomb if Wild Food is Not Toggled",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:WildFood": false},
+        "Entries": { 
+            "Wildflour.AtelierGoods_Honeycomb": {
+                "Name": "Wildflour.AtelierGoods_Honeycomb",
+                "DisplayName": "{{i18n:AtelierGoods_Honeycomb.name}}",
+                "Description": "{{i18n:AtelierGoods_Honeycomb.description}}",
+                "Type": "ArtisanGoods",  
+                "ExcludeFromShippingCollection":true,        
+                "Category": -75,
+                "Edibility": 0,
+                "Price": 80,
+        
+                "ContextTags":
+                ["wildflour_honeybee_item",
+                "wildflour_floral_item",
+                "wildflour_boutique_item",
+                "bee_item",
+                "color_gold"],
+        
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 175
+        }
+    }
+    }
+
+]
+}

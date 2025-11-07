@@ -1,0 +1,28 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Hereford, Holstein, Jersey, Guernsey, BlueRoan, Highland",
+		"Default": "Holstein",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/BabyWhite Cow”,
+		"FromFile": "assets/{{Type}}Baby.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/White Cow",
+		"FromFile": "assets/{{Type}}Cow.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{Type}}Icon.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 33, "Height": 17 },
+		"ToArea": {"X": 32, "Y": 448,"Width": 33, "Height": 17}
+		},
+	]
+}

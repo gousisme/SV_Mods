@@ -1,0 +1,306 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+
+        "Style": {
+            "Description": "There are two options for how this catalogue looks; choose option 1 or option 2.",
+            "AllowValues": "Option1, Option2",
+            "Default": "Option1",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          }
+
+    },
+    
+    "Changes": [
+
+        {
+            "LogName": "Add Mega Catalogue Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "HXW.MegaFurniSet": {
+                "PriceModifiers": null,
+                "PriceModifierMode": "Stack",
+                "Items": [
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwboutiquebakeryfurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwboutiquebakeryfurni"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwbakeryfurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwbakeryfurni"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwbathroomfurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwbathroomfurni"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwfairygardenfurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwfairygardenfurni"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwfarmersmarket",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwfarmersmarket"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwgreenhousefurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwgreenhousefurni"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwoutdoorfurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwoutdoorfurni"
+                    },
+                    {
+                    "Price": 0,
+                    "AvailableStockLimit": "Global",
+                    "AvoidRepeat": false,
+                    "UseObjectDataPrice": false,
+                    "IgnoreShopPriceModifiers": false,
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "AvailableStockModifiers": null,
+                    "AvailableStockModifierMode": "Stack",
+                    "Condition": null,
+                    "Id": "hwromanticfurni",
+                    "ItemId": "ALL_ITEMS (F)",
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwromanticfurni"
+                    },
+                    {
+                        "Price": 0,
+                        "AvailableStockLimit": "Global",
+                        "AvoidRepeat": false,
+                        "UseObjectDataPrice": false,
+                        "IgnoreShopPriceModifiers": false,
+                        "PriceModifiers": null,
+                        "PriceModifierMode": "Stack",
+                        "AvailableStockModifiers": null,
+                        "AvailableStockModifierMode": "Stack",
+                        "Condition": null,
+                        "Id": "hwdecoplantfurni",
+                        "ItemId": "ALL_ITEMS (F)",
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwdecoplantfurni"
+                    },
+                    {
+                        "Price": 0,
+                        "AvailableStockLimit": "Global",
+                        "AvoidRepeat": false,
+                        "UseObjectDataPrice": false,
+                        "IgnoreShopPriceModifiers": false,
+                        "PriceModifiers": null,
+                        "PriceModifierMode": "Stack",
+                        "AvailableStockModifiers": null,
+                        "AvailableStockModifierMode": "Stack",
+                        "Condition": null,
+                        "Id": "hwplantloversfurni",
+                        "ItemId": "ALL_ITEMS (F)",
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwplantfurni"
+                    },
+                    {
+                        "Price": 0,
+                        "AvailableStockLimit": "Global",
+                        "AvoidRepeat": false,
+                        "UseObjectDataPrice": false,
+                        "IgnoreShopPriceModifiers": false,
+                        "PriceModifiers": null,
+                        "PriceModifierMode": "Stack",
+                        "AvailableStockModifiers": null,
+                        "AvailableStockModifierMode": "Stack",
+                        "Condition": null,
+                        "Id": "hwgrandmaspantryfurni",
+                        "ItemId": "ALL_ITEMS (F)",
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwgrandmaspantry"
+                    },
+                    {
+                        "Price": 0,
+                        "AvailableStockLimit": "Global",
+                        "AvoidRepeat": false,
+                        "UseObjectDataPrice": false,
+                        "IgnoreShopPriceModifiers": false,
+                        "PriceModifiers": null,
+                        "PriceModifierMode": "Stack",
+                        "AvailableStockModifiers": null,
+                        "AvailableStockModifierMode": "Stack",
+                        "Condition": null,
+                        "Id": "hwrestaurantfurni",
+                        "ItemId": "ALL_ITEMS (F)",
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_hwrestaurantfurni"
+                    }
+                ],
+                "CustomFields":{
+                    "HappyHomeDesigner/Catalogue":"true"
+                }
+                }
+            }
+        },
+    
+        {
+            "LogName": "Add Mega Catalogue Item",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {    
+                "HXW.MegaFurnitureCatalogue_Catalogue": "HXW.MegaFurnitureCatalogue_Catalogue/other/2 2/2 1/1/350000/2/{{i18n:MegaFurnitureCatalogue_Catalogue}}/0/Mods\\HXW.MegaFurnitureCatalogue\\Furniture/true"
+            }
+        },
+      
+        {
+            "LogName": "Add Mega Catalogue Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)HXW.MegaFurnitureCatalogue_Catalogue": {
+                    "TileActions": [
+                        {
+                            "TileAction": "OpenShop HXW.MegaFurniSet"
+                        }
+                    ]
+                }
+            }
+        },
+    
+        {
+            "LogName": "Add Mega Catalogue to Robin's Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "Entries": {
+                "HXW.MegaFurnitureCatalogue_Catalogue": {
+                    "Id": "HXW.MegaFurnitureCatalogue_Catalogue",
+                    "ItemId": "(F)HXW.MegaFurnitureCatalogue_Catalogue",
+                    "Price": 350000
+                }
+            }
+        },
+
+        {
+            "LogName": "Load Catalogue Textures",
+            "Action": "Load",
+            "Target": "Mods/HXW.MegaFurnitureCatalogue/Furniture",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+    
+        {
+            "LogName": "Alternate Visual Catalogue",
+            "Action": "EditImage",
+            "Target": "Mods/HXW.MegaFurnitureCatalogue/Furniture",
+            "FromFile": "assets/Furniture_Option2.png",
+            "PatchMode":"Replace",
+            "When": {"Style": "Option2"}
+        }
+
+    ]
+}

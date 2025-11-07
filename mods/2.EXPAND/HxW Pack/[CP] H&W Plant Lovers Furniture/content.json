@@ -1,0 +1,49 @@
+{
+    "Format": "2.3.0",
+
+    "ConfigSchema": {
+
+        "Color": {
+            "Description": "If you want to use a recolor, choose Oak, Walnut, Cream or Chocolate. Defaults to Birch",
+            "AllowValues": "Birch, Oak, Walnut, Cream, Chocolate",
+            "Default": "Birch",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+          "Foliage": {
+            "Description": "Defaults to Vanilla Color Scheme. If you want to use a recolor, choose from Earthy, VPR or Starblue.",
+            "AllowValues": "Vanilla, Earthy, VPR, Starblue",
+            "Default": "Vanilla",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          }
+
+    },
+    
+    "Changes": [
+
+        //Include Furniture
+
+        {
+        "LogName": "HXW Furniture",
+        "Action": "Include",
+        "FromFile": "Data/furniture.json"
+        },
+
+         //Include Shop and Catalogue
+
+         {
+        "LogName": "HXW Furniture",
+        "Action": "Include",
+        "FromFile": "Data/shops.json"
+        },
+        
+        //Include Textures
+
+        {
+        "LogName": "HXW Furniture Textures",
+        "Action": "Include",
+        "FromFile": "Data/textures.json"
+        }
+    ]
+}

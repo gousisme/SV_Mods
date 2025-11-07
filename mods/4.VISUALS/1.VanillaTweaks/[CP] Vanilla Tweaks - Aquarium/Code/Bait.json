@@ -1,0 +1,77 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Bait",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Bait/Bait.png",
+			"ToArea": { "X": 208, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BaitSpritesEnabled": "True",
+				"Bait |contains= Bait": true
+			}
+		},
+        {
+			"LogName": "Challenge Bait",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "assets/{{SaturationToggle}}/Bait/ChallengeBait.png",
+			"ToArea": { "X": 0, "Y": 144, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BaitSpritesEnabled": "True",
+				"Bait |contains= Challenge Bait": true
+			}
+		},
+        {
+			"LogName": "Deluxe Bait",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "assets/{{SaturationToggle}}/Bait/DeluxeBait.png",
+			"ToArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BaitSpritesEnabled": "True",
+				"Bait |contains= Deluxe Bait": true
+			}
+		},
+        {
+			"LogName": "Magic Bait",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Bait/MagicBait.png",
+			"ToArea": { "X": 320, "Y": 592, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BaitSpritesEnabled": "True",
+				"Bait |contains= Magic Bait": true
+			}
+		},
+        {
+			"LogName": "Magnet",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Bait/Magnet.png",
+			"ToArea": { "X": 112, "Y": 464, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BaitSpritesEnabled": "True",
+				"Bait |contains= Magnet": true
+			}
+		},
+        {
+			"LogName": "Wild Bait",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Bait/WildBait.png",
+			"ToArea": { "X": 96, "Y": 512, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BaitSpritesEnabled": "True",
+				"Bait |contains= Wild Bait": true
+			}
+		}
+    ]
+}

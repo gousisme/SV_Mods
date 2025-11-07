@@ -1,0 +1,146 @@
+{
+    "Changes": [
+
+
+    {
+        "LogName": "Adding {{ModId}} Flower Seeds to Sunrise Orb Drops",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": ["skellady.SBVCP_SunriseOrb", "GeodeDrops"],
+        "Priority":"Late",
+        "Entries": {
+                "{{ModId}}_SunriseOrb_Saplings": {
+                    "Chance": 0.1,      // 10% cumulative chance
+                    "Precedence": -1,
+                    "Id": "{{ModId}}_SunriseOrb_Saplings",
+                    "RandomItemId": [
+                        "(O){{ModId}}_Arctic_Fox_Seeds",
+                        "(O){{ModId}}_Avalune_Seeds",
+                        "(O){{ModId}}_Daisy_Seeds",
+                        "(O){{ModId}}_Hibiscus_Seeds",
+                        "(O){{ModId}}_Lily_Seeds",
+                        "(O){{ModId}}_Nasturtium_Seeds",
+                        "(O){{ModId}}_Peony_Seeds",
+                        "(O){{ModId}}_Pixie_Breath_Seeds",
+                        "(O){{ModId}}_Snapdragon_Seeds",
+                        "(O){{ModId}}_Yarrow_Seeds"
+                    ],
+                    "MinStack": 2,
+                    "MaxStack": 4
+                }
+            }
+    },
+    {
+        "LogName": "Adding {{ModId}} Mushroom and Flower Bush Seeds to Sunset Orb Drops",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": ["skellady.SBVCP_SunsetOrb", "GeodeDrops"],
+        "Priority":"Late",
+        "Entries": {
+                "{{ModId}}_SunsetOrb_BushSeeds": {
+                    "Chance": 0.1,      
+                    "Precedence": -1,
+                    "Id": "{{ModId}}_SunsetOrb_BushSeeds",
+                    "RandomItemId": [
+                        "(O){{ModId}}_Fae_Queen_Flower_Seeds",
+                        "(O){{ModId}}_Secret_Garden_Flower_Seeds",
+                        "(O){{ModId}}_Magic_Meadow_Flower_Seeds",
+                        "(O){{ModId}}_Pantry_Mushroom_Seeds",
+                        "(O){{ModId}}_Cafe_Mushroom_Seeds",
+                        "(O){{ModId}}_Alchemist_Mushroom_Seeds",
+                        "(O){{ModId}}_Cookie_Monster_Mushroom_Seeds",
+                        "(O){{ModId}}_Sweet_Tooth_Mushroom_Seeds",
+                        "(O){{ModId}}_MoonDrop_Seeds",
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 3
+                }
+            }
+    },
+
+    {
+        "LogName": "Adding {{ModId}} Mushroom Tree Seeds to Midnight Orb Drops",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": ["skellady.SBVCP_MidnightOrb", "GeodeDrops"],
+        "Priority":"Late",
+        "Entries": {
+                "{{ModId}}_MidnightOrb_MushTreeSeeds": {
+                    "Chance": 0.1,      
+                    "Precedence": -1,
+                    "Id": "{{ModId}}_MidnightOrb_MushTreeSeeds",
+                    "RandomItemId": [
+                        "(O){{ModId}}_Blushing_TopHat_Seeds",
+                        "(O){{ModId}}_Candy_Button_Seeds",
+                        "(O){{ModId}}_Coral_Fungus_Seeds",
+                        "(O){{ModId}}_Frilly_Gilly_Seeds",
+                        "(O){{ModId}}_Ghostly_Parasol_Seeds",
+                        "(O){{ModId}}_Indigo_Cap_Seeds",
+                        "(O){{ModId}}_Lilac_Funnel_Seeds",
+                        "(O){{ModId}}_Limey_Bonnet_Seeds",
+                        "(O){{ModId}}_Lunar_Poof_Seeds",
+                        "(O){{ModId}}_Rustgill_Seeds",
+                        "(O){{ModId}}_Seafoam_Waxcap_Seeds",
+                        "(O){{ModId}}_Sparkling_Agaric_Seeds",
+                        "(O){{ModId}}_Stout_Funnel_Seeds"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            }
+    },
+
+    {
+        "LogName": "Adding {{ModId}} Fruit Saplings to Eclipse Orb Drops",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": ["skellady.SBVCP_EclipseOrb", "GeodeDrops"],
+        "Priority":"Late",
+        "Entries": {
+                "{{ModId}}_EclipseOrb_FruitSeeds": {
+                    "Chance": 0.1,      
+                    "Precedence": -1,
+                    "Id": "{{ModId}}_EclipseOrb_Fruit_Saplings",
+                    "RandomItemId": [
+                        "(O){{ModId}}_Apple_Sapling",
+                        "(O){{ModId}}_Apricot_Sapling",
+                        "(O){{ModId}}_Cherry_Sapling",
+                        "(O){{ModId}}_Orange_Sapling",
+                        "(O){{ModId}}_Peach_Sapling",
+                        "(O){{ModId}}_Pomegranate_Sapling",
+                        "(O){{ModId}}_Banana_Sapling",
+                        "(O){{ModId}}_Mango_Sapling",
+                        "(O){{ModId}}_Sugar_Plum_Sapling",
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 2
+                }
+            }
+    },
+
+    {
+        "LogName": "Adding {{ModId}} Rare Saplings to Prismatic Orb Drops",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": ["skellady.SBVCP_PrismaticOrb", "GeodeDrops"],
+        "Priority":"Late",
+        "Entries": {
+                "{{ModId}}_PrismaticOrb_Saplings": {
+                    "Chance": 0.05,      
+                    "Precedence": -1,
+                    "Id": "{{ModId}}_PrismaticOrb_Saplings",
+                    "RandomItemId": [
+                        "(O){{ModId}}_Honeyshire_Sapling",
+                        "(O){{ModId}}_Summerdell_Sapling",
+                        "(O){{ModId}}_Noonvale_Sapling",
+                        "(O){{ModId}}_Lilygrove_Sapling",
+                        "(O){{ModId}}_Mossflower_Sapling"
+                    ],
+                    "MinStack": 1,
+                    "MaxStack": 1
+                },
+            }
+    }
+
+]
+}

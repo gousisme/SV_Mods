@@ -1,0 +1,21 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Bactrian, Mongolian, Wild, Dromedary",
+		"Default": "Bactrian",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Camel”,
+		"FromFile": "assets/{{Type}}Camel.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Camel_Icon",
+		"FromFile": "assets/EmsCamelIcon.png",
+		},
+	]
+}

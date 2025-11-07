@@ -1,0 +1,191 @@
+﻿//
+// Note for translators:
+// Some lines have a 'note for translators' comment like this one to clarify intent. You generally shouldn't translate
+// the 'note for translators' comments themselves, since they just explain the official intent and aren't shown in-game.
+//
+{
+    /*********
+    ** Destination names
+    *********/
+    // default stops
+    "destinations.central-station": "Ga Trung Tâm",
+    "destinations.stardew-valley": "Thung Lũng Stardew",
+
+    // default stops when shown in Central Station menu
+    "destinations.stardew-valley.boat": "Thung Lũng Stardew - Bến Thuyền",
+    "destinations.stardew-valley.bus": "Thung Lũng Stardew - Trạm Xe Buýt",
+    "destinations.stardew-valley.train": "Thung Lũng Stardew - Ga Tàu",
+
+    // stops from other mods
+    "destinations.from-bus-locations-mod": "{0} [Mod Địa Điểm Xe Buýt]", // {0} = tên điểm dừng
+    "destinations.from-train-station-mod": "{0} [Mod Ga Tàu]", // {0} = tên điểm dừng
+
+
+    /*********
+    ** Shop dialogues
+    *********/
+    "food-court.dialogue.1": "Lấy đồ ăn của bạn ở đây! Chủ yếu không làm từ ấu trùng.",
+    "food-court.dialogue.2": "Đây là giá thấp nhất trong khu ẩm thực(đùa).",
+    "food-court.dialogue.3": "Chúng tôi hầu như đã vượt qua lần kiểm tra an toàn thực phẩm gần nhất!",
+    "food-court.dialogue.4": "Ồ, một khách hàng. Bạn muốn gì?",
+    "food-court.dialogue.5": "Chúng tôi có đồ ăn tươi và nóng! À, nóng. Nếu bạn hâm nóng bằng lò vi sóng.", 
+
+    "gift-shop.dialogue.1": "Đi xa? Hãy chắc chắn rằng bạn có mọi thứ bạn cần!",
+    "gift-shop.dialogue.2": "Về nhà? Lấy một vài món quà lưu niệm để mang về!",
+    "gift-shop.dialogue.3": "Chúng tôi có một bộ sưu tập áo sơ mi độc đáo phong phú. (Quá nhiều, làm ơn mua một ít.)",
+    "gift-shop.dialogue.4": "Chúng tôi có rất nhiều đồ đến mức không biết sẽ cất ở đâu. Làm ơn mua gì đó!",
+    "gift-shop.dialogue.5": "Đi đến nơi lạnh? Chúng tôi có một số đồ giữ ấm trong kho!",
+    "gift-shop.dialogue.6": "Thử những chiếc bịt tai này. Cảm nhận chứ? Đây là nhung chính hiệu từ Làng Castle!",
+    "gift-shop.dialogue.7": "Đây là gỗ quý hiếm từ bên kia Biển Gem. Rất khó tìm.",
+
+    "vendor-shop.dialogue.coming-soon": "Một tấm biển nhỏ: \"Các cửa hàng pop-up địa phương sắp ra mắt!\". Bạn nghe thấy tiếng công nhân bên trong đang chuẩn bị mọi thứ.",
+
+
+    /*********
+    ** Book titles
+    *********/
+    // Note for translators: this section refers to locations mentioned in the base game (like the Ferngill Republic and Zuzu City).
+    // You can find their translations via the language links on the left of the page at https://stardewvalleywiki.com/Setting.
+    // The 'Z.C. Rarecrow Society' is from a letter; see https://stardewvalleywiki.com/Deluxe_Scarecrow and its language links.
+    "books.cooking.1": "'Mayonnaise Hư Không và Các Món Ăn Tinh Tế của Goblin'.",
+
+    "books.geography.1": "'Bờ Biển Ferngill và Những Gì Chúng Tôi Tìm Thấy Ở Đó'.",
+    "books.geography.2": "'Lâm Nghiệp Grampleton: Tập VII'.",
+    "books.geography.3": "'Cuộc Sống Về Đêm ở Thành Phố Zuzu'.",
+    "books.geography.4": "'Gấu Trúc ở Đảo Prairie'.",
+    "books.geography.5": "'Thung Lũng Stardew và Những Địa Điểm Độc Đáo Khác'.",
+    "books.geography.6": "'Những Loài Hoa của Cộng Hòa Ferngill' của Cô Sandy.",
+
+    "books.history.1": "'Bách Khoa Toàn Thư về Smoluanu: Văn Hóa, Lịch Sử, Định Kiến và Suy Đoán'.",
+    "books.history.2": "'Nhập Môn Ma Thuật' của M. Rasmodius.",
+    "books.history.3": "'Kẻ Xâm Lược và Bóng Tối: Lịch Sử của Các Cuộc Chiến Nguyên Tố'.",
+    "books.history.4": "'Những Người Dân Vùng Lạnh Giá Bên Kia Biển Đông Lạnh Giá'.",
+    "books.history.5": "'Đế Chế và Cộng Hòa': một phân tích sâu sắc về xung đột giữa các quốc gia Ferngill và Gotoro.",
+    "books.history.6": "'Danh Mục Toàn Diện về Lịch Sử Rarecrow' của Hội Z.C. Rarecrow.",
+
+    "books.promotional.1": "'Thị Trấn Pelican Tuyệt Vời', một tờ rơi quảng cáo của Thị trưởng Lewis.",
+
+    "books.religion.1": "'Tìm Kiếm Yoba', một tờ rơi ẩn danh từ Thung Lũng Stardew.",
+
+    "books.science.1": "'Junimos và Các Truyền Thuyết Khác của Cộng Hòa Ferngill'.",
+
+
+    /*********
+    ** Location flavor text
+    *********/
+    // message from the transit area doors
+    "location.transit-area-doors": "Lối này dẫn trở lại bến tàu và sân ga. Bạn cần vé từ quầy vé trước.",
+
+    // messages from exit door
+    "location.exit-door.strange-sounds": "...?",
+
+    "location.ticket-counter.1": "(Bạn cố nhìn vào quầy vé, nhưng chỉ thấy một bóng mờ qua lớp kính tối màu.)",
+    "location.ticket-counter.2": "(Bạn nghe thấy những tiếng thì thầm kỳ lạ qua lớp kính.)",
+    "location.ticket-counter.3": "(Đột nhiên bạn có thể nhìn xuyên qua lớp kính tối màu, chỉ trong chốc lát. Khi bạn nghĩ lại, bạn không thể nhớ mình đã thấy gì.)",
+
+    "location.ticket-machine.1": "(Bạn cảm thấy một sự không hài lòng mơ hồ từ quầy vé. Hoặc có thể bạn chỉ đang tưởng tượng.)",
+    "location.ticket-machine.2": "(Bạn có một cảm giác không thoải mái mơ hồ khi bỏ qua quầy vé.)",
+    "location.ticket-machine.3": "(Máy liệt kê hàng chục điểm đến mà bạn chưa bao giờ nghe thấy. Bạn chớp mắt và danh sách bình thường trở lại.)",
+
+    "location.cola-machine.1": "(Máy này chỉ bán Joja Cola, nhưng có thứ gì đó rơi vào khay lấy hàng khi bạn tiếp cận.)",
+    "location.cola-machine.2": "(Bạn tiếp cận máy bán cola. Trước khi bạn có thể làm gì, một món đồ rơi xuống với một tiếng động.)",
+    "location.cola-machine.3": "(Bằng cách nào đó bạn cảm thấy máy bán cola muốn giúp đỡ.)",
+
+    // employee lounge
+    "location.employee-lockers": "Các tủ khóa của nhân viên không bị khóa, nhưng bạn cảm thấy có điều gì đó đang theo dõi bạn.",
+    "location.employee-fridge": "Bữa trưa của nhân viên. Thật không lịch sự nếu tham gia.",
+
+
+    /*********
+    ** Tourist dialogue
+    *********/
+    "tourist.young-boy.1": "Chào.",
+    "tourist.young-boy.2": "Tôi chỉ đang đợi mẹ tôi.",
+    "tourist.young-boy.3": "Tôi không được phép nói chuyện với người lạ.",
+
+    "tourist.woman-in-black-dress": "Tôi thích đi du lịch đến các lễ hội ở những thị trấn nhỏ. Đó là một cách tuyệt vời để thoát khỏi công việc văn phòng.",
+
+    "tourist.man-with-drink.1": "Phần tuyệt nhất của việc đi du lịch là đồ ăn.",
+    "tourist.man-with-drink.2": "Bạn đã thử khu ẩm thực chưa? Thật lòng mà nói, đồ ăn ở đó gần như không ăn được. Nhưng đó là một phần của trải nghiệm!",
+
+    "tourist.man-with-sunglasses": "Bạn đã thử nhìn vào quầy vé chưa? Tôi không bao giờ có thể nhìn rõ ai ở đó.#Không ai trong số các chủ cửa hàng là nhân viên cả.",
+
+    "tourist.man-with-top-hat.1": "Này nhóc. Muốn biết bí mật để giàu có không?",
+    "tourist.man-with-top-hat.2": "Các kế hoạch làm giàu nhanh. Cờ bạc. Sòng bạc luôn thắng, hiểu ý tôi chứ? Heh.",
+
+    "tourist.strong-man": "Bạn có mạnh như tôi không? Đập đá!#Nhưng ở đây không có đá. Buồn quá.",
+
+    "tourist.desert-racer-man.1": "Tôi đang đi đến các cuộc đua!",
+    "tourist.desert-racer-man.2": "Ồ, đúng vậy. Giờ tôi đã nghỉ hưu, tôi cuối cùng cũng có thể đi du lịch để xem các sự kiện đua xe tận mắt.#Bạn đã từng đến các cuộc đua ở sa mạc chưa? Thật là vui.",
+
+    "tourist.desert-scholar-man.1": "Chào bạn! Họ đang mở một thư viện mới ở Thành phố Zuzu.",
+    "tourist.desert-scholar-man.2": "Có một số cuốn sách tôi đang tìm. Hy vọng họ có chúng.",
+    "tourist.desert-scholar-man.3": "Nếu không, tôi chắc chắn họ sẽ có những cuốn sách mới để khám phá!",
+
+    "tourist.flamingo.1": "...",
+    "tourist.flamingo.2": "...?",
+    "tourist.flamingo.3": "*kêu!*",
+    "tourist.flamingo.4": "(Cô ấy đang cố tình phớt lờ bạn.)",
+
+    "tourist.shrouded-figure": "Tôi có thể đưa bạn về nhà, với một cái giá.#Nhưng bạn có thể chỉ cần đi xe buýt.",
+
+    "tourist.welwick.1": "Tôi thấy bạn đã nói chuyện với người bạn cũ của tôi, Rasmodius.",
+    "tourist.welwick.2": "Hy vọng ông ấy không lôi bạn vào các kế hoạch của mình, hehe.",
+
+    "tourist.cashier-girl.1": "Tôi làm việc nhiều giờ liền và phải đứng suốt. Thật mệt mỏi và tôi gần như không có thời gian cho bản thân.",
+    "tourist.cashier-girl.2": "Tôi muốn chỉ ở nhà và nghỉ ngơi. Nhưng cuộc sống mà không có phiêu lưu thì có ý nghĩa gì?!",
+    "tourist.cashier-girl.3": "Có rất nhiều nơi chúng ta có thể đến miễn phí. Tôi sẽ đi thăm tất cả chúng!",
+
+    "tourist.governor.1": "Thật kỳ lạ. Không ai biết ai điều hành nhà ga này.#Tất cả các giấy phép đều được nộp đúng, nhưng không ai nhớ điều đó đã xảy ra.#À, thôi nào, đây không phải là điều kỳ lạ duy nhất ở khu vực này.",
+    "tourist.governor.2": "Thật tuyệt khi cuối cùng cũng được đi tàu.#Lần tới tôi thực sự nên đưa vợ đi cùng.",
+
+    "tourist.lupini.1": "Chào bạn trẻ ${man^lady^person}$. Bạn đã thấy những bức tranh mới nhất của tôi chưa?",
+    "tourist.lupini.2": "Tôi đang đi mở một phòng trưng bày mới. Bạn có thể đi cùng nếu muốn.",
+
+    "tourist.red-cap-guy.1": "Điều tuyệt vời về du lịch là tất cả những con người và phong cách khác nhau.",
+    "tourist.red-cap-guy.2": "Thật khó để cảm thấy ăn mặc quá lố khi mọi người đều khác biệt như vậy!",
+
+    "tourist.shorts-man": "Ở đây lạnh quá.#Có lẽ tôi sẽ mua một số đồ giữ ấm từ cửa hàng quà tặng...",
+
+    "tourist.red-pirate": "(Anh ấy đang tập trung vào đồ uống và không để ý đến bạn.)",
+
+    "tourist.grim-pirate": "Từ những đường ray xa xăm, một câu chuyện rùng rợn...#Một thông báo nghe được từ sâu trong nhà ga...#Aye, tôi đã lỡ chuyến tàu của mình.",
+
+    "tourist.blackgull-pirate.1": "Trời ơi! Những người khác đâu rồi?",
+    "tourist.blackgull-pirate.2": "Chúng ta sẽ lên tàu bất cứ lúc nào...",
+
+    "tourist.bag-dog.1": "(Cô ấy đang trong một cuộc phiêu lưu.)",
+    "tourist.bag-dog.2": "(Cô ấy chỉ đang nghỉ ngơi trong chiếc túi giường di động của mình.)",
+
+
+    /*********
+    ** Furniture
+    *********/
+    // calendars
+    "furniture.calendar-city.name": "Lịch Thành Phố",
+    "furniture.calendar-nature.name": "Lịch Thiên Nhiên",
+
+    // wall decor
+    "furniture.clock.name": "Đồng Hồ",
+    "furniture.transit-map.name": "Bản Đồ Giao Thông",
+    "furniture.travel-pictures.name": "Ảnh Du Lịch",
+    "furniture.welcome-sign.name": "Biển Chào Mừng",
+
+    // rugs
+    "furniture.posh-rug.name": "Thảm Sang Trọng",
+
+    // general decor
+    "furniture.board-sign.name": "Biển Bảng",
+    "furniture.postbox.name": "Hòm Thư",
+    "furniture.suitcase-blue.name": "Va-li Xanh",
+    "furniture.suitcase-pink.name": "Va-li Hồng",
+    "furniture.trash-can.name": "Thùng Rác",
+    "furniture.trash-can-messy.name": "Thùng Rác Bừa Bộn",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    "config.require-pam-bus.name": "Yêu cầu xe buýt của Pam",
+    "config.require-pam-bus.desc": "Liệu bạn có phải sửa xe buýt của Pam trước khi khởi hành từ điểm dừng xe buýt Thung Lũng Stardew hay không. Nếu không bắt buộc, bạn có thể đi xe buýt đến Ga Trung Tâm (nhưng không phải sa mạc) trước khi sửa chữa nó."
+}

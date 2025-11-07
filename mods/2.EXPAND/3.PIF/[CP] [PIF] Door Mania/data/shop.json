@@ -1,0 +1,106 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add shop entry for catalogues",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "Sharogg.DoorShop": {
+          "PriceModifiers": null,
+          "PriceModifierMode": "Stack",
+          "Items": [
+            {
+              "Price": 0,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "UseObjectDataPrice": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "Default",
+              "ItemId": "ALL_ITEMS (F)",
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_sharogg_doors"
+            }
+          ],
+          "CustomFields": { "HappyHomeDesigner/Catalogue": "true" }
+        },
+        "Sharogg.WallDecoShop": {
+          "PriceModifiers": null,
+          "PriceModifierMode": "Stack",
+          "Items": [
+            {
+              "Price": 0,
+              "AvailableStockLimit": "Global",
+              "AvoidRepeat": false,
+              "UseObjectDataPrice": false,
+              "IgnoreShopPriceModifiers": false,
+              "PriceModifiers": null,
+              "PriceModifierMode": "Stack",
+              "AvailableStockModifiers": null,
+              "AvailableStockModifierMode": "Stack",
+              "Condition": null,
+              "Id": "Default",
+              "ItemId": "ALL_ITEMS (F)",
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_sharogg_walldeco"
+            }
+          ],
+          "CustomFields": { "HappyHomeDesigner/Catalogue": "true" }
+        }
+      }
+    },
+    {
+      "LogName": "Add tile actions for catalogues",
+      "Action": "EditData",
+      "Target": "sophie.Calcifer/FurnitureActions",
+      "Entries": {
+        "(F){{ModId}}_DoorCatalogue": {
+          "TileActions": [{ "TileAction": "OpenShop Sharogg.DoorShop" }]
+        },
+        "(F){{ModId}}_WallDecoCatalogue": {
+          "TileActions": [{ "TileAction": "OpenShop Sharogg.WallDecoShop" }]
+        }
+      }
+    },
+    {
+      "LogName": "Add catalogues to PIF shop",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": ["DLX.PIF.Magician", "Items"],
+      "Entries": {
+        "Door catalogue": {
+          "ID": "{{ModId}}_DoorCatalogue",
+          "ItemId": "(F){{ModId}}_DoorCatalogue"
+        },
+        "Wall decor catalogue": {
+          "ID": "{{ModId}}_WallDecoCatalogue",
+          "ItemId": "(F){{ModId}}_WallDecoCatalogue"
+        }
+      }
+    },
+    {
+      "LogName": "Add catalogues to Carpenter shop",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": ["Carpenter", "Items"],
+      "Entries": {
+        "Door Catalogue": {
+          "ID": "{{ModId}}_DoorCatalogue",
+          "ItemId": "(F){{ModId}}_DoorCatalogue"
+        },
+        "Wall decor catalogue": {
+          "ID": "{{ModId}}_WallDecoCatalogue",
+          "ItemId": "(F){{ModId}}_WallDecoCatalogue"
+        }
+      }
+    }
+  ]
+}

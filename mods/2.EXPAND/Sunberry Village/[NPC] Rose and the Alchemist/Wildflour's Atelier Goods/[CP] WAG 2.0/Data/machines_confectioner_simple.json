@@ -1,0 +1,1307 @@
+{
+    "Changes": [
+
+/////////////////////
+// FROZEN MACHINES //
+/////////////////////
+
+{
+    "LogName": "Blast Chiller Added to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Popsicles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Coffee}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Tea}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_BlastChiller": {
+            "Name": "Wildflour.AtelierGoods_BlastChiller",
+            "DisplayName": "{{i18n: AtelierGoods_BlastChiller.name}}",
+            "Description": "{{i18n: AtelierGoods_BlastChiller.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 136,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Blast Chiller Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Popsicles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Coffee}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Tea}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_BlastChiller": "388 50 335 2 84 2/Home/Wildflour.AtelierGoods_BlastChiller/true/{{RecipeConfig}}/{{i18n: AtelierGoods_BlastChiller.name}}"
+    }
+},
+
+{
+    "LogName": "Ice Cream Machine Added to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  { "Atelier.Cauldron/ConfigValue:IceCream": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TreatMaker": {
+            "Name": "Wildflour.AtelierGoods_TreatMaker",
+            "DisplayName": "{{i18n: AtelierGoods_TreatMaker.name}}",
+            "Description": "{{i18n: AtelierGoods_TreatMaker.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 48,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Ice Cream Machine Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  { "Atelier.Cauldron/ConfigValue:IceCream": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TreatMaker": "388 50 338 2 536 2/Home/Wildflour.AtelierGoods_TreatMaker/true/{{RecipeConfig}}/{{i18n: AtelierGoods_TreatMaker.name}}"
+    }
+},
+
+////////////////////
+// CANDY MACHINES //
+////////////////////
+
+{
+    "LogName": "Add Candy Jar to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Query: ({{Atelier.Cauldron/ConfigValue:Gumballs}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:JellyBeans}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CandyJar": {
+            "Name": "Wildflour.AtelierGoods_CandyJar",
+            "DisplayName": "{{i18n: AtelierGoods_CandyJar.name}}",
+            "Description": "{{i18n: AtelierGoods_CandyJar.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 72,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Candy Jar Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Query: ({{Atelier.Cauldron/ConfigValue:Gumballs}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:JellyBeans}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CandyJar": "245 15 330 15 388 40/Home/Wildflour.AtelierGoods_CandyJar/true/{{RecipeConfig}}/{{i18n: AtelierGoods_CandyJar.name}}"
+    }
+},
+
+{
+    "LogName": "Add Sugar Boiler to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Query: ({{Atelier.Cauldron/ConfigValue:Lollipops}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:HardCandies}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_SugarBoiler": {
+            "Name": "Wildflour.AtelierGoods_SugarBoiler",
+            "DisplayName": "{{i18n: AtelierGoods_SugarBoiler.name}}",
+            "Description": "{{i18n: AtelierGoods_SugarBoiler.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 128,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Sugar Boiler Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Query: ({{Atelier.Cauldron/ConfigValue:Lollipops}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:HardCandies}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_SugarBoiler": "245 15 330 15 388 40/Home/Wildflour.AtelierGoods_SugarBoiler/true/{{RecipeConfig}}/{{i18n: AtelierGoods_SugarBoiler.name}}"
+    }
+},
+
+{
+    "LogName": "Add Marshmallow Mixer to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When": { "Atelier.Cauldron/ConfigValue:WildFood": true,"Atelier.Cauldron/ConfigValue:Marshmallows": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_MarshmallowMixer": {
+            "Name": "Wildflour.AtelierGoods_MarshmallowMixer",
+            "DisplayName": "{{i18n: AtelierGoods_MarshmallowMixer.name}}",
+            "Description": "{{i18n: AtelierGoods_MarshmallowMixer.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 96,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Marshmallow Mixer Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When": { "Atelier.Cauldron/ConfigValue:WildFood": true,"Atelier.Cauldron/ConfigValue:Marshmallows": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_MarshmallowMixer": "245 15 330 15 388 40/Home/Wildflour.AtelierGoods_MarshmallowMixer/true/{{RecipeConfig}}/{{i18n: AtelierGoods_MarshmallowMixer.name}}"
+    }
+},
+
+
+{
+    "LogName": "Add Chocolatier Barrel to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_ChocolatierBarrel": {
+            "Name": "Wildflour.AtelierGoods_ChocolatierBarrel",
+            "DisplayName": "{{i18n: AtelierGoods_ChocolatierBarrel.name}}",
+            "Description": "{{i18n: AtelierGoods_ChocolatierBarrel.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 80,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Chocolatier Barrel Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_ChocolatierBarrel": "245 15 330 15 388 40/Home/Wildflour.AtelierGoods_ChocolatierBarrel/true/{{RecipeConfig}}/{{i18n: AtelierGoods_ChocolatierBarrel.name}}"
+    }
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Basic Popsicle Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Popsicles": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_BlastChiller": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Popsicle",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Popsicle",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Popsicle",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Popsicle %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Popsicle",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.5
+                                },
+                                {
+                                "Modification": "Add",
+                                "Amount": 60
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 200
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)84",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_BlastChiller_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_BlastChiller_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":true,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Ice Cream Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:IceCream": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_TreatMaker":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_IceCream",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_IceCream",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_IceCream",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_IceCream %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Ice Cream",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers":[ 
+                            {
+                            "Modification": "Add",
+                            "Amount": 60
+                            },
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                            }
+                        ]
+                        }
+                ],
+                    "MinutesUntilReady": 480
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)84",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_TreatMaker_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_TreatMaker_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":150
+                }
+            ] 
+        }
+    }
+},
+
+//Basic Rules candy
+
+{
+    "LogName": "Basic Jelly Bean Rules ONLY ",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:JellyBeans": true, "Atelier.Cauldron/ConfigValue:Gumballs": false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CandyJar": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
+                        "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Jelly_Beans %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Jelly Beans",
+                        "PreserveId": "DROP_IN_PRESERVE",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 4.0
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 480
+                }
+            ],
+            "AdditionalConsumedItems":[
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandyJar_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Gumballs Rules ONLY ",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:JellyBeans": false, "Atelier.Cauldron/ConfigValue:Gumballs": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CandyJar": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Gumballs",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Gumballs",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Gumballs",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Gumballs %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Gumballs",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 620
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)245",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CandyJar_InvalidCount.message}}",
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandyJar_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Jelly Bean AND Gumballs Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:JellyBeans": true, "Atelier.Cauldron/ConfigValue:Gumballs": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CandyJar": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
+                        "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Jelly_Beans %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Jelly Beans",
+                        "PreserveId": "DROP_IN_PRESERVE",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 4.0
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 480
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Gumballs",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Gumballs",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Gumballs",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Gumballs %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Gumballs",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 2.25
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 620
+                }
+            ],
+            "AdditionalConsumedItems":[
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandyJar_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Sugar Boiler Rules Lollipops ONLY",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true, "Atelier.Cauldron/ConfigValue:HardCandies": false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_SugarBoiler": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Lollipop",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Lollipop",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Lollipop",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Lollipop %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Lollipop",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.9
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 480
+                }
+            ],
+            "AdditionalConsumedItems":[],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandyJar_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Sugar Boiler Rules Hard Candies ONLY",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:Lollipops": false, "Atelier.Cauldron/ConfigValue:HardCandies": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_SugarBoiler": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Hard_Candy",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
+                        "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Hard_Candy",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Hard_Candy",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Hard_Candy %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Hard Candy",
+                       "PreserveId": "DROP_IN_PRESERVE",
+                       "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_gem"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Crystal_Candy %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crystal Candy",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 1.75
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 480
+                }
+            ],
+            "AdditionalConsumedItems":[],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandyJar_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Sugar Boiler Rules ALL",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true, "Atelier.Cauldron/ConfigValue:HardCandies": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_SugarBoiler": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Hard_Candy",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
+                        "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Hard_Candy",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Hard_Candy",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Hard_Candy %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Hard Candy",
+                        "PreserveId": "DROP_IN_PRESERVE",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.0
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_gem"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Crystal_Candy %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crystal Candy",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 1.75
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 480
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Lollipop",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Lollipop",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Lollipop",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Lollipop %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Lollipop",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.9
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 480
+                }
+            ],
+            "AdditionalConsumedItems":[],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CandyJar_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Basic Marshmallow Mixer Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:Marshmallows": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_MarshmallowMixer": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Marshmallows",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Marshmallows",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Marshmallows",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Marshmallows %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Marshmallows",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                             [
+                                {
+                                "Modification": "Add",
+                                "Amount": 25
+                                },
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.75
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Mallow",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_MarshmallowMixer_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_MarshmallowMixer_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName":"Basic Fairy Floss Rules",
+    "Action":"EditData",
+    "Target":"Data/Machines",
+    "TargetField":["(BC)17", "OutputRules"],
+    "When": {"Atelier.Cauldron/ConfigValue:FairyFloss": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Loom_Flavored_Fairy_Floss": {
+            "Id": "Wildflour.AtelierGoods_Loom_Flavored_Fairy_Floss",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
+                    "RequiredCount": 1
+                },
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["wildflour_syrup_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Fairy_Floss",
+                    "ItemId": "Wildflour.AtelierGoods_Flavored_Fairy_Floss",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Fairy_Floss %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Fairy Floss",
+                    "PreserveId": "DROP_IN_PRESERVE",
+                    "CopyColor":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 240
+        }
+    }
+},
+
+{
+    "LogName": "Basic Chocolate Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_ChocolatierBarrel": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
+                    "Triggers": [
+                         {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Chocolate_Truffles %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Chocolate Truffles",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Chocolate_Bar",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
+                        "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Chocolate_Bar",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Chocolate_Bar",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Chocolate_Bar %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Chocolate Bar",
+                        "PreserveId": "DROP_IN_PRESERVE",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1200
+                }
+            ],
+            "AdditionalConsumedItems":[
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_ChocolatierBarrel_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "Simple Boba Rules Blast Chiller ONLY",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:Popsicles": false, "Atelier.Cauldron/ConfigValue:Coffee": false,},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_BlastChiller":{
+            "OutputRules": [
+                {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Boba",
+                        "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Sachet",
+                            "RequiredCount": 1
+                            }
+                    ],
+                        "OutputItem": [
+                            {
+                            "Id": "Wildflour.AtelierGoods_Flavored_Boba",
+                            "ItemId": "Wildflour.AtelierGoods_Flavored_Boba",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Boba %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Bubble Tea", 
+                            "PreserveID":"DROP_IN_PRESERVE",
+                            "CopyColor":true,
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 60
+                                    },
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.75
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 300
+                }
+        ]
+    }
+    }
+},
+
+
+{
+    "LogName": "Simple Boba Iced Latte Rules for Blast Chiller No Popsicles",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true, "Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:Popsicles": false},
+    "Entries": {
+    "(BC)Wildflour.AtelierGoods_BlastChiller": {
+        "OutputRules": [
+        {
+            "Id": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Iced_Latte %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Iced Latte", 
+                "PreserveID":"DROP_IN_PRESERVE",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": [
+                    {
+                    "Modification": "Add",
+                    "Amount": 60
+                    },
+                    {
+                    "Modification": "Multiply",
+                    "Amount": 2.75
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 300
+        },
+        {
+                "Id": "Wildflour.AtelierGoods_Flavored_Boba",
+                "Triggers": [
+                    {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Sachet",
+                    "RequiredCount": 1
+                    }
+            ],
+                "OutputItem": [
+                    {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Boba",
+                    "ItemId": "Wildflour.AtelierGoods_Flavored_Boba",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Boba %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Bubble Tea", 
+                    "PreserveID":"DROP_IN_PRESERVE",
+                    "CopyColor":true,
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                            {
+                            "Modification": "Add",
+                            "Amount": 60
+                            },
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 300
+        }
+    ]
+    }
+    }
+},
+
+{
+    "LogName": "Simple Boba Rules to Blast Chiller with Popsicles Enabled",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "TargetField": ["(BC)Wildflour.AtelierGoods_BlastChiller", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Boba":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Boba",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Sachet",
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Boba",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Boba",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Boba %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Bubble Tea", 
+                "PreserveID":"DROP_IN_PRESERVE",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": [
+                        {
+                        "Modification": "Add",
+                        "Amount": 60
+                        },
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 300
+        }
+    }
+},
+
+{
+    "LogName": "Simple Iced Latte Rules ONLY for Blast Chiller",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true, "Atelier.Cauldron/ConfigValue:Tea": false, "Atelier.Cauldron/ConfigValue:Popsicles": false},
+    "Entries": {
+    "(BC)Wildflour.AtelierGoods_BlastChiller": {
+        "OutputRules": [
+        {
+            "Id": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Iced_Latte %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Iced Latte", 
+                "PreserveID":"DROP_IN_PRESERVE",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": [
+                    {
+                    "Modification": "Add",
+                    "Amount": 60
+                    },
+                    {
+                    "Modification": "Multiply",
+                    "Amount": 2.75
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 300
+        }
+    ]
+    }
+    }
+},
+
+{
+    "LogName": "Simple Iced Latte Rules to Blast Chiller with Popsicles Enabled",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "TargetField": ["(BC)Wildflour.AtelierGoods_BlastChiller", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Iced_Latte":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Iced_Latte",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Iced_Latte %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Iced Latte", 
+                "PreserveID":"DROP_IN_PRESERVE",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": [
+                    {
+                    "Modification": "Add",
+                    "Amount": 60
+                    },
+                    {
+                    "Modification": "Multiply",
+                    "Amount": 2.75
+                    }
+                ]
+            }
+        ],
+        "MinutesUntilReady": 300
+        }
+    }
+}
+
+]
+}

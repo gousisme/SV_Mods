@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_RedPandaBazaar": {
+          "DisplayName": "{{i18n:RedPandaBazaar}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_RedPandaBazaar"
+          },
+          "CanPlantHere": false,
+          "FormerLocationNames": [
+            "RedPandaBazaar"
+          ],
+          "Fish": [
+            {
+              "Id": "(O)137",
+              "ItemId": "(O)137",
+              "Condition": "LOCATION_Season Here Fall Spring"
+            },
+            {
+              "Id": "(O)143",
+              "ItemId": "(O)143",
+              "Condition": "LOCATION_Season Here Fall Spring Summer"
+            },
+            {
+              "Id": "(O)145",
+              "ItemId": "(O)145",
+              "Condition": "LOCATION_Season Here Spring Summer"
+            },
+            {
+              "Id": "(O)153",
+              "ItemId": "(O)153",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)699",
+              "ItemId": "(O)699",
+              "Condition": "LOCATION_Season Here Fall Winter"
+            },
+            {
+              "Id": "(O)702",
+              "ItemId": "(O)702",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)706",
+              "ItemId": "(O)706",
+              "Condition": "LOCATION_Season Here Fall Spring Summer"
+            },
+            {
+              "Id": "(O)707",
+              "ItemId": "(O)707",
+              "Condition": "LOCATION_Season Here Winter"
+            },
+            {
+              "Id": "River Jelly",
+              "ItemId": "RiverJelly",
+              "Chance": 0.06
+            }
+          ],
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+          }
+        }
+      }
+    }
+  ]
+}

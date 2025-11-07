@@ -1,0 +1,223 @@
+{
+	"Changes": [
+		{
+			"LogName": "Add egg Fertlizer Assets",
+			"Action": "Load",
+			"Target": "assets/EggMachine",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+	//Mayo Machine
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [ "(BC)24", "OutputRules" ],
+		"Entries": {
+			"{{ModId}}BlueEggMayo": {
+			"Id": "{{ModId}}_BlueMayoRules",
+				"Triggers": [
+					{
+					"RequiredItemId": "{{ModId}}LargeBlueEgg",
+					"RequiredCount": 1
+					},
+					{
+					"RequiredItemId": "{{ModId}}BlueEgg",
+					"RequiredCount": 1
+					},
+					{ 
+					"RequiredItemId": "{{ModId}}LargegoldEgg",
+					"RequiredCount": 1
+					},
+					{
+					"RequiredItemId": "{{ModId}}_FertEggBlue",
+					"RequiredCount": 1
+					},
+					{
+					"RequiredItemId": "{{ModId}}_FertEggBrown",
+					"RequiredCount": 1
+					},
+					{
+					"RequiredItemId": "{{ModId}}_FertEggWhite",
+					"RequiredCount": 1
+					},
+					{
+					"RequiredItemId": "{{ModId}}_FertEggGold",
+					"RequiredCount": 1
+					}
+					],
+				"OutputItem": [
+					{
+					"ItemId": "(O)306"
+					}
+					],
+				"MinutesUntilReady": 300
+				},
+		"{{ModId}}VoidEggMayo": {
+			"Id": "{{ModId}}_VoidMayoRules",
+				"Triggers": [
+						{
+						"RequiredItemId": "{{ModId}}LargevoidEgg",
+						"RequiredCount": 1
+						},
+						{
+						"RequiredItemId": "{{ModId}}_FertEggVoid",
+						"RequiredCount": 1
+						}
+						],
+				"OutputItem": [
+						{
+						"ItemId": "(O)308"
+						}
+					],
+				"MinutesUntilReady": 300
+				}				
+			}
+	},
+	  {
+			"LogName": "Egg Fertlizer Setup",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_EggFertMach": {
+                    "Name": "Egg Fertlizer",
+                    "DisplayName": "{{i18n:eggfertmach_disname}}",
+                    "Description": "{{i18n:eggfertmach_descript}}",
+                    "Price": 1500,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "assets/EggMachine",
+        }
+     }
+    },
+//shop
+	  {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["AnimalShop", "Items"],
+			"LogName": "Add to Marnie's Shop",
+            "Entries": { 
+                "Roosters.EggFertMach": {
+                    "Price": 10000,
+                    "ItemId": "(BC){{ModId}}_EggFertMach",
+                    "IgnoreShopPriceModifiers": true
+                }
+            }
+        },
+//Crafting Recipe for Egg Fertlizer Removed to do Error Item
+//       {
+//             "LogName": "Egg Fertlizer Crafting Recipe",
+//             "Action": "EditData",
+//             "Target": "Data/CraftingRecipes",
+//             "Entries": {
+//                 "Roosters.EggFertMach": "335 3 338 2 787 1/Home/Roosters.EggFertMach/ture/default/{{i18n:eggfertmach_disname}}", // 3x Iron Bar, 2x Refined Quartz, 1x Battery Pack
+//             }
+//         },
+//Machine Rules
+		 {
+            "Action": "EditData",
+            "Target": "Data/Machines",    
+            "Entries": {
+            "(BC){{ModId}}_EggFertMach": {  
+            "OutputRules": [
+                 {
+                    "Id": "BrownEggFertilizing",
+                        "Triggers": [
+             				{
+                            "Id": "BrownInFertEgg",
+                               "Trigger": "ItemPlacedInMachine",
+                               "RequiredItemId": "182",
+                               "RequiredCount": "1",
+                            },
+                            ],
+                            "OutputItem": [
+                            {
+                            "Id": "BrownOutFertEgg",
+                            "ItemId": "{{ModId}}_FertEggBrown",
+							"CopyQuality": false,
+                            }
+                            ],
+                            "DaysUntilReady": 7,
+                },
+				{
+                    "Id": "GoldEggFertilizing",
+                        "Triggers": [
+             				{
+                            "Id": "{{ModId}}_GoldInFertEgg",
+                               "Trigger": "ItemPlacedInMachine",
+                               "RequiredItemId": "{{ModId}}LargegoldEgg",
+                               "RequiredCount": "1",
+                            },
+                            ],
+                            "OutputItem": [
+                            {
+                            "Id": "{{ModId}}_GoldOutFertEgg",
+                            "ItemId": "{{ModId}}_FertEggGold",
+							"CopyQuality": false,
+                            },
+                            ],
+                            "DaysUntilReady": 7,
+                },
+                {
+                    "Id": "VoidEggFertilizing",
+                        "Triggers": [
+             				{
+                            "Id": "VoidInFertEgg",
+                               "Trigger": "ItemPlacedInMachine",
+                               "RequiredItemId": "{{ModId}}LargevoidEgg",
+                               "RequiredCount": "1",
+                            },
+                            ],
+                            "OutputItem": [
+                            {
+                            "Id": "VoidOutFertEgg",
+                            "ItemId": "{{ModId}}_FertEggVoid",
+							"CopyQuality": false,
+                            },
+                            ],
+                            "DaysUntilReady": 7, 
+                },
+                {
+                    "Id": "BlueEggFertilizing",
+                        "Triggers": [
+             				{
+                            "Id": "BlueInFertEgg",
+                               "Trigger": "ItemPlacedInMachine",
+                               "RequiredItemId": "{{ModId}}LargeBlueEgg",
+                               "RequiredCount": "1",
+                            },
+                            ],
+                            "OutputItem": [
+                            {
+                            "Id": "BlueOutFertEgg",
+                            "ItemId": "{{ModId}}_FertEggBlue",
+							"CopyQuality": false,
+                            },
+                            ],
+                            "DaysUntilReady": 7,
+                },
+                {
+                    "Id": "WhiteEggFertilizing",
+                        "Triggers": [
+             				{
+                            "Id": "WhiteInFertEgg",
+                               "Trigger": "ItemPlacedInMachine",
+                               "RequiredItemId": "(O)174",
+                               "RequiredCount": "1",
+                            },
+                            ],
+                            "OutputItem": [
+                            {
+                            "Id": "WhiteOutFertEgg",
+                            "ItemId": "{{ModId}}_FertEggWhite",
+							"CopyQuality": false,
+                            },
+                            ],
+                            "DaysUntilReady": 7,
+                }								
+                     ]            
+                 }
+            }       
+        }
+	]
+}

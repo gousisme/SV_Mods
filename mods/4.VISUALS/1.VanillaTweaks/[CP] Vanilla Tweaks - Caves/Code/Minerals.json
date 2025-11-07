@@ -1,0 +1,719 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Aerinite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Aerinite.png",
+			"ToArea": {"X": "208", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Aerinite": true
+			}
+		},
+        {
+			"LogName": "Alamite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Alamite.png",
+			"ToArea": {"X": "160", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Alamite": true
+			}
+		},
+        {
+			"LogName": "Baryte",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Baryte.png",
+			"ToArea": {"X": "192", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Baryte": true
+			}
+		},
+        {
+			"LogName": "Basalt",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Basalt.png",
+			"ToArea": {"X": "288", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Basalt": true
+			}
+		},
+        {
+			"LogName": "Bixite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Bixite.png",
+			"ToArea": {"X": "176", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Bixite": true
+			}
+		},
+        {
+			"LogName": "Calcite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Calcite.png",
+			"ToArea": {"X": "224", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Calcite": true
+			}
+		},
+        {
+			"LogName": "Celestine",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Celestine.png",
+			"ToArea": {"X": "224", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Celestine": true
+			}
+		},
+        {
+			"LogName": "Dolomite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Dolomite.png",
+			"ToArea": {"X": "240", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Dolomite": true
+			}
+		},
+        {
+			"LogName": "Earth Crystal",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/EarthCrystal.png",
+			"ToArea": {"X": "224", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Earth Crystal": true
+			}
+		},
+        {
+			"LogName": "Esperite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Esperite.png",
+			"ToArea": {"X": "256", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Esperite": true
+			}
+		},
+        {
+			"LogName": "Fairy Stone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/FairyStone.png",
+			"ToArea": {"X": "16", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Fairy Stone": true
+			}
+		},
+        {
+			"LogName": "Fire Opal",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/FireOpal.png",
+			"ToArea": {"X": "208", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Fire Opal": true
+			}
+		},
+        {
+			"LogName": "Fire Quartz",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/FireQuartz.png",
+			"ToArea": {"X": "160", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Fire Quartz": true
+			}
+		},
+        {
+			"LogName": "Fluorapatite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Fluorapatite.png",
+			"ToArea": {"X": "272", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Fluorapatite": true
+			}
+		},
+        {
+			"LogName": "Frozen Tear",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/FrozenTear.png",
+			"ToArea": {"X": "192", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Frozen Tear": true
+			}
+		},
+        {
+			"LogName": "Geminite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Geminite.png",
+			"ToArea": {"X": "288", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Geminite": true
+			}
+		},
+        {
+			"LogName": "Ghost Crystal",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/GhostCrystal.png",
+			"ToArea": {"X": "144", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Ghost Crystal": true
+			}
+		},
+        {
+			"LogName": "Granite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Granite.png",
+			"ToArea": {"X": "272", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Granite": true
+			}
+		},
+        {
+			"LogName": "Helvite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Helvite.png",
+			"ToArea": {"X": "304", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Helvite": true
+			}
+		},
+        {
+			"LogName": "Hematite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Hematite.png",
+			"ToArea": {"X": "336", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Hematite": true
+			}
+		},
+        {
+			"LogName": "Jagoite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Jagoite.png",
+			"ToArea": {"X": "336", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Jagoite": true
+			}
+		},
+        {
+			"LogName": "Jamborite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Jamborite.png",
+			"ToArea": {"X": "320", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Jamborite": true
+			}
+		},
+        {
+			"LogName": "Jasper",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Jasper.png",
+			"ToArea": {"X": "176", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Jasper": true
+			}
+		},
+        {
+			"LogName": "Kyanite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Kyanite.png",
+			"ToArea": {"X": "352", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Kyanite": true
+			}
+		},
+        {
+			"LogName": "Lemon Stone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/LemonStone.png",
+			"ToArea": {"X": "32", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Lemon Stone": true
+			}
+		},
+        {
+			"LogName": "Limestone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Limestone.png",
+			"ToArea": {"X": "304", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Limestone": true
+			}
+		},
+        {
+			"LogName": "Lunarite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Lunarite.png",
+			"ToArea": {"X": "368", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Lunarite": true
+			}
+		},
+        {
+			"LogName": "Malachite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Malachite.png",
+			"ToArea": {"X": "0", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Malachite": true
+			}
+		},
+        {
+			"LogName": "Marble",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Marble.png",
+			"ToArea": {"X": "240", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Marble": true
+			}
+		},
+        {
+			"LogName": "Mudstone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Mudstone.png",
+			"ToArea": {"X": "352", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Mudstone": true
+			}
+		},
+        {
+			"LogName": "Nekoite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Nekoite.png",
+			"ToArea": {"X": "48", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Nekoite": true
+			}
+		},
+        {
+			"LogName": "Neptunite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Neptunite.png",
+			"ToArea": {"X": "16", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Neptunite": true
+			}
+		},
+        {
+			"LogName": "Obsidian",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Obsidian.png",
+			"ToArea": {"X": "368", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Obsidian": true
+			}
+		},
+        {
+			"LogName": "Ocean Stone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/OceanStone.png",
+			"ToArea": {"X": "128", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Ocean Stone": true
+			}
+		},
+        {
+			"LogName": "Opal",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Opal.png",
+			"ToArea": {"X": "192", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Opal": true
+			}
+		},
+        {
+			"LogName": "Orpiment",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Orpiment.png",
+			"ToArea": {"X": "64", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Orpiment": true
+			}
+		},
+        {
+			"LogName": "Petrified Slime",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/PetrifiedSlime.png",
+			"ToArea": {"X": "80", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Petrified Slime": true
+			}
+		},
+        {
+			"LogName": "Pyrite",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Pyrite.png",
+			"ToArea": {"X": "112", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Pyrite": true
+			}
+		},
+        {
+			"LogName": "Quartz",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Quartz.png",
+			"ToArea": {"X": "128", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Quartz": true
+			}
+		},
+        {
+			"LogName": "Sandstone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Sandstone.png",
+			"ToArea": {"X": "256", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Sandstone": true
+			}
+		},
+        {
+			"LogName": "Slate",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Slate.png",
+			"ToArea": {"X": "0", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Slate": true
+			}
+		},
+        {
+			"LogName": "Soapstone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Soapstone.png",
+			"ToArea": {"X": "320", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Soapstone": true
+			}
+		},
+        {
+			"LogName": "Star Shards",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/StarShards.png",
+			"ToArea": {"X": "32", "Y": "384", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Star Shards": true
+			}
+		},
+        {
+			"LogName": "Thunder Egg",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/ThunderEgg.png",
+			"ToArea": {"X": "96", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Thunder Egg": true
+			}
+		},
+        {
+			"LogName": "Tigerseye",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Minerals/Tigerseye.png",
+			"ToArea": {"X": "160", "Y": "368", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MineralsEnabled": "True",
+				"Minerals |contains= Tigerseye": true
+			}
+		},
+
+// GEMS
+
+		{
+			"LogName": "Amethyst",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Amethyst.png",
+			"ToArea": {"X": "288", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Amethyst": true
+			}
+		},
+		{
+			"LogName": "Aquamarine",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Aquamarine.png",
+			"ToArea": {"X": "224", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Aquamarine": true
+			}
+		},
+		{
+			"LogName": "Diamond",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Diamond.png",
+			"ToArea": {"X": "0", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Diamond": true
+			}
+		},
+		{
+			"LogName": "Emerald",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Emerald.png",
+			"ToArea": {"X": "192", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Emerald": true
+			}
+		},
+		{
+			"LogName": "Jade",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Jade.png",
+			"ToArea": {"X": "352", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Jade": true
+			}
+		},
+		{
+			"LogName": "Prismatic Shard",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/PrismaticShard.png",
+			"ToArea": {"X": "32", "Y": "48", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Prismatic Shard": true
+			}
+		},
+		{
+			"LogName": "Ruby",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Ruby.png",
+			"ToArea": {"X": "256", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Ruby": true
+			}
+		},
+		{
+			"LogName": "Topaz",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Gems/Topaz.png",
+			"ToArea": {"X": "320", "Y": "32", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GemsEnabled": "True",
+				"Gems |contains= Topaz": true
+			}
+		},
+
+// GEODES
+
+		{
+			"LogName": "Geode",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Geodes/Geode.png",
+			"ToArea": {"X": "112", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GeodesEnabled": "True",
+				"Geodes |contains= Geode": true
+			}
+		},
+		{
+			"LogName": "Frozen Geode",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Geodes/FrozenGeode.png",
+			"ToArea": {"X": "128", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GeodesEnabled": "True",
+				"Geodes |contains= Frozen Geode": true
+			}
+		},
+		{
+			"LogName": "Magma Geode",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Geodes/MagmaGeode.png",
+			"ToArea": {"X": "144", "Y": "352", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GeodesEnabled": "True",
+				"Geodes |contains= Magma Geode": true
+			}
+		},
+		{
+			"LogName": "Omni Geode",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Geodes/OmniGeode.png",
+			"ToArea": {"X": "80", "Y": "496", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GeodesEnabled": "True",
+				"Geodes |contains= Omni Geode": true
+			}
+		},
+		{
+			"LogName": "Mystery Box",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Geodes/MysteryBox.png",
+			"ToArea": {"X": "80", "Y": "64", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GeodesEnabled": "True",
+				"Geodes |contains= Mystery Box": true
+			}
+		},
+		{
+			"LogName": "Golden Mystery Box",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/Minerals/Geodes/GoldenMysteryBox.png",
+			"ToArea": {"X": "32", "Y": "240", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"GeodesEnabled": "True",
+				"Geodes |contains= Golden Mystery Box": true
+			}
+		}		
+    ]
+}

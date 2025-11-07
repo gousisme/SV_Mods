@@ -1,0 +1,447 @@
+{
+    //Display Names
+  "Name.Ripley": "Ripley",
+
+  //Misc. Dialogue
+  "Ripley.FlowerDance_Accept": "Chị rất sẵn lòng. Chị sẽ cố không để ánh nắng chiếu vào mắt em, hứa đó.",
+  "Ripley.FlowerDance_Decline": "Cảm ơn nhưng không đâu, cưng ạ~ Có lẽ dịp khác nhé.",
+  "Ripley.WinterStar_GiveGift_Before": "Này, người lạ!$h#$b#Thật vui khi gặp em ở đây. Chị có một món quà nhỏ dành cho em.",
+  "Ripley.WinterStar_GiveGift_After": "Chị không giỏi mấy chuyện tặng quà... nhưng mà chị đã cố hết sức rồi.#$b#Hy vọng em sẽ thích!",
+  "Ripley.WinterStar_ReceiveGift": "Chị nhận được quà của em rồi đó!$h#$b#Cảm ơn nhiều nha. Chị thật sự trân trọng em.",
+
+  "Ripley.AcceptBouquet": "!!$7#$b#Em tặng chị á?$7#$b#Cảm ơn em, người lạ. Chúng đẹp quá chừng. Chị có một chiếc bình hoàn hảo để cắm tụi nó vào.#$e#... Chờ đã, em đang ngỏ lời HẸN HÒ với chị hả?$9#$b#Trời đất, chị mãi ngắm hoa mà không nghĩ đến chuyện em lại muốn ngọt ngào với chị đến thế.$9#$b#May mắn, quá may mắn cho chị rồi.$4",
+  "Ripley.RejectBouquet_AlreadyAccepted": "Ngốc quá, em đã rủ chị đi chơi rồi mà.#$b#Nhưng mà em tặng thêm cũng được, chị không thấy phiền đâu. Thiệt đó.$4",
+  "Ripley.RejectBouquet_VeryLowHearts": "Ồ, chúng xinh thật đó. Ai tặng chắc là một chú vịt may mắn lắm nha~#$e#... Ủa khoan, chúng dành cho chị á?$9#$b#Không có ý xúc phạm đâu, nhưng… hay là tụi mình đi ăn tối hay làm gì đó trước đã, được không?$h",
+  "Ripley.RejectBouquet_LowHearts": "Aw, dễ thương ghê. Người tặng chắc là một chú vịt may mắn~#$e#... Ủa khoan, tặng cho chị á?$9#$b#Chị không chắc đâu. Chị thấy tụi mình hiện giờ cũng vui rồi mà.",
+  "Ripley.breakUp": "Oh...$2#$b#Được thôi. Nếu đó là điều em muốn, chị sẽ không ngăn em làm điều khiến em hạnh phúc. $2#$b#À, chị có thể... giữ lại mấy bông hoa không? Chúng thơm quá chừng.$9",
+  "Ripley.GreenRain1": "Này, người lạ!#$b#Chị chẳng lo mưa gió gì đâu. Chị đâu phải làm bằng đường, đúng không nào~$3#$b#Với lại, còn bao nhiêu việc đang chờ chị nữa.",
+  "Ripley.GreenRain2": "Này, người lạ!$h#$b#Không, chị chẳng bận tâm thời tiết kiểu này đâu. Em nghĩ tóc chị giữ được màu xanh tươi thế này là nhờ đâu hả~?$3",
+
+    //Gift Dialogue
+    //-----------
+
+  //Loved Gift Taste -- 205 (Fried Mushroom) 222 (Rhubarb Pie) 281 (Chanterelle) 257 (Morel) 422 (Purple Mushroom) 259 (fiddlehead fern)
+  "Ripley.BirthdayGift": "Aw, cưng ơi, em đâu cần phải tặng chị gì đâu!$h#$b#Em thật là chu đáo quá đi mất. Cảm ơn em nhiều nha!$h",
+  "Ripley.BirthdayGift_Negative": "Cái quái gì đây vậy?$9#$b#À ha, chị hiểu rồi! Em đang pha trò hả, vì chị đâu có quan tâm mấy tới sinh nhật của mình.#$b#Buồn cười thiệt đó.$3",
+  "Ripley.FriedMushroom": "Ooh, ngon ghê!$h#$b#Món này chị thường gọi ở quán rượu suốt đó.#$b#Nhưng tự tay em hái thì lại ngon hơn nhiều. Đừng méc Gus nha~$3.",
+  "Ripley.RhubarbPie": "Whoa, em dành cả cái này cho chị luôn á?$h#$b#Yum~ Chị mê cái lớp mặt trên em làm đó. Chị hay rắc thêm tí đường cho đỡ chua.#$b#Mà nếu là em làm thì... không cần thêm gì đâu nha.$3.",
+  "Ripley.Chanterelle": "Xinh đẹp quá trời!$h#$b#Chị mê nấm mỡ vàng lắm, dễ tìm cực kỳ.#$b#Em biết là nấm mỡ vàng khi nó mọc từ mặt đất chứ không phải từ khúc gỗ.",
+  "Ripley.Morel": "Ồ, chị thích tìm được mấy em nấm thế này lắm đó~$h#$b#Theo kinh nghiệm của chị thì tụi nó hay mọc ở nơi đất hơi ẩm.#$b#Cảm ơn nha, người lạ! Bữa nay chị ăn ngon rồi.$h",
+  "Ripley.PurpleMushroom": "Cái quái gì thế này vậy?#$b#Trông kỳ lạ dễ sợ. Em có chắc là ăn được không đó?$8#$b#Không hả? Ừm, thôi được. Chị sẽ... cân nhắc thử xem sao.$8#$b#Nếu chị không xuất hiện nữa, em cứ lấy bộ sưu tập lá của chị nha~$3.",
+  "Ripley.Fiddlehead": "Ôi trời ơi! Ôi trời ơi luôn đó!$h#$b#Sao em biết đây là món chị mê nhất trần đời vậy hả?$h#$b#Cảm ơn nhiều nghen, cưng! Bữa nay chị ăn tiệc luôn rồi đó.$h",
+
+
+  //Liked Gift Taste -- 404 (Common Mushroom) 408 (hazelnut) 410 (blackberry) 420 (red mushroom) 724 (maple syrup) 721 (snail)
+  "Ripley.CommonMushroom": "Ôi, em đúng là dễ thương quá đi!#$b#Chị thích mấy cây nấm này, dễ tìm, lại thấm bất kỳ loại sốt nào em chan lên.#$b#Cảm ơn nhiều nha!$h",
+  "Ripley.Hazelnut": "Ồ yeah, nhìn kìa!$h#$b#Chị thích mấy hạt này lắm đó, cảm ơn em nhiều nha.$h",
+  "Ripley.Blackberry": "Em đừng để ý nếu chị ăn ngấu nghiến nha!$h#$b#Mấy quả này làm mứt thì hết sảy, nhưng chị cũng mê cách đeo chúng lên đầu ngón tay như mấy cái mũ nhỏ xíu á.",
+  "Ripley.RedMushroom": "Ôi trời, tốt hơn là em nên rửa tay sạch sẽ sau khi đụng vào thứ đó. Nó có thể làm em lăn ra ốm như cún con luôn đó.$9#$b#Đưa đây chị giữ cho. Chị thấy nó… thú vị ghê á.",
+  "Ripley.MapleSyrup": "Yum! Em tự tay khai thác ra cái này luôn hả?$h#$b#Không gì tuyệt hơn siro cây tại gia đâu. Cảm ơn nghen, cưng.",
+  "Ripley.Snail": "Nhìn cái anh chàng bé tẹo kia kìa! Dễ thương chưa nè.$h#$b#Chị biết một cái lá siêu xinh để đặt ảnh lên đó. Cảm ơn nghen, cưng.",
+
+    //Mod Crossover Gift Dialogue
+    //-----------
+    
+    //Wildflour Mods - WaG & RatA
+  "Ripley.QueenBolete": "Em có nhìn thấy anh chàng bự con này không đó? $h#$8#Này, nhìn kỹ mà xem... trông giống chị ghê. Nhớ nheo mắt vô nha!$h",
+  "Ripley.ChickenOfTheWoods": "Ò ó o~ cho em luôn đó!$h#$b#Một lời khuyên quý giá nè: nhớ xé nhỏ em này ra và nấu kỹ ít nhất mười phút nha. Kẻo lại bị cái thứ mà chị hay gọi là...#$b#... bụng bùng bùng, khóc ròng ròng đó.$9",
+  "Ripley.HoneyFungus": "Trời ơi, bất ngờ ghê! Còn tưởng hôm nay là sinh nhật chị luôn đó!#$b#Chị mê mấy em nấm này lắm. Nấu với sốt mì là hết sẩy.#$b#Mà thật ra ai mà không thích chứ?$4",
+  "Ripley.MeringueMushroom": "Chà chà, xinh xắn quá nha!$h#$b#... chị đang nói với cây nấm, không phải với em. Nhưng mà... nếu thấy đúng thì cứ nhận đi~$4",
+  "Ripley.MilkyWhiteMushroom": "Trời ơi, đẹp dữ thần!$h#$b#Loại này là em nên đem về nấu ngay tức thì đó.#$b#Cái vị béo béo bơ bơ của nó sẽ chuyển sang 'kỳ cục' sau vài tiếng á.$8",
+  "Ripley.WheatberryMushroom": "Nhìn kìa, nhìn kìa!$h#$b#Loại này thì khá phổ biến nhưng lại là một trong mấy món chị mê nhất. Chị hay phơi khô rồi bỏ vào hũ, để dành nấu súp mùa đông á.",
+
+  "Ripley.BabyBluegill": "Nhìn cái nhóc này kìa!$h#$b#Nhìn màu thì trông lạ vậy thôi, chứ ăn được đó nha.#$b#Bà ngoại chị hay muối tụi nó với tỏi và dưa leo muối. Với chị thì nó có vị... như mùi lễ hội vậy á.",
+  "Ripley.BlushingTopHat": "Ồ, món gì lạ vậy ta!#$b#Tin hay không thì tùy, chị từng xay mấy thứ này làm salsa để tăng đạm á.#$b#Kết quả... ăn được, nhưng thôi đừng hỏi thêm.$9",
+  "Ripley.BubblegumFunnel": "Nhìn cái màu hồng của anh bạn này kìa!#$b#Tin chị đi, gọi là 'Bubblegum Funnel' là vì màu sắc thôi nhé.#$b#Chứ mùi vị thì giống... cà rốt có thịt vậy á.",
+  "Ripley.CandyButton": "Trời ơi, dễ thương hết biết!$h#$b#Mà gom được một nắm thì ăn vặt cũng ổn phết đó.#$b#Nhớ rửa sạch nhớt trước nha.",
+  "Ripley.CoralFungus": "Trời đất ơi, nhìn em này làm chị nổi da gà ghê.#$b#Trông cứ như mấy ngón tay vậy.#$b#... nhưng mà cũng hơi cuốn đó nha.$8",
+  "Ripley.FrillyGilly": "Đẹp dữ thần!#$b#Loại này hay mọc gần hoa lắm. Mùi cũng ổn nữa.#$b#Giống như vịt con xấu xí của giới nấm vậy á.$8",
+  "Ripley.GhostlyParasol": "Ui chao, cẩn thận nha!#$b#Cái này thì không ăn được đâu, nhưng mấy bé cá Baby Bluegill hay mọc gần đó thì ăn được nè.",
+  "Ripley.IndigoCap": "Trời ơi, có phải là Nấm Lam Thẫm không đó?$7#$b#Em nhớ rửa tay sạch sẽ khi về nhà nha, thứ này nguy hiểm lắm đó!#$b#Mấy nhà giả kim thì mê tít luôn.",
+  "Ripley.LilacFunnel": "Nhìn kìa, đẹp phết đó nha!#$b#Nghe đâu là nấu ăn được, mà phải chế biến lằng nhằng quá nên chị chưa thử bao giờ.#$b#Chị khuyên em cũng đừng thử luôn. Chị thích em với cả hai mắt đầy đủ hơn đó.$4",
+  "Ripley.LimeyBonnet": "Nè nè, cái này trông giống chị ghê chưa!#$b#Chị mong là chị sẽ không làm em thấy bé xíu như cái nấm này nếu em ăn nhầm nó đâu nha~$4",
+  "Ripley.LunarPoof": "Ui chà, đúng là một quả nấm tròn vo hoàn hảo!$h#$b#Loại này thì vị nhạt toẹt nhưng đừng xem thường nha.#$b#Nó thấm bất kỳ hương vị nào em nấu chung đó.$h",
+  "Ripley.MidasCap": "Đẹp trai quá đi mất!$h#$b#Gần như đẹp đến nỗi không nỡ ăn luôn đó. Nhưng mà... chị thì chưa bao giờ để cái đẹp cản đường bữa ăn đâu nha!$h",
+  "Ripley.MidnightMilkcap": "Cái này thì đừng có ăn nha, người lạ.#$b#Trừ khi em muốn nằm co ro trên sàn nhà tắm run bần bật suốt một ngày rưỡi.#$b#Đừng hỏi chị làm sao mà biết.$9",
+  "Ripley.MottledFieldcap": "Ồ, trông ngon lành chưa kìa?#$b#Chắc chị đem nấu súp tối nay quá. Cảm ơn nha, người lạ!$h",
+  "Ripley.RoseyElfcup": "Ôi trời đất, cẩn thận với em này nha.#$b#Đừng chạm tay lên miệng trước khi rửa sạch, không thì nó làm tê hết cả người luôn á.",
+  "Ripley.Rustgill": "Một trong những món chị khoái nhất đó!$h#$b#Chị hay phơi khô mũ nấm cho giòn rồi ăn như snack luôn!",
+  "Ripley.SeafoamWaxcap": "Cẩn thận thiệt kỹ với em này nha.#$b#Cắn một miếng thôi là em sẽ dính thứ mà chị gọi là... 'Gầy Rộc Gầy Ròng'.#$b#Chị nghĩ em không cần biết chi tiết đâu.$9",
+  "Ripley.Shrumbus": "Cái thứ này làm chị thấy hơi rờn rợn.#$b#Cảm giác như quay lưng lại là nó sẽ lồm cồm đứng dậy vậy á.$8",
+  "Ripley.SparklingAgaric": "Trời đất ơi, em này là thứ sát thủ đó.#$b#Làm ơn đeo găng tay vào khi cầm nó đi, em làm chị lo quá trời.$9",
+  "Ripley.StoutFunnel": "Loại này ngon tuyệt đó!#$b#Nếu không có đủ nấm mỡ vàng, chị sẽ cho mấy em này vào thay. Nấu vẫn ổn áp lắm nha!",
+
+
+    //Map Strings
+    //-----------
+
+  "Ripley.MapString.CookBooks": "Một hàng sách dạy nấu ăn cũ kỹ, ố vàng, gáy sách lỏng lẻo và nứt nẻ vì từng được mở bằng một tay trong khi tay kia khuấy nồi...",
+  "Ripley.MapString.FieldGuide": "Một quyển sách hướng dẫn thực địa về các loài chim, cá và nấm khác nhau. Kích thước vừa đủ để em có thể bỏ túi khi rong ruổi giữa thiên nhiên xanh ngát.",
+  "Ripley.MapString.ScrapBook": "Những cuốn sổ tay chứa đầy hoa ép khô, mẫu vỏ cây, danh sách, và các mục nhật ký có ngày tháng.#Ripley viết bằng nét chữ xiêu vẹo gần như không thể đọc được — mà có lẽ như vậy lại hay hơn...#... vì chẳng phải thứ này hơi riêng tư sao?",
+  "Ripley.MapString.Harp": "Cây đàn hạc lớn nhất mà em từng thấy, làm từ gỗ bóng loáng và trang trí bằng họa tiết hoa được vẽ tinh xảo.#Trông nó từng được yêu quý lắm, dù giờ phủ đầy bụi.",
+  "Ripley.MapString.FamilyPhotos": "Một bức ảnh gia đình trong khung kính:#Một cô bé mặc váy suông dính đầy bùn đất, tóc dài màu xanh lá, cười rạng rỡ để lộ vài chiếc răng sún.#Một người đàn ông to lớn với mái tóc rêu giống vậy, dây đeo quần vòng qua ngực như buộc thùng gỗ.#Và một người phụ nữ nổi bật với mái tóc xoăn, đôi mắt nâu hiền và nụ cười ấm áp giống hệt cô bé.",
+  "Ripley.MapString.Fern": "Tấm gỗ ốp tường ở đây đã bị mòn theo năm tháng.#Ripley có vẻ đã khéo léo che nó bằng một bụi dương xỉ treo — cho tới khi cô ấy có thời gian sửa lại.",
+  "Ripley.MapString.Mokapot": "Một máy pha cà phê nhôm đặt trên bếp. Mùi cà phê trong đó thơm nồng đến mức làm em choáng váng.",
+  "Ripley.MapString.Fridge": "Mọi thứ ở đây đều được đóng hộp hoặc gói trong giấy, dán nhãn và sắp xếp theo thứ tự ngày tháng.#Có cả mấy loại rau muối mà em không ngờ là cũng có thể đem muối được.",
+  "Ripley.MapString.HeightChart": "Những vạch bút chì được khắc lên gỗ, ghi tên từng người – một số đã nhòe mất.#Từ thấp đến cao, em có thể đọc được vài cái tên: #Norma, Willadeane, Dexter, Shiloh, Jeremiah, Lula Mae, Magnolia, Herschel, Amos,#và Eleonora.",
+  "Ripley.MapString.Clock": "Phần gỗ của chiếc đồng hồ này đã mòn theo năm tháng, nhưng vẫn chạy tốt.#Phía trên kim đồng hồ là một mặt trăng thu nhỏ xoay theo các pha thật chậm rãi.",
+
+
+   //Festival Dialogue
+   //-----------------
+   //Egg Festival
+
+  "Ripley.Dialogue.spring_12": "Ừm, chào em, Nông dân. Hy vọng ngày mai sẽ gặp em ở lễ hội nhé!#$b#Chị có góp trứng cho sự kiện đó đó~$h", //day before Egg Fest    
+   "Ripley.Dialogue.EggFestival": "Chào em, Nông dân! Em cũng đang săn trứng à?#$b#Nhớ nha, trứng này là trứng thật, không phải đồ nhựa đâu. Nếu em bóc ra, biết đâu sẽ bất ngờ đó.$u",
+
+  //Birthday
+  "Ripley.Dialogue.spring_16": "Hửm?#$b#À phải rồi, chắc sinh nhật chị sắp tới ha. Nó cứ rón rén tới gần như con mèo lén vô nhà vậy.", //day before her birthday
+  "Ripley.Dialogue.spring_17": "Vậy là chị lại già đi một tuổi nữa rồi. Cảm giác cũng chẳng khác mấy, chắc có cao thêm cỡ một đốt ngón tay.$h#$b#Thôi mà, em không cần mua gì đâu. Chỉ là ngày bình thường, có bánh thì càng tốt, không thì thôi~", //day of her birthday
+
+  //Flower Dance
+  "Ripley.Dialogue.spring_23": "Ngày mai em có đi dự vũ hội hoa không?#$b#Ờ, thường thì chị bận lắm, nhưng mấy cái sự kiện kiểu vậy cứ hay lôi chị vô dù chị có muốn hay không.$h", //day before Flower Dance
+  "Ripley.Dialogue.FlowerDance": "Chị phải chỉnh lại cái váy này chút. Không thì nó chỉ che tới đầu gối chị thôi.",
+  "Ripley.Dialogue.danceRejection": "Xin lỗi nha, Nông dân.#$b#Sợ là có người nhanh chân hơn em rồi đó.$u",
+
+  //Luau
+  "Ripley.Dialogue.summer_10": "Em sẵn sàng cho bữa tiệc Luau ngày mai chưa đó, Nông dân?#$b#Chị cá là bất cứ thứ gì em bỏ vào nồi cũng sẽ làm nó ngọt hơn cho coi.$u", //day before Luau
+ "Ripley.Dialogue.Luau": "Ôi trời đất, ngoài này nóng như lửa thiêu vậy đó!#$b#Nhưng nước thì mát lắm. Nhớ đi bơi sau bữa trưa nha.$u",
+
+  //Moonlight Jellies
+  "Ripley.Dialogue.summer_27": "Ngày mai là ngày mấy con sứa trôi về. Chị lúc nào cũng mong đợi dịp đó.#$b#Chị sẽ gặp em ở đó chứ, cưng?", //day before Moonlight Jellies
+  "Ripley.Dialogue.Jellies": "Em có bao giờ tự hỏi mấy con sứa kia bơi đi đâu không?#$b#Chị chưa từng đi du lịch cả, thật đấy. Mà nếu có đi thì... chị biết đi đâu bây giờ?#$b#Chắc nếu chị có nghỉ ngơi thì cũng loanh quanh gần đây thôi.#$b#Mà kệ đi, đừng để chị làm hỏng khoảnh khắc này nhé.$h",
+
+  //Stardew Fair
+  "Ripley.Dialogue.fall_15": "Hy vọng mai gặp được em ở hội chợ nha.#$b#Nếu có thời gian thì ghé chỗ chuồng thú chơi rồi chào chị một tiếng.", //day before Stardew Fair
+  "Ripley.Dialogue.SDVFair": "Này, Nông dân! Màn trình diễn của em sao rồi?#$b#Còn chị á? Chị không có thời gian bày biện gì hết, với lại... chị cũng muốn nhường cho em một cơ hội chiến thắng chứ.$u",
+
+  //Twilight Festival
+  "Ripley.Dialogue.TwilightShop": "Thiên nhiên luôn làm mình phải đoán mò. Có vẻ như chẳng năm nào cây cối lớn giống nhau, đúng không em?",
+  "TwilightShop.Closed": "Có vẻ Ripley chưa có mặt. Quay lại lúc 4 giờ chiều nha!",
+
+  //Spirit's Eve
+  "Ripley.Dialogue.fall_26": "Sắp đến lúc rùng rợn rồi đó, Nông dân ơi! Em chuẩn bị xong trang phục chưa?", //day before Spirit's Eve
+  "Ripley.Dialogue.SpiritsEve": "Chào em, @. Tốt hơn hết là em nên làm một cao bồi gan lì và vô mê cung đi, nó không cắn đâu mà.$h#$e#Còn chị á? Ờ… chị phải… ở ngoài này và…$h#$b#… Lên ngựa… phi nước đại… gì đó…$9#$b#Ờm, em tính cứ đứng đó với cái mặt đơ ra hoài hả? Thôi đi đi, nhanh nào!$9",
+
+  //Ice Festival
+  "Ripley.Dialogue.winter_7": "Ngày mai em sẽ đi lễ hội băng chứ?#$b#Chị trông đủ lạnh để đóng băng cả lông mũi rồi, nhưng nếu em thấy lạnh thì cứ đến tìm chị. Chị sẽ giữ ấm cho em.$h", //day before Festival of Ice
+  "Ripley.Dialogue.IceFest": "Chị không giỏi vụ câu cá trên băng cho lắm. Nghĩ chắc là do cái bóng của chị dài quá đó mà.#$b#Vậy nên tốt hơn hết là em phải thắng thay chị đấy, nghe chưa?$h",
+
+  //WinterStar
+   "Ripley.Dialogue.winter_24": "Vậy em muốn gì ở Ngôi Sao Mùa Đông, @?#$b#Tất nhiên là chị đâu cần biết gì đâu. Chỉ là, ừm... hỏi thăm chút thôi, có sao đâu mà.$h", //day before Winter Star
+  "Ripley.Dialogue.WinterStar": "Thêm một năm nữa lại trôi qua rồi ha, Nông dân? Hy vọng năm qua tử tế với em.#$b#Nếu không thì cũng không sao—có rất nhiều người ở đây sẽ luôn ở bên em.#$e#Tụi chị ai cũng thương em cả đó, nhớ chăm sóc bản thân mình tử tế hơn nha.$h",   
+   
+
+  //Dialogue
+  //--------
+
+  //Schedule
+
+  "Axe1": "Shoo-wee, lúc mới bắt đầu thì chị làm khá ngon lành, nhưng càng về sau thì chị cứ loanh quanh ngoài đó hoài.#$b#Ngồi nghỉ một chút đi rồi kể cho chị nghe hôm nay bạn làm gì nào, để chị lấy lại hơi thở.",
+  "Axe2": "Chị mê đôi bốt này ghê. Chắc là đôi bền nhất chị từng mang đấy.#$b#Chị mang nó gần như mỗi ngày suốt 5 năm nay rồi.#$b#Lúc nào cũng nên chịu chi thêm một chút cho mấy thứ giúp bạn không phải xê dịch nhiều. Vậy mới đáng đồng tiền bát gạo.$3",
+  "Axe3": "Chị quen tự làm mọi việc rồi.#$b#Lúc nhỏ, nhà chị cũng ổn thôi, nhưng ba chị thì có nguyên một đại gia đình phía sau. Ông bà chị thì chẳng có nổi một xu dính túi.#$b#Vì vậy nên ba chị là người tháo vát nhất mà chị từng biết.",
+
+  "Paddock1": "Hôm nay chị không ưa Tessie cho lắm.#$b#Cô nàng giơ móng lên rồi thả phịch xuống thùng sữa đầy, làm sữa bắn tung toé khắp nơi, chắc là cảnh tượng hoành tráng nhất mà bạn từng thấy đấy!#$b#Vậy nên nếu bạn ngửi thấy mùi gì hơi chua chua thì cứ hiểu là từ đâu ra nha.",
+  "Paddock2": "Chị cứ cố đánh bơ từ sữa của Tessie nhưng vẫn chưa ra hồn.#$b#Chẳng thể làm ngon như bà chị từng làm, rồi phết lên chiếc bánh quy nóng hổi tự tay nướng.#$b#Haizz... Thôi kệ vậy.",
+
+  "Pierres1": "Sống nhờ vào đất và tự lo mọi việc là điều chị vẫn làm từ nhỏ. Đó là cách chị được nuôi dạy.",
+  "Pierres2": "Chị tự nuôi gần như mọi thứ mình ăn.#$b#Chỉ phải ghé tiệm tạp hóa để mua đường với mấy thứ linh tinh như đồ vệ sinh cá nhân.#$b#À, và bơ đậu phộng nữa. Chị tiêu hết một hũ mỗi tuần đó.$3",
+  "Pierres3": "Ba thứ duy nhất chị cần mà chẳng thể tự trồng là ba chữ S: Xà phòng, nước ngọt, với muối.",
+
+  "Saloon1": "Chị đang cố gắng thư giãn, nhưng cứ thấy lo lo không biết mấy con gà ở nhà có ổn không.#$b#Tụi nó dễ nổi cáu lắm nếu không được cho ăn hạt cỏ đúng giờ.",
+  "Saloon2": "Thật ra chị không uống nhiều đâu.#$b#Cơ địa chị như ngựa kéo hai mươi tay, uống xong là ví rỗng ngay.",
+  "Saloon3": "Chị sẽ uống bất cứ thứ gì... miễn là có thêm một lát cam nhỏ vào.$h",
+
+  "Kitchen1": "Chị không có đủ can đảm để ra ngoài xúc tuyết.#$b#Mọi người cũng có đề nghị giúp, nhưng chị không muốn ai phải hy sinh bản thân vì chị.$2",
+  "Kitchen2": "Chị cũng chẳng rõ hôm nay bị sao nữa.#$b#Người thì ốm, mà tự mình chịu đựng thì mệt mỏi quá rồi.",
+  "Kitchen3": "Trời lạnh làm sàn gỗ cũ này cứ kêu cót két mãi, đến mức chị chẳng còn nghe được suy nghĩ của mình nữa.#$b#Thở dài...$2",
+
+  "Sleepy1": "Chào buổi sáng nha.~$4#$b#Chị sẽ dậy sau một lát. Người em ấm áp quá, làm chị gần như không nỡ rời đi.$4",
+  "Sleepy2": "Này, em đó à~$4#$b#Hay là nán lại thêm chút nữa đi? Ở đây ấm lắm đó.$4",
+  "Sleepy3": "Chào em.~$4#$b#Bình thường giờ này chị dậy lâu rồi... nhưng em nằm đó dễ thương quá nên chị không nỡ đánh thức.$4",
+
+
+
+  //Seasonal
+  //--------
+
+  //spring
+  "Ripley.Dialogue.spring0": "Mùa xuân lúc nào cũng khiến chị chạy quanh nhiều hơn bình thường. Bận rộn hơn cả một ông cụt chân mà vẫn ráng thi đá chân!#$b#Còn em thì sao, hả?",
+  "Ripley.Dialogue.spring2": "Hôm nay có TONS phấn hoa trong không khí đấy.~#$b#Ước gì mũi chị chịu ngừng chảy đi... mệt mỏi vì cứ phải đuổi theo nó hoài!$h",
+  "Ripley.Dialogue.spring4": "Dân thành phố lúc nào cũng chen nhau và càm ràm về mấy cây bồ công anh mọc trong sân.#$e#Trong khi đáng lẽ ra họ nên ăn chúng đi mới phải.#$b#Em đã từng uống rượu bồ công anh chưa?#$b#Em sẽ cần RẤT NHIỀU bồ công anh đấy.",
+  "Ripley.Dialogue.spring6": "Cảm giác như chị đã hái đậu xanh suốt cả ngày vậy. Hai tay đau ê ẩm rồi nè.",
+  "Ripley.Dialogue.spring8": "Em cần một cái mũ xịn hơn đó, cưng à.#$b#Nhăn nhó hoài như thế sẽ làm em nhức đầu đó nha.$h",
+  "Ripley.Dialogue.spring10": "Hí hí! Đến mùa hành lá rồi đó!#$b#Cá nhân chị sẽ làm vài cái bánh ngô rồi nhai ngấu nghiến chúng cùng hành.~$h#$b#...Không, chị không nấu đâu. Đừng nhìn chị kiểu đó chứ!",
+
+  //summer
+  "Ripley.Dialogue.summer0": "Có mấy loại ớt cay xé lưỡi đang mọc rộ mùa này đó nha.#$b#Em nên thử một trái xem. Đảm bảo nó khiến em dựng ngực, nhíu mày luôn, tin chị đi.$u",
+  "Ripley.Dialogue.summer2": "Ugh. Chị tính đi xịt nước vào người bằng cái vòi đây.#$b#Mà chị cũng có thể xịt em luôn, nếu em thích.$3",
+  "Ripley.Dialogue.summer4": "Ngửi thử xem, sugar? Mùi đất đen ẩm và cơn mưa hè mát rượi.#$b#Không đâu sánh bằng nơi này đâu, thiệt đó.",
+  "Ripley.Dialogue.summer6": "Hôm nay chị nên làm bánh việt quất hay bánh mâm xôi ta?#$b#Hay là trộn hết lại làm một cái bánh trái mọng đủ loại...#$b#...phủ trên cùng lớp lưới bánh siêu xịn...$8",
+  "Ripley.Dialogue.summer8": "Shoo-wee, ớt năm nay của chị hăng thật đấy! Chị cá là em thậm chí không dám nhúng ngón tay vô cái nước sốt cay chị mới làm đâu nha.$h",
+  "Ripley.Dialogue.summer10": "Chị ước gì tụi mình có cam quanh năm quá trời.#$b#Nhưng nghĩ lại thì, có lẽ vậy lại làm tụi nó bớt đặc biệt đi.#$e#Chị không biết nữa. Nhưng chị thấy em quanh năm mà em chẳng bao giờ bớt đặc biệt với chị cả.$6",
+  
+  //fall
+  "Ripley.Dialogue.fall0": "Hôm nay chị tìm thấy một đống nấm mồ trong rừng đó nha.#$b#Chị sẽ chiên tụi nó với dầu, ngon tới mức lưỡi em tát cho não bay ra ngoài luôn cho coi.",
+  "Ripley.Dialogue.fall2": "Hôm qua chị nấu một đống thạch mận dại luôn.#$b#Chị tính mang cho Mia một ít, nhưng em cũng có thể lấy một lọ. Chị làm dư lắm.$h#$b#... Có khi là dư quá mức luôn rồi.$9",
+  "Ripley.Dialogue.fall4": "Trời hôm nay xám xịt quá ha.#$b#Mà nếu em cần chút nắng, chị lúc nào cũng sẵn sàng chia cho em một ít đó!$h",
+  "Ripley.Dialogue.fall6": "Lạnh rồi à? Vô nhà chị mà sưởi, cửa luôn mở.#$b#...Ờ, nói theo kiểu nào đó thì, không phải mở cho cái lạnh vô đâu nha.$u",
+  "Ripley.Dialogue.fall8": "Ồ, tới mùa làm bánh táo rồi nè.#$b#Với táo giòn. Rồi bánh táo. Rồi bánh nướng xốp táo...#$e#... rồi táo vụn, sốt táo, rượu táo... chị làm tới khi nào em táo hóa thì thôi.$8",
+  "Ripley.Dialogue.fall10": "Đứng yên coi, em có cái lá dính trên tóc nè.#$b#...#$b#... Rồi, gỡ xong. Đi tiếp được rồi đó, cưng.$6",
+
+  //winter
+  "Ripley.Dialogue.winter0": "Mm. Mặt trời mất tích mấy ngày rồi đó.#$b#Không biết em sao chứ chị thì sắp phát điên vì thèm bánh quy luôn nè.",
+  "Ripley.Dialogue.winter2": "Trời có lạnh gì đâu. Đây là thời tiết mặc quần short nha.#$b#Lúc nào em hít một hơi mà lỗ mũi đông cứng lại thì hãy quay lại nói chuyện với chị.$u",
+  "Ripley.Dialogue.winter4": "Căn nhà nông trại cũ bé lắm. Papaw Ripley nhét Memaw với năm đứa nhỏ vô trong đó.#$b#Thậm chí có lần còn nhét thêm ba con bò khi trời trở lạnh nữa kìa.$h",
+  "Ripley.Dialogue.winter6": "Hôm nay lạnh run người. Chắc chị phải vô nhà nấu một ít súp cho ấm bụng.",
+  "Ripley.Dialogue.winter8": "Em đang lạnh hả? Vô nhà chị mà sưởi ấm đi, cửa luôn mở cho em.#$b#...Đúng rồi đó, nhưng đừng để cái lạnh lẻn vô theo nha.$u",
+  "Ripley.Dialogue.winter10": "Mỗi mùa đông sau đợt tuyết lớn đầu tiên, ông chị với chị sẽ xúc ít tuyết tươi, trộn với sữa, đường và vụn sô cô la.#$b#Ổng gọi đó là kem tuyết.#$e#Chị chưa ăn lại từ hồi còn cao bằng đầu gối con châu chấu, nhưng có lẽ hôm nay chị sẽ làm thử để nhớ lại hồi xưa.",
+
+ //Days of The Week
+ //----------------
+
+  //0 hearts
+  "Ripley.Dialogue.Monday0": "Hm. Hình như nó đang bay lên tận mây xanh. Chị có thể ngửi thấy mùi đó trong không khí.",
+  "Ripley.Dialogue.Tuesday0": "Chào em, cưng. Dạo này em sao rồi?#$b#Còn chị á? Ồ, em biết rồi đó. Đẹp hơn cả tóc con ếch chẻ ba.$u",
+  "Ripley.Dialogue.Wednesday0": "Bò với ngựa đúng là khôn — có đuôi để đập ruồi muỗi. Chị ghen tị dễ sợ.",
+  "Ripley.Dialogue.Thursday0": "Chị cho tụi gà ăn đủ thứ cỏ dại chị nhổ được. Rau xanh khiến trứng của tụi nó có màu vàng đậm hơn á.",
+  "Ripley.Dialogue.Friday0": "Nếu em lượm được cây nấm nào nhìn lạ mà không biết nó có ăn được không, gửi cho chị xem thử nha. Chị sẽ nói em có nên ăn hay nên tránh xa.",
+  "Ripley.Dialogue.Saturday0": "Hôm nay chị phơi đầy thảo mộc trong nhà luôn.#$b#Cái mùi nó THƠM GÌ ĐÂU.$h",
+  "Ripley.Dialogue.Sunday0": "Ồ, cái ao nhỏ hình trái tim gần nhà chị á?#$b#Vui vì em thích nó! Chị tự đào đó nha.$u",
+
+  //2 hearts
+  "Ripley.Dialogue.Monday2": "Maia tuyệt thật đó.#$b#Chị lúc nào cũng muốn thử làm thợ rèn. Chị nghĩ chắc chị sẽ làm nghề đó giỏi lắm.",
+  "Ripley.Dialogue.Tuesday2": "Chị từng thử đi câu rồi. Chẳng có con nào cắn câu hết. Một con cũng không.#$b#Chắc là cái bóng của chị dài quá nên tụi nó sợ.",
+  "Ripley.Dialogue.Wednesday2": "Này, người lạ ơi! Lại đây ngồi một lát, kể cho chị nghe hôm nay em làm gì nào.$h",
+  "Ripley.Dialogue.Thursday2": "Căn nhà nông trại cũ trong làng là của bên nội chị đó. Ông nội chị giữ nó gọn gàng, đẹp đẽ cho tới tận ngày ông mất.",
+  "Ripley.Dialogue.Friday2": "Chị nghĩ nếu tập trung đủ nhiều, chị có thể mọc ra một cái lá thiệt đó.$8",
+  "Ripley.Dialogue.Saturday2": "Không gì sánh bằng bơ làm từ chính con bò của em, em biết không?#$b#Hôm nay chắc chị phải nướng ít bánh mì để ăn kèm mới được.",
+  "Ripley.Dialogue.Sunday2": "Chị chẳng nhớ gì thành phố cả.#$b#Em không thể thấy được các vì sao. Sống kiểu gì mà không có sao chứ?",
+
+  //4 hearts
+  "Ripley.Dialogue.Monday4": "Chị cao bao nhiêu hả? Cao vừa đủ để biết điều, cưng à.#$b#Ờ... lần cuối chị đo là sáu cái một, nửa tá cái kia.#$b#Nói chung là đủ cao để sơn trần hiên nhà em, nếu cần sửa.",
+  "Ripley.Dialogue.Tuesday4": "Leah ở Thị trấn Pelican với chị có nhiều điểm giống nhau lắm. Phụ nữ mặc quần yếm phải sát cánh với nhau chứ.#$b#Tuy vậy... chị cũng đang cân nhắc tìm hiểu cô ấy kỹ hơn chút, nếu em hiểu ý chị.$u",
+  "Ripley.Dialogue.Wednesday4": "Hôm nay chị hái hết đậu xanh rồi bẻ cuống sạch sẽ. Giờ chắc nấu một nồi súp đậu với thịt xông khói thôi.#$b#Và dĩ nhiên là có cả bánh ngô. Theo công thức của Pepaw.#$e#Không, em không xin được đâu nha.$u",
+  "Ripley.Dialogue.Thursday4": "Bố chị khoái kể chuyện một lần vật nhau với gấu.#$b#Và em biết không, chị thấy... có khi ông ấy thật sự làm vậy thiệt đó.$h",
+  "Ripley.Dialogue.Friday4": "Thỉnh thoảng chị mệt rũ vì làm đồng, chị sẽ ngủ với tụi bò luôn. Chúng thích nằm sát người chị, nhưng mùi thì...$h#$b#Thôi, tốt nhất em đừng đứng gần chị quá hôm nay.$9",
+  "Ripley.Dialogue.Saturday4": "Diala hỏi ngày sinh của chị rồi bảo chị thuộc cung 'Kim Ngưu.'#$b#Tất nhiên là em là Kim Ngưu, cổ nói vậy.#$b#Em nghĩ nó có nghĩa là sao ta...?$8",
+  "Ripley.Dialogue.Sunday4": "Bố chị để lại cho chị một cái bàn ăn bằng gỗ gụ, thiệt đó! Nhưng nó to quá so với chị.#$b#Chắc chị nên mời bạn bè đến chơi thường xuyên hơn nhỉ.",
+
+  //6 hearts
+  "Ripley.Dialogue.Monday6": "Mỗi khi nấu nướng, chị giữ lại hết vỏ rau củ để nấu súp trước khi đông đến.#$b#Đừng phí phạm, đừng để thiếu thốn, cưng à.$h",
+  "Ripley.Dialogue.Tuesday6": "Cái trò phù thủy lắt léo của Diala bay vèo qua đầu chị luôn. Chị chẳng hiểu cô ấy đang làm gì quá nửa thời gian.#$b#... Nhưng kỳ lạ thay, chị lại thấy hứng thú.$8",
+  "Ripley.Dialogue.Wednesday6": "Mẹ chị từng là người sang chảnh lắm.#$b#Thỉnh thoảng bà vẫn gọi bảo chị về quê dự tiệc cocktail, rồi nổi đóa khi chị bảo bà sửa cho chị một cái váy mà chị có thể mặc vừa...",
+  "Ripley.Dialogue.Thursday6": "Cái văn phòng cũ chị từng làm không có cửa sổ, chỉ toàn đèn huỳnh quang. Chị thấy mình sắp úa vàng và rũ như cái cây cảnh luôn.#$b#Mừng là chị đã nghỉ kịp lúc.$h",
+  "Ripley.Dialogue.Friday6": "Chị có phải sinh ra là tóc xanh không à? Chắc chắn rồi, cưng.#$b#Mẹ chị bảo, hồi bà và bố muốn có con, bà ra vườn và kéo chị lên từ đất như củ cà rốt vậy.#$b#Chị không chắc có tin nổi không. Bà mà động tay xuống đất á? Không đời nào.$8",
+  "Ripley.Dialogue.Saturday6": "Chị vừa xuống mỏ một chút. Phải kiểm tra mấy cái giá đỡ, với đuổi bọn quái vật nấp dưới đó.#$b#Và không, bọn đó không ăn được đâu.#$b#Hoặc... ít nhất là chị *nghe nói* vậy thôi.$8",
+  "Ripley.Dialogue.Sunday6": "Em có bận rộn với mấy cái bẫy cua không đó, người lạ?#$b#Cẩn thận tôm càng kẹp trúng nha, tụi nó mà kẹp thì không buông ra đâu, trừ phi có sấm sét giật xuống.",
+
+  //8 hearts
+  "Ripley.Dialogue.Monday8": "Bố chị luôn nói rằng, phải lấp đầy giá sách bằng sách hay, bệ cửa sổ bằng cây xanh tươi tốt, và ngôi nhà bằng tình yêu thương.#$b#Chị làm theo y chang, và chưa bao giờ thấy thất vọng!$h",
+  "Ripley.Dialogue.Tuesday8": "Nếu em có mấy cái chai rỗng, chị sẽ rất vui nếu được lấy chúng. Đang làm một cây chai cho sân sau nhà chị đó.$h#$b#Để bẫy mấy con ma lảng vảng ban đêm trong vườn.#$b#Ít nhất thì đó là lời bà chị nói. Bà ấy mê tín còn hơn chị nhiều.",
+  "Ripley.Dialogue.Wednesday8": "Đại hoàng là một trong những thứ chị khoái nhất trên đời. Dễ trồng, lại ngon bá cháy.#$b#Thỉnh thoảng nó mới nhú lên khỏi đất là chị đã bẻ ăn sống như ăn cần tây rồi.$h#$b#... Sao? Em tưởng chị nấu chín hả?$9",
+  "Ripley.Dialogue.Thursday8": "Cảm giác hôm nay nó cứ dài lê thê mãi ấy.$1#$b#Đói quá đi mất, chị cảm giác mình có thể ăn hết nửa đầu phía bắc của một con vịt bay về phía nam.$9",
+  "Ripley.Dialogue.Friday8": "Em có tin vào ma không, cưng?#$b#Ngôi nhà cũ của Papaw Ripley ọp ẹp lắm, nhưng chị thề là đêm đêm chị nghe mấy tiếng động không lý giải nổi.#$b#Mà cũng có thể chỉ là lũ sóc chạy trên trần thôi.$8",
+  "Ripley.Dialogue.Saturday8": "Em cần một cái mũ xịn hơn đó. Cái kiểu cau mày suốt ngày thế, coi chừng nhức đầu đấy nha.$h",
+  "Ripley.Dialogue.Sunday8": "Trời đất ơi, sugar, trông em MỆT PHỜ luôn.$b#Có cần chị bế em về nhà không?$u",
+
+
+  //Romance
+  //--------------
+
+  "Ripley.RejectMermaidPendant": "Ồ!$7#$b#... Ồ.#$b#Ồ. Trời đất. Đây thật là...$9#$b#... nhiều quá. Nhiều quá. Chúng ta có thể, ừm...$9#$b#... nói về chuyện này sau được không?$9#$b#Chị cần thời gian để suy nghĩ đã.$2#$action AddMail current RipleyRejection received",
+
+  //After rejecting mermaid pendant + saw cutscene + stayedtogether + not enough time has passed
+  
+  "Ripley.Dialogue.MondayPostRejection": "Chào em nha, gấu mật của chị!$h#$b#Lại đây ngồi một lát, sáng giờ chị cứ nghĩ về em mãi.",
+  "Ripley.Dialogue.TuesdayPostRejection": "Ôi, trông em xinh như một chú cún lốm đốm ngồi trên chiếc xe kéo đỏ nhỏ vậy đó.",
+  "Ripley.Dialogue.WednesdayPostRejection": "Ồ, chào em, chim giẻ xanh nhỏ.#$b#Chị mới làm ít mứt đào nè, nếu em muốn ghé thử làm người nếm thử cho chị.#$b#Dù nó chắc chắn không ngọt bằng em đâu.",
+  "Ripley.Dialogue.ThursdayPostRejection": "Trước khi quay về thung lũng, chị thật sự là một cây sào đó.#$b#Hồi nhỏ, ba chị gọi chị là 'Chim Nhỏ' vì chân chị dài lòng khòng như chim.#$b#Bọn trẻ hàng xóm thì gọi chị là 'Bù Nhìn' rồi bỏ chạy, nên chị cứ kêu quác quác đuổi tụi nó vòng quanh ruộng bắp.",
+  "Ripley.Dialogue.FridayPostRejection": "Chào em, đường ngọt của chị!#$b#Trời ơi, em trông MỆT QUÁ. Để chị cõng em về nha.#$b#Quăng em lên vai như một bao bột mì luôn đó.",
+  "Ripley.Dialogue.SaturdayPostRejection": "A ha, em đây rồi, cưng của chị.#$b#Lại đây để chị “trộm” một ít ngọt ngào nào.",
+  "Ripley.Dialogue.SundayPostRejection": "Quay về đây sau thời gian sống ở thành phố...#$b#Chị thấy hạnh phúc hơn rất nhiều khi sống ở ngôi làng nhỏ này, hơn là ở đâu đó hiện đại mà khổ sở.#$b#Và có em ở đây để cùng sẻ chia nữa chứ. Thế là quá đủ rồi.",
+  
+  // After rejecting mermaid pendant + saw cutscene + broke up - has a chance to pull from these or 0-6 hearts
+  
+  "Ripley.Dialogue.MondayBrokenUp": "Chào em nha, gấu mật của chị!$h#$b#... Ồ, xin lỗi, quen miệng quá. Lại đây ngồi một lát, kể chị nghe dạo này em thế nào.",
+  "Ripley.Dialogue.TuesdayBrokenUp": "À, chị gọi ai cũng là 'cưng' đó.#$b#Hoặc 'mật ong', 'ngọt ngào', đại loại thế. Chị mà muốn thì có thể rót mật ra từ miệng luôn á.#$b#Nhưng mà, ờ, với em thì chị sẽ kiềm lại. Không muốn bị coi là thiếu tế nhị đâu.$9",
+  "Ripley.Dialogue.WednesdayBrokenUp": "Ồ, chào em, chim giẻ xanh nhỏ.#$b#Chị mới làm ít mứt đào, nếu em muốn thì qua nếm thử nhé.#$b#Ờ, nếu chuyện đó không quá kỳ cục với em. Không sao nếu em không muốn đâu.",
+  "Ripley.Dialogue.ThursdayBrokenUp": "Hồi xưa chị gầy đét như cây sào đó, mãi đến khi quay về thung lũng mới đỡ hơn.#$b#Hồi nhỏ, ba chị gọi chị là 'Chim Nhỏ' vì chân dài lòng khòng như chim.#$b#Mấy đứa nhỏ hàng xóm thì gọi chị là 'Bù Nhìn' rồi chạy trốn, nên chị cứ kêu quác quác đuổi tụi nó vòng vòng ruộng bắp.",
+  "Ripley.Dialogue.FridayBrokenUp": "Chào em, đường ng... à không, @.#$b#Trời ơi, em trông MỆT QUÁ. Hay là để chị đưa em về nha?",
+  "Ripley.Dialogue.SaturdayBrokenUp": "Tin không, nhiều bữa chị cả ngày chỉ nói chuyện với mấy con bò thôi đó.#$b#Từ khi em hay qua đây, chị nói nhiều hơn cả một thời gian dài cộng lại luôn á.#$b#Cảm ơn em vì vẫn ghé qua, dù mọi chuyện đã như vậy.",
+  "Ripley.Dialogue.SundayBrokenUp": "Sau khi từng sống ở thành phố một thời gian...#$b#Chị thấy hạnh phúc hơn nhiều khi ở lại cái làng nhỏ xíu này, hơn là sống ở nơi hiện đại mà khổ sở.#$b#Có em ở đây để sẻ chia nữa.#$b#Dù tụi mình không thể đi xa hơn, chị vẫn không hề hối hận chút nào.",
+
+
+  //10 hearts 
+  "Ripley.Dialogue.Monday10": "Ồ, chị gọi ai cũng là 'cưng' hết đó.#$b#Hoặc 'mật ong', 'ngọt ngào', vân vân và vân vân. Chị mà muốn thì có thể rót mật mía ra từ miệng luôn á.#$b#Nhưng mà, điều đó không có nghĩa là em không đặc biệt đâu nha.$6",
+  "Ripley.Dialogue.Tuesday10": "Chị đã từng cảm thấy mình quá lạc lõng ở thành phố. Mọi người nơi đó cũng đều lạc lõng như nhau.#$b#Không thích công việc, không thích hàng xóm, không thèm nói chuyện với ai, chỉ thấy chán đời thôi.#$b#Chị thà nằm gãy lưng dưới đáy hầm mỏ còn hơn phải quay lại sống kiểu đó.",
+  "Ripley.Dialogue.Wednesday10": "Tin hay không thì tùy, nhiều bữa chị chẳng nói với ai ngoài mấy con bò cả ngày trời.#$b#Từ khi em đến, chị thấy mình nói nhiều hơn cả một quãng thời gian dài cộng lại.#$b#Biết sao không? Em mở lòng chị ra như bật nắp một cái lon thiếc vậy đó.$6",
+  "Ripley.Dialogue.Thursday10": "Chị không nhận ra cái nhà nông trại cũ kỹ đó cô đơn đến mức nào... cho đến khi em xuất hiện.#$b#Chắc đó là lý do ông bà chị đẻ nhiều con đến vậy. Ba chị có tới mười anh chị em lận.#$b#... Còn chị, chẳng có ai cả.",
+  "Ripley.Dialogue.Friday10": "Tối nay trời chắc sẽ trong xanh đó.#$b#Làm xong việc rồi, mình ra vườn sau ngồi ngắm sao đi.#$b#Nếu em muốn, thì vậy.",
+  "Ripley.Dialogue.Saturday10": "Ừm, chắc giọng chị nghe cũng buồn cười ha.#$b#Bà chị từng nói tụi mình như đang hát chứ không phải nói chuyện.#$b#Chị nhớ Abigail từng bảo chị nghe như tiếng đàn banjo mỗi khi nói nhanh đó.",
+  "Ripley.Dialogue.Sunday10": "Chị chưa bao giờ đi du lịch, thật ra là vậy. Mà chị biết đi đâu bây giờ?#$b#Nếu có đi nghỉ mát thì chị cũng chỉ quanh quẩn đâu đây thôi. Dù sao thì cũng chẳng mấy khi để tâm đến chuyện đó.",
+
+  //After rejecting mermaid pendant+saw cutscene+stayedtogether+timepassed
+
+  "Ripley.Dialogue.Monday12": "Này, chú gấu mật ong của chị!$h#$b#Lại đây ngồi một chút nè, sáng giờ chị cứ nghĩ về em hoài.",
+  "Ripley.Dialogue.Tuesday12": "Trời ơi, em trông đáng yêu như một chú cún đốm ngồi trong xe ngựa nhỏ màu đỏ vậy đó.",
+  "Ripley.Dialogue.Wednesday12": "Chào chú chim xanh bé nhỏ.#$b#Chị mới làm mứt đào nè, nếu em muốn ghé qua làm người thử nếm của chị.#$b#Dù sao thì cũng không ngọt bằng em đâu.",
+  "Ripley.Dialogue.Thursday12": "Chị ngày xưa gầy như cây sậy á, cho tới khi quay về Thung lũng này.#$b#Hồi còn nhỏ, ba hay gọi chị là Birdie, vì chân chị dài và khẳng khiu như chim.#$b#Lũ trẻ hàng xóm thì gọi chị là Bù Nhìn rồi bỏ chạy, thế là chị làm tiếng quạ rồi rượt tụi nó khắp ruộng ngô.",
+  "Ripley.Dialogue.Friday12": "Chào em yêu!#$b#Trời ơi, trông em MỆT ghê luôn. Để chị cõng em về nhà nha.#$b#Vác lên vai như bao bột mì cũng được luôn!",
+  "Ripley.Dialogue.Saturday12": "Oho, em đây rồi, cưng.#$b#Lại đây cho chị xin chút 'đường' đi nào.",
+  "Ripley.Dialogue.Sunday12": "Sau một thời gian sống ở thành phố rồi quay lại đây...#$b#Chị thấy mình hạnh phúc hơn nhiều khi sống ở ngôi làng nhỏ bé này, hơn là gồng mình ở chốn hiện đại mà buồn thiu.#$b#Mà có em ở bên để chia sẻ mọi thứ nữa thì... còn gì tuyệt hơn được chứ?",
+
+
+  //Resort Dialogue
+  //--------------
+
+  "Ripley.Dialogue.Resort_Entering": "Trời ơi, nóng quá chừng! Em đang tính đi bơi hả?",
+  "Ripley.Dialogue.Resort_Leaving": "Chà... chắc đến lúc chị phải quay về rồi.",
+  "Ripley.Dialogue.Resort_Shore": "Ái da!$7#$b#Chắc chị vừa dẫm trúng vỏ sò rồi.",
+  "Ripley.Dialogue.Resort_Chair": "Nông dân à, đừng có chọc làn da rám nắng của chị nữa nha. Đây là nghi lễ trưởng thành đó!$h",
+  "Ripley.Dialogue.Resort_Bar": "Mm-mmm. Ly Pina Colada này ngon quá trời.$h#$b#Thích cái cảm giác tê tê nơi đầu lưỡi ghê.$h#$e#... Ý em là nó không bình thường hả?$9",
+  "Ripley.Dialogue.Resort": "Chị đang cố thư giãn, nhưng cứ thấy bồn chồn muốn quay về xem lũ gà có ổn không.#$b#Lũ gà mái mà không được ăn hạt cỏ đúng giờ là khó ở lắm đó nha.",
+  
+  
+  //Conversation Topics
+  //-------------------
+  "Ripley.Introduction": "Ừm, này... gương mặt mới này chắc chắn chị sẽ nhớ nếu từng gặp qua đấy! Em khỏe không?#$b#Chị vừa chuyển đến sống ở trang trại cũ của ông chị tại Sunberry.#$b#... Ủa, em cũng đang bắt đầu làm nông à? Chà, đầu óc lớn thường nghĩ giống nhau hen?#$b#Tên chị là Ripley. Chắc là tụi mình sẽ còn gặp nhau dài dài đó.$3",
+  "Ripley.Dialogue.cc_Begin": "Cái tên Morris đó đúng là một vết nhơ. Trơn tuột như lợn trượt băng vậy đó.#$b#Nếu là em, chị sẽ né xa cho lành.$8",
+  "Ripley.Dialogue.cc_Complete": "Wowee, @, em thực sự làm được rồi đó nha!$h#$b#Trung tâm cộng đồng trông vẫn y như chị nhớ — mấy món đồ gỗ cũ kỹ và kính màu thật sang trọng.#$e#Dân ở Pelican chắc mừng húm vì cuối cùng cũng có chỗ tụ tập ngoài cái quán rượu.#$b#Em đúng là một người đặc biệt, em biết không?$3",
+  "Ripley.Dialogue.cc_Boulder": "Ồ, hay ghê, tảng đá to đùng đó biến mất rồi.#$b#Chị cũng tính thử bê nó lên, mà không chắc nổi không. Nhưng chị cũng đâu ngán gì!$3",
+  "Ripley.Dialogue.movieTheater": "Chị nghe nói có cái rạp chiếu phim mới ở chỗ cửa hàng Joja cũ hả? Nghe hay ho ghê.#$b#Chị chưa coi được mấy phim vì nhà chị xưa giờ đâu có TV hay thứ gì đâu.#$b#Có lẽ giờ là lúc tốt để bắt đầu khám phá đó!", 
+
+  //Ripley Events
+  "RipleyMonsters": "Em trông thật tuyệt sau cái vụ lộn xộn dưới mỏ đó.#$b#Không phải là chị từng nghi ngờ em không tự lo được đâu nha.$3",
+  "RipleyFolkHero": "Xem nào... phải kiểm tra Jumana, phải giặt giũ, rồi cắt tỉa mấy nhánh cây dọc lối đi ra vườn ăn quả — chỗ đó um tùm quá rồi — và rồi-$8#$b#Ồ, chào em lần nữa! Nhìn thấy em luôn là một cảnh tượng tuyệt vời.",
+  "RipleyLostCow": "Ồ, Oakley. Có lẽ là sinh vật cứng đầu nhất mà chị từng gặp đó.$h#$b#Nhưng chị thương nó hết lòng.#$b#Chị đoán em cũng có một hoặc hai người như vậy trong đời mình, hả Stranger?$4",
+  "Ripley.Dialogue.RipleyLTR": "Em biết không, chỗ em ở cũng hơi xa mấy tiếng reo hò náo nhiệt ngoài phố đó nha.#$b#Chị không phiền nếu em ở lại qua đêm thường xuyên đâu... nếu em muốn.$4#$b#%Bắt đầu từ ngày mai, bạn có thể ngủ trên giường của Ripley!",
+
+  //ARV
+  "Ripley.Dialogue.SterlingTrash": "Chị không còn bận tâm mấy cái trò uống đến lú người nữa đâu. #$b#Sterling với Shane ở quán rượu thì toàn phá là chính, rồi gào rú lên như điên, làm hỏng hết mọi thứ. #$b#Ồ, Sterling... tội nghiệp thằng bé. Mong là nó tìm được sự giúp đỡ cần thiết.$2",
+  "Ripley.Dialogue.SterlingDrugs": "Này, em. Em có thấy Sterling quanh đây không? #$b#Hôm trước chị tình cờ gặp nó, rồi chị bắt đầu tìm hiểu về hoàn cảnh của nó. #$b#Chị tin là chị có thể giúp được — miễn là nó chịu mở lòng.$8",
+  "Ripley.Dialogue.SterlingRelapse": "Hôm kia chị không thấy Sterling ở chỗ Pierre. Em có nghe ngóng gì không?#$b#...#$b#... Cái gì cơ? Nó biến mất rồi à?$2#$b#Ôi trời...$2",
+  "Ripley.Dialogue.SterlingApology": "Trời ạ, mọi người cứ gay gắt với Sterling quá mức. #$b#Đang lúc nó khốn đốn thì người ta lại lôi nó ra đay nghiến mỗi lần cáu bẳn. #$b#Nó đã nói lời xin lỗi rồi, thế là đủ. Đừng đào bới nữa.$5",
+  "Ripley.Dialogue.SterlingSobriety": "Chị tự hào về Sterling lắm. Nó không chỉ là hàng xóm, nó còn là họ hàng với chị.#$b#Nhìn nó dần thay đổi từng chút một làm chị cảm thấy có hy vọng thật sự đấy.$h",
+  "Ripley.Dialogue.SterlingSwim": "Chị phải tìm hiểu thêm về Henry – cả hai bọn chị đều làm ở trang trại mà.#$b#Có điều... chẳng bao giờ có thời gian. Vì... cả hai đều bù đầu làm ở trang trại. Nghe cũng hợp lý nhỉ.$8",
+  "Ripley.Dialogue.SterlingTrain": "Thỉnh thoảng Mia nướng bánh, rồi chị thử. Cô ấy làm cũng ổn lắm...#$b#... nào là bánh xốp mật ong, nước hoa hồng, đậu tonka, hồ trăn, vani, mứt sung, hạt anh túc, hoa cam, dầu ô liu...$h#$b#... ngâm trong mâm xôi, hoa cơm cháy, mật ong, lựu, trà đen, gừng, việt quất, hoa anh đào, mộc lan, hạnh nhân, si-rô chanh dây...$h#$b#... thêm cỏ linh lăng, chanh, ricotta, phô mai dê, tổ ong, tiêu đen, phấn ong, húng tây, hương thảo chantilly...$9#$b#... và phủ kem phô mai đánh bông ba lần.$9#$b#Chị chỉ gật đầu. Biết hết mấy thứ đó là gì đấy, tin không? Cảm ơn em.$9#$b#Và mỗi lần ăn, lưỡi chị như tát thẳng vào não. Nói thật đấy.$h",
+
+
+  //Wren the plumber
+  "Ripley.Dialogue.WrenFliesIn": "Chị nghe nói em đã gặp Wren rồi!$h#$b#Chị nói thật, cô ấy là người cực kỳ tử tế! Lúc nào cũng sẵn lòng giúp đỡ nếu em cần.",
+  "Ripley.Dialogue.ShoujoIsForGirls": "Ôi trời đất, chị biết cái mặt đó mà. Lại bị Wren dồn vào góc nói về mấy chuyện cổ tích của cổ chứ gì. #$b#Chị quý cô ấy lắm, nhưng gu truyện của cô ấy thì đúng là... khó hiểu thật. #$b#'Hare-em' là cái thể loại gì vậy trời?$9",
+
+  //SBV
+  "Ripley.Dialogue.MeetDND": "Em đã ghé quán cà phê mèo chưa?#$b#Mỗi lần chị đến đó, mấy con mèo con cứ đua nhau trèo lên ống quần chị như thể chị là... cái thân cây sống vậy đó.",
+
+  // ======================
+  // Event Dialogue
+  // ======================
+
+  "Ripley_Monsters.0": "Ồ, không, em không sao chứ!$8",
+  "Ripley_Monsters.1": "Này, người lạ!$h#$b#Chị thấy em đang đi ngang qua.#$b#Bình thường chị không xen vào chuyện của người khác, nhưng trông em như đang gặp rắc rối thật.",
+  "Ripley_Monsters.2": "Ôi trời, em bị thương rồi.$2#$b#Đừng cử động.$2",
+  "Ripley_Monsters.3": "Em ổn chứ, cưng? Chị hiểu rồi.#$b#Để chị quấn cái này quanh tay em, và...",
+  "Ripley_Monsters.4": "Xong rồi đó.#$b#Em may lắm mới gặp chị lúc này.#$b#Thỉnh thoảng chị cũng phải kiểm tra đường hầm, đề phòng mấy con quỷ hay quái vật trồi lên mặt đất kiếm ăn.#$b#Chị cũng muốn để chúng yên, cho chúng sống cuộc sống của chúng, nhưng nếu chúng ra khỏi mỏ, chúng sẽ tấn công thú hoang với gia súc.$2#$b#Có những thứ... chỉ có cách giết thôi.",
+  "Ripley_Monsters.5": "Thôi nào. Trời cũng khuya rồi. Để chị đưa em ra ngoài.#$b#Chị đoán là em không cần chị bế đi đâu nhỉ?$3",
+  
+  "Ripley_FolkHero.0": "Xin chào, Ripley!",
+  "Ripley_FolkHero.1": "Tôi không muốn làm phiền Maia hôm nay. Cô có rảnh để giúp tôi chuyển một số hộp vào cửa hàng sau không?",
+  "Ripley_FolkHero.2": "Ừm, chắc chắn rồi! Cũng được thôi, không thể nhảy và trời quá ướt để cày.#$b#Tôi sẽ liên lạc lại với ông vào chiều nay, được chứ?$h",
+  "Ripley_FolkHero.3": "Cảm ơn rất nhiều. Tôi thực sự đánh giá cao điều đó.",
+  "Ripley_FolkHero.4": "Ripley.",
+  "Ripley_FolkHero.5": "Đêm qua có một vụ lở đá ở mỏ.#$b#Cô có vẻ là người phụ nữ hoàn hảo để giúp tôi thông đường hầm. Cô có đồng ý không?",
+  "Ripley_FolkHero.6": "Tôi nghĩ mình có thể dành thời gian cho việc đó.$h#$b#Ờ, nhưng có thể đợi đến sau không? Tôi có một chút việc phải làm ngay bây giờ.",
+  "Ripley_FolkHero.7": "Tất nhiên rồi. Chỉ cần cho tôi biết và chúng tôi sẽ giải quyết nhanh chóng.$1",
+  "Ripley_FolkHero.8": "Chào bạn yêu!",
+  "Ripley_FolkHero.9": "Cô sẽ không tin điều này đâu. Sáng nay tôi nhổ một cây củ cải ra khỏi đất và nó có màu xanh.#$b#Màu xanh!$7",
+  "Ripley_FolkHero.10": "Có thực sự thế không?.$9",
+  "Ripley_FolkHero.11": "Cô biết mà, đó chỉ là điều kỳ lạ nhất thôi!$6#$b#Tôi nghĩ tôi có thể nhận được lời khuyên của cô và tìm ra điều gì có thể xảy ra!",
+  "Ripley_FolkHero.12": "Chắc chắn rồi.$h#$b#Vâng.$9#$b#Tất nhiên rồi.$h#$b#Chỉ cần... làm một vài việc khác trước, sau đó, ừm, tôi sẽ ghé qua sau và xem thử..$9",
+  "Ripley_FolkHero.13": "Ồ-ồ!!$7#$b#Lạy Chúa, em ổn chứ?$9#$b#Chị chạy nhanh hơn cả một con gà đến một con bọ cánh cứng. Có thể đánh ngã em ngay.$9",
+  "Ripley_FolkHero.14": "Chắc em biết rồi. Bận rộn hơn cả một cái móc treo giấy một tay. Nhiều người thích được gọi vào. #$b#Đàn ông phải làm việc nếu muốn ăn. #$b#Em biết ông nội tôi luôn nói gì không, 'Ước một tay và...'$8",
+  // QuickQuestion - DO NOT ERASE "#"
+  "Ripley_FolkHero.14a": "Dù sao đi nữa. Em định đi đâu thế, người lạ?#Chỉ chạy việc vặt thôi. Chúc chị vui vẻ, Ripley.#Chị biết đấy, đôi khi nói không với mọi người cũng không sao.#Thực ra, chị có phân bón thừa không?",
+  "Ripley_FolkHero.15": "Tương tự như vậy.",
+  "Ripley_FolkHero.16": "Chị không hiểu ý em là gì.#$b#Mọi người đều hỏi rất tử tế, chị thực sự không ngại giúp đỡ họ... Và chị cũng chẳng có gì tốt hơn để giúp...",
+  "Ripley_FolkHero.17": "Em không hiểu đâu. Chị có nghĩa vụ phải là người lao động chăm chỉ nhất ở bờ bên này của con sông. #$b#Nếu chị không giúp đỡ những người kém may mắn bằng mồ hôi nước mắt thì chị không xứng đáng với đôi bàn tay mà mẹ chị đã trao cho chị, hiểu không?$8",
+  "Ripley_FolkHero.18": "Chị cho là vậy. Em được chào đón, nếu em cần.#$b#Hoặc chị có thể mang nó qua khi chị có thời gian. Bất cứ điều gì hiệu quả với em.$h#$b#Không có gì phải lo lắng. Ha ha.$9",
+  "Ripley_FolkHero.19": "Ừm, chị rất muốn ở lại và trò chuyện nhưng hôm nay chị có rất nhiều việc phải làm, như thường lệ.#$b#Rất vui được gặp lại em!$h",
+  
+  //{{i18n:Ripley_FolkHero.14}}
+  
+  "Ripley_LostCow.0": "@! Chị rất vui khi được gặp em.$h#$b#Ông Oakley lại làm trò hề thường lệ và lẻn ra ngoài khi chị đang khóa chuồng.$h",
+  "Ripley_LostCow.1": "Em đang có ý định đứng đó thôi sao?$9#$b#Em không định giúp chị ư?$9",
+  
+  // {{i18n:Ripley_GoOnGet}}
+  // {{i18n:Ripley_HereBoy}}
+  // {{i18n:Ripley_Boo}}
+  //...Boo!!
+  
+  
+  "Ripley_GoOnGet": "Tiếp tục đi, lấy.",
+  "Ripley_HereBoy": "Này, cậu bé!",
+  "Ripley_Boo": "...Boo!!",
+
+    //Arky's edits! Lost Cow :D
+  
+    
+    "Ripley_LostCow.OakleySnort": "Oakley khịt mũi và cào đất bằng móng guốc của mình.",
+    "Ripley_LostCow.OakleyCircle": "Oakley đã quay lại vòng quanh.",
+    "Ripley_LostCow.OakleyMenace": "Con bê này là một mối đe dọa.",
+  
+  "LostCow_BackToRipley.0": "Ối dào ôi!",
+  "LostCow_BackToRipley.1": "Bòooo!",
+  "LostCow_BackToRipley.2": "Này.#$b#Chúng tôi không đánh nhau ở đây đâu.",
+  "LostCow_BackToRipley.3": "Ồhhh, phải rồi. Nhìn bạn ghê thật đấy.#$b#Hồi trước tôi cũng từng dữ dằn vậy đó.$3",
+  "LostCow_BackToRipley.4": "Bòoooo!",
+  "LostCow_BackToRipley.5": "Hết đường chạy rồi nha, đồ chuột con lạc bến.#$b#Đi nào. Chúng ta đưa nhóc về với mẹ nhé.",
+  "LostCow_BackToRipley.6": "Cảm ơn nha, Nông dân. Oakley nó hay làm vậy lắm.#$b#Bánh ngô của thằng nhóc này chưa chín hẳn ở giữa, nếu em hiểu ý chị nói.",
+  "LostCow_BackToRipley.7": "Em đúng là có duyên với động vật đấy.#$b#Bình thường chúng nó chỉ dính lấy chị, mà mỗi lần em tới là tụi nó nhảy cẫng cả lên.#$b#Có thể chẳng có ý nghĩa gì... $3#$b#... Dù sao thì, giờ nhóc ấy dịu lại rồi, chị cá là em có thể vuốt ve nó rồi đó.#$b#Mẹ nó ở đằng kia – Tess – cổ thích được gãi ngay chóp mũi lắm.",
+  "LostCow_BackToRipley.8": "Cẩn thận nhé. Nhóc ấy mà liếm thì ướt cả mặt đấy.",
+  
+  "Ripley_Grief.0": "Này, người lạ.#$b#Chị chỉ... đang thử một điều gì đó mới.#$b#Kiểu như... đi dạo loanh quanh, rồi ngồi xuống. Không làm việc. Chỉ ngồi thôi.",
+  "Ripley_Grief.1": "Cảm giác có chút sai sai, khiến chị bồn chồn như mèo đực trong phòng toàn ghế bập bênh.#$b#Cứ như là có việc gì đó chị quên làm, dù chẳng có gì cháy hay sập cả.",
+  "Ripley_Grief.2": "Chị nghĩ papaw (ông) muốn chị học cách nghỉ ngơi.$8#$b#Ổng làm việc cực lực, nhưng cũng biết cách tìm một chỗ nắng rồi ngả lưng như ai.#$b#Ờ thì... trừ chị. Nhưng chị đang học dần dần.",
+  "Ripley_Grief.3": "Ừm. Thật tiếc nhỉ. Chị cá là em có thể học được khối thứ từ ổng.#$b#Chị thì học được rồi. Học cách trân trọng đất đai, làm người tử tế trong cái thế giới già cỗi này.#$b#Với cả cách làm món khoai chiên ngon số dzách.$h#$b#Nhiều thứ lắm.",
+  "Ripley_Grief.4": "Theo cách chị thấy, mỗi ngày sống ở đây là chị lại gần ông ấy thêm chút.#$b#Và đôi khi nỗi nhớ như một cục nghẹn ở cổ.#$b#Có khi đau như kim châm tim óc, lan tận đầu ngón tay.$2#$b#Có lẽ em chưa từng biết cảm giác đó. Nhưng mà...#$b#Chị từng nghe ai đó nói, nỗi đau lớn thì đến từ tình yêu lớn. Nghe cũng đúng đúng.#$b#Đáng để suy ngẫm chứ nhỉ.",
+  "Ripley_Grief.5": "Đúng vậy. Chị cũng nghĩ thế.",
+  "Ripley_Grief.6": "Hôm nay ông ấy lẽ ra đã bước sang tuổi tám mươi tám.$2#$b#Chị nhớ ông ấy từng ngày. Có khi từng giờ.$2",
+  "Ripley_Grief.7": "Hồi nhỏ chị từng muốn trở thành người đàn ông miền núi như ông ấy.#$b#Ổng sống theo lối cũ, làm điều đúng đắn cho gia đình và bạn bè trước khi nghĩ tới mình.",
+  "Ripley_Grief.8": "Chị nghĩ... việc mình vẫn nhớ họ là một kiểu đài tưởng niệm tuyệt vời nhất có thể.#$b#Miễn sao nỗi nhớ đó không khiến mình gục ngã.#$b#Nếu chị nói vậy mà nghe còn có lý gì đó.$h",
+  "Ripley_Grief.9": "Đôi khi, nhất là những đêm tĩnh mịch, chị vẫn cảm thấy ông ấy ở đây.#$b#Trong bức tường nhà cũ kỹ, trong từng tấm ảnh cũ mà chị giữ lại.#$b#Trong mấy cái cây quanh nhà nữa. Cứ như là... nếu chị giữ chúng sống, ký ức về ông ấy cũng sống theo. Em hiểu chứ?",
+  "Ripley_Grief.10": "Nó có gì đó rất kỳ diệu.#$b#Chị đứng dưới cây, nhìn lá rung trong gió và...#$b#Cảm giác như chúng già đến mức chứa đầy ký ức.#$b#Chúng đã thấy, đã nghe quá nhiều thứ mà đầu óc mình không tưởng nổi.#$b#Và chị nghĩ: ồ, mình còn sống, nó cũng còn sống, và tụi mình đang đứng cạnh nhau lúc này đây.$h#$b#Thật lạ mà tuyệt. Là một sinh vật sống... đứng cạnh một sinh vật sống rất khác.$h",
+  "Ripley_Grief.11": "Chị không thường làm chuyện này với ai đâu.#$b#Ý chị là, dành thời gian thật sự, chứ không phải mấy chuyện hàng xóm qua đường.#$b#Chị cứ mải làm việc... rồi thời gian trôi tuột mất.$2#$b#Trước khi kịp nhận ra, lại hết một năm.$2",
+  "Ripley_Grief.12": "Chị kể lể cả đống chỉ để nói... cảm ơn.#$b#Vì đã ở lại.",
+  "Ripley_Grief.13": "Thật yên tâm khi biết là, dù một năm có trôi qua thì cũng chẳng sao.#$b#Không ai hét vào hư không, cây vẫn lớn, mặt trời vẫn mọc, quả vẫn kết.#$b#Và em vẫn là bạn của chị.#$b#Chị mừng vì em ở đây. Nhờ vậy mà thế giới này bớt cô đơn hơn chút.$4",
+  "Ripley_Grief.14": "Này, ờm... chị đang nghĩ là--$4",
+  "Ripley_Grief.15": "Nhìn kìa. Đằng kia có cây thông to.#$b#Có một con chim hồng y kìa!$h",
+  "Ripley_Grief.16": "Này, nhóc yêu! Xinh thật đấy chứ?$h",
+  "Ripley_Grief.17": "Nghe có vẻ ngớ ngẩn...#$b#Nhưng hồi bé chị được bảo rằng, nếu thấy chim hồng y bay đến gần, thì đó là người thân đã khuất đang ghé thăm.#$b#...Từ nơi nào đó họ đang ở.#$b#Họ như đang nhắn với mình rằng: “Cháu đang đi đúng đường đó.”",
+  "Ripley_Grief.18": "Em nghĩ con chim đó đến vì chị... hay vì em?$l",
+  "Ripley_Grief.19": "Chị vừa nói gì khi nãy vậy?$h#$b#...$9#$b#... À, chị chẳng nhớ nổi nữa. Có lẽ là một suy nghĩ thoáng qua theo gió thôi.#$b#Thôi, nhiêu đó là quá đủ cho một ngày yếu lòng rồi ha. Em muốn quay về chưa?$3",
+
+  "Ripley_Choice.0": "Ngửi thử xem, thơm lắm đúng không?#$b#Tối nay chị tự thưởng cho mình một bữa đàng hoàng với món risotto làm từ mấy cây nấm chị vừa hái đấy.",
+  "Ripley_Choice.1": "Chị nghĩ chỉ người chị thật sự quý mến chị mới chia phần cơm nấm này, đúng không? Nhưng giờ chị phải lo—",
+  "Ripley_Choice.2": "—khuấy đều tay kẻo cơm khét dưới đáy nồi mất.",
+  "Ripley_Choice.3": "...",
+  "Ripley_Choice.4": "Chị...#$b#...$2#$b#Xin lỗi nhé. Chị nên viết sẵn ra giấy hay gì đó thì hơn.#$b#Ờm... chị đã nói là chị muốn trả lời chuyện em hỏi hôm bữa, và, ừm... ờ thì, trước tiên, để chị nói rằng—",
+  "Ripley_Choice.5": "Ha ha. Xin lỗi, ờ. $9#$b#Ở đây có nóng không? Tự nhiên thấy bức bối quá trời.$9",
+  "Ripley_Choice.6": "Chị thực sự rất vui vì em muốn thế với chị.#$b#Thật lòng đấy.#$b#Và chị cũng rất muốn nói 'đồng ý', kiểu như, RẤT MUỐN. Nhưng mà—$9",
+  "Ripley_Choice.7": "Đáng lẽ chị nên bắt đầu sớm hơn.#Để chị giúp em một tay.",
+  "Ripley_Choice.8": "...$2#$b#... Rồi. Nhớ cạo phần cháy kỹ kỹ vào nhé.",
+  "Ripley_Choice.9": "...#$b#Em nói đúng. Nghĩ thông được rồi.$2#$b#Em lúc nào chẳng đúng.$2",
+  "Ripley_Choice.10": "Nghe chị nói nhé.$2#$b#Chị yêu cái mình đang có cùng nhau. Thật lòng yêu đó.$2#$b#Nhưng chị không thể rời bỏ ngôi nhà này được, @. Không thể.$2#$b#Đây là nhà chị, nhà của ông bà, ông cố bà cố, của cả dòng họ chị.$2#$b#Một số người thân của chị còn đang yên nghỉ ngay đây... Chị không thể bỏ họ lại thêm lần nào nữa.$2",
+  "Ripley_Choice.11": "Chị muốn tiếp tục cái này với em, theo cách của tụi mình. Dành thời gian bên nhau khi có thể.#$b#Chị sẽ yêu em... từ nơi này.$4",
+  "Ripley_Choice.12": "Cái mặt to đùng đó là sao vậy?'#$b#À ha.#$b#Ờ. Đoán là chị đã cho nó thêm cái miệng rồi.$4",
+  "Ripley_Choice.13": "Chị yêu em đó, @.$2#$b#Chị mong thế là... đủ với em.$2#$b#Nhưng nếu chưa, chị hiểu. Mình vẫn có thể làm bạn.",
+  "Ripley_Choice.14": "Em nghĩ sao?#Chị cũng yêu em. Sống riêng cũng không sao.#Chị cũng yêu em, nhưng chị không thể bên người không thể chuyển tới đây cùng chị.",
+  "Ripley_Choice.15": "Thật hả?$h#$b#Trời ơi... nhẹ cả người.$9#$b#Chị cứ quay cuồng mấy ngày nay, không biết sẽ nói gì với em cho ổn.$9",
+  "Ripley_Choice.16": "Nghe sến chút nhưng... Chị thực sự thích em lắm đó.$4#$b#Chị cứ mải bận rộn, bận đến mức quên luôn cách dừng lại và thật sự... quen ai đó, để họ cũng biết về chị chút chút.#$b#Hóa ra được người khác hiểu cũng không tệ đến thế. Ai mà ngờ.#$b#Em đã giúp chị chậm lại. Chị biết ơn em nhiều lắm.$h",
+  "Ripley_Choice.17": "Ôi trời, thôi đi. Có thể hơi giòn thôi mà.$4#$b#Chị còn khối việc quan trọng hơn phải làm.$6#$b#",
+  "Ripley_Choice.18": "Ờm. Chị... Chị đoán là em sẽ nói vậy.#$b#Biết là yêu cầu to tát, nhưng chị hy vọng có thể bất ngờ chút. Không sao đâu.$2#$b#Mỗi người nên ở bên người hợp với mình. Như mảnh ghép cuối cùng của một câu đố.",
+  "Ripley_Choice.19": "Chị mong tụi mình vẫn có thể là 'tụi mình', ít ra là thế.$2#$b#Chị không nghĩ mình sẽ ngừng thích em đâu, kể cả khi... em biết đấy.$2#$b#Bạn bè.",
+  "Ripley_Choice.20": "Chị nên, ờm, quay lại lo vụ khuấy nồi cơm. Nếu em không phiền.$2#$b#Chỉ cần... đừng biến mất như người xa lạ, được không?#$b#Không cần phải thấy xấu hổ hay gì đâu. Đừng nghĩ chị giận hay buồn gì nha.",
+  "Ripley_Choice.21": "Chị sẽ gặp lại em sau nhé, @.$h",
+
+}

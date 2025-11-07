@@ -1,0 +1,198 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MarlinShop1",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 18,
+            "Y": 15
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop MarlinShop1.18.15 down 600 2600 18 14 18 14"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "MarlinShop1.18.15": {
+          "Owners": [
+            {
+              "Name": "Any",
+              "Dialogues": [
+                {
+                  "Id": "MarlinShop1.18.15.1",
+                  "Dialogue": "{{i18n:Shops.MarlinShop.Any}}"
+                }
+              ]
+            },
+            {
+              "Name": "None",
+              "ClosedMessage": "{{i18n:Shops.MarlinShop.None}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar_MarlinShop_RiverJelly",
+              "ItemId": "(O)RiverJelly",
+              "Price": 300,
+              "AvailableStock": 5,
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current RPB.Marlin.Heart.6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_SeaJelly",
+              "ItemId": "(O)SeaJelly",
+              "Price": 500,
+              "AvailableStock": 2,
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current RPB.Marlin.Heart.6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Fish_Taco",
+              "ItemId": "(O)213",
+              "Price": 300
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Bait",
+              "ItemId": "(O)685",
+              "Price": 5,
+              "Condition": "PLAYER_FISHING_LEVEL Current 2"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Deluxe_Bait",
+              "ItemId": "(O)DeluxeBait",
+              "Price": 100,
+              "Condition": "PLAYER_FISHING_LEVEL Current 4"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Bait_Maker",
+              "ItemId": "(BC)BaitMaker",
+              "Price": 2000,
+              "Condition": "PLAYER_FISHING_LEVEL Current 6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Crab_Pot",
+              "ItemId": "(O)710",
+              "Price": 1500,
+              "Condition": "PLAYER_FISHING_LEVEL Current 3"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Sonar_Bobber",
+              "ItemId": "(O)SonarBobber",
+              "Price": 500,
+              "Condition": "PLAYER_FISHING_LEVEL Current 6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Spinner",
+              "ItemId": "(O)686",
+              "Price": 300
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Dressed_Spinner",
+              "ItemId": "(O)687",
+              "Price": 500
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Barbed_Hook",
+              "ItemId": "(O)691",
+              "Price": 300
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Trap_Bobber",
+              "ItemId": "(O)694",
+              "Price": 500,
+              "Condition": "PLAYER_FISHING_LEVEL Current 6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Lead_Bobber",
+              "ItemId": "(O)692",
+              "Price": 200,
+              "Condition": "PLAYER_FISHING_LEVEL Current 6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Treasure_Hunter",
+              "ItemId": "(O)693",
+              "Price": 750,
+              "Condition": "PLAYER_FISHING_LEVEL Current 7"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Cork_Bobber",
+              "ItemId": "(O)695",
+              "Price": 750,
+              "Condition": "PLAYER_FISHING_LEVEL Current 7"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Cork_Bobber",
+              "ItemId": "(O)695",
+              "Price": 750,
+              "Condition": "PLAYER_FISHING_LEVEL Current 7"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Magnet",
+              "ItemId": "(O)703",
+              "Price": 1000,
+              "Condition": "PLAYER_FISHING_LEVEL Current 9"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Training_Rod",
+              "ItemId": "(T)TrainingRod",
+              "Price": 25
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Bamboo_Pole",
+              "ItemId": "(T)BambooPole",
+              "Price": 100
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Fiberglass_Rod",
+              "ItemId": "(T)FiberglassRod",
+              "Price": 1800,
+              "Condition": "PLAYER_FISHING_LEVEL Current 2"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Iridium_Rod",
+              "ItemId": "(T)IridiumRod",
+              "Price": 7500,
+              "Condition": "PLAYER_FISHING_LEVEL Current 6"
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Fish1",
+              "RandomItemId": [
+                "(O)136",
+                "(O)145",
+                "(O)144",
+                "(O)142",
+                "(O)700",
+                "(O)706"
+              ],
+              "Price": 300,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_MarlinShop_Fish2",
+              "RandomItemId": [
+                "(O)136",
+                "(O)145",
+                "(O)144",
+                "(O)142",
+                "(O)700",
+                "(O)706"
+              ],
+              "Price": 300,
+              "AvailableStock": 1
+            }
+          ],
+          "SalableItemTags": [
+            "category_fish",
+            "category_bait",
+            "category_tackle"
+          ]
+        }
+      }
+    }
+  ]
+}

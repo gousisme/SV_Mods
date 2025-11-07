@@ -1,0 +1,20 @@
+{
+    "Name": "LBXLW_Tailor's Shop Furniture",
+    "Author": "labixiaoluwan",
+    "Version": "1.0.0",
+    "Description": "Add Tailor's Shop Furniture.",
+    "UniqueID": "LBXLW_TailorShop_Furniture",
+    "UpdateKeys": [
+        "Nexus:35613"
+    ],
+    "Dependencies": [
+        {
+         "UniqueID": "sophie.Calcifer",
+         "IsRequired": false
+        }
+    ], 
+    "ContentPackFor": {
+         "UniqueID": "Pathoschild.ContentPatcher",
+         "MinimumVersion": "2.0.0"
+    }
+}

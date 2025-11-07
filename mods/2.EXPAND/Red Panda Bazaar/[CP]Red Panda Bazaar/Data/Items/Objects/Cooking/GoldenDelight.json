@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Golden Delight": "336 20/9999 9999/RedPandaBazaar_Golden_Delight/null/{{i18n:RedPandaBazaar.Object.Golden.Delight.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Golden_Delight": {
+          "Name": "Golden Delight",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Golden.Delight.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Golden.Delight.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 1000,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 31,
+          "Edibility": 150,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Universal_Love"
+          ],
+          "Value": "RedPandaBazaar_Golden_Delight",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

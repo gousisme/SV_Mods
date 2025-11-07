@@ -1,0 +1,65 @@
+{
+  "Name": "Pikachu Hat",
+  "FrontHat": {
+  "DisableGrayscale": true, 
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+
+  "RightHat": {
+  "DisableGrayscale": true, 
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+  "LeftHat": {
+  "DisableGrayscale": true, 
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+
+  "BackHat": {
+  "DisableGrayscale": true, 
+      "StartingPosition": {
+      "X": 0,
+      "Y": 96
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": -2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  }
+}

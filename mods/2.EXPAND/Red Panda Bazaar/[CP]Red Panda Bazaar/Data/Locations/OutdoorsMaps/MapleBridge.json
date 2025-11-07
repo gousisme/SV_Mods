@@ -1,0 +1,102 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_MapleBridge": {
+          "DisplayName": "{{i18n:MapleBridge}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_MapleBridge"
+          },
+          "CanPlantHere": false,
+          "FormerLocationNames": [
+            "MapleBridge"
+          ],
+          "Fish": [
+            {
+              "Id": "(O)137",
+              "ItemId": "(O)137",
+              "Condition": "LOCATION_Season Here Fall Spring"
+            },
+            {
+              "Id": "(O)138",
+              "ItemId": "(O)138",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+            {
+              "Id": "(O)139",
+              "ItemId": "(O)139",
+              "Condition": "LOCATION_Season Here Fall"
+            },
+            {
+              "Id": "(O)140",
+              "ItemId": "(O)137",
+              "Condition": "LOCATION_Season Here Fall Winter"
+            },
+            {
+              "Id": "(O)141",
+              "ItemId": "(O)141",
+              "Condition": "LOCATION_Season Here Winter"
+            },
+            {
+              "Id": "(O)143",
+              "ItemId": "(O)143",
+              "Condition": "LOCATION_Season Here Fall Spring Summer"
+            },
+            {
+              "Id": "(O)144",
+              "ItemId": "(O)144",
+              "Condition": "LOCATION_Season Here Summer Winter"
+            },
+            {
+              "Id": "(O)145",
+              "ItemId": "(O)145",
+              "Condition": "LOCATION_Season Here Spring Summer"
+            },
+            {
+              "Id": "(O)153",
+              "ItemId": "(O)153",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)699",
+              "ItemId": "(O)699",
+              "Condition": "LOCATION_Season Here Fall Winter"
+            },
+            {
+              "Id": "(O)702",
+              "ItemId": "(O)702",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)704",
+              "ItemId": "(O)704",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+            {
+              "Id": "(O)706",
+              "ItemId": "(O)706",
+              "Condition": "LOCATION_Season Here Fall Spring Summer"
+            },
+            {
+              "Id": "(O)707",
+              "ItemId": "(O)707",
+              "Condition": "LOCATION_Season Here Winter"
+            },
+            {
+              "Id": "River Jelly",
+              "ItemId": "RiverJelly",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter",
+              "Chance": 0.06
+            }
+          ],
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+          }
+        }
+      }
+    }
+  ]
+}

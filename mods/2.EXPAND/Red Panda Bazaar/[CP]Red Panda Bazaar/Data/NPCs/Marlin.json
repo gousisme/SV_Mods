@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RedPandaBazaar_Marlin": {
+                    "DisplayName": "{{i18n:NPCName:RedPandaBazaar_Marlin}}",
+                    "HomeRegion": "Other",
+                    "Language": "default",
+                    "Gender": "male",
+                    "Age": "adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "outgoing",
+                    "Optimism": "positive",
+                    "BirthSeason": "spring",
+                    "BirthDay": 27,
+                    "IsDarkSkinned": false,
+                    "CanSocialize": true,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": false,
+                    "LoveInterest": "",
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "DumpsterDiveEmote": 40,
+                    "DumpsterDiveFriendshipEffect":-50,
+                    "WinterStarParticipant": false,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Custom_MarlinShop1",
+                            "Condition": null,
+                            "Location": "Custom_MarlinShop1",
+                            "Tile": {
+                                "X": 22,
+                                "Y": 5
+                            },
+                            "Direction": "up"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_Marlin",
+            "FromFile": "Assets/Sprites/Marlin.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_Marlin",
+            "FromFile": "Assets/Portraits/Marlin.png"
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_MarlinShop1",
+            "Entries": {
+                "RPB.Marlin.Heart.2/t 900 1800/f RedPandaBazaar_Marlin 500": "jaunty/18 11/farmer -100 -100 1 RedPandaBazaar_Marlin 18 14 2 RedPandaBazaar_Chandler 18 16 0 RedPandaBazaar_JojaEmployee.1 21 16 2/skippable/pause 1000/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.1.Chandler}}\"/pause 1000/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.2.Marlin}}\"/pause 500/emote RedPandaBazaar_Marlin 40/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.3.Marlin}}\"/pause 500/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.4.Chandler}}\"/pause 500/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.5.Chandler}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.6.Marlin}}\"/pause 500/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.7.Chandler}}\"/pause 500/emote RedPandaBazaar_Marlin 16/jump RedPandaBazaar_Marlin 8/emote RedPandaBazaar_JojaEmployee.1 16/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.8.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.9.Marlin}}\"/pause 500/emote RedPandaBazaar_Chandler 8/pause 500/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.10.Chandler}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.11.Marlin}}\"/pause 500/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.12.Chandler}}\"/pause 250/advancedMove RedPandaBazaar_Chandler false 0 1 2 2000/pause 1500/faceDirection RedPandaBazaar_Chandler 0 true/pause 500/speak RedPandaBazaar_Chandler \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.13.Chandler}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.2.14.Marlin}}\"/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_MirrorLake",
+            "Entries": {
+                "RPB.Marlin.Heart.4/w sunny/t 1800 2400/e RPB.Marlin.Heart.2/f RedPandaBazaar_Marlin 1000": "jaunty/137 23/farmer 138 30 0 RedPandaBazaar_Marlin 136 25 0/skippable/advancedMove farmer false 0 -5 3 2000/pause 1000/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.1.Marlin}}\"/pause 500/faceDirection RedPandaBazaar_Marlin 1/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.2.Marlin}}\"/pause 500/faceDirection RedPandaBazaar_Marlin 0/pause 500/faceDirection farmer 0/pause 500/quickQuestion #{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.3.Farmer}}#{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.4.Farmer}}#{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.5.Farmer}}(break)speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.6.Marlin}}\"(break)speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.7.Marlin}}\"(break)speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.8.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.9.Marlin}}\"/pause 1000/quickQuestion #{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.10.Farmer}}#{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.11.Farmer}}#{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.12.Farmer}}(break)speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.13.Marlin}}\"(break)speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.14.Marlin}}\"(break)speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.15.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.16.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.4.17.Marlin}}\"/pause 500/end"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_MarlinShop1",
+            "Entries": {
+                "RPB.Marlin.Heart.6/t 900 1800/e RPB.Marlin.Heart.4/f RedPandaBazaar_Marlin 1500": "jaunty/14 14/farmer 1 1 0 RedPandaBazaar_Marlin 14 14 3 RedPandaBazaar_ShiFuShan 18 22 0/Warp farmer -100 -100/skippable/advancedMove RedPandaBazaar_ShiFuShan false 0 -6 -4 0 3 2000/pause 1000/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.1.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.2.Marlin}}\"/pause 1000/speak RedPandaBazaar_ShiFuShan \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.3.ShiFuShan}}\"/pause 500/emote RedPandaBazaar_Marlin 16/faceDirection RedPandaBazaar_Marlin 2/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.4.Marlin}}\"/pause 500/faceDirection RedPandaBazaar_ShiFuShan 0/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.5.ShiFuShan}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.6.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.7.Marlin}}\"/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.8.ShiFuShan}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.9.Marlin}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.10.Marlin}}\"/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.11.ShiFuShan}}\"/pause 500/speak RedPandaBazaar_Marlin \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.12.Marlin}}\"/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:Event.RedPandaBazaar.Marlin.Heart.6.13.ShiFuShan}}\"/pause 1000/end"
+            }
+        },
+        {
+            "LogName": "Marlin's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "RedPandaBazaar_Marlin": "{{i18n:Marlin.GiftTastes.love}}/276 24 258 143 698/{{i18n:Marlin.GiftTastes.like}}/-79 -4 -21 -22/{{i18n:Marlin.GiftTastes.dislike}}/-80 -12/{{i18n:Marlin.GiftTastes.hate}}/-28/{{i18n:Marlin.GiftTastes.neutral}}/-15//"
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Embden, Greylag, Canada, Scania",
+		"Default": "Embden",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Goose”,
+		"FromFile": "assets/{{Type}}Goose.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Goose_Icon",
+		"FromFile": "assets/EmsGooseIcon.png",
+		},
+	]
+}

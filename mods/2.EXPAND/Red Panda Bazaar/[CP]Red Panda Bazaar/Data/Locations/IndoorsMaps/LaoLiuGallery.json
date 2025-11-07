@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LaoLiuGallery1": {
+          "DisplayName": "{{i18n:LaoLiuGallery1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LaoLiuGallery1"
+          },
+          "FormerLocationNames": [
+            "LaoLiuGallery1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LaoLiuGallery2": {
+          "DisplayName": "{{i18n:LaoLiuGallery2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LaoLiuGallery2"
+          },
+          "FormerLocationNames": [
+            "LaoLiuGallery2"
+          ]
+        }
+      }
+    }
+  ]
+}

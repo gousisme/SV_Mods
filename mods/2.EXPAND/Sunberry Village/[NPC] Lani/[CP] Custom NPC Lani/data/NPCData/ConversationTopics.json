@@ -1,0 +1,91 @@
+{
+	"Changes": [
+	//Conversation Topics Dialogue
+		{
+			"LogName": "Lani NPC - Conversation Topics",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LaniSBV",
+			"Entries": {
+				"cc_Begin": "{{i18n:Lani.Dialogue.cc_Begin}}",
+				"cc_Boulder": "{{i18n:Lani.Dialogue.cc_Boulder}}",
+				"cc_Bridge": "{{i18n:Lani.Dialogue.cc_Bridge}}",
+				"cc_Bus": "{{i18n:Lani.Dialogue.cc_Bus{{NoModern}} }}",
+				"cc_Greenhouse": "{{i18n:Lani.Dialogue.cc_Greenhouse}}",
+				"cc_Complete": "{{i18n:Lani.Dialogue.cc_Complete}}",
+				"movieTheater": "{{i18n:Lani.Dialogue.movieTheater}}",
+				"SolarionMMORelease": "{{i18n:Lani.Dialogue.SolarionMMORelease.{{Random:0,1,2}} }}",
+                "luauBest": "{{i18n:Lani.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Lani.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Lani.Dialogue.luauPoisoned{{NoModern}} }}",
+				"AriGetsSlimed": "{{i18n:Lani.Dialogue.AriGetsSlimed{{NoModern}} }}",
+				"TellAbigail": "{{i18n:Lani.Dialogue.TellAbigail}}",
+				"DiggingOnSterling": "{{i18n:Lani.Dialogue.DiggingOnSterling.{{Random:0,1,2,3,4}} }}"
+			}
+		},
+		{
+			"LogName": "Lani NPC - Conversation Topics for other NPCs - Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"TellAbigail": "{{i18n:Lani.Dialogue.TellAbigail_Abigail}}"
+			}
+		},
+		{
+			"LogName": "Lani NPC - Conversation Topics for other NPCs - Pierre",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+				"TellAbigail": "{{i18n:Lani.Dialogue.TellAbigail_Pierre}}"
+			}
+		},
+		{
+			"LogName": "Lani NPC - Conversation Topics for other NPCs - Caroline",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"TellAbigail": "{{i18n:Lani.Dialogue.TellAbigail_Caroline}}"
+			}
+		},
+		{
+			"LogName": "Lani NPC - RSV Conversation Topics",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LaniSBV",
+			"Entries": {
+				"keahi_prank": "{{i18n:Lani.Dialogue.keahi_prank}}",
+                //"event_postweddingreception": "{{i18n:Lani.Dialogue.event_postweddingreception}}"
+			},
+			"When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+		},
+		{
+			"LogName": "Lani NPC - Jorts and Jean Conversation Topics",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LaniSBV",
+			"Entries": {
+				"MeetTheCats": "{{i18n:Lani.Dialogue.MeetTheCats}}"
+			},
+			"When": { "HasMod: |contains=tiakall.jortsandjean": true }
+		},
+		{
+			"LogName": "Lani NPC - Jonghyuk Conversation Topics",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LaniSBV",
+			"Entries": {
+				"JukeboxFire": "{{i18n:Lani.Dialogue.JukeboxFire}}",
+				"dating_Jonghyuk": "{{i18n:Lani.Dialogue.dating_Jonghyuk}}",
+				"SpannerRaccoonRivalry": "{{i18n:Lani.Dialogue.SpannerRaccoonRivalry}}",
+				"SpannerMinesCollapse": "{{i18n:Lani.Dialogue.SpannerMinesCollapse}}",
+				"jhWaterLantern1": "{{i18n:Lani.Dialogue.jhWaterLantern1}}"
+			},
+			"When": { "HasMod: |contains=Arknir.Jonghyuk": true }
+		}
+		/*{
+			"LogName": "Lani NPC - Mod Conversation Topics",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LaniSBV",
+			"Entries": {
+				"JukeboxFire": "{{i18n:Lani.Dialogue.JukeboxFire}}"
+			},
+			"When": { "HasMod: |contains=manifestid": true }
+		}*/
+	]
+}

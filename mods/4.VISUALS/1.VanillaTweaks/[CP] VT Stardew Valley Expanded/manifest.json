@@ -1,0 +1,25 @@
+{
+	"Name": "Vanilla Tweaks Style Stardew Valley Expanded Seeds",
+	"Author": "MarsCBG",
+	"Version": "2.1.0",
+	"Description": "Vanilla Tweaks-Style Stardew Valley Expanded Seeds.",
+	"UniqueID": "MarsCBG.VanillaTweaksSVE",
+	"UpdateKeys": ["Nexus:24669"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+    "Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Taiyo.VanillaTweaks.Farming",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Spiderbuttons.CMCT",
+			"IsRequired": true
+		},
+    ]
+}

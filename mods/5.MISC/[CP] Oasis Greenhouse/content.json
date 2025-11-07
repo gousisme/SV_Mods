@@ -1,0 +1,78 @@
+﻿{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        "UseCellar": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        }
+    },
+    "Changes": [
+        //map
+        {
+            "Action": "Load",
+            "Target": "Maps/Greenhouse",
+            "FromFile": "assets/Greenhouse.tmx"
+        },
+        {
+            "Action":"EditMap",
+            "Target":"Maps/Greenhouse",
+            "FromFile":"assets/Greenhouse_NoCellar.tmx",
+            "PatchMode":"Overlay",
+            "When":{"UseCellar":"false"}
+        },
+        //strings
+        //default
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.1": "{{i18n: 1}}",
+                "dngh.2": "{{i18n: 2}}",
+                "dngh.3": "{{i18n: 3}}",
+                "dngh.4": "{{i18n: 4}}",
+                "dngh.5": "{{i18n: 5}}",
+                "dngh.6": "{{i18n: 6}}",
+                "dngh.7": "{{i18n: 7}}",
+                "dngh.8": "{{i18n: 8}}",
+                "dngh.9": "{{i18n: 9}}",
+                "dngh.10": "{{i18n: 10}}",
+                "dngh.11": "{{i18n: 11}}",
+                "dngh.12": "{{i18n: 12}}",
+                "dngh.13": "{{i18n: 13}}",
+                "dngh.14": "{{i18n: 14}}",
+                "dngh.15": "{{i18n: 15}}",
+                "dngh.16": "{{i18n: 16 |FarmName={{FarmName}}}}"
+            }
+        },
+        //non-alcoholic version
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "dngh.2": "{{i18n:2na}}",
+                "dngh.9": "{{i18n:9na}}",
+                "dngh.10": "{{i18n:10na}}"                
+            },
+            "When": {"UseCellar": "false"}
+        },
+        //minecart
+        {
+            "Action":"EditData",
+            "Target":"Data/Minecarts",
+            "TargetField":["Default","Destinations"],
+            "Entries":{
+                "GreenhouseBasement":{
+                    "Id":"GreenhouseBasement",
+                    "DisplayName":"Greenhouse Basement",
+                    "TargetLocation":"Greenhouse",
+                    "TargetTile":{"X":26,"Y":111},
+                    "TargetDirection":"right"
+                }
+            },
+            "When":{
+                "UseCellar":"true",
+                "HasFlag: anyPlayer |contains=ccPantry": "true"
+            }
+        }
+    ]
+}

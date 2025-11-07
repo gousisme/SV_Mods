@@ -1,0 +1,79 @@
+{
+	"Changes": [
+		{
+			"LogName": "PC's Rattans Furniture Catalogue Data",
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"RF.RattanCatalogueDesk": "Rattan Catalogue Desk/other/2 2/2 1/1/100000/2/{{i18n:RattanCatalogueDesk}}/166/Mods\\PC.RattanFurniture\\FurnitureMedium/true"
+      }
+  },
+
+		{
+			"LogName": "PC's Rattan Furniture Catalogue Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "PC.RattanShop": {
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Items": [
+                        {
+                            "Price": 0,
+                            "AvailableStockLimit": "Global",
+                            "AvoidRepeat": false,
+                            "UseObjectDataPrice": false,
+                            "IgnoreShopPriceModifiers": false,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "AvailableStockModifiers": null,
+                            "AvailableStockModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "ALL_ITEMS (F)",
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_RattanFurniture"
+                        }
+                    ],
+                    "CustomFields": {
+                        "HappyHomeDesigner/Catalogue": "true"
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "Add Catalogue Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)RF.RattanCatalogueDesk": {
+                    "TileActions": [
+                        {
+                            "TileAction": "OpenShop PC.RattanShop"
+                        }
+					]
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Carpenter",
+                "Items"
+            ],
+            "Entries": {
+                "RattanCatalogueDesk": {
+                    "Id": "RF.RattansCatalogueDesk",
+                    "ItemId": "(F)RF.RattanCatalogueDesk",
+                    "UseObjectDataPrice": true
+                }
+            }
+        }
+            
+
+	]
+}
+

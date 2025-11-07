@@ -1,0 +1,202 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockbrown"],
+			"Entries":{
+					"EggItemIds": ["{{ModId}}_FertEggBrown"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockwhite"],
+			"Entries":{
+				"EggItemIds": ["{{ModId}}_FertEggWhite"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockvoid"],
+			"Entries":{
+				"EggItemIds": ["{{ModId}}_FertEggVoid"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockblue"],
+			"Entries":{
+				"EggItemIds": ["{{ModId}}_FertEggBlue"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockgold"],
+			"Entries":{
+				"EggItemIds": ["{{ModId}}_FertEggGold"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockbrown"],
+			"Entries": {
+				"EggItemIds": ["180", "182", "{{ModId}}_FertEggBrown"]
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockwhite"],
+			"Entries": {
+				"EggItemIds": ["174", "176", "{{ModId}}_FertEggWhite"]
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockvoid"],
+			"Entries": {
+				"EggItemIds": ["305", "{{ModId}}LargevoidEgg", "{{ModId}}_FertEggVoid"]
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockblue"],
+			"Entries":{
+				"EggItemIds": ["{{ModId}}BlueEgg", "{{ModId}}BlueEgg", "{{ModId}}_FertEggBlue"]
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["cockgold"],
+			"Entries": {
+				"EggItemIds": ["928", "{{ModId}}LargegoldEgg", "{{ModId}}_FertEggGold"]
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Brown Chicken"],
+			"Entries": {
+				"EggItemIds": null
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["White Chicken"],
+			"Entries": {
+				"EggItemIds": null
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Blue Chicken"],
+			"Entries": {
+				"EggItemIds": null
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Void Chicken"],
+			"Entries": {
+				"EggItemIds": null
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Golden Chicken"],
+			"Entries": {
+				"EggItemIds": null
+			},
+			"When": {
+				"FinEggPerc": "true",
+			}
+		},		
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Blue Chicken"],
+			"Entries": {
+				"EggItemIds": ["{{ModId}}BlueEgg", "{{ModID}}LargeBlueEgg"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Golden Chicken"],
+			"Entries": {
+				"EggItemIds": ["928", "{{ModId}}LargegoldEgg"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": ["Void Chicken"],
+			"Entries": {
+				"EggItemIds": ["305", "{{ModID}}LargevoidEgg"]
+			},
+			"When": {
+				"FinEggPerc": "false",
+			}
+		},
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"Changes": [
+		{
+			"LogName": "Romance Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/EliasSBV",
+			"Entries": {
+				"AcceptBouquet": "{{i18n:Romance.AcceptBouquet.Elias}}",
+				"SpouseStardrop": "{{i18n:Romance.SpouseStardrop.Elias}}",
+				"RejectBouquet": "{{i18n:Romance.RejectBouquet.Elias}}",
+				"FlowerDance_Accept": "{{i18n:Romance.FlowerDanceAccept.Elias}}",
+				"FlowerDance_Decline": "{{i18n:Romance.FlowerDanceDecline.Elias}}"
+			}
+		},
+		{
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"EliasSBV0": "{{i18n:Romance.Engagement.Elias0}}",
+				"EliasSBV1": "{{i18n:Romance.Engagement.Elias1}}"
+			}
+		}
+	]
+}

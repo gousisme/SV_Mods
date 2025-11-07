@@ -1,0 +1,304 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"SASS Pixie Dust Totems",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "{{ModId}}_Frog_Totem": {
+                "Name": "{{ModId}}_Frog_Totem",
+                "DisplayName": "{{i18n:SASS_Frog_Totem.name}}",
+                "Description": "{{i18n:SASS_Frog_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 80
+        },
+            "{{ModId}}_Grotto_Totem": {
+                "Name": "{{ModId}}_Grotto_Totem",
+                "DisplayName": "{{i18n:SASS_Grotto_Totem.name}}",
+                "Description": "{{i18n:SASS_Grotto_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 81
+        },
+            "{{ModId}}_Ruins_Totem": {
+                "Name": "{{ModId}}_Ruins_Totem",
+                "DisplayName": "{{i18n:SASS_Ruins_Totem.name}}",
+                "Description": "{{i18n:SASS_Ruins_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 82
+        },
+            "{{ModId}}_Mushroom_Totem": {
+                "Name": "{{ModId}}_Mushroom_Totem",
+                "DisplayName": "{{i18n:SASS_Mushroom_Totem.name}}",
+                "Description": "{{i18n:SASS_Mushroom_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 83
+        },
+            "{{ModId}}_Rainforest_Totem": {
+                "Name": "{{ModId}}_Rainforest_Totem",
+                "DisplayName": "{{i18n:SASS_Rainforest_Totem.name}}",
+                "Description": "{{i18n:SASS_Rainforest_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 84
+        },
+            "{{ModId}}_Farmhouse_Totem": {
+                "Name": "{{ModId}}_Farmhouse_Totem",
+                "DisplayName": "{{i18n:SASS_Farmhouse_Totem.name}}",
+                "Description": "{{i18n:SASS_Farmhouse_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 85
+        },
+            "{{ModId}}_OldForest_Totem": {
+                "Name": "{{ModId}}_OldForest_Totem",
+                "DisplayName": "{{i18n:SASS_OldForest_Totem.name}}",
+                "Description": "{{i18n:SASS_OldForest_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 86
+        },
+            "{{ModId}}_Berry_Totem": {
+                "Name": "{{ModId}}_Berry_Totem",
+                "DisplayName": "{{i18n:SASS_Berry_Totem.name}}",
+                "Description": "{{i18n:SASS_Berry_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 87
+        },
+            "{{ModId}}_CrystalCave_Totem": {
+                "Name": "{{ModId}}_CrystalCave_Totem",
+                "DisplayName": "{{i18n:SASS_CrystalCave_Totem.name}}",
+                "Description": "{{i18n:SASS_CrystalCave_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 88
+        },
+            "{{ModId}}_Orchard_Totem": {
+                "Name": "{{ModId}}_Orchard_Totem",
+                "DisplayName": "{{i18n:SASS_Orchard_Totem.name}}",
+                "Description": "{{i18n:SASS_Orchard_Totem.description}}",
+                "Type": "ArtisanGoods",
+                "Category": -27,
+                "Edibility": -300,
+                "Price": 400,
+                "ExcludeFromShippingCollection":true,
+                "ContextTags":
+                [
+                "magical_item",
+                "totem_item",
+                "color_light_blue"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 89
+        }
+    }
+    },
+
+    {
+          "LogName": "Add Totem Crafting Recipes",
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Entries": {
+              "{{ModId}}_Frog_Totem": "{{ModId}}_Valerian 1 {{ModId}}_Avalune 1 Moss 5/Home/{{ModId}}_Frog_Totem/false/null/{{i18n:SASS_Frog_Totem.name}}",
+              "{{ModId}}_Grotto_Totem": "{{ModId}}_Pearl_MoonDrop 1 {{ModId}}_Seafoam_Waxcap 1 Moss 5/Home/{{ModId}}_Grotto_Totem/false/null/{{i18n:SASS_Grotto_Totem.name}}",
+              "{{ModId}}_Ruins_Totem": "{{ModId}}_Yarrow 1 {{ModId}}_Sugar_Plum 1 Moss 5/Home/{{ModId}}_Ruins_Totem/false/null/{{i18n:SASS_Ruins_Totem.name}}",
+              "{{ModId}}_Mushroom_Totem": "{{ModId}}_Candy_Button 1 {{ModId}}_Baby_Bluegill 1 Moss 5/Home/{{ModId}}_Mushroom_Totem/false/null/{{i18n:SASS_Mushroom_Totem.name}}",
+              "{{ModId}}_Rainforest_Totem": "{{ModId}}_Banana 1 {{ModId}}_Mango 1 Moss 5/Home/{{ModId}}_Rainforest_Totem/false/null/{{i18n:SASS_Rainforest_Totem.name}}",
+              "{{ModId}}_Farmhouse_Totem": "{{ModId}}_Mugwort 1 {{ModId}}_Apple 1 Moss 5/Home/{{ModId}}_Farmhouse_Totem/false/null/{{i18n:SASS_Farmhouse_Totem.name}}",
+              "{{ModId}}_OldForest_Totem": "{{ModId}}_Thistle 1 {{ModId}}_Pomegranate 1 Moss 5/Home/{{ModId}}_OldForest_Totem/false/null/{{i18n:SASS_OldForest_Totem.name}}",
+              "{{ModId}}_Berry_Totem": "{{ModId}}_Amber_MoonDrop 1 {{ModId}}_Lapis_MoonDrop 1 Moss 5/Home/{{ModId}}_Berry_Totem/false/null/{{i18n:SASS_Berry_Totem.name}}",
+              "{{ModId}}_CrystalCave_Totem": "{{ModId}}_Jade_MoonDrop 1 {{ModId}}_Unicorn_Horn 1 Moss 5/Home/{{ModId}}_CrystalCave_Totem/false/null/{{i18n:SASS_CrystalCave_Totem.name}}",
+              "{{ModId}}_Orchard_Totem": "{{ModId}}_Peach 1 {{ModId}}_Cherry 1 Moss 5/Home/{{ModId}}_Orchard_Totem/false/null/{{i18n:SASS_Orchard_Totem.name}}"
+            }
+          },
+
+        {
+            "LogName": "SASS NC BONUS Letter",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ModId}}_Totem_Recipes":"{{i18n: SASS_Totem_Recipes.text}} %action MarkCraftingRecipeKnown Current {{ModId}}_Frog_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_Grotto_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_Ruins_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_Mushroom_Totem%%  %action MarkCraftingRecipeKnown Current {{ModId}}_Rainforest_Totem%%  %action MarkCraftingRecipeKnown Current {{ModId}}_Farmhouse_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_OldForest_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_Berry_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_CrystalCave_Totem%% %action MarkCraftingRecipeKnown Current {{ModId}}_Orchard_Totem%%[#]{{i18n: SASS_Totem_Recipes.name}}",
+            }
+        },
+
+        
+        {
+            "LogName":"SASS NC Bonus Mail Trigger",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Totem_Recipes_Trigger": {
+                    "Id": "{{ModId}}_Totem_Recipes_Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current WildflourSASS 2500",
+                    "Action": "AddMail Current {{ModId}}_Totem_Recipes tomorrow"
+                },
+            }
+        },
+
+    //add totem functionality
+
+    {
+        "Action": "EditData",
+        "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+        "Entries": {
+            "{{ModId}}_Berry_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_BerryGrove",
+                    "Position": "12, 24"
+                }
+            },
+            "{{ModId}}_CrystalCave_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_CrystalCave",
+                    "Position": "27, 21"
+                }
+            },
+            "{{ModId}}_Farmhouse_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_AbandonedFarmhouse",
+                    "Position": "49, 22"
+                }
+            },
+            "{{ModId}}_Frog_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_FrogHollow",
+                    "Position": "28, 37"
+                }
+            },
+            "{{ModId}}_Grotto_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_MermaidGrotto",
+                    "Position": "27, 27"
+                }
+            },
+            "{{ModId}}_Mushroom_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_MysticalForest",
+                    "Position": "14, 35"
+                }
+            },
+            "{{ModId}}_OldForest_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_OldForest",
+                    "Position": "49, 34"
+                }
+            },
+            "{{ModId}}_Orchard_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_SecretOrchard",
+                    "Position": "31, 13"
+                }
+            },
+            "{{ModId}}_Rainforest_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_RainforestRetreat",
+                    "Position": "36, 49"
+                }
+            },
+            "{{ModId}}_Ruins_Totem": {
+                "TotemWarp": {
+                    "Location": "Wildflour.NooksCrannies_Ruins",
+                    "Position": "12, 1"
+                }
+            }
+        }
+    }
+
+    ]
+}

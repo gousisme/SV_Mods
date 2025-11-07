@@ -1,0 +1,237 @@
+{
+
+"Changes":[
+
+// ADJUST SEASONS FOR FRUIT TREES //
+
+    {
+        "LogName": "Changes to Fruit Tree Seasons",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "Fields": {
+            "633": {"Seasons": ["spring","fall"]},
+            "629": {"Seasons": ["spring","fall"]},
+            "69":  {"Seasons": ["summer","winter"]},
+            "628": {"Seasons": ["spring","fall"]},
+            "835": {"Seasons": [ "summer","winter" ]},
+            "630": {"Seasons": ["summer","winter"]},
+            "631": {"Seasons": ["summer","winter"]},
+            "632": {"Seasons": ["spring","fall"]}
+        }
+    },
+
+// AMBROSIA APPLE //
+
+    {
+        "LogName":"Add Ambrosia Apple to Apple Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["633","Fruit"],
+        "Entries": {
+            "{{ModId}}_Apple": {
+                "Season": "spring",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Apple",
+                "ItemId": "(O){{ModId}}_Apple"
+            }
+        }
+    },
+
+    {
+        "LogName": "Apple Trees Fall Produces",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": [ "633","Fruit","Default"],
+        "Entries": {"Season": "fall"}
+    },
+
+// MOONGOLD APRICOT //
+
+    {
+        "LogName":"Add Moongold Apricot to Apricot Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["629","Fruit"],
+        "Entries": {
+            "{{ModId}}_Apricot": {
+                "Season": "fall",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Apricot",
+                "ItemId": "(O){{ModId}}_Apricot"
+            }
+        }
+    },
+
+    {
+        "LogName": "Apricot Trees Spring Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["629","Fruit","Default"],
+        "Entries": {"Season": "spring"}
+    },
+
+// LADYFINGER BANANA //
+
+    {
+        "LogName":"Add LadyFinger Banana to Banana Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["69","Fruit"],
+        "Entries": {
+            "{{ModId}}_Banana": {
+                "Season": "winter",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Banana",
+                "ItemId": "(O){{ModId}}_Banana",
+                "StackModifiers": [],
+                "StackModifierMode": "Stack"
+            }
+        }
+    },
+
+    {
+        "LogName": "Banana Trees Summer Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["69","Fruit","Default"],
+        "Entries": {"Season": "summer"}
+    },
+
+// METEOR SOUR CHERRY //
+
+    {
+        "LogName":"Add Meteor Sour Cherry to Cherry Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["628","Fruit"],
+        "Entries": {
+            "{{ModId}}_Cherry": {
+                "Season": "fall",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Cherry",
+                "ItemId": "(O){{ModId}}_Cherry",
+                "StackModifiers": [],
+                "StackModifierMode": "Stack"
+            }
+        }
+    },
+
+    {
+        "LogName": "Cherry Trees Spring Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["628","Fruit","Default"],
+        "Entries": {"Season": "spring"}
+    },
+
+// SUNSET MANGO //
+
+    {
+        "LogName":"Add Sunset Mango to Mango Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["835","Fruit"],
+        "Entries": {
+            "{{ModId}}_Mango": {
+                "Season": "winter",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Mango",
+                "ItemId": "(O){{ModId}}_Mango",
+                "StackModifiers": [],
+                "StackModifierMode": "Stack"
+            }
+        }
+    },
+
+    {
+        "LogName": "Mango Trees Summer Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": [ "835","Fruit", "Default"],
+        "Entries": {"Season": "summer"}
+    },
+
+// BLOOD ORANGE //
+
+    {
+        "LogName":"Add Blood Orange to Orange Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["630","Fruit"],
+        "Entries": {       
+            "{{ModId}}_Orange": {
+                "Season": "winter",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Orange",
+                "ItemId": "(O){{ModId}}_Orange",
+                "StackModifiers": [],
+                "StackModifierMode": "Stack"
+            }
+        }
+    },
+
+    {
+        "LogName": "Orange Trees Summer Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["630","Fruit","Default"],
+        "Entries": {"Season": "summer"}
+    },
+
+// SNOW BEAUTY PEACH //
+
+    {
+        "LogName":"Add Snow Peach to Peach Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["631","Fruit"],
+        "Entries": {              
+            "{{ModId}}_Peach": {
+                "Season": "winter",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Peach",
+                "ItemId": "(O){{ModId}}_Peach",
+                "StackModifiers": [],
+                "StackModifierMode": "Stack"
+            }
+        }
+    },
+    {
+        "LogName": "Peach Trees Summer Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["631","Fruit","Default"],
+        "Entries": {"Season": "summer"}
+    },
+
+// EVERSWEET POMEGRANATE //
+
+    {
+        "LogName":"Add Eversweet Pomegranate to Pomegranate Tree",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["632","Fruit"],
+        "Entries": {              
+            "{{ModId}}_Pomegranate": {
+                "Season": "spring",
+                "Chance": 0.2,
+                "Id": "{{ModId}}_Pomegranate",
+                "ItemId": "(O){{ModId}}_Pomegranate",
+                "StackModifiers": [],
+                "StackModifierMode": "Stack"
+            }
+        }
+    },
+
+    {
+        "LogName": "Pomegranate Trees Fall Produce",
+        "Action": "EditData",
+        "Target": "Data/FruitTrees",
+        "TargetField": ["632","Fruit","Default"],
+        "Entries": {"Season": "fall"}
+    }
+
+]
+
+
+}

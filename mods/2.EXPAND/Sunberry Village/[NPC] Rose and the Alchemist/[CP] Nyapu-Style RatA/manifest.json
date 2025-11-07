@@ -1,0 +1,19 @@
+{
+  "Name": "Nyapu-Style Rose and the Alchemist",
+  "Author": "nugmods",
+  "Version": "1.0",
+  "Description": "Nyapu-Style portraits for Rose and the Alchemist",
+
+  "UniqueID": "nugmods.nyapurosealchemist",
+  "UpdateKeys": [ "Nexus:null" ],
+
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Wildflour.SASS",
+      "IsRequired": true
+    }
+  ]
+}

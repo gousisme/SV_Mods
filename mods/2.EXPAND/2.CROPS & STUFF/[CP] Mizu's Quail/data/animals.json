@@ -1,0 +1,464 @@
+{
+	"Changes": [
+		// add quail
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+            "Entries": {
+                "Mizu.Quail_PlumedQuail": {
+					"DisplayName": "{{i18n:PlumedQuail_name}}",
+					"House": "Coop",
+					"Gender": "Female",
+					"PurchasePrice": 250,
+					"SellPrice": 500,
+					"ShopTexture": "Mizu.Quail/shopicon",
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 21,
+					  "Height": 16
+					},
+					"ShopDisplayName": "{{i18n:Quail_name}}",
+					"ShopDescription": "{{i18n:Quail_description}}\\n[LocalizedText Strings\\StringsFromCSFiles:PurchaseAnimalsMenu.cs.11335]",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+					"AlternatePurchaseTypes": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"AnimalIds": [
+							"Mizu.Quail_PlumedQuail",
+							"Mizu.Quail_BobwhiteQuail"
+						]
+					  }
+					],
+					"RequiredBuilding": "Coop",
+					"UnlockCondition": null,
+					"EggItemIds": [
+					  "Mizu.Quail_QuailEgg",
+					  "Mizu.Quail_LargeQuailEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 1,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_QuailEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_LargeQuailEgg"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Quail_QuailSound",
+					"BabySound": null,
+					"Texture": "Mizu.Quail/PlumedQuail",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Quail/BabyPlumedQuail",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 16,
+					"SpriteHeight": 16,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "QuailEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Quail_QuailMeat"
+					}
+				},
+				"Mizu.Quail_BobwhiteQuail": {
+					"DisplayName": "{{i18n:BobwhiteQuail_name}}",
+					"House": "Coop",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 500,
+					"ShopTexture": null,
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 0,
+					  "Height": 0
+					},
+					"ShopDisplayName": null,
+					"ShopDescription": null,
+				    "ShopMissingBuildingDescription": null,
+					"RequiredBuilding": null,
+					"UnlockCondition": null,
+					"AlternatePurchaseTypes": null,
+					"EggItemIds": [
+					  "Mizu.Quail_QuailEgg",
+					  "Mizu.Quail_LargeQuailEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 1,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_QuailEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_LargeQuailEgg"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Quail_QuailSound",
+					"BabySound": null,
+					"Texture": "Mizu.Quail/BobwhiteQuail",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Quail/BabyQuail",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 16,
+					"SpriteHeight": 16,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "QuailEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Quail_QuailMeat"
+					}
+				}
+			}
+		},
+				
+		// add common quail
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+            "Entries": {
+				"Mizu.Quail_CommonQuail": {
+					"DisplayName": "{{i18n:CommonQuail_name}}",
+					"House": "Coop",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 500,
+					"ShopTexture": null,
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 0,
+					  "Height": 0
+					},
+					"ShopDisplayName": null,
+					"ShopDescription": null,
+				    "ShopMissingBuildingDescription": null,
+					"RequiredBuilding": null,
+					"UnlockCondition": null,
+					"AlternatePurchaseTypes": null,
+					"EggItemIds": [
+					  "Mizu.Quail_QuailEgg",
+					  "Mizu.Quail_LargeQuailEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 1,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_QuailEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_LargeQuailEgg"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Quail_QuailSound",
+					"BabySound": null,
+					"Texture": "Mizu.Quail/CommonQuail",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Quail/BabyQuail",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 16,
+					"SpriteHeight": 16,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "QuailEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Quail_QuailMeat"
+					}
+				}
+			},
+			"When": {
+				"Enable Common Quail": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [ "Mizu.Quail_PlumedQuail", "AlternatePurchaseTypes", "Default", "AnimalIds" ],
+			"Entries": {
+				"#-1": "Mizu.Quail_CommonQuail"
+			},
+			"When": {
+				"Enable Common Quail": true
+			}
+		},
+				
+		// add scaled quail
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+            "Entries": {
+				"Mizu.Quail_ScaledQuail": {
+					"DisplayName": "{{i18n:ScaledQuail_name}}",
+					"House": "Coop",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 500,
+					"ShopTexture": null,
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 0,
+					  "Height": 0
+					},
+					"ShopDisplayName": null,
+					"ShopDescription": null,
+				    "ShopMissingBuildingDescription": null,
+					"RequiredBuilding": null,
+					"UnlockCondition": null,
+					"AlternatePurchaseTypes": null,
+					"EggItemIds": [
+					  "Mizu.Quail_QuailEgg",
+					  "Mizu.Quail_LargeQuailEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 1,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_QuailEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Quail_LargeQuailEgg"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Quail_QuailSound",
+					"BabySound": null,
+					"Texture": "Mizu.Quail/ScaledQuail",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Quail/BabyQuail",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 16,
+					"SpriteHeight": 16,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "QuailEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Quail_QuailMeat"
+					}
+				}
+			},
+			"When": {
+				"Enable Scaled Quail": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [ "Mizu.Quail_PlumedQuail", "AlternatePurchaseTypes", "Default", "AnimalIds" ],
+			"Entries": {
+				"#-1": "Mizu.Quail_ScaledQuail"
+			},
+			"When": {
+				"Enable Scaled Quail": true
+			}
+		}
+	]
+}

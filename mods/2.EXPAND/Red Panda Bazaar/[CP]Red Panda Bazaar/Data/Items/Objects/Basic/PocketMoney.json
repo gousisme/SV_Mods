@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Pocket_Money": {
+          "Name": "Pocket Money",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Pocket.Money.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Pocket.Money.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1000,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Pierre",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pocket_Money",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

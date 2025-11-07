@@ -1,0 +1,188 @@
+{
+	"Changes": [
+		{
+			"LogName": "Alchemist Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/WildflourSASS",
+			"Entries": {
+				"Introduction": "{{i18n:Alchemist_Dialogue.Introduction}}",
+				//spring
+				"spring_12": "{{i18n:Alchemist_Dialogue.spring_12}}",
+				"spring_23": "{{i18n:Alchemist_Dialogue.spring_23}}",
+				//summer
+				"summer_1": "{{i18n:Alchemist_Dialogue.summer_1}}",
+				"summer_10": "{{i18n:Alchemist_Dialogue.summer_10}}",
+				"summer_27": "{{i18n:Alchemist_Dialogue.summer_27}}",
+				//fall
+				"fall_1": "{{i18n:Alchemist_Dialogue.fall_1}}",
+				"fall_15": "{{i18n:Alchemist_Dialogue.fall_15}}",
+				"fall_26": "{{i18n:Alchemist_Dialogue.fall_26}}",
+				//winter
+				"winter_1": "{{i18n:Alchemist_Dialogue.winter_1}}",
+				"winter_7": "{{i18n:Alchemist_Dialogue.winter_7}}",
+				"winter_14": "{{i18n:Alchemist_Dialogue.winter_14}}",
+				"BeachNightMarket": "{{i18n:Alchemist_Dialogue.winter_16}}",
+				"winter_24": "{{i18n:Alchemist_Dialogue.winter_24}}",
+				//days of the week
+				//0 Hearts
+				"Mon": "{{i18n:Alchemist_Dialogue.Mon}}",
+				"Tue": "{{i18n:Alchemist_Dialogue.Tue}}",
+				"Wed": "{{i18n:Alchemist_Dialogue.Wed}}",
+				"Thu": "{{i18n:Alchemist_Dialogue.Thu}}",
+				"Fri": "{{i18n:Alchemist_Dialogue.Fri}}",
+				"Sat": "{{i18n:Alchemist_Dialogue.Sat}}",
+				"Sun": "{{i18n:Alchemist_Dialogue.Sun}}",
+				//2 Hearts
+				"Mon2": "{{i18n:Alchemist_Dialogue.Mon2}}",
+				"Tue2": "{{i18n:Alchemist_Dialogue.Tue2}}",
+				"Wed2": "{{i18n:Alchemist_Dialogue.Wed2}}",
+				"Thu2": "{{i18n:Alchemist_Dialogue.Thu2}}",
+				"Fri2": "{{i18n:Alchemist_Dialogue.Fri2}}",
+				"Sat2": "{{i18n:Alchemist_Dialogue.Sat2}}",
+				"Sun2": "{{i18n:Alchemist_Dialogue.Sun2}}",
+				//4 Hearts
+				"Mon4": "{{i18n:Alchemist_Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Alchemist_Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Alchemist_Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Alchemist_Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Alchemist_Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Alchemist_Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Alchemist_Dialogue.Sun4}}",
+				//6 Hearts
+				"Mon6": "{{i18n:Alchemist_Dialogue.Mon6}}",
+				"Tue6": "{{i18n:Alchemist_Dialogue.Tue6}}",
+				"Wed6": "{{i18n:Alchemist_Dialogue.Wed6}}",
+				"Thu6": "{{i18n:Alchemist_Dialogue.Thu6}}",
+				"Fri6": "{{i18n:Alchemist_Dialogue.Fri6}}",
+				"Sat6": "{{i18n:Alchemist_Dialogue.Sat6}}",
+				"Sun6": "{{i18n:Alchemist_Dialogue.Sun6}}",
+				//8 Hearts
+				"Mon8": "{{i18n:Alchemist_Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Alchemist_Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Alchemist_Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Alchemist_Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Alchemist_Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Alchemist_Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Alchemist_Dialogue.Sun8}}",
+				//10 Hearts
+				"Mon10": "{{i18n:Alchemist_Dialogue.Mon10}}",
+				"Tue10": "{{i18n:Alchemist_Dialogue.Tue10}}",
+				"Wed10": "{{i18n:Alchemist_Dialogue.Wed10}}",
+				"Thu10": "{{i18n:Alchemist_Dialogue.Thu10}}",
+				"Fri10": "{{i18n:Alchemist_Dialogue.Fri10}}",
+				"Sat10": "{{i18n:Alchemist_Dialogue.Sat10}}",
+				"Sun10": "{{i18n:Alchemist_Dialogue.Sun10}}",
+
+				//Green Rain
+				"GreenRain": "{{i18n:Alchemist_Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Alchemist_Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Alchemist_Dialogue.GreenRain_2}}",
+				
+				//Gift Dialogue
+
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift_Positive.Alchemist}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift_Negative.Alchemist}}",
+
+				
+
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/WildflourSASS",
+			"Entries": {
+				"TwilightFestival.000": "{{i18n:Alchemist_Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Alchemist_Dialogue.TwilightFestival2}}"
+			}
+		},
+
+		{
+			"LogName": "Rose Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/RoseSASS",
+			"Entries": {
+				"Introduction": "{{i18n:Rose_Dialogue.Introduction}}",
+				//spring
+				"spring_12": "{{i18n:Rose_Dialogue.spring_12}}",
+				"spring_23": "{{i18n:Rose_Dialogue.spring_23}}",
+				//summer
+				"summer_1": "{{i18n:Rose_Dialogue.summer_1}}",
+				"summer_10": "{{i18n:Rose_Dialogue.summer_10}}",
+				"summer_27": "{{i18n:Rose_Dialogue.summer_27}}",
+				//fall
+				"fall_1": "{{i18n:Rose_Dialogue.fall_1}}",
+				"fall_15": "{{i18n:Rose_Dialogue.fall_15}}",
+				"fall_26": "{{i18n:Rose_Dialogue.fall_26}}",
+				//winter
+				"winter_1": "{{i18n:Rose_Dialogue.winter_1}}",
+				"winter_7": "{{i18n:Rose_Dialogue.winter_7}}",
+				"winter_14": "{{i18n:Rose_Dialogue.winter_14}}",
+				"BeachNightMarket": "{{i18n:Rose_Dialogue.winter_16}}",
+				"winter_24": "{{i18n:Rose_Dialogue.winter_24}}",
+				//days of the week
+				//0 Hearts
+				"Mon": "{{i18n:Rose_Dialogue.Mon}}",
+				"Tue": "{{i18n:Rose_Dialogue.Tue}}",
+				"Wed": "{{i18n:Rose_Dialogue.Wed}}",
+				"Thu": "{{i18n:Rose_Dialogue.Thu}}",
+				"Fri": "{{i18n:Rose_Dialogue.Fri}}",
+				"Sat": "{{i18n:Rose_Dialogue.Sat}}",
+				"Sun": "{{i18n:Rose_Dialogue.Sun}}",
+				//2 Hearts
+				"Mon2": "{{i18n:Rose_Dialogue.Mon2}}",
+				"Tue2": "{{i18n:Rose_Dialogue.Tue2}}",
+				"Wed2": "{{i18n:Rose_Dialogue.Wed2}}",
+				"Thu2": "{{i18n:Rose_Dialogue.Thu2}}",
+				"Fri2": "{{i18n:Rose_Dialogue.Fri2}}",
+				"Sat2": "{{i18n:Rose_Dialogue.Sat2}}",
+				"Sun2": "{{i18n:Rose_Dialogue.Sun2}}",
+				//4 Hearts
+				"Mon4": "{{i18n:Rose_Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Rose_Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Rose_Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Rose_Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Rose_Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Rose_Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Rose_Dialogue.Sun4}}",
+				//6 Hearts
+				"Mon6": "{{i18n:Rose_Dialogue.Mon6}}",
+				"Tue6": "{{i18n:Rose_Dialogue.Tue6}}",
+				"Wed6": "{{i18n:Rose_Dialogue.Wed6}}",
+				"Thu6": "{{i18n:Rose_Dialogue.Thu6}}",
+				"Fri6": "{{i18n:Rose_Dialogue.Fri6}}",
+				"Sat6": "{{i18n:Rose_Dialogue.Sat6}}",
+				"Sun6": "{{i18n:Rose_Dialogue.Sun6}}",
+				//8 Hearts
+				"Mon8": "{{i18n:Rose_Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Rose_Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Rose_Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Rose_Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Rose_Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Rose_Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Rose_Dialogue.Sun8}}",
+				//10 Hearts
+				"Mon10": "{{i18n:Rose_Dialogue.Mon10}}",
+				"Tue10": "{{i18n:Rose_Dialogue.Tue10}}",
+				"Wed10": "{{i18n:Rose_Dialogue.Wed10}}",
+				"Thu10": "{{i18n:Rose_Dialogue.Thu10}}",
+				"Fri10": "{{i18n:Rose_Dialogue.Fri10}}",
+				"Sat10": "{{i18n:Rose_Dialogue.Sat10}}",
+				"Sun10": "{{i18n:Rose_Dialogue.Sun10}}",
+
+				//Green Rain
+				"GreenRain": "{{i18n:Rose_Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Rose_Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Rose_Dialogue.GreenRain_2}}",
+				
+				//Gift Dialogue
+
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift_Positive.Rose}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift_Negative.Rose}}"
+
+			}
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "LogName": "Ripley's Twilight Festival Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {               
+                "Clara.Ripley_TwilightShop": {
+                "ID": "Clara.Ripley_TwilightShop",
+                "Owners": [
+                    {
+                        "Condition": null,
+                        "Portrait": "Clara.Ripley",
+                        "Dialogues": [
+                            {
+                                "Dialogue": "{{i18n:Ripley.Dialogue.TwilightShop}}"
+                            }
+                        ],
+                        "Name": "Clara.Ripley",
+                        "Id": "Clara.Ripley"
+                    },
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "NobodyPresent",
+                        "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
+                    }
+                ],
+                "PriceModifiers": null,
+                "Items": [
+                    {
+                        "Id": "RipleyProducts",
+                        "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 5 (O)276 (O)270 (O)266 (O)296 (O)344 (O)637 (O)259 (O)422 (O)417 (O)428 (O)186", //(O)276//pumpkin (O)270//corn (O)266//red cabbage (O)296//salmonberry (O)344//jelly (O)637//pomegranate (O)259//fiddlehead (O)422//purple mushroom (O)417//sweet gem berry (O)428//cloth (O)186//large milk"
+                        "TradeItemId": "skellady.SBVCP_TwilightFeather",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": 5,
+                        "AvailableStockLimit": "Global",
+                        "QualityModifiers": [
+                            {
+                                "Modification": "Set",
+                                "Amount": 2  // 0 - no quality, 1 - silver, 2 - gold, 4 - iridium
+                            }
+                        ]
+                    }
+                ]
+            }
+
+            }
+        }
+    ]
+}

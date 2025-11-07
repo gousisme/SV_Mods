@@ -1,0 +1,3725 @@
+{
+  "Format": "2.0.6",
+  "ConfigSchema": {
+    "Amaranth": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Apple": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Blackberry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Chanterelle": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "Blue Jazz": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Flowers"
+    },
+    "Duck Egg": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Aged Roe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Ancient Fruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Apricot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Artichoke": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Banana": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Battery Pack": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Bat Wing": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Monster Loot"
+    },
+    "Beer": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Beet": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Blueberry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Bok Choy": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Bone Fragment": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Broccoli": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Bug Meat": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Monster Loot"
+    },
+    "Cactus Fruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Carrots": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Cauliflower": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Cave Carrot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Caviar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Cheese": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Cherry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Cinder Shard": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Clay": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Cloth": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Coal": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Coconut": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Coffee Bean": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Common Mushroom": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "Copper Bar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Copper Ore": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Coral": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Corn": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Cranberries": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Crocus": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Crystal Fruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Daffodil": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Dandelion": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Dinosaur Mayonnaise": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Dried Fruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Dried Mushrooms": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Duck Feather": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Duck Mayonnaise": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Egg (brown)": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Egg (white)": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Eggplant": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Fairy Rose": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Flowers"
+    },
+    "Fiber": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Fiddlehead Fern": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Garlic": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Ginger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Goat Cheese": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Goat Milk": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Gold Bar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Gold Ore": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Grape": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Green Bean": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Green Tea": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Hardwood": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Hazelnut": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Holly": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Honey": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Hops": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Hot Pepper": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Iridium Bar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Iridium Ore": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Iron Bar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Iron Ore": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Jelly": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Juice": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Kale": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Large Egg (brown)": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Large Egg (white)": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Large Goat Milk": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Large Milk": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Leek": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Magma Cap": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "False Magma Cap": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "Mango": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Maple Syrup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Mayonnaise": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Mead": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Melon": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Milk": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Morel": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "Moss": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Mystic Syrup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Nautilus Shell": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Oak Resin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Orange": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Ostrich Egg": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Pale Ale": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Parsnip": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Peach": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Pickles": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Pine Tar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Pineapple": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Pomegranate": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Tree Fruits"
+    },
+    "Poppy": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Flowers"
+    },
+    "Potato": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Powdermelon": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Pumpkin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Purple Mushroom": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "Rabbit's Foot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Radioactive Bar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Radioactive Ore": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Radish": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Rainbow Shell": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Raisins": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Red Cabbage": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Red Mushroom": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Mushrooms"
+    },
+    "Refined Quartz": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Rhubarb": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Roe": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Salmonberry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Sap": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Sea Urchin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Slime": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Monster Loot"
+    },
+    "Smoked Fish": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Snow Yam": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Solar Essence": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Monster Loot"
+    },
+    "Spice Berry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Spring Onion": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Squid Ink": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Starfruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Stone": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Strawberry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Summer Spangle": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Flowers"
+    },
+    "Summer Squash": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Sunflower": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Flowers"
+    },
+    "Sweet Gem Berry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Sweet Pea": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Taro Root": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Tea Leaves": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Tomato": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Truffle": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Truffle Crab": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Truffle Oil": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Tulip": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Flowers"
+    },
+    "Unmilled Rice": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Void Egg": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Void Essence": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Monster Loot"
+    },
+    "Void Mayonnaise": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Wheat": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Wild Horseradish": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Wild Plum": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Wine": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Winter Root": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Wood": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Resources"
+    },
+    "Wool": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    },
+    "Yam": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Sugar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Ingredients"
+    },
+    "Wheat Flour": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Ingredients"
+    },
+    "Oil": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Ingredients"
+    },
+    "Vinegar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Ingredients"
+    },
+    "Rice": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Ingredients"
+    },
+    "Coffee": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Artisan Goods"
+    },
+    "Hay": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Qi Fruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Crops"
+    },
+    "Golden Pumpkin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Etc"
+    },
+    "Golden Coconut": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Etc"
+    },
+    "Golden Egg": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Animal Products"
+    }
+  },
+
+  "Changes": [
+
+    // Wild Horseradish
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wild Horseradish.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wild Horseradish": "true"
+      }
+    },
+
+    // Daffodil
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Daffodil.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Daffodil": "true"
+      }
+    },
+
+    // Leek
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Leek.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Leek": "true"
+      }
+    },
+
+    // Dandelion
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Dandelion.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dandelion": "true"
+      }
+    },
+
+    // Parsnip
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Parsnip.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Parsnip": "true"
+      }
+    },
+
+    // Cave Carrot
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cave Carrot.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cave Carrot": "true"
+      }
+    },
+
+    // Coconut
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coconut.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coconut": "true"
+      }
+    },
+
+    // Cactus Fruit
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cactus Fruit.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cactus Fruit": "true"
+      }
+    },
+
+    // Banana
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Banana.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Banana": "true"
+      }
+    },
+
+    // Sap
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sap.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sap": "true"
+      }
+    },
+
+    // Large Egg (white)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Large Egg (white).png",
+      "ToArea": {
+        "X": 96,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Large Egg (white)": "true"
+      }
+    },
+
+    // Egg (white)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Egg (white).png",
+      "ToArea": {
+        "X": 128,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Egg (white)": "true"
+      }
+    },
+
+    // Egg (brown)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Egg (brown).png",
+      "ToArea": {
+        "X": 192,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Egg (brown)": "true"
+      }
+    },
+
+    // Large Egg (brown)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Large Egg (brown).png",
+      "ToArea": {
+        "X": 224,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Large Egg (brown)": "true"
+      }
+    },
+
+    // Milk
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Milk.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Milk": "true"
+      }
+    },
+
+    // Large Milk
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Large Milk.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Large Milk": "true"
+      }
+    },
+
+    // Green Bean
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Green Bean.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Green Bean": "true"
+      }
+    },
+
+    // Cauliflower
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cauliflower.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cauliflower": "true"
+      }
+    },
+
+    // Potato
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Potato.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Potato": "true"
+      }
+    },
+
+    // Garlic
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Garlic.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Garlic": "true"
+      }
+    },
+
+    // Kale
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Kale.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Kale": "true"
+      }
+    },
+
+    // Rhubarb
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rhubarb.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rhubarb": "true"
+      }
+    },
+
+    // Melon
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Melon.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Melon": "true"
+      }
+    },
+
+    // Tomato
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tomato.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tomato": "true"
+      }
+    },
+
+    // Morel
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Morel.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Morel": "true"
+      }
+    },
+
+    // Blueberry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Blueberry.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Blueberry": "true"
+      }
+    },
+
+    // Fiddlehead Fern
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fiddlehead Fern.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fiddlehead Fern": "true"
+      }
+    },
+
+    // Hot Pepper
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hot Pepper.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hot Pepper": "true"
+      }
+    },
+
+    // Wheat
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wheat.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wheat": "true"
+      }
+    },
+
+    // Radish
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Radish.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Radish": "true"
+      }
+    },
+
+    // Red Cabbage
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Red Cabbage.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Red Cabbage": "true"
+      }
+    },
+
+    // Starfruit
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Starfruit.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Starfruit": "true"
+      }
+    },
+
+    // Corn
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Corn.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Corn": "true"
+      }
+    },
+
+    // Unmilled Rice
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Unmilled Rice.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Unmilled Rice": "true"
+      }
+    },
+
+    // Eggplant
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Eggplant.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Eggplant": "true"
+      }
+    },
+
+    // Artichoke
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Artichoke.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Artichoke": "true"
+      }
+    },
+
+    // Pumpkin
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pumpkin.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pumpkin": "true"
+      }
+    },
+
+    // Bok Choy
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bok Choy.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bok Choy": "true"
+      }
+    },
+
+    // Yam
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Yam.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Yam": "true"
+      }
+    },
+
+    // Chanterelle
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Chanterelle.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Chanterelle": "true"
+      }
+    },
+
+    // Cranberries
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cranberries.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cranberries": "true"
+      }
+    },
+
+    // Holly
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Holly.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Holly": "true"
+      }
+    },
+
+    // Beet
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Beet.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Beet": "true"
+      }
+    },
+
+    // Ostrich Egg
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ostrich Egg.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ostrich Egg": "true"
+      }
+    },
+
+    // Salmonberry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Salmonberry.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Salmonberry": "true"
+      }
+    },
+
+    // Amaranth
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Amaranth.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Amaranth": "true"
+      }
+    },
+
+    // Pale Ale
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pale Ale.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pale Ale": "true"
+      }
+    },
+
+    // Hops
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hops.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hops": "true"
+      }
+    },
+
+    // Void Egg
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Void Egg.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Void Egg": "true"
+      }
+    },
+
+    // Mayonnaise
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Mayonnaise.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mayonnaise": "true"
+      }
+    },
+
+    // Duck Mayonnaise
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Duck Mayonnaise.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Duck Mayonnaise": "true"
+      }
+    },
+
+    // Void Mayonnaise
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Void Mayonnaise.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 192,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Void Mayonnaise": "true"
+      }
+    },
+
+    // Clay
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Clay.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Clay": "true"
+      }
+    },
+
+    // Clay (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Clay tank.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Clay": "true"
+      }
+    },
+
+    // Copper Bar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Copper Bar.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Copper Bar": "true"
+      }
+    },
+
+    // Iron Bar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Iron Bar.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 208,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iron Bar": "true"
+      }
+    },
+
+    // Gold Bar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Gold Bar.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Gold Bar": "true"
+      }
+    },
+
+    // Iridium Bar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Iridium Bar.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Bar": "true"
+      }
+    },
+
+    // Refined Quartz
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Refined Quartz.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Refined Quartz": "true"
+      }
+    },
+
+    // Honey
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Honey.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Honey": "true"
+      }
+    },
+
+    // Pickles
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pickles old.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pickles": "true"
+      }
+    },
+
+    // Pickles (after 1.6)
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Pickles.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 256,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Pickles": "true"
+      }
+    },
+
+    // Jelly
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Jelly old.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jelly": "true"
+      }
+    },
+
+    // Jelly (after 1.6)
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Jelly.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 256,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Jelly": "true"
+      }
+    },
+
+    // Beer
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Beer.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Beer": "true"
+      }
+    },
+
+    // Wine
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wine old.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wine": "true"
+      }
+    },
+
+    // Wine (after 1.6)
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Wine.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 240,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Wine": "true"
+      }
+    },
+
+    // Juice
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Juice old.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 224,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Juice": "true"
+      }
+    },
+
+    // Juice (after 1.6)
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Juice.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 240,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Juice": "true"
+      }
+    },
+
+    // Poppy
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Poppy.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 240,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Poppy": "true"
+      }
+    },
+
+    // Copper Ore(1, 2)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Copper Ore.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 240,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Copper Ore": "true"
+      }
+    },
+
+    // Iron Ore(1, 2)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Iron Ore.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 240,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Iron Ore": "true"
+      }
+    },
+
+    // Coal(1, 2)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coal.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 240,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Coal": "true"
+      }
+    },
+
+    // Gold Ore(1, 2),
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Gold Ore.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 256,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Gold Ore": "true"
+      }
+    },
+
+    // Iridium Ore(1, 2),
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Iridium Ore.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 256,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Iridium Ore": "true"
+      }
+    },
+
+    // Wood(1, 2),
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wood.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 256,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Wood": "true"
+      }
+    },
+
+    // Stone(1, 2),
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Stone.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 256,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Stone": "true"
+      }
+    },
+
+    // Stone (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Stone tank.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 272,
+        "Width": 48,
+        "Height": 16
+      },
+      "When": {
+        "Stone": "true"
+      }
+    },
+
+    // Nautilus Shell
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Nautilus Shell.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Nautilus Shell": "true"
+      }
+    },
+
+    // Nautilus Shell (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Nautilus Shell tank.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Nautilus Shell": "true"
+      }
+    },
+
+    // Coral
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coral.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coral": "true"
+      }
+    },
+
+    // Coral (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Coral tank.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 256,
+        "Width": 80,
+        "Height": 16
+      },
+      "When": {
+        "Coral": "true"
+      }
+    },
+
+    // Rainbow Shell
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rainbow Shell.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rainbow Shell": "true"
+      }
+    },
+
+    // Rainbow Shell (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Rainbow Shell tank.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rainbow Shell": "true"
+      }
+    },
+
+    // Spice Berry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spice Berry.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Spice Berry": "true"
+      }
+    },
+
+    // Sea Urchin
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sea Urchin.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sea Urchin": "true"
+      }
+    },
+
+    // Sea Urchin (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Sea Urchin tank.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 192,
+        "Width": 24,
+        "Height": 48
+      },
+      "When": {
+        "Sea Urchin": "true"
+      }
+    },
+
+    // Grape
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Grape.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Grape": "true"
+      }
+    },
+
+    // Spring Onion
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spring Onion.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Spring Onion": "true"
+      }
+    },
+
+    // Strawberry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Strawberry.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Strawberry": "true"
+      }
+    },
+
+    // Sweet Pea
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sweet Pea.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sweet Pea": "true"
+      }
+    },
+
+    // Common Mushroom
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Common Mushroom.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Common Mushroom": "true"
+      }
+    },
+
+    // Wild Plum
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wild Plum.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wild Plum": "true"
+      }
+    },
+
+    // Hazelnut
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hazelnut.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hazelnut": "true"
+      }
+    },
+
+    // Blackberry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Blackberry.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Blackberry": "true"
+      }
+    },
+
+    // Winter Root
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Winter Root.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Winter Root": "true"
+      }
+
+    },
+
+    // Crystal Fruit
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Crystal Fruit.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crystal Fruit": "true"
+      }
+    },
+
+    // Snow Yam
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Snow Yam.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Snow Yam": "true"
+      }
+    },
+
+    // Sweet Gem Berry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sweet Gem Berry.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sweet Gem Berry": "true"
+      }
+    },
+
+    // Crocus
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Crocus.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crocus": "true"
+      }
+    },
+
+    // Red Mushroom
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Red Mushroom.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Red Mushroom": "true"
+      }
+    },
+
+    // Sunflower
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sunflower.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sunflower": "true"
+      }
+    },
+
+    // Purple Mushroom
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Purple Mushroom.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Purple Mushroom": "true"
+      }
+    },
+
+    // Cheese
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cheese.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cheese": "true"
+      }
+    },
+
+    // Goat Cheese
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Goat Cheese.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Goat Cheese": "true"
+      }
+    },
+
+    // Cloth
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cloth.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cloth": "true"
+      }
+    },
+
+    // Truffle
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Truffle.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Truffle": "true"
+      }
+    },
+
+    // Truffle Crab
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Monsters/Truffle Crab",
+      "FromFile": "assets/Truffle Crab.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 144
+      },
+      "When": {
+        "Truffle Crab": "true"
+      }
+    },
+
+    // Truffle Oil
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Truffle Oil.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Truffle Oil": "true"
+      }
+    },
+
+    // Coffee Bean
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coffee Bean.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coffee Bean": "true"
+      }
+    },
+
+    // Goat Milk
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Goat Milk.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Goat Milk": "true"
+      }
+    },
+
+    // Large Goat Milk
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Large Goat Milk.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Large Goat Milk": "true"
+      }
+    },
+
+    // Wool
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wool.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wool": "true"
+      }
+    },
+
+    // Duck Egg
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Duck Egg.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Duck Egg": "true"
+      }
+    },
+
+    // Duck Feather
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Duck Feather.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Duck Feather": "true"
+      }
+    },
+
+    // Caviar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Caviar.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Caviar": "true"
+      }
+    },
+
+    // Rabbit's Foot
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rabbit's Foot.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rabbit's Foot": "true"
+      }
+    },
+
+    // Aged Roe
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Aged Roe.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 288,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Aged Roe": "true"
+      }
+    },
+
+
+    // Ancient Fruit
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ancient Fruit.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ancient Fruit": "true"
+      }
+    },
+
+    // Mead
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Mead.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mead": "true"
+      }
+    },
+
+    // Tulip
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tulip.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 384,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Tulip": "true"
+      }
+    },
+
+    // Summer Spangle
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Summer Spangle.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 384,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Summer Spangle": "true"
+      }
+    },
+
+    // Fairy Rose
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fairy Rose.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 384,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Fairy Rose": "true"
+      }
+    },
+
+    // Blue Jazz
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Blue Jazz.png",
+      "ToArea": {
+        "X": 336,
+        "Y": 384,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Blue Jazz": "true"
+      }
+    },
+
+    // Apple
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Apple.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Apple": "true"
+      }
+    },
+
+    // Green Tea
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Green Tea.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Green Tea": "true"
+      }
+    },
+
+    // Apricot
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Apricot.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Apricot": "true"
+      }
+    },
+
+    // Orange
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Orange.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Orange": "true"
+      }
+    },
+
+    // Peach
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Peach.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Peach": "true"
+      }
+    },
+
+    // Pomegranate
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pomegranate.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pomegranate": "true"
+      }
+    },
+
+    // Cherry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cherry.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 416,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cherry": "true"
+      }
+    },
+
+    // Bug Meat
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bug Meat.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bug Meat": "true"
+      }
+    },
+
+    // Hardwood
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hardwood.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hardwood": "true"
+      }
+    },
+
+    // Hardwood (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Hardwood tank.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hardwood": "true"
+      }
+    },
+
+    // Maple Syrup
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Maple Syrup.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Maple Syrup": "true"
+      }
+    },
+
+    // Oak Resin
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Oak Resin.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Oak Resin": "true"
+      }
+    },
+
+    // Pine Tar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pine Tar.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pine Tar": "true"
+      }
+    },
+
+    // Slime
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Slime.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Slime": "true"
+      }
+    },
+
+    // Bat Wing
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bat Wing.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bat Wing": "true"
+      }
+    },
+
+    // Solar Essence
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Solar Essence.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Solar Essence": "true"
+      }
+    },
+
+    // Void Essence
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Void Essence.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Void Essence": "true"
+      }
+    },
+
+    // Fiber
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fiber.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fiber": "true"
+      }
+    },
+
+    // Battery Pack
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Battery Pack.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Battery Pack": "true"
+      }
+    },
+
+    // Dinosaur Mayonnaise
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Dinosaur Mayonnaise.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dinosaur Mayonnaise": "true"
+      }
+    },
+
+    // Roe
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Roe.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 528,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Roe": "true"
+      }
+    },
+
+    // Squid Ink
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Squid Ink.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Squid Ink": "true"
+      }
+    },
+
+    // Tea Leaves
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tea Leaves.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tea Leaves": "true"
+      }
+    },
+
+    // Ginger
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ginger.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ginger": "true"
+      }
+    },
+
+    // Taro Root
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Taro Root.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Taro Root": "true"
+      }
+    },
+
+    // Pineapple
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pineapple.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pineapple": "true"
+      }
+    },
+
+    // Pineapple (fish tank)
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/Pineapple tank.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pineapple": "true"
+      }
+    },
+
+    // Mango
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Mango.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mango": "true"
+      }
+    },
+
+    // Cinder Shard
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cinder Shard.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cinder Shard": "true"
+      }
+    },
+
+    // Cinder Shard UI
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/ForgeMenu",
+      "FromFile": "assets/Cinder Shard UI.png",
+      "ToArea": {
+        "X": 142,
+        "Y": 16,
+        "Width": 17,
+        "Height": 22
+      },
+      "When": {
+        "Cinder Shard": "true"
+      }
+    },
+
+    // Magma Cap
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Magma Cap.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 560,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Magma Cap": "true"
+      }
+    },
+
+    // False Magma Cap
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Monsters/False Magma Cap",
+      "FromFile": "assets/False Magma Cap.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 144
+      },
+      "When": {
+        "False Magma Cap": "true"
+      }
+    },
+
+    // Bone Fragment
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bone Fragment.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bone Fragment": "true"
+      }
+    },
+
+    // Radioactive Ore
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Radioactive Ore.png",
+      "ToArea": {
+        "X": 336,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Radioactive Ore": "true"
+      }
+    },
+
+    // Radioactive Bar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Radioactive Bar.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Radioactive Bar": "true"
+      }
+    },
+
+    // Smoked Fish
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Smoked Fish.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 16,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Smoked Fish": "true"
+      }
+    },
+
+    // Moss
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Moss.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 64,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Moss": "true"
+      }
+    },
+
+    // Mystic Syrup
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Mystic Syrup.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mystic Syrup": "true"
+      }
+    },
+
+    // Raisins
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Raisins.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Raisins": "true"
+      }
+    },
+
+    // Dried Fruit
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Dried Fruit.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 128,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Dried Fruit": "true"
+      }
+    },
+
+    // Dried Mushrooms
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Dried Mushrooms.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 32,
+        "Height": 16
+      },
+      "When": {
+        "Dried Mushrooms": "true"
+      }
+    },
+
+    // Carrots
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Carrots.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Carrots": "true"
+      }
+    },
+
+    // Summer Squash
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Summer Squash.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Summer Squash": "true"
+      }
+    },
+
+    // Broccoli
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Broccoli.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Broccoli": "true"
+      }
+    },
+
+    // Powdermelon
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Powdermelon.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Powdermelon": "true"
+      }
+    },
+
+    // Sugar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sugar.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sugar": "true"
+      }
+    },
+
+    // Wheat Flour
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Wheat Flour.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Wheat Flour": "true"
+      }
+    },
+
+    // Rice
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rice.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rice": "true"
+      }
+    },
+
+    // Oil
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Oil.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Oil": "true"
+      }
+    },
+
+    // Vinegar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Vinegar.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 272,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Vinegar": "true"
+      }
+    },
+
+    // Coffee
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coffee.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coffee": "true"
+      }
+    },
+
+    // Hay
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hay.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 112,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hay": "true"
+      }
+    },
+
+    // Qi Fruit
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Qi Fruit.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Qi Fruit": "true"
+      }
+    },
+
+    // Golden Pumpkin
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Golden Pumpkin.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Golden Pumpkin": "true"
+      }
+    },
+
+    // Golden Coconut
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Golden Coconut.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Golden Coconut": "true"
+      }
+    },
+
+    // Golden Egg
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Golden Egg.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Golden Egg": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+	"Changes": 
+    [
+		{	
+			"LogName": "Ripley Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations":
+   			[
+   			
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Clara.Ripley 17 73 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Clara.Ripley 17 73 down",
+   				    "Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Ripley Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.EggFestival}}"
+			}
+			
+		},
+		{	
+			"LogName": "Ripley Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations":
+   			[
+   			
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Clara.Ripley 27 45 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Clara.Ripley 6 31 up",
+   				    "Delimiter": "/"
+				}
+			]
+		},
+		{
+			"LogName": "Ripley Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.FlowerDance}}"
+			}
+			
+		},
+		{	
+			"LogName": "Ripley Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations":
+   			[
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Clara.Ripley 54 15 left",
+   				    "Delimiter": "/"
+				},
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+                    "Value": "Clara.Ripley 41 11 right",
+                    "Delimiter": "/"
+                }
+			]
+		},
+		{	
+			"LogName": "Ripley Luau - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.Luau}}"
+			}
+		},
+		{	
+			"LogName": "Ripley Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 52 27 down",
+					"Delimiter": "/"
+				},
+
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 52 27 down",
+					"Delimiter": "/"
+				},
+
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "set-up", 5],
+                    "Value": "/animate Clara.Ripley false true 100 16"
+                }
+			]
+		},
+		{	
+			"LogName": "Ripley Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.Jellies}}"
+			}
+		},
+		{	
+			"LogName": "Ripley Stardew Valley Fair",
+			"Action": "EditData",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 66 65 down",
+					"Delimiter": "/"
+				},
+                {
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 66 65 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Stardew Valley Fair - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.SDVFair}}"
+			}
+		},
+		{	
+			"LogName": "Ripley Spirit's Eve",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 22 16 down",
+					"Delimiter": "/"
+				},
+                {
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 22 16 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Ripley Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.SpiritsEve}}"
+			}
+		},
+		{	
+			"LogName": "Ripley Festival of Ice",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/winter8",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 59 27 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Ripley Festival of Ice - SVE",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/winter8",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 62 11 down",
+					"Delimiter": "/"
+				},
+                {
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 62 11 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Ripley Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.IceFest}}"
+            }
+		},
+		{	
+			"LogName": "Ripley Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 44 59 down",
+					"Delimiter": "/"
+				},
+                {
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "Clara.Ripley 44 59 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ "Clara.Ripley": "{{i18n:Ripley.Dialogue.WinterStar}}"
+			}
+		}
+		
+	]
+}										

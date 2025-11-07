@@ -1,0 +1,95 @@
+{
+	"Format": "2.0.0",
+	"DynamicTokens": [
+	//Egg Hatching %
+	// Bag Luck Fixing Random to ~5% 1/20  w/luck key to keep luck chances seperated
+	{
+		"Name": "Roosters_5EggPerc",
+		"Value": "{{Random: true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false |key=luck1}}"
+	},
+	//Fixing Random to ~10% 1/10 w/luck key to keep luck chances seperated
+	{
+		"Name": "Roosters_10EggPerc",
+		"Value": "{{Random: true,false,false,false,false,false,false,false,false,false |key=luck2}}"
+	},
+	// Good Luck Fixing Random to ~15% 3/20  w/luck key to keep luck chances seperated
+	{
+		"Name": "Roosters_15EggPerc",
+		"Value": "{{Random: true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false |key=luck3}}"
+	},
+	// Great Luck Fixing Random to ~20% 2/10 w/luck key to keep luck chances seperated
+	{
+		"Name": "Roosters_20EggPerc",
+		"Value": "{{Random: true,true,false,false,false,false,false,false,false,false |key=luck4}}"
+	},
+	//Egg Hatching % Effected by Daily Luck, Awful = 0% - Bad = 5% - Neutral = 10% - Good = 15% - Great = 20%
+	//Awful
+	{
+		"Name": "FinEggPerc",
+		"Value": "false",
+		"When": {
+			"Query: {{DailyLuck}} < -0.07": true,
+		}
+	},
+	//Bad
+	{
+		"Name": "FinEggPerc",
+		"Value": "{{Roosters_5EggPerc}}",
+		"When": {
+			"Query: {{DailyLuck}} >= -0.07 AND {{DailyLuck}} < -0.02": true,
+		}
+	},
+	//Neutral
+	{
+		"Name": "FinEggPerc",
+		"Value": "{{Roosters_10EggPerc}}",
+		"When": {
+			"Query:{{DailyLuck}} >= -0.02 AND {{DailyLuck}} <= 0.02": true,
+		}
+	},
+	//Good
+	{
+		"Name": "FinEggPerc",
+		"Value": "{{Roosters_15EggPerc}}",
+		"When":{
+			"Query: {{DailyLuck}} > 0.02 AND {{DailyLuck}} <= 0.07": true,
+		}
+	},
+	//Great
+	{
+		"Name": "FinEggPerc",
+		"Value": "{{Roosters_20EggPerc}}",
+		"When": {
+			"Query: {{DailyLuck}} > 0.07": true,
+		}
+	}
+],
+"Changes": [
+	  {
+		 "Log Name": "Include Animals",
+         "Action": "Include",
+         "FromFile": "data/animals.json"
+      },
+	  {
+		 "Log Name": "Include Items",
+         "Action": "Include",
+         "FromFile": "data/items.json"
+      },
+	  {
+		 "Log Name": "Include Patches",
+         "Action": "Include",
+         "FromFile": "data/patches.json"
+      },
+	  {
+		 "Log Name": "Include Hatching Rules",
+         "Action": "Include",
+         "FromFile": "data/hatching.json"
+      },
+	  {
+		 "Log Name": "Include Machines",
+         "Action": "Include",
+         "FromFile": "data/machines.json"
+      }
+]
+}
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="5">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="lemurfurniture" tilewidth="16" tileheight="16" tilecount="3008" columns="32">
+  <image source="lemurfurniture.png" width="512" height="1504"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+78,79,77,78,79,77,
+110,111,109,110,111,109,
+119,107,107,107,107,120,
+575,576,575,576,575,576,
+608,1531,1533,1534,1536,608,
+640,1563,1565,1566,1568,640,
+608,1595,1597,1598,1600,608,
+640,1627,1628,1629,1632,640,
+608,639,639,640,639,640
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+55,0,0,0,0,56,
+87,75,75,75,75,88,
+0,493,494,495,107,107,
+3628,525,526,527,3007,3008,
+0,0,0,0,0,2910,
+0,0,0,0,0,2909,
+0,0,0,0,587,588,
+0,0,0,0,619,620,
+0,0,0,0,3632,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Buildings"/>
+ <layer id="12" name="Paths" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,2184,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="13" name="Paths"/>
+ <layer id="3" name="Front" width="6" height="9">
+  <data encoding="csv">
+311,2360,2361,279,412,0,
+0,2392,2393,0,2943,2944,
+3596,0,0,0,2975,2976,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,555,556,
+0,0,0,0,0,0,
+0,0,0,0,3597,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+</map>

@@ -1,0 +1,36 @@
+{
+	"Changes": [
+		//add shop entry
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Bookseller", "Items" ],
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+			"Entries": {
+				"Mizu.Turkey_PrimarilyPoultry": {
+					"Price": "3000",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Id": "(O)Mizu.Turkey_PrimarilyPoultry",
+					"ItemId": "(O)Mizu.Turkey_PrimarilyPoultry",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Festival_FeastOfTheWinterStar_Pierre", "Items" ],
+			"When": {"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true},
+			"Entries": {
+				"Mizu.Turkey_RoastTurkey": {
+					"Id": "Mizu.Turkey_RoastTurkey",
+					"ItemId": "Mizu.Turkey_RoastTurkey",
+					"Price": 1000,
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"IsRecipe": true
+				}
+			}
+		}
+	]
+}

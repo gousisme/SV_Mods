@@ -1,0 +1,14 @@
+{
+    "Name": "[CP] H&W Winery Furniture Set",
+    "Author": "HimeTarts and Wildflourmods",
+    "Version": "1.0",
+    "Description": "Winery furniture items",
+    "UniqueID": "HXW.WineryFurni",
+    "UpdateKeys": ["Nexus:32162"],
+    "Dependencies": [
+        {"UniqueID": "sophie.Calcifer","IsRequired": true}
+    ], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,52 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LiQingFengHouse1": {
+          "DisplayName": "{{i18n:LiQingFengHouse1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LiQingFengHouse1"
+          },
+          "FormerLocationNames": [
+            "LiQingFengHouse1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LiQingFengHouse2": {
+          "DisplayName": "{{i18n:LiQingFengHouse2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LiQingFengHouse2"
+          },
+          "FormerLocationNames": [
+            "LiQingFengHouse2"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_LiQingFengHouse3": {
+          "DisplayName": "{{i18n:LiQingFengHouse3}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_LiQingFengHouse3"
+          },
+          "FormerLocationNames": [
+            "LiQingFengHouse3"
+          ]
+        }
+      }
+    }
+  ]
+}

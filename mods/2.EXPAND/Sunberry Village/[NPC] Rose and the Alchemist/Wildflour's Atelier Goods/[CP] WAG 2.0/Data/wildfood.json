@@ -1,0 +1,1796 @@
+{
+    "Changes": [
+
+{
+    "LogName":"Add Wild Food Seeds & Saplings",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Wildflour.AtelierGoods_Almond_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Almond_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Almond_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Almond_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 1
+    },
+        "Wildflour.AtelierGoods_Anise_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Anise_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Anise_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Anise_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 3
+    },
+        "Wildflour.AtelierGoods_Cacao_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Cacao_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Cacao_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Cacao_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 5
+    },
+        "Wildflour.AtelierGoods_Cashew_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Cashew_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Cashew_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Cashew_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 7
+    },
+        "Wildflour.AtelierGoods_Elder_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Elder_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Elder_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Elder_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 9
+    },
+        "Wildflour.AtelierGoods_Olive_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Olive_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Olive_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Olive_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 11
+    },
+        "Wildflour.AtelierGoods_Lemon_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Lemon_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Lemon_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Lemon_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 13
+    },
+        "Wildflour.AtelierGoods_Lime_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Lime_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Lime_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Lime_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 15
+    },
+        "Wildflour.AtelierGoods_Pistachio_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Pistachio_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Pistachio_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Pistachio_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 17
+    },
+        "Wildflour.AtelierGoods_Walnut_Sapling": {
+            "Name": "Wildflour.AtelierGoods_Walnut_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_Walnut_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_Walnut_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 19
+    },
+        "Wildflour.AtelierGoods_Basil_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Basil_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Basil_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Basil_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 21
+    },
+        "Wildflour.AtelierGoods_Chamomile_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Chamomile_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Chamomile_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Chamomile_Seeds.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 23
+    },
+        "Wildflour.AtelierGoods_Chicken_Woods_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Chicken_Woods_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Chicken_Woods_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Chicken_Woods_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 27
+    },
+        "Wildflour.AtelierGoods_Cilantro_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Cilantro_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Cilantro_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Cilantro_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 29
+    },
+        "Wildflour.AtelierGoods_Honey_Fungus_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Honey_Fungus_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Honey_Fungus_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Honey_Fungus_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 32
+    },
+        "Wildflour.AtelierGoods_Jasmine_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Jasmine_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Jasmine_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Jasmine_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 34
+    },
+        "Wildflour.AtelierGoods_Lavender_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Lavender_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Lavender_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Lavender_Seeds.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 36
+    },
+        "Wildflour.AtelierGoods_Mallow_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Mallow_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Mallow_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Mallow_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 38
+    },
+        "Wildflour.AtelierGoods_Meringue_Mushroom_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Meringue_Mushroom_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Meringue_Mushroom_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Meringue_Mushroom_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 40
+    },
+        "Wildflour.AtelierGoods_Milk_Mushroom_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Milk_Mushroom_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Milk_Mushroom_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Milk_Mushroom_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 42
+    },
+        "Wildflour.AtelierGoods_Mint_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Mint_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Mint_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Mint_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 44
+    },
+        "Wildflour.AtelierGoods_Red_Onion_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Red_Onion_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Red_Onion_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Red_Onion_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 46
+    },
+        "Wildflour.AtelierGoods_Rosemary_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Rosemary_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Rosemary_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Rosemary_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 48
+    },
+        "Wildflour.AtelierGoods_Sage_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Sage_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Sage_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Sage_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 50
+    },
+        "Wildflour.AtelierGoods_Thyme_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Thyme_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Thyme_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Thyme_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 52
+    },
+        "Wildflour.AtelierGoods_Vanilla_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Vanilla_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Vanilla_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Vanilla_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 54
+    },
+        "Wildflour.AtelierGoods_Wheatberry_Mushroom_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Wheatberry_Mushroom_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Wheatberry_Mushroom_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Wheatberry_Mushroom_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 56
+    },
+        "Wildflour.AtelierGoods_Wild_Raspberry_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Wild_Raspberry_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Wild_Raspberry_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Wild_Raspberry_Seeds.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 58
+    },
+        "Wildflour.AtelierGoods_Wild_Strawberry_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Wild_Strawberry_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Wild_Strawberry_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Wild_Strawberry_Seeds.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 60
+    },
+        "Wildflour.AtelierGoods_Wormwood_Seeds": {
+            "Name": "Wildflour.AtelierGoods_Wormwood_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_Wormwood_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_Wormwood_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 62
+    }
+}
+},
+
+{
+    "LogName":"Add Wild Food Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "Wildflour.AtelierGoods_Almond": {
+            "Name": "Wildflour.AtelierGoods_Almond",
+            "DisplayName": "{{i18n:AtelierGoods_Almond.name}}",
+            "Description": "{{i18n:AtelierGoods_Almond.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 19,
+            "Price": 115,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "almond_item",
+            "nut_item",
+            "season_summer",
+            "color_pale_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 0
+    },
+        "Wildflour.AtelierGoods_Anise": {
+            "Name": "Wildflour.AtelierGoods_Anise",
+            "DisplayName": "{{i18n:AtelierGoods_Anise.name}}",
+            "Description": "{{i18n:AtelierGoods_Anise.description}}",
+            "Type": "Greens",          
+            "Category": -81,
+            "Edibility": 0,
+            "Price": 110,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":
+            ["wildflour_forage",
+            "herb_item",
+            "anise_item",
+            "star_anise_item",
+            "season_spring",
+            "color_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 2
+    },
+        "Wildflour.AtelierGoods_Cacao_Pod": {
+            "Name": "Wildflour.AtelierGoods_Cacao_Pod",
+            "DisplayName": "{{i18n:AtelierGoods_Cacao_Pod.name}}",
+            "Description": "{{i18n:AtelierGoods_Cacao_Pod.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 0,
+            "Price": 115,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "chocolate_item",
+            "cocoa_item",
+            "season_fall",
+            "color_dark_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 4
+    },
+        "Wildflour.AtelierGoods_Cashew": {
+            "Name": "Wildflour.AtelierGoods_Cashew",
+            "DisplayName": "{{i18n:AtelierGoods_Cashew.name}}",
+            "Description": "{{i18n:AtelierGoods_Cashew.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 20,
+            "Price": 135,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "cashew_item",
+            "season_fall",
+            "color_pale_red"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 6
+    },
+        "Wildflour.AtelierGoods_Cinnamon": {
+            "Name": "Wildflour.AtelierGoods_Cinnamon",
+            "DisplayName": "{{i18n:AtelierGoods_Cinnamon.name}}",
+            "Description": "{{i18n:AtelierGoods_Cinnamon.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 0,
+            "Price": 125,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "cinnamon_item",
+            "spice_item",
+            "season_winter",
+            "color_dark_red"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 25
+    },
+        "Wildflour.AtelierGoods_Elderberries": {
+            "Name": "Wildflour.AtelierGoods_Elderberries",
+            "DisplayName": "{{i18n:AtelierGoods_Elderberries.name}}",
+            "Description": "{{i18n:AtelierGoods_Elderberries.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 4,
+            "Price": 170,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "berry_item",
+            "elderberry_item",
+            "elderberries_item",
+            "season_summer",
+            "color_dark_blue"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 8
+    },
+        "Wildflour.AtelierGoods_Olive": {
+            "Name": "Wildflour.AtelierGoods_Olive",
+            "DisplayName": "{{i18n:AtelierGoods_Olive.name}}",
+            "Description": "{{i18n:AtelierGoods_Olive.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 11,
+            "Price": 120,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":
+            ["wildflour_forage",
+            "olive_item",
+            "season_summer",
+            "color_pale_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 10
+    },
+        "Wildflour.AtelierGoods_Lemon": {
+            "Name": "Wildflour.AtelierGoods_Lemon",
+            "DisplayName": "{{i18n:AtelierGoods_Lemon.name}}",
+            "Description": "{{i18n:AtelierGoods_Lemon.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 8,
+            "Price": 55,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "citrus_item",
+            "lemon_item",
+            "season_spring",
+            "color_yellow"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 12
+    },
+        "Wildflour.AtelierGoods_Lime": {
+            "Name": "Wildflour.AtelierGoods_Lime",
+            "DisplayName": "{{i18n:AtelierGoods_Lime.name}}",
+            "Description": "{{i18n:AtelierGoods_Lime.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 8,
+            "Price": 55,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "citrus_item",
+            "lime_item",
+            "season_spring",
+            "color_lime"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 14
+    },
+        "Wildflour.AtelierGoods_Pistachio": {
+            "Name": "Wildflour.AtelierGoods_Pistachio",
+            "DisplayName": "{{i18n:AtelierGoods_Pistachio.name}}",
+            "Description": "{{i18n:AtelierGoods_Pistachio.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 18,
+            "Price": 105,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "pistachio_item",
+            "season_summer",
+            "color_red"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 16
+    },
+        "Wildflour.AtelierGoods_Walnut": {
+            "Name": "Wildflour.AtelierGoods_Walnut",
+            "DisplayName": "{{i18n:AtelierGoods_Walnut.name}}",
+            "Description": "{{i18n:AtelierGoods_Walnut.description}}",
+            "Type": "Fruit",          
+            "Category": -79,
+            "Edibility": 14,
+            "Price": 125,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "nut_item",
+            "walnut_item",
+            "season_fall",
+            "color_pale_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 18
+    },
+        "Wildflour.AtelierGoods_Basil": {
+            "Name": "Wildflour.AtelierGoods_Basil",
+            "DisplayName": "{{i18n:AtelierGoods_Basil.name}}",
+            "Description": "{{i18n:AtelierGoods_Basil.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 12,
+            "Price": 65,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "basil_item",
+            "herb_item",
+            "season_summer",
+            "color_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 20
+    },
+        "Wildflour.AtelierGoods_Chamomile": {
+            "Name": "Wildflour.AtelierGoods_Chamomile",
+            "DisplayName": "{{i18n:AtelierGoods_Chamomile.name}}",
+            "Description": "{{i18n:AtelierGoods_Chamomile.description}}",
+            "Type": "Flower",
+            "Category": -80,
+            "Edibility": 8,
+            "Price": 45,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_flower_item",
+            "chamomile_item",
+            "season_spring",
+            "season_summer",
+            "color_sand"],
+        
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 22
+    },
+        "Wildflour.AtelierGoods_Cherry_Blossoms": {
+            "Name": "Wildflour.AtelierGoods_Cherry_Blossoms",
+            "DisplayName": "{{i18n:AtelierGoods_Cherry_Blossoms.name}}",
+            "Description": "{{i18n:AtelierGoods_Cherry_Blossoms.description}}",
+            "Type": "Flower",
+            "Category": -80,
+            "Edibility": 0,
+            "Price": 15,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_flower_item",
+            "cherry_blossom_item",
+            "season_spring",
+            "color_light_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 24
+    },
+        "Wildflour.AtelierGoods_Chicken_Woods": {
+            "Name": "Wildflour.AtelierGoods_Chicken_Woods",
+            "DisplayName": "{{i18n:AtelierGoods_Chicken_Woods.name}}",
+            "Description": "{{i18n:AtelierGoods_Chicken_Woods.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 14,
+            "Price": 95,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "chicken_of_the_woods_item",
+            "edible_mushroom",
+            "season_summer",
+            "color_gold"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 26
+    },
+        "Wildflour.AtelierGoods_Cilantro": {
+            "Name": "Wildflour.AtelierGoods_Cilantro",
+            "DisplayName": "{{i18n:AtelierGoods_Cilantro.name}}",
+            "Description": "{{i18n:AtelierGoods_Cilantro.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 10,
+            "Price": 45,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "cilantro_item",
+            "herb_item",
+            "season_spring",
+            "color_light_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 28
+    },
+        "Wildflour.AtelierGoods_Gentian_Root": {
+            "Name": "Wildflour.AtelierGoods_Gentian_Root",
+            "DisplayName": "{{i18n:AtelierGoods_Gentian_Root.name}}",
+            "Description": "{{i18n:AtelierGoods_Gentian_Root.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 0,
+            "Price": 25,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "gentian_root_item",
+            "herb_item",
+            "color_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 30
+    },
+        "Wildflour.AtelierGoods_Honey_Fungus": {
+            "Name": "Wildflour.AtelierGoods_Honey_Fungus",
+            "DisplayName": "{{i18n:AtelierGoods_Honey_Fungus.name}}",
+            "Description": "{{i18n:AtelierGoods_Honey_Fungus.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 18,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom",
+            "season_spring",
+            "color_light_brown"],
+        
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 31
+    },
+        "Wildflour.AtelierGoods_Honeycomb": {
+            "Name": "Wildflour.AtelierGoods_Honeycomb",
+            "DisplayName": "{{i18n:AtelierGoods_Honeycomb.name}}",
+            "Description": "{{i18n:AtelierGoods_Honeycomb.description}}",
+            "Type": "Greens",          
+            "Category": -81,
+            "Edibility": 0,
+            "Price": 80,
+
+            "ContextTags":
+            ["wildflour_honeybee_item",
+            "wildflour_floral_item",
+            "wildflour_boutique_item",
+            "bee_item",
+            "color_gold"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 175
+    },
+        "Wildflour.AtelierGoods_Jasmine": {
+            "Name": "Wildflour.AtelierGoods_Jasmine",
+            "DisplayName": "{{i18n:AtelierGoods_Jasmine.name}}",
+            "Description": "{{i18n:AtelierGoods_Jasmine.description}}",
+            "Type": "Flower",          
+            "Category": -80,
+            "Edibility": 12,
+            "Price": 70,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_flower_item",
+            "season_summer",
+            "jasmine_item",
+            "color_white"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 33
+    },
+        "Wildflour.AtelierGoods_Lavender": {
+            "Name": "Wildflour.AtelierGoods_Lavender",
+            "DisplayName": "{{i18n:AtelierGoods_Lavender.name}}",
+            "Description": "{{i18n:AtelierGoods_Lavender.description}}",
+            "Type": "Flower",          
+            "Category": -80,
+            "Edibility": 9,
+            "Price": 55,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_flower_item",
+            "lavender_item",
+            "season_spring",
+            "season_summer",
+            "season_fall",
+            "color_pale_violet"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 35
+    },
+        "Wildflour.AtelierGoods_Mallow": {
+            "Name": "Wildflour.AtelierGoods_Mallow",
+            "DisplayName": "{{i18n:AtelierGoods_Mallow.name}}",
+            "Description": "{{i18n:AtelierGoods_Mallow.description}}",
+            "Type": "Flower",          
+            "Category": -80,
+            "Edibility": 13,
+            "Price": 25,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_flower_item",
+            "mallow_item",
+            "hibiscus_item",
+            "season_spring",
+            "season_summer",
+            "color_light_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 37
+    },
+        "Wildflour.AtelierGoods_Meringue_Mushroom": {
+            "Name": "Wildflour.AtelierGoods_Meringue_Mushroom",
+            "DisplayName": "{{i18n:AtelierGoods_Meringue_Mushroom.name}}",
+            "Description": "{{i18n:AtelierGoods_Meringue_Mushroom.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 10,
+            "Price": 70,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom",
+            "season_fall",
+            "color_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 39
+    },
+        "Wildflour.AtelierGoods_Milk_Mushroom": {
+            "Name": "Wildflour.AtelierGoods_Milk_Mushroom",
+            "DisplayName": "{{i18n:AtelierGoods_Milk_Mushroom.name}}",
+            "Description": "{{i18n:AtelierGoods_Milk_Mushroom.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 16,
+            "Price": 125,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom",
+            "season_summer",
+            "season_fall",
+            "color_white"],
+        
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 41
+    },
+        "Wildflour.AtelierGoods_Mint": {
+            "Name": "Wildflour.AtelierGoods_Mint",
+            "DisplayName": "{{i18n:AtelierGoods_Mint.name}}",
+            "Description": "{{i18n:AtelierGoods_Mint.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 10,
+            "Price": 16,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "mint_item",
+            "herb_item",
+            "season_spring",
+            "season_summer",
+            "color_mint"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 43
+    },
+        "Wildflour.AtelierGoods_Red_Onion": {
+            "Name": "Wildflour.AtelierGoods_Red_Onion",
+            "DisplayName": "{{i18n:AtelierGoods_Red_Onion.name}}",
+            "Description": "{{i18n:AtelierGoods_Red_Onion.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 11,
+            "Price": 20,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            
+            "ContextTags":
+            ["wildflour_forage",
+            "onion_item",
+            "forage_item",
+            "season_spring",
+            "season_fall",
+            "color_red"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 45
+    },
+        "Wildflour.AtelierGoods_Rosemary": {
+            "Name": "Wildflour.AtelierGoods_Rosemary",
+            "DisplayName": "{{i18n:AtelierGoods_Rosemary.name}}",
+            "Description": "{{i18n:AtelierGoods_Rosemary.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 7,
+            "Price": 75,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "rosemary_item",
+            "herb_item",
+            "season_spring",
+            "season_fall",
+            "color_dark_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 47
+    },
+        "Wildflour.AtelierGoods_Sage": {
+            "Name": "Wildflour.AtelierGoods_Sage",
+            "DisplayName": "{{i18n:AtelierGoods_Sage.name}}",
+            "Description": "{{i18n:AtelierGoods_Sage.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 10,
+            "Price": 55,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "sage_item",
+            "herb_item",
+            "season_fall",
+            "color_Jade"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 49
+    },  
+        "Wildflour.AtelierGoods_Thyme": {
+            "Name": "Wildflour.AtelierGoods_Thyme",
+            "DisplayName": "{{i18n:AtelierGoods_Thyme.name}}",
+            "Description": "{{i18n:AtelierGoods_Thyme.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": 4,
+            "Price": 50,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "thyme_item",
+            "herb_item",
+            "season_spring",
+            "season_summer",
+            "color_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 51
+    },
+        "Wildflour.AtelierGoods_Vanilla": {
+            "Name": "Wildflour.AtelierGoods_Vanilla",
+            "DisplayName": "{{i18n:AtelierGoods_Vanilla.name}}",
+            "Description": "{{i18n:AtelierGoods_Vanilla.description}}",
+            "Type": "Flower",
+            "Category": -80,
+            "Edibility": 5,
+            "Price": 135,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_flower_item",
+            "vanilla_item",
+            "vanilla_Bean_item",
+            "season_summer",
+            "color_sand"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 53
+    },
+        "Wildflour.AtelierGoods_Wheatberry_Mushroom": {
+            "Name": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+            "DisplayName": "{{i18n:AtelierGoods_Wheatberry_Mushroom.name}}",
+            "Description": "{{i18n:AtelierGoods_Wheatberry_Mushroom.description}}",
+            "Type": "Basic",          
+            "Category": -81,
+            "Edibility": 18,
+            "Price": 70,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "edible_mushroom",
+            "season_spring",
+            "color_sand"],
+        
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 55
+    },
+        "Wildflour.AtelierGoods_Wild_Raspberry": {
+            "Name": "Wildflour.AtelierGoods_Wild_Raspberry",
+            "DisplayName": "{{i18n:AtelierGoods_Wild_Raspberry.name}}",
+            "Description": "{{i18n:AtelierGoods_Wild_Raspberry.description}}",
+            "Type": "Fruit",
+            "Category": -79,
+            "Edibility": 8,
+            "Price": 20,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "berry_item",
+            "raspberry_item",
+            "season_summer",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 57
+    },
+        "Wildflour.AtelierGoods_Wild_Strawberry": {
+            "Name": "Wildflour.AtelierGoods_Wild_Strawberry",
+            "DisplayName": "{{i18n:AtelierGoods_Wild_Strawberry.name}}",
+            "Description": "{{i18n:AtelierGoods_Wild_Strawberry.description}}",
+            "Type": "Fruit",
+            "Category": -79,
+            "Edibility": 6,
+            "Price": 25,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "berry_item",
+            "strawberry_item",  
+            "season_spring",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 59
+    },
+        "Wildflour.AtelierGoods_Wormwood": {
+            "Name": "Wildflour.AtelierGoods_Wormwood",
+            "DisplayName": "{{i18n:AtelierGoods_Wormwood.name}}",
+            "Description": "{{i18n:AtelierGoods_Wormwood.description}}",
+            "Type": "Vegetable",          
+            "Category": -75,
+            "Edibility": -300,
+            "Price": 15,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_forage",
+            "wormwood_item",
+            "herb_item",
+            "season_summer",
+            "color_green"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 61
+    }
+}
+},
+
+{
+    "LogName": "Category Display Name Override Wild Food",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Fields": {
+        "Wildflour.AtelierGoods_Pistachio": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Nut.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Cashew": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Nut.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Almond": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Nut.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Walnut": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Nut.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Chicken_Woods": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Mushroom.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Honey_Fungus": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Mushroom.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Meringue_Mushroom": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Mushroom.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Milk_Mushroom": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Mushroom.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Wheatberry_Mushroom": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Mushroom.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Basil": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Cilantro": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Mint": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Rosemary": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Sage": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Thyme": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Wormwood": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Herb.category}}"
+            }
+        },
+        "Wildflour.AtelierGoods_Gentian_Root": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Root.category}}"
+            }
+        }
+    }
+},
+
+/////////////////////
+// WILD FOOD CROPS //
+/////////////////////
+
+{
+    "LogName":"Wild Food Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Basil_Seeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Basil",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 0
+    },
+        "Wildflour.AtelierGoods_Chamomile_Seeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 1, 1, 2, 1 ],
+            "RegrowDays": -1,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Chamomile",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 1
+    },
+        "Wildflour.AtelierGoods_Chicken_Woods_Seeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 3, 2, 3, 3, 3 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Chicken_Woods",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 2
+    },
+        "Wildflour.AtelierGoods_Cilantro_Seeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 2, 1, 1, 1, 2 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Cilantro",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 3
+    },
+        "Wildflour.AtelierGoods_Honey_Fungus_Seeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 4, 4, 4, 4, 5 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Honey_Fungus",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 4
+    },
+        "Wildflour.AtelierGoods_Jasmine_Seeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 5,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Jasmine",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 5
+    },
+        "Wildflour.AtelierGoods_Lavender_Seeds": {
+            "Seasons": [ "spring","summer","fall" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Lavender",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 6
+    },
+        "Wildflour.AtelierGoods_Mallow_Seeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+            "RegrowDays": 4,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Mallow",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 7
+    },
+        "Wildflour.AtelierGoods_Meringue_Mushroom_Seeds": {
+            "Seasons": [ "fall" ],
+            "DaysInPhase": [ 4, 3, 3, 3, 3 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Meringue_Mushroom",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 8
+    },
+        "Wildflour.AtelierGoods_Milk_Mushroom_Seeds": {
+            "Seasons": [ "summer","fall" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Milk_Mushroom",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 9
+    },
+        "Wildflour.AtelierGoods_Mint_Seeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 2, 2, 2, 3, 3 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Mint",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 10
+    },
+        "Wildflour.AtelierGoods_Red_Onion_Seeds": {
+            "Seasons": [ "spring","fall" ],
+            "DaysInPhase": [ 2, 2, 2, 1 ],
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Red_Onion",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 11
+    },
+        "Wildflour.AtelierGoods_Rosemary_Seeds": {
+            "Seasons": [ "spring","fall" ],
+            "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Rosemary",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 12
+    },
+        "Wildflour.AtelierGoods_Sage_Seeds": {
+            "Seasons": [ "fall" ],
+            "DaysInPhase": [ 2, 3, 2, 3, 2 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Sage",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 13
+    },
+        "Wildflour.AtelierGoods_Thyme_Seeds": {
+            "Seasons": [ "spring","summer" ],
+            "DaysInPhase": [ 2, 3, 3, 2, 2 ],
+            "RegrowDays": 5,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Thyme",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 14
+    },
+        "Wildflour.AtelierGoods_Vanilla_Seeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [2, 2, 2, 4, 4],
+            "RegrowDays": 5,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,        
+            "HarvestItemId": "Wildflour.AtelierGoods_Vanilla",
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 15
+    },
+        "Wildflour.AtelierGoods_Wheatberry_Mushroom_Seeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 3, 2, 3, 3, 1 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 16
+    },
+        "Wildflour.AtelierGoods_Wild_Raspberry_Seeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+            "RegrowDays": 4,
+            "IsRaised":true,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Wild_Raspberry",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 17
+    },
+        "Wildflour.AtelierGoods_Wild_Strawberry_Seeds": {
+            "Seasons": [ "spring" ],
+            "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+            "RegrowDays": 4,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Wild_Strawberry",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 18
+    },
+        "Wildflour.AtelierGoods_Wormwood_Seeds": {
+            "Seasons": [ "summer" ],
+            "DaysInPhase": [ 1, 2, 3, 3, 1 ],
+            "RegrowDays": 3,
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "Wildflour.AtelierGoods_Wormwood",
+            "Texture": "Mods/Wildflour.AtelierGoods/Crops",
+            "SpriteIndex": 19
+    }
+}
+},
+
+
+
+//////////////////
+// GIANT CROPS ///
+//////////////////
+
+{
+    "LogName":"Add Wild Food Giant Crops",
+    "Action": "EditData",
+    "Target": "Data/GiantCrops",
+    "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+       "Wildflour.AtelierGoods_Giant_Carrot": {
+            "FromItemId":"Carrot",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Carrot",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 144,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Wild_Strawberry": {
+            "FromItemId":"Wildflour.AtelierGoods_Wild_Strawberry",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"400",
+                "MinStack":"9",
+                "MaxStack":"21"
+            },
+            {
+                "ItemId":"Wildflour.AtelierGoods_Wild_Strawberry",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 192,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Lavender": {
+            "FromItemId":"Wildflour.AtelierGoods_Lavender",
+            "Seasons": [ "spring","summer","fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Lavender",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 48,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Mint": {
+            "FromItemId":"Wildflour.AtelierGoods_Mint",
+            "Seasons": [ "spring","summer","fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Mint",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 96,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Meringue_Mushroom": {
+            "FromItemId":"Wildflour.AtelierGoods_Meringue_Mushroom",
+            "Seasons": [ "fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Meringue_Mushroom",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 0,
+                "Y": 0
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Milk_Mushroom": {
+            "FromItemId":"Wildflour.AtelierGoods_Milk_Mushroom",
+            "Seasons": [ "summer","fall" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Milk_Mushroom",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 96,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Wheatberry_Mushroom": {
+            "FromItemId":"Wildflour.AtelierGoods_Wheatberry_Mushroom",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Wheatberry_Mushroom",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 144,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Wild_Raspberry": {
+            "FromItemId":"Wildflour.AtelierGoods_Wild_Raspberry",
+            "Seasons": [ "summer" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Wild_Raspberry",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 192,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Honey_Fungus": {
+            "FromItemId":"Wildflour.AtelierGoods_Honey_Fungus",
+            "Seasons": [ "spring" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Honey_Fungus",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 0,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Chicken_Mushroom": {
+            "FromItemId":"Wildflour.AtelierGoods_Chicken_Woods",
+            "Seasons": [ "summer" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Chicken_Woods",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 48,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    }
+
+}
+},
+
+////////////////////
+// WF FRUIT TREES //
+////////////////////
+
+
+{
+    "LogName":"Wild Food Fruit Trees",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Entries": {
+        "Wildflour.AtelierGoods_Pistachio_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Pistachio_Sapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Pistachio",
+                    "ItemId": "Wildflour.AtelierGoods_Pistachio"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 0
+        },
+        "Wildflour.AtelierGoods_Olive_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Olive_Sapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Olive",
+                    "ItemId": "Wildflour.AtelierGoods_Olive"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 1
+        },
+        "Wildflour.AtelierGoods_Cashew_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Cashew_Sapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cashew",
+                    "ItemId": "Wildflour.AtelierGoods_Cashew"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 2
+        },
+        "Wildflour.AtelierGoods_Walnut_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Walnut_Sapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Walnut",
+                    "ItemId": "Wildflour.AtelierGoods_Walnut"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 3
+        },
+        "Wildflour.AtelierGoods_Lemon_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Lemon_Sapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lemon",
+                    "ItemId": "Wildflour.AtelierGoods_Lemon"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 4
+        },
+        "Wildflour.AtelierGoods_Lime_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Lime_Sapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lime",
+                    "ItemId": "Wildflour.AtelierGoods_Lime"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 5
+        },
+        "Wildflour.AtelierGoods_Almond_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Almond_Sapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Almond",
+                    "ItemId": "Wildflour.AtelierGoods_Almond"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 6
+        },
+        "Wildflour.AtelierGoods_Cacao_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Cacao_Sapling.name}}",
+            "Seasons": [ "fall" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cacao_Pod",
+                    "ItemId": "Wildflour.AtelierGoods_Cacao_Pod"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 7
+        },
+        "Wildflour.AtelierGoods_Anise_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Anise_Sapling.name}}",
+            "Seasons": [ "spring" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Anise",
+                    "ItemId": "Wildflour.AtelierGoods_Anise"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 8
+        },
+        "Wildflour.AtelierGoods_Elder_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_Elder_Sapling.name}}",
+            "Seasons": [ "summer" ],
+            "Fruit": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Elderberries",
+                    "ItemId": "Wildflour.AtelierGoods_Elderberries"
+                }
+            ],
+            "Texture": "Mods/Wildflour.AtelierGoods/FruitTrees",
+            "TextureSpriteRow": 9
+        }
+    }
+},
+
+
+/*{
+    "LogName":"SpaceCore Fruit Placement Adjustment TEST",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/FruitTreeExtensionData",
+    "Entries": {
+            "Wildflour.AtelierGoods_Pistachio_Sapling": {
+              "FruitLocations": [
+                {"X": 3, "Y": 4},
+                {"X": 0, "Y": 4},
+                {"X": 1, "Y": 4}
+              ]
+            }
+    }
+},
+*/
+
+///////////////////
+// WF WILD TREES //
+///////////////////
+
+{
+    "LogName":"Wild Food Cinnamon from Wild Trees",
+    "Action": "EditData",
+    "Target": "Data/WildTrees",
+    "TargetField":["8","ShakeItems"],
+    "Entries": {
+        "Wildflour.AtelierGoods_Cinnamon": {
+                    "Id": "Wildflour.AtelierGoods_Cinnamon",
+                    "ItemId":"(O)Wildflour.AtelierGoods_Cinnamon",
+                    "Chance":"0.5",
+                    "MinStack":1,
+                    "MaxStack":1,
+                    "Season":"winter"
+        }
+    }
+},
+
+//////////////////////
+// WF MUSH LOG DATA //
+//////////////////////
+
+{
+    "LogName": "Mushroom Log Output Wild Food",
+    "Action": "EditData",
+    "Target": "Atelier.Cauldron/MushroomLogOutputData",
+    "Entries": {
+        "Wildflour.AtelierGoods_Almond_Sapling": [
+            {
+                "ItemId": "(O)Wildflour.AtelierGoods_Honey_Fungus"
+            }
+        ],
+        "Wildflour.AtelierGoods_Anise_Sapling": [
+            {
+                "ItemId": "(O)Wildflour.AtelierGoods_Wheatberry_Mushroom"
+            }
+        ],
+        "Wildflour.AtelierGoods_Cacao_Sapling": [
+            {
+                "ItemId": "(O)Wildflour.AtelierGoods_Milk_Mushroom"
+            }
+        ],
+        "Wildflour.AtelierGoods_Pistachio_Sapling": [
+            {
+                "ItemId": "(O)Wildflour.AtelierGoods_Meringue_Mushroom"
+            }
+        ],
+        "Wildflour.AtelierGoods_Walnut_Sapling": [
+            {
+                "ItemId": "(O)Wildflour.AtelierGoods_Chicken_Woods"
+            }
+        ]
+    }
+}
+
+]
+}

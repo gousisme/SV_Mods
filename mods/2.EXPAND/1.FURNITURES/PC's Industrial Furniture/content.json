@@ -1,0 +1,136 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+        {
+			"LogName": "PC's Industrial Furniture Texture Load",
+			"Action": "Load",
+			"Target": "Mods/PC.IFurniture/IFurniture, Mods/PC.IFurniture/IFurnitureFront",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },      
+
+		         
+		{
+			"LogName": "PC's Industrial Furniture Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+				"IF.ModernBed": "Modern Bed/bed double/3 4/3 3/1/5000/-1/{{i18n:ModernBed}}/0/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.IndustrialBed": "Industrial Bed/bed double/3 4/3 3/1/5000/-1/{{i18n:IndustrialBed}}/6/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.IndustrialBed2": "Industrial Bed2/bed double/3 4/3 3/1/5000/-1/{{i18n:IndustrialBed}}/198/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.MidCenturyTable": "Mid Century Table/table/2 3/2 2/1/2000/-1/{{i18n:MidCenturyTable}}/12/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.MidCenturyTable2": "Mid Century Table2/table/2 3/2 2/1/2000/-1/{{i18n:MidCenturyTable}}/14/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.LeatherSofa": "Leather Sofa/couch/3 2/3 1/4/2500/-1/{{i18n:LeatherSofa}}/64/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.RecordPlayerTable": "Record Player Table/table/2 3/2 1/1/1500/-1/{{i18n:RecordPlayerTable}}/72/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.MetalFileCabinet": "Metal File Cabinet/bookcase/2 3/2 1/1/1500/-1/{{i18n:MetalFileCabinet}}/74/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.TrunkTable": "Trunk Table/table/2 3/2 2/1/2000/-1/{{i18n:TrunkTable}}/76/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.TrunkTable2": "Trunk Table2/table/2 3/2 2/1/2000/-1/{{i18n:TrunkTable}}/78/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.VintageSideLamp": "Vintage Side Lamp/lamp/1 3/1 1/1/800/-1/{{i18n:VintageSideLamp}}/112/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.BrassFloorLamp": "Brass Floor Lamp/lamp/1 3/1 1/1/800/-1/{{i18n:BrassFloorLamp}}/114/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.BrassPipeLamp": "Brass Pipe Lamp/sconce/1 2/1 2/1/800/-1/{{i18n:BrassPipeLamp}}/116/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.DecorativeSmallBox": "Decorative Small Box/other/1 1/1 1/1/100/-1/{{i18n:DecorativeSmallBox}}/148/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.WoodenWallPartitionR": "Wooden Wall Partition R/other/5 3/5 1/1/2400/-1/{{i18n:WoodenWallPartition}}/118/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.WoodenWallPartitionL": "Wooden Wall Partition L/other/5 3/5 1/1/2400/-1/{{i18n:WoodenWallPartition}}/123/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.LeatherDeskChair": "Leather Desk Chair/armchair/2 2/2 1/4/2000/-1/{{i18n:LeatherDeskChair}}/160/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.RusticVase": "Rustic Vase/other/1 2/1 1/1/800/-1/{{i18n:RusticVase}}/166/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.DecorativePlant": "Decorative Plant/other/1 2/1 1/1/800/-1/{{i18n:DecorativePlant}}/167/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.WineCabinet": "Wine Cabinet/table/3 2/3 1/1/1400/-1/{{i18n:WineCabinet}}/168/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.VintageGlobe": "Vintage Globe/other/2 2/2 1/1/1000/-1/{{i18n:VintageGlobe}}/171/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				"IF.IndustrialFourPosterBed": "Industrial Four Poster Bed/bed double/3 6/3 3/1/5000/-1/{{i18n:IndustrialFourPosterBed}}/192/Mods\\PC.IFurniture\\IFurniture/true/collection_IF",
+				}
+		},
+
+
+				
+
+       
+        		{
+			"LogName": "PC's Industrial Furniture Catalogue Data",
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"IF.IndustrialFurnitureCatalogue": "Industrial Furniture Catalogue/other/2 2/2 1/1/75000/2/{{i18n:IndustrialFurnitureCatalogue}}/173/Mods\\PC.IFurniture\\IFurniture/true/collection_IF"
+      }
+  },
+
+		{
+			"LogName": "PC's Industrial Furniture Catalogue Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "PC.IFShop": {
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Items": [
+                        {
+                            "Price": 0,
+                            "AvailableStockLimit": "Global",
+                            "AvoidRepeat": false,
+                            "UseObjectDataPrice": false,
+                            "IgnoreShopPriceModifiers": false,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "AvailableStockModifiers": null,
+                            "AvailableStockModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "ALL_ITEMS (F)",
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_IF"
+                        }
+                    ],
+                    "CustomFields": {
+                        "HappyHomeDesigner/Catalogue": "true"
+                    }
+                }
+            }
+        },
+        
+        {
+            "LogName": "Add Catalogue Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)IF.IndustrialFurnitureCatalogue": {
+                    "TileActions": [
+                        {
+                            "TileAction": "OpenShop PC.IFShop"
+                        }
+					]
+				}
+			}
+		},
+{
+            "LogName": "Add Jukebox Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)IF.RecordPlayerTable": {
+                    "TileActions": [
+                        {
+                            "TileAction": "Jukebox"
+                        }
+                    ]
+                }
+            }
+        },		
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Carpenter",
+                "Items"
+            ],
+            "Entries": {
+                "IndustrialFurnitureCatalogue": {
+                    "Id": "IF.IndustrialFurnitureCatalogue",
+                    "ItemId": "(F)IF.IndustrialFurnitureCatalogue",
+                    "UseObjectDataPrice": true
+                }
+            }
+        }
+        
+        
+           
+	]
+}

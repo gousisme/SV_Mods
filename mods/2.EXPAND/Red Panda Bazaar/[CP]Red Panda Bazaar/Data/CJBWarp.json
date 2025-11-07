@@ -1,0 +1,84 @@
+{
+    "Changes": [
+{
+    "LogName": "Warp",
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+    "Entries": {
+        "{{ModId}}_RedPandaBazaar": {
+            "Id": "{{ModId}}_RedPandaBazaar",
+            "DisplayName": "{{i18n:RedPandaBazaar}}",
+		"Order": -1
+        }
+    },
+    "When": {
+        "HasMod |contains=CJBok.CheatsMenu": true
+    }
+},
+        {
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "Entries": {
+                "{{ModId}}_RedPandaBazaar_MarlinShop": {
+                "Id": "{{ModId}}_RedPandaBazaar_MarlinShop",
+                "SectionId": "{{ModId}}_RedPandaBazaar",
+                "DisplayName": "{{i18n:MarlinShop}}",
+                "Location": "Custom_MirrorLake",
+                "Tile": "128, 39"
+            },
+                "{{ModId}}_RedPandaBazaar_ChenQiShop": {
+                    "Id": "{{ModId}}_RedPandaBazaar_ChenQiShop",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:ChenQiShop}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "34, 41"
+                },
+                "{{ModId}}_RedPandaBazaar_SandalwoodHotel": {
+                    "Id": "{{ModId}}_RedPandaBazaar_SandalwoodHotel",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:SandalwoodHotel}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "18, 41"
+                },
+                "{{ModId}}_RedPandaBazaar_ShiFuShanHouse": {
+                    "Id": "{{ModId}}_RedPandaBazaar_ShiFuShanHouse",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:ShiFuShanHouse}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "58, 18"
+                },
+                "{{ModId}}_RedPandaBazaar_ArtisanShop": {
+                    "Id": "{{ModId}}_RedPandaBazaar_ArtisanShop",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:ArtisanShop}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "26, 41"
+                },
+                "{{ModId}}_RedPandaBazaar_LiQingFengCafe": {
+                    "Id": "{{ModId}}_RedPandaBazaar_LiQingFengCafe",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:LiQingFengCafe}}",
+                    "Location": "Custom_RedPandaBazaar",
+                    "Tile": "51, 42"
+                },
+                "{{ModId}}_RedPandaBazaar_LiQingFengCourtyard": {
+                    "Id": "{{ModId}}_RedPandaBazaar_LiQingFengCourtyard",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:LiQingFengCourtyard}}",
+                    "Location": "Custom_LiQingFengCourtyard",
+                    "Tile": "25, 53"
+                },
+                "{{ModId}}_RedPandaBazaar_RedPandaBazaarJojaMart": {
+                    "Id": "{{ModId}}_RedPandaBazaar_RedPandaBazaarJojaMart",
+                    "SectionId": "{{ModId}}_RedPandaBazaar",
+                    "DisplayName": "{{i18n:RedPandaBazaarJojaMart}}",
+                    "Location": "Custom_MapleBridge",
+                    "Tile": "29, 23"
+                }
+            },
+            "When": {
+                "HasMod |contains=CJBok.CheatsMenu": true
+            }
+        }
+    ]
+}

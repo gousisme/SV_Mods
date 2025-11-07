@@ -1,0 +1,62 @@
+ {
+
+   "Changes": [
+ 
+    {
+        "LogName": "Load Textures",
+        "Action": "Load",
+        "Target": "Mods/HXW.BakeryFurni/Furniture",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+/////////////////////
+// recolor options //
+/////////////////////
+
+{
+    "LogName": "Light Recolor - Furniture",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.BakeryFurni/Furniture",
+    "FromFile": "assets/Furniture_Cream.png",
+    "PatchMode":"Replace",
+    "When": {"Recolor": "Cream"}
+},
+
+{
+    "LogName": "Dark Recolor - Furniture",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.BakeryFurni/Furniture",
+    "FromFile": "assets/Furniture_Dark.png",
+    "PatchMode":"Replace",
+    "When": {"Recolor": "Dark"}
+},
+
+{
+    "LogName": "Blue Recolor - Furniture",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.BakeryFurni/Furniture",
+    "FromFile": "assets/Furniture_Blue.png",
+    "PatchMode":"Replace",
+    "When": {"Recolor": "Blue"}
+},
+
+{
+    "LogName": "Pink Recolor - Furniture",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.BakeryFurni/Furniture",
+    "FromFile": "assets/Furniture_Pink.png",
+    "PatchMode":"Replace",
+    "When": {"Recolor": "Pink"}
+},
+
+{
+    "LogName": "BW Recolor - Furniture",
+    "Action": "EditImage",
+    "Target": "Mods/HXW.BakeryFurni/Furniture",
+    "FromFile": "assets/Furniture_BW.png",
+    "PatchMode":"Replace",
+    "When": {"Recolor": "Black&White"}
+},
+
+    ]
+}

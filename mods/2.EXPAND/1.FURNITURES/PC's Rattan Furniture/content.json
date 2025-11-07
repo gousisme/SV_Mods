@@ -1,0 +1,226 @@
+{
+	"Format":"2.0.1",
+	"ConfigSchema":
+	{
+		"LighterVersion": {
+			"AllowValues":"true, false",
+			"Default":"false",
+			"Description":"Set to true if you want the furniture to have lighter color."
+			}
+		},
+	"Changes": [
+        {
+			"LogName": "Rattan Furniture Texture Load",
+			"Action": "Load",
+			"Target": "Mods/PC.RattanFurniture/FurnitureBig, Mods/PC.RattanFurniture/FurnitureBigFront, Mods/PC.RattanFurniture/FurnitureMedium,  Mods/PC.RattanFurniture/FurnitureMediumFront, Mods/PC.RattanFurniture/FurnitureSmall, Mods/PC.RattanFurniture/FurniturePlants, Mods/PC.RattanFurniture/FurnitureBathroom, Mods/PC.RattanFurniture/Furniture2k, Mods/PC.RattanFurniture/Furniture2kFront",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },
+        {
+			"LogName": "Rattan Furniture Texture Load",
+			"Action": "EditImage",
+			"When": {"LighterVersion": true},
+			"Target": "Mods/PC.RattanFurniture/FurnitureBig, Mods/PC.RattanFurniture/FurnitureBigFront, Mods/PC.RattanFurniture/FurnitureMedium,  Mods/PC.RattanFurniture/FurnitureMediumFront, Mods/PC.RattanFurniture/FurnitureSmall, Mods/PC.RattanFurniture/FurniturePlants, Mods/PC.RattanFurniture/FurnitureBathroom, Mods/PC.RattanFurniture/Furniture2k, Mods/PC.RattanFurniture/Furniture2kFront",
+            "FromFile": "assets/light/{{TargetWithoutPath}}.png" },
+         
+		{
+			"LogName": "Rattan Furniture Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+            ///BIG FURNITURE///
+            
+            //BED//
+				"RF.SkyRattanBed": "Sky Rattan Bed/bed double/3 4/3 3/1/6000/-1/{{i18n:RattanBed}}/48/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RattanBloomBed": "Rattan Bloom Bed/bed double/3 4/3 3/1/6000/-1/{{i18n:RattanBed}}/54/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.SkyRattanSingleBed": "Sky Rattan Single Bed/bed/2 4/2 3/1/6000/-1/{{i18n:SingleRattanBed}}/60/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+							
+			//RUGS
+				"RF.CozyFlowerRug": "Cozy Flower Rug/rug/3 3/3 3/1/400/-1/{{i18n:CozyFlowerRug}}/115/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RattanRug": "Rattan Rug/rug/5 5/5 4/2/400/-1/{{i18n:RattanRug}}/118/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+			//OTHER
+				"RF.RattanPartition": "Rattan Partition/other/3 3/3 1/1/400/-1/{{i18n:RattanPartition}}/112/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RattanClothingRackF": "Rattan Clothing Rack/dresser/2 3/2 1/1/400/-1/{{i18n:RattanClothingRack}}/162/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RattanClothingRackM": "Rattan Clothing Rack/dresser/2 3/2 1/1/400/-1/{{i18n:RattanClothingRack}}/164/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RattanVanity": "Rattan Vanity/other/2 3/2 1/1/400/-1/{{i18n:RattanVanity}}/160/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RecordPlayerTable": "Record Player Table/other/3 3/3 1/1/400/-1/{{i18n:RecordPlayerTable}}/224/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.RecordPlayerTableR": "Record Player Table/other/1 4/1 3/1/400/-1/{{i18n:RecordPlayerTable}}/211/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.CurioCabinet1": "Curio Cabinet/bookcase/2 4/2 1/1/400/-1/{{i18n:CurioCabinet}}/212/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.CurioCabinet2": "Curio Cabinet/bookcase/2 4/2 1/1/400/-1/{{i18n:CurioCabinet}}/214/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.CeilingHangingChair": "Ceiling Hanging Chair/couch/2 4/2 1/1/400/-1/{{i18n:CeilingHangingChair}}/219/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				"RF.ChicBookcase": "Chic Bookcase/bookcase/3 4/3 1/1/400/-1/{{i18n:ChicBookcase}}/221/Mods\\PC.RattanFurniture\\FurnitureBig/false/collection_RattanFurniture",
+				
+			///MEDIUM FURNITURE///
+			
+			//CHAIR COUCH
+				"RF.RattanChair": "Rattan Chair/chair/1 2/1 1/4/2400/-1/{{i18n:RattanChair}}/0/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanStool": "Rattan Stool/chair/1 2/1 1/4/2400/-1/{{i18n:RattanStool}}/3/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.LeatherPouf": "Leather Pouf/armchair/2 2/2 1/4/400/-1/{{i18n:LeatherPouf}}/88/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanEggchair": "Rattan Egg Chair/couch/2 3/2 1/1/2400/-1/{{i18n:RattanEggChair}}/32/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanArmchair": "Rattan Armchair/armchair/2 2/2 1/4/2400/-1/{{i18n:RattanArmChair}}/80/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.PoufTable": "PoufTable/table/2 2/2 1/4/2400/-1/{{i18n:PoufTable}}/86/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanCouch": "Rattan Couch/couch/3 2/3 1/4/2400/-1/{{i18n:RattanCouch}}/34/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.HammockChair": "Hammock Chair/couch/2 3/2 1/1/400/-1/{{i18n:HammockChair}}/120/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+			
+			//TABLES & CABINETS
+				"RF.RattanTable": "Rattan Table/table/2 3/2 2/1/400/-1/{{i18n:RattanTable}}/112/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanTable1": "Rattan Table/table/2 2/2 2/1/400/-1/{{i18n:RattanTable}}/160/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanCredenza": "Rattan Credenza/table/2 3/2 1/1/400/-1/{{i18n:RattanCredenza}}/114/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanTallCabinets": "Rattan Tall Cabinets/table/1 3/1 1/3/400/-1/{{i18n:RattanTallCabinets}}/116/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.RattanSideboard": "Rattan Sideboard/table/2 2/2 1/1/400/-1/{{i18n:RattanSideboard}}/162/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+			
+			//OTHER
+				"RF.FashionDecor": "Fashion Decor/painting/1 3/1 3/1/400/-1/{{i18n:FashionDecor}}/119/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				"RF.IroningBoard": "Ironing Board/other/2 2/2 1/1/400/-1/{{i18n:IroningBoard}}/164/Mods\\PC.RattanFurniture\\FurnitureMedium/false/collection_RattanFurniture",
+				
+				
+			///SMALL FURNITURE///
+			
+			//DECORS
+				"RF.RattanAccentStool": "Rattan Accent Stool/decor/1 2/1 1/1/800/-1/{{i18n:RattanAccentStool}}/0/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.OvergrownRack": "Overgrown Rack/decor/1 2/1 1/1/800/-1/{{i18n:OvergrownRack}}/1/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanCeramicRack": "Ceramic Rack/decor/1 2/1 1/1/800/-1/{{i18n:RattanCeramicRack}}/2/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.Houseplant1": "Houseplant 1/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/3/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.VinylRecord": "Vinyl Record/decor/1 2/1 1/1/800/-1/{{i18n:VinylRecord}}/4/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanLaundryBasket1": "Laundry Basket 1/decor/1 2/1 1/1/800/-1/{{i18n:RattanLaundryBasket}}/5/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanLaundryBasket2": "Laundry Basket 2/decor/1 2/1 1/1/800/-1/{{i18n:RattanLaundryBasket}}/6/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanLaundryBasket3": "Laundry Basket 3/decor/1 2/1 1/1/800/-1/{{i18n:RattanLaundryBasket}}/7/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanAccentStool2": "Accent Stool 2/decor/1 2/1 1/1/800/-1/{{i18n:RattanAccentStool}}/8/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanStand": "Rattan Stand/table/1 2/1 1/1/800/-1/{{i18n:RattanStand}}/9/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RattanTwo-TierRack": "Rattan Two-Tier Rack/decor/1 2/1 1/1/800/-1/{{i18n:RattanTwo-TierRack}}/10/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.DecorativeGuitar": "Decorative Guitar/decor/1 2/1 1/1/800/-1/{{i18n:DecorativeGuitar}}/11/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanStand2": "Rattan Stand/table/1 2/1 1/1/800/-1/{{i18n:RattanStand}}/12/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				
+			//LAMPS
+			
+				"RF.PoppyLamp": "Poppy Lamp/lamp/1 2/1 1/1/200/-1/{{i18n:PoppyLamp}}/64/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.FringeFloorLamp": "Fringe Floor Lamp/lamp/1 2/1 1/1/200/-1/{{i18n:FringeFloorLamp}}/66/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.FringeTableLamp": "Fringe Table Lamp/lamp/1 2/1 1/1/200/-1/{{i18n:FringeTableLamp}}/68/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanTableLamp": "Rattan Table Lamp/lamp/1 2/1 1/1/200/-1/{{i18n:RattanTableLamp}}/70/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.RattanTableLamp1": "Rattan Table Lamp1/lamp/1 2/1 1/1/200/-1/{{i18n:RattanTableLamp}}/72/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				
+				//MISC
+			
+				"RF.SmallFlowerVase": "Small Flower Vase/other/1 1/1 1/1/400/-1/{{i18n:SmallFlowerVase}}/96/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.DecorativeBoots": "Decorative Boots/other/1 1/1 1/1/400/-1/{{i18n:DecorativeBoots}}/97/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.DecorativeBasket": "Decorative Basket/other/1 1/1 1/1/400/-1/{{i18n:DecorativeBasket}}/98/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.SmallPlant": "Small Plant/other/1 1/1 1/1/400/-1/{{i18n:SmallPlant}}/99/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.DecorativePhoto": "Decorative Photo/other/1 1/1 1/1/400/-1/{{i18n:DecorativePhoto}}/100/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.HydrangeaVase": "Hydrangea Vase/other/1 1/1 1/1/400/-1/{{i18n:HydrangeaVase}}/101/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.TableDecoration": "Table Decoration/other/1 1/1 1/1/400/-1/{{i18n:TableDecoration}}/102/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.TulipVase": "Tulip Vase/other/1 1/1 1/1/400/-1/{{i18n:TulipVase}}/103/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				"RF.SmallRug": "SmallRug/rug/2 1/2 1/2/400/-1/{{i18n:SmallRug}}/112/Mods\\PC.RattanFurniture\\FurnitureSmall/false/collection_RattanFurniture",
+				
+			//PLANTS
+			
+				"RF.Houseplant3": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/1/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant4": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/2/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant5": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/3/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant6": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/4/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant14": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/5/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant15": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/6/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant16": "Houseplant/decor/1 2/1 1/1/800/-1/{{i18n:Houseplant}}/7/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				
+				"RF.Houseplant17": "Houseplant/decor/2 2/2 1/1/800/-1/{{i18n:Houseplant}}/32/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant18": "Houseplant/decor/2 2/2 1/1/800/-1/{{i18n:Houseplant}}/34/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant19": "Houseplant/decor/2 2/2 1/1/800/-1/{{i18n:Houseplant}}/36/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.PlantStand": "Plant Stand/other/2 2/2 1/1/400/-1/{{i18n:PlantStand}}/38/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant20": "Houseplant/decor/2 3/2 1/1/800/-1/{{i18n:Houseplant}}/64/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant21": "Houseplant/decor/2 3/2 1/1/800/-1/{{i18n:Houseplant}}/66/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.LPlantStand": "L. PlantStand/decor/3 3/3 1/1/800/-1/{{i18n:LPlant Stand}}/68/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant24": "Houseplant/decor/3 3/2 1/1/800/-1/{{i18n:Houseplant}}/71/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant22": "Houseplant/decor/3 4/2 1/1/800/-1/{{i18n:Houseplant}}/8/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+				"RF.Houseplant23": "Houseplant/decor/2 4/2 1/1/800/-1/{{i18n:Houseplant}}/11/Mods\\PC.RattanFurniture\\FurniturePlants/false/collection_RattanFurniture",
+
+				
+			//BATHROOM
+			
+				"RF.Bathtub": "Bathtub/couch/3 2/3 1/4/800/-1/{{i18n:Bathtub}}/166/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.Bathtub2": "Bathtub/couch/3 2/3 1/4/800/-1/{{i18n:Bathtub}}/214/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.BathroomSink": "Bathroom Sink/decor/2 4/2 1/1/800/-1/{{i18n:BathroomSink}}/5/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.BathroomSink2": "Bathroom Sink/decor/3 4/3 1/1/800/-1/{{i18n:BathroomSink}}/7/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.BathroomSink3": "Bathroom Sink/decor/2 4/2 1/1/800/-1/{{i18n:BathroomSink}}/10/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.Toilet": "Toilet/armchair/2 4/2 1/1/800/-1/{{i18n:Toilet}}/12/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.Toilet1": "Toilet/chair/1 2/1 1/1/800/-1/{{i18n:Toilet}}/77/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.Toilet2": "Toilet/chair/1 2/1 1/1/800/-1/{{i18n:Toilet}}/78/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.Toilet3": "Toilet/chair/1 2/1 1/1/800/-1/{{i18n:Toilet}}/79/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.DecorativeStool": "Decorative Stool/decor/1 2/1 1/1/800/-1/{{i18n:DecorativeStool}}/14/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.ToiletriesStool": "Toiletries Stool/decor/1 2/1 1/1/800/-1/{{i18n:ToiletriesStool}}/15/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.TowelRack": "Towel Rack/decor/2 2/2 1/1/800/-1/{{i18n:TowelRack}}/46/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.BathroomRack": "Bathroom Rack/dresser/2 2/2 1/1/800/-1/{{i18n:BathroomRack}}/69/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.SmallBasket": "Small Basket/decor/1 2/1 1/1/800/-1/{{i18n:SmallBasket}}/71/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.ToiletriesWallShelves": "Toiletries Wall Shelves/painting/1 3/1 3/1/800/-1/{{i18n:ToiletriesWallShelves}}/105/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.DecorativeTowel": "Decorative Towel/painting/1 3/1 3/1/800/-1/{{i18n:DecorativeTowel}}/106/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.DecorativeToiletPaper": "Decorative Toilet Paper/painting/1 3/1 3/1/800/-1/{{i18n:DecorativeToiletPaper}}/107/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.DecorativeToiletPaper2": "Decorative Toilet Paper/painting/1 3/1 3/1/800/-1/{{i18n:DecorativeToiletPaper}}/108/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.DecorativeToiletPaper3": "Decorative Toilet Paper/painting/1 3/1 3/1/800/-1/{{i18n:DecorativeToiletPaper}}/109/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.BrownRug": "Brown Rug/rug/3 2/3 2/2/800/-1/{{i18n:BrownRug}}/96/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.RoundRattanRug": "Round Rattan Rug/rug/2 2/2 2/1/800/-1/{{i18n:RoundRattanRug}}/101/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.RunnerRug": "Runner Rug/rug/2 4/2 4/1/800/-1/{{i18n:RunnerRug}}/103/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.RunnerRug2": "Runner Rug/rug/4 2/4 2/1/800/-1/{{i18n:RunnerRug}}/72/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.RattanScreen": "Rattan Screen/decor/3 4/3 1/1/800/-1/{{i18n:RattanScreen}}/144/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+				"RF.RattanScreen2": "Rattan Screen/decor/3 4/3 1/1/800/-1/{{i18n:RattanScreen}}/147/Mods\\PC.RattanFurniture\\FurnitureBathroom/false/collection_RattanFurniture",
+
+//2k Endorse Thank You				
+				"RF.RattanCouch2": "Rattan Couch2/couch/3 2/3 1/4/2400/-1/{{i18n:RattanCouch}}/16/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.RattanCouch3": "Rattan Couch3/couch/3 2/3 1/4/2400/-1/{{i18n:RattanCouch}}/40/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.RattanTeaTable": "Rattan Tea Table/table/2 2/2 1/1/2400/-1/{{i18n:RattanTeaTable}}/0/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.RattanTeaTable2": "RattanTeaTable2/table/3 3/3 1/1/2400/-1/{{i18n:RattanTeaTable}}/96/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",	
+				"RF.RattanSideTable": "Rattan Side Table/table/1 2/1 1/1/2400/-1/{{i18n:RattanSideTable}}/2/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.RattanSideTable2": "Rattan Side Table2/table/1 2/1 1/1/2400/-1/{{i18n:RattanSideTable}}/99/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.ReadingChair": "Reading Chair/armchair/2 2/2 1/4/2400/-1/{{i18n:ReadingChair}}/64/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",	
+				"RF.ReadingChair2": "Reading Chair2/armchair/2 2/2 1/4/2400/-1/{{i18n:ReadingChair}}/80/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",	
+				"RF.BookBasket": "Book Basket/decor/1 2/1 1/1/2400/-1/{{i18n:BookBasket}}/3/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.Slippers": "Slippers/rug/1 1/1 1/1/2400/-1/{{i18n:Slippers}}/13/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.TulipBag": "Tulip Bag/other/1 1/1 1/1/2400/-1/{{i18n:TulipBag}}/5/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",
+				"RF.RattanBag": "Rattan Bag/painting/1 2/1 2/1/2400/-1/{{i18n:RattanBag}}/6/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",			
+				"RF.RattanBag2": "Rattan Bag2/decor/1 2/1 1/1/2400/-1/{{i18n:RattanBag}}/4/Mods\\PC.RattanFurniture\\Furniture2k/false/collection_RattanFurniture",			
+				/*"name/type/tilesheet size/collition/rotations/price/placement restriction/display name/texture index per tile, left to right like spring object/texture/offlimit for random sale/contex tag",*/
+			}
+		},
+{
+            "LogName": "Rattan Furniture Offset",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureOffsets",
+            "Entries": {
+                "(F)RF.RattanTeaTable": "0, -6",
+                "(F)RF.RattanTeaTable2": "0, -14",
+}},
+
+{
+            "LogName": "Rattan Jukebox Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)RF.RecordPlayerTable": {
+                    "TileActions": [
+                        {
+                            "TileAction": "Jukebox"
+                        }
+                    ]
+                },
+                "(F)RF.RecordPlayerTableR": {
+                    "TileActions": [
+                        {
+                            "TileAction": "Jukebox"
+                        }
+                    ]
+                },
+                "(F)RF.VinylRecord": {
+                    "TileActions": [
+                        {
+                            "TileAction": "Jukebox"
+                        }
+                    ]
+                },
+            }
+        },
+        {
+			"LogName":"Rattan Catalogue Include",
+			"Action":"Include",
+			"FromFile":"data/shop.json"
+		}
+        
+        
+        
+           
+	]
+}

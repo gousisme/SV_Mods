@@ -1,0 +1,101 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "RedPandaBazaarJojaMart1.16.13": {
+          "Owners": [
+            {
+              "Name": "None",
+              "Dialogues": [
+                {
+                  "Id": "RedPandaBazaarJojaMart1.16.13",
+                  "Dialogue": "{{i18n:Shops.RedPandaBazaarJojaMart1.16.13}}"
+                }
+              ]
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Prize.Ticket.4.1",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_4",
+              "Price": 5000
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Prize.Ticket.4.2",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_4",
+              "Price": 4000,
+              "Condition":"IS_JOJA_MART_COMPLETE"
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Redemption.Coupon.19.1",
+              "ItemId": "(O)RedPandaBazaar_Prize_Ticket_4",
+              "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+              "TradeItemAmount": 1
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Redemption.Coupon.19.2",
+              "ItemId": "(BC)272",
+              "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+              "TradeItemAmount": 99
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Redemption.Coupon.19.3",
+              "ItemId": "(F)JojaCatalogue",
+              "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+              "TradeItemAmount": 20
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Redemption.Coupon.19.4",
+              "ItemId": "(H)JojaCap",
+              "TradeItemId": "(O)RedPandaBazaar_Redemption_Coupon_19",
+              "TradeItemAmount": 5
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Joja.Cola.1",
+              "ItemId": "(O)167",
+              "Price": 75
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Joja.Furniture.Catalogue.1",
+              "ItemId": "(F)JojaCatalogue",
+              "Price": 25000
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.J.Cola.Light.1",
+              "ItemId": "(F)1609",
+              "Price": 500
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Grass.Starter.1",
+              "ItemId": "(O)297",
+              "Price": 125
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Sugar.1",
+              "ItemId": "(O)245",
+              "Price": 125
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Wheat.Flour.1",
+              "ItemId": "(O)246",
+              "Price": 125
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Rice.1",
+              "ItemId": "(O)423",
+              "Price": 250
+            },
+            {
+              "Id": "RedPandaBazaarJojaMart1.16.13.Auto-Petter.1",
+              "ItemId": "(BC)272",
+              "Price": 50000,
+              "Condition":"IS_JOJA_MART_COMPLETE"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

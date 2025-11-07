@@ -1,0 +1,28 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Priority": "Early",
+      "Entries": {
+        "Wander_Default": "{{i18n: Abigail_Wander_Default_{{Random:1,2,3,4,5,6,7,8}}}}",
+        "Wander_Building": "{{i18n: Abigail_Wander_Building_{{Random:1,2,3,4,5,6}}}}",
+        "Wander_Farmer": "{{i18n: Abigail_Wander_{{Random:Farmer_1,Farmer_2,Default_1,Default_2,Default_3,Default_4,Default_5,Default_6,Default_7,Default_8}}}}",
+        "Wander_BrokenFence": "{{i18n: Abigail_Wander_{{Random:BrokenFence_1,BrokenFence_2,Default_1,Default_2,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_Water": "{{i18n: Abigail_Wander_Water_{{Random:1,2,3,4,5,6}}}}",
+        "Wander_Tree": "{{i18n: Abigail_Wander_{{Random:Tree_1,Tree_2,Tree_3,Tree_4,Default_7,Default_8}}}}",
+        "Wander_FruitTree": "{{i18n: Abigail_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,Tree_1,Tree_2,Tree_3,Tree_4}}}}",
+        "Wander_MatureCrop": "{{i18n: Abigail_Wander_{{Random:MatureCrop_1,MatureCrop_2,MatureCrop_3,Default_1,Default_2,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_MatureCrop_Pumpkin": "{{i18n: Abigail_Wander_{{Random:LovedCrop_Pumpkin_2,MatureCrop_1,MatureCrop_2,MatureCrop_3}}}}",
+        "Wander_LovedCrop_Pumpkin": "{{i18n: Abigail_Wander_LovedCrop_Pumpkin_{{Random:1,2,3,4}}}}",
+        "Wander_Cave": "{{i18n: Abigail_Wander_Cave_{{Random:1,2,3,4,5}}}}",
+        "Wander_Coop": "{{i18n: Abigail_Wander_{{Random:Coop_1,Coop_2,Coop_3,Coop_4,Building_1,Building_2}}}}",
+        "Wander_Coop_Chicken": "{{i18n: Abigail_Wander_Coop_{{Random:Chicken_1,Chicken_2,Chicken_3,Chicken_4,1,2,3,4}}}}",
+        "Wander_Barn": "{{i18n: Abigail_Wander_{{Random:Barn_1,Barn_2,Barn_3,Barn_4,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Barn_Cow": "{{i18n: Abigail_Wander_Barn_{{Random:1,2,3,4,Cow_1,Cow_2,Cow_3,Cow_4}}}}",
+        "Wander_Shed": "{{i18n: Abigail_Wander_{{Random:Shed_1,Shed_2,Shed_3,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Greenhouse": "{{i18n: Abigail_Wander_{{Random:Greenhouse_1,Greenhouse_2,Greenhouse_3,Building_1,Building_2,Building_3,Building_4}}}}"
+      }
+    }
+  ]
+}

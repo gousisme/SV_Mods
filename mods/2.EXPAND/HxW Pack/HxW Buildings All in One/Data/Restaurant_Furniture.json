@@ -1,0 +1,312 @@
+{
+    "Changes":[
+
+         //indoor furniture spawning
+        
+        {
+            "LogName": "Add Optional Indoor Restaurant Furniture Items",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["{{ModId}}_Restaurant", "IndoorItems"],
+            "When": { "HasMod: |contains=HXW.RestaurantFurni": true },
+            "Priority":"Late",
+            "Entries": {
+                "{{ModId}}_Catalogue":  {
+                    "Id": "Restaurant_Catalogue",
+                    "ItemId": "(F)HXW.RestaurantFurni_Catalogue",
+                    "Tile": {
+                      "X": 30,
+                      "Y": 16
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Table1":  {
+                    "Id": "Restaurant_Table1",
+                    "ItemId": "(F)HXW.RestaurantFurni_DiagonalTableclothChairs",
+                    "Tile": {
+                      "X": 18,
+                      "Y": 19
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Table2":  {
+                    "Id": "Restaurant_Table2",
+                    "ItemId": "(F)HXW.RestaurantFurni_DiagonalTableclothChairs",
+                    "Tile": {
+                      "X": 31,
+                      "Y": 19
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Table3":  {
+                    "Id": "Restaurant_Table3",
+                    "ItemId": "(F)HXW.RestaurantFurni_DiagonalTableclothChairs",
+                    "Tile": {
+                      "X": 22,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Table4":  {
+                    "Id": "Restaurant_Table4",
+                    "ItemId": "(F)HXW.RestaurantFurni_DiagonalTableclothChairs",
+                    "Tile": {
+                      "X": 34,
+                      "Y": 23
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Table5":  {
+                    "Id": "Restaurant_Table5",
+                    "ItemId": "(F)HXW.RestaurantFurni_DiagonalTableclothChairs",
+                    "Tile": {
+                      "X": 37,
+                      "Y": 19
+                    },
+                    "Indestructible": false
+                  }
+            }
+        },
+
+        {
+            "LogName": "Add Optional Indoor Kitchen Furniture Items",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["{{ModId}}_Restaurant", "IndoorItems"],
+            "When": { "HasMod: |contains=HXW.ModularKitchen": true },
+            "Priority":"Late",
+            "Entries": {
+                  "{{ModId}}_Kitchen_Counter_1":  {
+                    "Id": "HXW.ModularKitchen_Counter_L",
+                    "ItemId": "(F)HXW.ModularKitchen_CounterEdgeLeft_EndTable",
+                    "Tile": {
+                      "X": 30,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Counter_2":  {
+                    "Id": "HXW.ModularKitchen_Counter_2",
+                    "ItemId": "(F)HXW.ModularKitchen_CounterCenter_EndTable",
+                    "Tile": {
+                      "X": 31,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Counter_3":  {
+                    "Id": "HXW.ModularKitchen_Counter_3",
+                    "ItemId": "(F)HXW.ModularKitchen_CounterCenter_EndTable",
+                    "Tile": {
+                      "X": 32,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Counter_4":  {
+                    "Id": "HXW.ModularKitchen_Counter_4",
+                    "ItemId": "(F)HXW.ModularKitchen_CounterCenter_EndTable",
+                    "Tile": {
+                      "X": 37,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Counter_5":  {
+                    "Id": "HXW.ModularKitchen_Counter_5",
+                    "ItemId": "(F)HXW.ModularKitchen_CounterCenter_EndTable",
+                    "Tile": {
+                      "X": 38,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Counter_6":  {
+                    "Id": "HXW.ModularKitchen_Counter_R",
+                    "ItemId": "(F)HXW.ModularKitchen_CounterEdgeRight_EndTable",
+                    "Tile": {
+                      "X": 39,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                    "{{ModId}}_Kitchen_DoubleSink":  {
+                    "Id": "HXW.ModularKitchen_DoubleSink",
+                    "ItemId": "(F)HXW.ModularKitchen_DoubleSink",
+                    "Tile": {
+                      "X": 34,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Stove":  {
+                    "Id": "HXW.ModularKitchen_Stove",
+                    "ItemId": "(F)HXW.ModularKitchen_Stove",
+                    "Tile": {
+                      "X": 33,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  },
+
+
+                  "{{ModId}}_Kitchen_WallCabinet_1":  {
+                    "Id": "HXW.ModularKitchen_Cabinet",
+                    "ItemId": "(F)HXW.ModularKitchen_Cabinet",
+                    "Tile": {
+                      "X": 31,
+                      "Y": 1
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_WallCabinet_2":  {
+                    "Id": "HXW.ModularKitchen_CabinetOpen",
+                    "ItemId": "(F)HXW.ModularKitchen_CabinetOpen",
+                    "Tile": {
+                      "X": 32,
+                      "Y": 1
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_WallCabinet_3":  {
+                    "Id": "HXW.ModularKitchen_DoubleKitchenCabinet",
+                    "ItemId": "(F)HXW.ModularKitchen_DoubleKitchenCabinet",
+                    "Tile": {
+                      "X": 33,
+                      "Y": 1
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Ingredients":  {
+                    "Id": "HXW.ModularKitchen_IngredientShelf",
+                    "ItemId": "(F)HXW.ModularKitchen_IngredientShelf",
+                    "Tile": {
+                      "X": 35,
+                      "Y": 1
+                    },
+                    "Indestructible": false
+                  },
+
+                  "{{ModId}}_Kitchen_Island_UpperL_Corner":  {
+                    "Id": "HXW.ModularKitchen_TopCornerLeft",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendTopCornerLeft_EndTable",
+                    "Tile": {
+                      "X": 32,
+                      "Y": 6
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Island_UpperR_Corner":  {
+                    "Id": "HXW.ModularKitchen_TopCornerRight",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendTopCornerRight_EndTable",
+                    "Tile": {
+                      "X": 37,
+                      "Y": 6
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Upper1":  {
+                    "Id": "HXW.ModularKitchen_Upper1",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendTopCenter_EndTable",
+                    "Tile": {
+                      "X": 33,
+                      "Y": 6
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Upper2":  {
+                    "Id": "HXW.ModularKitchen_Upper2",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendTopCenter_EndTable",
+                    "Tile": {
+                      "X": 34,
+                      "Y": 6
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Upper3":  {
+                    "Id": "HXW.ModularKitchen_Upper3",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendTopCenter_EndTable",
+                    "Tile": {
+                      "X": 35,
+                      "Y": 6
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Upper4":  {
+                    "Id": "HXW.ModularKitchen_Upper4",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendTopCenter_EndTable",
+                    "Tile": {
+                      "X": 36,
+                      "Y": 6
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Lower1":  {
+                    "Id": "HXW.ModularKitchen_",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendCenter_EndTable",
+                    "Tile": {
+                      "X": 33,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Lower2":  {
+                    "Id": "HXW.ModularKitchen_",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendCenter_EndTable",
+                    "Tile": {
+                      "X": 34,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Lower3":  {
+                    "Id": "HXW.ModularKitchen_",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendCenter_EndTable",
+                    "Tile": {
+                      "X": 35,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_Lower4":  {
+                    "Id": "HXW.ModularKitchen_",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendCenter_EndTable",
+                    "Tile": {
+                      "X": 36,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_Kitchen_Island_LowerL_Corner":  {
+                    "Id": "HXW.ModularKitchen_LowerL_Corner",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendLeft_EndTable",
+                    "Tile": {
+                      "X": 32,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                   "{{ModId}}_Kitchen_Island_LowerR_Corner":  {
+                    "Id": "HXW.ModularKitchen_LowerR_Corner",
+                    "ItemId": "(F)HXW.ModularKitchen_IslandExtendRight_EndTable",
+                    "Tile": {
+                      "X": 37,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                    "{{ModId}}_Kitchen_MiniFridge":  {
+                    "Id": "HXW.ModularKitchen_MiniFridge",
+                    "ItemId": "(BC)216",
+                    "Tile": {
+                      "X": 36,
+                      "Y": 4
+                    },
+                    "Indestructible": false
+                  }
+               
+            }
+        }
+        
+    ]
+}

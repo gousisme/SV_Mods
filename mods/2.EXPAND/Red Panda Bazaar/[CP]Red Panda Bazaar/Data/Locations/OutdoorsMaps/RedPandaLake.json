@@ -1,0 +1,76 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_RedPandaLake": {
+          "DisplayName": "{{i18n:RedPandaLake}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_RedPandaLake"
+          },
+          "CanPlantHere": false,
+          "FormerLocationNames": [
+            "RedPandaLake"
+          ],
+          "Fish": [
+            {
+              "Id": "(O)132",
+              "ItemId": "(O)132",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)136",
+              "ItemId": "(O)136",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)138",
+              "ItemId": "(O)138",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+            {
+              "Id": "(O)139",
+              "ItemId": "(O)139",
+              "Condition": "LOCATION_Season Here Fall"
+            },
+            {
+              "Id": "(O)142",
+              "ItemId": "(O)142",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)153",
+              "ItemId": "(O)153",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)698",
+              "ItemId": "(O)698",
+              "Condition": "LOCATION_Season Here Summer Winter"
+            },
+            {
+              "Id": "(O)700",
+              "ItemId": "(O)700",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "(O)707",
+              "ItemId": "(O)707",
+              "Condition": "LOCATION_Season Here Winter"
+            },
+            {
+              "Id": "River Jelly",
+              "ItemId": "RiverJelly",
+              "Chance": 0.06
+            }
+          ]
+        },
+        "When": {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+        }
+      }
+    }
+  ]
+}

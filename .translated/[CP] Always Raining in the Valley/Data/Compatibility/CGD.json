@@ -1,0 +1,219 @@
+﻿{
+    "Changes": [
+ //CUSTOM GIFT DIALOGUE
+ //Sterling
+	{
+		"LogName": "Sterling",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sterling",
+        "Entries": {
+                //Birthdays
+                    //Sunflower
+                    "AcceptBirthdayGift_(O)421": "... D-Dành cho anh?$7#$b#Anh-Anh....$7#$b#Xin lỗi người nông dân, anh đang làm quá lên- Chỉ là...$13#$b#Đó là...Đó là loài hoa yêu thích của anh.$4#$b#Thật kỳ lạ khi thừa nhận điều đó. Thậm chí còn kỳ lạ hơn khi nhận được chúng vào đúng ngày sinh nhật của anh...$4#$e#Thật cảm động, cảm ơn em.$13#$b#Anh sẽ không quên sinh nhật này trong một thời gian dài.$4#$b#Anh chắc chắn sẽ tặng em thứ gì đó thật tuyệt, được chứ?$1",
+                    //Strange Bun
+                    "AcceptBirthdayGift_(O)203": "Người mẹ nhăn nheo của Yoba-- Dành cho anh?!$7#$b#Đây là món quà sinh nhật TUYỆT VỜI NHẤT! Những thứ này ngon quá, anh không hiểu tại sao gia đình anh lại nghĩ anh bị điên.#$e#Cảm ơn người nông dân rất nhiều!$1#$b#Này, em muốn chia với anh $10 không?#$b#Không gì bằng một chiếc Strange Bun để nói rằng 'Sống thêm một năm dài và hạnh phúc.'$10",
+                    //Beer
+                    "GiftReaction_Beer_": "À, cảm ơn vì đồ uống của nông dân. Anh sẽ mời vòng tiếp theo vào lần tới khi em đến Saloon.#$e#Ồ! Sinh nhật của anh à? Cảm ơn vì đã nhớ.$1",
+                    //Field Snack
+                    "GiftReaction_Field_Snack_Birthday": "Mmm, không gì tuyệt hơn một thanh năng lượng tốt để bắt đầu ngày sinh nhật của anh. Cảm ơn, người nông dân!#$b#Để làm cho mọi thứ tốt hơn, những thứ em làm là BOM.$1#$b#Cảm ơn vì đã nghĩ đến anh.$9",
+                    //Bear Pancakes
+                    "GiftReaction_Bear_Pancakes_Birthday": "Dành cho anh? $7#$b#Ôi trời ơi, chúng GIỐNG NHƯ Mia làm. Em là người nông dân TỐT NHẤT.$1#$b#Đây là món quà sinh nhật tuyệt vời, phải là món anh thích nhất.",
+                    //Scalloped Potatoes
+                    "GiftReaction_Scalloped_Potatoes_Birthday": "Mmm, giống hệt như bà vẫn làm. #$b#Henry là người duy nhất thực sự có thể nắm bắt được hương vị nhưng anh ấy hiếm khi có thời gian để làm. #$b#Hương vị luôn đưa anh trở về với sự ấm áp của bà... $4#$b#Cảm ơn em, @. Điều này thực sự có ý nghĩa rất lớn đối với anh. #$b#Món quà sinh nhật tuyệt vời nhất từ ​​trước đến nay.$9",
+                    //Kitty Muffin
+                    "GiftReaction_Kitty_Muffin_Birthday": "Ồ. ANH THÍCH những thứ này!$1#$b#Nó dành cho sinh nhật của anh à? Em là người nông dân TỐT NHẤT.$9",
+                    //Morning Cat Toast
+                    "GiftReaction_Morning_Cat_Toast_Birthday": "MMM Không gì tuyệt vời hơn bữa sáng của những nhà vô địch trước ngày sinh nhật TUYỆT VỜI.$1#$b#Cảm ơn người nông dân rất nhiều! Đây cũng chính là cách Mia làm chúng.$1",
+                    //Bear Muffin
+                    "GiftReaction_Bear_Muffin_Birthday": "Ồ. ANH THÍCH những thứ này!$1#$b#Nó dành cho sinh nhật của anh à? Em là người nông dân TỐT NHẤT.$9",             
+
+            //Flowers
+                //Sunflower
+                "GiftReaction_Sunflower":"...!$7#$b#Những thứ này... Chúng thật đẹp.$4#$b#Anh biết hoa hướng dương rất đẹp nhưng anh chưa bao giờ nghĩ đến việc ai đó tặng chúng cho anh anh...$4#$b#Xin lỗi, anh đang trở nên tự ti. Anh cho rằng mình là người tặng hoa cả đời. Thật kỳ lạ... Chào mừng sự thay đổi",
+                //Flowers Categories
+                "GiftReactionCategory_-80": "...!$7#$b#Dành cho... Anh ư? Em có đúng người không?$7#$b#K-Không, anh chỉ... Xin lỗi, anh không có ý kỳ lạ.$7#$b#Anh chưa bao giờ thực sự... Nhận được hoa trước đây trong đời. Thực sự không nghĩ rằng các chàng trai có thể nhận được chúng.#$b#...Cảm ơn em.$4",
+            //Cranberries    
+                "GiftReaction_Cranberries": "Uhh, cẩn thận nhé người nông dân! Anh cực kỳ dị ứng với những thứ này, và phản ứng nếu anh đến gần chúng sẽ không đẹp chút nào, anh hứa đấy.$3",
+            //Field Snack
+                "GiftReaction_Field_Snack": "{{Random: Mmm, không gì bằng một bữa ăn nhẹ ngon lành để vượt qua ngày dài.#$b#Cảm ơn người nông dân!++Ôi trời, anh thích những thứ này quá, không gì bằng đồ ăn vặt ngoài đồng của em, người nông dân ạ.++Ồ vâng, đến với em nào anh yêu.$10#$b#Xin lỗi người nông dân, anh đang nói chuyện với đồ ăn vặt ngoài đồng.$|inputSeparator=++}}",
+            //Strange Bun
+                "GiftReaction_Strange_Bun": "Ôi người nông dân, em không biết anh đã nhào một trong những thứ này nhiều đến thế nào đâu. $10#$b#Anh đã quá chán ngán một món ăn vặt ngon lành. Em có muốn chia sẻ với anh không?$9",
+            //ARV Modded Items
+                "GiftReaction_Bear_Pancakes": "Ôi trời Yoba, chúng dễ thương quá. Anh phát điên khi Mia làm chúng.$1#$b#Cảm ơn, hotstuff. Em là người thực sự.$9",
+                "GiftReaction_Scalloped_Potatoes": "Khoai tây? Bơ? Hẹ? RẤT NHIỀU kem?$9#$b#Lạy Chúa, người nông dân, ngài chỉ đang cố gắng kiếm đường vào thẳng trái tim anh thôi.$10",
+                "GiftReaction_Kitty_Muffin": "Ồ, chết tiệt, anh nông dân! Hôm nay không có bánh muffin nào với một trong những anh chàng xấu xa này.$10#$b#Cảm ơn em rất nhiều, hotstuff.$10",
+                "GiftReaction_Morning_Cat_Toast": "Trời ơi, điều này làm anh nhớ ra mình ghét trò chơi chữ về mèo đến mức nào.$11#$b#Chỉ là mèo con thôi!$9#$b#Anh thấy chúng HISSterical.$10",
+                "GiftReaction_Summer_Pink_Lemonade": "Ah!$1#$b#Cảm ơn bác nông dân, anh khát quá. Tuyệt vời quá.$10",
+                "GiftReaction_Bear_Muffin": "Ồ! Cảm ơn người nông dân, đây là...#$b#Đây là...$2#$b#Cứ kiên nhẫn với anh người nông dân, anh sẽ nghĩ ra một trò chơi chữ sớm thôi.$3",
+                "GiftReaction_Crab_Croissant": "Anh thấy em đã phát triển sự đánh giá cao đối với thức ăn của Mia.$10#$b#Ồ đừng lo, đó là lời khen CAO NHẤT.$10#$b#Mia là một đầu bếp tuyệt vời, phải không? Những món này rất ngon, cảm ơn người nông dân.",
+
+
+            //Alcoholic Drinks
+
+                //Beer
+                "GiftReaction_Beer": "{{Random: À! Không gì bằng một cốc bia ngon để thực sự chạm đến điểm mấu chốt. Cảm ơn người nông dân, em là một con búp bê. $1++Em đang cố gắng chạy nhanh tình bạn của chúng ta với đồ uống yêu thích của anh à nông dân?$10#$b#Bởi vì nếu em đang làm vậy, nó đang hiệu quả. Tiếp tục đi, anh có thể cảm thấy đồng hồ đo nhịp tim tưởng tượng của mình đang tăng lên.$10++Không gì bằng một cốc bia để làm dịu tinh thần, anh thực sự đang cố gắng để có được sự ủng hộ của anh, phải không?$10#$b#Đừng lo lắng người nông dân, em đã đánh cắp trái tim anh rồi. Em thật may mắn khi anh sẽ lấy cốc bia đó làm khoản thanh toán xứng đáng.$10++Cái gì thế, cố gắng làm anh say để hạ thấp tiêu chuẩn của anh à, @?$10#$b#Đừng lo lắng, có cồn trong cơ thể anh hay không, em cũng nóng bỏng như vậy thôi.$10#$b#Và tiêu chuẩn của anh cũng đã ở mức thấp rồi.$1|inputSeparator=++}}",
+
+                //Pale Ale
+                "GiftReaction_Pale_Ale": "{{Random: Ồ! Em là người nông dân giỏi nhất, cảm ơn em! #$b#Em biết không, hồi ở thành phố, thật khó để có được bia pale ale. Một loại đồ uống hipster. Thật vui khi có được món ăn này. +Ồ, trông ngon quá. Có phải hoa bia từ trang trại của anh không? $1#$b#Anh mong được thử nó. $9++%bia pale ale của trang trại? Anh không thể chờ để thử! #$b#Em biết không, anh thực sự rất hào hứng khi thử bia pale ale của Gus khi anh đến thị trấn. #$b#Thật không may, nó không phải là bia như người ta đồn đại!$10|inputSeparator=++}}",
+				
+                //Mead
+                "GiftReaction_Mead": "{{Random: Em là một người bạn thực sự, em biết người nông dân đó chứ?$10#$b#Sau cùng, một người bạn ở Mead thực sự là một người bạn!$9++OHO, anh muốn biết tại sao em lại tốt với anh như vậy. Tại sao phải cảm ơn em, người nông dân.$10++Mmm, không gì bằng một thức uống để làm tươi sáng một ngày. Em là người tuyệt nhất!$10#$b#Nếu anh biết người dân thung lũng hào phóng như vậy thì anh đã chuyển đến sớm hơn.|inputSeparator=++}}",
+
+                //Wine
+				"GiftReaction_Wine": "{{Random: Em không biết hôm nay anh cần một ly đến thế nào đâu.#$b#Ahhh... Đúng rồi, đúng chỗ rồi. Cảm ơn, nông dân.$9++Em đang cố gắng thích chạy nhanh tình bạn của chúng ta với đồ uống yêu thích của anh, nông dân à?$10#$b#Bởi vì nếu em thích, thì nó đang hiệu quả. Tiếp tục nào, anh có thể cảm thấy đồng hồ đo nhịp tim tưởng tượng của mình đang tăng lên.$10++Ồ nông dân, em thật là chai với anh khi em hào phóng như vậy. Anh thích khi những bộ óc vĩ đại cùng uống.#$b#Không gì bằng một thức uống ngon để làm dịu cơn say.$9|inputSeparator=++}}",
+
+                //Pi;a Colada
+				"GiftReaction_Piña_Colada": "{{Random: Em đang cố gắng thích chạy nhanh tình bạn của chúng ta với người nông dân đồ uống yêu thích của anh? $10#$b#Bởi vì nếu em thích, nó đang hoạt động. Tiếp tục, anh có thể cảm thấy đồng hồ đo nhịp tim tưởng tượng của mình đang tăng lên. $10++Mmm, không gì bằng một ly pina colada và bị mắc mưa. $1++Em không biết hôm nay anh cần một ly đồ uống đến mức nào đâu. #$b#Ahhh... Đúng rồi, đúng chỗ rồi. Cảm ơn, người nông dân.$9|inputSeparator=++}}",       
+		},
+            "When": {
+            "Hearts:Sterling": "{{Range: 0, 8}}",
+            "Relationship:Sterling |contains=Married": false,
+	}
+},
+{
+    "LogName": "Sterling",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "Entries": {
+
+         //Birthdays
+         "GiftReaction_Sunflower_Birthday": "... Trời ơi.$13#$b#C-Cho anh á?$1#$b#Em thực sự đã đi và trồng những bông hoa yêu thích của anh cho ngày sinh nhật của anh- Anh-- Trời ơi, tình yêu.$4#$b#Anh chưa bao giờ cảm thấy được yêu thương như thế này trước đây. Cảm ơn em rất nhiều. Cảm ơn em.$13",
+         "GiftReaction_Strange_Bun_Birthday": "!$7#$b#Bắn muffin. Em thực sự muốn anh đi và cưới em, phải không?$10#$b#Chúc mừng sinh nhật anh! Anh thích những thứ này.$9#$b#Bây giờ hãy nói cho anh biết, em có tình cờ cướp được chúng từ một con quái vật kỳ lạ nào không? Hay có thể là phát hiện ra nó ở một tầng sâu của mỏ?",
+         "GiftReaction_Beer_Birthday": "Ôi trời. Không có món quà sinh nhật nào tuyệt hơn tình yêu của anh cho phép cơn nghiện của anh.$10#$b#Cảm ơn, người yêu.$9",
+         "GiftReaction_Field_Snack_Birthday": "Ồ! Em đã làm những thứ này chưa? $1#$b#Cho sinh nhật của anh? Cảm ơn em! $9#$b#Em biết đấy, thật buồn cười, một ngày em sống ở thành phố, và ngày hôm sau em sống ở thung lũng và người quan trọng của em đang làm cho em những món ăn nhẹ từ hạt cây cho ngày sinh nhật của em.$10",
+         "GiftReaction_Bear_Pancakes_Birthday": "Bánh kếp đặc biệt của Mia? Vào sinh nhật ANH? $1#$b#Em yêu, em đã học cách làm những thứ này từ Mia chỉ dành cho anh sao? $1#$b#Anh thề là anh không xứng đáng với em, cảm ơn em, ánh nắng mặt trời.$9",
+         "GiftReaction_Scalloped_Potatoes_Birthday": "Yoba, mùi này tuyệt quá. Em làm món này cho mình à? $1#$b#Trời ơi. Em là người được Yoba gửi đến, bà ngoại và Henry của mình sẽ ghen tị lắm vì em làm món này rất khéo.$9#$b#Cảm ơn em, cupcake, em không cần phải đi xa thế này chỉ để mừng sinh nhật mình đâu.",
+         "GiftReaction_Kitty_Muffin_Birthday": "Bánh nướng xốp Yoba, em nấu ăn thật tuyệt. Em có bao giờ cảm thấy mệt mỏi khi tuyệt vời như thế này không?$1#$b#Những chiếc bánh nướng xốp này là món ăn sinh nhật yêu thích của anh, cảm ơn búp bê.$10",
+         "GiftReaction_Morning_Cat_Toast_Birthday": "Sinh nhật của anh ư? Cảm ơn tình yêu!$9#$b#Tại sao chúng ta không nâng ly chúc mừng nhỉ?$10 ",
+         "GiftReaction_Bear_Muffin_Birthday": "Bánh nướng xốp Yoba, em nấu ăn thật tuyệt. Em có bao giờ cảm thấy mệt mỏi khi tuyệt vời như thế này không?$1#$b#Những chiếc bánh nướng xốp này là món ăn sinh nhật yêu thích của anh, cảm ơn búp bê.$10",    
+        //Flowers
+            "GiftReaction_Sunflower":"Ahh trời ơi anh...$4#$b#Những bông hoa này thật tuyệt đẹp, cảm ơn em rất nhiều. Anh-anh không biết phải nói gì nữa, chúng là bông hoa anh thích nhất.#$b#Chưa có đối tác nào tặng hoa cho anh trước đây.$4",
+            "GiftReactionCategory_-80": "... @!$9#$b#Cảm ơn em rất nhiều, anh... Anh thực sự thích hoa.#$b#Thật kỳ lạ khi phải thừa nhận, đó không phải là sở thích của con gái sao?$9",
+        //Cranberries
+        "GiftReaction_Cranberries": "Ahhh, tình yêu, em nên biết là anh *rất* dị ứng với quả nam việt quất. Chúng đến gần anh, và anh trở nên rất, rất ốm.$3#$b#Bán chúng đi, cưng à, anh không muốn chết sớm đâu.$3", 
+        //Alcoholic Drinks
+
+            //Beer
+            "GiftReaction_Beer": "{{Random: Cảm ơn em nhé, hotstuff. Cái này sẽ đi thẳng vào ruột của bố.$10#$b#.... Anh hứa sẽ không bao giờ gọi mình là bố nữa nếu em không ngừng mua đồ uống cho anh.$3++Em không cần phải làm anh say đâu, cưng à, anh đã *phát điên* vì em rồi. Đây chỉ là lớp kem trên bánh thôi++Mmm, cuối cùng cũng có người thực sự giúp anh. Thật mệt mỏi khi bị la mắng mỗi khi anh mở một chai bia.#$b#*smooch* Cảm ơn em, tình yêu! Anh sẽ nghĩ đến em khi anh uống nó.$1++Cảm ơn em, tình yêu. Anh... Anh không biết, anh có nên không?#$b#Anh nghĩ anh sẽ giữ nó cho ngày mai...|inputSeparator=++}}",
+
+            //Pale Ale
+            "GiftReaction_Pale_Ale": "{{Random: À, cảm ơn em yêu! Em là người tuyệt nhất. Ngân sách cho rượu bắt đầu eo hẹp rồi.$1++Khi bạn anh ngủ quên ở quán bar, anh đã đổ bia vào người anh ấy. Đó là một sự thức tỉnh được ủ.$9++Ahh... Đúng lúc anh nói rằng anh đã cố gắng không uống rượu tối nay.$3#$b#Ồ, thôi được! Ngày mai vẫn còn!$9|inputSeparator=++}}",
+
+            //Mead
+            "GiftReaction_Mead":  "{{Random: Em không cần phải làm anh say đâu, cưng à, anh đã *điên cuồng* vì em rồi. Đây chỉ là lớp kem phủ trên bánh thôi++Ồ, cảm ơn em yêu! Em là người tuyệt nhất. Ngân sách cho rượu bắt đầu eo hẹp rồi.$1++Ồ, ngọt ngào, đồ giải khát! Cảm ơn tình yêu, em chắc chắn là người tuyệt nhất.$9|inputSeparator=++}}",
+
+            //Wine
+            "GiftReaction_Wine":  "{{Random: Em không cần phải làm anh say đâu, cưng à, anh đã *điên cuồng* vì em rồi. Đây chỉ là lớp kem phủ trên bánh thôi++Ồ, cảm ơn em yêu! Em là người tuyệt nhất. Ngân sách cho rượu bắt đầu eo hẹp rồi.$1++Ồ, ngọt ngào, đồ giải khát! Cảm ơn tình yêu, em chắc chắn là người tuyệt nhất.$9|inputSeparator=++}}",
+
+            //Pina Colada
+            "GiftReaction_Piña_Colada":  "{{Random: Em không cần phải làm anh say đâu, cưng à, anh đã *điên cuồng* vì em rồi. Đây chỉ là lớp kem phủ trên bánh thôi++Ồ, cảm ơn em yêu! Em là người tuyệt nhất. Ngân sách cho rượu bắt đầu eo hẹp rồi.$1++Ồ, ngọt ngào, đồ giải khát! Cảm ơn tình yêu, em chắc chắn là người tuyệt nhất.$9|inputSeparator=++}}",
+
+             //Field Snack
+             "GiftReaction_Field_Snack": "{{Random: Mmm, cái này có vị như cây phong! Khiến anh thèm một bữa tối bánh kếp.$1++Ồ, đây chỉ là hạt giống thôi. Cảm ơn, cưng à.$10++Ồ, cảm ơn Yoba, anh cần thêm năng lượng quá.$6#$b#*MWAH* Cảm ơn, cưng à! Em thật tuyệt vời.$1|inputSeparator=++}}",
+             //Strange Bun
+             "GiftReaction_Strange_Bun": "Em biết không? Anh vẫn không biết bên trong chúng có gì hoặc điều gì làm cho chúng ngon đến vậy.$11#$b#Anh biết anh *về mặt kỹ thuật* nên quan tâm nhiều hơn nhưng không phải lỗi của anh, đây là món ăn yêu thích của anh.$10",
+             
+             //ARV Modded Items
+                 "GiftReaction_Bear_Pancakes": "Mmmm, với dâu tây tươi ở bên cạnh. Cảm ơn, poppet. Đây là món ăn trực tiếp.$1#$b#Yoba, những chiếc bánh kếp này thực sự là tuyệt vời.$9",
+                 "GiftReaction_Scalloped_Potatoes": "Khoai tây? Bơ? Hẹ? RẤT NHIỀU kem?$9#$b#Đúng là tệ hại và béo ngậy như bà anh mong muốn. Bà sẽ tự hào về anh, người yêu ạ.$10#$b#Trời ạ... Những thứ này ngon quá.$4",
+                 "GiftReaction_Morning_Cat_Toast": "Dành cho anh ư? Ồ, cảm ơn em yêu.#$b#Anh yêu em.$4",
+                 "GiftReaction_Summer_Pink_Lemonade": "Ồ, cảm ơn em!$1#$b#Yoba, anh ghét uống nước thường, nước này tốt hơn nhiều. Cảm ơn em, tình yêu.#$e#Mia không tình cờ giới thiệu em với điều này chứ, phải không?$10",
+                 "GiftReaction_Crab_Croissant": "Dành cho anh ư? Trời ạ. Bữa sáng này gần như quá đáng yêu để anh có thể ăn nó.#$b#Gần như.$10",          
+    },
+                "When": {
+                "Hearts:Sterling": "{{Range: 8, 10}}",
+                "Relationship:Sterling |contains=Dating, Engaged": true,
+}
+},
+
+{
+    "LogName": "NPC Dispositions",
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "Entries": {
+    
+        "Sterling": "{{Random: Ôi trời, đây là dành cho anh sao? Angel, em không cần phải làm thế. Đây là điều anh không thể yêu cầu. $4 ++ Ôi trời, cưng à, em hiểu anh quá rõ, phải không? Cảm ơn sugarcups. ++ Một bất ngờ ư? Em đã tặng anh món quà là một người tuyệt vời nhất mà anh biết. Mọi thứ sau đó chỉ là lớp kem phủ. ++ Em thực sự là người tốt bụng và chu đáo nhất mà anh từng gặp. $4#$b# Anh đã nhắc đến từ gợi cảm chưa? Em cũng rất, rất gợi cảm. *hôn* $10|inputSeparator=++}}/203 211 403 421 234/{{Random: Ồ! Cảm ơn vì đã nghĩ đến anh, em thực sự không cần phải làm vậy. ++ Ah! Cảm ơn em, thiên thần. Thật đáng yêu. $1++ Một món quà tuyệt vời mà em có ở đó. Hay là anh đổi cho em một nụ hôn để lấy nó? $10#$b#Không? Mười thì sao? $1 ++ Wow! Em không cần phải làm vậy, cưng à. Cảm ơn em. $1 |inputSeparator=++}}/-80 376 410 459 239 597 595 591 593/Uhh cưng à, anh không thích cái này lắm.$3/723 272 213/Uhh, điều này thực sự không buồn cười chút nào, tình yêu ạ.$11/612 238 493 118 282 346 303 348/Cảm ơn. Nó sẽ được sử dụng bằng cách nào đó./167 171/."
+    },
+    "When": {
+        "Relationship:Sterling |contains=Engaged, Married": true,
+    },
+},
+{
+    "LogName": "Sterling Marriage",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "Entries": {
+            //Birthdays
+            "GiftReaction_Sunflower_Birthday": "",
+            "GiftReaction_Strange_Bun_Birthday": "I love this!$1",
+            "GiftReaction_Beer_Birthday": "",
+            "GiftReaction_Field_Snack_Birthday": "",
+            "GiftReaction_Bear_Pancakes_Birthday": "",
+            "GiftReaction_Scalloped_Potatoes_Birthday": "Sinh nhật của anh à?$7#$b#Ôi, yêu quá... Anh nghĩ là em sẽ làm anh khóc mất.$4#$b#Không, không có gì tệ đâu. Mùi này thơm quá... Nó khiến anh nhận ra mình nhớ bà anh đến nhường nào.$9#$b#Cảm ơn em, cưng à.$4",
+            "GiftReaction_Kitty_Muffin_Birthday": "",
+            "GiftReaction_Morning_Cat_Toast_Birthday": "",
+            "GiftReaction_Bear_Muffin_Birthday": "",  
+
+        //Flowers
+            "GiftReaction_Sunflower":"Trời ơi, anh thật là tốt bụng, anh biết không?#$b#Hoa hướng dương là loài hoa em thích nhất, em rất vui mỗi khi anh nhớ đến.$4",
+            "GiftReactionCategory_-80": "{{Random:Anh chưa bao giờ nghĩ mình sẽ thích nhận hoa đến thế, cảm ơn em, poppet.$4++ Những bông hoa này thật tuyệt đẹp, anh sẽ mua một chiếc bình để tặng chúng!#$b#Chỉ là không đẹp bằng em thôi.$4++ Trời ơi, anh không thể tin là anh vẫn đỏ mặt mỗi khi em tặng hoa cho anh. Cảm ơn em, sugar. Những bông hoa này thật đẹp.|inputSeparator=++}}",
+
+       //Cranberries    
+        "GiftReaction_Cranberries": "Woah kia! Cẩn thận nào con ngựa giống. Anh bị dị ứng VÔ CÙNG. Trừ khi em đang cố gắng trở thành một cửa sổ trẻ, tốt nhất là hãy tránh xa anh. $3^Woah kia! Cẩn thận nào con búp bê mặt. Anh bị dị ứng VÔ CÙNG. Trừ khi em đang cố gắng trở thành một cửa sổ trẻ, tốt nhất là hãy tránh xa anh.$3",
+
+        //Alcoholic Drinks
+
+            //Beer
+            "GiftReaction_Beer": "{{Random: ... Điều này không thực sự buồn cười, @.$5#$b#Anh thực sự đang cố gắng giữ tỉnh táo, em không cần phải chế giễu anh như thế này.$11++Em có nghĩ rằng anh không đấu tranh với sự thôi thúc đến quán rượu và uống rượu cho đến khi anh không còn thức dậy mỗi ngày không, @?$8#$b#Vâng? Vậy thì anh sẽ rất cảm kích nếu em không cố nhét rượu vào mặt anh.++Anh... Anh đã không cắt đứt Shane và những người bạn cũ của anh để em là người bắt đầu cho phép anh.$5#$b#Làm ơn, anh không muốn em cũng vậy.$2++eM thật tàn nhẫn, @. eM biết anh đang đấu tranh.$11#$b#eM được cho là phải ở đó vì anh, không phải kéo anh vào sâu hơn nữa.$5|inputSeparator=++}}",
+
+
+            //Pale Ale
+            "GiftReaction_Pale_Ale": "{{Random:... Chuyện này không thực sự buồn cười đâu, @.$5#$b#Anh thực sự đang cố gắng giữ mình tỉnh táo, anh không cần phải chế giễu anh như thế này đâu.$11++Anh... Anh không cắt đứt quan hệ với Shane và những người bạn cũ của anh để anh là người bắt đầu cho phép anh.$5#$b#Làm ơn, anh không muốn anh cũng là người như vậy.$2++Anh thật tàn nhẫn, @. Anh biết là anh đang vật lộn mà.$11#$b#Anh phải ở đó vì anh, chứ không phải kéo anh vào sâu hơn nữa.$5|inputSeparator=++}}",
+
+            //Mead
+            "GiftReaction_Mead": "{{Random:... Chuyện này không thực sự buồn cười, @.$5#$b#Anh thực sự đang cố gắng giữ mình tỉnh táo, em không cần phải chế giễu anh như thế này.$11++Em thật tàn nhẫn, @. Em biết anh đang đấu tranh.$11#$b#Em phải ở đó vì anh, chứ không phải kéo anh xuống hố sâu hơn.$5++Anh... Anh không cắt đứt quan hệ với Shane và những người bạn cũ của anh để em là người bắt đầu cho phép anh.$5#$b#Làm ơn, anh không muốn em cũng vậy.$2|inputSeparator=++}}",
+
+            //Wine
+            "GiftReaction_Wine": "{{Random:... Điều này không thực sự buồn cười, @.$5#$b#Anh thực sự đang cố gắng để giữ tỉnh táo, em không cần phải chế giễu anh như thế này.$11++Chỉ cần... Một cốc rượu vang sẽ không gây hại, phải không?$3#$b#.... Mẹ kiếp.$6#$b#Đừng làm thế, được chứ? Đừng cố đưa rượu cho anh. Anh sẽ kết thúc bằng việc hợp lý hóa nó, và uống nó và....$5#$b#Em là sự ủng hộ lớn nhất mà anh có ngay bây giờ. Anh cần em ở bên cạnh anh, nghiện là khó khăn.$11++Hmmm, có lẽ chúng ta có thể nấu ăn với điều này? Một ít cá hồi có thể, giống như Mia đã từng làm.#$b#Nhưng nếu vậy thì làm ơn... Làm ơn đừng mang nó đến cho anh. Em biết anh bị cám dỗ như thế nào mà. Anh cần sự ủng hộ của em trong việc này.$3|inputSeparator=++}}",
+    
+            //Pina Colada
+            "GiftReaction_Piña_Colada": "{{Random:... Điều này không thực sự buồn cười, @.$5#$b#Anh thực sự đang cố gắng giữ mình tỉnh táo, em không cần phải chế giễu anh như thế này.$11++Em có nghĩ rằng anh không đấu tranh với sự thôi thúc đến quán rượu và uống cho đến khi anh không còn thức dậy mỗi ngày không, @?$8#$b#Vâng? Vậy thì anh sẽ rất cảm kích nếu em không cố nhét rượu vào mặt anh.++Điều này thật tàn nhẫn của em, @. Em biết anh đang đấu tranh.$11#$b#Em được cho là ở đó vì anh, không phải kéo anh vào sâu hơn nữa.$5|inputSeparator=++}}",
+
+            //Field Snack
+            "GiftReaction_Field_Snack": "",
+
+            //Strange Bun
+                "GiftReaction_Strange_Bun": "",
+
+            //Blueberry Tart
+                "GiftReaction_Blueberry_Tart": "Em biết không, khi anh mới đến thành phố, anh chỉ có vài đô la trong người và một căn hộ studio tồi tàn mà anh sống cho đến khi anh rời đi. #$b#Nhưng anh thức dậy mỗi sáng và chạy xuống tiệm bánh để tiêu vài đô la của mình vào một chiếc bánh việt quất, chúng thật ngon. #$b#Những người bạn cũ của anh nghĩ rằng chúng thật ngốc nghếch và cuối cùng anh mất hết hứng thú mua chúng. $13#$b#Nhưng ngửi thấy mùi món ăn mà em làm cho anh? Ôi, em yêu. Anh không bao giờ nghĩ rằng mình có thể cảm thấy mình 17 tuổi và tràn đầy hy vọng và ước mơ một lần nữa. Cảm ơn em, tình yêu.$4",
+
+            //ARV Modded Items
+                "GiftReaction_Bear_Pancakes": "",
+                "GiftReaction_Scalloped_Potatoes": "",
+                "GiftReaction_Kitty_Muffin": "",
+                "GiftReaction_Morning_Cat_Toast": "",
+                "GiftReaction_Summer_Pink_Lemonade": "",
+                "GiftReaction_Bear_Muffin": "",
+                "GiftReaction_Crab_Croissant": "",          
+    },
+    "When": {"HasSeenEvent |contains= 40180011": true,
+}
+/*
+    {
+		"LogName": "Henry Trash flowers",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Henry",
+        "Entries": {
+            
+            "GiftReactionCategory_-20": "Thêm rác nữa sao? Những thứ này từ đâu ra vậy?#$b#Dù sao đi nữa, cảm ơn em đã nhặt nó lên. Anh sẽ đi vứt nó đi giúp em.$10",
+  
+		
+	       
+
+		}
+	}
+*/
+
+]
+}

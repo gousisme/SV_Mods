@@ -1,0 +1,36 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/LaniSBV",
+		"Entries": {
+			"rain": "GOTO summer_Wed",
+			"GreenRain": "GOTO rain",
+			"Mon": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/700 Custom_SBV_SunberryWarpRoom 4 6 0/1330 Custom_SBV_LaniHouse 6 9 0/1650 Custom_SBV_LaniHouse 21 24 3 lani_game/2200 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"Tue": "GOTO Mon",
+			"Wed": "GOTO Mon",
+			"Thu": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/700 Custom_SBV_SunberryWarpRoom 4 6 0/1330 Custom_SBV_SunberryVillage 63 20 1/a1630 HaleyHouse 15 17 1/2030 Custom_SBV_LaniHouse 25 22 0 lani_stand/2200 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"Fri": "GOTO Mon",
+			"Sat": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/{{JonghyukSaturdays}}900 Custom_SBV_SunberryVillage 60 46 1 lani_garden/a1230 Custom_SBV_SunberryVillage 60 83 1/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"Sun": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/930 Custom_SBV_SunberryVillage 60 46 1 lani_garden/1100 Custom_SBV_AriMarket 9 28 3 square_1_2_3/1500 Custom_SBV_LaniHouse 25 22 0 lani_stand/1900 Custom_SBV_LaniHouse 21 24 3 lani_game/2200 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"summer_Mon": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/1000 Custom_SBV_SunberryLibrary 32 9 2 lani_reading/1700 Custom_SBV_LaniHouse 21 24 3 lani_game/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"summer_Tue": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/1000 Beach 20 8 2 lani_sunbathe/1250 SeedShop 13 27 1 square_1_3_1 \"Strings\\schedules\\LaniSBV:SeedShop.000\"/1700 Custom_SBV_LaniHouse 21 24 3 lani_game/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"summer_Wed": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/930 Custom_SBV_LaniHouse 25 22 0 lani_stand/1400 Custom_SBV_LaniHouse 6 9 0/1500 Custom_SBV_LaniHouse 25 22 0 lani_stand/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"summer_Thu": "610 Railroad 29 61 0/620 BathHouse_WomensLocker 9 23 0/800 BathHouse_Pool 10 14 2 square_3_5 \"Strings\\schedules\\LaniSBV:BathHouse.000\"/1330 Town 80 94 0/1700 Custom_SBV_LaniHouse 25 22 0 lani_stand/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"summer_Fri": "GOTO summer_Mon",
+			"summer_Sat": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/{{JonghyukSaturdays}}900 Custom_SBV_SunberryVillage 60 46 1 lani_garden/a1230 Custom_SBV_SunberryVillage 60 83 1/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"skellady.SBVCP_TwilightFestival": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/930 Custom_SBV_TwilightFestival 25 65 1/1500 Custom_SBV_TwilightFestival 70 14 1/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"winter_1": "GOTO Mon",
+			"winter_2": "GOTO Mon",
+			"winter_3": "GOTO Mon",
+			"winter_4": "GOTO Thu",
+			"winter_5": "GOTO Mon",
+			"winter": "GOTO summer_Wed",
+			"winter_Tue": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/930 Custom_SBV_AriMarket 9 28 3 square_1_2_3/1500 Custom_SBV_LaniHouse 25 22 0 lani_stand/1900 Custom_SBV_LaniHouse 21 24 3 lani_game/2200 Custom_SBV_LaniHouse 25 8 2 lani_sleep",
+			"winter_15": "610 Railroad 29 61 0/620 BathHouse_WomensLocker 9 23 0/1000 BathHouse_Pool 10 14 2 square_3_5 \"Strings\\schedules\\LaniSBV:BathHouse.000\"/a1730 ScienceHouse 8 5 2/2300 ScienceHouse 3 4 2 lani_sleep", // regular schedule, goes to Maru's house to spend the night
+			"winter_16": "610 ScienceHouse 8 5 2/900 SebastianRoom 5 9 3/1450 ScienceHouse 8 5 2/1540 Beach 11 34 3 \"Strings\\schedules\\LaniSBV:NightMarket.000\"/2330 Custom_SBV_LaniHouse 25 8 2 lani_sleep", // Night Market
+			"spring": "610 Custom_SBV_LaniHouse 6 9 0 square_3_1_0/900 Custom_SBV_LaniHouse 14 7 0/2300 Custom_SBV_LaniHouse 25 8 2 lani_sleep"
+		}
+	}
+ ]
+}

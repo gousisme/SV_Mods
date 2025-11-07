@@ -1,0 +1,113 @@
+{
+  "Name": "Simple Small Bag",
+  "BackAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -10
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ]
+  },
+  "FrontAccessory": {
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -9
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ]
+  },
+  "RightAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 16,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": -9
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ]
+  },
+  "LeftAccessory": {
+    "ColorMasks": [
+      [ 56, 56, 56 ],
+      [ 79, 79, 79 ],
+      [ 95, 100, 102 ],
+      [ 132, 132, 140 ],
+      [ 157, 157, 157 ],
+      [ 208, 208, 208 ]
+    ],
+    "Flipped": true,
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "StartingPosition": {
+      "X": 16,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -8,
+      "Y": -9
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Fairy Rose Cake": "595 1 245 1 246 1 -5 1/9999 9999/RedPandaBazaar_Fairy_Rose_Cake/null/{{i18n:RedPandaBazaar.Object.Fairy.Rose.Cake.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Fairy_Rose_Cake": {
+          "Name": "Fairy Rose Cake",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Fairy.Rose.Cake.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Fairy.Rose.Cake.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 300,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 28,
+          "Edibility": 80,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "Buffs": [
+            {
+              "Duration": 500,
+              "CustomAttributes": {
+                "FarmingLevel": 1,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 2,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

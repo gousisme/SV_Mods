@@ -1,0 +1,79 @@
+{
+    "Changes": 
+    [
+        { "LogName": "Magnolia Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Magnolia.png",
+			"ToArea": { "X": 16, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Magnolia": false}
+		},
+        { "LogName": "Magnolia Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Magnolia_alt.png",
+			"ToArea": { "X": 16, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Magnolia": true}
+		},
+
+        { "LogName": "Hibiscus Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Hibiscus.png",
+			"ToArea": { "X": 48, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Hibiscus": false}
+		},
+        { "LogName": "Hibiscus Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Hibiscus_alt.png",
+			"ToArea": { "X": 48, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Hibiscus": true}
+		},
+
+        { "LogName": "Jasmine Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Jasmine.png",
+			"ToArea": { "X": 80, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Jasmine": false}
+		},
+        { "LogName": "Jasmine Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Jasmine_alt.png",
+			"ToArea": { "X": 80, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Jasmine": true}
+		},
+        
+        { "LogName": "Ylang Ylang Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Ylangylang.png",
+			"ToArea": { "X": 112, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Ylang-Ylang": false}
+		},
+        { "LogName": "Ylang Ylang Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Ylangylang_alt.png",
+			"ToArea": { "X": 112, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Ylang-Ylang": true}
+		},
+
+        { "LogName": "Wisteria Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Wisteria.png",
+			"ToArea": { "X": 144, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Wisteria": false}
+		},
+        { "LogName": "Wisteria Sapling",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreFlowers/Objects",
+			"FromFile": "{{SaturationToggle}}/Saplings/Wisteria_alt.png",
+			"ToArea": { "X": 144, "Y": 208, "Width": 16, "Height": 16 },
+            "When": { "AltSapling |contains= Wisteria": true}
+		},
+    ]
+}

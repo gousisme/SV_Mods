@@ -1,0 +1,239 @@
+{
+        "Format": "2.0.0",
+                "Changes": [
+                {
+                        "Action": "EditData",
+                        "Target": "Atelier.Cauldron/Translations",
+                        "Entries":
+                        {
+                        "en":
+                                {
+                                "GMCM.PageTitle.0": "Global Options",
+                                "GMCM.PageTitle.1": "Baker Items",
+                                "GMCM.PageTitle.2": "Barista Items",
+                                "GMCM.PageTitle.3": "Boutique Items",
+                                "GMCM.PageTitle.4": "Brewer Items",
+                                "GMCM.PageTitle.5": "Confectioner Items",
+                                "GMCM.PageTitle.6": "Gourmand Items",
+                                "GMCM.PageTitle.7": "Secret Forage Locations Options",
+                                "GMCM.PageTitle.8": "Better Farm Cave Forage Options",
+                                
+                                "GMCM.Title.WildFoodEnable.Name": "Enable Wild Food",
+                                "GMCM.Options.WildFood.Name": "Adds Crops & Forage.",
+                                "GMCM.Options.WildFood.ToolTip": "Enables crops and forage focused on edible herbs, fruits, nuts etc. Required for Advanced Difficulty Toggle Below.",
+        
+                                "GMCM.Title.SpecialOrdersEnable.Name": "Enable Special Orders",
+                                "GMCM.Options.SpecialOrders.Name": "Adds Special Orders.",
+                                "GMCM.Options.SpecialOrders.ToolTip": "Enables special orders for whatever items you have enabled. Works for both Simple & Advanced Difficulty.",
+
+                                "GMCM.Title.SOPriorityToggle.Name": "Special Order Priority",
+                                "GMCM.Options.SOPriority.Name": "When to Add Orders to Board.",
+                                "GMCM.Options.SOPriority.ToolTip": "How soon this mod's orders should show up on the board. Choose 'Immediate' for the orders to show up regardless of what other orders have been completed. Choose 'Later' for them to only show up after base game orders are completed. Choose 'Post GI' for them to only show up after ALL base game special orders are completed, including Ginger Island orders. Defaults to Later.",
+                                
+                                "GMCM.Options.Immediate.Name": "Immediate",
+                                "GMCM.Options.Later.Name": "Later",
+                                "GMCM.Options.PostGI.Name": "Post GI",
+
+                                "GMCM.Title.MixedSeedsEnable.Name": "Enable Mixed Seeds",
+                                "GMCM.Options.MixedSeeds.Name": "Adds Garden Variety Mixed Seeds.",
+                                "GMCM.Options.MixedSeeds.ToolTip": "Enables special mixed seeds to be sold by shopkeepers and foraged around the valley; requires the Item Extensions mod.",
+        
+                                "GMCM.Title.PerfectionShipmentEnable.Name": "Perfection Toggle",
+                                "GMCM.Options.PerfectionShipment.Name": "Adds Items to Perfection.",
+                                "GMCM.Options.PerfectionShipment.ToolTip": "Uncheck this if you do not want any of the items from this mod to be needed for the game's perfection requirements.",
+
+                                "GMCM.Title.CategoryOverrideEnable.Name": "Forage Category Overrides",
+                                "GMCM.Options.CategoryOverride.Name": "Changes category names.",
+                                "GMCM.Options.CategoryOverride.ToolTip": "This changes the categories for items like mushrooms, herbs etc. Purely cosmetic. Requires the mod Calcifer.",
+        
+                                "GMCM.Title.VanillaTweaksEnable.Name": "Enable Vanilla Tweaks Compatibility",
+                                "GMCM.Options.VanillaTweaks.Name": "VT Style Seeds and Saplings.",
+                                "GMCM.Options.VanillaTweaks.ToolTip": "Changes seeds and saplings to match Vanilla Tweaks style.",
+        
+                                "GMCM.Title.EasyRecipesEnable.Name": "Change Machine Recipes to Default.",
+                                "GMCM.Options.EasyRecipes.Name": "Enables Easy Recipes.",
+                                "GMCM.Options.EasyRecipes.ToolTip": "Check this box if you want machine recipes to be known immediately. Otherwise player learns recipes from NPC mail. False by default.",
+        
+                                "GMCM.Title.MachineStyleEnable.Name": "Artisan Machine Design Style",
+                                "GMCM.Options.MachineStyle.Name": "Choose a Style!",
+                                "GMCM.Options.MachineStyle.ToolTip": "Select a visual style for artisanal machines; can choose from Kitchen, Boutique or Market. Defaults to Kitchen.",
+                                
+                                "GMCM.Title.MachineColorEnable.Name": "Artisan Machine Color Scheme",
+                                "GMCM.Options.MachineColor.Name": "Choose a Color!",
+                                "GMCM.Options.MachineColor.ToolTip": "Select a color scheme for artisanal machines; can choose from Classic, Cream or Chocolate. Blueberry and Strawberry Colors Available on Boutique Only. Defaults to Classic.",
+                                
+                                "GMCM.Options.Boutique.Name": "Boutique",
+                                "GMCM.Options.Kitchen.Name": "Kitchen",
+                                "GMCM.Options.Market.Name": "Market",
+                                "GMCM.Options.Chocolate.Name": "Chocolate",
+                                "GMCM.Options.Classic.Name": "Classic",
+                                "GMCM.Options.Cream.Name": "Cream",
+                                "GMCM.Options.Blueberry.Name": "Blueberry",
+                                "GMCM.Options.Strawberry.Name": "Strawberry",
+                            
+                                "GMCM.Options.Simple.Name": "Simple",
+                                "GMCM.Options.Advanced.Name": "Advanced",
+
+                                "GMCM.Title.ArtisanDifficultyToggle.Name": "Artisan Difficulty Setting",
+                                "GMCM.Options.DifficultyToggle.Name": "Choose How Crafting Works.",
+                                "GMCM.Options.DifficultyToggle.ToolTip": "Choose from Simple or Advanced. Simple is the same as how wine or jelly is handled in the base game; advanced requires multiple inputs to make more valuable, specific items. Requires Wild Food module enabled. Defaults to simple.",
+
+                                "GMCM.Title.SimpleToggle.Name": "Simple Add On",
+                                "GMCM.Options.SimpleAddOn.Name": "Add Generic Rules Regardless.",
+                                "GMCM.Options.SimpleAddOn.ToolTip": "Setting this to TRUE will add the simple rules in addition to the advanced rules, so that generic versions of items can be made as well as the specific items. Defaults to false.",
+
+                                "GMCM.Title.FloristOnlyToggle.Name": "Florist Only Toggle",
+                                "GMCM.Options.FloristOnly.Name": "Removes Ingredients from WAG.",
+                                "GMCM.Options.FloristOnly.ToolTip": "WARNING: ENABLE THIS IF YOU JUST WANT FLORIST OR MAKEUP CATEGORIES ONLY. This will cause errors for all food-related WAG categories if enabled.",
+
+                                "GMCM.Title.CakesConfig.Name": "Cakes",
+                                "GMCM.Options.Cakes.Name": "Adds Cake Objects.",
+                                "GMCM.Options.Cakes.ToolTip": "Adds craftable cakes to the game. Defaults to true.",
+                        
+                                "GMCM.Title.TinyCakesConfig.Name": "Tiny Cakes",
+                                "GMCM.Options.TinyCakes.Name": "Adds Cupcake Objects.",
+                                "GMCM.Options.TinyCakes.ToolTip": "Adds craftable cupcakes and petit fours to the game. Defaults to true.",
+                        
+                                "GMCM.Title.MuffinsConfig.Name": "Muffins",
+                                "GMCM.Options.Muffins.Name": "Adds Muffin Objects.",
+                                "GMCM.Options.Muffins.ToolTip": "Adds muffins & scones to the game. Defaults to true.",
+                        
+                                "GMCM.Title.BreadsConfig.Name": "Breads",
+                                "GMCM.Options.Breads.Name": "Adds Bread Objects.",
+                                "GMCM.Options.Breads.ToolTip": "Adds breads to the game. Requires Advanced Difficulty. Defaults to true.",
+                        
+                                "GMCM.Title.DoughnutsConfig.Name": "Doughnuts",
+                                "GMCM.Options.Doughnuts.Name": "Add Doughnut Objects.",
+                                "GMCM.Options.Doughnuts.ToolTip": "Adds doughnuts & eclairs to the game. Defaults to true.",
+                        
+                                "GMCM.Title.CookiesConfig.Name": "Cookies",
+                                "GMCM.Options.Cookies.Name": "Add Cookie Objects.",
+                                "GMCM.Options.Cookies.ToolTip": "Adds cookies, macarons & brownies to the game. Defaults to true.",
+                        
+                                "GMCM.Title.PiesConfig.Name": "Pies",
+                                "GMCM.Options.Pies.Name": "Add Pie Objects.",
+                                "GMCM.Options.Pies.ToolTip": "Adds pies and tarts to the game. Defaults to true.",
+                        
+                                "GMCM.Title.PuddingsConfig.Name": "Puddings",
+                                "GMCM.Options.Puddings.Name": "Add Pudding Objects.",
+                                "GMCM.Options.Puddings.ToolTip": "Adds puddings to the game. Defaults to true.",
+
+                                "GMCM.Title.CoffeeToggle.Name": "Coffees",
+                                "GMCM.Options.Coffee.Name": "Add Coffee Objects.",
+                                "GMCM.Options.Coffee.ToolTip": "Adds ground coffee, lattes to the game. Defaults to true.",
+                                
+                                "GMCM.Title.TeaToggle.Name": "Teas",
+                                "GMCM.Options.Tea.Name": "Add Tea Objects.",
+                                "GMCM.Options.Tea.ToolTip": "Adds tea sachets, tea, bubble tea, kombucha to the game. Defaults to true.",
+                        
+                                "GMCM.Title.SmoothieToggle.Name": "Smoothies",
+                                "GMCM.Options.Smoothies.Name": "Enable Smoothie Objects.",
+                                "GMCM.Options.Smoothies.ToolTip": "Adds Smoothies to the game. Defaults to true.",
+
+                                "GMCM.Title.LemonadeToggle.Name": "Lemonades",
+                                "GMCM.Options.Lemonade.Name": "Enable Lemonade Objects.",
+                                "GMCM.Options.Lemonade.ToolTip": "Adds lemonades to the game. Requires Wild Food for Lemons. Defaults to true.",
+
+                                "GMCM.Title.BouquetToggle.Name": "Bouquets",
+                                "GMCM.Options.Bouquets.Name": "Enable Bouquets.",
+                                "GMCM.Options.Bouquets.ToolTip": "Adds bouquets to the game. Defaults to true.",
+
+                                "GMCM.Title.PerfumeToggle.Name": "Perfumes",
+                                "GMCM.Options.Perfume.Name": "Enable Perfumes.",
+                                "GMCM.Options.Perfume.ToolTip": "Adds perfumes to the game. Defaults to true.",
+
+                                "GMCM.Title.SoapToggle.Name": "Soaps",
+                                "GMCM.Options.Soap.Name": "Enable Soaps.",
+                                "GMCM.Options.Soap.ToolTip": "Adds soaps to the game. Defaults to true.",
+
+                                "GMCM.Title.CandlesToggle.Name": "Candles",
+                                "GMCM.Options.Candles.Name": "Enable Candles.",
+                                "GMCM.Options.Candles.ToolTip": "Adds candles and dried flowers to the game. Defaults to true.",
+
+                                "GMCM.Title.IncenseToggle.Name": "Incense",
+                                "GMCM.Options.Incense.Name": "Enable Incense.",
+                                "GMCM.Options.Incense.ToolTip": "Adds incense and dried flowers to the game. Defaults to true.",
+
+                                "GMCM.Title.MakeupToggle.Name": "Makeup",
+                                "GMCM.Options.Makeup.Name": "Enable Makeup.",
+                                "GMCM.Options.Makeup.ToolTip": "Adds cosmetics to the game. Available Only on Advanced Difficulty.",
+
+                                "GMCM.Title.AlesToggle.Name": "Ales",
+                                "GMCM.Options.Ales.Name": "Enable Ales.",
+                                "GMCM.Options.Ales.ToolTip": "Enable ales to the game. Defaults to true.",
+
+                                "GMCM.Title.MeadsToggle.Name": "Meads",
+                                "GMCM.Options.Meads.Name": "Enable Meads.",
+                                "GMCM.Options.Meads.ToolTip": "Enable meads to the game. Defaults to true.",
+         
+                                "GMCM.Title.LollipopsToggle.Name": "Lollipops",
+                                "GMCM.Options.Lollipops.Name": "Enable Lollipops.",
+                                "GMCM.Options.Lollipops.ToolTip": "Adds lollipops to the game. Defaults to true.",
+
+                                "GMCM.Title.MarshmallowsToggle.Name": "Marshmallows",
+                                "GMCM.Options.Marshmallows.Name": "Enable Marshmallows.",
+                                "GMCM.Options.Marshmallows.ToolTip": "Adds marshmallows to the game. Requires Wild Food for Marsh Mallows. Defaults to true.",
+
+                                "GMCM.Title.ChocolatesToggle.Name": "Chocolates",
+                                "GMCM.Options.Chocolates.Name": "Enable Chocolate Objects.",
+                                "GMCM.Options.Chocolates.ToolTip": "Adds chocolate items to the game. Requires Wild Food for Chocolate. Defaults to true.",
+
+                                "GMCM.Title.JellyBeansToggle.Name": "Jelly Beans",
+                                "GMCM.Options.JellyBeans.Name": "Enable Jelly Beans.",
+                                "GMCM.Options.JellyBeans.ToolTip": "Adds jelly beans to the game. Defaults to true.",
+
+                                "GMCM.Title.GumballsToggle.Name": "Gumballs",
+                                "GMCM.Options.Gumballs.Name": "Enable Gumballs.",
+                                "GMCM.Options.Gumballs.ToolTip": "Adds gumballs to the game. Defaults to true.",
+
+                                "GMCM.Title.HardCandiesToggle.Name": "Hard Candies",
+                                "GMCM.Options.HardCandies.Name": "Enable Hard Candies.",
+                                "GMCM.Options.HardCandies.ToolTip": "Adds hard and rock candies to the game. Defaults to true.",
+
+                                "GMCM.Title.FairyFlossToggle.Name": "Fairy Floss",
+                                "GMCM.Options.FairyFloss.Name": "Enable Fairy Floss.",
+                                "GMCM.Options.FairyFloss.ToolTip": "Adds fairy floss to the game. Defaults to true.",
+
+                                "GMCM.Title.IceCreamToggle.Name": "Ice Cream",
+                                "GMCM.Options.IceCream.Name": "Enable Ice Cream.",
+                                "GMCM.Options.IceCream.ToolTip": "Adds ice cream cones to the game. Defaults to true.",
+
+                                "GMCM.Title.PopsiclesToggle.Name": "Popsicles",
+                                "GMCM.Options.Popsicles.Name": "Enable Popsicles.",
+                                "GMCM.Options.Popsicles.ToolTip": "Adds popsicles to the game. Defaults to true.",
+
+                                "GMCM.Title.MilkshakesToggle.Name": "Milkshakes",
+                                "GMCM.Options.Milkshakes.Name": "Enable Milkshakes.",
+                                "GMCM.Options.Milkshakes.ToolTip": "Adds milkshakes to the game. Requires Ice Cream category to also be enabled. Defaults to true.",
+
+                                "GMCM.Title.IceCreamSandwichToggle.Name": "Ice Cream Sandwiches",
+                                "GMCM.Options.IceCreamSandwich.Name": "Enable Ice Cream Sandwiches.",
+                                "GMCM.Options.IceCreamSandwich.ToolTip": "Adds ice cream sandwiches to the game. Requires Advanced Difficulty and Ice Cream category to also be enabled. Defaults to true.",
+
+                                "GMCM.Title.JamsToggle.Name": "Jams",
+                                "GMCM.Options.Jams.Name": "Enable Jam Objects.",
+                                "GMCM.Options.Jams.ToolTip": "Adds gourmet jams and jellies to the cooking menu in the game. Defaults to true.",
+
+                                "GMCM.Title.PicklesToggle.Name": "Pickles",
+                                "GMCM.Options.Pickles.Name": "Enable Pickle Objects.",
+                                "GMCM.Options.Pickles.ToolTip": "Adds gourmet pickles and salsas to the cooking menu in the game. Defaults to true.",
+
+                                "GMCM.Title.CSAToggle.Name": "Packaged Crates & Baskets",
+                                "GMCM.Options.CSA.Name": "Enable Packaged Goods.",
+                                "GMCM.Options.CSA.ToolTip": "Adds various crates and baskets of items to the game. Defaults to true.",
+
+                                "GMCM.Title.PresentLocations.Name": "Make All Locations Available",
+                                "GMCM.Options.PresentLocationsConfig.Name": "Enable",
+                                "GMCM.Options.PresentLocationsConfig.ToolTip": "Set to true for secret forage locations to always be present, instead of unlocking them by leveling skills and relationships. Defaults to False.",
+
+                                "GMCM.Title.BFCF.Name": "Better Farm Cave Forage",
+                                "GMCM.Options.BFCFConfig.Name": "Choose a Variant",
+                                "GMCM.Options.BFCFConfig.ToolTip": "Choose how farm cave forage spawns. Seasonal: fruits spawn during their native seasons. OffSeason: fruit spawns in opposing seasons. AllYear: all fruits will spawn all year, regardless of season. Defaults to Seasonal.",
+                                "GMCM.Options.Seasonal.Name": "Seasonal",
+                                "GMCM.Options.OffSeason.Name": "Off Season",
+                                "GMCM.Options.AllYear.Name": "All Year",
+                        }
+                        }
+                }
+        ]
+}

@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RedPandaBazaar_FestivalsPassersby.21": {
+                    "DisplayName": "{{i18n:NPCName:RedPandaBazaar_Passersby}}",
+                    "Language": "default",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "HomeRegion": "Other",
+                    "CanSocialize": false,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts":false,
+                    "CanCommentOnPurchasedShopItems":false,
+                    "CanGreetNearbyCharacters":false,
+                    "CanVisitIslandCondition": false,
+                    "LoveInterest": "",
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "UnknownUntilMet",
+                    "ExcludeFromIntroductionsQuest": false,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "EndSlideShow": "Hidden",
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Custom_BlankMaps",
+                            "Condition": null,
+                            "Location": "Custom_BlankMaps",
+                            "Tile": {
+                                "X": 28,
+                                "Y": 0
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_FestivalsPassersby.21",
+            "FromFile": "assets/Sprites/FestivalsPassersby/FestivalsPassersby.21.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_FestivalsPassersby.21",
+            "FromFile": "assets/Portraits/Blank.png"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "Assets/Tilesheets/SpringFair_Cursors.png",
+      "Update": "OnLocationChange",
+      "PatchMode": "Replace",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 160,
+        "Height": 113
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 1183,
+        "Width": 160,
+        "Height": 113
+      },
+      "When": {
+        "Season": "Spring",
+        "Day": "8"
+      }
+    }
+  ]
+}

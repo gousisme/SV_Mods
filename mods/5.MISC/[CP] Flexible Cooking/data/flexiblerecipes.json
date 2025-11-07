@@ -1,0 +1,3042 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+			"Entries": {
+				"Algae Soup": {
+					"ProductQualifiedId": "(O)456",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "algae_item",
+							"Amount": 4,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:GreenAlgae_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 144,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Artichoke Dip": {
+					"ProductQualifiedId": "(O)605",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "artichoke_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Artichoke_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Autumn's Bounty": {
+					"ProductQualifiedId": "(O)235",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "yam_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Yam_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "pumpkin_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Pumpkin_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Baked Fish": {
+					"ProductQualifiedId": "(O)198",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "sunfish_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Sunfish_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "bream_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bream_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Banana Pudding": {
+					"ProductQualifiedId": "(O)904",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "banana_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Banana_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 304,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Bean Hotpot": {
+					"ProductQualifiedId": "(O)207",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "green_bean_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:GreenBean_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Blackberry Cobbler": {
+					"ProductQualifiedId": "(O)611",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "blackberry_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Blackberry_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Blueberry Tart": {
+					"ProductQualifiedId": "(O)234",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "blueberry_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Blueberry_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Bread": {
+					"ProductQualifiedId": "(O)216",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Bruschetta": {
+					"ProductQualifiedId": "(O)618",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "bread_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 144,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Carp Surprise": {
+					"ProductQualifiedId": "(O)209",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "carp_item",
+							"Amount": 4,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Carp_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cheese Cauli.": {
+					"ProductQualifiedId": "(O)197",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cauliflower_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cauliflower_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Chocolate Cake": {
+					"ProductQualifiedId": "(O)220",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Chowder": {
+					"ProductQualifiedId": "(O)727",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "clam_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Clam_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 240,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Coleslaw": {
+					"ProductQualifiedId": "(O)648",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cabbage_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:RedCabbage_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "vinegar_item, balsamic_vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "mayo_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MayonnaiseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 192,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Complete Breakfast": {
+					"ProductQualifiedId": "(O)201",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)194",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:FriedEgg_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 128,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)210",
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)211",
+						}
+					]
+				},
+				"Cookies": {
+					"ProductQualifiedId": "(O)223",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Crab Cakes": {
+					"ProductQualifiedId": "(O)732",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "crab_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Crab_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 336,
+								"Y": 464,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cranberry Candy": {
+					"ProductQualifiedId": "(O)612",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cranberry_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cranberries_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "apple_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Apple_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 400,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Cran. Sauce": {
+					"ProductQualifiedId": "(O)238",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cranberry_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cranberries_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Crispy Bass": {
+					"ProductQualifiedId": "(O)214",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "bass_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:LargemouthBass_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Dish o' The Sea": {
+					"ProductQualifiedId": "(O)242",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "sardine_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Sardine_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "Item",
+							"Value": "(O)210",
+						},
+					]
+				},
+				"Eggplant Parm.": {
+					"ProductQualifiedId": "(O)231",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "eggplant_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Eggplant_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Escargot": {
+					"ProductQualifiedId": "(O)729",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "snail_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Snail_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 480,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "garlic_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Garlic_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Farmer's Lunch": {
+					"ProductQualifiedId": "(O)240",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "Item",
+							"Value": "(O)195",
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "parsnip_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Parsnip_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 16,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fiddlehead Risotto": {
+					"ProductQualifiedId": "(O)649",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "fern_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:FiddleheadFern_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 304,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "garlic_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Garlic_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "rice_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fish Stew": {
+					"ProductQualifiedId": "(O)728",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "crayfish_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Crayfish_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 464,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "mussel_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Mussel_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 368,
+								"Y": 464,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "periwinkle_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Periwinkle_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 480,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fish Taco": {
+					"ProductQualifiedId": "(O)213",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "tuna_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tuna_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tortilla_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tortilla_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 144,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cabbage_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:RedCabbage_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "mayo_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MayonnaiseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 192,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fried Calamari": {
+					"ProductQualifiedId": "(O)202",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "squid_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Squid_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FlourAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fried Eel": {
+					"ProductQualifiedId": "(O)225",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "eel_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Eel_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 64,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fried Mushroom": {
+					"ProductQualifiedId": "(O)205",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "edible_mushroom",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "morel_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Morel_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 272,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Fruit Salad": {
+					"ProductQualifiedId": "(O)610",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "blueberry_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Blueberry_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "melon_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Melon_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 224,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "apricot_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Apricot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 416,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Ginger Ale": {
+					"ProductQualifiedId": "(O)903",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "ginger_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Ginger_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 544,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Glazed Yams": {
+					"ProductQualifiedId": "(O)208",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "yam_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Yam_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Hashbrowns": {
+					"ProductQualifiedId": "(O)210",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "potato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Potato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 128,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Ice Cream": {
+					"ProductQualifiedId": "(O)233",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Lobster Bisque": {
+					"ProductQualifiedId": "(O)730",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "lobster_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Lobster_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 304,
+								"Y": 464,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Lucky Lunch": {
+					"ProductQualifiedId": "(O)204",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "sea_cucumber_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:SeaCucumber_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tortilla_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tortilla_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 144,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "jazz_item, allium_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:BlueJazz_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 336,
+								"Y": 384,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Maki Roll": {
+					"ProductQualifiedId": "(O)228",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_fish",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_FishAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "seaweed_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Seaweed_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "rice_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Mango Sticky Rice": {
+					"ProductQualifiedId": "(O)905",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "mango_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Mango_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 544,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "coconut_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Coconut_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "rice_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Maple Bar": {
+					"ProductQualifiedId": "(O)731",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "maple_syrup_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:MapleSyrup_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 64,
+								"Y": 480,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Miner's Treat": {
+					"ProductQualifiedId": "(O)243",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cave_carrot_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:CaveCarrot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Moss Soup": {
+					"ProductQualifiedId": "(O)MossSoup",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "moss_item",
+							"Amount": 20,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Moss_Name]}}",
+							"OverrideTexturePath": "Tilesheets/Objects_2",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 64,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pale Broth": {
+					"ProductQualifiedId": "(O)457",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "white_algae_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WhiteAlgae_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 208,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pancakes": {
+					"ProductQualifiedId": "(O)211",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Parsnip Soup": {
+					"ProductQualifiedId": "(O)199",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "parsnip_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Parsnip_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 16,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "vinegar_item, balsamic_vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pepper Poppers": {
+					"ProductQualifiedId": "(O)215",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pink Cake": {
+					"ProductQualifiedId": "(O)221",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "melon_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Melon_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 224,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_egg",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EggAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pizza": {
+					"ProductQualifiedId": "(O)206",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cheese_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_CheeseAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Plum Pudding": {
+					"ProductQualifiedId": "(O)604",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "plum_item",
+							"Amount": 2,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WildPlum_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Poi": {
+					"ProductQualifiedId": "(O)906",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "taro_item, taro_root_item",
+							"Amount": 4,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:TaroRoot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 224,
+								"Y": 544,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Poppyseed Muffin": {
+					"ProductQualifiedId": "(O)651",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "poppy_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Poppy_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 240,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pumpkin Pie": {
+					"ProductQualifiedId": "(O)608",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "pumpkin_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Pumpkin_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Pumpkin Soup": {
+					"ProductQualifiedId": "(O)236",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "pumpkin_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Pumpkin_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Radish Salad": {
+					"ProductQualifiedId": "(O)609",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "vinegar_item, balsamic_vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "radish_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Radish_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Red Plate": {
+					"ProductQualifiedId": "(O)230",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "red_cabbage_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:RedCabbage_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "radish_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Radish_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Rhubarb Pie": {
+					"ProductQualifiedId": "(O)222",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "rhubarb_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rhubarb_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Rice Pudding": {
+					"ProductQualifiedId": "(O)232",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "category_milk",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_MilkAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 112,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "sugar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_SugarAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "rice_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Rice_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 240,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Roasted Hazelnuts": {
+					"ProductQualifiedId": "(O)607",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "hazelnut_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Hazelnut_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Roots Platter": {
+					"ProductQualifiedId": "(O)244",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cave_carrot_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:CaveCarrot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "winter_root_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WinterRoot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 64,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Salad": {
+					"ProductQualifiedId": "(O)196",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "leek_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Leek_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "dandelion_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Dandelion_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "vinegar_item, balsamic_vinegar_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Vinegar_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Salmon Dinner": {
+					"ProductQualifiedId": "(O)212",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "salmon_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Salmon_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 304,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "amaranth_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Amaranth_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 192,
+								"Y": 192,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "kale_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Kale_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Seafoam Pudding": {
+					"ProductQualifiedId": "(O)265",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "flounder_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Flounder_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 48,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "midnight_carp_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:MidnightCarp_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 80,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "squid_ink_item, ink_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:SquidInk_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 528,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Shrimp Cocktail": {
+					"ProductQualifiedId": "(O)733",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "shrimp_item, prawn_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Shrimp_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 480,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "horseradish_item, wasabi_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WildHorseradish_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+					]
+				},
+				"Spaghetti": {
+					"ProductQualifiedId": "(O)224",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Spicy Eel": {
+					"ProductQualifiedId": "(O)226",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "eel_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Eel_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 64,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Squid Ink Ravioli": {
+					"ProductQualifiedId": "(O)921",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "squid_ink_item, ink_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:SquidInk_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 352,
+								"Y": 528,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Stir Fry": {
+					"ProductQualifiedId": "(O)606",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "cave_carrot_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:CaveCarrot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "edible_mushroom",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "kale_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Kale_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cooking_oil_item, oil_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_OilAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 112,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Strange Bun": {
+					"ProductQualifiedId": "(O)203",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "wheat_flour_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:WheatFlour_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "periwinkle_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Periwinkle_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 32,
+								"Y": 480,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "void_mayo_item, void_mayonnaise_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:VoidMayonnaise_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 192,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Stuffing": {
+					"ProductQualifiedId": "(O)239",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "bread_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 144,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cranberry_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cranberries_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "hazelnut_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Hazelnut_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 272,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Super Meal": {
+					"ProductQualifiedId": "(O)237",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "bok_choy_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:BokChoy_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 224,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cranberry_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Cranberries_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "artichoke_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Artichoke_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 160,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Survival Burger": {
+					"ProductQualifiedId": "(O)241",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "bread_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Bread_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 16,
+								"Y": 144,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "cave_carrot_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:CaveCarrot_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "eggplant_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Eggplant_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 128,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Tom Kha Soup": {
+					"ProductQualifiedId": "(O)218",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "coconut_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Coconut_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "shrimp_item, prawn_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Shrimp_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 0,
+								"Y": 480,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "edible_mushroom",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_EdibleMushroomAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Tortilla": {
+					"ProductQualifiedId": "(O)229",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "corn_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Corn_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 96,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Triple Shot Espresso": {
+					"ProductQualifiedId": "(O)253",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "coffee_item",
+							"Amount": 3,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Coffee_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 176,
+								"Y": 256,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Tropical Curry": {
+					"ProductQualifiedId": "(O)907",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "coconut_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Coconut_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 48,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "pineapple_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Pineapple_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 544,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "chili_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:Ingredient_ChiliAny}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Trout Soup": {
+					"ProductQualifiedId": "(O)219",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "trout_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:RainbowTrout_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 288,
+								"Y": 80,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "algae_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:GreenAlgae_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 144,
+								"Y": 96,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				"Vegetable Stew": {
+					"ProductQualifiedId": "(O)200",
+					"ProductAmount": 1,
+					"Ingredients": [
+						{
+							"Type": "ContextTag",
+							"Value": "tomato_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Tomato_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 256,
+								"Y": 160,
+								"Width": 16,
+								"Height": 16
+							}
+						},
+						{
+							"Type": "ContextTag",
+							"Value": "beet_item",
+							"Amount": 1,
+							"OverrideText": "{{i18n:{{indicator}}|name=[LocalizedText Strings/Objects:Beet_Name]}}",
+							"OverrideTexturePath": "Maps/springobjects",
+							"OverrideTextureRect": {
+								"X": 320,
+								"Y": 176,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

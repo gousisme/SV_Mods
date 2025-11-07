@@ -1,0 +1,537 @@
+﻿{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        "Plant Furniture will wither without the outdoors": {
+            "Default": "true",
+            "AllowValues": "true, false"
+        },
+        "Plant Furniture does not have wilted leaves": {
+            "Default": "false",
+            "AllowValues": "true, false"
+        }
+        },
+    "DynamicTokens": [
+        {
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
+        {
+            "Name": "IndoorVariant" ,
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant",
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        }
+    ],
+    "CustomLocations": [
+        /*************   Maps   IndoorsMaps  *************/
+        {
+            "Name": "Custom_MirrorLake.Building4.1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.Building4.1.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.Building1.1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaar.Building1.1.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.Building1.2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaar.Building1.2.tmx"
+        },
+        {
+            "Name": "Custom_MarlinShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MarlinShop1.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaarTicketStation",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaarTicketStation.tmx"
+        },
+        {
+            "Name": "Custom_RedemptionCouponShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedemptionCouponShop1.tmx"
+        },
+        {
+            "Name": "Custom_ShiFuShanHouse1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ShiFuShanHouse1.tmx"
+        },
+        {
+            "Name": "Custom_ShiFuShanHouse2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ShiFuShanHouse2.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaarJojaMart1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaarJojaMart1.tmx"
+        },
+        {
+            "Name": "Custom_SandalwoodHotel1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/SandalwoodHotel1.tmx"
+        },
+        {
+            "Name": "Custom_SandalwoodHotel2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/SandalwoodHotel2.tmx"
+        },
+        {
+            "Name": "Custom_ToolShop",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ToolShop.tmx"
+        },
+        {
+            "Name": "Custom_ArtisanShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ArtisanShop1.tmx"
+        },
+        {
+            "Name": "Custom_ArtisanShop2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ArtisanShop2.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengCafe1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengCafe1.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengCafe2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengCafe2.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengHouse1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengHouse1.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengHouse2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengHouse2.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengHouse3",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LiQingFengHouse3.tmx"
+        },
+        {
+            "Name": "Custom_ChenQiShop1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ChenQiShop1.tmx"
+        },
+        {
+            "Name": "Custom_ChenQiShop2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/ChenQiShop2.tmx"
+        },
+        {
+            "Name": "Custom_LaoLiuGallery1",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LaoLiuGallery1.tmx"
+        },
+        {
+            "Name": "Custom_LaoLiuGallery2",
+            "FromMapFile": "assets/Maps/IndoorsMaps/LaoLiuGallery2.tmx"
+        },
+        {
+            "Name": "Custom_BlankMaps",
+            "FromMapFile": "assets/Maps/IndoorsMaps/BlankMaps.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.34.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaar.34.19.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.22.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaar.22.19.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.10.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/RedPandaBazaar.10.19.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest.84.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/BazaarWest.84.19.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest.72.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/BazaarWest.72.19.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest.54.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/BazaarWest.54.19.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest.42.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/BazaarWest.42.19.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest.30.19",
+            "FromMapFile": "assets/Maps/IndoorsMaps/BazaarWest.30.19.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.42.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.42.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.54.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.54.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.72.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.72.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.84.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.84.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.94.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.94.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.104.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.104.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.116.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.116.38.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake.128.38",
+            "FromMapFile": "assets/Maps/IndoorsMaps/MirrorLake.128.38.tmx"
+        },
+        /*************   Maps   OutdoorsMaps  *************/
+        {
+            "Name": "Custom_RedPandaBazaar",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/RedPandaBazaar.tmx"
+        },
+        {
+            "Name": "Custom_BazaarWest",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/BazaarWest.tmx"
+        },
+        {
+            "Name": "Custom_MapleBridge",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/MapleBridge.tmx"
+        },
+        {
+            "Name": "Custom_MirrorLake",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/MirrorLake.tmx"
+        },
+        {
+            "Name": "Custom_LiQingFengCourtyard",
+            "FromMapFile": "assets/Maps/OutdoorsMaps/LiQingFengCourtyard.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.SpringFair",
+            "FromMapFile": "assets/Maps/FestivalMaps/RedPandaBazaar.SpringFair.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.SpringFair.Year2",
+            "FromMapFile": "assets/Maps/FestivalMaps/RedPandaBazaar.SpringFair.Year2.tmx"
+        },
+        {
+            "Name": "Custom_RedPandaBazaar.ButterflyNight",
+            "FromMapFile": "assets/Maps/FestivalMaps/RedPandaBazaar.ButterflyNight.tmx"
+        }
+    ],
+    "Changes": [
+        {
+            "LogName": "SpringFair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/FestivalDates",
+            "Entries": { "spring8": "{{i18n:SpringFair}}" }
+        },
+        {
+            "LogName": "SpringFair",
+            "Action": "Load",
+            "Target": "Data/Festivals/spring8",
+            "FromFile": "Data/Festivals/SpringFair.json"
+        },
+        {
+            "LogName": "OutdoorsMaps.Locations",
+            "Action": "Include",
+            "FromFile": "Data/Locations/OutdoorsMaps/MirrorLake.json,Data/Locations/OutdoorsMaps/LiQingFengCourtyard.json,Data/Locations/OutdoorsMaps/MapleBridge.json,Data/Locations/OutdoorsMaps/RedPandaBazaar.json,Data/Locations/OutdoorsMaps/BazaarWest.json"
+        },
+        {
+            "LogName": "IndoorsMaps.Locations",
+            "Action": "Include",
+            "FromFile": "Data/Locations/IndoorsMaps/LiQingFengCafe.json,Data/Locations/IndoorsMaps/LiQingFengHouse.json,Data/Locations/IndoorsMaps/ArtisanShop.json,Data/Locations/IndoorsMaps/ChenQiShop.json,Data/Locations/IndoorsMaps/LaoLiuGallery.json,Data/Locations/IndoorsMaps/SandalwoodHotel.json,Data/Locations/IndoorsMaps/RedPandaBazaarJojaMart.json,Data/Locations/IndoorsMaps/ShiFuShanHouse.json,Data/Locations/IndoorsMaps/MarlinShop.json"
+        },
+        {
+            "LogName": "OutdoorsMaps.EditMap",
+            "Action": "Include",
+            "FromFile": "Data/EditMap/OutdoorsMaps/RedPandaBazaar.json,Data/EditMap/OutdoorsMaps/BusStop.json,Data/EditMap/OutdoorsMaps/Desert.json"
+        },
+        {
+            "LogName": "IndoorsMaps.EditMap",
+            "Action": "Include",
+            "FromFile": "Data/EditMap/IndoorsMaps/ChenQiShop1.json,Data/EditMap/IndoorsMaps/MirrorLakeShop1.json"
+        },
+        {
+            "LogName": "EditImage",
+            "Action": "Include",
+            "FromFile": "Data/EditImage/WhiteButterfly.json,Data/EditImage/SpringFair_Cursors.json,Data/EditImage/Door.json,Data/EditImage/SchedulesSprites.json,Data/EditImage/WinterCharacters.json"
+        },
+        {
+            "LogName": "Event",
+            "Action": "Include",
+            "FromFile": "Data/Event.json"
+        },
+        {
+            "LogName": "CJBWarp",
+            "Action": "Include",
+            "FromFile": "Data/CJBWarp.json"
+        },
+        {
+            "LogName": "StringsFromMaps",
+            "Action": "Include",
+            "FromFile": "Data/StringsFromMaps.json"
+        },
+        {
+            "LogName": "GarbageCans",
+            "Action": "Include",
+            "FromFile": "Data/GarbageCans.json"
+        },
+        {
+            "LogName": "CJBWarp",
+            "Action": "Include",
+            "FromFile": "Data/CJBWarp.json"
+        },
+        {
+            "LogName": "Tilesheets",
+            "Action": "Include",
+            "FromFile": "Data/Tilesheets.json"
+        },
+        {
+            "LogName": "XNBs",
+            "Action": "Include",
+            "FromFile": "Data/XNBs.json"
+        },
+        {
+            "LogName": "LoadSprite",
+            "Action": "Include",
+            "FromFile": "Data/Items/LoadSprite.json,Data/Items/SeasonalSprite.json"
+        },
+        {
+            "LogName": "SpecialOrders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/SpecialOrders.json"
+        },
+        {
+            "LogName": "Basic",
+            "Action": "Include",
+            "FromFile": "Data/Items/Objects/Basic/PocketMoney.json,Data/Items/Objects/Basic/PrizeTicket.json,Data/Items/Objects/Basic/RedemptionCoupon.json,Data/Items/Objects/Basic/AnglerEarring.json,,Data/Items/Objects/Basic/HighTestFishingLine.json,,Data/Items/Objects/Basic/TackleBox.json,"
+        },
+        {
+            "LogName": "Cooking",
+            "Action": "Include",
+            "FromFile": "Data/Items/Objects/Cooking/MilkPudding.json,Data/Items/Objects/Cooking/ButtermilkBake.json,Data/Items/Objects/Cooking/CustardPie.json,Data/Items/Objects/Cooking/FairyRoseCake.json,Data/Items/Objects/Cooking/PumpkinPopsicle.json,Data/Items/Objects/Cooking/CoffeePopsicle.json,Data/Items/Objects/Cooking/MangoPopsicle.json,Data/Items/Objects/Cooking/PeachPopsicle.json,Data/Items/Objects/Cooking/FernPopsicle.json,Data/Items/Objects/Cooking/GoldenCupcake.json,Data/Items/Objects/Cooking/GoldenDelight.json,Data/Items/Objects/Cooking/GoldenFlavorPopsicle.json,Data/Items/Objects/Cooking/GoldenFlavorJojaCola.json,Data/Items/Objects/Cooking/PearlMilkTea.json"
+        },
+        {
+            "LogName": "Fertilizer",
+            "Action": "Include",
+            "FromFile": "Data/Items/Objects/Fertilizer/Fertilizer.json"
+        },
+        {
+            "LogName": "Bait",
+            "Action": "Include",
+            "FromFile": "Data/Items/Objects/Bait/MasterBait.json"
+        },
+        {
+            "LogName": "StatuePlants",
+            "Action": "Include",
+            "FromFile": "Data/Items/BigCraftables/StatuePlants.json"
+        },
+        {
+            "LogName": "Ring",
+            "Action": "Include",
+            "FromFile": "Data/Items/Objects/Ring/Ring.json"
+        },
+        {
+            "LogName": "Furniture",
+            "Action": "Include",
+            "FromFile": "Data/Items/Furniture/Furniture.json,Data/Items/Furniture/PlantFurniture.json,Data/Items/Furniture/Portraits.json,"
+        },
+        {
+            "LogName": "Hats",
+            "Action": "Include",
+            "FromFile": "Data/Items/Hats/Hats.json"
+        },
+        {
+            "LogName": "Pants",
+            "Action": "Include",
+            "FromFile": "Data/Items/Pants/Pants.json"
+        },
+        {
+            "LogName": "Shirts",
+            "Action": "Include",
+            "FromFile": "Data/Items/Shirts/Shirts.json"
+        },
+        {
+            "LogName": "WallpaperFlooring",
+            "Action": "Include",
+            "FromFile": "Data/Items/WallpaperFlooring/WallpaperFlooring.json"
+        },
+        {
+            "LogName": "RedPandaBazaar.Shops",
+            "Action": "Include",
+            "FromFile": "Data/Shops/RedPandaBazaar/ChenQiShop1/ChenQiShop1.json,Data/Shops/RedPandaBazaar/ArtisanShop1/ArtisanShop1.json,Data/Shops/RedPandaBazaar/LiQingFengCafe1/LiQingFengCafe.json,Data/Shops/RedPandaBazaar/LiQingFengCafe1/LiQingFengCafe1.json,Data/Shops/RedPandaBazaar/RedemptionCouponShop/RedemptionCouponShop.json,Data/Shops/RedPandaBazaar/JojaRedemptionCouponShop/JojaRedemptionCouponShop.json,Data/Shops/RedPandaBazaar/MirrorLakeShop1/MirrorLakeShop1.json,Data/Shops/RedPandaBazaar/SpringFair/SpringFair.json,Data/Shops/RedPandaBazaar/RedPandaBazaarJojaMart1/RedPandaBazaarJojaMart1.json,Data/Shops/RedPandaBazaar/MarlinShop1/MarlinShop1.json"
+        },
+        {
+            "LogName": "Vanilla.Shops",
+            "Action": "Include",
+            "FromFile": "Data/Shops/Vanilla/Traveler.json"
+        },
+        {
+            "LogName": "FestivalsData",
+            "Action": "Include",
+            "FromFile": "Data/Festivals/FestivalsData/Spring8.json,Data/Festivals/FestivalsData/Spring13.json,Data/Festivals/FestivalsData/Spring24.json,Data/Festivals/FestivalsData/Summer11.json,Data/Festivals/FestivalsData/Summer28.json,Data/Festivals/FestivalsData/Fall16.json,Data/Festivals/FestivalsData/Fall27.json,Data/Festivals/FestivalsData/Winter8.json,Data/Festivals/FestivalsData/Winter25.json"
+        },
+        {
+            "LogName": "FestivalDialogue",
+            "Action": "Include",
+            "FromFile": "Data/Festivals/FestivalDialogue/Spring8.json,Data/Festivals/FestivalDialogue/Spring13.json,Data/Festivals/FestivalDialogue/Spring24.json,Data/Festivals/FestivalDialogue/Summer11.json,Data/Festivals/FestivalDialogue/Summer28.json,Data/Festivals/FestivalDialogue/Fall16.json,Data/Festivals/FestivalDialogue/Fall27.json,Data/Festivals/FestivalDialogue/Winter8.json,Data/Festivals/FestivalDialogue/Winter25.json"
+        },
+        {
+            "LogName": "Mail",
+            "Action": "Include",
+            "FromFile": "data/Mail.json"
+        },
+        {
+            "LogName": "WorldMap",
+            "Action": "Include",
+            "FromFile": "data/WorldMap.json"
+        },
+        {
+            "LogName": "Include.NPCs",
+            "Action": "Include",
+            "FromFile": "data/NPCs/ChenXiaoMing.json,data/NPCs/ShiFuShan.json,data/NPCs/Chandler.json,data/NPCs/LiQingFeng.json,data/NPCs/PumpkinPie.json,data/NPCs/XiaoLeiWen.json,data/NPCs/Roy.json,data/NPCs/Marlin.json"
+        },
+        {
+            "LogName": "Include.Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Chandler/ChandlerDialogue.json,assets/Dialogue/ShiFuShan/ShiFuShanDialogue.json,assets/Dialogue/ChenXiaoMing/ChenXiaoMingDialogue.json,assets/Dialogue/LiQingFeng/LiQingFengDialogue.json,assets/Dialogue/Marlin/MarlinDialogue.json"
+        },
+        {
+            "LogName": "Include.MarriageDialogue",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/ChenXiaoMing/ChenXiaoMingMarriageDialogue.json,assets/Dialogue/LiQingFeng/LiQingFengMarriageDialogue.json"
+        },
+        {
+            "LogName": "Include.Schedules",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/ChenXiaoMing/Schedule.json,assets/Schedules/ShiFuShan/Schedule.json,assets/Schedules/Chandler/Schedule.json,assets/Schedules/PumpkinPie/Schedule.json,assets/Schedules/XiaoLeiWen/Schedule.json,assets/Schedules/LiQingFeng/Schedule.json,assets/Schedules/PumpkinPie/Schedule.json,assets/Schedules/Marlin/Schedule.json"
+        },
+        {
+            "LogName": "Include.ScheduleDialogue",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/LiQingFeng/ScheduleDialogue.json"
+        },
+        {
+            "LogName": "Include.Passersby.NPCs",
+            "Action": "Include",
+            "FromFile":"data/NPCs/Passersby/Passersby.1.json,data/NPCs/Passersby/Passersby.2.json,data/NPCs/Passersby/Passersby.3.json,data/NPCs/Passersby/Passersby.4.json,data/NPCs/Passersby/Passersby.5.json,data/NPCs/Passersby/Passersby.6.json,data/NPCs/Passersby/Passersby.7.json,data/NPCs/Passersby/Passersby.8.json,data/NPCs/Passersby/Passersby.9.json,data/NPCs/Passersby/Passersby.10.json,,data/NPCs/Passersby/Passersby.11.json,data/NPCs/Passersby/Passersby.12.json,data/NPCs/Passersby/Passersby.13.json,data/NPCs/Passersby/Passersby.14.json,data/NPCs/Passersby/Passersby.15.json,"
+        },
+        {
+            "LogName": "Include.Passersby.Schedules",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/Passersby/Passersby.1/Schedule.json,assets/Schedules/Passersby/Passersby.2/Schedule.json,assets/Schedules/Passersby/Passersby.3/Schedule.json,assets/Schedules/Passersby/Passersby.4/Schedule.json,assets/Schedules/Passersby/Passersby.5/Schedule.json,assets/Schedules/Passersby/Passersby.6/Schedule.json,assets/Schedules/Passersby/Passersby.7/Schedule.json,assets/Schedules/Passersby/Passersby.8/Schedule.json,assets/Schedules/Passersby/Passersby.9/Schedule.json,assets/Schedules/Passersby/Passersby.10/Schedule.json,assets/Schedules/Passersby/Passersby.11/Schedule.json,assets/Schedules/Passersby/Passersby.12/Schedule.json,assets/Schedules/Passersby/Passersby.13/Schedule.json,assets/Schedules/Passersby/Passersby.14/Schedule.json,"
+        },
+        {
+            "LogName": "Include.FestivalsPassersby.NPCs",
+            "Action": "Include",
+            "FromFile":"data/NPCs/FestivalsPassersby/FestivalsPassersby.1.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.2.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.3.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.4.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.5.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.6.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.7.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.8.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.9.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.10.json,,data/NPCs/FestivalsPassersby/FestivalsPassersby.11.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.12.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.13.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.14.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.15.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.16.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.17.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.18.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.19.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.20.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.21.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.22.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.23.json,data/NPCs/FestivalsPassersby/FestivalsPassersby.24.json,"
+        },
+        {
+            "LogName": "Include.JojaEmployee.NPCs",
+            "Action": "Include",
+            "FromFile":"data/NPCs/JojaEmployee/JojaEmployee.1.json,data/NPCs/JojaEmployee/JojaEmployee.2.json,data/NPCs/JojaEmployee/JojaEmployee.3.json,data/NPCs/JojaEmployee/JojaEmployee.4.json,data/NPCs/JojaEmployee/JojaEmployee.5.json,data/NPCs/JojaEmployee/JojaEmployee.6.json,data/NPCs/JojaEmployee/JojaEmployee.7.json"
+        },
+        {
+            "LogName": "Include.JojaEmployee.Schedules",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/JojaEmployee/JojaEmployee.1/Schedule.json,assets/Schedules/JojaEmployee/JojaEmployee.2/Schedule.json,assets/Schedules/JojaEmployee/JojaEmployee.3/Schedule.json,assets/Schedules/JojaEmployee/JojaEmployee.4/Schedule.json,assets/Schedules/JojaEmployee/JojaEmployee.5/Schedule.json,assets/Schedules/JojaEmployee/JojaEmployee.6/Schedule.json,assets/Schedules/JojaEmployee/JojaEmployee.7/Schedule.json"
+        },
+        {
+            "LogName": "Include.Workers.NPCs",
+            "Action": "Include",
+            "FromFile":"data/NPCs/Workers/Workers.1.json,data/NPCs/Workers/Workers.2.json,data/NPCs/Workers/Workers.3.json,data/NPCs/Workers/Workers.4.json,data/NPCs/Workers/Workers.5.json,data/NPCs/Workers/Workers.6.json,data/NPCs/Workers/Workers.7.json"
+        },
+        {
+            "LogName": "Include.Workers.Schedules",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/Workers/Workers.1/Schedule.json,assets/Schedules/Workers/Workers.2/Schedule.json,assets/Schedules/Workers/Workers.3/Schedule.json,assets/Schedules/Workers/Workers.4/Schedule.json,assets/Schedules/Workers/Workers.5/Schedule.json,assets/Schedules/Workers/Workers.6/Schedule.json,assets/Schedules/Workers/Workers.7/Schedule.json"
+        },
+        {
+            "LogName": "Include.Animals.NPCs",
+            "Action": "Include",
+            "FromFile":"data/NPCs/Animals/Chicken.1.json,data/NPCs/Animals/Chicken.2.json,data/NPCs/Animals/Chicken.3.json,data/NPCs/Animals/Chicken.4.json,data/NPCs/Animals/Chicken.5.json,data/NPCs/Animals/Chicken.6.json,data/NPCs/Animals/Cow.1.json,"
+        },
+        {
+            "LogName": "Load.Strings",
+            "Action": "Load",
+            "Target": "Strings/schedules/RedPandaBazaar_ChenXiaoMing,Strings/schedules/RedPandaBazaar_ShiFuShan,Strings/schedules/RedPandaBazaar_Chandler,Strings/schedules/RedPandaBazaar_PumpkinPie,Strings/schedules/RedPandaBazaar_XiaoLeiWen,Strings/schedules/RedPandaBazaar_LiQingFeng,Strings/schedules/RedPandaBazaar_Marlin",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Load.Characters",
+            "Action": "Load",
+            "Target": "Characters/schedules/RedPandaBazaar_ChenXiaoMing,Characters/schedules/RedPandaBazaar_ShiFuShan,Characters/schedules/RedPandaBazaar_Chandler,Characters/schedules/RedPandaBazaar_LiQingFeng,Characters/schedules/RedPandaBazaar_Roy,Characters/schedules/RedPandaBazaar_Marlin",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Load.Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/RedPandaBazaar_XiaoLeiWen,Characters/Dialogue/RedPandaBazaar_PumpkinPie,Characters/Dialogue/RedPandaBazaar_Chandler,Characters/Dialogue/RedPandaBazaar_ShiFuShan,Characters/Dialogue/RedPandaBazaar_ChenXiaoMing,Characters/Dialogue/RedPandaBazaar_LiQingFeng,Characters/Dialogue/RedPandaBazaar_Marlin",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Load.MarriageDialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueRedPandaBazaar_LiQingFeng,Characters/Dialogue/MarriageDialogueRedPandaBazaar_ChenXiaoMing,",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Passersby",
+            "Action": "Load",
+            "Target": "Characters/schedules/RedPandaBazaar_Passersby.1,Characters/schedules/RedPandaBazaar_Passersby.2,Characters/schedules/RedPandaBazaar_Passersby.3,Characters/schedules/RedPandaBazaar_Passersby.4,Characters/schedules/RedPandaBazaar_Passersby.5,Characters/schedules/RedPandaBazaar_Passersby.6,Characters/schedules/RedPandaBazaar_Passersby.7,Characters/schedules/RedPandaBazaar_Passersby.8,Characters/schedules/RedPandaBazaar_Passersby.9,Characters/schedules/RedPandaBazaar_Passersby.10,Characters/schedules/RedPandaBazaar_Passersby.11,Characters/schedules/RedPandaBazaar_Passersby.12,Characters/schedules/RedPandaBazaar_Passersby.13,Characters/schedules/RedPandaBazaar_Passersby.14,Characters/schedules/RedPandaBazaar_Passersby.15",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Passersby",
+            "Action": "Load",
+            "Target": "Strings/schedules/RedPandaBazaar_Passersby.1,Strings/schedules/RedPandaBazaar_Passersby.2,Strings/schedules/RedPandaBazaar_Passersby.3,Strings/schedules/RedPandaBazaar_Passersby.4,Strings/schedules/RedPandaBazaar_Passersby.5,Strings/schedules/RedPandaBazaar_Passersby.6,Strings/schedules/RedPandaBazaar_Passersby.7,Strings/schedules/RedPandaBazaar_Passersby.8,Strings/schedules/RedPandaBazaar_Passersby.9,Strings/schedules/RedPandaBazaar_Passersby.10,Strings/schedules/RedPandaBazaar_Passersby.11,Strings/schedules/RedPandaBazaar_Passersby.12,Strings/schedules/RedPandaBazaar_Passersby.13,Strings/schedules/RedPandaBazaar_Passersby.14,Strings/schedules/RedPandaBazaar_Passersby.15",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "FestivalsPassersby",
+            "Action": "Load",
+            "Target": "Characters/schedules/RedPandaBazaar_FestivalsPassersby.1,Characters/schedules/RedPandaBazaar_FestivalsPassersby.2,Characters/schedules/RedPandaBazaar_FestivalsPassersby.3,Characters/schedules/RedPandaBazaar_FestivalsPassersby.4,Characters/schedules/RedPandaBazaar_FestivalsPassersby.5,Characters/schedules/RedPandaBazaar_FestivalsPassersby.6,Characters/schedules/RedPandaBazaar_FestivalsPassersby.7,Characters/schedules/RedPandaBazaar_FestivalsPassersby.8,Characters/schedules/RedPandaBazaar_FestivalsPassersby.9,Characters/schedules/RedPandaBazaar_FestivalsPassersby.10,Characters/schedules/RedPandaBazaar_FestivalsPassersby.11,Characters/schedules/RedPandaBazaar_FestivalsPassersby.12,Characters/schedules/RedPandaBazaar_FestivalsPassersby.13,Characters/schedules/RedPandaBazaar_FestivalsPassersby.14,Characters/schedules/RedPandaBazaar_FestivalsPassersby.15,Characters/schedules/RedPandaBazaar_FestivalsPassersby.16,Characters/schedules/RedPandaBazaar_FestivalsPassersby.17,Characters/schedules/RedPandaBazaar_FestivalsPassersby.18,Characters/schedules/RedPandaBazaar_FestivalsPassersby.19,Characters/schedules/RedPandaBazaar_FestivalsPassersby.20,Characters/schedules/RedPandaBazaar_FestivalsPassersby.21,Characters/schedules/RedPandaBazaar_FestivalsPassersby.22,Characters/schedules/RedPandaBazaar_FestivalsPassersby.23,Characters/schedules/RedPandaBazaar_FestivalsPassersby.24",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "JojaEmployee",
+            "Action": "Load",
+            "Target": "Characters/schedules/RedPandaBazaar_JojaEmployee.1,Characters/schedules/RedPandaBazaar_JojaEmployee.2,Characters/schedules/RedPandaBazaar_JojaEmployee.3,Characters/schedules/RedPandaBazaar_JojaEmployee.4,Characters/schedules/RedPandaBazaar_JojaEmployee.5,Characters/schedules/RedPandaBazaar_JojaEmployee.6,Characters/schedules/RedPandaBazaar_JojaEmployee.7",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "JojaEmployee",
+            "Action": "Load",
+            "Target": "Strings/schedules/RedPandaBazaar_JojaEmployee.1,Strings/schedules/RedPandaBazaar_JojaEmployee.2,Strings/schedules/RedPandaBazaar_JojaEmployee.3,Strings/schedules/RedPandaBazaar_JojaEmployee.4,Strings/schedules/RedPandaBazaar_JojaEmployee.5,Strings/schedules/RedPandaBazaar_JojaEmployee.6,Strings/schedules/RedPandaBazaar_JojaEmployee.7",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Workers",
+            "Action": "Load",
+            "Target": "Characters/schedules/RedPandaBazaar_Workers.1,Characters/schedules/RedPandaBazaar_Workers.2,Characters/schedules/RedPandaBazaar_Workers.3,Characters/schedules/RedPandaBazaar_Workers.4,Characters/schedules/RedPandaBazaar_Workers.5,Characters/schedules/RedPandaBazaar_Workers.6,Characters/schedules/RedPandaBazaar_Workers.7",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Workers",
+            "Action": "Load",
+            "Target": "Strings/schedules/RedPandaBazaar_Workers.1,Strings/schedules/RedPandaBazaar_Workers.2,Strings/schedules/RedPandaBazaar_Workers.3,Strings/schedules/RedPandaBazaar_Workers.4,Strings/schedules/RedPandaBazaar_Workers.5,Strings/schedules/RedPandaBazaar_Workers.6,Strings/schedules/RedPandaBazaar_Workers.7",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Animals",
+            "Action": "Load",
+            "Target": "Characters/schedules/RedPandaBazaar_Chicken.1,Characters/schedules/RedPandaBazaar_Chicken.2,Characters/schedules/RedPandaBazaar_Chicken.3,Characters/schedules/RedPandaBazaar_Chicken.4,Characters/schedules/RedPandaBazaar_Chicken.5,Characters/schedules/RedPandaBazaar_Chicken.6,Characters/schedules/RedPandaBazaar_Cow.1,",
+            "FromFile": "data/blank.json"
+        }
+    ]
+}

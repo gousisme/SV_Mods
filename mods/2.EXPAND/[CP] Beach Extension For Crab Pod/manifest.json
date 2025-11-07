@@ -1,0 +1,16 @@
+﻿{
+  "Name": "[CP] Beach Extension For Crab Pod",
+  "Author": "Tikamin557",
+  "Version": "3.3",
+  "Description": "add Beach Extension For Crab Pod.",
+  "UniqueID": "Tikamin557.BeachExtensionForCrabPod",
+  "UpdateKeys": [ "Nexus:11594" ],
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+
+  "Dependencies": [
+      { "UniqueID": "TipsSlight.Katrielle", "IsRequired": false },
+      { "UniqueID": "ShiryuCasDrg.UkrainianFood", "IsRequired": false },
+      { "UniqueID": "CC.Koda.Platonic", "IsRequired": false },
+      { "UniqueID": "CC.Koda.Romance", "IsRequired": false }
+  ]
+}

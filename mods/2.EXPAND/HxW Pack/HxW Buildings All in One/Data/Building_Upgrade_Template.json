@@ -1,0 +1,118 @@
+{
+
+    "Changes": [
+      
+        {
+            "LogName": "Load Interior Maps",
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_{{INDOOR_MAP_NAME}}",
+            "FromFile": "Assets/Maps/{{INDOOR_MAP_NAME}}.tmx"
+        },
+
+        {
+            "LogName": "Load Exterior Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior, Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_1_NAME}}, Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_2_NAME}}, Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_3_NAME}}, Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_4_NAME}}",
+            "FromFile": "assets/{{BUILDING_NAME}}/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "LogName": "Add {{BUILDING_NAME}} to Buildings Data as a Building Upgrade",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "{{ModId}}_{{BUILDING_NAME}}": {
+                    "ID": "{{ModId}}_{{BUILDING_NAME}}",
+                    "Name": "{{i18n: {{BUILDING_NAME}}.name}}",
+                    "Description": "{{i18n: {{BUILDING_NAME}}.description}}",
+                    "Texture": "Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior",
+                    "Skins": [
+                        {
+                            "Id": "{{BUILDING_NAME}}_{{SKIN_1_NAME}}",
+                            "Name": "{{i18n: {{BUILDING_NAME}}_{{SKIN_1_NAME}}.name}}",
+                            "Description": "{{i18n: {{BUILDING_NAME}}_{{SKIN_1_NAME}}.description}}",
+                            "Texture": "Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_1_NAME}}",
+                            "ShowAsSeparateConstructionEntry": false
+                        },
+                        {
+                            "Id": "{{BUILDING_NAME}}_{{SKIN_2_NAME}}",
+                            "Name": "{{i18n: {{BUILDING_NAME}}_{{SKIN_2_NAME}}.name}}",
+                            "Description": "{{i18n: {{BUILDING_NAME}}_{{SKIN_2_NAME}}.description}}",
+                            "Texture": "Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_2_NAME}}",
+                            "ShowAsSeparateConstructionEntry": false
+                        },
+                        {
+                            "Id": "{{BUILDING_NAME}}_{{SKIN_3_NAME}}",
+                            "Name": "{{i18n: {{BUILDING_NAME}}_{{SKIN_3_NAME}}.name}}",
+                            "Description": "{{i18n: {{BUILDING_NAME}}_{{SKIN_3_NAME}}.description}}",
+                            "Texture": "Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_3_NAME}}",
+                            "ShowAsSeparateConstructionEntry": false
+                        },
+                        {
+                            "Id": "{{BUILDING_NAME}}_{{SKIN_4_NAME}}",
+                            "Name": "{{i18n: {{BUILDING_NAME}}_{{SKIN_4_NAME}}.name}}",
+                            "Description": "{{i18n: {{BUILDING_NAME}}_{{SKIN_4_NAME}}.description}}",
+                            "Texture": "Mods/{{ModId}}/{{BUILDING_NAME}}_Exterior_{{SKIN_4_NAME}}",
+                            "ShowAsSeparateConstructionEntry": false
+                        }
+                    ],
+                    "DrawShadow": false,
+                    "Size": {
+                        "X": "{{SIZE_X}}",
+                        "Y": "{{SIZE_Y}}"
+                    },
+                    "FadeWhenBehind": true,
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": "{{SOURCE_RECT_WIDTH}}",
+                        "Height": "{{SOURCE_RECT_HEIGHT}}"
+                    },
+                    "SeasonOffset": {
+                        "X": "{{SEASON_X}}",
+                        "Y": "{{SEASON_Y}}"
+                    },
+                    "DrawOffset": "0, 0",
+                    "SortTileOffset": 0.0,
+                    "AdditionalPlacementTiles": null,
+                    "BuildingType": null,
+                    "Builder": "Robin",
+                    "BuildCondition": null,
+                    "BuildDays": "{{BUILD_DAYS}}",
+                    "BuildCost": "{{BUILD_COST}}",
+                    "BuildingToUpgrade": "{{BUILDING_UPGRADE}}",
+                    "BuildMaterials": [],
+                    "MagicalConstruction": false,
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "HumanDoor": {
+                        "X": "{{HUMAN_DOOR_X}}",
+                        "Y": "{{HUMAN_DOOR_Y}}"
+                    },
+                    "NonInstancedIndoorLocation": null,
+                    "IndoorMap": "{{ModId}}_{{INDOOR_MAP_NAME}}",
+                    "IndoorMapType": "{{INDOOR_MAP_TYPE}}",
+                    "IndoorItemMoves": null,
+                    "IndoorItems": [],
+                    "AddMailOnBuild": null,
+                    "Metadata": {},
+                    "ModData": {},
+                    "HayCapacity": 0,
+                    "Chests": null,
+                    "DefaultAction": null,
+                    "AdditionalTilePropertyRadius": 0,
+                    "AllowsFlooringUnderneath": true,
+                    "ActionTiles": [],
+                    "TileProperties": [],
+                    "ItemConversions": null,
+                    "DrawLayers": [],
+                    "CustomFields": null
+                    }
+            }
+        }
+
+
+    ]
+}

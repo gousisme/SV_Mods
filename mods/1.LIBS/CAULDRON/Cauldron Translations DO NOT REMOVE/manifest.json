@@ -1,0 +1,20 @@
+{
+    "Name": "[CP] Atelier Cauldron English Translation Pack",
+	"Author": "wildflourmods and kedi",
+	"Version": "2.0",
+	"Description": "Adds Atelier Cauldron English translation.",
+	"MinimumApiVersion": "3.6.0",
+	"UniqueID": "wildflour.AtelierEnglish.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": 
+    [
+    {
+		"UniqueID": "Atelier.Cauldron",
+		"IsRequired": true,
+    }
+    ]
+}

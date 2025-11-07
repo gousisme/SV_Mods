@@ -1,0 +1,54 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "RedPandaBazaar_Blue_Crystal_Fruit_Seed": {
+                    "Seasons": [
+                        "Spring",
+                        "Winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        2,
+                        2
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemId": "RedPandaBazaar_Coffee_Popsicle",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0,
+                    "ExtraHarvestChance": 0,
+                    "Texture": "Mods\\RedPandaBazaar\\Blue_Crystal_Fruit_Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "RedPandaBazaar_Blue_Crystal_Fruit_Seed": {
+                    "Name": "Blue Crystal Fruit Seed",
+                    "DisplayName": "{{i18n:Locked}}",
+                    "Description": "{{i18n:Locked}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 0,
+                    "Texture": "Mods\\RedPandaBazaar\\Blue_Crystal_Fruit_Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                }
+            }
+        }
+    ]
+}

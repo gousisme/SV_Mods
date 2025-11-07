@@ -1,0 +1,250 @@
+{
+	"Changes": [
+	    { 
+			"LogName": "Load Rooster Assets",
+			"Action": "Load",
+			"Target": "assets/cockbrown, assets/cockwhite, assets/voidcock, assets/cockblue, assets/cockgold",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+	    { 
+			"LogName": "Load Chick Assets",
+			"Action": "Load",
+			"Target": "assets/greencockchick, assets/whitecockchick, assets/voidcockchick, assets/bluecockchick, assets/goldcockchick",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+	    { 
+			"LogName": "Load Shop Assets",
+			"Action": "Load",
+			"Target": "assets/shopcock, assets/shopcockblue",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+            "LogName": "Brown Cock Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "cockbrown": {
+                    "DisplayName": "{{i18n:browncock.displayname}}",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "PurchasePrice": 8000,
+					"SellPrice": 10400,
+                    "ShopTexture": "assets/shopcock",
+                    "Sound": "cluck",
+					"EggItemIds": ["{{ModId}}_FertEggBrown"],
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ShopDisplayName": "{{i18n:cock.shopdisplayname}}",
+                    "ShopDescription": "{{i18n:cock.shopdescription}}.",
+					"AlternatePurchaseTypes": [
+						  {
+							"AnimalIds": ["cockbrown", "cockwhite"]
+						  }
+						],
+                    "ShopMissingBuildingDescription": "{{i18n:cock.shopmissingbuildingdes}}",
+                    "BirthText": "{{i18n:cock.birthtext}}",
+                    "DaysToMature": "4",
+                    "DaysToProduce": "1",
+                    "ProduceItemIDs": [
+                        {"ItemID": "684"},{"ItemID": "684"},{"ItemID": "684"},{"ItemID": "684"},
+						{"ItemID": "685"},{"ItemID": "685"},{"ItemID": "685"},
+						{"ItemID": "774"},{"ItemID": "774"},
+						{"ItemID": "DeluxeBait"}
+                    ],
+                    "HarvestType": "DigUp",
+                    "HappinessDrain": 3,
+					"ProfessionForHappinessBoost": 2,
+                    "GrassEatAmount": 2,
+                    "ShowSummitCredits": false,
+                    "CanGetPregnant": false,
+                    "BabiesFollowAdults": true,
+                    "Texture": "assets/cockbrown",
+					"UseDoubleUniqueAnimationFrames": "true",
+					"SleepFrame": "16",
+                    "BabyTexture": "assets/greencockchick",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"CustomFields": {
+						"meatIndex": "641" //chicken
+					}
+                }
+            }
+        },
+		{
+            "LogName": "White Cock Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "cockwhite": {
+                    "DisplayName": "{{i18n:whitecock.displayname}}",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "Sound": "cluck",
+					"EggItemIds": ["{{ModId}}_FertEggWhite"],
+                    "BirthText": "{{i18n:cock.birthtext}}",
+					"DaysToMature": "4",
+                    "DaysToProduce": "2",
+                    "ProduceItemIDs": [
+                        {"ItemID": "684"},{"ItemID": "684"},{"ItemID": "684"},{"ItemID": "684"},
+						{"ItemID": "685"},{"ItemID": "685"},{"ItemID": "685"},
+						{"ItemID": "774"},{"ItemID": "774"},
+						{"ItemID": "DeluxeBait"}
+                    ],
+                    "HarvestType": "DigUp",
+                    "HappinessDrain": 3,
+					"ProfessionForHappinessBoost": 2,
+                    "GrassEatAmount": 2,
+                    "ShowSummitCredits": false,
+                    "CanGetPregnant": false,
+                    "BabiesFollowAdults": true,
+                    "Texture": "assets/cockwhite",
+					"UseDoubleUniqueAnimationFrames": "true",
+					"SleepFrame": "17",
+                    "BabyTexture": "assets/whitecockchick",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 10400,					
+					"CustomFields": {
+						"meatIndex": "641" //chicken
+					}
+                }
+            }
+        },
+		{
+            "LogName": "Blue Cock Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "cockblue": {
+                    "DisplayName": "{{i18n:cockblue.displayname}}",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "Sound": "cluck",
+					"EggItemIds": ["{{ModId}}_FertEggBlue"],
+                    "BirthText": "{{i18n:cockblue.birthtext}}",
+                    "ShopTexture": "assets/shopcockblue",
+                    "PurchasePrice": 8000,				
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ShopDisplayName": "{{i18n:cockblue.shopdisplayname}}",
+                    "ShopDescription": "{{i18n:cockblue.shopdescription}}",
+					"UnlockCondition": "PLAYER_FRIENDSHIP_POINTS Current Shane 2000 3500",
+					"DaysToMature": "4",
+                    "DaysToProduce": "2",
+                    "ProduceItemIDs": [
+                        {"ItemID": "MysteryBox"}
+                    ],
+                    "HarvestType": "DigUp",
+                    "HappinessDrain": 3,
+					"ProfessionForHappinessBoost": 2,
+                    "GrassEatAmount": 2,
+                    "ShowSummitCredits": false,
+                    "CanGetPregnant": false,
+                    "BabiesFollowAdults": true,
+                    "Texture": "assets/cockblue",
+                    "BabyTexture": "assets/bluecockchick",					
+					"UseDoubleUniqueAnimationFrames": "true",
+					"UseFlippedRightForLeft": "true",
+					"SleepFrame": "17",					
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 10400,					
+					"CustomFields": {
+						"meatIndex": "641" //chicken
+					}
+                }
+            }
+        },
+		{
+            "LogName": "Void Cock Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "cockvoid": {
+                    "DisplayName": "{{i18n:voidcock.displayname}}",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "Sound": "cluck",
+					"EggItemIds": ["{{ModId}}_FertEggVoid"],					
+                    "BirthText": "{{i18n:voidcock.birthtext}}",
+					"DaysToMature": "4",
+                    "DaysToProduce": "2",
+                    "ProduceItemIDs": [
+                        {"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},{"ItemID": "382"},
+						{"ItemID": "767"},{"ItemID": "767"},{"ItemID": "767"},{"ItemID": "767"},{"ItemID": "767"},{"ItemID": "767"},
+						{"ItemID": "769"},{"ItemID": "769"},{"ItemID": "769"},{"ItemID": "769"},
+						{"ItemID": "808"}
+                    ],
+                    "HarvestType": "DigUp",
+                    "HappinessDrain": 3,
+					"ProfessionForHappinessBoost": 2,
+                    "GrassEatAmount": 2,
+                    "ShowSummitCredits": false,
+                    "CanGetPregnant": false,
+                    "BabiesFollowAdults": true,
+                    "Texture": "assets/voidcock",
+					"UseDoubleUniqueAnimationFrames": "true",
+					"SleepFrame": "17",
+                    "BabyTexture": "assets/voidcockchick",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 10400,					
+					"CustomFields": {
+						"meatIndex": "641" //chicken
+					}
+                }
+            }
+        },
+		{
+            "LogName": "Golden Cock Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "cockgold": {
+                    "DisplayName": "{{i18n:goldcock.displayname}}",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "Sound": "cluck",
+					"EggItemIds": ["{{ModId}}_FertEggGold"],	
+                    "BirthText": "{{i18n:goldcock.birthtext}}",
+					"UnlockCondition": null,
+					"DaysToMature": "4",
+                    "DaysToProduce": "2",
+                    "ProduceItemIDs": [
+                        {"ItemID": "535"},{"ItemID": "536"},{"ItemID": "537"},{"ItemID": "749"},
+						{"ItemID": "70"},{"ItemID": "72"},{"ItemID": "66"},{"ItemID": "64"},
+						{"ItemID": "62"},{"ItemID": "60"},{"ItemID": "68"},{"ItemID": "74"}
+                    ],
+                    "HarvestType": "DigUp",
+                    "HappinessDrain": 3,
+					"ProfessionForHappinessBoost": 2,
+                    "GrassEatAmount": 2,
+                    "ShowSummitCredits": false,
+                    "CanGetPregnant": false,
+                    "BabiesFollowAdults": true,
+                    "Texture": "assets/cockgold",
+                    "BabyTexture": "assets/goldcockchick",					
+					"UseDoubleUniqueAnimationFrames": "true",
+					"UseFlippedRightForLeft": "true",
+					"SleepFrame": "17",					
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+					"SellPrice": 10400,					
+					"CustomFields": {
+						"meatIndex": "336" //Gold Bar
+					}
+                }
+            }
+        }		
+	]
+}

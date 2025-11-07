@@ -1,0 +1,120 @@
+
+{   
+"Changes": [
+
+//Tilesheets
+//{{Seasons}}_z_extra Tilesheets
+{ //Crop Replacement
+	"LogName": "RSV Crops Replacement 1",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_zridgeside",
+	"FromFile": "assets/Tilesheets/{{season}}_zridgeside.png",
+	"FromArea": { "X": 0, "Y": 80, "Width": 160, "Height": 32 },
+	"ToArea": { "X": 0, "Y": 80, "Width": 160, "Height": 32 },
+	"When": {
+        "season": "spring, summer, fall",
+        "Retexture Crop Maps": true
+    }
+},
+{ //fruit tree replacement - Spring
+	"LogName": "Crops Replacement 2",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_zridgeside",
+	"FromFile": "assets/Tilesheets/{{season}}_zridgeside.png",
+	"FromArea": { "X": 0, "Y": 112, "Width": 48, "Height": 160 },
+	"ToArea": { "X": 0, "Y": 112, "Width": 48, "Height": 160 },
+	"When": {
+        "season": "spring",
+        "Retexture Fruit Trees": true
+    }
+},// Maps
+{ //fruit tree replacement - Summer
+	"LogName": "Crops Replacement 2",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_zridgeside",
+	"FromFile": "assets/Tilesheets/{{season}}_zridgeside.png",
+	"FromArea": { "X": 48, "Y": 112, "Width": 48, "Height": 160 },
+	"ToArea": { "X": 48, "Y": 112, "Width": 48, "Height": 160 },
+	"When": {
+        "season": "summer",
+        "Retexture Fruit Trees": true
+    }
+},
+{ //fruit tree replacement - Fall
+	"LogName": "Crops Replacement 2",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_zridgeside",
+	"FromFile": "assets/Tilesheets/{{season}}_zridgeside.png",
+	"FromArea": { "X": 96, "Y": 112, "Width": 48, "Height": 160 },
+	"ToArea": { "X": 96, "Y": 112, "Width": 48, "Height": 160 },
+	"When": {
+        "season": "fall",
+        "Retexture Fruit Trees": true
+    }
+},
+
+{ //Freddie ShedItem
+	"LogName": "Freddie ShedItem",
+	"Action": "EditImage",
+	"Target": "Maps/FreddieShedItems",
+	"FromFile": "assets/Tilesheets/FreddieShedItems.png",
+	"FromArea": { "X": 0, "Y": 41, "Width": 48, "Height": 55 },
+	"ToArea": { "X": 0, "Y": 41, "Width": 48, "Height": 55 }
+},
+{ //Freddie ShedItem ZZZZZZ
+	"LogName": "zFreddie ShedItem",
+	"Action": "EditImage",
+	"Target": "Maps/zFreddieShedItems",
+	"FromFile": "assets/Tilesheets/zFreddieShedItems.png",
+	"FromArea": { "X": 0, "Y": 41, "Width": 48, "Height": 55 },
+	"ToArea": { "X": 0, "Y": 41, "Width": 48, "Height": 55 }
+},
+{ //Sproomsts 1
+	"LogName": "Sproomsts 1 - pizza cut",
+	"Action": "EditImage",
+	"Target": "Maps/Sproomsts",
+	"FromFile": "assets/Tilesheets/Sproomsts.png",
+	"FromArea": { "X": 336, "Y": 481, "Width": 19, "Height": 31 },
+	"ToArea": { "X": 336, "Y": 481, "Width": 19, "Height": 31 }
+},
+{ //Sproomsts 2
+	"LogName": "Sproomsts 2 - gems",
+	"Action": "EditImage",
+	"Target": "Maps/Sproomsts",
+	"FromFile": "assets/Tilesheets/Sproomsts.png",
+	"FromArea": { "X": 48, "Y": 640, "Width": 48, "Height": 48 },
+	"ToArea": { "X": 48, "Y": 640, "Width": 48, "Height": 48 }
+},
+{ //RSV Garden
+	"LogName": "RSV Garden edits",
+	"Action": "EditImage",
+	"Target": "Maps/z_rsvgarden",
+	"FromFile": "assets/Tilesheets/z_rsvgarden.png"
+},
+{ //RSV Interior
+	"LogName": "z_rsvinterior edits",
+	"Action": "EditImage",
+	"Target": "Maps/z_rsvinterior",
+	"FromFile": "assets/Tilesheets/z_rsvinterior.png",
+	"FromArea": { "X": 98, "Y": 174, "Width": 118, "Height": 65 },
+	"ToArea": { "X": 98, "Y": 174, "Width": 118, "Height": 65 }
+},
+
+{ //RSV Festival 1
+	"LogName": "Eggs",
+	"Action": "EditImage",
+	"Target": "Maps/zrsvfestivals",
+	"FromFile": "assets/Tilesheets/zrsvfestivals.png",
+	"FromArea": { "X": 64, "Y": 36, "Width": 16, "Height": 17 },
+	"ToArea": { "X": 64, "Y": 36, "Width": 16, "Height": 17 }
+},
+{ //RSV Festival 2
+	"LogName": "Crops in fair table",
+	"Action": "EditImage",
+	"Target": "Maps/zrsvfestivals",
+	"FromFile": "assets/Tilesheets/zrsvfestivals.png",
+	"FromArea": { "X": 48, "Y": 145, "Width": 48, "Height": 63 },
+	"ToArea": { "X": 48, "Y": 145, "Width": 48, "Height": 63 }
+}
+	]
+}

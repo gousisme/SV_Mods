@@ -1,0 +1,747 @@
+{
+    "Changes": 
+    [
+
+// SEASONAL/NONSEASONAL SEEDBAGS
+
+// REGULAR CROPS
+
+		{
+			"LogName": "Amaranth",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Amaranth.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Amaranth": true
+			}
+		},
+		{
+			"LogName": "Artichoke",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Artichoke.png",
+			"ToArea": { "X": 144, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Artichoke": true
+			}
+		},
+		{
+			"LogName": "Beet",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Beet.png",
+			"ToArea": { "X": 224, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Beet": true
+			}
+		},
+		{
+			"LogName": "Blueberry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Blueberry.png",
+			"ToArea": { "X": 16, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Blueberry": true
+			}
+		},
+		{
+			"LogName": "Bok Choy",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/BokChoy.png",
+			"ToArea": { "X": 176, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Bok Choy": true
+			}
+		},
+		{
+			"LogName": "Cactus Fruit",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/CactusFruit.png",
+			"ToArea": { "X": 160, "Y": 528, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularForage |contains= Cactus Fruit": true
+			}
+		},
+		{
+			"LogName": "Cauliflower",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Cauliflower.png",
+			"ToArea": { "X": 288, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Cauliflower": true
+			}
+		},
+		{
+			"LogName": "Corn",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Corn.png",
+			"ToArea": { "X": 112, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Corn": true
+			}
+		},
+		{
+			"LogName": "Cranberries",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Cranberries.png",
+			"ToArea": { "X": 208, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Cranberries": true
+			}
+		},
+		{
+			"LogName": "Eggplant",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Eggplant.png",
+			"ToArea": { "X": 128, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Eggplant": true
+			}
+		},
+		{
+			"LogName": "Garlic",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Garlic.png",
+			"ToArea": { "X": 320, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Garlic": true
+			}
+		},
+		{
+			"LogName": "Grape",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Grape.png",
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Grape": true
+			}
+		},
+		{
+			"LogName": "Green Bean",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/GreenBean.png",
+			"ToArea": { "X": 272, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Green Bean": true
+			}
+		},
+		{
+			"LogName": "Hops",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Hops.png",
+			"ToArea": { "X": 224, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Hops": true
+			}
+		},
+		{
+			"LogName": "Hot Pepper",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/HotPepper.png",
+			"ToArea": { "X": 32, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Hot Pepper": true
+			}
+		},
+		{
+			"LogName": "Kale",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Kale.png",
+			"ToArea": { "X": 336, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Kale": true
+			}
+		},
+		{
+			"LogName": "Melon",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Melon.png",
+			"ToArea": { "X": 368, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Melon": true
+			}
+		},
+		{
+			"LogName": "Parsnip",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Parsnip.png",
+			"ToArea": { "X": 256, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Parsnip": true
+			}
+		},
+		{
+			"LogName": "Pineapple",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Pineapple.png",
+			"ToArea": { "X": 272, "Y": 544, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Pineapple": true
+			}
+		},
+		{
+			"LogName": "Potato",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Potato.png",
+			"ToArea": { "X": 304, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Potato": true
+			}
+		},
+		{
+			"LogName": "Pumpkin",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Pumpkin.png",
+			"ToArea": { "X": 160, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Pumpkin": true
+			}
+		},
+		{
+			"LogName": "Radish",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Radish.png",
+			"ToArea": { "X": 64, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Radish": true
+			}
+		},
+		{
+			"LogName": "Red Cabbage",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/RedCabbage.png",
+			"ToArea": { "X": 80, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Red Cabbage": true
+			}
+		},
+		{
+			"LogName": "Rhubarb",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Rhubarb.png",
+			"ToArea": { "X": 352, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Rhubarb": true
+			}
+		},
+		{
+			"LogName": "Starfruit",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Starfruit.png",
+			"ToArea": { "X": 96, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Starfruit": true
+			}
+		},
+		{
+			"LogName": "Strawberry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Strawberry.png",
+			"ToArea": { "X": 16, "Y": 496, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Strawberry": true
+			}
+		},
+		{
+			"LogName": "Tomato",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Tomato.png",
+			"ToArea": { "X": 0, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Tomato": true
+			}
+		},
+		{
+			"LogName": "Wheat",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Wheat.png",
+			"ToArea": { "X": 48, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Wheat": true
+			}
+		},
+		{
+			"LogName": "Yam",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Yam.png",
+			"ToArea": { "X": 192, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Yam": true
+			}
+		},
+
+// FLOWERS
+
+		{
+			"LogName": "Blue Jazz",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/BlueJazz.png",
+			"ToArea": { "X": 336, "Y": 272, "Width": 16, "Height": 16 },
+			"When":
+			{	
+				"RegularSeedbags |contains= Blue Jazz": true
+			}
+		},
+		{
+			"LogName": "Fairy Rose",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/FairyRose.png",
+			"ToArea": { "X": 272, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Fairy Rose": true
+			}
+		},
+		{
+			"LogName": "Poppy",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Poppy.png",
+			"ToArea": { "X": 336, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Poppy": true
+			}
+		},
+		{
+			"LogName": "Summer Spangle",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/SummerSpangle.png",
+			"ToArea": { "X": 368, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Summer Spangle": true
+			}
+		},
+		{
+			"LogName": "Tulip",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Tulip.png",
+			"ToArea": { "X": 304, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Tulip": true
+			}
+		},
+
+// UNIQUE SEEDBAGS
+
+		{
+			"LogName": "Ancient Fruit Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/AncientSeed.png",
+			"ToArea": { "X": 304, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Ancient Seed": true
+			}
+		},
+        {
+			"LogName": "Blue Grass Seedbag",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/BlueGrass.png",
+			"ToArea": { "X": 96, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+            {	
+				"UniqueSeedbags |contains= Blue Grass": true
+			}
+		},
+        {
+			"LogName": "Broccoli Seedbag",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/Broccoli.png",
+			"ToArea": { "X": 96, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+            {	
+				"RegularSeedbags |contains= Broccoli": true
+			}
+		},
+        {
+			"LogName": "Carrot Seedbag",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/Carrot.png",
+			"ToArea": { "X": 64, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+            {	
+				"RegularSeedbags |contains= Carrot": true
+			}
+		},
+        {
+			"LogName": "Fiber",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/Fiber.png",
+			"ToArea": { "X": 336, "Y": 576, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Fiber": true
+			}
+		},
+		{
+			"LogName": "Grape Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Seedbags/Unique/Grape.png",
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Grape": true,
+				"UniqueTrellisSeeds |contains= Grape": true
+			}
+		},
+		{
+			"LogName": "Green Bean Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Seedbags/Unique/GreenBean.png",
+			"ToArea": { "X": 272, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Green Bean": true,
+				"UniqueTrellisSeeds |contains= Green Bean": true
+			}
+		},
+		{
+			"LogName": "Hops Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Seedbags/Unique/Hops.png",
+			"ToArea": { "X": 224, "Y": 192, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Hops": true,
+				"UniqueTrellisSeeds |contains= Hops": true
+			}
+		},
+        {
+			"LogName": "Mixed Flower Seeds Seedbag",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/MixedFlowerSeeds.png",
+			"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+			"When": 
+            {	
+				"UniqueSeedbags |contains= Mixed Flower Seeds": true
+			}
+		},
+		{
+			"LogName": "Mixed Seeds Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Seedbags/Unique/MixedSeeds.png",
+			"ToArea": { "X": 32, "Y": 512, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Mixed Seeds": true
+			}
+		},
+		{
+			"LogName": "Pineapple Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/Pineapple.png",
+			"ToArea": { "X": 272, "Y": 544, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Pineapple": true,
+				"RedPineappleSeedsBag": "True"
+			}
+		},
+        {
+			"LogName": "Powdermelon Seedbag",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/Powdermelon.png",
+			"ToArea": { "X": 112, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+            {	
+				"RegularSeedbags |contains= Powdermelon": true
+			}
+		},
+		{
+			"LogName": "Rice Shoot Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Seedbags/Unique/RiceShoot.png",
+			"ToArea": { "X": 144, "Y": 176, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Rice Shoot": true
+			}
+		},
+		{
+			"LogName": "Starfruit Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/Starfruit.png",
+			"ToArea": { "X": 96, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularSeedbags |contains= Starfruit": true,
+				"BlueStarfruitSeedsBag": "True"
+			}
+		},
+        {
+			"LogName": "Summer Squash Seedbag",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/SummerSquash.png",
+			"ToArea": { "X": 80, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+            {	
+				"RegularSeedbags |contains= Summer Squash": true
+			}
+		},
+        {
+			"LogName": "Sunflower Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/SunflowerSeeds.png",
+			"ToArea": { "X": 368, "Y": 272, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Sunflower": true
+			}
+		},
+        {
+			"LogName": "Sweet Gem Berry",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/SweetGemBerry.png",
+			"ToArea": { "X": 176, "Y": 224, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"RegularSeedbags |contains= Sweet Gem Berry": true
+			}
+		},
+		{
+			"LogName": "Taro Tuber Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Unique/TaroTuber.png",
+			"ToArea": { "X": 240, "Y": 544, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"RegularSeedbags |contains= Taro Root": true
+			}
+		},
+        {
+			"LogName": "Wild Seeds - Spring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/WildSeed_Spring.png",
+			"ToArea": { "X": 240, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"UniqueSeedbags |contains= Wild Seeds": true
+			}
+		},
+		{
+			"LogName": "Wild Seeds - Summer",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/WildSeed_Summer.png",
+			"ToArea": { "X": 256, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Wild Seeds": true
+			}
+		},
+		{
+			"LogName": "Wild Seeds - Fall",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/WildSeed_Fall.png",
+			"ToArea": { "X": 272, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Wild Seeds": true
+			}
+		},
+		{
+			"LogName": "Wild Seeds - Winter",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/{{SeasonalColouredSeedbags}}/WildSeed_Winter.png",
+			"ToArea": { "X": 288, "Y": 320, "Width": 16, "Height": 16 },
+			"When": 
+			{	
+				"UniqueSeedbags |contains= Wild Seeds": true
+			}
+		},
+
+// SAPLINGS
+        {
+			"LogName": "Apple Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/AppleSapling.png",
+			"ToArea": { "X": 144, "Y": 416, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Apple": true
+			}
+		},
+        {
+			"LogName": "Apricot Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/ApricotSapling.png",
+			"ToArea": { "X": 80, "Y": 416, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Apricot": true
+			}
+		},
+        {
+			"LogName": "Banana Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/BananaSapling.png",
+			"ToArea": { "X": 336, "Y": 32, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Banana": true
+			}
+		},
+        {
+			"LogName": "Cherry Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/CherrySapling.png",
+			"ToArea": { "X": 64, "Y": 416, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Cherry": true
+			}
+		},
+        {
+			"LogName": "Mango Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/MangoSapling.png",
+			"ToArea": { "X": 304, "Y": 544, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Mango": true
+			}
+		},
+        {
+			"LogName": "Orange Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/OrangeSapling.png",
+			"ToArea": { "X": 96, "Y": 416, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Orange": true
+			}
+		},
+        {
+			"LogName": "Peach Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/PeachSapling.png",
+			"ToArea": { "X": 112, "Y": 416, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Peach": true
+			}
+		},
+        {
+			"LogName": "Pomegranate Sapling Seedbag",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/PomegranateSapling.png",
+			"ToArea": { "X": 128, "Y": 416, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Pomegranate": true
+			}
+		},
+        {
+			"LogName": "Tea Sapling",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/SeedBags/Saplings/TeaSapling.png",
+			"ToArea": { "X": 176, "Y": 160, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"SaplingsEnabled": "True",
+				"Saplings |contains= Tea": true
+			}
+		}
+    ]
+}

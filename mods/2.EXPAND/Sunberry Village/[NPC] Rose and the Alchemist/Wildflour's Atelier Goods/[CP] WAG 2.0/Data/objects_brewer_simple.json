@@ -1,0 +1,83 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Ale Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Ales": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Ale": {
+                "Name": "Wildflour.AtelierGoods_Flavored_Ale",
+                "DisplayName": "{{i18n:AtelierGoods_Flavored_Ale.name}}",
+                "Description": "{{i18n:AtelierGoods_Flavored_Ale.description}}",
+                "Type": "ArtisanGoods",      
+                "ColorOverlayFromNextIndex":true,    
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_ale_item",
+                "wildflour_brewer_item",
+                "ale_item",
+                "beer_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 298
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Ales": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Ale": "{{i18n: AtelierGoods_Flavored_Ale}}"
+
+        }
+    },
+
+    {
+        "LogName":"Add Mead Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Meads": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Mead": {
+                "Name": "Wildflour.AtelierGoods_Flavored_Mead",
+                "DisplayName": "{{i18n:AtelierGoods_Flavored_Mead.name}}",
+                "Description": "{{i18n:AtelierGoods_Flavored_Mead.description}}",
+                "Type": "ArtisanGoods",   
+                "ColorOverlayFromNextIndex":true,       
+                "Category": -26,
+                "Edibility": 20,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_mead_item",
+                "wildflour_brewer_item",
+                "mead_item",
+                "alcohol_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 312
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Meads": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Mead": "{{i18n: AtelierGoods_Flavored_Mead}}"
+        }
+    }
+
+]
+}

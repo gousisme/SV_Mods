@@ -1,0 +1,1231 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add SO Emojis",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/SOEmojis",
+            "FromFile": "Assets/Images/SOEmojis/SOEmojis.png"
+        },
+        {
+            "LogName": "Add SO Emojis Data",
+            "Action": "EditData",
+            "Target": "Mods/skellady.SBVCP/SOEmojisData",
+            "Entries": {
+                "AichaSBV": 0,
+                "AminaSBV": 1,
+                "AriSBV": 2,
+                "BlakeSBV": 3,
+                "DeryaSBV": 4,
+                "DialaSBV": 5,
+                "EliasSBV": 6,
+                "EzraSBV": 7,
+                "ImanSBV": 8,
+                "JumanaSBV": 9,
+                "LyenneSBV": 10,
+                "MaiaSBV": 11,
+                "MiyoungSBV": 12,
+                "MoonSBV": 13,
+                "NadiaSBV": 14,
+                "OpheliaSBV": 15,
+                "PanSBV": 16,
+                "ReihanaSBV": 17,
+                "SilasSBV": 18,
+                "Clara.Ripley": 19,
+                "WrenSong": 20,
+                "DidoSBV": 21,
+                "CassieSBV": 22,
+                "AirynDao": 23,
+                "Bijou": 24,
+                "Jonghyuk": 25,
+                "Spanner": 26,
+                "Yri": 27,
+                "Charles": 28,
+                "Sterling": 29,
+                "Mia": 30,
+                "Henry": 31,
+                "PS.Greyscale": 32,
+                "PS.Trevor": 33,
+                "PS.Michelle": 34,
+                "RoseSASS": 35,
+                "WildflourSASS": 36
+            }
+        },
+        {
+            "LogName": "Add Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "SBV.SpecialOrder.MaiaGrubs": {
+                    "Name": "[SBV.SpecialOrder.MaiaGrubs_Name]",
+                    "Requester": "MaiaSBV",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.MaiaGrubs_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Slay",
+                            "Text": "[SBV.SpecialOrder.MaiaGrubs_Objective_Text_0]",
+                            "RequiredCount": "30",
+                            "Data": {
+                                "TargetName": "Grub"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "5000"
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.OpheliaMushrooms": {
+                    "Name": "[SBV.SpecialOrder.OpheliaMushrooms_Name]",
+                    "Requester": "OpheliaSBV",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.OpheliaMushrooms_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Slay",
+                            "Text": "[SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "TargetName": "False Magma Cap"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "5000"
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.ReihanaDessert": {
+                    "Name": "[SBV.SpecialOrder.ReihanaDessert_Name]",
+                    "Requester": "AichaSBV",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "event_{{ModId}}_20031427",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.ReihanaDessert_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ReihanaDessert_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVReiBox",
+                                "DropBoxGameLocation": "Custom_SBV_ReiHouse",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
+                                "AcceptedContextTags": "item_cookie"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ReihanaDessert_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVReiBox",
+                                "DropBoxGameLocation": "Custom_SBV_ReiHouse",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
+                                "AcceptedContextTags": "item_maple_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ReihanaDessert_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVReiBox",
+                                "DropBoxGameLocation": "Custom_SBV_ReiHouse",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
+                                "AcceptedContextTags": "item_pink_cake"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ReihanaDessert_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVReiBox",
+                                "DropBoxGameLocation": "Custom_SBV_ReiHouse",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
+                                "AcceptedContextTags": "item_chocolate_cake"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "3360"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "ReiSODessert",
+                                "NoLetter": false
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "75",
+                                "TargetName": "ReihanaSBV"
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.MaiaWeapon1": {
+                    "Name": "[SBV.SpecialOrder.MaiaWeapon1_Name]",
+                    "Requester": "MaiaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.MaiaWeapon1_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon1_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_aquamarine"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon1_Objective_Text_1]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_frozen_tear"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon1_Objective_Text_2]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon1_Objective_Text_3]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_aquamarine"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon1_Objective_Text_4]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_frozen_tear"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon1_Objective_Text_5]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 10000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "MaiaSOWeapon1",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.MaiaWeapon2": {
+                    "Name": "[SBV.SpecialOrder.MaiaWeapon2_Name]",
+                    "Requester": "MaiaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.MaiaWeapon2_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon2_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_topaz"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon2_Objective_Text_1]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "item_gold_bar"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon2_Objective_Text_2]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon2_Objective_Text_3]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_topaz"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon2_Objective_Text_4]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_gold_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon2_Objective_Text_5]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 12000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "MaiaSOWeapon2",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.MaiaWeapon3": {
+                    "Name": "[SBV.SpecialOrder.MaiaWeapon3_Name]",
+                    "Requester": "MaiaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "island",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.MaiaWeapon3_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon3_Objective_Text_0]",
+                            "RequiredCount": "3",
+                            "Data": {
+                                "AcceptedContextTags": "item_dragon_tooth"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon3_Objective_Text_1]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "item_solar_essence"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon3_Objective_Text_2]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon3_Objective_Text_3]",
+                            "RequiredCount": "3",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_dragon_tooth"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon3_Objective_Text_4]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_solar_essence"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon3_Objective_Text_5]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 16000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "MaiaSOWeapon3",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.MaiaWeapon4": {
+                    "Name": "[SBV.SpecialOrder.MaiaWeapon4_Name]",
+                    "Requester": "MaiaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.MaiaWeapon4_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_ruby"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_1]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "item_void_essence"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_2]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "item_bat_wing"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_3]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_4]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_ruby"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_5]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_void_essence"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_bat_wing"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 18000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "MaiaSOWeapon4",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.AichaFloralWeapon": {
+                    "Name": "[SBV.SpecialOrder.AichaFloralWeapon_Name]",
+                    "Requester": "AichaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "event_{{ModId}}_20031427, knows_AichaSBV, season_spring",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_tulip"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_1]",
+                            "RequiredCount": "30",
+                            "Data": {
+                                "AcceptedContextTags": "item_fiber"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_2]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_3]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_tulip"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4]",
+                            "RequiredCount": "30",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_fiber"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "DropBox": "SBVMaiaBox",
+                                "DropBoxGameLocation": "Custom_SBV_SilasBlacksmith",
+                                "DropBoxIndicatorLocation": "8 3",
+                                "AcceptedContextTags": "item_iron_bar"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 100
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "AichaSOWeapon",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.BlakeLyenneExperiment": {
+                    "Name": "[SBV.SpecialOrder.BlakeLyenneExperiment_Name]",
+                    "Requester": "BlakeSBV",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "knows_BlakeSBV, knows_LyenneSBV",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "AcceptedContextTags": "id_(o)684"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "AcceptedContextTags": "id_(o)766"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "DropBox": "SBVBlakeBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryVillage",
+                                "DropBoxIndicatorLocation": "80 47",
+                                "AcceptedContextTags": "id_(o)684"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "DropBox": "SBVBlakeBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryVillage",
+                                "DropBoxIndicatorLocation": "80 47",
+                                "AcceptedContextTags": "id_(o)766"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "BlakeSBV"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "LyenneSBV"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "BlakeLyenneSOExperiment",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.JumanaFlowerOrder": {
+                    "Name": "[SBV.SpecialOrder.JumanaFlowerOrder_Name]",
+                    "Requester": "JumanaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "knows_JumanaSBV",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.JumanaFlowerOrder_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FlowerType",
+                            "Values": [
+                                {
+                                    "RequiredTags": "season_spring",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Arfaj, skellady.SBVCP_CoffeeBlossom, skellady.SBVCP_Hyacinth, skellady.SBVCP_Speedwell"
+                                },
+                                {
+                                    "RequiredTags": "season_summer",
+                                    "Value": "PICK_ITEM skellady.SBVCP_CallaLilies, Summer Spangle, Poppy"
+                                },
+                                {
+                                    "RequiredTags": "season_fall",
+                                    "Value": "PICK_ITEM skellady.SBVCP_RoyalAnemone, skellady.SBVCP_WildMustard, Fairy Rose, Sunflower"
+                                },
+                                {
+                                    "RequiredTags": "season_winter",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Cyclamen"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_0]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "{FlowerType:Tags}"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_1]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVJumanaBox",
+                                "DropBoxGameLocation": "Custom_SBV_MaiaHouse",
+                                "DropBoxIndicatorLocation": "18 14",
+                                "AcceptedContextTags": "{FlowerType:Tags}"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 10000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "JumanaSOFlowers",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.JumanaFlowerOrder2": {
+                    "Name": "[SBV.SpecialOrder.JumanaFlowerOrder2_Name]",
+                    "Requester": "JumanaSBV",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "knows_JumanaSBV, mail_JumanaSOFlowers",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.JumanaFlowerOrder2_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FlowerType",
+                            "Values": [
+                                {
+                                    "RequiredTags": "season_spring",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Cyclamen"
+                                },
+                                {
+                                    "RequiredTags": "season_summer",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Arfaj, skellady.SBVCP_CoffeeBlossom, skellady.SBVCP_Hyacinth, skellady.SBVCP_Speedwell"
+                                },
+                                {
+                                    "RequiredTags": "season_fall",
+                                    "Value": "PICK_ITEM skellady.SBVCP_CallaLilies, Summer Spangle, Poppy"
+                                },
+                                {
+                                    "RequiredTags": "season_winter",
+                                    "Value": "PICK_ITEM skellady.SBVCP_RoyalAnemone, skellady.SBVCP_WildMustard, Fairy Rose, Sunflower"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.JumanaFlowerOrder2_Objective_Text_0]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVJumanaBox",
+                                "DropBoxGameLocation": "Custom_SBV_MaiaHouse",
+                                "DropBoxIndicatorLocation": "18 14",
+                                "AcceptedContextTags": "{FlowerType:Tags}"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 8000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "JumanaSOFlowers2",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.EliasRareFish": {
+                    "Name": "[SBV.SpecialOrder.EliasRareFish_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Week",
+                    "Repeatable": true,
+                    "RequiredTags": "knows_EliasSBV",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.EliasRareFish_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FishType",
+                            "Values": [
+                                {
+                                    "RequiredTags": "island",
+                                    "Value": "PICK_ITEM Blue Discus, Lionfish, Stingray"
+                                },
+                                {
+                                    "RequiredTags": "mail_ccVault",
+                                    "Value": "PICK_ITEM Scorpion Carp"
+                                },
+                                {
+                                    "RequiredTags": "mail_HasDarkTalisman",
+                                    "Value": "PICK_ITEM Void Salmon"
+                                },
+                                {
+                                    "RequiredTags": "season_spring",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel, skellady.SBVCP_EeltailedCatfish"
+                                },
+                                {
+                                    "RequiredTags": "season_summer",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel, skellady.SBVCP_EeltailedCatfish"
+                                },
+                                {
+                                    "RequiredTags": "season_fall",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel"
+                                },
+                                {
+                                    "RequiredTags": "season_winter",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "[SBV.SpecialOrder.EliasRareFish_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "{FishType:Tags}"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "EliasSORareFish",
+                                "NoLetter": "false"
+                            }
+                        },
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "{FishType:Price}",
+                                "Multiplier": "10"
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.SBVMuseumMinerals": {
+                    "Name": "[SBV.SpecialOrder.SBVMuseumMinerals_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVMuseumBox",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Annabergite"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_BlueAuraQuartz"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Citrine"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Moonberry"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_4]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Purpurite"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_5]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Serpentine"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "20000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVMuseumSO1",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
+                "SBV.SpecialOrder.SBVMuseumArtifacts1": {
+                    "Name": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVMuseumBox",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_MushroomStatue"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_AncientStaff"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_SilverMask"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_LapisNecklace"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_4]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_WickedVase"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_5]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_GoldenCoins"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "30000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVMuseumSO2",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
+                "SBV.SpecialOrder.SBVMuseumArtifacts2": {
+                    "Name": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVMuseumBox",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_ChippedJug"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyI"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyII"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyIII"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyIV"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "40000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVMuseumSO3",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
+            }
+        },
+    ]
+}

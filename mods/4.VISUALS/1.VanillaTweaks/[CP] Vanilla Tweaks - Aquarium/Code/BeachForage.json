@@ -1,0 +1,65 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Coral",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/BeachForage/Coral.png",
+			"ToArea": { "X": 144, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Coral": true
+			}
+		},
+        {
+			"LogName": "Nautilus Shell",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/BeachForage/NautilusShell.png",
+			"ToArea": { "X": 128, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Nautilus Shell": true
+			}
+		},
+        {
+			"LogName": "Rainbow Shell",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/BeachForage/RainbowShell.png",
+			"ToArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Rainbow Shell": true
+			}
+		},
+        {
+			"LogName": "Sea Urchin",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/BeachForage/SeaUrchin.png",
+			"ToArea": { "X": 208, "Y": 256, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Sea Urchin": true
+			}
+		},
+        {
+			"LogName": "Seaweed",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/BeachForage/Seaweed.png",
+			"ToArea": { "X": 128, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"BeachForageSpritesEnabled": "True",
+				"BeachForage |contains= Seaweed": true
+			}
+		}
+    ]
+}

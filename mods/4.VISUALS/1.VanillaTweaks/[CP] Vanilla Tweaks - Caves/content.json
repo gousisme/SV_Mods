@@ -1,0 +1,187 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"SaturationToggle": 
+		{
+			"AllowValues": "Saturated, Desaturated",
+			"Default": "Saturated",
+		},
+		"MatchingRockCrabs": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+
+// CATEGORY ON/OFF CONFIGS
+
+		"ArtifactsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"MineralsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"NodesSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ResourcesSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		
+// INDIVIDUAL TOGGLES
+		
+		"Artifacts": 
+		{
+			"AllowValues": "Amphibian Fossil, Anchor, Ancient Doll, Ancient Drum, Ancient Seed, Ancient Sword, Arrowhead, Bone Flute, Chewing Stick, Chicken Statue, Chipped Amphora, Dinosaur Egg, Dried Starfish, Dwarf Gadget, Dwarf Scroll I, Dwarf Scroll II, Dwarf Scroll III, Dwarf Scroll IV, Dwarvish Helm, Elvish Jewelry, Glass Shards, Golden Mask, Golden Relic, Library Book, Nautilus Fossil, Ornamental Fan, Palm Fossil, Prehistoric Handaxe, Prehistoric Rib, Prehistoric Scapula, Prehistoric Skull, Prehistoric Tibia, Prehistoric Tool, Prehistoric Vertebra, Rare Disc, Rusty Cog, Rusty Spoon, Rusty Spur, Skeletal Hand, Skeletal Tail, Strange Doll, Strange Doll 2, Trilobite, Journal Scrap, Secret Note",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Amphibian Fossil, Anchor, Ancient Doll, Ancient Drum, Ancient Seed, Ancient Sword, Arrowhead, Bone Flute, Chewing Stick, Chicken Statue, Chipped Amphora, Dinosaur Egg, Dried Starfish, Dwarf Gadget, Dwarf Scroll I, Dwarf Scroll II, Dwarf Scroll III, Dwarf Scroll IV, Dwarvish Helm, Elvish Jewelry, Glass Shards, Golden Mask, Golden Relic, Library Book, Nautilus Fossil, Ornamental Fan, Palm Fossil, Prehistoric Handaxe, Prehistoric Rib, Prehistoric Scapula, Prehistoric Skull, Prehistoric Tibia, Prehistoric Tool, Prehistoric Vertebra, Rare Disc, Rusty Cog, Rusty Spoon, Rusty Spur, Skeletal Hand, Skeletal Tail, Strange Doll, Strange Doll 2, Trilobite, Journal Scrap, Secret Note",
+			"Section": "Artifacts"
+		},
+		"GemsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Gems"
+		},		
+		"Gems": 
+		{
+			"AllowValues": "Amethyst, Aquamarine, Diamond, Emerald, Jade, Ruby, Topaz, Prismatic Shard",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Amethyst, Aquamarine, Diamond, Emerald, Jade, Ruby, Topaz, Prismatic Shard",
+			"Section": "Gems"
+		},
+		"GeodesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Geodes"
+		},
+		"Geodes": 
+		{
+			"AllowValues": "Geode, Frozen Geode, Magma Geode, Omni Geode, Mystery Box, Golden Mystery Box",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Geode, Frozen Geode, Magma Geode, Omni Geode, Mystery Box, Golden Mystery Box",
+			"Section": "Geodes"
+		},
+		"MineralsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Minerals"
+		},
+		"Minerals": {
+			"AllowValues": "Aerinite, Alamite, Baryte, Basalt, Bixite, Calcite, Celestine, Dolomite, Earth Crystal, Esperite, Fairy Stone, Fire Opal, Fire Quartz, Fluorapatite, Frozen Tear, Geminite, Ghost Crystal, Granite, Helvite, Hematite, Jagoite, Jamborite, Jasper, Kyanite, Lemon Stone, Limestone, Lunarite, Malachite, Marble, Mudstone, Nekoite, Neptunite, Obsidian, Ocean Stone, Opal, Orpiment, Petrified Slime, Pyrite, Quartz, Sandstone, Slate, Soapstone, Star Shards, Thunder Egg, Tigerseye",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Aerinite, Alamite, Baryte, Basalt, Bixite, Calcite, Celestine, Dolomite, Earth Crystal, Esperite, Fairy Stone, Fire Opal, Fire Quartz, Fluorapatite, Frozen Tear, Geminite, Ghost Crystal, Granite, Helvite, Hematite, Jagoite, Jamborite, Jasper, Kyanite, Lemon Stone, Limestone, Lunarite, Malachite, Marble, Mudstone, Nekoite, Neptunite, Obsidian, Ocean Stone, Opal, Orpiment, Petrified Slime, Pyrite, Quartz, Sandstone, Slate, Soapstone, Star Shards, Thunder Egg, Tigerseye",
+			"Section": "Minerals"
+		},
+		"RockNodesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Nodes"
+		},
+		"Nodes": {
+			"AllowValues": "Amethyst, Aquamarine, Cinder Shard, Coal, Copper, Diamond, Emerald, Gem, Geode, Frozen Geode, Magma Geode, Gold, Iridium, Iron, Jade, Mystic, Ruby, Topaz, Radioactive, Mussel",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Amethyst, Aquamarine, Cinder Shard, Coal, Copper, Diamond, Emerald, Gem, Geode, Frozen Geode, Magma Geode, Gold, Iridium, Iron, Jade, Mystic, Ruby, Topaz, Radioactive, Mussel",
+			"Section": "Nodes"
+		},
+		"OresEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Ores"
+		},
+		"Ores": {
+			"AllowValues": "Copper Ore, Gold Ore, Iridium Ore, Iron Ore, Radioactive Ore",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Copper Ore, Gold Ore, Iridium Ore, Iron Ore, Radioactive Ore",
+			"Section": "Ores"
+		},
+		"MetalBarsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Metal Bars"
+		},
+		"MetalBars": {
+			"AllowValues": "Copper Bar, Gold Bar, Iridium Bar, Iron Bar, Radioactive Bar",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Copper Bar, Gold Bar, Iridium Bar, Iron Bar, Radioactive Bar",
+			"Section": "Metal Bars"
+		},
+		"RegularResourcesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Resources"
+		},
+		"RegularResources": {
+			"AllowValues": "Battery Pack, Bone Fragment, Cinder Shard, Clay, Coal, Fiber, Hardwood, Refined Quartz, Stone, Wood",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Battery Pack, Bone Fragment, Cinder Shard, Clay, Coal, Fiber, Hardwood, Refined Quartz, Stone, Wood",
+			"Section": "Resources"
+		},
+	},
+	
+	"Changes": [
+		{
+			"LogName": "Artifacts Code",
+			"Action": "Include",
+			"FromFile": "Code/Artifacts.json",
+			"When": 
+			{
+				"ArtifactsSpritesEnabled": true
+			}
+		},	
+		{
+			"LogName": "Minerals Code",
+			"Action": "Include",
+			"FromFile": "Code/Minerals.json",
+			"When": 
+			{
+				"MineralsSpritesEnabled": true
+			}
+		},	
+		{
+			"LogName": "Nodes Code",
+			"Action": "Include",
+			"FromFile": "Code/Nodes.json",
+			"When": 
+			{
+				"NodesSpritesEnabled": true
+			}
+		},	
+		{
+			"LogName": "Resources Code",
+			"Action": "Include",
+			"FromFile": "Code/Resources.json",
+			"When": 
+			{
+				"ResourcesSpritesEnabled": true
+			}
+		},		
+	]
+}

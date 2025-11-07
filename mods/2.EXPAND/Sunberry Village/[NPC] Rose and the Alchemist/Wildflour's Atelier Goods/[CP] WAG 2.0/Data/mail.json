@@ -1,0 +1,636 @@
+{
+    "Changes": [
+
+/////////////////
+// CREATE MAIL //
+/////////////////
+
+        {
+            "LogName": "Load BG for Letters",
+            "Action": "Load",
+            "Target": "Mods/Wildflour.AtelierGoods/SBLetterBG, Mods/Wildflour.AtelierGoods/BakerMagBG",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+        "LogName":"Add Mail",
+        "Action": "EditData",
+        "Target": "Data/Mail",
+            "Entries": {
+                "Wildflour.AtelierGoods_TeaProcessorRecipe": "{{i18n: AtelierGoods_TeaProcessorRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_TeaProcessor %%[#]{{i18n: AtelierGoods_TeaProcessorRecipe.name}}",
+                "Wildflour.AtelierGoods_TeaKettleRecipe": "{{i18n: AtelierGoods_TeaKettleRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_TeaKettle %%[#]{{i18n: AtelierGoods_TeaKettleRecipe.name}}",
+                "Wildflour.AtelierGoods_Evelyn_TeaGift": "{{i18n: AtelierGoods_Evelyn_Gift.text}} %item id (O)Wildflour.AtelierGoods_Chamomile_Seeds 3 %%[#]{{i18n: AtelierGoods_Evelyn_Gift.name}}",
+                "Wildflour.AtelierGoods_Leah_Gift": "{{i18n: AtelierGoods_Leah_Gift.text}} %item id (O)815 5 %%[#]{{i18n: AtelierGoods_Leah_Gift.name}}",
+                "Wildflour.AtelierGoods_GrinderRecipe": "{{i18n: AtelierGoods_GrinderRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CoffeeGrinder %%[#]{{i18n: AtelierGoods_GrinderRecipe.name}}",
+                "Wildflour.AtelierGoods_BrewerRecipe": "{{i18n: AtelierGoods_BrewerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CoffeeBrewer %%[#]{{i18n: AtelierGoods_BrewerRecipe.name}}",
+                "Wildflour.AtelierGoods_Haley_Gift": "{{i18n: AtelierGoods_Haley_Gift.text}} %item id (O)Wildflour.AtelierGoods_Cacao_Pod 3 %%[#]{{i18n: AtelierGoods_Haley_Gift.name}}",
+                "Wildflour.AtelierGoods_George_Gift": "{{i18n: AtelierGoods_George_Gift.text}} %item id (O)Wildflour.AtelierGoods_Vanilla 3 %%[#]{{i18n: AtelierGoods_George_Gift.name}}",
+                "Wildflour.AtelierGoods_Sebastian_Gift": "{{i18n: AtelierGoods_Sebastian.text}} %item id (O)84 3 %%[#]{{i18n: AtelierGoods_Sebastian.name}}",
+                "Wildflour.AtelierGoods_LemonadeStandRecipe": "{{i18n: AtelierGoods_LemonadeStandRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_LemonadeStand %%[#]{{i18n: AtelierGoods_LemonadeStandRecipe.name}}",
+            
+                "Wildflour.AtelierGoods_AleKegRecipe": "{{i18n: AtelierGoods_AleKeg.text}} %item craftingRecipe Wildflour.AtelierGoods_AleKeg %%[#]{{i18n: AtelierGoods_AleKegRecipe.name}}",
+                "Wildflour.AtelierGoods_MeadKegRecipe": "{{i18n: AtelierGoods_MeadKeg.text}} %item craftingRecipe Wildflour.AtelierGoods_MeadKeg %%[#]{{i18n: AtelierGoods_MeadKegRecipe.name}}",
+                "Wildflour.AtelierGoods_Shane_Gift": "{{i18n: AtelierGoods_Shane_Gift.text}} %item id (O)725 8 %%[#]{{i18n: AtelierGoods_Shane_Gift.name}}",
+                "Wildflour.AtelierGoods_Elliott_BrewerGift": "{{i18n: AtelierGoods_Elliott_BrewerGift.text}} %item id (O)302 5 %%[#]{{i18n: AtelierGoods_Elliott_BrewerGift.name}}",
+                "Wildflour.AtelierGoods_Kent_Gift": "{{i18n: AtelierGoods_Kent_Gift.text}} %item id (O)834 3 %%[#]{{i18n: AtelierGoods_Kent_Gift.name}}",
+                "Wildflour.AtelierGoods_Gus_Gift": "{{i18n: AtelierGoods_Gus_Gift.text}} %item id (BC)10 3 %%[#]{{i18n: AtelierGoods_Gus_Gift.name}}",
+                "Wildflour.AtelierGoods_Clint_Gift": "{{i18n: AtelierGoods_Clint_Gift.text}} %item id (O)335 10 %%[#]{{i18n: AtelierGoods_Clint_Gift.name}}",
+                "Wildflour.AtelierGoods_Sandy_BrewerGift": "{{i18n: AtelierGoods_Sandy_BrewerGift.text}} %item id (O)802 3 %%[#]{{i18n: AtelierGoods_Sandy_BrewerGift.name}}",
+
+                "Wildflour.AtelierGoods_FlowerStationRecipe": "{{i18n: AtelierGoods_FlowerStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_FlowerStation %%[#]{{i18n: AtelierGoods_FlowerStationRecipe.name}}",
+                "Wildflour.AtelierGoods_CandleStationRecipe": "{{i18n: AtelierGoods_CandleStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CandleStation %%[#]{{i18n: AtelierGoods_CandleStationRecipe.name}}",
+                "Wildflour.AtelierGoods_FragranceStationRecipe": "{{i18n: AtelierGoods_FragranceStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_FragranceStation %%[#]{{i18n: AtelierGoods_FragranceStationRecipe.name}}",
+                "Wildflour.AtelierGoods_Jas_Gift": "{{i18n: AtelierGoods_Jas_Gift.text}} %item id (O)Wildflour.AtelierGoods_Lavender 3 %%[#]{{i18n: AtelierGoods_Jas_Gift.name}}",
+                "Wildflour.AtelierGoods_Sandy_Gift": "{{i18n: AtelierGoods_Sandy_Gift.text}} %item id (O)Wildflour.AtelierGoods_Jasmine 3 %%[#]{{i18n: AtelierGoods_Sandy_Gift.name}}",
+                "Wildflour.AtelierGoods_Emily_Gift": "{{i18n: AtelierGoods_Emily_Gift.text}} %item id (O)425 5 %%[#]{{i18n: AtelierGoods_Emily_Gift.name}}",
+                "Wildflour.AtelierGoods_CosmeticCrystalRecipe": "{{i18n: AtelierGoods_CosmeticCrystalRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CosmeticCrystal %%[#]{{i18n: AtelierGoods_CosmeticCrystalRecipe.name}}",
+                "Wildflour.AtelierGoods_Emily_CosmeticGift": "{{i18n: AtelierGoods_Emily_CosmeticGift.text}} %item id (O)553 1 %%[#]{{i18n: AtelierGoods_Emily_CosmeticGift.name}}",
+                "Wildflour.AtelierGoods_Elliott_CosmeticGift": "{{i18n: AtelierGoods_Elliott_CosmeticGift.text}} %item id (O)393 3 %%[#]{{i18n: AtelierGoods_Elliott_CosmeticGift.name}}",
+         
+                "Wildflour.AtelierGoods_ChillerRecipe": "{{i18n: AtelierGoods_ChillerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_BlastChiller %%[#]{{i18n: AtelierGoods_ChillerRecipe.name}}",
+                "Wildflour.AtelierGoods_TreatMakerRecipe": "{{i18n: AtelierGoods_TreatMakerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_TreatMaker %%[#]{{i18n: AtelierGoods_TreatMakerRecipe.name}}",
+                "Wildflour.AtelierGoods_Vincent_Gift": "{{i18n: AtelierGoods_Vincent_Gift.text}} %item id (O)Wildflour.AtelierGoods_Cacao_Pod 3 %%[#]{{i18n: AtelierGoods_Vincent_Gift.name}}",
+                "Wildflour.AtelierGoods_Sam_Gift": "{{i18n: AtelierGoods_Sam_Gift.text}} %item id (O)Wildflour.AtelierGoods_Milk_Mushroom 3 %%[#]{{i18n: AtelierGoods_Sam_Gift.name}}",
+                "Wildflour.AtelierGoods_CandyJarRecipe": "{{i18n: AtelierGoods_CandyJarRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CandyJar%%[#]{{i18n: AtelierGoods_CandyJarRecipe.name}}",
+                "Wildflour.AtelierGoods_SugarBoilerRecipe": "{{i18n: AtelierGoods_SugarBoilerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_SugarBoiler%%[#]{{i18n: AtelierGoods_SugarBoilerRecipe.name}}",
+                "Wildflour.AtelierGoods_MarshmallowMixerRecipe": "{{i18n: AtelierGoods_MarshmallowMixerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_MarshmallowMixer%%[#]{{i18n: AtelierGoods_MarshmallowMixerRecipe.name}}",
+                "Wildflour.AtelierGoods_ChocolatierBarrelRecipe": "{{i18n: AtelierGoods_ChocolatierBarrelRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_ChocolatierBarrel%%[#]{{i18n: AtelierGoods_ChocolatierBarrelRecipe.name}}",
+                "Wildflour.AtelierGoods_Vincent_Candy_Gift": "{{i18n: AtelierGoods_Vincent_Candy_Gift.text}} %item id (O)Wildflour.AtelierGoods_Meringue_Mushroom 5 %%[#]{{i18n: AtelierGoods_Vincent_Candy_Gift.name}}",
+                "Wildflour.AtelierGoods_Abigail_Gift": "{{i18n: AtelierGoods_Abigail_Gift.text}} %item id (O)66 3 (O)64 3 (O)578 3 %%[#]{{i18n: AtelierGoods_Abigail_Gift.name}}",
+                "Wildflour.AtelierGoods_Penny_Gift": "{{i18n: AtelierGoods_Penny_Gift.text}} %item id (O)Wildflour.AtelierGoods_Mallow 5 %%[#]{{i18n: AtelierGoods_Penny_Gift.name}}",
+      
+                "Wildflour.AtelierGoods_MortarRecipe": "{{i18n: AtelierGoods_MortarRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_KitchenMortar %%[#]{{i18n: AtelierGoods_MortarRecipe.name}}",
+                "Wildflour.AtelierGoods_BlenderRecipe": "{{i18n: AtelierGoods_BlenderRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_KitchenBlender %%[#]{{i18n: AtelierGoods_BlenderRecipe.name}}",
+                "Wildflour.AtelierGoods_Jodi_Gift": "{{i18n: AtelierGoods_Jodi_Gift.text}} %item id (O)Wildflour.AtelierGoods_Almond 3 %%[#]{{i18n: AtelierGoods_Jodi_Gift.name}}",
+                "Wildflour.AtelierGoods_Marnie_Gift": "{{i18n: AtelierGoods_Marnie_Gift.text}} %item id (O)Wildflour.AtelierGoods_Cream 3 %%[#]{{i18n: AtelierGoods_Marnie_Gift.name}}",
+                "Wildflour.AtelierGoods_ProducePacker_Recipe": "{{i18n: AtelierGoods_ProducePackerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_ProducePacker%%[#]{{i18n: AtelierGoods_ProducePackerRecipe.name}}",
+                
+                "Wildflour.AtelierGoods_JunimoGem_Vanilla": "{{i18n: AtelierGoods_JunimoGem_Vanilla_Mail.text}}[#]{{i18n: AtelierGoods_JunimoGem_Vanilla_Mail.name}}",
+                "Wildflour.AtelierGoods_JunimoGem_SBV": "{{i18n: AtelierGoods_JunimoGem_SBV_Mail.text}}[#]{{i18n: AtelierGoods_JunimoGem_SBV_Mail.name}}",
+
+                "Wildflour.AtelierGoods_SB_Intro": "{{i18n: AtelierGoods_SB_Intro_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)MixedFlowerSeeds 5 %%[#]{{i18n: AtelierGoods_SB_Intro_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Mushroom_Preserves": "{{i18n: AtelierGoods_SB_Mushroom_Preserve_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (BC)Wildflour.AtelierGoods_KitchenMortar 1 %%[#]{{i18n: AtelierGoods_SB_Mushroom_Preserve_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Fruit_Sapling": "{{i18n: AtelierGoods_SB_Fruit_Sapling_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (BC)25 1 %%[#]{{i18n: AtelierGoods_SB_Fruit_Sapling_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Mush_Log": "{{i18n: AtelierGoods_SB_MushLog_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (BC)MushroomLog 1 %%[#]{{i18n: AtelierGoods_SB_MushLog_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Giant_Crop": "{{i18n: AtelierGoods_SB_Giant_Crop_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)Wildflour.AtelierGoods_Lavender_Seeds 9 %%[#]{{i18n: AtelierGoods_SB_Giant_Crop_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Spring_Forage": "{{i18n: AtelierGoods_SB_Spring_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)211 1 %%[#]{{i18n: AtelierGoods_SB_Spring_Forage_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Summer_Forage": "{{i18n: AtelierGoods_SB_Summer_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)907 1 %%[#]{{i18n: AtelierGoods_SB_Summer_Forage_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Fall_Forage": "{{i18n: AtelierGoods_SB_Fall_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)235 1 %%[#]{{i18n: AtelierGoods_SB_Fall_Forage_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_Winter_Forage": "{{i18n: AtelierGoods_SB_Winter_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)Wildflour.AtelierGoods_Cinnamon 3 %%[#]{{i18n: AtelierGoods_SB_Winter_Forage_Mail.name}}",
+                "Wildflour.AtelierGoods_SB_BushBloom": "{{i18n: AtelierGoods_SB_BushBloom_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)Wildflour.AtelierGoods_Wild_Strawberry 5 %%[#]{{i18n: AtelierGoods_SB_BushBloom_Mail.name}}",
+
+                "Wildflour.AtelierGoods_Fruit_Seeds_Mail": "{{i18n: AtelierGoods_Fruit_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Fruit_Seeds 5 %%[#]{{i18n: AtelierGoods_Fruit_Seeds_Mail.name}}",
+                "Wildflour.AtelierGoods_Flower_Seeds_Mail": "{{i18n: AtelierGoods_Flower_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Flower_Seeds 5 %%[#]{{i18n: AtelierGoods_Flower_Seeds_Mail.name}}",
+                "Wildflour.AtelierGoods_Herb_Seeds_Mail": "{{i18n: AtelierGoods_Herb_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Herb_Seeds 5 %%[#]{{i18n: AtelierGoods_Herb_Seeds_Mail.name}}",
+                "Wildflour.AtelierGoods_Veggies_Seeds_Mail": "{{i18n: AtelierGoods_Veggies_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Veggie_Seeds 5 %%[#]{{i18n: AtelierGoods_Veggies_Seeds_Mail.name}}",
+
+                "Wildflour.AtelierGoods_Baker_Intro_Mail": "{{i18n: AtelierGoods_Baker_Mail_Intro.text}} %item id (O)222 1 %%[#]{{i18n: AtelierGoods_Baker_Mail_Intro.name}}",
+                "Wildflour.AtelierGoods_Baker_Mixer_Mail": "{{i18n: AtelierGoods_Baker_Mixer_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Mixer %%[#]{{i18n: AtelierGoods_Baker_Mixer_Mail.name}}",
+                "Wildflour.AtelierGoods_Baker_Cake_Mail": "{{i18n: AtelierGoods_Baker_CakeStation_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Cake_Station %%[#]{{i18n: AtelierGoods_Baker_CakeStation_Mail.name}}",
+                "Wildflour.AtelierGoods_Baker_Oven_Mail": "{{i18n: AtelierGoods_Baker_Oven_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Oven %%[#]{{i18n: AtelierGoods_Baker_Oven_Mail.name}}",
+                "Wildflour.AtelierGoods_Baker_DessertStand_Mail": "{{i18n: AtelierGoods_Baker_DessertStand_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Dessert_Stand %%[#]{{i18n: AtelierGoods_Baker_DessertStand_Mail.name}}",
+                "Wildflour.AtelierGoods_Baker_PieStation_Mail": "{{i18n: AtelierGoods_Baker_PieStation_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Pie_Station %%[#]{{i18n: AtelierGoods_Baker_PieStation_Mail.name}}",
+                "Wildflour.AtelierGoods_Baker_RollingPin_Mail": "{{i18n: AtelierGoods_Baker_RollingPin_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Rolling_Pin %%[#]{{i18n: AtelierGoods_Baker_RollingPin_Mail.name}}",
+                "Wildflour.AtelierGoods_Baker_DeluxeStand_Mail": "{{i18n: AtelierGoods_Baker_DeluxeDessertStand_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\BakerMagBG 0] %item craftingRecipe Wildflour.AtelierGoods_Deluxe_Dessert_Stand %%[#]{{i18n: AtelierGoods_Baker_DeluxeDessertStand_Mail.name}}"
+
+            }
+    },
+
+//////////////////////////
+// MAIL TRIGGER ACTIONS //
+//////////////////////////
+
+{
+    "LogName":"Bundle Mail Triggers Vanilla",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When": {"HasMod:|contains= skellady.SBVCP": false},
+    "Entries": {
+        "Wildflour.AtelierGoods_JunimoGem_Vanilla_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_JunimoGem_Vanilla_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_HAS_SEEN_EVENT Current 112",
+            "Action": "AddMail Current Wildflour.AtelierGoods_JunimoGem_Vanilla tomorrow"
+        },
+    }
+},
+
+{
+    "LogName":"Bundle Mail Triggers SBV",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When": {"HasMod:|contains= skellady.SBVCP": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_JunimoGem_SBV_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_JunimoGem_SBV_Trigger",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_HAS_SEEN_EVENT Current 112",
+            "Action": "AddMail Current Wildflour.AtelierGoods_JunimoGem_SBV tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Shrooms and Blooms Mail Triggers",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":  {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_SB_Intro_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Intro_Trigger",
+            "Condition": "SEASON_DAY Spring 1",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Intro now"
+        },
+        "Wildflour.AtelierGoods_SB_Mushroom_Preserves_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Mushroom_Preserves_Trigger",
+            "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Preserves Jar",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Mushroom_Preserves tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Fruit_Sapling_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Fruit_Sapling_Trigger",
+            "Condition": "PLAYER_FORAGING_LEVEL Current 5 20",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Fruit_Sapling tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Mush_Log_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Mush_Log_Trigger",
+            "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Mushroom Log",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Mush_Log tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Giant_Crop_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Giant_Crop_Trigger",
+            "Condition": "PLAYER_FARMING_LEVEL Current 3 20",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Giant_Crop tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Spring_Forage_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Spring_Forage_Trigger",
+            "Condition": "SEASON_DAY Spring 5",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Spring_Forage tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Summer_Forage_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Summer_Forage_Trigger",
+            "Condition": "SEASON summer",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Summer_Forage tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Fall_Forage_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Fall_Forage_Trigger",
+            "Condition": "SEASON fall",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Fall_Forage tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_Winter_Forage_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_Winter_Forage_Trigger",
+            "Condition": "SEASON winter",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_Winter_Forage tomorrow"
+        },
+        "Wildflour.AtelierGoods_SB_BushBloom_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SB_BushBloom_Trigger",
+            "Condition": "SEASON_DAY Spring 3 Summer 3",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SB_BushBloom tomorrow"
+        }
+    }
+},
+
+
+{
+    "LogName":"Machine Mail Triggers",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": false},
+    "Entries": {
+        "Wildflour.AtelierGoods_TeaProcessorRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_TeaProcessorRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elliott 500, CAULDRON_CONFIG_VALUE Tea True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_TeaProcessorRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_ProducePackerRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_ProducePackerRecipe_Trigger",
+            "Condition": "CAULDRON_CONFIG_VALUE CSA True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_ProducePacker_Recipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_TeaKettleRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_TeaKettleRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 500, CAULDRON_CONFIG_VALUE Tea True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_TeaKettleRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_GrinderRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_GrinderRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 500, CAULDRON_CONFIG_VALUE Coffee True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_GrinderRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_BrewerRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_BrewerRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sebastian 500, CAULDRON_CONFIG_VALUE Coffee True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_BrewerRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_LemonadeStandRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_LemonadeStandRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Jas 500, CAULDRON_CONFIG_VALUE Lemonade True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_LemonadeStandRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_AleKeg_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_AleKeg_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Pam 1000, CAULDRON_CONFIG_VALUE Ales True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_AleKegRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_MeadKeg_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_MeadKeg_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 1000, CAULDRON_CONFIG_VALUE Meads True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_MeadKegRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_FlowerStation_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_FlowerStation_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 750, CAULDRON_CONFIG_VALUE Bouquets True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_FlowerStationRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_CosmeticCrystal_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_CosmeticCrystal_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Haley 1000, CAULDRON_CONFIG_VALUE Makeup True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_CosmeticCrystalRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_MortarRecipeTrigger": {
+            "Id": "Wildflour.AtelierGoods_MortarRecipeTrigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Pierre 500, CAULDRON_CONFIG_VALUE FloristOnly False",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_MortarRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_MarshmallowMixer_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_MarshmallowMixer_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shane 500, CAULDRON_CONFIG_VALUE WildFood True, CAULDRON_CONFIG_VALUE Marshmallows True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_MarshmallowMixerRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_ChocolatierBarrel_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_ChocolatierBarrel_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Krobus 500, CAULDRON_CONFIG_VALUE Chocolates True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_ChocolatierBarrelRecipe tomorrow"
+        },
+        "Wildflour.AtelierGoods_Baker_CakeStation_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_CakeStation_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Cakes True, PLAYER_HAS_COOKING_RECIPE Current Chocolate Cake",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_Cake_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Baker_Mixer_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_Mixer_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Cookies True, PLAYER_HAS_COOKING_RECIPE Current Cookies",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_Mixer_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Baker_Oven_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_Oven_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Muffins True, PLAYER_HAS_COOKING_RECIPE Current Poppyseed Muffin",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_Oven_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Baker_DessertStand_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_DessertStand_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE TinyCakes True, PLAYER_HAS_COOKING_RECIPE Current Pink Cake",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_DessertStand_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Baker_PieStation_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_PieStation_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Pies True, PLAYER_HAS_COOKING_RECIPE Current Pumpkin Pie",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_PieStation_Mail tomorrow"
+        }, 
+        "Wildflour.AtelierGoods_Baker_DeluxeStand_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_DeluxeStand_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Puddings True, PLAYER_HAS_COOKING_RECIPE Current Plum Pudding",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_DeluxeStand_Mail tomorrow"
+        }
+    }
+},
+
+
+{
+    "LogName":"Rolling Pin Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When": {"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Baker_RollingPin_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_RollingPin_Recipe_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, PLAYER_HAS_COOKING_RECIPE Current Bread",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_RollingPin_Mail tomorrow"
+        },
+    }
+},
+
+{
+    "LogName":"Wax Cauldron Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When": {"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ('{{Atelier.Cauldron/ConfigValue:Candles}}' = 'true') OR ('{{Atelier.Cauldron/ConfigValue:Soap}}' = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CandleStation_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_CandleStation_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 750",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_CandleStationRecipe tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Fragrance Station Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When": {"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ('{{Atelier.Cauldron/ConfigValue:Perfume}}' = 'true') OR ('{{Atelier.Cauldron/ConfigValue:Incense}}' = 'true')": true},
+    "Entries": {
+       "Wildflour.AtelierGoods_FragranceStation_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_FragranceStation_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Haley 750",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_FragranceStationRecipe tomorrow"
+        }
+    }
+},
+
+
+{
+    "LogName":"Frozen Treat Maker Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Atelier.Cauldron/ConfigValue:IceCream": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TreatMakerRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_TreatMakerRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Demetrius 1250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_TreatMakerRecipe tomorrow"
+        }
+    }
+},
+
+
+{
+    "LogName":"Candy Jar Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":  {"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ('{{Atelier.Cauldron/ConfigValue:Gumballs}}' = 'true') OR ('{{Atelier.Cauldron/ConfigValue:JellyBeans}}' = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CandyJar_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_CandyJar_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Wizard 500",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_CandyJarRecipe tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Sugar Boiler Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":  {"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ('{{Atelier.Cauldron/ConfigValue:Lollipops}}' = 'true') OR ('{{Atelier.Cauldron/ConfigValue:HardCandies}}' = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_SugarBoiler_Recipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_SugarBoiler_Recipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Jodi 500",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_SugarBoilerRecipe tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Blast Chiller Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When": {"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ('{{Atelier.Cauldron/ConfigValue:Popsicles}}' = 'true') OR ('{{Atelier.Cauldron/ConfigValue:Coffee}}' = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_ChillerRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_ChillerRecipe_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 1250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_ChillerRecipe tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Kitchen Blender Machine Mail Trigger",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": false, "Query: ('{{Atelier.Cauldron/ConfigValue:Smoothies}}' = 'true') OR ('{{Atelier.Cauldron/ConfigValue:Milkshakes}}' = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_BlenderRecipeTrigger": {
+            "Id": "Wildflour.AtelierGoods_BlenderRecipeTrigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 500",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_BlenderRecipe tomorrow"
+        }
+    }
+},
+
+
+{
+    "LogName":"Villager Gift Triggers",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "Entries": {
+        "Wildflour.AtelierGoods_Leah_Tea_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Leah_Tea_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Leah 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_TeaProcessor",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Leah_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Evelyn_Tea_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Evelyn_Tea_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_TeaProcessor, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Evelyn_TeaGift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Sebastian_Coffee_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Sebastian_Coffee_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sebastian 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_CoffeeBrewer",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Sebastian_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Haley_Coffee_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Haley_Coffee_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Haley 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_CoffeeGrinder, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Haley_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_George_Coffee_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_George_Coffee_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current George 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_CoffeeGrinder, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_George_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Shane_Ale_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Shane_Ale_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shane 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_AleKeg",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Shane_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Elliott_Ale_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Elliott_Ale_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elliott 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_AleKeg",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Elliott_BrewerGift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Kent_Ale_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Kent_Ale_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Kent 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_AleKeg",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Kent_Gift tomorrow"
+        },
+         "Wildflour.AtelierGoods_Gus_Mead_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Gus_Mead_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_MeadKeg",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Gus_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Clint_Mead_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Clint_Mead_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Clint 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_MeadKeg",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Clint_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Sandy_Mead_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Sandy_Mead_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_MeadKeg",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Sandy_BrewerGift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Emily_Floral_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Emily_Floral_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Emily 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_FlowerStation",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Emily_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Jas_Floral_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Jas_Floral_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Jas 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_FlowerStation, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Jas_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Sandy_Floral_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Sandy_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_FragranceStation, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Sandy_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Sam_Frozen_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Sam_Frozen_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_TreatMaker, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Sam_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Emily_Cosmetic_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Emily_Cosmetic_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Emily 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_CosmeticCrystal",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Emil_CosmeticGift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Elliott_Cosmetic_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Elliott_Cosmetic_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elliott 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_CosmeticCrystal",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Elliott_CosmeticGift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Abigail_Candy_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Abigail_Candy_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Abigail 500, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_SugarBoiler",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Abigail_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Vincent_Candy_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Vincent_Candy_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Vincent 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_MarshmallowMixer, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Vincent_Candy_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Penny_Candy_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Penny_Candy_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Penny 500, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_CandyJar, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Penny_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Vincent_Frozen_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Vincent_Frozen_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Vincent 750, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_BlastChiller, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Vincent_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Jodi_Gourmet_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Jodi_Gourmet_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Jodi 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_KitchenMortar, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Jodi_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Marnie_Gourmet_Gift_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Marnie_Gourmet_Gift_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_KitchenBlender, CAULDRON_CONFIG_VALUE WildFood True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Marnie_Gift tomorrow"
+        },
+        "Wildflour.AtelierGoods_Baker_Intro_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Baker_Intro_Trigger",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Baker_Intro_Mail tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Garden Variety Seeds Mail Triggers",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":  {"Atelier.Cauldron/ConfigValue:MixedSeeds": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Fruit_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Fruit_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Fruit_Seeds_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Flower_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Flower_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Flower_Seeds_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Herb_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Herb_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Leah 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Herb_Seeds_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Veggie_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Veggie_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Veggie_Seeds_Mail tomorrow"
+        }
+    }
+}
+
+]
+}

@@ -1,0 +1,2892 @@
+{
+    "Changes": [
+
+///////////////////////
+// GOURMAND MACHINES //
+///////////////////////
+
+{
+    "LogName": "Add Mortar and Distiller to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "Wildflour.AtelierGoods_KitchenMortar": {
+            "Name": "Wildflour.AtelierGoods_KitchenMortar",
+            "DisplayName": "{{i18n: AtelierGoods_KitchenMortar.name}}",
+            "Description": "{{i18n: AtelierGoods_KitchenMortar.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 8,
+            "CustomFields": {}
+    },
+        "Wildflour.AtelierGoods_SyrupMaker": {
+            "Name": "Wildflour.AtelierGoods_SyrupMaker",
+            "DisplayName": "{{i18n: AtelierGoods_SyrupMaker.name}}",
+            "Description": "{{i18n: AtelierGoods_SyrupMaker.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 88,
+            "CustomFields": {}
+    }
+}
+},
+
+{
+    "LogName": "Add Mortar and Distiller Crafting Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "Entries": {
+        "Wildflour.AtelierGoods_KitchenMortar": "335 2 388 50 80 2/Home/Wildflour.AtelierGoods_KitchenMortar/true/{{RecipeConfig}}/{{i18n: AtelierGoods_KitchenMortar.name}}",
+        "Wildflour.AtelierGoods_SyrupMaker": "335 2 388 50 245 10/Home/Wildflour.AtelierGoods_SyrupMaker/true/default/{{i18n: AtelierGoods_SyrupMaker.name}}"
+    }
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Essential Pantry Rules for New Machines",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenMortar": {
+            "HasInput": false,
+            "HasOutput": false,
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Bread_Flour",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)262",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Bread_Flour",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Bread_Flour",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cake_Flour",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)300",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Cake_Flour",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Cake_Flour",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Corn_Flour",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)270",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Corn_Flour",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Corn_Flour",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Coconut_Flour",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)88",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Coconut_Flour",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Coconut_Flour",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Rice_Flour",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)271",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Rice_Flour",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Rice_Flour",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Rainbow_Sprinkles",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)394",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Rainbow_Sprinkles",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Rainbow_Sprinkles",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Confectioners_Sugar",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)245",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Confectioners_Sugar",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Confectioners_Sugar",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Brown_Sugar",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)724",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Brown_Sugar",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pectin",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)296",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)410",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Raspberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Pectin",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Pectin",
+                            "MinStack":2,
+                            "MaxStack":5,
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Matcha_Powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)815",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Matcha_Powder",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Matcha_Powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.2
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenMortar_InvalidItem.message}}",
+            "InvalidCountMessage":"{{i18n:AtelierGoods_KitchenMortar_InvalidCount.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)Wildflour.AtelierGoods_SyrupMaker": {
+            "HasInput": false,
+            "HasOutput": false,
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Ancient_Fruit_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)454",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Ancient_Fruit_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Ancient_Fruit_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Apple_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)613",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Apple_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Apple_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Apricot_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)634",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Apricot_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Apricot_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Banana_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)91",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Banana_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Banana_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cherry_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)638",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Cherry_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Cherry_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Grenadine_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)637",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Grenadine_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Grenadine_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Mango_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)834",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Mango_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Mango_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Orange_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)635",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Orange_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Orange_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Peach_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)636",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Peach_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Peach_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pumpkin_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)276",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Pumpkin_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Pumpkin_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Rose_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Rose_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Rose_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Strawberry_Syrup",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                            "RequiredCount": 3
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Strawberry_Syrup",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Strawberry_Syrup",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Caramel",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Brown_Sugar",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Caramel",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Caramel",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cream_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cream_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 240
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_SyrupMaker_InvalidItem.message}}",
+            "InvalidCountMessage":"{{i18n:AtelierGoods_SyrupMaker_InvalidCount.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "WF Distiller Machine Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "TargetField": ["(BC)Wildflour.AtelierGoods_SyrupMaker", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_Cherry_Blossom_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cherry_Blossoms",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Chocolate_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Chocolate_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["cocoa_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Chocolate_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Chocolate_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Elderberry_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Elderberry_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["elderberry_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Elderberry_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Elderberry_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Lavender_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Lavender_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lavender_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lavender_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lavender_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Lemon_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Lemon_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lemon_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lemon_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Lime_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Lime_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lime_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lime_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lime_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Raspberry_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Raspberry_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["raspberry_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Raspberry_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Raspberry_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Vanilla_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Vanilla_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["vanilla_item"],
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Vanilla_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Vanilla_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+    }
+},
+
+{
+    "LogName": "WF Distiller Machine Edits for Generic Syrup",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_SyrupMaker", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Priority":"Late",
+    "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Syrup":{
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits","!item_Cactus_Fruit"],
+                        "RequiredCount": 3
+                    },
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 3
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Syrup %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Syrup",
+                        "PreserveId": "DROP_IN",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CopyColor":true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                            }
+                        ]
+                    }    
+                ],
+                "MinutesUntilReady": 240
+        }
+        }
+},
+
+{
+    "LogName": "WF Mortar Machine Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenMortar", "OutputRules"],
+    "Entries": {
+            "Wildflour.AtelierGoods_Almond_Flour":{
+            "Id": "Wildflour.AtelierGoods_Almond_Flour",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["almond_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Almond_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Almond_Flour",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 1.2
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_Olive_Oil":{
+            "Id": "Wildflour.AtelierGoods_Olive_Oil",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)Wildflour.AtelierGoods_Olive",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Olive_Oil",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Olive_Oil",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 1.2
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_Chocolate": {
+            "Id": "Wildflour.AtelierGoods_Chocolate",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["cocoa_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Dark_Chocolate",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "CustomData": {
+                        "selph.ExtraMachineConfig.RequirementTags.1": "milk_item",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Milk_Needed_Message}}",
+                        "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                        },
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 1.2
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Chicken_Woods": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Chicken_Woods",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Chicken_Woods",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Egg",
+                        "ItemId": "(O)176",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Honey_Fungus": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Honey_Fungus",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Honey_Fungus",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Honey",
+                        "ItemId": "(O)340",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Meringue_Mushroom": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Meringue_Mushroom",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Meringue_Mushroom",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Sugar",
+                        "ItemId": "(O)245",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Milk_Mushroom": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Milk_Mushroom",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Milk_Mushroom",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Milk",
+                        "ItemId": "(O)184",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Wheatberry_Mushroom": {
+                        "Id": "Wildflour.AtelierGoods_KitchenMortar_Wheatberry_Mushroom",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wheat Flour",
+                                "ItemId": "(O)246",
+                                "MinStack": 1,
+                                "MaxStack": 1,
+                                "StackModifiers": [
+                                    {
+                                        "Id": "GoodForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                        "Modification": "Add",
+                                        "Amount": 1
+                                    },
+                                    {
+                                        "Id": "GreatForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                        "Modification": "Add",
+                                        "Amount": 2
+                                    },
+                                    {
+                                        "Id": "GreatestForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                        "Modification": "Add",
+                                        "Amount": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 20
+        }
+    }
+},
+
+{
+    "LogName": "Essential Mayo Machine Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)24", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_MayoMachine_Butter": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Butter",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["milk_item"],
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Butter",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Butter",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        },
+        "Wildflour.AtelierGoods_MayoMachine_Orange_Curd": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Orange_Curd",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)635",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Orange_Curd",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Orange_Curd",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        },
+        "Wildflour.AtelierGoods_MayoMachine_Apple_Butter": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Apple_Butter",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)613",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Apple_Butter",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Apple_Butter",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        },
+        "Wildflour.AtelierGoods_MayoMachine_Honey_Butter": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Honey_Butter",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)340",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Honey_Butter",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Honey_Butter",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        },
+        "Wildflour.AtelierGoods_MayoMachine_Maple_Butter": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Maple_Butter",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)724",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Maple_Butter",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Maple_Butter",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        },
+        "Wildflour.AtelierGoods_MayoMachine_Pumpkin_Butter": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Pumpkin_Butter",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)276",
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Pumpkin_Butter",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Pumpkin_Butter",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        }
+    }
+},
+
+{
+    "LogName": "WF Mayo Machine Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "TargetField": ["(BC)24", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_MayoMachine_Lemon_Curd": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Lemon_Curd",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lemon_item"],
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lemon_Curd",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Curd",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        },
+        "Wildflour.AtelierGoods_MayoMachine_Lime_Curd": {
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Lime_Curd",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lime_item"],
+                    "RequiredCount": 2
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lime_Curd",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lime_Curd",
+                    "PriceModifierMode":"Stack",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 180
+        }
+    }
+},
+
+{
+    "LogName": "Essential Cheese Press Machine Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)16", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_CheesePress_Cream_Cheese": {
+            "Id": "Wildflour.AtelierGoods_CheesePress_Cream_Cheese",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)Wildflour.AtelierGoods_Cream",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cream_Cheese",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cream_Cheese",
+                    "CopyPrice": true,
+                    "CopyQuality":true,
+                    "PriceModifierMode":"Stack",
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
+                            "Modification": "Multiply",
+                            "Amount": 2.0
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 240
+        }
+    }
+},
+
+////////////////////////////////
+// CSA PACKAGED GOODS MACHINE //
+////////////////////////////////
+
+{
+    "LogName": "Add Produce Packer to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:CSA": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_ProducePacker": {
+            "Name": "Wildflour.AtelierGoods_ProducePacker",
+            "DisplayName": "{{i18n: AtelierGoods_ProducePacker.name}}",
+            "Description": "{{i18n: AtelierGoods_ProducePacker.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 208,
+            "CustomFields": {}
+    }
+}
+},
+
+{
+    "LogName": "Add Produce Packer Crafting Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:CSA": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_ProducePacker": "335 2 388 50 80 2/Home/Wildflour.AtelierGoods_ProducePacker/true/{{RecipeConfig}}/{{i18n: AtelierGoods_ProducePacker.name}}",
+    }
+},
+
+{
+    "LogName": "CSA Machine Rules Advanced",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:CSA": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_ProducePacker": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Common_Mushroom_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)404",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Common_Mushroom_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Common_Mushroom_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Gourmet_Mushroom_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)257",
+                            "RequiredCount": 5
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)281",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Gourmet_Mushroom_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Gourmet_Mushroom_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Mushroom_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_mushroom"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Mushroom_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Mushroom_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Mushroom_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Forage_Box",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["forage_item"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Forage_Box",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Forage_Box",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Milk_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["milk_item"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Milk_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Milk_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_White_Egg_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)176",
+                            "RequiredCount": 5
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)174",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_White_Egg_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_White_Egg_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Brown_Egg_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)180",
+                            "RequiredCount": 5
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)182",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Brown_Egg_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Brown_Egg_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Void_Egg_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)305",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Void_Egg_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Void_Egg_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Duck_Egg_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)442",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Duck_Egg_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Duck_Egg_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Tulip_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)591",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Tulip_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Tulip_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Jazz_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)597",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Jazz_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Jazz_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Poppy_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Poppy_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Poppy_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Spangle_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)593",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Spangle_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Spangle_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                          "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sunflower_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)421",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Sunflower_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Sunflower_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Fairy_Rose_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Fairy_Rose_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Fairy_Rose_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Crab_Pot_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["fish_crab_pot"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Crab_Pot_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Crab_Pot_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Ocean_Fish_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["fish_ocean"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Ocean_Fish_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Ocean_Fish_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Lake_Fish_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["fish_lake"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Lake_Fish_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Lake_Fish_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_River_Fish_Basket",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags":  ["fish_river"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_River_Fish_Basket",
+                            "ItemId": "(O)Wildflour.AtelierGoods_River_Fish_Basket",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+             
+                {
+                    "Id": "Wildflour.AtelierGoods_Honey_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)340",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Honey_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Honey_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Fruit_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Fruit_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Fruit_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Fruit_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Veggie_Box",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_vegetable"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Veggie_Box",
+                        "ItemId": "Wildflour.AtelierGoods_Veggie_Box",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Veggie_Box %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+             
+                {
+                    "Id": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_flowers"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Generic_Flower_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fish"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Generic_Fish_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Roe_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)812",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Roe_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Roe_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Roe_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)447",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                        "ItemId": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Aged_Roe_Jars %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Jars",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Jelly_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)344",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Jelly_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Jelly_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Jelly_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pickle_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)342",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pickle_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Pickle_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Pickle_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Juice_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)350",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Juice_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Juice_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Juice_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Wine_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)348",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Wine_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Wine_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Wine_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)771",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_ProducePacker_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_ProducePacker_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{
+    "LogName": "CSA Machine Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:CSA": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Simple"},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_ProducePacker": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Forage_Box",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["forage_item"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Forage_Box",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Forage_Box",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 5.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Milk_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["milk_item"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Milk_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Milk_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 5.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_White_Egg_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["egg_item"],
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_White_Egg_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_White_Egg_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 6.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Honey_Crate",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)340",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Honey_Crate",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Honey_Crate",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 5.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Fruit_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Fruit_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Fruit_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Fruit_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Veggie_Box",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_vegetable"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Veggie_Box",
+                        "ItemId": "Wildflour.AtelierGoods_Veggie_Box",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Veggie_Box %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_flowers"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Generic_Flower_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fish"],
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Generic_Fish_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Roe_Basket",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)812",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Roe_Basket",
+                        "ItemId": "Wildflour.AtelierGoods_Roe_Basket",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Roe_Basket %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Basket",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)447",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                        "ItemId": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Aged_Roe_Jars %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Jars",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Jelly_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)344",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Jelly_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Jelly_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Jelly_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pickle_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)342",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pickle_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Pickle_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Pickle_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN", 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Juice_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)350",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Juice_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Juice_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Juice_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN_PRESERVE", 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Wine_Crate",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)348",
+                        "RequiredCount": 5
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Wine_Crate",
+                        "ItemId": "Wildflour.AtelierGoods_Wine_Crate",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Wine_Crate %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Crate",
+                        "PreserveId": "DROP_IN_PRESERVE", 
+                        "CopyColor":true, 
+                        "CopyQuality":true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                            "Modification": "Multiply",
+                            "Amount": 5.5
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 1000
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)771",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_ProducePacker_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_ProducePacker_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+}
+
+]
+}

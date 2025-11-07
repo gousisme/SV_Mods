@@ -1,0 +1,4462 @@
+{
+    "Changes": [
+
+//////////////////////
+// BARISTA MACHINES //
+//////////////////////
+
+{
+    "LogName": "Add Barista Tea Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TeaProcessor": {
+            "Name": "Wildflour.AtelierGoods_TeaProcessor",
+            "DisplayName": "{{i18n: AtelierGoods_TeaProcessor.name}}",
+            "Description": "{{i18n: AtelierGoods_TeaProcessor.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 16,
+            "CustomFields": {}
+    },
+        "Wildflour.AtelierGoods_TeaKettle": {
+            "Name": "Wildflour.AtelierGoods_TeaKettle",
+            "DisplayName": "{{i18n: AtelierGoods_TeaKettle.name}}",
+            "Description": "{{i18n: AtelierGoods_TeaKettle.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 56,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Barista Craftable Tea Machine Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_TeaProcessor": "388 30 330 10 815 2/Home/Wildflour.AtelierGoods_TeaProcessor/true/{{RecipeConfig}}/{{i18n: AtelierGoods_TeaProcessor.name}}",
+        "Wildflour.AtelierGoods_TeaKettle": "388 30 330 10 335 2/Home/Wildflour.AtelierGoods_TeaKettle/true/{{RecipeConfig}}/{{i18n: AtelierGoods_TeaKettle.name}}",
+    } 
+},
+
+{
+    "LogName": "Add Barista Coffee Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CoffeeGrinder": {
+        "Name": "Wildflour.AtelierGoods_CoffeeGrinder",
+        "DisplayName": "{{i18n: AtelierGoods_CoffeeGrinder.name}}",
+        "Description": "{{i18n: AtelierGoods_CoffeeGrinder.description}}",
+        "Price": 2550,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+        "SpriteIndex": 40,
+        "CustomFields": {}
+    },
+        "Wildflour.AtelierGoods_CoffeeBrewer": {
+        "Name": "Wildflour.AtelierGoods_CoffeeBrewer",
+        "DisplayName": "{{i18n: AtelierGoods_CoffeeBrewer.name}}",
+        "Description": "{{i18n: AtelierGoods_CoffeeBrewer.description}}",
+        "Price": 2550,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+        "SpriteIndex": 32,
+        "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Barista Craftable Coffee Machine Recipes",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_CoffeeGrinder": "388 25 378 10/Home/Wildflour.AtelierGoods_CoffeeGrinder/true/{{RecipeConfig}}/{{i18n:AtelierGoods_CoffeeGrinder.name}}",
+        "Wildflour.AtelierGoods_CoffeeBrewer": "388 25 378 10/Home/Wildflour.AtelierGoods_CoffeeBrewer/true/{{RecipeConfig}}/{{i18n:AtelierGoods_CoffeeBrewer.name}}"
+    } 
+},
+
+{
+    "LogName": "Add Lemonade Stand to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_LemonadeStand": {
+            "Name": "Wildflour.AtelierGoods_LemonadeStand",
+            "DisplayName": "{{i18n: AtelierGoods_LemonadeStand.name}}",
+            "Description": "{{i18n: AtelierGoods_LemonadeStand.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 24,
+            "CustomFields": {}
+    }
+    }
+},
+
+{
+    "LogName": "Add Barista Craftable Lemonade Stand Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_LemonadeStand": "388 50 334 2 382 5/Home/Wildflour.AtelierGoods_LemonadeStand/true/{{RecipeConfig}}/{{i18n: AtelierGoods_LemonadeStand.name}}"
+    } 
+},
+
+{
+    "LogName": "Add Blender to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Milkshakes}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Smoothies}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_KitchenBlender": {
+            "Name": "Wildflour.AtelierGoods_KitchenBlender",
+            "DisplayName": "{{i18n: AtelierGoods_KitchenBlender.name}}",
+            "Description": "{{i18n: AtelierGoods_KitchenBlender.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+    }
+}
+},
+
+{
+    "LogName": "Add Blender Recipe",
+    "Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Milkshakes}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Smoothies}} = 'true')": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_KitchenBlender": "335 2 388 50 330 10/Home/Wildflour.AtelierGoods_KitchenBlender/true/{{RecipeConfig}}/{{i18n: AtelierGoods_KitchenBlender.name}}",
+    } 
+},
+
+///////////////////
+// MACHINE RULES //
+///////////////////
+
+{
+    "LogName": "Advanced Coffee Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Coffee": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_CoffeeGrinder": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Amoretto_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["almond_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Amoretto_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Amoretto_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cream_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cream_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cinnamon_Bunny_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["cinnamon_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Cinnamon_Bunny_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Cinnamon_Bunny_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "vanilla_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Vanilla_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Coco_Cabana_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)88",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Coco_Cabana_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Coco_Cabana_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Early_Riser_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)768",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Early_Riser_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Early_Riser_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)724",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MapleSyrup_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Mucha_Mocha_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Cacao_Pod",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Mucha_Mocha_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Mucha_Mocha_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)408",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Hazelnut_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pistachio_Buzz_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["pistachio_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pistachio_Buzz_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Pistachio_Buzz_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pumpkin_King_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)276",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pumpkin_King_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Pumpkin_King_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sleigh_Ride_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)829",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sleigh_Ride_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Sleigh_Ride_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sweetheart_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)400",
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sweetheart_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Sweetheart_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "vanilla_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Vanilla_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Ground_Coffee",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["vanilla_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Ground_Coffee",
+                        "ItemId": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Ground_Coffee",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.2
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 75
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 800
+                },
+
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)433",
+                    "RequiredCount":5,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CoffeeGrinder_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CoffeeGrinder_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+            ] 
+        },
+        "(BC)Wildflour.AtelierGoods_CoffeeBrewer": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Amoretto_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Amoretto_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Amoretto_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Amoretto_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cinnamon_Bunny_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Cinnamon_Bunny_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Cinnamon_Bunny_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Cinnamon_Bunny_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Coco_Cabana_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Coco_Cabana_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Coco_Cabana_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Coco_Cabana_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Early_Riser_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Early_Riser_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Early_Riser_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Early_Riser_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Mucha_Mocha_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Mucha_Mocha_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Mucha_Mocha_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Mucha_Mocha_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pistachio_Buzz_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Pistachio_Buzz_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pistachio_Buzz_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Pistachio_Buzz_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pumpkin_King_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Pumpkin_King_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pumpkin_King_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Pumpkin_King_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sleigh_Ride_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Sleigh_Ride_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sleigh_Ride_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Sleigh_Ride_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sweetheart_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Sweetheart_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sweetheart_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Sweetheart_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 400
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Latte",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Ground_Coffee",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Latte",
+                        "ItemId": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Latte",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.5
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 400
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Cream",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_CoffeeBrewer_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_CoffeeBrewer_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5],
+                    "Interval":200
+                }
+            ] 
+        }
+    }
+},
+
+{ 
+    "LogName": "Add Simple Ground Coffee Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_CoffeeGrinder", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Coffee": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Ground_Coffee":{ 
+            "Id": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["category_fruits"],
+                "RequiredCount": 1
+                },
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["nut_Item"],
+                    "RequiredCount": 1
+                },
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["edible_flower_item"],
+                "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Ground_Coffee %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Ground Coffee",  
+                "PreserveID":"DROP_IN",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": 
+                    [ 
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 1.2
+                        },
+                        {
+                            "Modification": "Add",
+                            "Amount": 75
+                        }
+                    ]
+                }
+                ],
+                "MinutesUntilReady": 800
+        }
+}
+},
+
+{ 
+    "LogName": "Add Simple Latte Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_CoffeeBrewer", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Coffee": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Latte":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Latte",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Ground_Coffee",
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Latte",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Latte",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Latte %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Latte",
+                "PreserveID":"DROP_IN_PRESERVE",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": 
+                    [ 
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.5
+                        },
+                        {
+                            "Modification": "Add",
+                            "Amount": 150
+                        }
+                    ]
+                }
+                ],
+                "MinutesUntilReady": 400
+}
+}
+},
+
+{
+    "LogName": "Advanced Tea Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_TeaProcessor": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Alchemist_Blend_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)400",
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Alchemist_Blend_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Alchemist_Blend_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Blueberry_Matcha_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)258",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Blueberry_Matcha_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Blueberry_Matcha_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Matcha_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Cherry_Blossoms",
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)638",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Matcha_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cookie_Jar_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Rainbow_Sprinkles",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Cookie_Jar_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Cookie_Jar_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "vanilla_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Vanilla_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Good_Thyme_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)829",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Good_Thyme_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Good_Thyme_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Happy_Harvest_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)613",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Happy_Harvest_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Happy_Harvest_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_North_Pole_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["mint_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_North_Pole_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_North_Pole_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pelican_Fog_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["lavender_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pelican_Fog_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Pelican_Fog_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "vanilla_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Vanilla_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                              [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Plum_Chai_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)406",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Plum_Chai_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Plum_Chai_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Positivitea_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)636",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Positivitea_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Positivitea_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyRose_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sun_Room_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)593",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sun_Room_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Sun_Room_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sunny_Delight_Sachet",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)635",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sunny_Delight_Sachet",
+                        "ItemId": "Wildflour.AtelierGoods_Sunny_Delight_Sachet",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.4
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)815",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_TeaProcessor_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_TeaProcessor_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "TeaTimeSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "TeaTimeSuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
+        },
+        "(BC)Wildflour.AtelierGoods_TeaKettle": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Alchemist_Blend_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Alchemist_Blend_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Alchemist_Blend_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Alchemist_Blend_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Blueberry_Matcha_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Blueberry_Matcha_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Blueberry_Matcha_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Blueberry_Matcha_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Cookie_Jar_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Cookie_Jar_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Cookie_Jar_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Cookie_Jar_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Good_Thyme_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Good_Thyme_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Good_Thyme_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Good_Thyme_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Happy_Harvest_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Happy_Harvest_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Happy_Harvest_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Happy_Harvest_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_North_Pole_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_North_Pole_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_North_Pole_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_North_Pole_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Pelican_Fog_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Pelican_Fog_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Pelican_Fog_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Pelican_Fog_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Plum_Chai_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Plum_Chai_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Plum_Chai_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Plum_Chai_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Positivitea_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Positivitea_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Positivitea_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Positivitea_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sun_Room_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Sun_Room_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sun_Room_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Sun_Room_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Sunny_Delight_Tea",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Sunny_Delight_Sachet",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Sunny_Delight_Tea",
+                        "ItemId": "Wildflour.AtelierGoods_Sunny_Delight_Tea",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                            [ 
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 6.0
+                                },
+                                {
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ]
+                        }
+                        ],
+                        "MinutesUntilReady": 300
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)340",
+                    "RequiredCount":1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_TeaKettle_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_TeaKettle_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "TeaTimeSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "TeaTimeSuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5],
+                    "Interval":100
+                }
+           ] 
+        }
+    }
+},
+
+{ 
+    "LogName": "Add Simple Tea Sachet Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_TeaProcessor", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Sachet":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Sachet",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["category_fruits"],
+                "RequiredCount": 1
+                },
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["edible_flower_item"],
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Sachet",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Sachet",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Sachet %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Tea Sachet",  
+                "PreserveID":"DROP_IN",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": 
+                    [ 
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 1.4
+                        },
+                        {
+                            "Modification": "Add",
+                            "Amount": 50
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 1000
+        }
+}
+},
+
+{ 
+    "LogName": "Add Simple Tea Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_TeaKettle", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Tea":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Tea",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Sachet",
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Tea",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Tea",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Tea %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Tea",
+                "PreserveID":"DROP_IN_PRESERVE",
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": 
+                    [ 
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 6.0
+                        },
+                        {
+                            "Modification": "Add",
+                            "Amount": 100
+                        }
+                    ]
+                }
+                ],
+                "MinutesUntilReady": 300
+        }
+        
+}
+},
+
+
+{
+    "LogName": "Advanced Kombucha Rules Keg",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)12", "OutputRules"],
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Keg_Alchemist_Blend_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Alchemist_Blend_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Alchemist_Blend_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Alchemist_Blend_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Alchemist_Blend_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+                    "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Blueberry_Matcha_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Blueberry_Matcha_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Blueberry_Matcha_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Blueberry_Matcha_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Blueberry_Matcha_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Cherry_Blossom_Matcha_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Cherry_Blossom_Matcha_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+                    "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Cookie_Jar_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Cookie_Jar_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cookie_Jar_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cookie_Jar_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Cookie_Jar_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+                    "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Good_Thyme_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Good_Thyme_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Good_Thyme_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Good_Thyme_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Good_Thyme_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                   "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+                    "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Happy_Harvest_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Happy_Harvest_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Happy_Harvest_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Happy_Harvest_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Happy_Harvest_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_North_Pole_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_North_Pole_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_North_Pole_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_North_Pole_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_North_Pole_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Pelican_Fog_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Pelican_Fog_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Pelican_Fog_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Pelican_Fog_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Pelican_Fog_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Plum_Chai_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Plum_Chai_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Plum_Chai_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Plum_Chai_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Plum_Chai_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Positivitea_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Positivitea_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Positivitea_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Positivitea_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Positivitea_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                   "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Sun_Room_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Sun_Room_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Sun_Room_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Sun_Room_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Sun_Room_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+},
+        "Wildflour.AtelierGoods_Keg_Sunny_Delight_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Sunny_Delight_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Sunny_Delight_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Sunny_Delight_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Sunny_Delight_Kombucha",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                   "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 5.0
+                        }
+                    ]
+                    }
+                    ],
+            "MinutesUntilReady": 900
+}
+    }
+},
+
+{ 
+    "LogName": "Add Simple Kombucha Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)12", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Keg_Flavored_Kombucha": {
+            "Id": "Wildflour.AtelierGoods_Keg_Flavored_Kombucha",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Tea",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Kombucha",
+                    "ItemId": "Wildflour.AtelierGoods_Flavored_Kombucha",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Kombucha %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Kombucha",
+                    "PreserveID":"DROP_IN_PRESERVE",
+                    "CopyColor":true,
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 2.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 900
+        }
+}
+},
+
+
+{
+    "LogName": "Advanced Lemonade Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_LemonadeStand":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Berry_Good_Thyme_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["thyme_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Berry_Good_Thyme_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Berry_Good_Thyme_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "berry_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BerryThyme_Lemonade_Fuel_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Chamomile_Mint_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["chamomile_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Chamomile_Mint_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Chamomile_Mint_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "mint_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Lemonade_Fuel_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Classic_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)245",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Classic_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Classic_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Green_Tea_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)614",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Green_Tea_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Green_Tea_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "id_(O)340",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyLemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Lavender_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["lavender_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Lavender_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Lavender_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "id_(O)340",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyLemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Minty_Hibiscus_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["mint_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Minty_Hibiscus_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Minty_Hibiscus_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "hibiscus_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HibiscusLemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Orange_Blossom_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)635",
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Lumisteria.MtVapius_OrangeBlossom",
+                        "RequiredCount": 1
+                        }
+
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Orange_Blossom_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Orange_Blossom_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "id_(O)22",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonDandelion_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Peachy_Keen_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)636",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Peachy_Keen_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Peachy_Keen_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "vanilla_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:VanillaLemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                       "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Strawberry_Rhubarb_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)400",
+                        "RequiredCount": 1
+                        },
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Strawberry_Rhubarb_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Strawberry_Rhubarb_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "id_(O)252",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RhubarbLemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Rosey_Posey_Lemonade",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)595",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Rosey_Posey_Lemonade",
+                        "ItemId": "Wildflour.AtelierGoods_Rosey_Posey_Lemonade",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementTags.2": "id_(O)340",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyLemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 4.5
+                            }
+                        ]
+                        }    
+                        ],
+                        "MinutesUntilReady": 640
+                }
+            ],
+            "AdditionalConsumedItems":[],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_LemonadeStand_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6,7],
+                    "Interval":100
+                }
+           ] 
+           
+        }
+    }
+},
+
+{ 
+    "LogName": "Add Simple Lemonade Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_LemonadeStand", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_Flavored_Lemonade":{
+            "Id": "Wildflour.AtelierGoods_Flavored_Lemonade",
+            "Triggers": [
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["category_fruits","!lemon_item"],
+                "RequiredCount": 1
+                },
+                {
+                "Trigger": "ItemPlacedInMachine",
+                "RequiredTags": ["edible_flower_item"],
+                "RequiredCount": 1
+                }
+        ],
+            "OutputItem": [
+                {
+                "Id": "Wildflour.AtelierGoods_Flavored_Lemonade",
+                "ItemId": "Wildflour.AtelierGoods_Flavored_Lemonade",
+                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Lemonade %PRESERVED_DISPLAY_NAME]",
+                "ObjectInternalName": "{0} Lemonade",
+                "PreserveID":"DROP_IN",
+                "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                    "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                    },
+                "CopyColor":true,
+                "CopyQuality": true,
+                "CopyPrice": true,
+                "PriceModifiers": 
+                [
+                    {
+                        "Modification": "Multiply",
+                        "Amount": 2.2
+                    }
+                ]
+            }    
+        ],
+            "MinutesUntilReady": 640
+        }
+}
+},
+
+{
+    "LogName": "Advanced Smoothie Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true, "Atelier.Cauldron/ConfigValue:Milkshakes":false},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Cinnamon_Toast_Crunch_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["nut_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Cinnamon_Toast_Crunch_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Cinnamon_Toast_Crunch_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Energizer_Bunny_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Energizer_Bunny_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Energizer_Bunny_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Honey_Nut_Junimo_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)340",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lady_Godiva_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Lady_Godiva_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Lady_Godiva_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lucky_Charms_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["vanilla_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Lucky_Charms_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Lucky_Charms_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Mean_Green_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)250",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Mean_Green_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Mean_Green_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)258",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Blueberry_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Monkey_Business_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)91",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Oops_All_Berries_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)410",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Oops_All_Berries_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Oops_All_Berries_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Sleepy_Hollow_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)276",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Sleepy_Hollow_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Sleepy_Hollow_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Walkin_On_Sunshine_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)268",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Walkin_On_Sunshine_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Walkin_On_Sunshine_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)834",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mango_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                }
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
+    }
+}
+},
+
+{
+    "LogName": "Add Advanced Milkshake Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": false, "Atelier.Cauldron/ConfigValue:Milkshakes": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Birdies_Banana_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Birdies_Banana_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Birdies_Banana_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Birthday_Blast_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Birthday_Blast_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Birthday_Blast_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Blackberry_Cobbler_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Blackberry_Cobbler_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Blackberry_Cobbler_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Chocolate_Lovers_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Chocolate_Lovers_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Chocolate_Lovers_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Cookie_Monster_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Cookie_Monster_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Cookie_Monster_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Eggnog_Spice_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Eggnog_Spice_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Eggnog_Spice_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Gingerbread_Latte_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Gingerbread_Latte_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Gingerbread_Latte_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Grannys_Apple_Pie_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Grannys_Apple_Pie_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Grannys_Apple_Pie_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Hopeless_Romantic_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Hopeless_Romantic_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Hopeless_Romantic_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Horchata_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Horchata_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Horchata_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Key_Lime_Pie_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Key_Lime_Pie_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Key_Lime_Pie_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lavender_Fields_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Lavender_Fields_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Lavender_Fields_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lemon_Dream_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Lemon_Dream_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Lemon_Dream_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Nuts4Cherries_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Nuts4Cherries_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Nuts4Cherries_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Peppermint_Bark_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Peppermint_Bark_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Peppermint_Bark_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Pumpkin_Pie_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Pumpkin_Pie_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Pumpkin_Pie_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Red_Velvet_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Red_Velvet_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Red_Velvet_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Strawberry_Sunset_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Strawberry_Sunset_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Strawberry_Sunset_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Unicorn_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Unicorn_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Unicorn_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Very_Vanilla_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Very_Vanilla_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Very_Vanilla_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
+        }
+    }
+},
+
+{
+    "LogName": "Add Advanced Milkshake AND Smoothie Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true,"Atelier.Cauldron/ConfigValue:Milkshakes": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Cinnamon_Toast_Crunch_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["nut_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Cinnamon_Toast_Crunch_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Cinnamon_Toast_Crunch_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Energizer_Bunny_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)395",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Energizer_Bunny_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Energizer_Bunny_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Honey_Nut_Junimo_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)340",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lady_Godiva_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)400",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Lady_Godiva_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Lady_Godiva_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lucky_Charms_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["vanilla_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Lucky_Charms_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Lucky_Charms_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Mean_Green_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)250",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Mean_Green_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Mean_Green_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)258",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Blueberry_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Monkey_Business_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)91",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Oops_All_Berries_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)410",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Oops_All_Berries_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Oops_All_Berries_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Sleepy_Hollow_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)276",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Sleepy_Hollow_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Sleepy_Hollow_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Walkin_On_Sunshine_Smoothie",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)268",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Walkin_On_Sunshine_Smoothie",
+                            "ItemId": "Wildflour.AtelierGoods_Walkin_On_Sunshine_Smoothie",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)834",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mango_Needed_Message}}",
+                                "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                },
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 3.0
+                                }
+                            ]
+                        
+                        }
+                    ],
+                    "MinutesUntilReady": 600
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Birdies_Banana_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Birdies_Banana_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Birdies_Banana_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Birthday_Blast_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Birthday_Blast_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Birthday_Blast_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Blackberry_Cobbler_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Blackberry_Cobbler_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Blackberry_Cobbler_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Chocolate_Lovers_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Chocolate_Lovers_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Chocolate_Lovers_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Cookie_Monster_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Cookie_Monster_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Cookie_Monster_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Eggnog_Spice_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Eggnog_Spice_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Eggnog_Spice_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Gingerbread_Latte_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Gingerbread_Latte_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Gingerbread_Latte_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Grannys_Apple_Pie_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Grannys_Apple_Pie_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Grannys_Apple_Pie_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Hopeless_Romantic_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Hopeless_Romantic_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Hopeless_Romantic_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Horchata_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Horchata_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Horchata_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Key_Lime_Pie_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Key_Lime_Pie_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Key_Lime_Pie_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lavender_Fields_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Lavender_Fields_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Lavender_Fields_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Lemon_Dream_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Lemon_Dream_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Lemon_Dream_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Nuts4Cherries_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Nuts4Cherries_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Nuts4Cherries_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Peppermint_Bark_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Peppermint_Bark_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Peppermint_Bark_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Pumpkin_Pie_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Pumpkin_Pie_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Pumpkin_Pie_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Red_Velvet_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Red_Velvet_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Red_Velvet_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Strawberry_Sunset_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Strawberry_Sunset_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Strawberry_Sunset_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                           "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Unicorn_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Unicorn_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Unicorn_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_KitchenBlender_Very_Vanilla_Milkshake",
+                    "Triggers": [
+                            {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Very_Vanilla_IceCream",
+                            "RequiredCount": 1
+                            }
+                ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "Wildflour.AtelierGoods_Very_Vanilla_Milkshake",
+                            "CopyQuality": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 5.0
+                                }
+                            ]
+                        }    
+                ],
+                    "MinutesUntilReady": 280
+                }
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
+        }
+    }
+},
+
+{ 
+    "LogName": "Add Simple Milkshake Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenBlender", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Milkshakes": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake":{
+            "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake",
+            "Triggers": [
+                    {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_IceCream",
+                    "RequiredCount": 1
+                    }
+        ],
+            "OutputItem": [
+                {
+                    "ItemId": "Wildflour.AtelierGoods_Flavored_Milkshake",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Milkshake %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Milkshake",
+                    "PreserveId": "DROP_IN_PRESERVE",
+                    "CopyQuality": true,
+                    "CopyPrice": true,
+                    "CopyColor":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 3.0
+                        }
+                    ]
+                }    
+        ],
+            "MinutesUntilReady": 280
+        }
+}
+},
+
+{ 
+    "LogName": "Add Simple Smoothie Rules to Advanced Logic",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenBlender", "OutputRules"],
+    "When":{"Atelier.Cauldron/ConfigValue:Smoothies": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+    "Entries":{
+        "Wildflour.AtelierGoods_KitchenBlender_Flavored_Smoothie":{
+            "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Smoothie",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["category_fruits"],
+                    "RequiredCount": 1
+                },
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["edible_flower_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Smoothie",
+                    "ItemId": "Wildflour.AtelierGoods_Flavored_Smoothie",
+                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Smoothie %PRESERVED_DISPLAY_NAME]",
+                    "ObjectInternalName": "{0} Smoothie",
+                    "PreserveID":"DROP_IN",
+                    "CopyColor":true,
+                    "CopyPrice":true,
+                    "CopyQuality":true,
+                    "PriceModifiers": 
+                    [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": 1.75
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 600
+        }
+
+
+}
+},
+
+]
+}

@@ -1,0 +1,586 @@
+{
+    "Changes": 
+    [
+
+        //   SINGLE-SEASON SEEDBAGS
+
+        //Example code (toggle with "Ctrl+/" in VS-Code)
+		// { "LogName": "x",
+		// 	"Action": "EditImage",
+		// 	"Target": "Cornucopia.MoreCrops/Objects",
+		// 	"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/x.png",
+		// 	"ToArea": { "X": 00, "Y": 00, "Width": 16, "Height": 16 },
+		// 	"When": { "AltSeedbag |contains= x": false}
+		// },
+		
+		//  Row 1
+        { "LogName": "Canary Melon Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/CanaryMelon.png",
+			"ToArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+		},
+		{ "LogName": "Cabbage Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Cabbage.png",
+			"ToArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+		},
+		{ "LogName": "Capsicum Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Capsicum.png",
+			"ToArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Capsicum": false}
+		},
+		{ "LogName": "Capsicum Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Capsicum_alt.png",
+			"ToArea": { "X": 144, "Y": 0, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Capsicum": true}
+		},
+		{ "LogName": "Watermelon Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Watermelon.png",
+			"ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Watermelon": false}
+		},
+		{ "LogName": "Watermelon Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Watermelon_alt.png",
+			"ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Watermelon": true}
+		},
+		{ "LogName": "Cucumber Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Cucumber.png",
+			"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Onion Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Onion.png",
+			"ToArea": { "X": 272, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Cassava Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Cassava.png",
+			"ToArea": { "X": 304, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		// Row 2
+		{ "LogName": "Peanut Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Peanut.png",
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Peanut": false}
+		},
+		{ "LogName": "Peanut Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Peanut_alt.png",
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Peanut": true}
+		},
+		{ "LogName": "Celery Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Celery.png",
+			"ToArea": { "X": 144, "Y": 16, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Sugarcane Shoot Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Sugarcane_alt.png",
+			"ToArea": { "X": 176, "Y": 16, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Sugarcane": true}
+		},
+		{ "LogName": "Sweet Potato Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/SweetPotato.png",
+			"ToArea": { "X": 208, "Y": 16, "Width": 16, "Height": 16 }		
+		},
+		// Row 4
+		{ "LogName": "Oat Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Oats.png",
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Chickpea Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Chickpea.png",
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Shallot Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Shallot.png",
+			"ToArea": { "X": 208, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Agave Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Agave.png",
+			"ToArea": { "X": 272, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Blue Agave Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/BlueAgave.png",
+			"ToArea": { "X": 304, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		// Row 5
+		{ "LogName": "Sugar Beet Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/SugarBeet.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Passionfruit Trellis",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Passionfruit.png",
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Passionfruit": false}
+		},
+		{ "LogName": "Passionfruit Trellis Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/Unique/Passionfruit.png",
+			"ToArea": { "X": 112, "Y": 64, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Passionfruit": true}
+		},
+		{ "LogName": "Adzuki Bean Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/AdzukiBean.png",
+			"ToArea": { "X": 144, "Y": 64, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= AdzukiBean": false}
+		},
+		{ "LogName": "Adzuki Bean Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/AdzukiBean_alt.png",
+			"ToArea": { "X": 144, "Y": 64, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= AdzukiBean": true}
+		},
+		{ "LogName": "Green Peas Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/GreenPeas.png",
+			"ToArea": { "X": 176, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Jalapeno Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Jalapeno.png",
+			"ToArea": { "X": 208, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Barley Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Barley.png",
+			"ToArea": { "X": 304, "Y": 64, "Width": 16, "Height": 16 }
+		},
+
+		// Row 7
+		{ "LogName": "Zucchini Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Zucchini.png",
+			"ToArea": { "X": 16, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Lettuce Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Lettuce.png",
+			"ToArea": { "X": 48, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Buckwheat Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Buckwheat.png",
+			"ToArea": { "X": 80, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Butternut Squash Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/ButternutSquash.png",
+			"ToArea": { "X": 112, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Cantaloupe Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Cantaloupe.png",
+			"ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Honeydew Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Honeydew.png",
+			"ToArea": { "X": 176, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Wasabi Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Wasabi_alt.png",
+			"ToArea": { "X": 272, "Y": 96, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Wasabi": true}
+		},
+		// Row 8
+		{ "LogName": "Turnip Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Turnip.png",
+			"ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Daikon Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Daikon.png",
+			"ToArea": { "X": 48, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Pinto Bean Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/PintoBeans.png",
+			"ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Navy Bean Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/NavyBeans.png",
+			"ToArea": { "X": 144, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Black Bean Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/BlackBeans.png",
+			"ToArea": { "X": 176, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Kidney Bean Planter",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/KidneyBeans.png",
+			"ToArea": { "X": 208, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Asparagus Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Asparagus.png",
+			"ToArea": { "X": 240, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Quinoa Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Quinoa.png",
+			"ToArea": { "X": 304, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		// Row 10
+		{ "LogName": "Red Onion Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/RedOnion.png",
+			"ToArea": { "X": 16, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Kiwifruit Trellis",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Kiwifruit.png",
+			"ToArea": { "X": 48, "Y": 144, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Kiwifruit": false}
+		},
+		{ "LogName": "Kiwifruit Trellis Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/Unique/Kiwifruit.png",
+			"ToArea": { "X": 48, "Y": 144, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Kiwifruit": true}
+		},
+		{ "LogName": "Durum Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Durum.png",
+			"ToArea": { "X": 80, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Habanero Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Habanero.png",
+			"ToArea": { "X": 144, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Chive Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Chives.png",
+			"ToArea": { "X": 208, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Basil Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Basil.png",
+			"ToArea": { "X": 240, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Sage Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Sage.png",
+			"ToArea": { "X": 272, "Y": 144, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Sage": false}
+		},
+		{ "LogName": "Sage Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Sage_alt.png",
+			"ToArea": { "X": 272, "Y": 144, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Sage": true}
+		},
+		{ "LogName": "Mint Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Mint.png",
+			"ToArea": { "X": 304, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		// Row 11
+		{ "LogName": "Parsley Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Parsley.png",
+			"ToArea": { "X": 16, "Y": 160, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Rosemary Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Rosemary.png",
+			"ToArea": { "X": 48, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Rosemary": false}
+		},
+		{ "LogName": "Rosemary Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Rosemary_alt.png",
+			"ToArea": { "X": 48, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Rosemary": true}
+		},
+		{ "LogName": "Perilla Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Perilla.png",
+			"ToArea": { "X": 80, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Perilla": false}
+		},
+		{ "LogName": "Perilla Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Perilla_alt.png",
+			"ToArea": { "X": 80, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Perilla": true}
+		},
+		{ "LogName": "Catnip Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Catnip.png",
+			"ToArea": { "X": 112, "Y": 160, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Fennel Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Fennel.png",
+			"ToArea": { "X": 144, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Fennel": false}
+		},
+		{ "LogName": "Fennel Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Fennel_alt.png",
+			"ToArea": { "X": 144, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Fennel": true}
+		},
+		{ "LogName": "Thyme Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Thyme.png",
+			"ToArea": { "X": 176, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Thyme": false}
+		},
+		{ "LogName": "Thyme Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Thyme_alt.png",
+			"ToArea": { "X": 176, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Thyme": true}
+		},
+		{ "LogName": "Aloe Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Aloe.png",
+			"ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Coriander Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Coriander.png",
+			"ToArea": { "X": 272, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Coriander": false}
+		},
+		{ "LogName": "Coriander Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Coriander_alt.png",
+			"ToArea": { "X": 272, "Y": 160, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Coriander": true}
+		},
+		// Row 13
+		{ "LogName": "Dill Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Dill.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Dill": false}
+		},
+		{ "LogName": "Dill Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Dill_alt.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Dill": true}
+		},
+		{ "LogName": "Fenugreek Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Fenugreek.png",
+			"ToArea": { "X": 48, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Fenugreek": false}
+		},
+		{ "LogName": "Fenugreek Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Fenugreek_alt.png",
+			"ToArea": { "X": 48, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Fenugreek": true}
+		},
+		{ "LogName": "Tarragon Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Tarragon.png",
+			"ToArea": { "X": 80, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Tarragon": false}
+		},
+		{ "LogName": "Tarragon Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Tarragon_alt.png",
+			"ToArea": { "X": 80, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Tarragon": true}
+		},
+		{ "LogName": "Turmeric Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Turmeric.png",
+			"ToArea": { "X": 112, "Y": 192, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Wormwood Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Wormwood.png",
+			"ToArea": { "X": 144, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Wormwood": false}		
+		},
+		{ "LogName": "Wormwood Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Wormwood_alt.png",
+			"ToArea": { "X": 144, "Y": 192, "Width": 16, "Height": 16 },
+			"When": { "AltSeedbag |contains= Wormwood": true}	
+		},
+		{ "LogName": "Oregano Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Oregano.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Licorice Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Licorice.png",
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Lemongrass Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Lemongrass.png",
+			"ToArea": { "X": 240, "Y": 192, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Marjoram Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Marjoram.png",
+			"ToArea": { "X": 272, "Y": 192, "Width": 16, "Height": 16 }
+		},
+
+		//   MULTI-SEASON SEEDBAGS
+
+        // { "LogName": "y",
+		// 	"Action": "EditImage",
+		// 	"Target": "Cornucopia.MoreCrops/Objects",
+		// 	"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/x_{{Season}}.png",
+		// 	"ToArea": { "X": 00, "Y": 00, "Width": 16, "Height": 16 },
+		// 	"When": { "Season": "spring", "RegularSeedbags |contains= x": true}
+		// },
+
+		// Row 1
+		{ "LogName": "Cotton",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Cotton.png",
+			"ToArea": { "X": 240, "Y": 0, "Width": 16, "Height": 16 }
+		},
+
+		// Row 5
+		{ "LogName": "Spinach Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Spinach.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 16 }
+		},
+
+		// Row 7
+		{ "LogName": "Okra Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Okra.png",
+			"ToArea": { "X": 208, "Y": 96, "Width": 16, "Height": 16 }
+		},
+		{ "LogName": "Ginseng Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Ginseng.png",
+			"ToArea": { "X": 240, "Y": 96, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Ginseng": false}
+		},
+		{ "LogName": "Ginseng Seeds Alt",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/Unique/Ginseng.png",
+			"ToArea": { "X": 240, "Y": 96, "Width": 16, "Height": 16 },
+			"When": { "UniqueSeedbag |contains= Ginseng": true}
+		},
+
+		// Row 14
+		{ "LogName": "Groundcherry Seeds",
+			"Action": "EditImage",
+			"Target": "Cornucopia.MoreCrops/Objects",
+			"FromFile": "{{SaturationToggle}}/{{SeasonalColouredSeedbags}}/Groundcherries.png",
+			"ToArea": { "X": 80, "Y": 208, "Width": 16, "Height": 16 }
+		}
+
+    ]
+}

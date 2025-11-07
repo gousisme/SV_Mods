@@ -1,0 +1,283 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "RPB_Parsnip": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Parsnip.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_spring",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Parsnip.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Parsnip.DonateText}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_parsnip"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Powdermelon": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Powdermelon.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_spring",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Powdermelon.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Powdermelon.DonateText}}",
+              "RequiredCount": "16",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_powdermelon"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Strawberry": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Strawberry.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_summer",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Strawberry.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Strawberry.DonateText}}",
+              "RequiredCount": "8",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_strawberry"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Rhubarb": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Rhubarb.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_summer",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Rhubarb.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Rhubarb.DonateText}}",
+              "RequiredCount": "4",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_rhubarb"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Corn": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Corn.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_fall",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Corn.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Corn.DonateText}}",
+              "RequiredCount": "20",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_corn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Melon": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Melon.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_fall",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Melon.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Melon.DonateText}}",
+              "RequiredCount": "4",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_melon"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Cranberries": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Cranberries.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_winter",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Cranberries.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Cranberries.DonateText}}",
+              "RequiredCount": "13",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_cranberries"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        },
+        "RPB_Pumpkin": {
+          "Name": "{{i18n:RPB.SpecialOrders.RPB_Pumpkin.Name}}",
+          "Requester": "{{i18n:RPB.ChenXiaoMing.Name}}",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "season_winter",
+          "OrderType": "RPB_CXM",
+          "SpecialRule": "",
+          "Text": "{{i18n:RPB.SpecialOrders.RPB_Pumpkin.Text}}",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:RPB.SpecialOrders.RPB_Pumpkin.DonateText}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "RedPandaBazaar_DropBox",
+                "DropBoxGameLocation": "Custom_ChenQiShop1",
+                "DropBoxIndicatorLocation": "8 6 9 6",
+                "AcceptedContextTags": "item_pumpkin"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

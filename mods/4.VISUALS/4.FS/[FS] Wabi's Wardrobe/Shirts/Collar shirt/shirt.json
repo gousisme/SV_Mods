@@ -1,0 +1,103 @@
+{
+  "Name": "Collared Shirt",
+  "FrontShirt": {
+    "SleeveColors": [
+      [ 206, 205, 211 ],
+      [ 234, 234, 237 ],
+      [ 206, 205, 211 ],
+    ],
+    "ColorMasks": [
+      [ 157, 155, 167 ],
+      [ 234, 234, 237 ],
+      [ 206, 205, 211 ],
+    ],      
+    "DisableGrayscale": false, 
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "BodyPosition": {
+      "X": 4,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "RightShirt": {
+    "SleeveColors": [
+      [ 234, 234, 237 ],
+      [ 157, 155, 167 ],
+      [ 206, 205, 211 ],
+    ],
+    "ColorMasks": [
+      [ 157, 155, 167 ],
+      [ 234, 234, 237 ],
+      [ 206, 205, 211 ],
+    ],      
+    "DisableGrayscale": false,   
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "BodyPosition": {
+      "X": 4,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "LeftShirt": {
+    "SleeveColors": [
+      [ 234, 234, 237 ],
+      [ 157, 155, 167 ],
+      [ 206, 205, 211 ],
+    ],
+    "ColorMasks": [
+      [ 157, 155, 167 ],
+      [ 234, 234, 237 ],
+      [ 206, 205, 211 ],
+    ],      
+    "DisableGrayscale": false, 
+     "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "BodyPosition": {
+      "X": 3,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "BackShirt": {
+    "SleeveColors": [
+      [ 234, 234, 237 ],
+      [ 157, 155, 167 ],
+      [ 206, 205, 211 ],
+    ],
+    "ColorMasks": [
+      [ 157, 155, 167 ],
+      [ 234, 234, 237 ],
+      [ 206, 205, 211 ],
+    ],     
+    "DisableGrayscale": false,
+      "StartingPosition": {
+      "X": 0,
+      "Y": 48
+    },
+    "BodyPosition": {
+      "X": 4,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 12,
+      "Length": 8
+    }
+  }
+}

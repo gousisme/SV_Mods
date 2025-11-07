@@ -1,0 +1,30 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Quests",
+		"Entries": {
+			"{{ModId}}_FoxQuest": "SecretLostItem/Fox License/You can give Marnie the Fox License so she can sell foxes as pets./Give Marnie the Fox License./Marnie {{ModId}}_FoxLicense 0/-1/0/-1/false/{{i18n: Marnie.GivenLicense}}#$action addMail Current {{ModId}}_MailFox#",
+			
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Pets",
+		"When": "HasReadLetter {{ModId}}_MailFox",
+		"TargetField": [ "{{ModId}}_Fox", "Breeds", "0" ],
+		"Entries": {
+			"CanBeAdoptedFromMarnie": true,
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Pets",
+		"When": "HasReadLetter {{ModId}}_MailFox",
+		"TargetField": [ "{{ModId}}_Fox", "Breeds", "1" ],
+		"Entries": {
+			"CanBeAdoptedFromMarnie": true,
+		}
+	},
+]
+}

@@ -1,0 +1,183 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+        {
+			"LogName": "PC's Old World Furniture Texture Load",
+			"Action": "Load",
+			"Target": "Mods/PC.OWFurniture/OWFurniture, Mods/PC.OWFurniture/OWFurnitureFront",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },      
+
+		         
+		{
+			"LogName": "PC's Old World Furniture Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+				"OWF.SturdyCarvedBed": "Sturdy Carved Bed/bed double/3 4/3 3/1/7500/-1/{{i18n:SturdyCarvedBed}}/0/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueBed": "Antique Bed/bed double/3 4/3 3/1/7500/-1/{{i18n:AntiqueBed}}/24/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HorseStatueR": "Horse Statue R/other/2 4/2 1/1/10000/-1/{{i18n:HorseStatue}}/6/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HorseStatueL": "Horse Statue L/other/2 4/2 1/1/10000/-1/{{i18n:HorseStatue}}/62/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongCurtainL": "LongCurtain L/painting/1 3/1 3/1/750/-1/{{i18n:LongCurtain}}/14/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongCurtainR": "LongCurtain R/painting/1 3/1 3/1/750/-1/{{i18n:LongCurtain}}/15/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongCurtainL2": "LongCurtain L2/painting/1 3/1 3/1/750/-1/{{i18n:LongCurtain}}/620/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongCurtainR2": "LongCurtain R2/painting/1 3/1 3/1/750/-1/{{i18n:LongCurtain}}/621/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.ChesterfieldSofa": "Chesterfield Sofa/couch/3 2/3 1/4/7500/-1/{{i18n:ChesterfieldSofa}}/64/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.ChesterfieldArmchair": "Chesterfield Armchair/armchair/2 2/2 1/4/2500/-1/{{i18n:ChesterfieldArmchair}}/88/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueSideLamp": "Antique Side Lamp/lamp/1 3/1 1/1/1500/-1/{{i18n:AntiqueSideLamp}}/112/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueFloorLamp": "Antique Floor Lamp/lamp/1 3/1 1/1/2000/-1/{{i18n:AntiqueFloorLamp}}/114/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueSideLamp2": "Antique Side Lamp2/lamp/1 3/1 1/1/1500/-1/{{i18n:AntiqueSideLamp}}/116/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.ZebraRug": "Zebra Rug/rug/5 4/5 4/1/10000/-1/{{i18n:ZebraRug}}/119/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.ZebraRug2": "Zebra Rug2/rug/4 4/4 4/1/10000/-1/{{i18n:ZebraRug}}/124/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeBooks": "Decorative Books/other/1 1/1 1/1/500/-1/{{i18n:DecorativeBooks}}/160/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeLamp": "Decorative Lamp/other/1 1/1 1/1/500/-1/{{i18n:DecorativeLamp}}/161/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeTray": "Decorative Tray/other/1 1/1 1/1/500/-1/{{i18n:DecorativeTray}}/162/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeBookPile": "Decorative Book Pile/other/1 1/1 1/1/500/-1/{{i18n:DecorativeBookPile}}/163/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.MrMeep": "'Mr Meep'/painting/3 2/3 2/1/1000/-1/{{i18n:MrMeep}}/352/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeHuntingBoots": "DecorativeHuntingBoots/other/1 1/1 1/1/500/-1/{{i18n:DecorativeHuntingBoots}}/371/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeChests": "Decorative Chests/other/2 2/2 1/1/500/-1/{{i18n:DecorativeChests}}/356/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.BedroomClutter": "Bedroom Clutter/other/2 2/2 1/1/500/-1/{{i18n:BedroomClutter}}/553/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HardwoodBureau": "Hardwood Bureau/dresser/2 4/2 1/1/750/-1/{{i18n:HardwoodBureau}}/512/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HardwoodBureau2": "Hardwood Bureau/dresser/2 4/2 1/1/750/-1/{{i18n:HardwoodBureau}}/576/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.CigarChair": "Cigar Chair/armchair/2 2/2 1/4/2500/-1/{{i18n:CigarChair}}/176/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.TuftedCoffeeTable": "Tufted Coffee Table/table/2 2/2 2/1/2500/-1/{{i18n:TuftedCoffeeTable}}/478/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.SturdyWorkdesk": "Sturdy Workdesk/table/3 2/3 1/1/5000/-1/{{i18n:SturdyWorkdesk}}/472/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.SturdyWorkdesk2": "Sturdy Workdesk2/table/3 2/3 1/1/5000/-1/{{i18n:SturdyWorkdesk}}/475/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueWallLamp": "Antique Wall Lamp/sconce/1 2/1 2/1/2000/-1/{{i18n:AntiqueWallLamp}}/480/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueGlobe": "Antique Globe/other/2 2/2 1/1/1000/-1/{{i18n:AntiqueGlobe}}/426/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.BuiltInDrawers": "Built-In Drawers/painting/3 3/1 3/1/1500/-1/{{i18n:BuiltInDrawers}}/189/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",				
+				"OWF.PoshCurioCabinet": "Posh Curio Cabinet/bookcase/5 4/5 1/1/10000/-1/{{i18n:PoshCurioCabinet}}/208/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HuntingTrophy": "Hunting Trophy/painting/3 2/3 2/1/2000/-1/{{i18n:HuntingTrophy}}/182/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HuntingTrophy2": "Hunting Trophy2/painting/2 2/2 2/1/1500/-1/{{i18n:HuntingTrophy}}/185/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HuntingTrophy3": "Hunting Trophy3/painting/2 2/2 2/1/1500/-1/{{i18n:HuntingTrophy}}/187/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.FramedWorldMap": "Framed World Map/painting/3 2/3 2/1/1000/-1/{{i18n:FramedWorldMap}}/218/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.WorldMapPoster": "World Map Poster/painting/2 2/2 2/1/750/-1/{{i18n:WorldMapPoster}}/251/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.TheHunters": "'The Hunters'/painting/2 2/2 2/1/1000/-1/{{i18n:TheHunters}}/216/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.TheHunters2": "'The Hunters'2/painting/3 3/3 3/1/1000/-1/{{i18n:TheHunters}}/285/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.MeadWithJuniperBerries": "'Mead with Juniper Berries'2/painting/3 2/3 2/1/1000/-1/{{i18n:MeadWithJuniperBerries}}/248/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.PortraitOfAGentleman": "'Portrait of a Gentleman'/painting/3 3/3 3/1/1000/-1/{{i18n:PortraitOfAGentleman}}/237/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.PortraitOfAGentleman2": "'Portrait Of A Gentleman'/painting/3 2/3 2/1/1000/-1/{{i18n:PortraitOfAGentleman}}/578/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueBed2": "Antique Bed2/bed double/3 5/3 3/1/7500/-1/{{i18n:AntiqueBed}}/272/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.AntiqueGreenBed": "Antique Green Bed/bed double/3 4/3 3/1/7500/-1/{{i18n:AntiqueGreenBed}}/278/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.FakeBearRug": "Fake Bear Rug/rug/3 3/3 3/1/5000/-1/{{i18n:FakeBearRug}}/428/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeOldTrunks": "Decorative Old Trunks/other/2 3/2 1/1/1500/-1/{{i18n:DecorativeOldTrunks}}/555/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.DecorativeOldTrunks2": "Decorative Old Trunks 2/other/2 2/2 1/1/1500/-1/{{i18n:DecorativeOldTrunks}}/557/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",				
+				"OWF.HardwoodPartition": "Hardwood Partition/other/1 3/1 1/1/1000/-1/{{i18n:HardwoodPartition}}/350/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HardwoodPartition2": "Hardwood Partition2/other/1 3/1 1/1/1000/-1/{{i18n:HardwoodPartition}}/351/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HardwoodPartitionEnd": "Hardwood Partition End/other/1 3/1 1/1/1000/-1/{{i18n:HardwoodPartitionEnd}}/342/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HardwoodPartitionEnd2": "Hardwood Partition End2/other/1 3/1 1/1/1000/-1/{{i18n:HardwoodPartitionEnd}}/343/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongWindow": "Long Window/window/1 2/1 2/1/100/-1/{{i18n:LongWindow}}/344/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongWindow1": "Long Window1/window/1 2/1 2/1/1000/-1/{{i18n:LongWindow}}/346/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.LongWindow2": "Long Window2/window/1 2/1 2/1/1000/-1/{{i18n:LongWindow}}/348/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.HardwoodTable": "Hardwood Table/table/2 4/2 3/1/1500/-1/{{i18n:HardwoodTable}}/387/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.OldStripedSofa": "Old Striped Sofa/couch/3 2/3 1/1/1500/-1/{{i18n:OldStripedSofa}}/394/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.ZebraChair": "Zebra Chair/chair/1 2/1 1/4/2000/-1/{{i18n:ZebraChair}}/397/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",	
+				"OWF.HardwoodCoffeeTable": "Hardwood Coffee Table/table/3 3/3 2/1/2000/-1/{{i18n:HardwoodCoffeeTable}}/389/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",	
+				"OWF.HardwoodCoffeeTable2": "Hardwood Coffee Table2/table/2 3/2 2/1/2000/-1/{{i18n:HardwoodCoffeeTable}}/392/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.WineCabinet": "Wine Cabinet/other/2 3/2 1/1/5000/-1/{{i18n:WineCabinet}}/432/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.BilliardTable": "Billiard Table/table/5 3/5 2/1/7500/-1/{{i18n:BilliardTable}}/450/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",	
+				"OWF.BilliardTable2": "Billiard Table2/table/5 3/5 2/1/7500/-1/{{i18n:BilliardTable}}/610/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",	
+				"OWF.BilliardTable3": "Billiard Table3/table/5 3/5 2/1/7500/-1/{{i18n:BilliardTable}}/615/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",	
+				"OWF.BilliardCue": "Billiard Cue/other/1 3/1 1/1/500/-1/{{i18n:BilliardCue}}/455/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.MajestyPalm": "Majesty Palm/other/2 3/2 1/1/2000/-1/{{i18n:MajestyPalm}}/505/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.MajestyPalm2": "Majesty Palm2/other/2 3/2 1/1/2000/-1/{{i18n:MajestyPalm}}/507/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.MagnificentFireplace": "Magnificent Fireplace/fireplace/6 5/6 1/1/15000/-1/{{i18n:MagnificentFireplace}}/499/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF",
+				"OWF.RecordPlayerTable": "Record Player Table/other/2 3/2 1/1/1000/-1/{{i18n:RecordPlayerTable}}/214/Mods\\PC.OWFurniture\\OWFurniture/false/collection_OWF",
+			}
+		},
+		
+
+
+        
+        		{
+			"LogName": "PC's Old World Furniture Catalogue Data",
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"OWF.OldCatalogueDesk": "Old Catalogue Desk/other/3 3/3 1/1/150000/2/{{i18n:OldCatalogueDesk}}/384/Mods\\PC.OWFurniture\\OWFurniture/true/collection_OWF"
+      }
+  },
+{
+            "LogName": "Add Jukebox Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)OWF.RecordPlayerTable": {
+                    "TileActions": [
+                        {
+                            "TileAction": "Jukebox"
+                        }
+                    ]
+                }
+            }
+        },
+		{
+			"LogName": "PC's Old World Furniture Catalogue Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "PC.OWFShop": {
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Items": [
+                        {
+                            "Price": 0,
+                            "AvailableStockLimit": "Global",
+                            "AvoidRepeat": false,
+                            "UseObjectDataPrice": false,
+                            "IgnoreShopPriceModifiers": false,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "AvailableStockModifiers": null,
+                            "AvailableStockModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "ALL_ITEMS (F)",
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_OWF"
+                        }
+                    ],
+                    "CustomFields": {
+                        "HappyHomeDesigner/Catalogue": "true"
+                    }
+                }
+            }
+        },
+        
+        {
+            "LogName": "Add Catalogue Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)OWF.OldCatalogueDesk": {
+                    "TileActions": [
+                        {
+                            "TileAction": "OpenShop PC.OWFShop"
+                        }
+					]
+				}
+			}
+		},
+		
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Carpenter",
+                "Items"
+            ],
+            "Entries": {
+                "OldCatalogueDesk": {
+                    "Id": "OWF.OldCatalogueDesk",
+                    "ItemId": "(F)OWF.OldCatalogueDesk",
+                    "UseObjectDataPrice": true
+                }
+            }
+        }
+        
+        
+           
+	]
+}

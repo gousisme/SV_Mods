@@ -1,0 +1,339 @@
+{
+	"Changes": [
+		// add turkey
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+            "Entries": {
+                "Mizu.Turkey_BrownTurkey": {
+					"DisplayName": "{{i18n:BrownTurkey_name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": 1250,
+					"SellPrice": 2500,
+					"ShopTexture": "Mizu.Turkey/shopicon",
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 21,
+					  "Height": 16
+					},
+					"ShopDisplayName": "{{i18n:Turkey_name}}",
+					"ShopDescription": "{{i18n:Turkey_description}}\\n[LocalizedText Strings\\StringsFromCSFiles:PurchaseAnimalsMenu.cs.11344]",
+					"ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
+					"AlternatePurchaseTypes": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"AnimalIds": [
+						  "Mizu.Turkey_BrownTurkey",
+						  "Mizu.Turkey_WhiteTurkey"
+						]
+					  }
+					],
+					"RequiredBuilding": "Barn",
+					"UnlockCondition": null,
+					"EggItemIds": [
+					  "Mizu.Turkey_TurkeyEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 3,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Turkey_TurkeyEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Turkey_TurkeyFeather"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 5750.0,
+					"DeluxeProduceLuckMultiplier": 1.01,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Turkey_TurkeySound",
+					"BabySound": null,
+					"Texture": "Mizu.Turkey/BrownTurkey",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Turkey/BabyTurkey",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "TurkeyEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Turkey_TurkeyMeat"
+					}
+				},
+				"Mizu.Turkey_WhiteTurkey": {
+					"DisplayName": "{{i18n:WhiteTurkey_name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 2500,
+					"ShopTexture": null,
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 0,
+					  "Height": 0
+					},
+					"ShopDisplayName": null,
+					"ShopDescription": null,
+					"ShopMissingBuildingDescription": null,
+					"RequiredBuilding": null,
+					"UnlockCondition": null,
+					"AlternatePurchaseTypes": null,
+					"EggItemIds": [
+					  "Mizu.Turkey_TurkeyEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 3,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Turkey_TurkeyEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Turkey_TurkeyFeather"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 5750.0,
+					"DeluxeProduceLuckMultiplier": 1.01,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Turkey_TurkeySound",
+					"BabySound": null,
+					"Texture": "Mizu.Turkey/WhiteTurkey",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Turkey/BabyWhiteTurkey",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "TurkeyEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Turkey_TurkeyMeat"
+					}
+				},
+			}
+		},
+		
+		// add gray turkey
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+            "Entries": {
+                "Mizu.Turkey_GrayTurkey": {
+					"DisplayName": "{{i18n:GrayTurkey_name}}",
+					"House": "Barn",
+					"Gender": "Female",
+					"PurchasePrice": -1,
+					"SellPrice": 2500,
+					"ShopTexture": null,
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 0,
+					  "Height": 0
+					},
+					"ShopDisplayName": null,
+					"ShopDescription": null,
+					"ShopMissingBuildingDescription": null,
+					"RequiredBuilding": null,
+					"UnlockCondition": null,
+					"AlternatePurchaseTypes": null,
+					"EggItemIds": [
+					  "Mizu.Turkey_TurkeyEgg"
+					],
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "{{i18n:BirthText_description}}",
+					"DaysToMature": 5,
+					"CanGetPregnant": false,
+					"DaysToProduce": 3,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Turkey_TurkeyEgg"
+					  }
+					],
+					"DeluxeProduceItemIds": [
+					  {
+						"Id": "Default",
+						"Condition": null,
+						"MinimumFriendship": 0,
+						"ItemId": "Mizu.Turkey_TurkeyFeather"
+					  }
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 5750.0,
+					"DeluxeProduceLuckMultiplier": 1.01,
+					"ProfessionForHappinessBoost": 2,
+					"ProfessionForQualityBoost": 2,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "Mizu.Turkey_TurkeySound",
+					"BabySound": null,
+					"Texture": "Mizu.Turkey/GrayTurkey",
+					"HarvestedTexture": null,
+					"BabyTexture": "Mizu.Turkey/BabyTurkey",
+					"UseFlippedRightForLeft": false,
+					"SleepFrame": 17,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"UseDoubleUniqueAnimationFrames": true,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 2,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [
+					  {
+						"RequiredItemId": null,
+						"RequiredTags": [
+						  "egg_item"
+						],
+						"StatName": "TurkeyEggsLayed"
+					  }
+					],
+					"ShowInSummitCredits": true,
+					"CustomFields": {
+						"meatIndex": "Mizu.Turkey_TurkeyMeat"
+					}
+				}
+			},
+			"When": {
+				"Enable Gray Turkey": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [ "Mizu.Turkey_BrownTurkey", "AlternatePurchaseTypes", "Default", "AnimalIds" ],
+			"Entries": {
+				"#-1": "Mizu.Turkey_GrayTurkey"
+			},
+			"When": {
+				"Enable Gray Turkey": true
+			}
+		}
+	]
+}

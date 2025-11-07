@@ -1,0 +1,159 @@
+{
+    "Changes": [
+        {
+            "LogName": "NPC Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Clara.Ripley": {
+                    "DisplayName": "Ripley",
+                    "BirthSeason": "spring",
+                    "BirthDay": 17,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": true,
+                    "LoveInterest": "Sterling",
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "EndSlideShow": "MainGroup",
+
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_RipleyHouse",
+                            "Tile": {
+                                "X": 28,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+
+                    "Breather": true,
+
+                    // NEW STUFF
+                    // set a default texture name - this is used for stuff like the social tab and calendar (you leave off the Portraits or Characters part of the path)
+                    "TextureName": "Clara.Ripley",
+
+                    "Appearance": [
+
+                        {
+                            "Id": "Fallback",
+                            "Precedence": 1,
+                            "Sprite": "Characters\\Clara.Ripley\\Spring",
+                            "Portrait": "Portraits\\Clara.Ripley\\Spring"
+                        },
+                        // standard seasonals
+                        {
+                            "Id": "Spring",
+                            "Precedence": 0,
+                            "Season": "spring",
+                            "Sprite": "Characters\\Clara.Ripley\\Spring",
+                            "Portrait": "Portraits\\Clara.Ripley\\Spring"
+                        },
+                        {
+                            "Id": "Summer",
+                            "Precedence": 0,
+                            "Season": "summer",
+                            "Sprite": "Characters\\Clara.Ripley\\Summer",
+                            "Portrait": "Portraits\\Clara.Ripley\\Summer"
+                        },
+                        {
+                            "Id": "Fall",
+                            "Precedence": 0,
+                            "Season": "fall",
+                            "Sprite": "Characters\\Clara.Ripley\\Fall",
+                            "Portrait": "Portraits\\Clara.Ripley\\Fall"
+                        },
+                        {
+                            "Id": "Winter",
+                            "Precedence": 0,
+                            "Season": "winter",
+                            "Sprite": "Characters\\Clara.Ripley\\Winter",
+                            "Portrait": "Portraits\\Clara.Ripley\\Winter"
+                        },
+                        // Beach and Island - higher precedence so they take priority over standard seasonals
+                        {
+                            "Id": "Beach",
+                            "Precedence": -1,
+                            "Condition": "LOCATION_NAME Here Beach, WEATHER Here Sun Wind, !SEASON winter", // instead of specifying a season, our condition is that ripley is at the beach and it's not winter or bad weather
+                            "Sprite": "Characters\\Clara.Ripley\\Beach",
+                            "Portrait": "Portraits\\Clara.Ripley\\Beach"
+                        },
+                        {
+                            "Id": "Island",
+                            "Precedence": -1,
+                            "IsIslandAttire": true, // no season or condition needed - appearances specified as island attire can *only* be used at the island
+                            "Sprite": "Characters\\Clara.Ripley\\Beach",
+                            "Portrait": "Portraits\\Clara.Ripley\\Beach"
+                        },
+                        // Bad weather - higher precedence so they take priority over seasonals and beach (you can change this if you'd rather she wear her swimsuit at the beach even in the rain)
+                        {
+                            "Id": "BadWeather_Outdoors",
+                            "Precedence": -2,
+                            "Condition": "WEATHER Here Rain GreenRain Storm Snow", // condition is any bad weather
+                            "Indoors": false, // only wears her hood outdoors
+                            "Sprite": "Characters\\Clara.Ripley\\Cloak_Outdoors",
+                            "Portrait": "Portraits\\Clara.Ripley\\Cloak_Outdoors"
+                        },
+                        {
+                            "Id": "BadWeather_Indoors",
+                            "Precedence": -2,
+                            "Condition": "WEATHER Custom_SBV_SunberryVillage Rain GreenRain Storm Snow", // condition is any bad weather in the village (not in the location she's in currently because she's indoors right now)
+                            "Outdoors": false, // hood down indoors
+                            "Sprite": "Characters\\Clara.Ripley\\Cloak_Indoors",
+                            "Portrait": "Portraits\\Clara.Ripley\\Cloak_Indoors"
+                        },
+                        // Festivals - take precedence over seasonals, beach, bad weather
+                        // Spirit's Eve, Flower Dance, Luau, Jellies
+                        {
+                            "Id": "SpiritsEve",
+                            "Precedence": -3,
+                            "Condition": "IS_EVENT festival_fall27",
+                            "Sprite": "Characters\\Clara.Ripley\\SpiritsEve",
+                            "Portrait": "Portraits\\Clara.Ripley\\SpiritsEve"
+                        },
+                        {
+                            "Id": "FlowerDance",
+                            "Precedence": -3,
+                            "Condition": "IS_EVENT festival_spring24",
+                            "Sprite": "Characters\\Clara.Ripley\\FlowerDance",
+                            "Portrait": "Portraits\\Clara.Ripley\\FlowerDance"
+                        },
+                        // need these bc they're on temp maps so the normal beach appearance doesn't apply
+                        {
+                            "Id": "Luau",
+                            "Precedence": -3,
+                            "Condition": "IS_EVENT festival_summer11",
+                            "Sprite": "Characters\\Clara.Ripley\\Beach",
+                            "Portrait": "Portraits\\Clara.Ripley\\Beach"
+                        },
+                        {
+                            "Id": "Jellies",
+                            "Precedence": -3,
+                            "Condition": "IS_EVENT festival_summer28",
+                            "Sprite": "Characters\\Clara.Ripley\\Beach",
+                            "Portrait": "Portraits\\Clara.Ripley\\Beach"
+                        }
+                    ],
+                    "CustomFields": {
+                            "IgnorePSL": "true"
+                    }
+                }
+            }
+        }
+    ]
+}

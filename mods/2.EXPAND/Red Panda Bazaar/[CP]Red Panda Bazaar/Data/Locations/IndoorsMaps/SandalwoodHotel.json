@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_SandalwoodHotel1": {
+          "DisplayName": "{{i18n:SandalwoodHotel1}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_SandalwoodHotel1"
+          },
+          "FormerLocationNames": [
+            "SandalwoodHotel1"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_SandalwoodHotel2": {
+          "DisplayName": "{{i18n:SandalwoodHotel2}}",
+          "CreateOnLoad": {
+            "AlwaysActive": true,
+            "MapPath": "Maps\\Custom_SandalwoodHotel2"
+          },
+          "FormerLocationNames": [
+            "SandalwoodHotel2"
+          ]
+        }
+      }
+    }
+  ]
+}

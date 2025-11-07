@@ -1,0 +1,20 @@
+{
+    "Name": "LBXLW'RFRF Furniture",
+    "Author": "labixiaoluwan",
+    "Version": "1.0.0",
+    "Description": "Add Redfox Rainfrog and Mosaic Furniture.",
+    "UniqueID": "LBXLW_RFRF_Furniture",
+    "UpdateKeys": [
+        "Nexus:34044"
+    ],
+    "Dependencies": [
+        {
+         "UniqueID": "spacechase0.ContentPatcherAnimations",
+         "IsRequired": false
+        }
+    ], 
+    "ContentPackFor": {
+         "UniqueID": "Pathoschild.ContentPatcher",
+         "MinimumVersion": "2.0.0"
+    }
+}

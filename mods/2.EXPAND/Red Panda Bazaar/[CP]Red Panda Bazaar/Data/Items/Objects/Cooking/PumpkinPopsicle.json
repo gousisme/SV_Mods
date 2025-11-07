@@ -1,0 +1,68 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Pumpkin Popsicle": "276 1 245 1 -6 1/9999 9999/RedPandaBazaar_Pumpkin_Popsicle/null/{{i18n:RedPandaBazaar.Object.Pumpkin.Popsicle.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Pumpkin_Popsicle": {
+          "Name": "Pumpkin Popsicle",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Pumpkin.Popsicle.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Pumpkin.Popsicle.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 38,
+          "Edibility": 50,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Abigail",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pumpkin_Popsicle",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Krobus",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pumpkin_Popsicle",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Willy",
+            1
+          ],
+          "Value": "RedPandaBazaar_Pumpkin_Popsicle",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

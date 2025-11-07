@@ -1,0 +1,122 @@
+{
+	"Changes": [
+	{
+		"LogName": "Lani NPC Disposition",
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"LaniSBV": {
+				"DisplayName": "{{i18n:Lani.Name}}",
+				"BirthSeason": "Summer",
+				"BirthDay": 15,
+				"HomeRegion": "Town",
+				"Language": "Default",
+				"Gender": "Female",
+				"Age": "Teen",
+				"Manner": "Neutral",
+				"SocialAnxiety": "Shy",
+				"Optimism": "Negative",
+				"IsDarkSkinned": false,
+				"CanVisitIsland": false,
+				"CanBeRomanced": false,
+				"CanReceiveGifts": true,
+				"Calendar": "AlwaysShown",
+				"SocialTab": "UnknownUntilMet",
+				"IntroductionsQuest": true,
+				"ItemDeliveryQuests": false,
+				"EndSlideShow": "TrailingGroup",
+				"DumpsterDiveEmote": 28,
+				"DumpsterDiveFriendshipEffect": -10,
+				"FlowerDanceCanDance": true,
+				"WinterStarGifts": [
+					{
+						"Id": "Opal",
+						"ItemId": "564",
+						"MinStack": 1,
+						"MaxStack": 5,
+						"Quality": -1,
+						"Condition": null
+					},
+					{
+						"Id": "FireOpal",
+						"ItemId": "565",
+						"MinStack": 1,
+						"MaxStack": 5,
+						"Quality": -1,
+						"Condition": null
+					},
+					{
+						"Id": "Sunflower",
+						"ItemId": "421",
+						"MinStack": 2,
+						"MaxStack": 10,
+						"Quality": -1,
+						"Condition": null
+					},
+					{
+						"Id": "Wine",
+						"ItemId": "348",
+						"MinStack": 1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"Condition": null
+					},
+				],
+				"SpawnIfMissing": true,
+				"Home": [
+					{
+						"Id": "Default",
+						"Condition": null,
+						"Location": "Custom_SBV_LaniHouse",
+						"Tile": {
+							"X": 25,
+							"Y": 8
+						},
+						"Direction": "left"
+					}
+				],
+				"TextureName": "LaniSBV",
+				"Appearance": [
+					{
+						"Id": "LaniSBV_Summer",
+						"Season": "Summer",
+						"Portrait": "Portraits/LaniSBV_Summer",
+						"Sprite": "Characters/LaniSBV_Summer",
+						"IsIslandAttire": true
+					},
+					{
+						"Id": "LaniSBV_Fall",
+						"Season": "Fall",
+						"Portrait": "Portraits/LaniSBV_Fall",
+						"Sprite": "Characters/LaniSBV_Fall"
+					},
+					{
+						"Id": "LaniSBV_Winter",
+						"Season": "Winter",
+						"Portrait": "Portraits/LaniSBV_Winter",
+						"Sprite": "Characters/LaniSBV_Winter"
+					},
+					{
+						"Id": "LaniSBV_Festival",
+						"Condition": "!SEASON_DAY fall 27 winter 8 winter 25, IS_FESTIVAL_DAY Any",
+						"Portrait": "Portraits/LaniSBV_Festival",
+						"Sprite": "Characters/LaniSBV_Festival"
+					},
+					{
+						"Id": "LaniSBV_SpiritsEve",
+						"Condition": "SEASON_DAY fall 27",
+						"Portrait": "Portraits/LaniSBV_SpiritsEve",
+						"Sprite": "Characters/LaniSBV_SpiritsEve",
+						"Precedence": -1
+					}
+				],
+				"Size": {
+					"X": 16,
+					"Y": 32
+				},
+				"Breather": true
+			}
+		}
+	}
+	]
+}

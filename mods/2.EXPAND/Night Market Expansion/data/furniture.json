@@ -1,0 +1,50 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"{{ModId}}_OilLamp": "{{ModId}}_OilLamp/lamp/1 2/1 1/1/500/-1/{{i18n: OilLamp.DisplayName}}/0/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_OrnateRug1": "{{ModId}}_OrnateRug1/rug/3 2/-1/2/500/-1/{{i18n: OrnateRug.DisplayName}}/2/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_OrnateRug2": "{{ModId}}_OrnateRug2/rug/2 1/2 1/2/500/-1/{{i18n: OrnateRug.DisplayName}}/22/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_OrnateVase": "{{ModId}}_OrnateVase/decor/1 2/1 1/2/500/2/{{i18n: OrnateVase.DisplayName}}/50/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_GreekVase": "{{ModId}}_GreekVase/decor/1 2/1 1/2/500/2/{{i18n: GreekVase.DisplayName}}/70/Mods\\{{ModId}}\\Furniture/true",
+		
+			"{{ModId}}_RoomDivider": "{{ModId}}_RoomDivider/decor/2 3/2 1/1/500/2/{{i18n: RoomDivider.DisplayName}}/56/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_NightMarketBanner": "{{ModId}}_NightMarketBanner/painting/1 3/1 3/1/500/0/{{i18n: NightMarketBanner.DisplayName}}/9/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_Teapot": "{{ModId}}_Teapot/decor/1 1/1 1/2/500/0/{{i18n: Teapot.DisplayName}}/32/Mods\\{{ModId}}\\Furniture/true",
+
+			"{{ModId}}_OilLampTall": "{{ModId}}_OilLampTall/lamp/1 3/1 1/1/500/2/{{i18n: OilLampTall.DisplayName}}/20/Mods\\{{ModId}}\\Furniture/true",
+		}
+	},
+	//{
+	//	"Action": "EditData",
+	//	"Target": "Data/BigCraftables",
+	//	"Entries": {
+	//		"{{ModId}}_OilLampTall": {
+	//			"Name": "{{ModId}}_OilLampTall",
+	//			"DisplayName": "{{i18n: OilLampTall.DisplayName}}",
+	//			"Description": "{{i18n: OilLampTall.Description}}",
+	//			"IsLamp": true,
+	//			"Texture": "Mods/{{ModId}}/Furniture",
+	//			"SpriteIndex": 11,
+	//		}
+//
+//		}
+//	},
+{
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"Entries": {
+			"{{ModId}}_OilLampTall": "{{ModId}}_SealBlubber 1 335 1/Field/{{ModId}}_OilLampTall/false/null",
+
+		}
+	}
+]
+}

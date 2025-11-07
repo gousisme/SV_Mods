@@ -1,0 +1,133 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"SaturationToggle": 
+		{
+			"AllowValues": "Saturated, Desaturated",
+			"Default": "Saturated",
+		},
+
+// CATEGORY ON/OFF CONFIGS
+		
+		"AnimalProductsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ArtisanGoodsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"FoodSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"IngredientsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		
+// INDIVIDUAL TOGGLES
+
+		"AnimalProducts": 
+		{
+			"AllowValues": "Brown Egg, Duck Egg, Duck Feather, Egg, Goat Milk, Golden Egg, Honey, Large Brown Egg, Large Egg, Large Goat Milk, Large Milk, Milk, Ostrich Egg, Rabbit's Foot, Roe, Squid Ink, Truffle, Void Egg, Wool",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Brown Egg, Duck Egg, Duck Feather, Egg, Goat Milk, Golden Egg, Honey, Large Brown Egg, Large Egg, Large Goat Milk, Large Milk, Milk, Ostrich Egg, Rabbit's Foot, Roe, Squid Ink, Truffle, Void Egg, Wool",
+			"Section": "Animal Products"
+		},
+		"AnimalGoodsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Animal Artisan Goods"
+		},
+		"AnimalGoods": 
+		{
+			"AllowValues": "Aged Roe, Caviar, Cheese, Cloth, Dinosaur Mayonnaise, Duck Mayonnaise, Goat Cheese, Mayonnaise, Mead, Smoked Fish, Truffle Oil, Void Mayonnaise",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Aged Roe, Caviar, Cheese, Cloth, Dinosaur Mayonnaise, Duck Mayonnaise, Goat Cheese, Mayonnaise, Mead, Smoked Fish, Truffle Oil, Void Mayonnaise",
+			"Section": "Animal Artisan Goods"
+		},
+		"CropGoodsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Crop Artisan Goods"
+		},
+		"CropGoods": 
+		{
+			"AllowValues": "Beer, Coffee, Dried Mushrooms, Green Tea, Jelly, Juice, Pale Ale, Pickles, Wine",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Beer, Coffee, Dried Mushrooms, Green Tea, Jelly, Juice, Pale Ale, Pickles, Wine",
+			"Section": "Crop Artisan Goods"
+		},
+		"Food": 
+		{
+			"AllowValues": "Algae Soup, Artichoke Dip, Autumn's Bounty, Baked Fish, Banana Pudding, Bean Hotpot, Blackberry Cobbler, Blueberry Tart, Bread, Bruschetta, Bug Steak, Carp Surprise, Cheese Cauliflower, Chocolate Cake, Chowder, Coleslaw, Complete Breakfast, Cookie, Crab Cakes, Cranberry Candy, Cranberry Sauce, Crispy Bass, Dish O' The Sea, Eggplant Parmesan, Escargot, Farmer's Lunch, Fiddlehead Risotto, Field Snack, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Fried Egg, Fried Mushroom, Fruit Salad, Ginger Ale, Glazed Yams, Hashbrowns, Icecream, Lobster Bisque, Lucky Lunch, Maki Roll, Mango Sticky Rice, Maple Bar, Miner's Treat, Moss Soup, Omelet, Pale Broth, Pancakes, Parsnip Soup, Pepper Poppers, Pina Colada, Pink Cake, Pizza, Plum Pudding, Poi, Poppyseed Muffin, Pumpkin Pie, Pumpkin Soup, Radish Salad, Red Plate, Rhubarb Pie, Rice Pudding, Roasted Hazelnuts, Roots Platter, Salad, Salmon Dinner, Sashimi, Shrimp Cocktail, Spaghetti, Spicy Eel, Squid Ink Ravioli, Stardrop Tea, Stirfry, Strange Bun, Stuffing, Super Meal, Survival Burger, Tom Kha Soup, Tortilla, Triple Shot Espresso, Tropical Curry, Trout Soup, Vegetable Medley",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Algae Soup, Artichoke Dip, Autumn's Bounty, Baked Fish, Banana Pudding, Bean Hotpot, Blackberry Cobbler, Blueberry Tart, Bread, Bruschetta, Bug Steak, Carp Surprise, Cheese Cauliflower, Chocolate Cake, Chowder, Coleslaw, Complete Breakfast, Cookie, Crab Cakes, Cranberry Candy, Cranberry Sauce, Crispy Bass, Dish O' The Sea, Eggplant Parmesan, Escargot, Farmer's Lunch, Fiddlehead Risotto, Field Snack, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Fried Egg, Fried Mushroom, Fruit Salad, Ginger Ale, Glazed Yams, Hashbrowns, Icecream, Lobster Bisque, Lucky Lunch, Maki Roll, Mango Sticky Rice, Maple Bar, Miner's Treat, Moss Soup, Omelet, Pale Broth, Pancakes, Parsnip Soup, Pepper Poppers, Pina Colada, Pink Cake, Pizza, Plum Pudding, Poi, Poppyseed Muffin, Pumpkin Pie, Pumpkin Soup, Radish Salad, Red Plate, Rhubarb Pie, Rice Pudding, Roasted Hazelnuts, Roots Platter, Salad, Salmon Dinner, Sashimi, Shrimp Cocktail, Spaghetti, Spicy Eel, Squid Ink Ravioli, Stardrop Tea, Stirfry, Strange Bun, Stuffing, Super Meal, Survival Burger, Tom Kha Soup, Tortilla, Triple Shot Espresso, Tropical Curry, Trout Soup, Vegetable Medley",
+			"Section": "Food"
+		},
+		"Ingredients": 
+		{
+			"AllowValues": "Fairy Dust, Oil, Rice, Sugar, Vinegar, Wheat Flour",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Fairy Dust, Oil, Rice, Sugar, Vinegar, Wheat Flour",
+			"Section": "Ingredients"
+		},
+	},
+	
+	"Changes": [
+		{
+			"LogName": "Animal Products Code",
+			"Action": "Include",
+			"FromFile": "Code/AnimalProducts.json",
+			"When": 
+			{
+				"AnimalProductsSpritesEnabled": true
+			}
+		},	
+		{
+			"LogName": "Artisan Goods Code",
+			"Action": "Include",
+			"FromFile": "Code/ArtisanGoods.json",
+			"When": 
+			{
+				"ArtisanGoodsSpritesEnabled": true
+			}
+		},	
+		{
+			"LogName": "Food Code",
+			"Action": "Include",
+			"FromFile": "Code/Food.json",
+			"When": 
+			{
+				"FoodSpritesEnabled": true
+			}
+		},	
+		{
+			"LogName": "Ingredients Code",
+			"Action": "Include",
+			"FromFile": "Code/Ingredients.json",
+			"When": 
+			{
+				"IngredientsSpritesEnabled": true
+			}
+		},
+	]
+}

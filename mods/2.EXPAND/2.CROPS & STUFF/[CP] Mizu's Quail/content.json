@@ -1,0 +1,43 @@
+{
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable Common Quail": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Enables the Common Quail texture and adds it to the possible quail appearances."
+		},
+		"Enable Scaled Quail": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": "Enables the Scaled Quail texture and adds it to the possible quail appearances."
+		}
+	},
+		
+	"Changes": [
+		// add item + animal images
+		{
+			"Action": "Load",
+			"Target": "Mizu.Quail/BabyQuail, Mizu.Quail/BabyPlumedQuail, Mizu.Quail/BobwhiteQuail, Mizu.Quail/PlumedQuail, Mizu.Quail/CommonQuail, Mizu.Quail/ScaledQuail, Mizu.Quail/shopicon, Mizu.Quail/objects, Mizu.Quail/book",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		
+		// add music cues
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "Mizu.Quail_QuailSound": {
+                    "ID": "Mizu.Quail_QuailSound",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: sfx/quail1.wav}}", "{{AbsoluteFilePath: sfx/quail2.wav}}", "{{AbsoluteFilePath: sfx/quail3.wav}}", "{{AbsoluteFilePath: sfx/quail4.wav}}", "{{AbsoluteFilePath: sfx/quail5.wav}}" ]
+                }
+            }
+		},
+		
+		// add subfiles
+		{
+			"Action": "Include",
+			"FromFile": "data/books.json, data/animals.json, data/machines.json, data/objects.json, data/recipes.json, data/shops.json"
+		}
+	]
+}

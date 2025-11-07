@@ -1,0 +1,24 @@
+{
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/RedPandaBazaar_ChenXiaoMing",
+      "FromFile": "Assets/Sprites/Blank.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Desert",
+        "Day": "1,8,22"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/RedPandaBazaar_LiQingFeng",
+      "FromFile": "Assets/Sprites/Blank.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Desert",
+        "Day": "1,8,22"
+      }
+    }
+  ]
+}

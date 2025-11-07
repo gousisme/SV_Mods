@@ -1,0 +1,2532 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_SBV_SunberryVillage": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryVillage"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 9
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_SaturdayHangout",
+                            "Track": "{{Random: kindadumbautumn, poppy, SettlingIn}}",
+                            "Condition": "!SEASON winter, TIME 1800 2400, WEATHER Here Sun Wind, DAY_OF_WEEK Saturday"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_VSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_VSeaCow",
+                            "ItemId": "{{ModId}}_SeaCow",
+                            "Precedence": -1,
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_FiretailGuppy",
+                            "ItemId": "{{ModId}}_FiretailGuppy",
+                            "Precedence": -1,
+                            "Season": "Fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_EmeraldSnapper",
+                            "ItemId": "{{ModId}}_EmeraldSnapper",
+                            "Precedence": -1,
+                            "Condition": "LOCATION_SEASON Here summer fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_VBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_VCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_VSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_VGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_VRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_VPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+
+                            "Id": "{{ModId}}_VTigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_VPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_VDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.9
+                        },
+                        {
+                            "Id": "{{ModId}}_VLeek",
+                            "ItemId": "(O)20",
+                            "Season": "Spring",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_VDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_VSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_VSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_VGrape",
+                            "ItemId": "(O)398",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_VWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_VHazelnut",
+                            "ItemId": "(O)408",
+                            "Season": "Fall",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_VBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_VCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_VCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_VHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.9,
+                            "QualityModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "Amount": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryForest": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryForest"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
+                    "DefaultArrivalTile": {
+                        "X": 68,
+                        "Y": 4
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "skellady.SBVCP.freshwater",
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_FSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_ChartreuseTilapia",
+                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "Condition": "LOCATION_SEASON Here summer fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_FSeaCow",
+                            "ItemId": "{{ModId}}_SeaCow",
+                            "Condition": "LOCATION_SEASON Here spring fall",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_EeltailedCatfish",
+                            "ItemId": "{{ModId}}_EeltailedCatfish",
+                            "Condition": "LOCATION_SEASON Here spring summer, ANY \"TIME 600 1100\" \"TIME 1900 2600\"",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_BubblyBetta",
+                            "ItemId": "{{ModId}}_BubblyBetta",
+                            "Condition": "LOCATION_SEASON Here spring winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FBarkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
+                        },
+                        {
+                            "Id": "{{ModId}}_FBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_FCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_FGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_FRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_FDorado",
+                            "ItemId": "(O)704",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_FPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FTigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_FDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.9
+                        },
+                        {
+                            "Id": "{{ModId}}_FLeek",
+                            "ItemId": "(O)20",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_FDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FHorseradish",
+                            "ItemId": "(O)16",
+                            "Season": "Spring",
+                            "Chance": 0.9
+                        },
+                        {
+                            "Id": "{{ModId}}_FSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_FGrape",
+                            "ItemId": "(O)398",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_FWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_FHazelnut",
+                            "ItemId": "(O)408",
+                            "Season": "Fall",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_FBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_ForestRandomMushrooms",
+                            "RandomItemId": [
+                                "(O)404",
+                                "(O)420",
+                                "(O)422",
+                                "(O)281",
+                                "(O)257"
+                            ],
+                            "Season": "Fall",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_ForestRandomMushroomsRain",
+                            "RandomItemId": [
+                                "(O)404",
+                                "(O)420",
+                                "(O)422",
+                                "(O)281",
+                                "(O)257"
+                            ],
+                            "Season": "Fall",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_FCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_FHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_CarmineBlossom",
+                            "ItemId": "{{ModId}}_CarmineBlossom",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.9,
+                            "QualityModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "Amount": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryMountain": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryMountain"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}",
+                    "DefaultArrivalTile": {
+                        "X": 40,
+                        "Y": 23
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_MGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_MBonbonFish",
+                            "ItemId": "{{ModId}}_BonbonFish",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_MNajelfish",
+                            "ItemId": "{{ModId}}_Najelfish",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_AzureanCarp",
+                            "ItemId": "{{ModId}}_AzureanCarp",
+                            "Condition": "LOCATION_SEASON Here spring summer fall",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_MRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_MWalleye",
+                            "ItemId": "(O)140",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_MPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_MChub",
+                            "ItemId": "(O)702"
+                        },
+                        {
+                            "Id": "{{ModId}}_MLargemouthBass",
+                            "ItemId": "(O)136"
+                        },
+                        {
+                            "Id": "{{ModId}}_MSturgeon",
+                            "ItemId": "(O)698",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_MBullhead",
+                            "ItemId": "(O)700"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_MDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_MSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_MSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_MWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_MBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_MCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_MHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.7,
+                            "QualityModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "Amount": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryFarm": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryFarm",
+                        "AlwaysActive": true
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryFarm}}",
+                    "DefaultArrivalTile": {
+                        "X": 16,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_GreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_BonbonFish",
+                            "ItemId": "{{ModId}}_BonbonFish",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_Najelfish",
+                            "ItemId": "{{ModId}}_Najelfish",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_AzureanCarp",
+                            "ItemId": "{{ModId}}_AzureanCarp",
+                            "Condition": "LOCATION_SEASON Here spring summer fall",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_RainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_Walleye",
+                            "ItemId": "(O)140",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_Perch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_Chub",
+                            "ItemId": "(O)702"
+                        },
+                        {
+                            "Id": "{{ModId}}_LargemouthBass",
+                            "ItemId": "(O)136"
+                        },
+                        {
+                            "Id": "{{ModId}}_Sturgeon",
+                            "ItemId": "(O)698",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_Bullhead",
+                            "ItemId": "(O)700"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_Dandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_SweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_SpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_Sunberries",
+                            "ItemId": "(O)skellady.SBVCP_Sunberries",
+                            "Season": "Summer",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_WildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_Blackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_Crocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_Holly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.7,
+                            "QualityModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "Amount": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryRoad": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryRoad"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryRoad}}",
+                    "DefaultArrivalTile": {
+                        "X": 21,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_RSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_RBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_RCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_RSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_RGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_RRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_RPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_RTigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_RPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_RDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_RDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_RWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_RCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        }
+                    ]
+                },
+                "Custom_SBV_ForestShortcut": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ForestShortcut"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ForestShortcut}}",
+                    "DefaultArrivalTile": {
+                        "X": 37,
+                        "Y": 18
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_SSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_SCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_SSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_SGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_SRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_SDorado",
+                            "ItemId": "(O)704",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_SPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_STigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_SPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBarkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_SDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_SDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_SWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_SCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        }
+                    ]
+                },
+                "Custom_SBV_SecretForest1": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SecretForest1"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SecretForest1}}",
+                    "DefaultArrivalTile": {
+                        "X": 34,
+                        "Y": 18
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_WoodsMusic",
+                            "Track": "woodsTheme",
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_S1SmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1ChartreuseTilapia",
+                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "Condition": "LOCATION_SEASON Here summer fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Bream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Catfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Sunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_S1GreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1RainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Dorado",
+                            "ItemId": "(O)704",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Pike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1TigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Perch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Barkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_S1Arfaj",
+                            "ItemId": "{{ModId}}_Arfaj",
+                            "Season": "Spring",
+                            "Chance": 0.2
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Hyacinth",
+                            "ItemId": "{{ModId}}_Hyacinth",
+                            "Season": "Spring",
+                            "Chance": 0.2
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Tulip",
+                            "ItemId": "(O)591",
+                            "Season": "Spring",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_S1SummerSpangle",
+                            "ItemId": "(O)593",
+                            "Season": "Summer",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_S1CallaLilies",
+                            "ItemId": "{{ModId}}_CallaLilies",
+                            "Season": "Summer",
+                            "Chance": 0.2
+                        },
+                        {
+                            "Id": "{{ModId}}_S1RoyalAnemone",
+                            "ItemId": "{{ModId}}_RoyalAnemone",
+                            "Season": "Fall",
+                            "Chance": 0.2
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Sunflower",
+                            "ItemId": "(O)421",
+                            "Season": "Fall",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Cyclamen",
+                            "ItemId": "{{ModId}}_Cyclamen",
+                            "Season": "Winter",
+                            "Chance": 0.2
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Crocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Holly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.6,
+                            "QualityModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "Amount": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Custom_SBV_SecretForest2": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SecretForest2"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SecretForest2}}",
+                    "DefaultArrivalTile": {
+                        "X": 33,
+                        "Y": 27
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_WoodsMusic",
+                            "Track": "woodsTheme",
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_S2AnglerJr",
+                            "ItemId": "{{ModId}}_AnglerJr",
+                            "Season": "fall",
+                            "IsBossFish": "true",
+                            "CatchLimit": 1,
+                            "BobberPosition": {
+                                "X": 29,
+                                "Y": 18,
+                                "Width": 6,
+                                "Height": 2
+                            },
+                            "SetFlagOnCaught": "{{ModId}}_AnglerJrCaught"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2SmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2ChartreuseTilapia",
+                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "Condition": "LOCATION_SEASON Here summer fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Bream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Catfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Sunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_S2GreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2RainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Dorado",
+                            "ItemId": "(O)704",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Pike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2TigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Perch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Barkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_S2AncientFruit",
+                            "ItemId": "(O)454",
+                            "Season": "Spring",
+                            "Chance": 0.08
+                        },
+                        {
+                            "Id": "{{ModId}}_Tulip",
+                            "ItemId": "(O)591",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_BlueJazz",
+                            "ItemId": "(O)597",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Sunberry",
+                            "ItemId": "{{ModId}}_Sunberries",
+                            "Season": "Summer",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_Spangle",
+                            "ItemId": "(O)593",
+                            "Season": "Summer",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_Poppy",
+                            "ItemId": "(O)376",
+                            "Season": "Summer",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_S2GemBerry",
+                            "ItemId": "(O)417",
+                            "Season": "Fall",
+                            "Chance": 0.05
+                        },
+                        {
+                            "Id": "{{ModId}}_Sunflower",
+                            "ItemId": "(O)421",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_S2CrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Crocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Holly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        }
+                    ]
+                },
+                // INDOOR MAPS
+                "Custom_SBV_DialaCafe": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_DialaCafe"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.DNDCafe}}",
+                    "DefaultArrivalTile": {
+                        "X": 21,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_DDHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_DDHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.DNDHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 11,
+                        "Y": 19
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ReiHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ReiHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ReiHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 5,
+                        "Y": 16
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SunberryHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryHouse",
+                        "Type": "StardewValley.Locations.DecoratableLocation"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 15,
+                        "Y": 10
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SunberryLibrary": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryLibrary"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
+                    "DefaultArrivalTile": {
+                        "X": 20,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInn": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInn"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn}}",
+                    "DefaultArrivalTile": {
+                        "X": 11,
+                        "Y": 10
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInn2ndFloor": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInn2ndFloor"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn2ndFloor}}",
+                    "DefaultArrivalTile": {
+                        "X": 25,
+                        "Y": 16
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInn3rdFloor": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInn3rdFloor"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn3rdFloor}}",
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 16
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInnConference": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInnConference"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInnConference}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 6
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_OpheliaHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_OpheliaHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.OpheliaHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 7
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_MiyoungHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MiyoungHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.MiyoungHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 9
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_AriMarket": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_AriMarket"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.AriMarket}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 23
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EliasHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EliasHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EliasHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 8
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EzraHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EzraHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EzraHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EzraClothes": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EzraClothes"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EzraClothes}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_MaiaHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MaiaHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.MaiaHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 15,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SilasBlacksmith": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SilasBlacksmith"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 13
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ImanHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ImanHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ImanHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 13
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_CrystalCave": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_CrystalCave"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.CrystalCave}}",
+                    "DefaultArrivalTile": {
+                        "X": 11,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_CaveEntranceMusic",
+                            "Track": "Frost_Ambient",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SecretCave": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SecretCave"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SecretCave}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_RedMushroomSpring",
+                            "ItemId": "(O)420",
+                            "Season": "Spring",
+                            "Chance": 0.6,
+                        },
+                        {
+                            "Id": "{{ModId}}_RedMushroomOther",
+                            "ItemId": "(O)420",
+                            "Condition": "LOCATION_SEASON Here summer fall winter",
+                            "Chance": 0.5,
+                        },
+                        {
+                            "Id": "{{ModId}}_PurpleMushroom",
+                            "ItemId": "(O)422",
+                            "Chance": 0.5,
+                        },
+                        {
+                            "Id": "{{ModId}}_CommonMushroom",
+                            "ItemId": "(O)404",
+                            "Chance": 0.6,
+                        },
+                        {
+                            "Id": "{{ModId}}_Morel",
+                            "ItemId": "(O)257",
+                            "Chance": 0.4,
+                        },
+                        {
+                            "Id": "{{ModId}}_Chanterelle",
+                            "ItemId": "(O)281",
+                            "Chance": 0.4,
+                        },
+                    ]
+                },
+                "Custom_SBV_ChrisDinerBroken": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ChrisDinerBroken"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerBroken}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_BrokenDinerMusic",
+                            "Track": "communityCenter",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ChrisDiner": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ChrisDiner"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ChrisDiner}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ChrisDinerRainbow": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ChrisDinerRainbow"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerRainbow}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EliasHouseOld": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EliasHouseOld"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EliasHouseOld}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_OldEliasHouseMusic",
+                            "Track": "communityCenter",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EliasHouseNew": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EliasHouseNew"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EliasHouseNew}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 15
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SunberryMuseum": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryMuseum"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryMuseum}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 18
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                // EVENT MAPS
+                "Custom_SBV_MoonWoods": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MoonWoods"
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                // WARP ROOM
+                "Custom_SBV_SunberryWarpRoom": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryWarpRoom"
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                // MINES
+                "Custom_SBV_Mines1": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines1"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines1}}",
+                    "DefaultArrivalTile": {
+                        "X": 12,
+                        "Y": 6
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "EarthMine",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines2": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines2"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines2}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 5
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "EarthMine",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines3": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines3"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines3}}",
+                    "DefaultArrivalTile": {
+                        "X": 30,
+                        "Y": 5
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "EarthMine",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines4": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines4"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines4}}",
+                    "DefaultArrivalTile": {
+                        "X": 23,
+                        "Y": 6
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines5A": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines5A"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines5A}}",
+                    "DefaultArrivalTile": {
+                        "X": 27,
+                        "Y": 21
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines5B": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines5B"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines5B}}",
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 4
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_5BGhostFish",
+                            "ItemId": "(O)156",
+                        },
+                        {
+                            "Id": "{{ModId}}_5BStonefish",
+                            "ItemId": "(O)158",
+                        },
+                    ],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines6": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines6"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines6}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 6
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines7": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines7"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines7}}",
+                    "DefaultArrivalTile": {
+                        "X": 24,
+                        "Y": 23
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines8": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines8"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines8}}",
+                    "DefaultArrivalTile": {
+                        "X": 4,
+                        "Y": 5
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_8IcePip",
+                            "ItemId": "(O)161",
+                        },
+                    ],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines9": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines9"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines9}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 7
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines10A": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines10A"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines10A}}",
+                    "DefaultArrivalTile": {
+                        "X": 15,
+                        "Y": 6
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines10B": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines10B"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines10B}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 6
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines11": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines11"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines11}}",
+                    "DefaultArrivalTile": {
+                        "X": 27,
+                        "Y": 24
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines12": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines12"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines12}}",
+                    "DefaultArrivalTile": {
+                        "X": 19,
+                        "Y": 10
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines13": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines13"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines13}}",
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 8
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: moonlightJellies, musicboxsong, Plums}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_13MidnightCarp",
+                            "ItemId": "(O)269",
+                        },
+                    ],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines14": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines14"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines14}}",
+                    "DefaultArrivalTile": {
+                        "X": 44,
+                        "Y": 24
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: moonlightJellies, musicboxsong, Plums}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_14MidnightCarp",
+                            "ItemId": "(O)269",
+                        },
+                    ],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines15": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines15"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines15}}",
+                    "DefaultArrivalTile": {
+                        "X": 18,
+                        "Y": 11
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: moonlightJellies, musicboxsong, Plums}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_14MidnightCarp",
+                            "ItemId": "(O)269",
+                        },
+                    ],
+                    "Forage": []
+                },
+                "Custom_SBV_MinesFinal": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MinesFinal"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.MinesFinal}}",
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 7
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: junimoKart_whaleMusic, junimoKart_mushroomMusic}}",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_FinalMidnightCarp",
+                            "ItemId": "(O)269",
+                        },
+                        {
+                            "Id": "{{ModId}}_Aberrant",
+                            "ItemId": "{{ModId}}_Aberrant",
+                            "IsBossFish": "true",
+                            "CatchLimit": 1,
+                            "BobberPosition": {
+                                "X": 26,
+                                "Y": 26,
+                                "Width": 8,
+                                "Height": 3
+                            },
+                            "SetFlagOnCaught": "{{ModId}}_AberrantCaught"
+                        },
+                    ],
+                    "Forage": []
+                },
+                "Custom_SBV_TwilightFestival": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_TwilightFestival",
+                        "AlwaysActive": false
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.TwilightFestival}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_TwilightFestivalMusic",
+                            "Track": "junimoKart_whaleMusic",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
+                }
+            }
+        },
+        // Add forage to other areas
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Town",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_TwilightFeather": {
+                    "Id": "{{ModId}}_TwilightFeather",
+                    "ItemId": "{{ModId}}_TwilightFeather",
+                    "Chance": 0.4,
+                    "QualityModifiers": [
+                        {
+                            "Modification": "Set",
+                            "Amount": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Forest",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_TwilightFeather": {
+                    "Id": "{{ModId}}_TwilightFeather",
+                    "ItemId": "{{ModId}}_TwilightFeather",
+                    "Chance": 0.5,
+                    "QualityModifiers": [
+                        {
+                            "Modification": "Set",
+                            "Amount": 0
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Woods",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_TwilightFeather": {
+                    "Id": "{{ModId}}_TwilightFeather",
+                    "ItemId": "{{ModId}}_TwilightFeather",
+                    "Chance": 0.5,
+                    "QualityModifiers": [
+                        {
+                            "Modification": "Set",
+                            "Amount": 0
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

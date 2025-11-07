@@ -1,0 +1,125 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Barbed Hook",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/BarbedHook.png",
+			"ToArea": { "X": 304, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Barbed Hook": true
+			}
+		},
+        {
+			"LogName": "Cork Bobber",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/CorkBobber.png",
+			"ToArea": { "X": 368, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Cork Bobber": true
+			}
+		},
+        {
+			"LogName": "Curiosity Lure",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/CuriosityLure.png",
+			"ToArea": { "X": 256, "Y": 560, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Curiosity Lure": true
+			}
+		},
+        {
+			"LogName": "Dressed Spinner",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/DressedSpinner.png",
+			"ToArea": { "X": 240, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Dressed Spinner": true
+			}
+		},
+        {
+			"LogName": "Lead Bobber",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/LeadBobber.png",
+			"ToArea": { "X": 320, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Lead Bobber": true
+			}
+		},
+        {
+			"LogName": "Quality Lure",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/QualityLure.png",
+			"ToArea": { "X": 208, "Y": 576, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Quality Lure": true
+			}
+		},
+        {
+			"LogName": "Sonar Bobber",
+			"Action": "EditImage",
+			"Target": "TileSheets/Objects_2",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/SonarBobber.png",
+			"ToArea": { "X": 0, "Y": 112, "Width": 16, "Height": 16 },
+			"When":
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Sonar Bobber": true
+			}
+		},
+        {
+			"LogName": "Spinner",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/Spinner.png",
+			"ToArea": { "X": 224, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Spinner": true
+			}
+		},
+        {
+			"LogName": "Trap Bobber",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/TrapBobber.png",
+			"ToArea": { "X": 352, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Trap Bobber": true
+			}
+		},
+        {
+			"LogName": "Treasure Hunter",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/{{SaturationToggle}}/Tackle/TreasureHunter.png",
+			"ToArea": { "X": 336, "Y": 448, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"TackleSpritesEnabled": "True",
+				"Tackle |contains= Treasure Hunter": true
+			}
+		}
+    ]
+}

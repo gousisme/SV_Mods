@@ -1,0 +1,326 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"SaturationToggle": 
+		{
+			"AllowValues": "Saturated, Desaturated",
+			"Default": "Saturated",
+		},
+		"SeasonalColouredSeedbags": 
+		{
+			"AllowValues": "Seasonal, NonSeasonal",
+			"Default": "Seasonal",
+		},
+
+// CATEGORY ON/OFF CONFIGS	
+
+		"CropsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"CropGrowthSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"SeedBagsSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"ForageSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"FertilizerSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"MiscSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		
+// INDIVIDUAL TOGGLES
+
+
+		"RegularCropsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Regular Crops"
+		},
+		"RegularCrops": 
+		{
+			"AllowValues": "Amaranth, Ancient Fruit, Artichoke, Beet, Blueberry, Bok Choy, Broccoli, Carrot, Cauliflower, Coffee Bean, Corn, Cranberries, Eggplant, Garlic, Grape, Green Bean, Hops, Hot Pepper, Kale, Melon, Parsnip, Pineapple, Potato, Powdermelon, Pumpkin, Qi Bean, Qi Fruit, Radish, Red Cabbage, Rhubarb, Starfruit, Strawberry, Summer Squash, Sweet Gem Berry, Taro Root, Tea Leaves, Tomato, Unmilled Rice, Wheat, Yam",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Amaranth, Ancient Fruit, Artichoke, Beet, Blueberry, Bok Choy, Broccoli, Carrot, Cauliflower, Coffee Bean, Corn, Cranberries, Eggplant, Garlic, Grape, Green Bean, Hops, Hot Pepper, Kale, Melon, Parsnip, Pineapple, Potato, Powdermelon, Pumpkin, Qi Bean, Qi Fruit, Radish, Red Cabbage, Rhubarb, Starfruit, Strawberry, Summer Squash, Sweet Gem Berry, Taro Root, Tea Leaves, Tomato, Unmilled Rice, Wheat, Yam",
+			"Section": "Regular Crops"
+		},
+		"FlowersEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Flower Crops"
+		},
+		"Flowers": 
+		{
+			"AllowValues": "Blue Jazz, Fairy Rose, Poppy, Summer Spangle, Sunflower, Tulip",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Blue Jazz, Fairy Rose, Poppy, Summer Spangle, Sunflower, Tulip",
+			"Section": "Flower Crops"
+		},
+		"TreeFruitEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Tree Fruit Crops"
+		},
+		"TreeFruit": 
+		{
+			"AllowValues": "Apple, Apricot, Banana, Cherry, Mango, Orange, Peach, Pomegranate",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Apple, Apricot, Banana, Cherry, Mango, Orange, Peach, Pomegranate",
+			"Section": "Tree Fruit Crops"
+		},
+		"CropGrowth": 
+		{
+			"AllowValues": "Ancient Fruit, Artichoke, Beet, Blueberry, Blue Jazz, Broccoli, Cactus Fruit, Carrot, Cauliflower, Coffee Bean, Corn, Cranberries, Dead Crops, Eggplant, Fairy Rose, Garlic, Grape, Green Bean, Hops, Hot Pepper, Melon, Parsnip, Pineapple, Poppy, Potato, Pumpkin, Qi Fruit, Radish, Red Cabbage, Rhubarb, Starfruit, Strawberry, Summer Spangle, Summer Squash, Sunflower, Sweet Gem Berry, Tomato, Tulip, Wild Crops, Wheat, Yam",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Ancient Fruit, Artichoke, Beet, Blueberry, Blue Jazz, Broccoli, Cactus Fruit, Carrot, Cauliflower, Coffee Bean, Corn, Cranberries, Dead Crops, Eggplant, Fairy Rose, Garlic, Grape, Green Bean, Hops, Hot Pepper, Melon, Parsnip, Pineapple, Poppy, Potato, Pumpkin, Qi Fruit, Radish, Red Cabbage, Rhubarb, Starfruit, Strawberry, Summer Spangle, Summer Squash, Sunflower, Sweet Gem Berry, Tomato, Tulip, Wild Crops, Wheat, Yam",
+			"Section": "Crop Growth"
+		},
+		"RegularSeedbags": 
+		{
+			"AllowValues": "Amaranth, Ancient Fruit, Artichoke, Beet, Blueberry, Bok Choy, Broccoli, Carrot, Cauliflower, Coffee Bean, Corn, Cranberries, Eggplant, Garlic, Grape, Green Bean, Hops, Hot Pepper, Kale, Melon, Parsnip, Pineapple, Potato, Powdermelon, Pumpkin, Qi Bean, Qi Fruit, Radish, Red Cabbage, Rhubarb, Starfruit, Strawberry, Summer Squash, Sweet Gem Berry, Taro Root, Tea Leaves, Tomato, Unmilled Rice, Wheat, Yam, Blue Jazz, Fairy Rose, Poppy, Summer Spangle, Tulip",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Amaranth, Ancient Fruit, Artichoke, Beet, Blueberry, Bok Choy, Broccoli, Carrot, Cauliflower, Coffee Bean, Corn, Cranberries, Eggplant, Garlic, Grape, Green Bean, Hops, Hot Pepper, Kale, Melon, Parsnip, Pineapple, Potato, Powdermelon, Pumpkin, Qi Bean, Qi Fruit, Radish, Red Cabbage, Rhubarb, Starfruit, Strawberry, Summer Squash, Sweet Gem Berry, Taro Root, Tea Leaves, Tomato, Unmilled Rice, Wheat, Yam, Blue Jazz, Fairy Rose, Poppy, Summer Spangle, Tulip",
+			"Section": "Regular Seedbags"
+		},
+		"SaplingsEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Saplings"
+		},
+		"Saplings": 
+		{
+			"AllowValues": "Apple, Apricot, Banana, Cherry, Mango, Orange, Peach, Pomegranate, Tea",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Apple, Apricot, Banana, Cherry, Mango, Orange, Peach, Pomegranate, Tea",
+			"Section": "Saplings"
+		},
+		"UniqueSeedbags": 
+		{
+			"AllowValues": "Ancient Seed, Blue Grass, Fiber, Mixed Flower Seeds, Mixed Seeds, Rice Shoot, Sunflower, Wild Seeds",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Ancient Seed, Blue Grass, Fiber, Mixed Flower Seeds, Mixed Seeds, Rice Shoot, Sunflower, Wild Seeds",
+			"Section": "Unique Seedbags"
+		},
+		"RedPineappleSeedsBag": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Unique Seedbags"
+		},
+		"BlueStarfruitSeedsBag": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Unique Seedbags"
+		},
+		"UniqueTrellisSeeds": 
+		{
+			"AllowValues": "Grape, Green Bean, Hops",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Grape, Green Bean, Hops",
+			"Section": "Unique Trellis Seeds"
+		},
+		"RegularForageEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Regular Forage"
+		},
+		"RegularForage": 
+		{
+			"AllowValues": "Blackberry, Cactus Fruit, Cave Carrot, Coconut, Crocus, Crystal Fruit, Daffodil, Dandelion, Fiddlehead Fern, Ginger, Golden Coconut, Hazelnut, Holly, Leek, Mystic Seed, Salmonberry, Snow Yam, Spice Berry, Spring Onion, Sweet Pea, Wild Horseradish, Wild Plum, Winter Root",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Blackberry, Cactus Fruit, Cave Carrot, Coconut, Crocus, Crystal Fruit, Daffodil, Dandelion, Fiddlehead Fern, Ginger, Golden Coconut, Hazelnut, Holly, Leek, Mystic Seed, Salmonberry, Snow Yam, Spice Berry, Spring Onion, Sweet Pea, Wild Horseradish, Wild Plum, Winter Root",
+			"Section": "Regular Forage"
+		},
+		"MushroomForageEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Mushroom Forage"
+		},
+		"MushroomForage": 
+		{
+			"AllowValues": "Chanterelle, Common Mushroom, Magma Cap, Morel, Purple Mushroom, Red Mushroom",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Chanterelle, Common Mushroom, Magma Cap, Morel, Purple Mushroom, Red Mushroom",
+			"Section": "Mushroom Forage"
+		},
+		"TreeForageEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Tree Forage"
+		},
+		"TreeForage": 
+		{
+			"AllowValues": "Acorn, Maple Seed, Pinecone, Mahogany Seed, Oak Resin, Maple Syrup, Mystic Syrup, Pine Tar, Sap",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Acorn, Maple Seed, Pinecone, Mahogany Seed, Oak Resin, Maple Syrup, Mystic Syrup, Pine Tar, Sap",
+			"Section": "Tree Forage"
+		},
+		"Fertilizer": 
+		{
+			"AllowValues": "Basic Fertilizer, Quality Fertilizer, Deluxe Fertilizer, Basic Retaining Soil, Quality Retaining Soil, Deluxe Retaining Soil, Speed-Gro, Deluxe Speed-Gro, Hyper Speed-Gro, Tree Fertilizer",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Basic Fertilizer, Quality Fertilizer, Deluxe Fertilizer, Basic Retaining Soil, Quality Retaining Soil, Deluxe Retaining Soil, Speed-Gro, Deluxe Speed-Gro, Hyper Speed-Gro, Tree Fertilizer",
+			"Section": "Fertilizer"
+		},
+		"Misc":
+		{
+			"AllowValues": "Bouquet, Golden Pumpkin, Jack-o-Lantern, Stardrop",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Bouquet, Golden Pumpkin, Jack-o-Lantern, Stardrop",
+			"Section": "Misc"
+		},
+	},
+	
+	"Changes": [
+		{
+			"LogName": "Crops Code",
+			"Action": "Include",
+			"FromFile": "Code/Crops.json",
+			"When": 
+			{
+				"CropsSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Crop Growth Code",
+			"Action": "Include",
+			"FromFile": "Code/CropGrowth.json",
+			"When": 
+			{
+				"CropGrowthSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Seed Bags Code",
+			"Action": "Include",
+			"FromFile": "Code/SeedBags.json",
+			"When": 
+			{
+				"SeedBagsSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Forage Code",
+			"Action": "Include",
+			"FromFile": "Code/Forage.json",
+			"When": 
+			{
+				"ForageSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Fertilizer Code",
+			"Action": "Include",
+			"FromFile": "Code/Fertilizer.json",
+			"When": 
+			{
+				"FertilizerSpritesEnabled": true
+			}
+		},
+        {
+			"LogName": "Bouquet",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/Bouquet.png",
+			"ToArea": { "X": 32, "Y": 304, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Bouquet": true
+			}
+		},
+        {
+			"LogName": "Golden Pumpkin",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/GoldenPumpkin.png",
+			"ToArea": { "X": 208, "Y": 240, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Golden Pumpkin": true
+			}
+		},
+        {
+			"LogName": "Jack-o-Lantern",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/JackOLantern.png",
+			"ToArea": { "X": 32, "Y": 496, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Jack-o-Lantern": true
+			}
+		},
+        {
+			"LogName": "Stardrop Fruit",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/StardropFruit.png",
+			"ToArea": { "X": 32, "Y": 288, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Stardrop": true
+			}
+		},
+        {
+			"LogName": "Stardrop Animation",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/StardropAnimation.png",
+			"ToArea": { "X": 368, "Y": 16, "Width": 128, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Stardrop": true
+			}
+		},
+	]
+}

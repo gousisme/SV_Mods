@@ -1,0 +1,90 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "RedPandaBazaar_ShiFuShan": {
+                    "DisplayName": "{{i18n:NPCName:RedPandaBazaar_ShiFuShan}}",
+                    "HomeRegion": "Other",
+                    "Language": "default",
+                    "Gender": "male",
+                    "Age": "adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "outgoing",
+                    "Optimism": "positive",
+                    "BirthSeason": "winter",
+                    "BirthDay": 16,
+                    "IsDarkSkinned": false,
+
+                    "CanSocialize": true,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanVisitIsland": false,
+                    "LoveInterest": "",
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "DumpsterDiveEmote": 40,
+                    "DumpsterDiveFriendshipEffect":-50,
+                    "WinterStarParticipant": false,
+
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Custom_ShiFuShanHouse2",
+                            "Condition": null,
+                            "Location": "Custom_ShiFuShanHouse2",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 15
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/RedPandaBazaar_ShiFuShan",
+            "FromFile": "assets/Sprites/ShiFuShan.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/RedPandaBazaar_ShiFuShan",
+            "FromFile": "assets/Portraits/ShiFuShan.png"
+        },
+        {
+            "LogName": "ShiFuShan's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "RedPandaBazaar_ShiFuShan": "{{i18n:ShiFuShan.GiftTastes.love}}/214 303 200/{{i18n:ShiFuShan.GiftTastes.like}}/-79 -4 -26/{{i18n:ShiFuShan.GiftTastes.dislike}}/-5 -6/{{i18n:ShiFuShan.GiftTastes.hate}}/-80/{{i18n:ShiFuShan.GiftTastes.neutral}}/-2//"
+            }
+        },
+        {
+            "LogName": "Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_RedPandaBazaar",
+            "Entries": {
+                "90329001/w sunny/t 900 1800/f RedPandaBazaar_ShiFuShan 1000": "libraryTheme/54 54/farmer 48 54 1 RedPandaBazaar_ShiFuShan 54 54 0 RedPandaBazaar_Passersby.10 59 55 0 RedPandaBazaar_Passersby.9 60 54 3 RedPandaBazaar_JojaEmployee.3 71 54 0/skippable/advancedMove farmer false 5 0 1 1500/pause 2000/emote RedPandaBazaar_ShiFuShan 40/pause 1000/faceDirection farmer 0/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.1}}\"/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.2}}\"/pause 500/quickQuestion #{{i18n:90329001.3}}#{{i18n:90329001.4}}#{{i18n:90329001.5}}(break)speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.6}}\"(break)speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.7}}\"(break)speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.8}}\"/pause 500/emote RedPandaBazaar_ShiFuShan 40/pause 500/speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.9}}\"/pause 1000/speak RedPandaBazaar_ShiFuShan \"{{i18n:90329001.10}}\"/pause 1000/end"
+            }
+        }
+    ]
+}

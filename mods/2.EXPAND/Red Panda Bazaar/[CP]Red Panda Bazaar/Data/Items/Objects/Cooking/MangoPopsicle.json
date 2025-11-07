@@ -1,0 +1,58 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Mango Popsicle": "834 1 245 1 -6 1/9999 9999/RedPandaBazaar_Mango_Popsicle/null/{{i18n:RedPandaBazaar.Object.Mango.Popsicle.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Mango_Popsicle": {
+          "Name": "Mango Popsicle",
+          "DisplayName": "{{i18n:RedPandaBazaar.Object.Mango.Popsicle.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.Object.Mango.Popsicle.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 34,
+          "Edibility": 50,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Sandy",
+            1
+          ],
+          "Value": "RedPandaBazaar_Mango_Popsicle",
+          "Delimiter": " "
+        },
+        {
+          "Operation": "Append",
+          "Target": [
+            "Fields",
+            "Leo",
+            1
+          ],
+          "Value": "RedPandaBazaar_Mango_Popsicle",
+          "Delimiter": " "
+        }
+      ]
+    }
+  ]
+}

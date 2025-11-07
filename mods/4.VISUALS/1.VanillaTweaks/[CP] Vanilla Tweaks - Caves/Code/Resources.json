@@ -1,0 +1,251 @@
+{
+    "Changes": 
+    [
+        {
+			"LogName": "Battery Pack",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/BatteryPack.png",
+			"ToArea": {"X": "304", "Y": "512", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Battery Pack": true
+			}
+		},
+        {
+			"LogName": "Bone Fragment",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/BoneFragment.png",
+			"ToArea": {"X": "272", "Y": "576", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Bone Fragment": true
+			}
+		},
+        {
+			"LogName": "Cinder Shard",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/CinderShard.png",
+			"ToArea": {"X": "128", "Y": "560", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Cinder Shard": true
+			}
+		},
+        {
+			"LogName": "Clay",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/Clay.png",
+			"ToArea": {"X": "288", "Y": "208", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Clay": true
+			}
+		},
+        {
+			"LogName": "Coal",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/Coal.png",
+			"ToArea": {"X": "352", "Y": "240", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Coal": true
+			}
+		},
+        {
+			"LogName": "Fiber",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/Fiber.png",
+			"ToArea": {"X": "48", "Y": "512", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Fiber": true
+			}
+		},
+        {
+			"LogName": "Hardwood",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/Hardwood.png",
+			"ToArea": {"X": "208", "Y": "464", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Hardwood": true
+			}
+		},
+        {
+			"LogName": "Refined Quartz",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/RefinedQuartz.png",
+			"ToArea": {"X": "32", "Y": "224", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Refined Quartz": true
+			}
+		},
+        {
+			"LogName": "Stone",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/Stone.png",
+			"ToArea": {"X": "96", "Y": "256", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Stone": true
+			}
+		},
+        {
+			"LogName": "Wood",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Resources/Wood.png",
+			"ToArea": {"X": "64", "Y": "256", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"RegularResourcesEnabled": "True",
+				"RegularResources |contains= Wood": true
+			}
+		},
+
+// ORES
+
+		{
+			"LogName": "Copper Ore",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Ores/CopperOre.png",
+			"ToArea": {"X": "288", "Y": "240", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OresEnabled": "True",
+				"Ores |contains= Copper Ore": true
+			}
+		},
+		{
+			"LogName": "Gold Ore",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Ores/GoldOre.png",
+			"ToArea": {"X": "0", "Y": "256", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OresEnabled": "True",
+				"Ores |contains= Gold Ore": true
+			}
+		},
+		{
+			"LogName": "Iridium Ore",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Ores/IridiumOre.png",
+			"ToArea": {"X": "32", "Y": "256", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OresEnabled": "True",
+				"Ores |contains= Iridium Ore": true
+			}
+		},
+		{
+			"LogName": "Iron Ore",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Ores/IronOre.png",
+			"ToArea": {"X": "320", "Y": "240", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OresEnabled": "True",
+				"Ores |contains= Iron Ore": true
+			}
+		},
+		{
+			"LogName": "Radioactive Ore",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Ores/RadioactiveOre.png",
+			"ToArea": {"X": "336", "Y": "592", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"OresEnabled": "True",
+				"Ores |contains= Radioactive Ore": true
+			}
+		},
+
+// METAL BARS
+
+		{
+			"LogName": "Copper Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Bars/CopperBar.png",
+			"ToArea": {"X": "352", "Y": "208", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MetalBarsEnabled": "True",
+				"MetalBars |contains= Copper Bar": true
+			}
+		},
+		{
+			"LogName": "Gold Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Bars/GoldBar.png",
+			"ToArea": {"X": "0", "Y": "224", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MetalBarsEnabled": "True",
+				"MetalBars |contains= Gold Bar": true
+			}
+		},
+		{
+			"LogName": "Iridium Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Bars/IridiumBar.png",
+			"ToArea": {"X": "16", "Y": "224", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MetalBarsEnabled": "True",
+				"MetalBars |contains= Iridium Bar": true
+			}
+		},
+		{
+			"LogName": "Iron Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Bars/IronBar.png",
+			"ToArea": {"X": "368", "Y": "208", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MetalBarsEnabled": "True",
+				"MetalBars |contains= Iron Bar": true
+			}
+		},
+		{
+			"LogName": "Radioactive Bar",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Resources/Bars/RadioactiveBar.png",
+			"ToArea": {"X": "352", "Y": "592", "Width": "16", "Height": "16"},
+			"When": 
+			{
+				"MetalBarsEnabled": "True",
+				"MetalBars |contains= Radioactive Bar": true
+			}
+		}
+    ]
+}

@@ -1,0 +1,878 @@
+{
+    "Changes": [
+
+////////////////////
+// MUFFINS - OVEN //
+////////////////////
+
+    {
+        "LogName": "Add Oven to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": {"Atelier.Cauldron/ConfigValue:Muffins": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Oven": {
+                "Name": "Wildflour.AtelierGoods_Oven",
+                "DisplayName": "{{i18n:AtelierGoods_Oven.name}}",
+                "Description": "{{i18n:AtelierGoods_Oven.description}}",
+                "Price": 50,
+                "Fragility": 0,
+                "CanBePlacedOutdoors": true,
+                "CanBePlacedIndoors": true,
+                "IsLamp": false,
+                "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+                "SpriteIndex": 64,
+                "CustomFields": {}
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Oven Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": {"Atelier.Cauldron/ConfigValue:Muffins": true},
+        "Entries": {
+                "Wildflour.AtelierGoods_Oven": "Wildflour.AtelierGoods_Muffin_Mix 1 388 50 335 1/Home/Wildflour.AtelierGoods_Oven/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Oven.name}}"
+        }
+    },
+
+    {
+        "LogName": "Add Oven Machine Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Atelier.Cauldron/ConfigValue:Muffins": true},
+        "Entries": {
+            "(BC)Wildflour.AtelierGoods_Oven": {
+                "OutputRules": [
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Muffins",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Muffins",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Muffins",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Muffins %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Muffins",
+                                "PreserveID":"DROP_IN",
+                                "CopyQuality":true,
+                                "CopyPrice": true,
+                                "CopyColor":true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.85
+                                    },
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 85
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 920
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)Wildflour.AtelierGoods_Muffin_Mix",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_Oven_InvalidCount.message}}"
+                    }
+                ],
+                "InvalidItemMessage":"{{i18n:AtelierGoods_Oven_InvalidItem.message}}",
+                "ShowNextIndexWhileWorking":false,
+                "ShowNextIndexWhenReady":false,
+                "WobbleWhileWorking":false,
+                "ReadyTimeModifiers": [
+                        {
+                            "Id": "BakerySpeedy",
+                            "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                            "Modification": "Multiply",
+                            "Amount": 0.75
+                        },
+                        {
+                            "Id": "BakerySuperSpeedy",
+                            "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                            "Modification": "Multiply",
+                            "Amount": 0.5
+                        }
+                    ],
+                "WorkingEffects":[
+                    {
+                        "Frames":[1,2,3,4,5],
+                        "Interval":100
+                    }
+            ] 
+            }
+        }
+    },
+
+///////////
+// CAKES //
+///////////
+
+    {
+        "LogName": "Add Cake Station to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": {"Atelier.Cauldron/ConfigValue:Cakes": true},
+        "Entries": {
+        "Wildflour.AtelierGoods_Cake_Station": {
+            "Name": "Wildflour.AtelierGoods_Cake_Station",
+            "DisplayName": "{{i18n:AtelierGoods_Cake_Station.name}}",
+            "Description": "{{i18n:AtelierGoods_Cake_Station.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+            "SpriteIndex": 160,
+            "CustomFields": {}
+        }
+    }
+    },
+
+    {
+        "LogName": "Add Cake Station Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": {"Atelier.Cauldron/ConfigValue:Cakes": true},
+        "Entries": {
+    "Wildflour.AtelierGoods_Cake_Station": "Wildflour.AtelierGoods_Cake_Mix 1 388 50 390 10/Home/Wildflour.AtelierGoods_Cake_Station/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Cake_Station.name}}"
+    }
+    },
+
+    {
+        "LogName": "Add Cake Counter Machine Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Atelier.Cauldron/ConfigValue:Cakes": true},
+        "Entries": {
+            "(BC)Wildflour.AtelierGoods_Cake_Station":{
+                "OutputRules": [
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Cake",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                    ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Cake",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cake",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cake %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Cake",
+                                "PreserveID":"DROP_IN",
+                                "CopyQuality": true,
+                                "CopyPrice": true,
+                                "CopyColor":true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                        "Modification": "Add",
+                                        "Amount": 200
+                                    },
+                                    {
+                                        "Modification": "Multiply",
+                                        "Amount": 2.0
+                                    }
+                                ]
+                            }    
+                    ],
+                        "MinutesUntilReady": 1200
+                    }
+                        ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)Wildflour.AtelierGoods_Cake_Mix",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_Cake_Station_InvalidCount.message}}",
+                    }
+                ],
+                "InvalidItemMessage":"{{i18n:AtelierGoods_Cake_Station_InvalidItem.message}}",
+                "ShowNextIndexWhileWorking":false,
+                "ShowNextIndexWhenReady":false,
+                "WobbleWhileWorking":false,
+                "ReadyTimeModifiers": [
+                    {
+                        "Id": "BakerySpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                        "Modification": "Multiply",
+                        "Amount": 0.75
+                    },
+                    {
+                        "Id": "BakerySuperSpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                        "Modification": "Multiply",
+                        "Amount": 0.5
+                    }
+                ],
+                "WorkingEffects":[
+                    {
+                        "Frames":[1,2,3,4,5,6,7],
+                        "Interval":150
+                    }
+            ] 
+            }
+        }
+    },
+
+////////////////
+// TINY CAKES //
+////////////////
+
+    {
+        "LogName": "Add Dessert Stand to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": {"Atelier.Cauldron/ConfigValue:TinyCakes": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Dessert_Stand": {
+                "Name": "Wildflour.AtelierGoods_Dessert_Stand",
+                "DisplayName": "{{i18n:AtelierGoods_Dessert_Stand.name}}",
+                "Description": "{{i18n:AtelierGoods_Dessert_Stand.description}}",
+                "Price": 50,
+                "Fragility": 0,
+                "CanBePlacedOutdoors": true,
+                "CanBePlacedIndoors": true,
+                "IsLamp": false,
+                "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+                "SpriteIndex": 192,
+                "CustomFields": {}
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Dessert Stand Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": {"Atelier.Cauldron/ConfigValue:TinyCakes": true},
+        "Entries": {
+        "Wildflour.AtelierGoods_Dessert_Stand": "Wildflour.AtelierGoods_Cake_Mix 1 335 2/Home/Wildflour.AtelierGoods_Dessert_Stand/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Dessert_Stand.name}}"
+        }
+    },
+
+    {
+        "LogName": "Add Dessert Stand Machine Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Atelier.Cauldron/ConfigValue:TinyCakes": true},
+        "Entries": {
+            "(BC)Wildflour.AtelierGoods_Dessert_Stand": {
+                "OutputRules": [
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cupcakes %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Cupcakes",
+                                "PreserveID":"DROP_IN",
+                                "CopyQuality":true,
+                                "CopyPrice": true,
+                                "CopyColor":true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                        "Modification": "Add",
+                                        "Amount": 150
+                                    },
+                                    {
+                                        "Modification": "Multiply",
+                                        "Amount": 2.25
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 1100
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)Wildflour.AtelierGoods_Cake_Mix",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_DessertStand_InvalidCount.message}}",
+                    }
+                ],
+                "InvalidItemMessage":"{{i18n:AtelierGoods_DessertStand_InvalidItem.message}}",
+                "ShowNextIndexWhileWorking":true,
+                "ShowNextIndexWhenReady":false,
+                "WobbleWhileWorking":false,
+                "ReadyTimeModifiers": [
+                    {
+                        "Id": "BakerySpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                        "Modification": "Multiply",
+                        "Amount": 0.75
+                    },
+                    {
+                        "Id": "BakerySuperSpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                        "Modification": "Multiply",
+                        "Amount": 0.5
+                    }
+                ],
+                "WorkingEffects":[
+                    {
+                        "Frames":[1,2,3,4,5],
+                        "Interval":150
+                    }
+            ] 
+            }
+        }
+    },
+
+//////////
+// PIES //
+//////////
+
+    {
+        "LogName": "Add Pie Station to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": {"Atelier.Cauldron/ConfigValue:Pies": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Pie_Station": {
+                "Name": "Wildflour.AtelierGoods_Pie_Station",
+                "DisplayName": "{{i18n:AtelierGoods_Pie_Station.name}}",
+                "Description": "{{i18n:AtelierGoods_Pie_Station.description}}",
+                "Price": 50,
+                "Fragility": 0,
+                "CanBePlacedOutdoors": true,
+                "CanBePlacedIndoors": true,
+                "IsLamp": false,
+                "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+                "SpriteIndex": 168,
+                "CustomFields": {}
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Pie Station Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": {"Atelier.Cauldron/ConfigValue:Pies": true},
+        "Entries": {
+        "Wildflour.AtelierGoods_Pie_Station": "Wildflour.AtelierGoods_Pie_Mix 1 388 50 390 5/Home/Wildflour.AtelierGoods_Pie_Station/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Pie_Station.name}}"
+        }
+    },
+
+    
+{
+    "LogName": "Add Pie Counter Machine Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:Pies": true},
+    "Entries": {
+        "(BC)Wildflour.AtelierGoods_Pie_Station": {
+            "OutputRules": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Flavored_Tart",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wildflour.AtelierGoods_Flavored_Tart",
+                            "ItemId": "Wildflour.AtelierGoods_Flavored_Tart",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Tart %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} Tart",
+                            "PreserveID":"DROP_IN",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Add",
+                                "Amount": 175
+                                },
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 1.75
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 800
+                }
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Wildflour.AtelierGoods_Pie_Mix",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:AtelierGoods_PieStation_InvalidCount.message}}",
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:AtelierGoods_PieStation_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":true,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "BakerySpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "BakerySuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
+            "WorkingEffects":[
+                {
+                    "Frames":[0,1,2,3,4,5],
+                    "Interval":150
+                }
+        ] 
+        }
+    }
+},
+
+/////////////
+// COOKIES //
+/////////////
+
+    {
+        "LogName": "Add Mixer to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": {"Atelier.Cauldron/ConfigValue:Cookies": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Mixer": {
+                "Name": "Wildflour.AtelierGoods_Mixer",
+                "DisplayName": "{{i18n:AtelierGoods_Mixer.name}}",
+                "Description": "{{i18n:AtelierGoods_Mixer.description}}",
+                "Price": 50,
+                "Fragility": 0,
+                "CanBePlacedOutdoors": true,
+                "CanBePlacedIndoors": true,
+                "IsLamp": false,
+                "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+                "SpriteIndex": 176,
+                "CustomFields": {}
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Mixer Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": {"Atelier.Cauldron/ConfigValue:Cookies": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Mixer": "Wildflour.AtelierGoods_Cookie_Mix 1 388 50 335 1/Home/Wildflour.AtelierGoods_Mixer/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Mixer.name}}"
+    }
+    },
+
+    {
+        "LogName": "Add Mixer Machine Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Atelier.Cauldron/ConfigValue:Cookies": true},
+        "Entries": {
+            "(BC)Wildflour.AtelierGoods_Mixer": {
+                "OutputRules": [
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Cookies",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["wildflour_syrup_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Cookies",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cookies",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cookies %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Cookies",
+                                "PreserveID":"DROP_IN_PRESERVE",
+                                "CopyQuality":true,
+                                "CopyColor":true,
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                    },
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 800
+                    },
+                       {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Cookies",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Cookies",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cookies",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cookies %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Cookies",
+                                "PreserveID":"DROP_IN",
+                                "CopyQuality":true,
+                                "CopyColor":true,
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                    },
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.0
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 800
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)Wildflour.AtelierGoods_Cookie_Mix",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_Mixer_InvalidCount.message}}",
+                    }
+                ],
+                "InvalidItemMessage":"{{i18n:AtelierGoods_Mixer_InvalidItem.message}}",
+                "ShowNextIndexWhileWorking":true,
+                "ShowNextIndexWhenReady":false,
+                "WobbleWhileWorking":false,
+                "ReadyTimeModifiers": [
+                    {
+                        "Id": "BakerySpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                        "Modification": "Multiply",
+                        "Amount": 0.75
+                    },
+                    {
+                        "Id": "BakerySuperSpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                        "Modification": "Multiply",
+                        "Amount": 0.5
+                    },
+                ],
+                "WorkingEffects":[
+                    {
+                        "Frames":[0,1,2,3],
+                        "Interval":200
+                    }
+            ] 
+            }
+        }
+    },
+
+/////////////////////
+// BREAD DOUGHNUTS //
+/////////////////////
+
+    {
+        "LogName": "Add Rolling Pin to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Rolling_Pin": {
+                "Name": "Wildflour.AtelierGoods_Rolling_Pin",
+                "DisplayName": "{{i18n:AtelierGoods_Rolling_Pin.name}}",
+                "Description": "{{i18n:AtelierGoods_Rolling_Pin.description}}",
+                "Price": 50,
+                "Fragility": 0,
+                "CanBePlacedOutdoors": true,
+                "CanBePlacedIndoors": true,
+                "IsLamp": false,
+                "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+                "SpriteIndex": 184,
+                "CustomFields": {}
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Rolling Pin Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Rolling_Pin": "Wildflour.AtelierGoods_Bread_Mix 1 388 50 709 5/Home/Wildflour.AtelierGoods_Rolling_Pin/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Rolling_Pin.name}}"
+    }
+    },
+
+    {
+        "LogName": "Add Rolling Pin Machine Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
+        "Entries": {
+            "(BC)Wildflour.AtelierGoods_Rolling_Pin": {
+                "OutputRules": [
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Doughnuts %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Doughnuts",
+                                "PreserveID":"DROP_IN",
+                                "CopyColor": true,
+                                "CopyQuality":true,
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                    },
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.5
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 1400
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)Wildflour.AtelierGoods_Bread_Mix",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_RollingPin_InvalidCount.message}}"
+                    }
+                ],
+                "InvalidItemMessage":"{{i18n:AtelierGoods_RollingPin_InvalidItem.message}}",
+                "ShowNextIndexWhileWorking":true,
+                "ShowNextIndexWhenReady":false,
+                "WobbleWhileWorking":false,
+                "ReadyTimeModifiers": [
+                    {
+                        "Id": "BakerySpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                        "Modification": "Multiply",
+                        "Amount": 0.75
+                    },
+                    {
+                        "Id": "BakerySuperSpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                        "Modification": "Multiply",
+                        "Amount": 0.5
+                    }
+                ],
+                "WorkingEffects":[
+                    {
+                        "Frames":[0,1,2,3],
+                        "Interval":150
+                    }
+            ] 
+            }
+        }
+    },
+
+//////////////
+// PUDDINGS //
+//////////////
+
+    {
+        "LogName": "Add Deluxe Dessert Stand to BigCraftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "When": { "Atelier.Cauldron/ConfigValue:Puddings": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Deluxe_Dessert_Stand": {
+                "Name": "Wildflour.AtelierGoods_Deluxe_Dessert_Stand",
+                "DisplayName": "{{i18n:AtelierGoods_Deluxe_Dessert_Stand.name}}",
+                "Description": "{{i18n:AtelierGoods_Deluxe_Dessert_Stand.description}}",
+                "Price": 50,
+                "Fragility": 0,
+                "CanBePlacedOutdoors": true,
+                "CanBePlacedIndoors": true,
+                "IsLamp": false,
+                "Texture": "Mods\\Wildflour.AtelierGoods\\Machines_{{MachineStyle}}_{{MachineColor}}",
+                "SpriteIndex": 200,
+                "CustomFields": {}
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Deluxe Dessert Station Machine Recipe",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "When": { "Atelier.Cauldron/ConfigValue:Puddings": true},
+        "Entries": {
+                "Wildflour.AtelierGoods_Deluxe_Dessert_Stand": "Wildflour.AtelierGoods_Pectin 3 335 3/Home/Wildflour.AtelierGoods_Deluxe_Dessert_Stand/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Deluxe_Dessert_Stand.name}}"
+        }
+    },
+
+    {
+        "LogName": "Add Deluxe Dessert Stand Machine Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Atelier.Cauldron/ConfigValue:Puddings": true},
+        "Entries": {
+            "(BC)Wildflour.AtelierGoods_Deluxe_Dessert_Stand": {
+                "OutputRules": [
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Pudding",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Pudding",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Pudding",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Pudding %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Pudding",
+                                "PreserveID":"DROP_IN",
+                                "CopyQuality":true,
+                                "CopyColor":true,
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.5
+                                    },
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 150
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 800
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)Wildflour.AtelierGoods_Pectin",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_Deluxe_Dessert_Stand_InvalidCount.message}}"
+                    }
+                ],
+                "InvalidItemMessage":"{{i18n:AtelierGoods_Deluxe_Dessert_Stand_InvalidItem.message}}",
+                "ShowNextIndexWhileWorking":true,
+                "ShowNextIndexWhenReady":false,
+                "WobbleWhileWorking":false,
+                "ReadyTimeModifiers": [
+                    {
+                        "Id": "BakerySpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInterior",
+                        "Modification": "Multiply",
+                        "Amount": 0.75
+                    },
+                    {
+                        "Id": "BakerySuperSpeedy",
+                        "Condition": "LOCATION_CONTEXT Target HXW.BakeryShed_BakeryInteriorLarge",
+                        "Modification": "Multiply",
+                        "Amount": 0.5
+                    }
+                ],
+                "WorkingEffects":[
+                    {
+                        "Frames":[1,2,3,4,5,6],
+                        "Interval":150
+                    }
+            ] 
+            }
+        }
+    }
+
+]
+}

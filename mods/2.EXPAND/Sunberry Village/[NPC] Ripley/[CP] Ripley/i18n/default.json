@@ -1,0 +1,447 @@
+{
+    //Display Names
+  "Name.Ripley": "Ripley",
+
+  //Misc. Dialogue
+  "Ripley.FlowerDance_Accept": "I'd be happy to, darlin'. I'll try to keep the sun outta your eyes.",
+  "Ripley.FlowerDance_Decline": "Thanks but no thanks, sugar-. Maybe another time.",
+  "Ripley.WinterStar_GiveGift_Before": "Hey, stranger!$h#$b#Fancy meetin' you here. I got you a little something.",
+  "Ripley.WinterStar_GiveGift_After": "I ain't all that good with gifts, but... tried my best.#$b#Hope you like it!",
+  "Ripley.WinterStar_ReceiveGift": "I got your gift!$h#$b#Thanks, darlin'. I appreciate you.",
+
+  "Ripley.AcceptBouquet": "!!$7#$b#For me?$7#$b#Thanks, stranger, they're so pretty. I got a perfect vase to put 'em in.#$e#... Wait, you want to WHAT?$9#$b#Mercy me, I was so distracted by the flowers I didn't even think about the possibility of you bein' sweet on me.$9#$b#Lucky, lucky me.$4",
+  "Ripley.RejectBouquet_AlreadyAccepted": "Silly goose, you already asked me out.#$b#You can do it again though, I don't mind hearin' it.$4",
+  "Ripley.RejectBouquet_VeryLowHearts": "Aw, those are lovely. Whoever they're for's a lucky duck.#$e#... Wait, those are for me?$9#$b#No offense meant, but let's maybe get dinner or something one of these days, first, alright?$h",
+  "Ripley.RejectBouquet_LowHearts": "Aw, those are lovely. Whoever they're for's a lucky duck.#$e#... Wait, those are for me?$9#$b#I dunno about that, sugar, I like where we're at now.",
+  "Ripley.breakUp": "Oh...$2#$b#Well. If that's what ya want, then I won't stop you from doin' what makes you happy.$2#$b#Can I... can I keep the flowers, though? They smell real nice.$9",
+  "Ripley.GreenRain1": "Hey, stranger!#$b#Oh, I ain't worried about a little rain. Ain't like I'm made of sugar.$3#$b# I got things that need doing, anyhow.",
+  "Ripley.GreenRain2": "Hey, stranger!$h#$b#Nah, I don't mind this weather one bit. How else do you reckon I keep my hair so leafy green?$3",
+
+    //Gift Dialogue
+    //-----------
+
+  //Loved Gift Taste -- 205 (Fried Mushroom) 222 (Rhubarb Pie) 281 (Chanterelle) 257 (Morel) 422 (Purple Mushroom) 259 (fiddlehead fern)
+  "Ripley.BirthdayGift": "Aw, puddin', you didn't have to get me anything!$h#$b#That's mighty kind of you, thanks a bunch!$h",
+  "Ripley.BirthdayGift_Negative": "What on earth is this?$9#$b#Oh, I get it! You're playin' along, on account of how I don't care for my birthday much.#$b#Very funny.$3",
+  "Ripley.FriedMushroom": "Ooh, yum!$h#$b#These are my go-to at the saloon, every time.#$b#They're best when you pick 'em yourself, though. Don't tell Gus.$3.",
+  "Ripley.RhubarbPie": "Whoa, is this all for me?$h#$b#Yum, I love how you did the top. I like addin' a little sugar on top to cut how tart the rhubarb is by itself.#$b#Don't need to add extra sugar if it's you who made it, though.$3.",
+  "Ripley.Chanterelle": "What a beauty!$h#$b#I love chanterelles, they're so easy to spot.#$b#You know it's a chanterelle when they grow right outta the ground instead of on wood.",
+  "Ripley.Morel": "Oh, I love findin' one of these puppies.$h#$b#In my experience they like soil that's a little soggy.#$b#Thanks, stranger! I'm gonna eat good today.$h",
+  "Ripley.PurpleMushroom": "What the heck is this?#$b#What a weird-lookin' feller. Can you eat it?$8#$b#No? Well. We'll see about that.$8#$b#If you don't hear from me again you can have my leaf collection.$3.",
+  "Ripley.Fiddlehead": "Oh, gosh! Oh, golly!$h#$b#How'd you know these are my favorite in the whole wide world?$h#$b#Thanks, sugar! I'm gonna eat good today.$h",
+
+
+  //Liked Gift Taste -- 404 (Common Mushroom) 408 (hazelnut) 410 (blackberry) 420 (red mushroom) 724 (maple syrup) 721 (snail)
+  "Ripley.CommonMushroom": "What a cute little feller!#$b#I like these, real easy to find and soak up any sauce you put 'em in.#$b#Thanks a bunch!$h",
+  "Ripley.Hazelnut": "Well, lookie there!$h#$b#I love these, thank you darlin'.$h",
+  "Ripley.Blackberry": "Don't mind if I do!$h#$b#These make a right fine jam, but they're just as good when you wear 'em on your fingers like lil' hats.",
+  "Ripley.RedMushroom": "Oh, lord, you better wash your hands good after touchin' that thing. They'll make you sick as a dog.$9#$b#Lemme take it off your hands for you. I think they're neat.",
+  "Ripley.MapleSyrup": "Yum! Did you tap this yourself?$h#$b#Nothin' better than local syrup. Thanks, sugar.",
+  "Ripley.Snail": "Look at that little guy go! He's so cute.$h#$b#I think I know a good leaf to put him on. Thanks, honey.",
+
+    //Mod Crossover Gift Dialogue
+    //-----------
+    
+    //Wildflour Mods - WaG & RatA
+  "Ripley.QueenBolete": "Would you look at that big honkin' feller.$h#$8#Hey, kinda looks like me. If ya squint.$h",
+  "Ripley.ChickenOfTheWoods": "Well, cock-a-doodle-doo to you, too!$h#$b#Some words of wisdom: you wanna shred this baby up and cook the bits well, at least ten minutes. So you don't get what I like to call...#$b#... Bubble Guts.$9",
+  "Ripley.HoneyFungus": "Wow-wee! Ain't even my birthday!#$b#These fellers are some of my favorites to cook up. They love pasta sauce.#$b#But who doesn't?$4",
+  "Ripley.MeringueMushroom": "Hey there, purdy thing!$h#$b#... was talkin' to the shroom, not you, but hey, if the shoe fits...$4",
+  "Ripley.MilkyWhiteMushroom": "What a beauty!$h#$b#These ones you're gonna wanna run home and cook up quick-like.#$b#That buttery texture they got starts to get real funky after a few hours.$8",
+  "Ripley.WheatberryMushroom": "Lookie there!$h#$b#These're mighty common but some of my favorites. I'm fond of dryin' em up and keepin' 'em in jars to put in soup over the winter.",
+
+  "Ripley.BabyBluegill": "Lookit this little bugger!$h#$b#Might not look it on account of their color but these are totally edible.#$b#My memaw would pickle 'em with garlic and cornichons. They taste like the holidays to me.",
+  "Ripley.BlushingTopHat": "Hey, what a find!#$b#Believe it or not I've tried to blend these up into salsa for some extra protein.#$b#It turned out... digestible.$9",
+  "Ripley.BubblegumFunnel": "Check out the pink on this guy!#$b#Trust me when I say it's only called a Bubblegum Funnel on account of the color.#$b#It sorta tastes like a meaty carrot.", 
+  "Ripley.CandyButton": "Look at this cutie!$h#$b#If you get yourself a handful of these they make for a decent snack.#$b#Just wash the slime off first.",
+  "Ripley.CoralFungus": "Mercy me, this feller kinda gives me the creeps.#$b#Looks like fingers.#$b#... compels me, though.$8",
+  "Ripley.FrillyGilly": "What a beauty!#$b#This feller likes growin' near flowers. Smells alright, too.#$b#It's kinda like the Ugly Duckling of mushrooms.$8",
+  "Ripley.GhostlyParasol": "Shoo-wee, careful with that!#$b#You can't eat this one, but you can eat the Baby Bluegills that like growin' near it.",
+  "Ripley.IndigoCap": "Mercy me, is that an Indigo Cap?$7#$b#You better wash your hands real good when you get home, this thing's a killer!#$b#The alchemist loves these though.",
+  "Ripley.LilacFunnel": "Lookie there!#$b#I've heard tell you can cook these, but you gotta go through so much rigamarole to prep 'em that I've never bothered.#$b#I recommend you don't bother either. I prefer you with both your eyes.$4",
+  "Ripley.LimeyBonnet": "Hey, this one kinda looks like me!#$b#I like to think I ain't gonna make you feel half as puny as this feller will if you eat it.$4",
+  "Ripley.LunarPoof": "Wow-wee, what a perfect puffball.$h#$b#These babies don't got much flavor but don't sleep on 'em.#$b#They'll soak up any flavor you cook 'em with.$h",
+  "Ripley.MidasCap": "What a handsome guy!$h#$b#Almost too dang purdy to eat. But that's never stopped me.$h",
+  "Ripley.MidnightMilkcap": "Don't eat this one, stranger.#$b#Unless you like bein' on your bathroom floor with the weak trembles for a day and a half.#$b#Don't ask how I know.$9",
+  "Ripley.MottledFieldcap": "Oh, ain't this nice?#$b#I reckon it's goin' in some soup later. Thanks, stranger!$h",
+  "Ripley.RoseyElfcup": "Oh, lordie, careful with this one.#$b#Don't touch your mouth 'till you wash your hands real good or it'll go numb.#$b#Along with the rest of you.",
+  "Ripley.Rustgill": "This one's one of my favorites!$h#$b#I like dryin' up the caps 'till they're crispy and crunchin' em like chips.",
+  "Ripley.SeafoamWaxcap": "Be real careful 'round this one.#$b#If you eat even a nibble it's gonna give you something I like to call The Thins.#$b#I reckon I shouldn't explain that one to you.$9",
+  "Ripley.Shrumbus": "This thing got me uneasy.#$b#Like if I turn my back it's gonna get up and walk away.$8",
+  "Ripley.SparklingAgaric": "Oh, this baby's a killer.#$b#For Pete's sake, put some gloves on while you're handling that, you're making me nervous.$9",
+  "Ripley.StoutFunnel": "These are delicious!#$b#If I don't got enough chanterelles for a dish I'll add some of these. They do the job right fine.",
+
+
+    //Map Strings
+    //-----------
+
+  "Ripley.MapString.CookBooks": "A row of worn, yellowed cookbooks, their spines loose and cracked from being held open by one hand and stirring with the other.",
+  "Ripley.MapString.FieldGuide": "Field guides to different species of birds, fish, and fungi. They're small enough to keep in your pocket while exploring the green.",
+  "Ripley.MapString.ScrapBook": "Bound notebooks full of pressed flowers, bark rubbings, lists, and dated journal entries.#Ripley writes in a loose cursive that's almost impossible to read, which is probably for the better...#... because isn't this a little personal?",
+  "Ripley.MapString.Harp": "It's the biggest harp you've ever seen, made from shiny wood and detailed with intricately-painted floral patterns.#It looks well-loved, but a little dusty.",
+  "Ripley.MapString.FamilyPhotos": "A framed family photo:#A little girl in a muddy sundress and long, green hair, grinning around missing teeth.#An enormous man with similar mossy hair, suspenders wrapping around his chest like ropes tying down a barrel.#And a striking woman with rolled curls, kind brown eyes, and the same huge smile as her daughter.",
+  "Ripley.MapString.Fern": "The ancient wood paneling has eroded away here.#Seems like Ripley has strategically hidden it behind a hanging fern until she can get around to fixing it.",
+  "Ripley.MapString.Mokapot": "An aluminum, stovetop coffee maker. The coffee in it smells REALLY strong.",
+  "Ripley.MapString.Fridge": "Everything in here has been canned or wrapped with paper, labeled, and organized by date.#There are pickled vegetables in here you didn't even realize could be pickled.",
+  "Ripley.MapString.HeightChart": "There are pencil marks etched into the wood, here, labeled with names, some of them too smudged to read.#From shortest to tallest you can make out a handful:#Norma, Willadeane, Dexter, Shiloh, Jeremiah, Lula Mae, Magnolia, Herschel, Amos,#and Eleonora.",
+  "Ripley.MapString.Clock": "The wood of this clock is worn, but still in great shape.#Above the hands is a panel that rotates with the phases of the moon.",
+
+
+   //Festival Dialogue
+   //-----------------
+   //Egg Festival
+
+  "Ripley.Dialogue.spring_12": "Well, hey there, Farmer. Hope to see ya at the festival tomorrow!#$b#I helped supply the eggs.$h", //day before Egg Fest    
+  "Ripley.Dialogue.EggFestival": "Howdy there, Farmer! You doin' the egg hunt?#$b#Just remember the eggs are real, not plastic. If you open 'em up you're gonna be in for a surprise.$u",
+
+  //Birthday
+  "Ripley.Dialogue.spring_16": "Huh?#$b#Oh, yeah, guess my birthday's comin' up. Always sneaks up on me.", //day before her birthday
+  "Ripley.Dialogue.spring_17": "Suppose I'm another year older. Don't feel much different, maybe a little taller.#$b#Oh, s'alright, you don't need to get me anything, sugar. S'just a day like any other.$h", //day of her birthday
+
+  //Flower Dance
+  "Ripley.Dialogue.spring_23": "You goin' to the Flower Dance tomorrow?#$b#Yeah, normally I'd be too busy but I tend to get roped into this sorta thing whether I want to or not.$h", //day before Flower Dance
+  "Ripley.Dialogue.FlowerDance": "I had to adjust this dress. Otherwise it woulda stopped at my knees.",
+  "Ripley.Dialogue.danceRejection": "Sorry, Farmer, no can do.#$b#'Fraid a certain someone already beat you to it.$u",
+
+  //Luau
+  "Ripley.Dialogue.summer_10": "You ready for the Luau tomorrow, Farmer?#$b#Bet whatever you're bringin' to the pot's gonna sweeten it right up.$u", //day before Luau
+  "Ripley.Dialogue.Luau": "Shoo-wee, it's hotter than blue blazes out here!#$b#Water feels great, though. Should come swimmin' after lunch.$u",
+
+  //Moonlight Jellies
+  "Ripley.Dialogue.summer_27": "Tomorrow's when the jellyfish pay a visit. Always look forward to it.#$b#Am I gonna see you there, sugar?", //day before Moonlight Jellies
+  "Ripley.Dialogue.Jellies": "You ever think about where the jellies might be headin'?#$b#I ain't ever traveled, really. Where would I go?#$b#If'n I was ever gonna go on vacation I'd just stay right around here.#$b#Don't mind this all the time anyhow.$h",
+
+  //Stardew Fair
+  "Ripley.Dialogue.fall_15": "Hope to see ya at the fair tomorrow.#$b#You should stop by the petting zoo if you've got the time and say hi.", //day before Stardew Fair
+  "Ripley.Dialogue.SDVFair": "Hey, Farmer! How's your display comin' along?#$b#Oh, me? Nah, didn't have the time to set one up, myself. That, and I wanted to give ya a fightin' chance.$u",
+
+  //Twilight Festival
+  "Ripley.Dialogue.TwilightShop": "Nature keeps us guessin'. Seems no two years are the same when it comes to growin', yeah?",
+  "TwilightShop.Closed": "Looks like Ripley's not here yet. Come back at 4 PM!",
+
+  //Spirit's Eve
+  "Ripley.Dialogue.fall_26": "Gonna get real spooky soon, Farmer! You got a costume ready?", //day before Spirit's Eve
+  "Ripley.Dialogue.SpiritsEve": "Howdy, @. You better cowboy up and get in that there maze, it ain't gonna bite ya.$h#$e#Oh, me? Uh... I gotta... stay out here and...$h#$b#... Saddle up... rustle up some, uh...$9#$b#Man, you just gonna stand there with all your teeth in your head? Go on, get.$9",
+
+  //Ice Festival
+  "Ripley.Dialogue.winter_7": "You comin' to the ice festival tomorrow?#$b#Lookin' to be cold enough to freeze the nose hairs but if you get chilly just come find me. I'll keep ya warm.$h", //day before Festival of Ice
+  "Ripley.Dialogue.IceFest": "I ain't all that good at ice fishin'. Think maybe my shadow's too long.#$b#So you'd better win for me, you hear?$h",
+
+  //WinterStar
+  "Ripley.Dialogue.winter_24": "So whatcha want for Winter Star, @?#$b#Not that I need to know or anything, course. Just, uh, askin' for a friend.$h", //day before Winter Star
+  "Ripley.Dialogue.WinterStar": "Another year gone, huh Farmer? Hope it was kind to ya.#$b#If not, there's a lotta people here who'll help you right on through it.#$e#We all love ya much, alright? Take care of yourself.$h",   
+   
+
+  //Dialogue
+  //--------
+
+  //Schedule
+
+  "Axe1": "Shoo-wee, I was going strong and making good headway on this when I first got started, but as the day wore on I've been flittering out.#$b#Pop a squat for a second and tell me what you been up to while I catch my breath.",
+  "Axe2": "I love these boots. Reckon they're the lastingest pair of boots I've ever had.#$b#I've worn them near every day for a good 5 years.#$b#Always make sure you spend a little extra on anything keepin' you off the ground, sugar. It'll do ya good.$3",
+  "Axe3": "I'm used to doin' things myself.#$b#Growin' up, my folks did alright, but my pa got a big family. My grandparents didn't have even a thin dime a-tween 'em all.#$b#On account of that, my pa's the resourcefulest man I know.",
+
+  "Paddock1": "Tessie here is not in my good graces today.#$b#Lifted her hoof and dropped it directly in a full milk pail and made the biggest splatterment you ever saw!#$b#So mind yourself if you smell somethin' sour.",
+  "Paddock2": "I keep tryin' to churn my own butter with Tessie's milk but I ain't too good at it yet.#$b#Cain't quite get it like my memaw used to make, spread out on a hot homemade biscuit.#$b#Oh, well.",
+
+  "Pierres1": "Living off the land and doing for myself is something I've always done. It was the way I was brought up.",
+  "Pierres2": "I raise practically everything I eat.#$b#Only have to go to the grocery store for sugar and toiletries, stuff like that.#$b#And peanut butter. Reckon I go through a jar a week.$3",
+  "Pierres3": "Only things I need to get that I cain't grow myself are the three S's. Soap, sodie-pop, and salt.",
+
+  "Saloon1": "I'm tryin' to relax but I keep feelin' like I need to head back and make sure the chickens are alright.#$b#The girls get real surly when they don't get their scratch grains at the right time.",
+  "Saloon2": "Truth be told, I don't drink all that much.#$b#I got the constitution of a twenty-hand draft horse and that clears my wallet right out.",
+  "Saloon3": "I'll drink anything if you put a little orange slice on it.$h",
+
+  "Kitchen1": "I haven't had the gumption to go shovel snow.#$b#Folks have offered to help, but I don't want nobody to disfurnish theirselves on account of me.$2",
+  "Kitchen2": "I don't know what's wrong with me today.#$b#I'm so ill I can't even stand my ownself.",
+  "Kitchen3": "The cold's got this old wood floor screakin' so bad I can't hear myself think.#$b#Sigh...$2",
+
+  "Sleepy1": "G'morning.$4#$b#I'll be up in a bit. You're just so cozy I can't hardly stand it.$4",
+  "Sleepy2": "Hey, you.$4#$b#Why don't you stay for a bit longer? It's so warm in here.$4",
+  "Sleepy3": "Hi.$4#$b#Normally I'd be up by now but you looked so gosh darn cute I didn't have the heart to move and wake you up.$4",
+
+
+
+  //Seasonal
+  //--------
+
+  //spring
+  "Ripley.Dialogue.spring0": "Springtime's always got me runnin' around more than usual. Been busier than a one legged man in a shin kickin' contest.#$b#How 'bout you?",
+  "Ripley.Dialogue.spring2": "Soooo much pollen in the air today.#$b#Wish my nose would stop running, 'cause I'm getting real tired of chasin' it!$h",
+  "Ripley.Dialogue.spring4": "Folks back in the city spend so much time hemmin' and hawin' about dandelions in their yard when they COULD be spendin' that time eatin' em.#$e#You ever try dandelion wine?#$b#You need a LOTTA dandelions.",
+  "Ripley.Dialogue.spring6": "Feels like I've been stemming green beans for hours. My hands are so sore.",
+  "Ripley.Dialogue.spring8": "You need yourself a better hat, darlin'.#$b#You're going to give yourself a headache if you squinch like that all day long.$h",
+  "Ripley.Dialogue.spring10": "Hey, darlin'! It's spring onion season!#$b#Personally, I'm gonna make me some cornbread and just chomp on 'em alongside.$h#$b#...No, I don't cook 'em. Quit lookin' at me all funny.",
+
+  //summer
+  "Ripley.Dialogue.summer0": "Got some mighty powerful peppers growin' this season.#$b#You should try one. It'll put hair on your chest and lead in your pencil, believe you me.$u",
+  "Ripley.Dialogue.summer2": "Ugh. I've half a mind to go and just spray myself with the hose.#$b#I can hose you down too. If ya want.$3",
+  "Ripley.Dialogue.summer4": "Smell that, sugar? Black dirt and fresh summer rain.#$b#Ain't nothin' like it anywhere else.",
+  "Ripley.Dialogue.summer6": "Should I make a blueberry or raspberry pie today? Maybe I'll make a Mixed Berry pie...#$b#...with a lattice top...$8",
+  "Ripley.Dialogue.summer8": "Shoo-wee, my peppers got some fight in 'em this year! Bet you couldn't even dip a finger in the hot sauce I'm fixin' to make.$h",
+  "Ripley.Dialogue.summer10": "I wish you could get oranges all year.#$b#Although, I suppose that'd make them less special.#$e#I dunno. I see you all year 'round and you never get any less special to me.$6",
+  
+  //fall
+  "Ripley.Dialogue.fall0": "Found a motherload of morels in the woods today.#$b#I'm fixin' to go fry 'em up in oil, so good they'll make your tongue slap yer brains right out your head.", 
+  "Ripley.Dialogue.fall2": "I made a ton of wild plum jelly yesterday.#$b#I'm bringin' some to Mia later but you can have a jar too. I've got plenty.$h#$b#... Maybe too much.$9",
+  "Ripley.Dialogue.fall4": "So gray out.#$b#Y'know, if you need a little sunshine you can always borrow some of mine!$h",
+  "Ripley.Dialogue.fall6": "You cold out here, darlin'? Can always come in and warm up, my door's always open.#$b#...Well. In a manner of speaking, so's not to let the cold in.$u",
+  "Ripley.Dialogue.fall8": "Ooh, it's gettin' to be apple pie time.#$b#And apple crisp. And apple cake, and apple muffins...#$e#...and apple crumble, and applesauce, and apple cider...$8",
+  "Ripley.Dialogue.fall10": "Wait, babe, hold still. You got a leaf in your hair.#$b#...#$b#... Got it. Alright. As you were.$6",
+
+  //winter
+  "Ripley.Dialogue.winter0": "Mm. Sun hasn't been out in days.#$b#Dunno about you, but I'm feelin' like death on a cracker right about now.",
+  "Ripley.Dialogue.winter2": "It ain't that cold. Naw, this is shorts weather.#$b#Get back to me when you breathe in and your nose freezes shut.$u",
+  "Ripley.Dialogue.winter4": "The ol' farmhouse ain't all that big. Papaw Ripley stuffed my Memaw and five kids in there.#$b#And three cows at one point, when it got real cold.$h",
+  "Ripley.Dialogue.winter6": "Chilly out today. Think I'd better head inside and make some soup.",
+  "Ripley.Dialogue.winter8": "You cold out here, darlin'? Can always come in and warm up, my door's always open.#$b#...Well. In a manner of speaking, so's not to let the cold in.$u",
+  "Ripley.Dialogue.winter10": "Every winter after the first big snow my papaw and I would get some fresh snow, mix it with milk and sugar and chocolatey chips.#$b#He called it snow cream.#$e#Haven't had it since I was knee-high to a grasshopper but maybe I'll try and make some today for old time's sake.",
+
+ //Days of The Week
+ //----------------
+
+  //0 hearts
+  "Ripley.Dialogue.Monday0": "Hm. Looks like it might be comin' up a cloud. I can smell it in the air.",
+  "Ripley.Dialogue.Tuesday0": "Hey, sugar. How've you been?#$b#Me? Oh, y'know. Finer than a frog hair split three ways.$u",
+  "Ripley.Dialogue.Wednesday0": "Cows 'n horses got the right idea havin' a tail to swat bugs with. I'm so jealous.",
+  "Ripley.Dialogue.Thursday0": "I feed my chickens all the weeds I pull up. Leafy greens make their eggs super yellow.",
+  "Ripley.Dialogue.Friday0": "If you find any cool mushrooms and don't know what they are, feel free to send 'em my way. I'll let you know if you can eat 'em or not.",
+  "Ripley.Dialogue.Saturday0": "Been drying herbs all over the house today.#$b#It smells SO good in there.$h",
+  "Ripley.Dialogue.Sunday0": "Oh, the 'lil heart pond out by my place?#$b#Glad ya like it! I dug it out myself.$u",
+
+  //2 hearts
+  "Ripley.Dialogue.Monday2": "Maia's so cool.#$b#I've always wanted to try blacksmithing, I think I'd be real good at it.",
+  "Ripley.Dialogue.Tuesday2": "Tried going fishing earlier. Didn't get any nibbles. Not nary a one.#$b#Think maybe my shadow's too long.",
+  "Ripley.Dialogue.Wednesday2": "Hey there, stranger! Come sit a spell, tell me what you been up to.$h",
+  "Ripley.Dialogue.Thursday2": "The old farmhouse in the village belonged to my pa's side of the family. My pepaw kept it in beautiful condition right up 'till the day he died.",
+  "Ripley.Dialogue.Friday2": "I reckon if I focused real hard, I could grow a leaf.$8",
+  "Ripley.Dialogue.Saturday2": "Nothing like butter made from your own cows, y'know?#$b#I should bake some bread to spread it on today.",
+  "Ripley.Dialogue.Sunday2": "I don't miss the city one bit.#$b#You couldn't see the stars. What kind of life is that?",
+
+  //4 hearts
+  "Ripley.Dialogue.Monday4": "How tall am I? Tall enough to know better, honey.#$b#Uh... last I measured, six of one, half dozen of the other.#$b#Tall enough to paint your porch ceilin', if'n it ever needs fixin'.",
+  "Ripley.Dialogue.Tuesday4": "Leah over in Pelican Town and I got a lot in common. Always important to stick by your fellow women-in-suspenders.#$b#I'd be down to get to know her a little better, though, if'n you catch my meanin'.$u",
+  "Ripley.Dialogue.Wednesday4": "Got my green beans all stemmed 'n snapped today. Reckon it's time to make a big ol' pot of soup beans and bacon.#$b#And cornbread, of course. Pepaw's recipe.#$e#No, you can't have it.$u",
+  "Ripley.Dialogue.Thursday4": "My pa likes to brag about once wrestling a bear.#$b#And y'know what, I'm inclined to believe he actually did it.$h",
+  "Ripley.Dialogue.Friday4": "Sometimes if I'm exhausted from farm work I'll just fall asleep with the cows. They like the company, but the smell...$h#$b#Maybe don't stand too close to me.$9",
+  "Ripley.Dialogue.Saturday4": "Diala wanted to know my birthday the other day then told me I was a 'Taurus.'#$b#Of COURSE you're a Taurus, she said.#$b#What d'you reckon that means...?$8",
+  "Ripley.Dialogue.Sunday4": "My pa left behind a dining room table. Real mahogany and everything! But it's way too big for lil ol' me.#$b#Maybe I should have people over more often.",
+
+  //6 hearts
+  "Ripley.Dialogue.Monday6": "I keep all my veggie peels when I cook and use 'em to make soup stock before wintertime hits.#$b#Waste not, want not, honey.$h",
+  "Ripley.Dialogue.Tuesday6": "Diala's little witchcraft thing flies right over my head. I got no idea what she's goin' on about half the time.#$b#... Compels me, though.$8",
+  "Ripley.Dialogue.Wednesday6": "My ma was a bit of a socialite back in the day.#$b#Sometimes she still calls and invites me to a cocktail party back home and gets mad when I tell her to fix me up a dress I can actually fit in.",
+  "Ripley.Dialogue.Thursday6": "My old job's office building didn't have any windows, just fluorescent lights. I felt like I was gonna turn yellow and wilt like a houseplant.#$b#So glad I quit.$h",
+  "Ripley.Dialogue.Friday6": "Was I born with green hair? Sure was, darlin'.#$b#My Ma says it's 'cause when she and Pa wanted a kid she went outside and yanked me right outta the dirt, like a carrot.#$b#Not sure I believe her, though. She'd never get her hands dirty like that.$8",
+  "Ripley.Dialogue.Saturday6": "Headin' down to the mines for a spell. Gotta make sure the supports are holdin' up, get rid of any beasties that might be lurkin' down there.#$b#And no, monsters down there ain't good eatin'.#$b#Or, uh, so I've heard.$8",
+  "Ripley.Dialogue.Sunday6": "You mess around with crab traps much, stranger?#$b#Don't let them crawdads get hold of ya, 'cause they won't let go 'till it thunders.",
+
+  //8 hearts
+  "Ripley.Dialogue.Monday8": "My Pa always says you gotta fill your shelves with well-read books, your windowsills with plants abundant, and your home with love.#$b#Hasn't failed me yet!$h",
+  "Ripley.Dialogue.Tuesday8": "If you got any empty bottles I'd be happy to take 'em off your hands. Makin' a bottle tree for my yard.$h#$b#Traps any haints what might be wanderin' around the garden at night.#$b#At least that's what my memaw always said. She was way more 'stitious than I am.",
+  "Ripley.Dialogue.Wednesday8": "Rhubarb's one of my favorite things in the world. So easy to grow and mighty tasty.#$b#Sometimes once it gets growin' out the ground I pick a stalk and just munch on it. Like a celery.$h#$b#... What?$9",
+  "Ripley.Dialogue.Thursday8": "Feels like today ain't ever gonna end.$1#$b#I'm so hungry I could eat the north end of a duck flyin' south.$9",
+  "Ripley.Dialogue.Friday8": "You believe in ghosts, sweet thing?#$b#Papaw Ripley's house is old 'n creaky but I swear sometimes I hear some sounds at night I can't quite figure out.#$b#Then again, could just be squirrels in the walls.$8",
+  "Ripley.Dialogue.Saturday8": "You need a better hat. You're going to give yourself a headache if you squinch like that all day long.$h",
+  "Ripley.Dialogue.Sunday8": "Mercy me, sugar, you look TIRED.#$b#Need me to carry ya home?$u",
+
+
+  //Romance
+  //--------------
+
+  "Ripley.RejectMermaidPendant": "Oh!$7#$b#... Oh.#$b#Um. Wow. That's...$9#$b#... a lot. That's a lot. Can we, um...$9#$b#... talk about this later, maybe?$9#$b#I need to think.$2#$action AddMail current RipleyRejection received",
+
+  //After rejecting mermaid pendant + saw cutscene + stayedtogether + not enough time has passed
+  
+  "Ripley.Dialogue.MondayPostRejection": "Hey there, honey-bear!$h#$b#Come sit a spell, been thinkin' about you all mornin'.",
+  "Ripley.Dialogue.TuesdayPostRejection": "Well, don't you look pretty as a speckled pup in a little red wagon.",
+  "Ripley.Dialogue.WednesdayPostRejection": "Well, hey, blue jay.#$b#Made some peach jam, if'n you wanna come over and be my taste tester.#$b#Ain't near as sweet as you, though.",
+  "Ripley.Dialogue.ThursdayPostRejection": "I actually used to be a real beanpole up 'till I moved back to the Valley.#$b#Growin' up my pa called me Birdie, on account of my legs bein' all long 'n lanky like a bird.#$b#The neighbor kids used to call me The Scarecrow and would run away from me, so I'd squawk like a crow and chase 'em round the cornfields.",
+  "Ripley.Dialogue.FridayPostRejection": "Hey, sugar!#$b#Wow, you look TIRED. Let me carry ya home.#$b#I'll throw you over my shoulder like a sack of flour.",
+  "Ripley.Dialogue.SaturdayPostRejection": "Oho, there you are, darlin'.#$b#C'mere and let me steal some sugar.",
+  "Ripley.Dialogue.SundayPostRejection": "Bein' back here after movin' to the city for a while...#$b#I'm far happier bein' here, in this tiny village, than I am a-settlin' somewhere more modern and bein' all miserable.#$b#And with you here to share it with, well. Can't get much better than that.",
+  
+  // After rejecting mermaid pendant + saw cutscene + broke up - has a chance to pull from these or 0-6 hearts
+  
+  "Ripley.Dialogue.MondayBrokenUp": "Hey there, honey-bear!$h#$b#... Oh, sorry, still a habit. Come sit a spell, tell me what you been up to.",
+  "Ripley.Dialogue.TuesdayBrokenUp": "Oh, I call everyone sugar.#$b#Or honey, or sweet thang, so on and so forth. I can make molasses pour out of my mouth if I were so inclined.#$b#I'll, uh, rein it in with you, though. Don't wanna be uncouth.$9",
+  "Ripley.Dialogue.WednesdayBrokenUp": "Well, hey, blue jay.#$b#Made some peach jam, if'n you wanna come over and be my taste tester.#$b#If, uh, it ain't too weird. S'okay if you don't want to.",
+  "Ripley.Dialogue.ThursdayBrokenUp": "I actually used to be a real beanpole up 'till I moved back to the Valley.#$b#Growin' up my pa called me Birdie, on account of my legs bein' all long 'n lanky like a bird.#$b#The neighbor kids used to call me The Scarecrow and would run away from me, so I'd squawk like a crow and chase 'em round the cornfields.",
+  "Ripley.Dialogue.FridayBrokenUp": "Hey, sugar! I mean, uh, @.#$b#Wow, you look TIRED. How's about I walk you home?",
+  "Ripley.Dialogue.SaturdayBrokenUp": "Believe it or not, oft-times I go full days without talkin' to nobody but the cows.#$b#Reckon since you've been comin' around, though, I've said more than I have in a real long time.#$b#Thanks for stickin' around, even after everything.",
+  "Ripley.Dialogue.SundayBrokenUp": "Bein' back here after movin' to the city for a while...#$b#I'm far happier bein' here, in this tiny village, than I am a-settlin' somewhere more modern and bein' all miserable.#$b#And with you here to share it with, well.#$b#Even though it didn't work out so well, I ain't regret a thing.",
+
+
+  //10 hearts 
+  "Ripley.Dialogue.Monday10": "Oh, I call everyone sugar.#$b#Or honey, or sweet thang, so on and so forth. I can make molasses pour out of my mouth if I were so inclined.#$b#Doesn't mean you ain't special, though.$6",
+  "Ripley.Dialogue.Tuesday10": "I was so different in the city. People are so different in the city.#$b#You don't like your job, you don't like your neighbor, you don't speak to your neighbor, you're bitter to the whole world.#$b#I'd sooner be at the bottom of the mines with my back broke than think about livin' there again.",
+  "Ripley.Dialogue.Wednesday10": "Believe it or not, oft-times I go full days without talkin' to nobody but the cows.#$b#Reckon since you've been comin' around, though, I've said more than I have in a real long time.#$b#What can I say? You open me up like a tin can, darlin'.$6",
+  "Ripley.Dialogue.Thursday10": "Didn't realize how lonely it gets in that ol' farmhouse 'till you came along.#$b#Reckon that's why my memaw and pepaw had so many kids. My pa got ten siblings.#$b#... I never had any.",
+  "Ripley.Dialogue.Friday10": "S'posed to be clear skies tonight.#$b#We can sit out in the orchard after the work gets done and watch the stars.#$b#If'n you want to.",
+  "Ripley.Dialogue.Saturday10": "Yeah, maybe I do talk funny.#$b#My memaw always used to say it's like we're singin', not talkin'.#$b#Think it was Abigail who said once I sound like a banjo when I get talkin' real fast.",
+  "Ripley.Dialogue.Sunday10": "I ain't ever traveled, really. Where would I go?#$b#If I was gonna go on vacation I'd just stay right around here. Don't mind this all the time anyhow.",
+
+  //After rejecting mermaid pendant+saw cutscene+stayedtogether+timepassed
+
+  "Ripley.Dialogue.Monday12": "Hey there, honey-bear!$h#$b#Come sit a spell, been thinkin' about you all mornin'.",
+  "Ripley.Dialogue.Tuesday12": "Well, don't you look pretty as a speckled pup in a little red wagon.",
+  "Ripley.Dialogue.Wednesday12": "Well, hey, blue jay.#$b#Made some peach jam, if'n you wanna come over and be my taste tester.#$b#Ain't near as sweet as you, though.",
+  "Ripley.Dialogue.Thursday12": "I actually used to be a real beanpole up 'till I moved back to the Valley.#$b#Growin' up my pa called me Birdie, on account of my legs bein' all long 'n lanky like a bird.#$b#The neighbor kids used to call me The Scarecrow and would run away from me, so I'd squawk like a crow and chase 'em round the cornfields.",
+  "Ripley.Dialogue.Friday12": "Hey, sugar!#$b#Wow, you look TIRED. Let me carry ya home.#$b#I'll throw you over my shoulder like a sack of flour.",
+  "Ripley.Dialogue.Saturday12": "Oho, there you are, darlin'.#$b#C'mere and let me steal some sugar.",
+  "Ripley.Dialogue.Sunday12": "Bein' back here after movin' to the city for a while...#$b#I'm far happier bein' here, in this tiny village, than I am a-settlin' somewhere more modern and bein' all miserable.#$b#And with you here to share it with, well. Can't get much better than that.",
+
+
+  //Resort Dialogue
+  //--------------
+
+  "Ripley.Dialogue.Resort_Entering": "Sure is hot out here! You fixin' to go for a swim?",
+  "Ripley.Dialogue.Resort_Leaving": "Welp, guess it's about time I head on back.",
+  "Ripley.Dialogue.Resort_Shore": "Yee-owch!$7#$b#Think I stepped on a seashell.",
+  "Ripley.Dialogue.Resort_Chair": "Stop makin' fun of my farmer's tan, you. It's a rite of passage!$h",
+  "Ripley.Dialogue.Resort_Bar": "Mm-mmm. This Pina Colada's hittin' the spot right fine.$h#$b#Love the way it makes my mouth all tingly.$h#$e#Whatcha mean that ain't normal?$9",
+  "Ripley.Dialogue.Resort": "I'm tryin' to relax but I keep feelin' like I need to head back and make sure the chickens are alright.#$b#The girls get real surly when they don't get their scratch grains at the right time.",
+  
+  
+  //Conversation Topics
+  //-------------------
+  "Ripley.Introduction": "Well, hey, there's a face I'd remember if I'd seen it! How d'you do?#$b#Just moved into my Grandad's old farmhouse up in Sunberry.#$b#... No kiddin', you're startin' a farm too? Suppose great minds think alike, huh?#$b#Well. Name's Ripley. I bet I'll be seein' more of ya.$3",
+  "Ripley.Dialogue.cc_Begin": "That Morris feller's a stain. Slippery as a hog on ice.#$b#Best steer clear, if'n I were you.$8",
+  "Ripley.Dialogue.cc_Complete": "Wowee, @, you really went and did it.$h#$b#The community center looks just as purdy as I remember it, all that old woodwork and fancy glass.#$e#Reckon the folks over in Pelican Town are gonna be real happy havin' somewhere to go that ain't the Saloon.#$b#You're really somethin', you know that?$3",
+  "Ripley.Dialogue.cc_Boulder": "Oh, good, that boulder's gone.#$b#Wasn't sure if I were able to lift it up myself but I was fixin' to try.#3",
+  "Ripley.Dialogue.movieTheater": "I heard tell there's a movie theater where that old Joja store used to be? Sounds fun. I ain't seen a lot of movies on account of never having a TV or nothing, maybe it's a good time to start.", 
+
+  //Ripley Events
+  "RipleyMonsters": "You're lookin' right as rain after that mess in the mines.#$b#Not that I don't believe you coulda handled yourself.$3",
+  "RipleyFolkHero": "Let's see... gotta check up on Jumana. Gotta do up the washing, then I gotta trim the branches by the path to the orchard, it's gettin' all thickety, and then-$8#$b#Oh. Hi, again! Always a wonderly sight.",
+  "RipleyLostCow": "Oh, Oakley. Quite possibly the most aggravatingest creature I've ever had to be around.$h#$b#Love him to bits, though.#$b#Bet you've got a person or two like that in your life, Stranger.$4",
+  "Ripley.Dialogue.RipleyLTR": "Y'know, you're a bit further than a whoop and a holler down the road. It ain't no trouble for you to stay the night everso often.#$b#If'n it pleases you.$4#$b#%Starting tomorrow, you can now sleep in Ripley's bed!",
+
+  //ARV
+  "Ripley.Dialogue.SterlingTrash": "I don't care nothing about drinkin' myself stupid no more.#$b#All Sterling and Shane do at the saloon is get tore down and start hootin' and hollerin' and benastying the place.#$b#Oh, Sterling... poor guy. Hope he gets the help he needs.$2",
+  "Ripley.Dialogue.SterlingDrugs": "Hey, stranger. You seen Sterling come 'round here?#$b#After I run into him the other day it put me to studying on his situation.#$b#I believe I might could help him if he'd let me.$8",
+  "Ripley.Dialogue.SterlingRelapse": "Didn't see Sterling at Pierre's the other day. You heard from him lately?#$b#...#$b#... What? He's gone?$2#$b#Oh, lord...$2",
+  "Ripley.Dialogue.SterlingApology": "Man, people are bein' way too hard on Sterling.#$b#Just 'cause he's havin' a hard time don't mean folks need to keep throwing it up to him every time they get mad.#$b#He said he was sorry, now just let it be.$5",
+  "Ripley.Dialogue.SterlingSobriety": "I'm so proud of Sterling. He ain't just my neighbor, he's kin to me.#$b# Seein' him on the up and up puts a real spring in my step, I tell you what.$h",
+  "Ripley.Dialogue.SterlingSwim": "I gotta get to know Henry better, both of us workin' on farms and all.#$b#It's just that we never have time... because we both work on farms. Ain't that somethin'.$8",
+  "Ripley.Dialogue.SterlingTrain": "Sometimes Mia will go and bake a cake and I'll ask what flavor it is. And she'll go well...#$b#...its a honey, rosewater, tonka bean, pistachio, vanilla, fig jam, poppyseed, orange blossom, extra-virgin olive oil sponge...$h#$b#... soaked in a raspberry, elderflower, honey, pomegranate, black tea, ginger, blueberry, cherry blossom, magnolia petal, almond, passionfruit syrup...$h#$b#...with an alfalfa, lemon, ricotta, goats cheese, honeycomb, black pepper, bee pollen, lemon, thyme, rosemary chantilly...$9#$b#...triple-whipped cream cheese meringue frosting.$9#$b#And I will say alright. I know exactly what all of those are. Thank you.$9#$b#And it'll make my tongue slap my brain out every time.$h",
+
+
+  //Wren the plumber
+  "Ripley.Dialogue.WrenFliesIn": "I heard tell you've met Wren!$h#$b#I'm a-telling you, she's a good'un! Always willing to help out when you need her.",
+  "Ripley.Dialogue.ShoujoIsForGirls": "Oh, mercy me, I know that face. Wren went and cornered you 'bout her storybooks again.#$b#Love her to death but her taste in literature is right confounding.#$b#What the heck is a hare-em?$9",
+
+  //SBV
+  "Ripley.Dialogue.MeetDND": "You been on over to the cat cafe yet?#$b#Everwhen I go all the kitty-cats try to climb up my pant leg like I'm a tree trunk.",
+
+  // ======================
+  // Event Dialogue
+  // ======================
+
+  "Ripley_Monsters.0": "Oh, no you don't!$8",
+  "Ripley_Monsters.1": "Hey there, stranger!$h#$b#Saw you while I was passin' through.#$b#Normally I got no dog in other folks' fights but you looked as though you were havin' some trouble.",
+  "Ripley_Monsters.2": "Oh, sugar, you're hurt.$2#$b#Don't move.$2",
+  "Ripley_Monsters.3": "You're alright, honey. I gotcha.#$b#Let me just wrap this around your arm, and...",
+  "Ripley_Monsters.4": "There.#$b#You're lucky I was passin' through.#$b#Every so often I make sure to keep the tunnels clear of any haints and beasties that come up to the surface lookin' for food.#$b#I wish I could just leave 'em be, let 'em live their life, but if they leave the mines they go snackin' on the wildlife and livestock.$2#$b#Some things just need killin'.",
+  "Ripley_Monsters.5": "C'mon. It's gettin' late. Lemme walk you on out of here.#$b#I don't suppose you need me to carry you, do ya?$3",
+  
+  "Ripley_FolkHero.0": "Hi, Ripley!",
+  "Ripley_FolkHero.1": "I don't want to bother Maia today. Will you be available later to help me move some boxes into the shop?",
+  "Ripley_FolkHero.2": "Well, sure! Might as well, cain't dance and it's too wet to plow.#$b#I'll get back to ya this afternoon, alright?$h",
+  "Ripley_FolkHero.3": "Thanks a lot. I really appreciate it.",
+  "Ripley_FolkHero.4": "Ripley.",
+  "Ripley_FolkHero.5": "There was a rockslide in the mines last night.#$b#You seemed like the perfect woman to help me get the tunnel unblocked. Are you up for it?",
+  "Ripley_FolkHero.6": "Think I can make time for that.$h#$b#Uh, can it wait 'till later, though? Got a bit on my plate right now.",
+  "Ripley_FolkHero.7": "Of course. Just let me know and we'll make short work of it.$1",
+  "Ripley_FolkHero.8": "Hello, dear!",
+  "Ripley_FolkHero.9": "You won't believe this. This morning I pulled a parsnip out of the dirt and it was blue.#$b#Blue!$7",
+  "Ripley_FolkHero.10": "Was it really.$9",
+  "Ripley_FolkHero.11": "I know, darling, it was just the strangest thing!$6#$b#I thought I could get your advice and figure out what on earth could have happened!",
+  "Ripley_FolkHero.12": "Sure.$h#$b#Yeah.$9#$b#Of course.$h#$b#Just got... a couple other things that need doin' first, then, uh, I'll swing by later and take a look.$9",
+  "Ripley_FolkHero.13": "Whuh-oh!!$7#$b#Mercy me, are you okay?$9#$b#I was runnin' faster than a chicken to a junebug. Coulda bowled you right over.$9",
+  "Ripley_FolkHero.14": "M'sure you know how it is. Busier than a one-armed paper hanger. Lotta favors bein' called in.#$b#Man's gotta work if a man wants to eat.#$b#You know what my pepaw always said, 'Wish in one hand and...'$8",
+  // QuickQuestion - DO NOT ERASE "#"
+  "Ripley_FolkHero.14a": "Anyhow. Where ya headed, stranger?#Just running some errands. Have a good one, Ripley.#You know, it's okay to say no to people sometimes.#Actually, do you have any extra fertilizer?",
+  "Ripley_FolkHero.15": "Likewise, darlin'.",
+  "Ripley_FolkHero.16": "I don't know what you mean.#$b#Everyone asks so nicely, I really don't mind helpin' 'em out... And it ain't like I have anything better to...",
+  "Ripley_FolkHero.17": "You don't get it. It's my obligation to be the workingest person this side of the river.#$b#If I'm not helpin' those less fortunate by the sweat of my brow then I ain't deservin' of the hands my Mama gave me, understand?$8",
+  "Ripley_FolkHero.18": "I suppose I do. You're welcome to it, if ya need.#$b#Or I can bring it on over when I got time. Whatever works for ya.$h#$b#Ain't no skin off my back. Ha ha.$9",
+  "Ripley_FolkHero.19": "Well, I'd love to stay and chat but I got a lot goin' on today, as per usual.#$b#Good seein' ya, sugar!$h",
+  
+  //{{i18n:Ripley_FolkHero.14}}
+  
+  "Ripley_LostCow.0": "@! Am I glad to see you.$h#$b#Mister Oakley's up to his usual shenanigans and slipped out while I was lockin' up the paddock.$h",
+  "Ripley_LostCow.1": "You just gonna stand there with all your teeth in your head?$9#$b#You gonna help me out or what?$9",
+  
+  // {{i18n:Ripley_GoOnGet}}
+  // {{i18n:Ripley_HereBoy}}
+  // {{i18n:Ripley_Boo}}
+  //...Boo!!
+  
+  
+  "Ripley_GoOnGet": "Go on, get.",
+  "Ripley_HereBoy": "Here, boy!",
+  "Ripley_Boo": "...Boo!!",
+
+    //Arky's edits! Lost Cow :D
+  
+    
+    "Ripley_LostCow.OakleySnort": "Oakley snorts and paws the ground with his hoof.",
+    "Ripley_LostCow.OakleyCircle": "Oakley's circled back around.",
+    "Ripley_LostCow.OakleyMenace": "This calf is a menace.",
+  
+  "LostCow_BackToRipley.0": "Oakey-Smokey!",
+  "LostCow_BackToRipley.1": "Moo!",
+  "LostCow_BackToRipley.2": "Hey.#$b#We don't hit people.",
+  "LostCow_BackToRipley.3": "Ohhhh, yeah. You're real scary.#$b#I used to be scary plenty, too.$3",
+  "LostCow_BackToRipley.4": "Moo!",
+  "LostCow_BackToRipley.5": "Nowhere to run, you little wharf rat.#$b#C'mon. Let's get you back home to Mama.",
+  "LostCow_BackToRipley.6": "Thanks a bushel, Farmer. Oakley does this all the time.#$b#Little feller's cornbread ain't quite done in the middle, if you catch my drift.",
+  "LostCow_BackToRipley.7": "You really got a way with the animals.#$b#Normally they're only used to me, but they get all excited whenever you come on by.#$b#Which could mean nothing.$3#$b#...Anyway. Now that he's calmed down I bet he'll let you pet 'im.#$b#His mama's over there, that's Tess. She likes bein' pet on the nose.",
+  "LostCow_BackToRipley.8": "Careful, now. He's gonna lick ya.",
+  
+  "Ripley_Grief.0": "Hey, stranger.#$b#I was just... tryin' somethin' out.#$b#Y'know, like... takin' a walk somewhere and sittin' down. Not workin' or nothin'.",
+  "Ripley_Grief.1": "Felt wrong for a bit, made me all nervous like a tomcat in a room fulla rocking chairs.#$b#Like there was somethin' that needs doin' that I plum forgot about. But nothin's gone wrong or caught on fire yet.",
+  "Ripley_Grief.2": "I reckon papaw woulda wanted me to make time to rest.$8#$b#He worked hard but he knew how to find a good patch o' sun and lay down as well as the rest of us.#$b#Well, 'cept me, I suppose. But I'm gettin' there.",
+  "Ripley_Grief.3": "Mmm. That's a real shame. Bet you coulda learned a lot from him.#$b#I know I did. Learned how to appreciate the bounty of the earth and how to be a good human being while living in this ole world.#$b#How to make a mean pan of fried taters.$h#$b#So on and so forth.",
+  "Ripley_Grief.4": "The way I see it, every day I live here I'm another day closer to him and the rest of my departed loved ones and sometimes the missing comes clear up like a big lump in my throat.#$b#I get this forlorn, achy feelin' in my heart and head sometimes studying on my losses, an ache all the way down to the ends of my fingers.$2#$b#Maybe it's for the better you don't know what I'm talkin' about. But...#$b#I once heard somewhere that great grief comes from great love. Somethin' along those lines.#$b#I dunno. Somethin' to think about.",
+  "Ripley_Grief.5": "Yeah. Me too.",
+  "Ripley_Grief.6": "He woulda been eighty-eight today.$2#$b#I miss him every day. Sometimes hourly.$2",
+  "Ripley_Grief.7": "I wanted to be a mountain man like him, when I was little.#$b#He loved the old ways and traditions and did good for his family and friends before ever thinking of his ownself.",
+  "Ripley_Grief.8": "Our continuing recall of our departed ones is, I venture to think, the very best memorial they could wish for, so long as the missing them is not a sadness.#$b#If I'm makin' even a lick of sense.$h",
+  "Ripley_Grief.9": "Sometimes, 'specially when it's real dark, it's like I can still feel him there.#$b#In the walls of that ol' farmhouse, in all the old photos I left up.#$b#In the trees, too. Like, if I can keep his trees alive, then it's like keepin' his memory alive, y'know?",
+  "Ripley_Grief.10": "It's kinda magical in its own way.#$b#I'll stand under a tree and watch its branches wave in the wind and...#$b#You can feel how old it is, like... sure, they're trees, but they've got this knowledge about 'em.#$b#They've seen and heard so much that I can't even wrap my head around.#$b#And I can't help but think, wow, you're alive, and I'm alive, and we're alive together, standin' right next to each other in this moment.$h#$b#It's just so weird 'n wonderful bein' this alive thing next to a very different sorta alive thing.$h",
+  "Ripley_Grief.11": "I don't really do this with people.#$b#Spend time with 'em, I mean, aside from the usual neighborly stuff. I just get so busy, and...#$b#I dunno.$2#$b#Time gets away from me and 'fore I know it another year goes by.$2",
+  "Ripley_Grief.12": "All this to say, uh, thanks.#$b#For stickin' around.",
+  "Ripley_Grief.13": "It's nice knowin' I can let a whole year go by and it don't matter.#$b#The hollers ain't goin' nowhere, the plants grow back, the sun keeps risin', the trees keep bearin' fruit.#$b#And you keep bein' my friend.#$b#I'm glad you're here. Makes it all feel less lonely.$4",
+  "Ripley_Grief.14": "Hey, um, so I've been thinkin--$4",
+  "Ripley_Grief.15": "Look. Over yonder. That big pine tree.#$b#There's a cardinal!$h",
+  "Ripley_Grief.16": "Hey, sweet thing! Ain't you pretty?$h",
+  "Ripley_Grief.17": "This is maybe a bit silly.#$b#But growin' up I was told that a cardinal comin' your way was one of your kin checkin' in on you from...#$b#... wherever it is they go.#$b#They're tellin' you that you're makin' the right decision, that you're on the right path.",
+  "Ripley_Grief.18": "You think that cardinal's for me, or for you?$l",
+  "Ripley_Grief.19": "What was I sayin' earlier?$h#$b#...$9#$b#... Oh, I can't remember. Must've just been a thought passin' in the wind.#$b#That's enough vulnerable talk for the day, anyhow. Wanna head on back?$3",
+
+  "Ripley_Choice.0": "Smells good, don't it?#$b#I got an evening to myself for once and felt like makin' some risotto outta the mushrooms I found.",
+  "Ripley_Choice.1": "Figured it's only kind of me to share with my favorite person, yeah? Only problem's that I have to keep-",
+  "Ripley_Choice.2": "-stirrin' it, so the rice don't get all burnt on the bottom.",
+  "Ripley_Choice.3": "...",
+  "Ripley_Choice.4": "I...#$b#...$2#$b#Sorry. I shoulda wrote this down first or something.#$b#So... I told you I wanted to talk to you about what you asked me, and I, uh... well, lemme say first that I'm-",
+  "Ripley_Choice.5": "Ha ha. Sorry. Uh. $9#$b#Is it hot in here? Feels hot in here.$9",
+  "Ripley_Choice.6": "I'm real flattered. By you wantin' that from me.#$b#Really.#$b#And I really wanna say yes, like, I REALLY want to. But-$9",
+  "Ripley_Choice.7": "Really shoulda started this sooner.#Here, let me help.",
+  "Ripley_Choice.8": "...$2#$b#... Okay. Just make sure you scrape the bottom real good.",
+  "Ripley_Choice.9": "...#$b#You were right. It's easier to think now.$2#$b#You're always right.$2",
+  "Ripley_Choice.10": "Listen.$2#$b#I like what we have. A lot.$2#$b#But I can't leave this house, @. Just can't.$2#$b#This is my home, this is my grandparents' and great-grandparents' home, my aunties and uncles and cousins and so on and so forth.$2#$b#Some of them are buried here! I can't just... leave 'em behind again.$2",
+  "Ripley_Choice.11": "I wanna keep doing this with you, just... doin' our own thing. Makin' time for each other when we can.#$b#Lettin' me love you from over here.$4",
+  "Ripley_Choice.12": "What's with the big ol' eyes?'#$b#Oh.#$b#Ha. Yeah. Guess I gave it a mouth.$4",
+  "Ripley_Choice.13": "I love you, @.$2#$b#I hope that's... enough. For you.$2#$b#But if it ain't, I understand, and we can go on just bein' friends.",
+  "Ripley_Choice.14": "What do you think?#I love you too. I don't mind living separately.#I love you too, but I can't be with someone who can't move in with me.",
+  "Ripley_Choice.15": "Really?$h#$b#That's... that's a relief.$9#$b#Had the jim-jams for days, fussin' over what I was gonna say to you.$9",
+  "Ripley_Choice.16": "Not to get all moony, but... I'm real sweet on you, y'know.$4#$b#I've been runnin' around and keepin' myself busy for so long I plum forgot how to stop and just... get to know people, and let them get to know me a little.#$b#It ain't the worst thing in the world to be known. Who'd-a thunk it.#$b#You helped me slow down. I can't thank you enough for that.$h",
+  "Ripley_Choice.17": "Oh, let it. It can get a lil crispy.$4#$b#I got something more important to attend to.$6#$b#",
+  "Ripley_Choice.18": "Alright. I... I kinda thought you'd say that.#$b#I knew it was a big ask, but thought maybe I'd be surprised. I dunno.$2#$b#We should both be with people who fit well with us. Like a... like a puzzle.",
+  "Ripley_Choice.19": "I'm hopin' we can still be friends, at least.$2#$b#Don't think I'll ever stop likin' you, even just as... y'know.$2#$b#Friends.",
+  "Ripley_Choice.20": "I should, uh. Get back to stirrin' this. If'n you don't mind.$2#$b#Just... don't be a stranger, alright?#$b#There don't have to be any hard feelings or nothin'. Don't think I got any in me.",
+  "Ripley_Choice.21": "I'll see you around, @.$h"
+
+}

@@ -1,0 +1,789 @@
+{
+  "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+{
+  "Action": "EditData",
+  "Target": "Data/Mail",
+      "Entries": {
+        "Wildflour.AtelierGoods_SO_FairyFloss_Vincent_reward": "{{i18n: AtelierGoods_SO_FairyFloss_Vincent_reward.text}} %item id (O)245 25 %%[#]{{i18n: AtelierGoods_SO_FairyFloss_Vincent_reward.name}}", 
+        "Wildflour.AtelierGoods_SO_Lollipops_Penny_reward": "{{i18n: AtelierGoods_SO_Lollipops_Penny_reward.text}} %item id (O)Wildflour.AtelierGoods_Vanilla_Seeds 5 %%[#]{{i18n: AtelierGoods_SO_Lollipops_Penny_reward.name}}", 
+        "Wildflour.AtelierGoods_SO_CrystalCandy_Abigail_reward": "{{i18n: AtelierGoods_SO_CrystalCandy_Abigail_reward.text}} %item id (O)749 15 %%[#]{{i18n: AtelierGoods_SO_CrystalCandy_Abigail_reward.name}}", 
+        "Wildflour.AtelierGoods_SO_Candy_Challenge_reward": "{{i18n: AtelierGoods_SO_Candy_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Candy_Challenge_reward.name}}",
+        "Wildflour.AtelierGoods_SO_Popsicles_Krobus_reward": "{{i18n: AtelierGoods_SO_Popsicles_Krobus_reward.text}} %item id (O)PowdermelonSeeds 5 %%[#]{{i18n: AtelierGoods_SO_Popsicles_Krobus_reward.name}}",     
+        "Wildflour.AtelierGoods_SO_IceCream_Jodi_reward": "{{i18n: AtelierGoods_SO_IceCream_Jodi_reward.text}} %item id (BC)Wildflour.AtelierGoods_TreatMaker 2 %%[#]{{i18n: AtelierGoods_SO_IceCream_Jodi_reward.name}}", 
+        "Wildflour.AtelierGoods_SO_IceCreamSandwich_Demetrius_reward": "{{i18n: AtelierGoods_SO_IceCreamSandwich_Demetrius_reward.text}} %item id (BC)Wildflour.AtelierGoods_BlastChiller 2 %%[#]{{i18n: AtelierGoods_SO_IceCreamSandwich_Demetrius_reward.name}}", 
+        "Wildflour.AtelierGoods_SO_Frozen_Challenge_reward": "{{i18n: AtelierGoods_SO_Frozen_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Frozen_Challenge_reward.name}}" 
+      }
+  },
+
+// orders
+
+    {
+    "LogName": "Milkshake Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:Milkshakes": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_KitchenBlender"},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_Milkshakes_Dwarf": {
+          "Name": "{{i18n:AtelierGoods_SO_Milkshakes_Dwarf.name}}",
+          "Requester": "Dwarf",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Dwarf.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Dwarf.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "AcceptedContextTags": "milkshake_item",
+                  "TargetName": "Dwarf"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5000"
+                }
+              },
+
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Dwarf"
+                  }
+                }
+            ]
+        },
+      "Wildflour.AtelierGoods_SO_Milkshakes_Kent": {
+      "Name": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.name}}",
+      "Requester": "Kent",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "milkshake_item",
+              "Message": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.accept}}",
+              "TargetName": "Kent"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "4500"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+        }
+    }
+  },
+
+  {
+    "LogName": "Ice Cream Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:IceCream": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_TreatMaker"},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_IceCream_Jodi": {
+        "Name": "{{i18n:AtelierGoods_SO_IceCream_Jodi.name}}",
+        "Requester": "Jodi",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_IceCream_Jodi.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_IceCream_Jodi.deliver}}",
+              "RequiredCount": "12",
+              "Data": {
+                "DropBox": "IceCream_Jodi",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "7 4",
+                "AcceptedContextTags": "ice_cream_item"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "15000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Jodi"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_IceCream_Jodi_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+        },
+        "Wildflour.AtelierGoods_SO_IceCream_Gus": {
+          "Name": "{{i18n:AtelierGoods_SO_IceCream_Gus.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_IceCream_Gus.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_IceCream_Gus.deliver}}",
+                "RequiredCount": "12",
+                "Data": {
+                  "AcceptedContextTags": "ice_cream_item",
+                  "Message": "{{i18n:AtelierGoods_SO_IceCream_Gus.accept}}",
+                  "TargetName": "Gus"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "8500"
+                }
+              },
+    
+              {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+            }
+    }
+  },
+
+  {
+    "LogName": "Ice Cream Sandwich Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:IceCreamSandwich": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_BlastChiller" },
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_IceCreamSandwich_Demetrius": {
+        "Name": "{{i18n:AtelierGoods_SO_IceCreamSandwich_Demetrius.name}}",
+        "Requester": "Demetrius",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_IceCreamSandwich_Demetrius.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_IceCreamSandwich_Demetrius.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "DropBox": "ICSandwich_Demetrius",
+							  "DropBoxGameLocation": "ScienceHouse",
+							  "DropBoxIndicatorLocation": "21 17",
+                "AcceptedContextTags": "ice_cream_sandwich_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Demetrius"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_IceCreamSandwich_Demetrius_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+        }
+    }
+  },
+
+
+    {
+      "LogName": "Popsicle Orders",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"Atelier.Cauldron/ConfigValue:Popsicles": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_BlastChiller" },
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Popsicles_Krobus": {
+          "Name": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.name}}",
+          "Requester": "Krobus",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.deliver}}",
+                "RequiredCount": "6",
+                "Data": {
+                  "AcceptedContextTags": "popsicle_item",
+                  "Message": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.accept}}",
+                  "TargetName": "Krobus"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Krobus"
+                  }
+                },
+
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Popsicles_Krobus_reward",
+                        "NoLetter": "false"
+                  }
+                }
+            ]
+        },
+          "Wildflour.AtelierGoods_SO_Popsicles_Elliott": {
+          "Name": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.name}}",
+          "Requester": "Elliott",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+           "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "AcceptedContextTags": "popsicle_item",
+                  "Message": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.accept}}",
+                  "TargetName": "Elliott"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "2500"
+                }
+              },
+    
+            {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+            }
+         /* "Wildflour.AtelierGoods_SO_Frozen_Challenge": {
+          "Name": "{{i18n:AtelierGoods_SO_Frozen_Challenge.name}}",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Frozen_Challenge.text}}",
+          "Objectives": [
+              {
+                "Type": "Ship",
+                "Text": "{{i18n:AtelierGoods_SO_Frozen_Challenge.ship}}",
+                "RequiredCount": "100",
+                "Data": {
+                  "AcceptedContextTags": "wildflour_frozen_item"
+                }
+              },
+  
+              
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "100000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Frozen_Challenge_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+        },*/
+      }
+    },
+
+    {
+      "LogName": "SO Hard Candies",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {"Atelier.Cauldron/ConfigValue:HardCandies": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_SugarBoiler"},
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_CrystalCandy_Abigail": {
+            "Name": "{{i18n:AtelierGoods_SO_CrystalCandy_Abigail.name}}",
+            "Requester": "Abigail",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_CrystalCandy_Abigail.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_CrystalCandy_Abigail.deliver}}",
+                  "RequiredCount": "5",
+                  "Data": {
+                    "DropBox": "Candy_Abigail",
+                    "DropBoxGameLocation": "SeedShop",
+                    "DropBoxIndicatorLocation": "4 4",
+                    "AcceptedContextTags": "rock_candy_item"
+                  }
+                }
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "4750"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Abigail"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "Wildflour.AtelierGoods_SO_CrystalCandy_Abigail_reward",
+                      "NoLetter": "false"
+                }
+              }
+            ]
+        },
+          "Wildflour.AtelierGoods_SO_HardCandies_Lewis": {
+          "Name": "{{i18n:AtelierGoods_SO_HardCandies_Lewis.name}}",
+          "Requester": "Lewis",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_HardCandies_Lewis.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:AtelierGoods_SO_HardCandies_Lewis.deliver}}",
+                "RequiredCount": "12",
+                "Data": {
+                  "AcceptedContextTags": "hard_candy_item",
+                  "Message": "{{i18n:AtelierGoods_SO_HardCandies_Lewis.accept}}",
+                  "TargetName": "Lewis"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "12000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {}
+                }
+            ]
+        }
+      }
+    },
+  
+   /* {
+      "LogName": "SO Candy Challenge",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Candy_Challenge": {
+            "Name": "{{i18n:AtelierGoods_SO_Candy_Challenge.name}}",
+            "Requester": "Lewis",
+            "Duration": "Month",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Candy_Challenge.text}}",
+            "Objectives": [
+                {
+                  "Type": "Ship",
+                  "Text": "{{i18n:AtelierGoods_SO_Candy_Challenge.ship}}",
+                  "RequiredCount": "100",
+                  "Data": {
+                    "AcceptedContextTags": "wildflour_candy_item"
+                  }
+                }
+                
+              ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "100000"
+                }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "Wildflour.AtelierGoods_SO_Candy_Challenge_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },*/
+  
+    {
+      "LogName": "SO Marshmallows",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {"Atelier.Cauldron/ConfigValue:Marshmallows": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_MarshmallowMixer"},
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Marshmallows_Jas": {
+            "Name": "{{i18n:AtelierGoods_SO_Marshmallows_Jas.name}}",
+            "Requester": "Jas",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Marshmallows_Jas.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Marshmallows_Jas.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "AcceptedContextTags": "marshmallow_item",
+                    "TargetName": "Jas"
+                  }
+                },
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "10000"
+                  }
+                },
+  
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Jas"
+                    }
+                  }    
+              ]
+        },
+          "Wildflour.AtelierGoods_SO_Marshmallows_Robin": {
+            "Name": "{{i18n:AtelierGoods_SO_Marshmallows_Robin.name}}",
+            "Requester": "Robin",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Marshmallows_Robin.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Marshmallows_Robin.deliver}}",
+                  "RequiredCount": "5",
+                  "Data": {
+                    "AcceptedContextTags": "marshmallow_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Marshmallows_Robin.accept}}",
+                    "TargetName": "Robin"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "3500"
+                  }
+                },
+      
+              {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+        }
+      }
+    },
+  
+    {
+      "LogName": "SO Fairy Floss",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {"Atelier.Cauldron/ConfigValue:FairyFloss": true},
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_FairyFloss_Vincent": {
+            "Name": "{{i18n:AtelierGoods_SO_FairyFloss_Vincent.name}}",
+            "Requester": "Vincent",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_FairyFloss_Vincent.text}}",
+            "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:AtelierGoods_SO_FairyFloss_Vincent.deliver}}",
+                "RequiredCount": "7",
+                "Data": {
+                  "DropBox": "Candy_Vincent",
+                  "DropBoxGameLocation": "SamHouse",
+                  "DropBoxIndicatorLocation": "9 13",
+                  "AcceptedContextTags": "fairy_floss_item"
+                }
+              }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "4900"
+                  }
+                },
+  
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Vincent"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_FairyFloss_Vincent_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+        },
+          "Wildflour.AtelierGoods_SO_FairyFloss_Emily": {
+            "Name": "{{i18n:AtelierGoods_SO_FairyFloss_Emily.name}}",
+            "Requester": "Emily",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_FairyFloss_Emily.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_FairyFloss_Emily.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "fairy_floss_item",
+                    "Message": "{{i18n:AtelierGoods_SO_FairyFloss_Emily.accept}}",
+                    "TargetName": "Emily"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "2500"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+        }
+      }
+    },
+  
+    {
+      "LogName": "SO Lollipops",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true, "HasCraftingRecipe":"Wildflour.AtelierGoods_SugarBoiler"},
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Lollipops_Penny": {
+            "Name": "{{i18n:AtelierGoods_SO_Lollipops_Penny.name}}",
+            "Requester": "Penny",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Lollipops_Penny.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_Lollipops_Penny.deliver}}",
+                  "RequiredCount": "4",
+                  "Data": {
+                    "DropBox": "Candy_Penny",
+                    "DropBoxGameLocation": "Trailer",
+                    "DropBoxIndicatorLocation": "11 6",
+                    "AcceptedContextTags": "lollipop_item"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "6000"
+                  }
+                },
+  
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Penny"
+                    }
+                },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "Wildflour.AtelierGoods_SO_Lollipops_Penny_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+        }
+      }
+    }
+
+  ]
+}
+

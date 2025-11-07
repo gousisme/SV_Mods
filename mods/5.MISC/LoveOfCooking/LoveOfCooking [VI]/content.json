@@ -1,0 +1,355 @@
+{
+  "Format": "2.7.0",
+  "Changes": [
+    {
+      "LogName": "Love of Cooking - Mail [VI]",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "blueberry.LoveOfCooking.cookbook_unlocked": "@, yêu quý,^  Trong lúc dọn dẹp lại gác mái, mẹ đã tìm thấy một thứ rất hợp với con - cuốn sách dạy nấu ăn cũ của nhà mình! ^  Cuốn sách còn thiếu vài trang, nhưng mẹ tin con sẽ tự học được. Mẹ có gửi kèm một chiếc chảo rán, để giúp con học nấu ăn đấy. ^^ Bảo trọng nhé con yêu, và nhớ ăn uống đầy đủ đấy! ^  Yêu con, Mẹ%item id blueberry.LoveOfCooking_cookbook 1 %%[#]Sách dạy nấu ăn của mẹ",
+        "blueberry.LoveOfCooking.seasoning_1": "Chào con yêu,^Mẹ vừa đọc được công thức nấu ăn này trên một tạp chí về phong cách sống!^Họ nói công thức này có thể làm cho mọi món ăn ngon hơn gấp bội.^^Được rồi, con nhớ ăn uống đầy đủ đấy nhé!^  Thương con nhiều, Mẹ%item craftingRecipe blueberry.LoveOfCooking_seasoning_1 %%",
+        "blueberry.LoveOfCooking.seasoning_2": "Chào con yêu!^Có một chương trình dạy nấu ăn rất hay trên TV, giới thiệu về cách nêm nếm gia vị hoàn toàn mới! Mẹ vừa chép lại công thức cho con đây.^Hãy học nấu ăn cho thật giỏi nhé!^  Thương con, Mẹ%item craftingRecipe blueberry.LoveOfCooking_seasoning_2 %%",
+        "blueberry.LoveOfCooking.migrate_refund_1_6": "Gửi địa chủ,^^Trong quá trình chuyển đổi hệ thống gần đây, chúng tôi đã rà soát lại các khoản trợ cấp nông nghiệp hằng năm và nhận thấy một số điểm bất thường.^Đúng vậy, đã có sai sót trong sổ sách. Kèm theo đây là khoản bồi thường cho bất kỳ sản phẩm nào bị thất thoát.^^Cảm ơn ông/bà vì đã tiếp tục hợp tác cùng chúng tôi,^  Nông Nghiệp & Vật Tư Blue Berry%item money {0} %%"
+      }
+    },
+    {
+      "LogName": "Love of Cooking - Translations [VI]",
+      "Action": "EditData",
+      "Target": "Mods/blueberry.LoveOfCooking.Assets/Strings",
+      "Entries": {
+        ////////////////////// 2.0.2
+
+        // Config options
+        "config.info.cookingskill.subheading.maxlevel": "Cấp tối đa",
+
+        // BetterCrafting
+        "menu.better_crafting.can_craft.cooking_tool_level": "{0} chỉ có thể nấu với tối đa {1} nguyên liệu.",
+
+        ////////////////////// 2.0.0
+
+        // Mod info
+        "mod.name": "Love of Cooking",
+
+        // Config options
+        "config.page.info": "Thông tin",
+        "config.page.options": "Tùy chọn",
+
+        "config.option.cookingmenu_name": "Menu nấu ăn",
+        "config.option.cookingmenu_description": "Thay thế giao diện gốc bằng một menu nấu ăn mới!\nCông thức sẽ được lưu vào sách nấu ăn của bạn để tìm kiếm, sắp xếp, lọc, và yêu thích.\nBạn sẽ tự thêm nguyên liệu khi nấu.",
+        "config.option.cookingskill_name": "Kỹ năng & công thức nấu ăn",
+        "config.option.cookingskill_description": "Thêm một kỹ năng nấu ăn mới để bạn cày!\nNâng cấp kỹ năng để mở khóa các công thức và nghề nấu ăn mới.\nNấu ăn để nhận kinh nghiệm và mở khóa các công thức nâng cao hơn.",
+        "config.option.cookingtool_name": "Dụng cụ nấu ăn & nâng cấp",
+        "config.option.cookingtool_description": "Thêm dụng cụ nấu ăn mới để bạn nâng cấp!\nGiảm số lượng nguyên liệu cần thiết khi nấu xuống còn 1, tùy thuộc vào cấp độ của dụng cụ.\nBạn có thể nâng cấp dụng cụ tại thợ rèn để nấu các công thức cao cấp hơn.\n\nYêu cầu menu nấu ăn mới.",
+        "config.option.seasonings_name": "Thêm gia vị",
+        "config.option.seasonings_description": "Thêm hương vị mới để cải thiện món ăn của bạn!\nCác vật phẩm này có giá trị thấp nhưng giúp nâng cao chất lượng món ăn.\nTự động tiêu thụ khi nấu ăn.",
+        "config.option.foodbuffsstarthidden_name": "Ẩn thông tin hiệu ứng hiển thị ban đầu",
+        "config.option.foodbuffsstarthidden_description": "Thông tin hiệu ứng của món ăn sẽ chỉ hiển thị khi bạn ăn nó!\nNếu tắt, thông tin hiệu ứng sẽ luôn hiển thị trên món ăn và công thức.",
+        "config.option.foodhealingtakestime_name": "Món ăn hồi phục theo thời gian",
+        "config.option.foodhealingtakestime_description": "Món ăn sẽ hồi máu và năng lượng theo thời gian sau khi bạn ăn!\nBạn có thể sử dụng món ăn có hiệu ứng tốt hơn khi đang đầy năng lượng,\nnhưng bạn không thể hồi máu ngay lập tức khi đang gặp nguy hiểm.",
+        "config.option.foodcanburn_name": "Món ăn có thể cháy",
+        "config.option.foodcanburn_description": "Bạn có thể làm cháy món ăn trong quá trình nấu!\nKhông khuyến khích trừ khi bạn thích chơi mạo hiểm.",
+        "config.option.townkitchens_name": "Bếp trong thị trấn",
+        "config.option.townkitchens_description": "Cho phép bạn sử dụng bất kỳ chiếc bếp nào trong thị trấn!\nBạn cần thân thiết với npc trước khi sử dụng.",
+        "config.option.menuanimation_name": "Hoạt ảnh Menu",
+        "config.option.menuanimation_description": "Có phát hoạt ảnh mở sách khi mở menu nấu ăn không?\n\nYêu cầu menu nấu ăn mới.",
+        "config.option.cookinganimation_name": "Hoạt ảnh nấu ăn",
+        "config.option.cookinganimation_description": "Có phát hoạt ảnh khi nấu ăn không?\n\nYêu cầu menu nấu ăn mới.",
+        "config.option.foodregenbar_name": "Hiển thị thanh hồi phục của món ăn",
+        "config.option.foodregenbar_description": "Với tính năng hồi phục theo thời gian được bật, bạn có thể tùy chọn ẩn hoặc hiện thanh mới này.\nThanh hồi phục hiển thị cạnh thanh máu và thanh năng lượng để hiển thị lượng hồi phục còn lại của món ăn.",
+        "config.option.fixcraftingpagerecipesorting_name": "Chỉnh sửa sắp xếp công thức mặc định",
+        "config.option.fixcraftingpagerecipesorting_description": "Khi tắt công thức nấu ăn mới, các công thức mặc định sẽ được sắp xếp trước rồi sau đó là công thức tùy chỉnh.\nTùy chọn này sẽ thay đổi cách sắp xếp để trộn lẫn tất cả các công thức với nhau.\n\nYêu cầu phải có menu nấu ăn mặc định.",
+        "config.option.remembersearchfilter_name": "Nhớ bộ lọc tìm kiếm",
+        "config.option.remembersearchfilter_description": "Với việc bật menu nấu ăn mớit, bạn có thể tìm kiếm công thức bằng bộ lọc.\nMenu sẽ lưu lại bộ lọc bạn sử dụng gần nhất,\nnhưng sẽ được đặt lại mặc định khi bạn thoát game.\nBạn có thể tắt tính năng này để luôn bắt đầu với bộ lọc mặc định.",
+        "config.option.defaultsearchfilter_name": "Bộ lọc tìm kiếm mặc định",
+        "config.option.defaultsearchfilter_description": "Với việc bật menu nấu ăn mới, bạn có thể tìm kiếm công thức bằng bộ lọc.\nMenu sẽ lưu lại bộ lọc bạn sử dụng gần nhất,\nnhưng sẽ được đặt lại mặc định khi bạn thoát game.\nBạn có thể đặt bộ lọc mặc định cho các lần chơi ở đây.",
+        "config.option.defaultsearchsorter_name": "Bộ sắp xếp, tìm kiếm mặc định",
+        "config.option.defaultsearchsorter_description": "Với việc bật menu nấu ăn mới, bạn có thể tìm kiếm công thức bằng bộ lọc.\nMenu sẽ lưu lại bộ lọc bạn sử dụng gần nhất,\nnhưng sẽ được đặt lại mặc định khi bạn thoát game.\nBạn có thể đặt bộ lọc mặc định cho các lần chơi ở đây.",
+        "config.option.resizekoreanfonts_name": "Thay đổi kích thước phông chữ Hàn",
+        "config.option.resizekoreanfonts_description": "Nếu bạn chơi bằng tiếng Hàn với phông chữ mặc định, hãy giữ tính năng này được bật.\nNếu dùng FixFontOption hay các phương pháp thay đổi kích thước phông chữ khác, bạn có thể muốn tắt tính năng này đấy.",
+
+        "config.info.controllermap.title": "Điều khiển Gamepad",
+        "config.info.controllermap.button.a": "   Chọn",
+        "config.info.controllermap.button.b": "   Hủy",
+        "config.info.controllermap.button.x": "   Tự động thêm nguyên liệu",
+        "config.info.controllermap.button.y": "   Hủy",
+        "config.info.controllermap.button.select": "   Tìm kiếm",
+        "config.info.controllermap.button.start": "   Hủy",
+        "config.info.controllermap.shoulders": "LB/RB   Thay đổi vùng",
+        "config.info.controllermap.triggers": "LT/RT   Thay đổi công thức",
+
+        "config.info.cookingmenu.text.1": "Thay thế giao diện gốc bằng menu nấu ăn mới.\nMở bằng cách tương tác với bếp như bình thường sau khi nhận {0} từ thư.\n\nTìm kiếm, sắp xếp, lọc, và đánh dấu yêu thích các công thức nấu ăn để nấu những món mà bạn muốn.\nCó thể dùng từ nhà bếp tại nông trại và cabin, cũng như {1}.\nCó thể sử dụng từ các bếp trong thị trấn nếu được bật trong trang tùy chọn.",
+        "config.info.cookingmenu.subheading.1": "Nhận sách nấu ăn",
+
+        "config.info.cookingskill.text.1": "Nâng cấp kỹ năng sẽ giúp bạn học được các công thức nấu ăn mới, cải thiện khả năng nấu nướng và mở khóa các nghề kỹ năng mới.\n\nBạn sẽ nhận được nhiều kinh nghiệm hơn khi nấu ăn mỗi ngày, nhưng sẽ nhận ít kinh nghiệm hơn khi nấu cùng một món nhiều lần.\nKiếm thêm kinh nghiệm bằng cách nấu những công thức nấu ăn mới và khó hơn.",
+        "config.info.cookingskill.text.2": "Bạn có thể mở khóa các nghề nấu ăn tương tự các kỹ năng khác.\nCác ưu điểm của nghề sẽ cải thiện kết quả nấu ăn và hiệu ứng của món ăn khi ăn.",
+        "config.info.cookingskill.subheading.1": "Tiến độ kỹ năng",
+        "config.info.cookingskill.subheading.2": "{0} kinh nghiệm",
+        "config.info.cookingskill.subheading.3": "{0}/{1} kinh nghiệm",
+        "config.info.cookingskill.subheading.4": "Công thức nấu ăn",
+        "config.info.cookingskill.subheading.5": "Nghề kỹ năng",
+
+        "config.info.cookingtool.text.1": "{0} của bạn xác định số nguyên liệu có thể sử dụng khi nấu ăn.\nNâng cấp dụng cụ nấu ăn của bạn tại Thợ rèn để mở khóa thêm ô nguyên liệu.\n\nNếu không thấy trong túi đồ: Có thể tìm thấy tại tab Vật Phẩm Và Quyền Hạn Đặc Biệt.\nBạn có thể kiểm tra cấp độ {0} của mình tại đây, tại mục nhân vật hoặc trong menu nấu ăn.\nNếu được tắt trong trang Tùy chọn, {0} của bạn sẽ luôn được coi là cấp tối đa.",
+        "config.info.cookingtool.subheading.1": "Nâng cấp dụng cụ",
+
+        "config.info.townkitchens.text.1": "Món ăn có thể được nấu ở bất kì chiếc bếp nào trong thị trấn, miễn bạn là bạn của chủ nhà.\nBạn vẫn cần sách nấu ăn và công thức để nấu!",
+        "config.info.townkitchens.subheading.1": "Nhà bếp có sẵn",
+        "config.info.townkitchens.subheading.2": "Cần có tình bạn",
+
+        "config.info.seasonings.text.1": "Thêm các đồ gia vị mới để nâng cao chất lượng món ăn.\n\nGia vị được mở khóa từ việc đạt các mốc nấu ăn.\nTự động tiêu thụ khi nấu ăn.",
+        "config.info.seasonings.subheading.1": "Đồ gia vị",
+
+        "config.info.foodhealingtakestime.text": "Thay vì hồi phục ngay lập tức, việc hồi phục bằng món ăn sẽ diễn ra từ từ theo thời gian.\n\nMáu và năng lượng sẽ phục hồi nhanh hơn khi đang ở mức thấp.\nKhả năng hồi phục vẫn được duy trì khi máu và năng lượng đầy.\nĂn nhiều loại món ăn sẽ cộng dồn thêm khả năng hồi phục trong ngày.\nTốc độ hồi phục tăng lên với các cấp độ kỹ năng khác nhau.\n{0} và {1} sẽ luôn hồi phục ngay lập tức.",
+        "config.info.foodbuffsstarthidden.text": "Tất cả món ăn có hiệu ứng sẽ được ẩn đi cho tới khi bạn ăn món đó.\nHiệu ứng (hoặc không có) sẽ hiển thị trên các vật cùng loại sau đó.\nMức khôi phục máu và năng lượng vẫn được hiển thị.",
+        "config.info.foodcanburn.text": "Khi nấu bất kì công thức nào, một số món sẽ bị cháy.\nMón bị cháy sẽ biến thành than rác vô dụng. Bạn sẽ lãng phí nguyên liệu của mình.\nBạn vẫn nhận được kinh nghiệm ngay cả khi món đó bị cháy.",
+        "config.info.foodcanburn.subheading": "Tỉ lệ cháy: {0} ~ {1}%",
+
+        "config.info.disabled": "> Có thể bật trong phần Tùy chọn.",
+        "config.info.disabled_bad": "> Có thể bật trong phần Tùy chọn.\nCảnh báo: Chuyện này không vui chút nào đâu.",
+        "config.info.features_blocked": "Không thể thay đổi các tùy chọn khi đang chơi.\n\nĐể thay đổi cài đặt, vui lòng quay trở lại màn hình tiêu đề.",
+
+        "config.features_label": "Tính năng",
+        "config.changes_label": "Thay đổi",
+        "config.others_label": "Khác",
+
+        "config.format.level": "Cấp độ {0}",
+        "config.format.profession": "{0} - {1}",
+        "config.format.unknown": "???",
+
+        // General strings
+
+        // Cooking tool
+        "menu.cooking_tool.name.basic": "Chảo rán",
+        "menu.cooking_tool.name.copper": "Chảo rán đồng",
+        "menu.cooking_tool.name.steel": "Chảo rán thép",
+        "menu.cooking_tool.name.gold": "Chảo rán vàng",
+        "menu.cooking_tool.name.iridium": "Chảo rán Iridium",
+        "menu.cooking_tool.description.basic": "Có thể nấu các món chỉ với 1 nguyên liệu.",
+        "menu.cooking_tool.description.copper": "Có thể nấu các món chỉ với 1 hoặc 2 nguyên liệu.",
+        "menu.cooking_tool.description.steel": "Có thể nấu các món chỉ với 3 nguyên liệu.",
+        "menu.cooking_tool.description.gold": "Có thể nấu các món chỉ với 4 nguyên liệu.",
+        "menu.cooking_tool.description.iridium": "Có thể nấu các món với bất kì nguyên liệu nào!",
+
+        // Cooking menu
+        "menu.cooking_station.no_cookbook": "Bạn không có sách dạy nấu ăn.",
+        "menu.cooking_station.no_friendship": "Bạn không đủ thân thiết với {0} để dùng cái bếp này.",
+
+        "menu.cooking_recipe.title_unknown": "???",
+        "menu.cooking_recipe.notes_unknown": "Bạn chưa từng ăn món này.",
+        "menu.cooking_recipe.ingredients_label": "Thành phần:",
+        "menu.cooking_recipe.notes_label": "Ghi chú:",
+        "menu.cooking_recipe.time_label": "Thời gian nấu:",
+        "menu.cooking_recipe.time_value": "{0} Phút",
+        "menu.cooking_recipe.search_label": "Tìm kiếm",
+        "menu.cooking_recipe.favourite_label": "Yêu thích",
+        "menu.cooking_recipe.quantity_label": "Bao nhiêu?",
+        "menu.cooking_recipe.which_label": "Bạn muốn nấu món nào?",
+        "menu.cooking_recipe.autofill_label": "Tự động thêm nguyên liệu",
+
+        "menu.cooking_recipe.buff.0": "Trồng trọt",
+        "menu.cooking_recipe.buff.1": "Câu cá",
+        "menu.cooking_recipe.buff.2": "Đào",
+        "menu.cooking_recipe.buff.3": "Xới",
+        "menu.cooking_recipe.buff.4": "May mắn",
+        "menu.cooking_recipe.buff.5": "Hái lượm",
+        "menu.cooking_recipe.buff.6": "Chế tạo",
+        "menu.cooking_recipe.buff.7": "Năng lượng",
+        "menu.cooking_recipe.buff.8": "Hấp dẫn",
+        "menu.cooking_recipe.buff.9": "Tốc độ",
+        "menu.cooking_recipe.buff.10": "Phòng thủ",
+        "menu.cooking_recipe.buff.11": "Tấn công",
+        "menu.cooking_recipe.buff.12": "Nấu ăn",
+        "menu.cooking_recipe.buff.daily": "Cả ngày",
+        "menu.cooking_recipe.buff.unknown": "???",
+
+        "menu.cooking_search.view_label": "Xem:",
+        "menu.cooking_search.filter_label": "Lọc công thức:",
+        "menu.cooking_search.sorter_label": "Sắp xếp theo:",
+        "menu.cooking_search.view.list": "Danh sách",
+        "menu.cooking_search.view.grid": "Biểu tượng",
+        "menu.cooking_search.filter.0": "Toàn bộ công thức",
+        "menu.cooking_search.filter.1": "Có thể nấu",
+        "menu.cooking_search.filter.2": "Yêu thích",
+        "menu.cooking_search.filter.3": "Mới",
+        "menu.cooking_search.filter.4": "Có hiệu ứng",
+        "menu.cooking_search.sorter.0": "Tên",
+        "menu.cooking_search.sorter.1": "Độ phục hồi",
+        "menu.cooking_search.sorter.2": "Giá",
+        "menu.cooking_search.sorter.3": "Yêu thích",
+        "menu.cooking_search.none_label": "Không tìm thấy công thức nào.",
+
+        "menu.inventory.backpack": "Túi đồ",
+        "menu.inventory.fridge": "Tủ lạnh",
+        "menu.inventory.minifridge": "Tủ lạnh mini",
+
+        "menu.config.enabled": "Mở cấu hình mod",
+        "menu.config.disabled": "Cần có Generic Mod Config Menu.",
+
+        // Mail
+        "mail.cookbook_unlocked.after.1": "Sách dạy nấu ăn của Mẹ và Chảo rán đã được thêm vào tab = Vật Phẩm Và Quyền Hạn Đặc Biệt.",
+        "mail.cookbook_unlocked.after.2": "Các công thức bạn đã học sẽ được lưu vào sách để nấu tại nhà bếp.",
+        "mail.cookbook_unlocked.after.2_alt": "Các công thức bạn đã học sẽ được lưu vào sách để nấu ở nông trại hay trong thị trấn.",
+
+        // Special items
+        "menu.special_items.cookbook.name": "Sách dạy nấu ăn của Mẹ",
+        "menu.special_items.cookbook.description": "Trong đó có các công thức nấu ăn của bạn.",
+
+        // Seasonings
+        "seasoning.seasoning_1.empty": "Bạn đã dùng hết sạch {0}.",
+        "seasoning.seasoning_2.empty": "Bạn đã dùng hết sạch {0}.",
+        "seasoning.seasoning_4.empty": "Bạn đã dùng hết sạch {0}.",
+
+        // Buffs
+        "buff.curry.name": "Hơi thở cà ri",
+        "buff.curry.description": "Cay xé lưỡi!",
+        "buff.kebab.name": "Bạo nhân say rượu",
+        "buff.kebab.description": "Càng uống càng mạnh khi có hơi men.",
+        "buff.lasagna.name": "Hào quang no nê",
+        "buff.lasagna.description": "Kẻ địch ở gần sẽ di chuyển chậm hơn.",
+        "buff.paella.name": "Kho báu nhụy hoa nghệ tây",
+        "buff.paella.description": "Đồng vàng rơi vãi khi tiêu diệt quái vật.",
+        "buff.profiteroles.name": "Đạn tam liên",
+        "buff.profiteroles.description": "Súng cao su sẽ bắn ba viên đạn cùng lúc.",
+        "buff.leeks.name": "Tỏi Tây Để Yên!",
+        "buff.leeks.description": "Tăng sức đẩy lùi của vũ khí.",
+
+        // Cooking skill
+        "menu.cooking_skill.name": "Nấu ăn",
+        "menu.cooking_skill.levelup_burn": "Giảm {0}% tỷ lệ thức ăn bị cháy",
+
+        // Tier 1:
+        // Path 1: Cooking
+        "menu.cooking_skill.tier1_path1.name": "Bếp phó",
+        "menu.cooking_skill.tier1_path1.description": "Nêm nếm gia vị giúp cải thiện chất lượng món ăn.",
+        // Path 2: Eating (CONFIG: Food restores over time)
+        "menu.cooking_skill.tier1_path2.name": "Ăn nhanh",
+        "menu.cooking_skill.tier1_path2.description": "Món ăn hồi phục máu và năng lượng nhanh hơn.",
+        // Path 2: Eating (CONFIG: Food restores instantly)
+        "menu.cooking_skill.tier1_path2_alt.name": "Ăn khỏe",
+        "menu.cooking_skill.tier1_path2_alt.description": "Món ăn đã được nấu chín sẽ hồi phục thêm {0}%.",
+
+        // Tier 2: Path 1
+        // Choice A: Gifting
+        "menu.cooking_skill.tier2_path1a.name": "Bếp trưởng",
+        "menu.cooking_skill.tier2_path1a.description": "Món ăn khi tặng sẽ tăng thêm độ thiện cảm.",
+        // Choice B: Selling
+        "menu.cooking_skill.tier2_path1b.name": "Đầu Bếp Năm Sao",
+        "menu.cooking_skill.tier2_path1b.description": "Món ăn sẽ bán được thêm {0}%.",
+
+        // Tier 2: Path B
+        // Choice A: Crafting
+        "menu.cooking_skill.tier2_path2a.name": "Người sành ăn",
+        "menu.cooking_skill.tier2_path2a.description": "Có cơ hội làm thêm một khẩu phần nữa khi nấu ăn.",
+        // Choice B: Healing
+        "menu.cooking_skill.tier2_path2b.name": "Háu ăn",
+        "menu.cooking_skill.tier2_path2b.description": "Thời gian hiệu ứng từ món ăn và đồ uống tăng lên khi đầy năng lượng.",
+
+        // Object categories
+        "item.fruit.label": "Trái cây (Bất kì)",
+        "item.flower.label": "Hoa (Bất kì)",
+        "item.vegetable.label": "Rau (Bất kì)",
+        "item.meat.label": "Thịt (Bất kì)",
+        "item.forage.label": "Đồ hái lượm (Bất kì)",
+        "item.cooking.label": "Đồ nấu (Bất kì)",
+        "item.mineral.label": "Khoáng sản (Bất kì)",
+        "item.seed.label": "Hạt giống (Bất kì)",
+        "item.metal.label": "Kim loại (Bất kì)",
+        "item.gem.label": "Đá quý (Bất kì)",
+
+        // Object names
+        // recipes
+        "item.admiralpie.name": "Bánh đại đốc",
+        "item.applepie.name": "Bánh táo",
+        "item.arancini.name": "Cơm viên chiên Arancini",
+        "item.bakedpotato.name": "Khoai tây nướng",
+        "item.breakfast.name": "Bữa sáng tiện lợi",
+        "item.burger.name": "Bánh mì kẹp củ cải đường",
+        "item.burrito.name": "Burrito",
+        "item.carrotcake.name": "Bánh cà rốt",
+        "item.cherrypie.name": "Bánh anh đào",
+        "item.chocoflan.name": "Bánh nướng hạt phỉ",
+        "item.cocococktail.name": "Cốc-tai dừa",
+        "item.craymornay.name": "Tôm hùm đất sốt kem",
+        "item.crepes.name": "Crêpes Suzette",
+        "item.curry.name": "Cà ri siêu cay",
+        "item.eggsando.name": "Bánh mì trứng",
+        "item.eggsando_half.name": "Nửa bánh mì trứng",
+        "item.fruity.name": "Sherry Syllabub",
+        "item.hotcocoa.name": "Ca cao nóng",
+        "item.hunters.name": "Bữa ăn của thợ săn",
+        "item.kebab.name": "Kebab",
+        "item.lasagna.name": "Lasagna Ricotta",
+        "item.leeks.name": "Tỏi tây hầm",
+        "item.lobster.name": "Tôm hùm nướng",
+        "item.nigiri.name": "Trứng cá cuộn",
+        "item.oceanplatter.name": "Đĩa đại dương",
+        "item.paella.name": "Cơm Paella",
+        "item.parfait.name": "Parfait mận",
+        "item.pilaf.name": "Cơm rang nấm",
+        "item.profiteroles.name": "Bánh phồng nhân kem",
+        "item.quiche.name": "Quiche Provencale",
+        "item.roast.name": "Món hầm nồi lẩu",
+        "item.skewers.name": "Xiên mùa hè",
+        "item.saladsando.name": "Bánh mì xà lách",
+        "item.saladsando_half.name": "Nửa bánh mì xà lách",
+        "item.seafoodsando.name": "Bánh mì hải sản",
+        "item.seafoodsando_half.name": "Nửa bánh mì hải sản",
+        "item.summersalad.name": "Sa-lát hè",
+        "item.unagi.name": "Sushi lươn",
+        "item.waffles.name": "Bánh quế dâu",
+        // objects
+        "item.burntfood.name": "Đồ ăn bị cháy",
+        "item.chocolate.name": "Sô-cô-la nấu ăn",
+        "item.cookbook.name": "Sách dạy nấu ăn của mẹ",
+        "item.seasoning_1.name": "Gia vị đơn giản",
+        "item.seasoning_2.name": "Gia vị cao cấp",
+
+        // Object descriptions
+        // recipes
+        "item.admiralpie.description": "Cá nguyên con được nhồi vào một chiếc bánh. Coi chừng mấy cái xương!",
+        "item.applepie.description": "Mùi táo tươi cùng mùi quế thơm.",
+        "item.arancini.description": "Nhồi đầy nhân rồi chiên giòn.",
+        "item.bakedpotato.description": "Một củ khoai tây nhỏ, được nhồi với khoai tây nghiền và phô mai.",
+        "item.breakfast.description": "Đảm bảo sẽ khiến bạn phải ra khỏi giường!",
+        "item.burger.description": "Sự kết hợp giữa vị đắng và ngọt, với sắc hồng tỏa sáng rực rỡ.",
+        "item.burrito.description": "Cuộn với những thứ ngon tuyệt.",
+        "item.carrotcake.description": "Lớp kem mịn cùng cà rốt bùi bở, quá ngon!",
+        "item.cherrypie.description": "Trông ngon và thơm quá.",
+        "item.chocoflan.description": "Bánh tart giòn rụm béo ngậy với nhân sô-cô-la ngọt ngào.",
+        "item.cocococktail.description": "Một loại đồ uống tươi mát với lá bạc hà và nước cốt dừa.",
+        "item.craymornay.description": "Tôm hùm đất tẩm sốt kem béo ngậy.",
+        "item.crepes.description": "Bánh kếp mỏng tan chảy trong si-rô cam brandy béo ngậy.",
+        "item.curry.description": "Hơi thở bùng cháy!\n\nTạm thời khiến bạn thở ra lửa khi ăn.",
+        "item.eggsando.description": "Bánh mì trắng mịn với trứng và sốt mayo. Gia vị hoàn hảo.",
+        "item.eggsando_half.description": "Thêm nữa, thêm nữa!",
+        "item.fruity.description": "Một thức uống có cồn vị ngọt thanh với chút rượu sherry, anh đào, quả mọng và phần kem tươi được đánh bông bên trên.",
+        "item.hotcocoa.description": "Làm ấm bạn lên. Có một viên kẹo dẻo lớn ở trên!",
+        "item.hunters.description": "Một đĩa rau củ nóng hổi kiểu cổ điển.",
+        "item.kebab.description": "Khá tuyệt khi đi kèm với đồ uống. Thêm ly nữa. Ly nữa.\n\nTạm thời tăng sức tấn công khi say rượu.",
+        "item.lasagna.description": "Những lớp phô mai béo ngậy với rau rớn nướng hòa quyện trong sốt béchamel.\n\nTạm thời làm chậm kẻ địch xung quanh đến mức chậm như rùa.",
+        "item.leeks.description": "Một món rất thích hợp làm món khai vị.\n\nTạm thời tăng sức đẩy lùi của vũ khí.",
+        "item.lobster.description": "Một công thức cổ điển của người dân đảo.",
+        "item.nigiri.description": "Trứng cá ăn kèm cơm. Mặn!",
+        "item.oceanplatter.description": "Hải sản tươi sống hấp dẫn, chế biến được cả món nóng lẫn lạnh.",
+        "item.paella.description": "Có gì bên trong món này? Thập cẩm!\n\nTạm thời làm tiền vàng rơi tum tóe khi tiêu diệt quái vật.",
+        "item.parfait.description": "Parfait mận nghiền, hoàn hảo cho những ngày hè dài và nóng nực.",
+        "item.pilaf.description": "Hương vị thanh đạm, chút cay với hương nấm rừng.",
+        "item.profiteroles.description": "Nhỏ nhắn, ngọt ngào. Dễ ăn!\n\nTạm thời gấp 3 lần sức mạnh của Súng cao su.",
+        "item.quiche.description": "Có phô mai là hạnh phúc lắm rồi.",
+        "item.roast.description": "Một nồi hầm thịnh soạn với đầy đủ các loại rau củ.",
+        "item.saladsando.description": "Có rau diếp, bồ công anh, rau chân vịt,...",
+        "item.saladsando_half.description": ".. Ê, có cả cà chua trong này!",
+        "item.seafoodsando.description": "Bánh mì hải sản mới làm, nhồi cua với rau dền.",
+        "item.seafoodsando_half.description": "Đã ăn mất một nửa, nhưng vẫn ngon!",
+        "item.summersalad.description": "Sa-lát trái cây tươi mát với hương vị tươi ngon.",
+        "item.unagi.description": "Trơn hơn cả rong biển.",
+        "item.waffles.description": "Bánh quế ngũ cốc với sốt việt quất mùa hè",
+        // objects
+        "item.burntfood.description": "Trông không ngon lắm. Nhưng vẫn bán được...",
+        "item.chocolate.description": "Ừmmmmm... sô-cô-la.",
+        "item.cookbook.description": "Vật phẩm gỡ lỗi.\n\nSách dạy nấu ăn của Mẹ và Chảo rán đã được thêm vào Vật Phẩm Và Quyền Hạn Đặc Biệt của bạn khi sử dụng.",
+        "item.seasoning_1.description": "Một chút gia vị có thể cải thiện hương vị của món ăn. Tự động áp dụng khi nấu ăn.",
+        "item.seasoning_2.description": "Một hỗn hợp gia vị đậm đà, có thể làm phong phú hương vị của bất cứ món ăn nào. Tự động áp dụng khi nấu ăn."
+      }
+    }
+  ]
+}

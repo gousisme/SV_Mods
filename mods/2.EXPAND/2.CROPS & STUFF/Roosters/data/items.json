@@ -1,0 +1,187 @@
+{
+	"Changes": [
+	{
+		"Logname": "Load Item Assets",
+		"Action": "Load",
+		"Target": "assets/ferteggs",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+	},
+	//Fertilized Eggs
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_FertEggBrown": {
+				"Name": "Brown Fertilized Egg",
+				"DisplayName": "{{i18n:fertilizedegg.brown}}",
+				"Description": "{{i18n:fertilizedegg.dec}}",
+				"Type": "Basic",
+				"Category": -5,
+				"Price": 700,
+				"Texture": "assets/ferteggs",
+				"SpriteIndex": 1,
+				"Edibility": -300,
+				"IsDrink": false,
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_FertEggWhite": {
+				"Name": "White Fertilized Egg",
+				"DisplayName": "{{i18n:fertilizedegg.white}}",
+				"Description": "{{i18n:fertilizedegg.dec}}",
+				"Type": "Basic",
+				"Category": -5,
+				"Price": 700,
+				"Texture": "assets/ferteggs",
+				"SpriteIndex": 0,
+				"Edibility": -300,
+				"IsDrink": false,
+			}
+		}
+	},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FertEggBlue": {
+					"Name": "Blue Fertilized Egg",
+					"DisplayName": "{{i18n:fertilizedegg.Blue}}",
+					"Description": "{{i18n:fertilizedegg.dec}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 700,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 3,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FertEggVoid": {
+					"Name": "Void Fertilized Egg",
+					"DisplayName": "{{i18n:fertilizedegg.void}}",
+					"Description": "{{i18n:fertilizedegg.dec}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 700,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 2,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_FertEggGold": {
+					"Name": "Gold Fertilized Egg",
+					"DisplayName": "{{i18n:fertilizedegg.Gold}}",
+					"Description": "{{i18n:fertilizedegg.dec}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 700,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 4,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+//Adding Regular Blue Egg, and Large Void/Blue/Gold
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}LargegoldEgg": {
+					"Name": "Large Golden Egg",
+					"DisplayName": "{{i18n:largeegg.gold}}",
+					"Description": "{{i18n:largeegg.decgold}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 600,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 8,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}LargevoidEgg": {
+					"Name": "Large Void Egg",
+					"DisplayName": "{{i18n:largeegg.void}}",
+					"Description": "{{i18n:largeegg.decvoid}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 110,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 7,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}LargeBlueEgg": {
+					"Name": "Large Blue Egg",
+					"DisplayName": "{{i18n:largeegg.blue}}",
+					"Description": "{{i18n:largeegg.decblue}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 95,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 6,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModID}}BlueEgg": {
+					"Name": "Blue Egg",
+					"DisplayName": "{{i18n:egg.blue}}",
+					"Description": "{{i18n:egg.decblue}}",
+					"Type": "Basic",
+					"Category": -5,
+					"Price": 50,
+					"Texture": "assets/ferteggs",
+					"SpriteIndex": 5,
+					"Edibility": -300,
+					"IsDrink": false,
+				}
+			}
+		},
+//Small Void Egg Retexture
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/voideggreplace.png",
+			"ToArea": {
+			"X": 272,
+			"Y": 192,
+			"Width": 16,
+			"Height": 16
+			},
+			"PatchMode": "Replace"
+		}
+	]
+}

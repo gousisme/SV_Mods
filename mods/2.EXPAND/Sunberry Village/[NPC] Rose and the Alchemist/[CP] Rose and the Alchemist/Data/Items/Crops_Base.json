@@ -1,0 +1,263 @@
+{
+    "Changes": [
+
+// ----------------TEXTURE DATA ------------------- //
+
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Crops, Mods/{{ModId}}/Objects",
+        "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+    },
+
+// ----------------CROP DATA ------------------- //
+
+    {
+        "LogName":"SASS Base Crop Data",
+        "Action": "EditData",
+        "Target": "Data/Crops",
+        "Entries": {
+            "{{ModId}}_Arctic_Fox_Seeds": {
+                "Seasons": [ "spring","winter"],
+                "DaysInPhase": [3, 3, 4, 3, 3],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Arctic_Fox",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 0
+        },    
+            "{{ModId}}_Avalune_Seeds": {
+                "Seasons": [ "spring","winter"],
+                "DaysInPhase": [4, 4, 4, 3, 3],
+                "RegrowDays": 3,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Avalune",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 1
+        },  
+            "{{ModId}}_Daisy_Seeds": {
+                "Seasons":["fall"],
+                "DaysInPhase": [ 1, 1, 1, 1, 1 ],
+                "RegrowDays": -1,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Daisy",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 17
+        },
+            "{{ModId}}_Hibiscus_Seeds": {
+                "DaysInPhase": [ 3, 3, 3, 3, 3 ],
+                "Seasons":["summer","fall"],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Hibiscus",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 16
+        },
+            "{{ModId}}_Lily_Seeds": {
+                "DaysInPhase": [ 2, 2, 2, 3, 3 ],
+                "Seasons":["summer"],
+                "RegrowDays": -1,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Lily",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 19
+        },
+            "{{ModId}}_Nasturtium_Seeds": {
+                "DaysInPhase": [ 3, 2, 3, 3, 1 ],
+                "Seasons":["summer","fall"],
+                "RegrowDays": 3,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Nasturtium",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 18
+        },
+            "{{ModId}}_Peony_Seeds": {
+                "DaysInPhase": [ 2, 3, 3, 3, 2 ],
+                "Seasons":["spring"],
+                "RegrowDays": 6,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Peony",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 21
+        },
+            "{{ModId}}_Pixie_Breath_Seeds": {
+                "Seasons": [ "spring","summer" ],
+                "DaysInPhase": [3, 3, 3, 3, 3],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Pixie_Breath",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 3
+        }, 
+            "{{ModId}}_Snapdragon_Seeds": {
+                "DaysInPhase": [ 1, 3, 3, 3, 2 ],
+                "Seasons":["spring","fall"],
+                "RegrowDays": 4,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Snapdragon",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 20
+        },
+            "{{ModId}}_Yarrow_Seeds": {
+                "Seasons": [ "summer","fall"],
+                "DaysInPhase": [4, 3, 2, 2, 1],
+                "RegrowDays": 5,
+                "HarvestMinStack": 1,
+                "HarvestMaxStack": 1,
+                "HarvestMaxIncreasePerFarmingLevel":0.2,
+                "ExtraHarvestChance": 0.05,
+                "HarvestItemId": "{{ModId}}_Yarrow",
+                "Texture": "Mods/{{ModId}}/Crops",
+                "SpriteIndex": 2
+        },
+        }
+    },
+
+// ----------------SEED DATA ------------------- //
+
+    {
+        "LogName":"SASS Base Seeds",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "{{ModId}}_Arctic_Fox_Seeds": {
+                "Name": "{{ModId}}_Arctic_Fox_Seeds",
+                "DisplayName": "{{i18n:SASS_Arctic_Fox_Seeds.name}}",
+                "Description": "{{i18n:SASS_Arctic_Fox_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 9
+        },
+            "{{ModId}}_Avalune_Seeds": {
+                "Name": "{{ModId}}_Avalune_Seeds",
+                "DisplayName": "{{i18n:SASS_Avalune_Seeds.name}}",
+                "Description": "{{i18n:SASS_Avalune_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 11
+        },
+            "{{ModId}}_Daisy_Seeds": {
+                "Name": "{{ModId}}_Daisy_Seeds",
+                "DisplayName": "{{i18n:SASS_Daisy_Seeds.name}}",
+                "Description": "{{i18n:SASS_Daisy_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 112
+        },
+            "{{ModId}}_Hibiscus_Seeds": {
+                "Name": "{{ModId}}_Hibiscus_Seeds",
+                "DisplayName": "{{i18n:SASS_Hibiscus_Seeds.name}}",
+                "Description": "{{i18n:SASS_Hibiscus_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 113
+        },
+            "{{ModId}}_Lily_Seeds": {
+                "Name": "{{ModId}}_Lily_Seeds",
+                "DisplayName": "{{i18n:SASS_Lily_Seeds.name}}",
+                "Description": "{{i18n:SASS_Lily_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 116
+        },
+            "{{ModId}}_Nasturtium_Seeds": {
+                "Name": "{{ModId}}_Nasturtium_Seeds",
+                "DisplayName": "{{i18n:SASS_Nasturtium_Seeds.name}}",
+                "Description": "{{i18n:SASS_Nasturtium_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 114
+        },
+            "{{ModId}}_Peony_Seeds": {
+                "Name": "{{ModId}}_Peony_Seeds",
+                "DisplayName": "{{i18n:SASS_Peony_Seeds.name}}",
+                "Description": "{{i18n:SASS_Peony_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 115
+        },
+            "{{ModId}}_Pixie_Breath_Seeds": {
+                "Name": "{{ModId}}_Pixie_Breath_Seeds",
+                "DisplayName": "{{i18n:SASS_Pixie_Breath_Seeds.name}}",
+                "Description": "{{i18n:SASS_Pixie_Breath_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 13
+        },
+            "{{ModId}}_Snapdragon_Seeds": {
+                "Name": "{{ModId}}_Snapdragon_Seeds",
+                "DisplayName": "{{i18n:SASS_Snapdragon_Seeds.name}}",
+                "Description": "{{i18n:SASS_Snapdragon_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 117
+        },
+            "{{ModId}}_Yarrow_Seeds": {
+                "Name": "{{ModId}}_Yarrow_Seeds",
+                "DisplayName": "{{i18n:SASS_Yarrow_Seeds.name}}",
+                "Description": "{{i18n:SASS_Yarrow_Seeds.description}}",
+                "Type": "Seeds",
+                "Category": -74,
+                "Price": 1,
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 15
+        }
+        }
+    }
+
+    ]
+}

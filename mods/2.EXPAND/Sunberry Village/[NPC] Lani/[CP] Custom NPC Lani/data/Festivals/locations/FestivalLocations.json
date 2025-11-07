@@ -1,0 +1,252 @@
+{
+	"Changes": [
+		//Egg Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 62 66 left",
+					"Delimiter": "/"
+				},
+				// Main event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 62 66 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		
+		//Flower Dance
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 25 47 down",
+					"Delimiter": "/"
+				},
+				// Main event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 25 47 up",
+					"Delimiter": "/"
+				}
+			]
+		},
+		// Luau
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 19 17 right",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 19 17 right",
+					"Delimiter": "/"
+				}
+			]
+		},
+		// Moonlight Jellies
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 59 30 left",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 59 30 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		// Stardew Valley Fair
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 29 70 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		// Spirit's Eve
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 27 56 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		// Ice Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+
+					"Value": "LaniSBV 78 34 left",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Main-Event_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 78 34 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		// Ice Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+
+					"Value": "LaniSBV 83 27 left",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Main-Event_additionalCharacters"
+					],
+					"Value": "LaniSBV 82 34 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+
+					"Value": "LaniSBV 87 33 down",
+					"Delimiter": "/"
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Main-Event_additionalCharacters_y2"
+					],
+					"Value": "LaniSBV 83 36 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+		// Feast of the Winter Star
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters{{FestivalYear}}"
+					],
+					"Value": "LaniSBV 59 68 right",
+					"Delimiter": "/"
+				}
+			]
+		}
+
+	]
+}

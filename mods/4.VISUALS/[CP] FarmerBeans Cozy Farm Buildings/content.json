@@ -1,0 +1,230 @@
+{
+    "Format": "2.5.0",
+    "ConfigSchema": {
+        "Updated Barn Design": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Barn Style":{
+            "AllowValues": "Red, White, Green",
+            "Default": "White"
+        }, 
+        "Updated Coop Design": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Coop Style":{
+            "AllowValues": "Red, White, Green",
+            "Default": "White"
+        },
+        "Seasonal Changes":{
+            "AllowValues": "true, false",
+            "Default": "true"
+        }
+    },
+    "DynamicTokens": [ 
+        {
+            "Name": "BarnStyle",
+            "Value": "{{Barn Style}}"
+        },
+        {
+            "Name": "CoopStyle",
+            "Value": "{{Coop Style}}"
+        }
+    ],
+    "Changes" : [
+        //Barn
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Barn",
+            "FromFile": "assets/Barn_{{BarnStyle}}.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Barn Design" : "true"
+            }
+        },
+
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Barn",
+            "FromFile": "assets/Barn_{{Season}}.png",
+            "PatchMode": "Overlay",
+            "When" : {
+                "Updated Barn Design" : "true",
+                "Seasonal Changes": "true"
+            }
+        },
+        //Big Barn
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Big Barn",
+            "FromFile": "assets/BigBarn_{{BarnStyle}}.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Barn Design" : "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Big Barn",
+            "FromFile": "assets/BigBarn_{{Season}}.png",
+            "PatchMode": "Overlay",
+            "When" : {
+                "Updated Barn Design" : "true",
+                "Seasonal Changes": "true"
+            }
+        },
+        //Deluxe Barn
+         {
+            "Action": "EditImage",
+            "Target": "Buildings/Deluxe Barn",
+            "FromFile": "assets/DeluxeBarn_{{BarnStyle}}.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Barn Design" : "true"
+            }
+        },
+        
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Deluxe Barn",
+            "FromFile": "assets/DeluxeBarn_{{Season}}.png",
+            "PatchMode": "Overlay",
+            "When" : {
+                "Updated Barn Design" : "true",
+                "Seasonal Changes": "true"
+            }
+        },
+ 
+        //paint masks
+        //Change paint mask for deluxe barn
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Deluxe Barn_PaintMask",
+            "FromFile": "assets/DeluxeBarn_PaintMask.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Barn Design" : "true"
+            }
+
+        }, 
+        //add paint masks to barn and big barn 
+        {
+            "Action": "Load",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "Target": "Buildings/Barn_PaintMask, Buildings/Big Barn_PaintMask",
+            "When" : {
+                "Updated Barn Design" : "true"
+            }
+
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/PaintData",
+            "Entries": {               
+                "Barn": "Building/-20 5/Roof/-25 0/Trim/-15 0",
+                "Big Barn": "Building/-20 5/Roof/-25 0/Trim/-15 0"
+            },
+            "When" : {
+                "Updated Barn Design" : "true"
+            }
+        },
+
+         //Coop
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Coop",
+            "FromFile": "assets/Coop_{{CoopStyle}}.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Coop Design" : "true"
+            }
+        }, 
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Coop",
+            "FromFile": "assets/Coop_{{Season}}.png",
+            "PatchMode": "Overlay",
+            "When" : {
+                "Updated Coop Design" : "true",
+                "Seasonal Changes": "true"
+            }
+        },
+        //Big Coop
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Big Coop",
+            "FromFile": "assets/BigCoop_{{CoopStyle}}.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Coop Design" : "true"
+            }
+        },
+        
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Big Coop",
+            "FromFile": "assets/BigCoop_{{Season}}.png",
+            "PatchMode": "Overlay",
+            "When" : {
+                "Updated Coop Design" : "true",
+                "Seasonal Changes": "true"
+            }
+        },
+         
+        //Deluxe Coop
+         {
+            "Action": "EditImage",
+            "Target": "Buildings/Deluxe Coop",
+            "FromFile": "assets/DeluxeCoop_{{CoopStyle}}.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Coop Design" : "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Deluxe Coop",
+            "FromFile": "assets/DeluxeCoop_{{Season}}.png",
+            "PatchMode": "Overlay",
+            "When" : {
+                "Updated Coop Design" : "true",
+                "Seasonal Changes": "true"
+            }
+        },
+ 
+        //Coop paint masks
+        //Change Deluxe Coop Paint Mask
+        {
+            "Action": "EditImage",
+            "Target": "Buildings/Deluxe Coop_PaintMask",
+            "FromFile": "assets/DeluxeCoop_PaintMask.png",
+            "PatchMode": "Replace",
+            "When" : {
+                "Updated Coop Design" : "true"
+            }
+
+        },  
+        //Add paint masks for coop and big coop
+        {
+            "Action": "Load",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "Target": "Buildings/Coop_PaintMask, Buildings/Big Coop_PaintMask",
+            "When" : {
+                "Updated Coop Design" : "true"
+            }
+          
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/PaintData",
+            "Entries": {               
+                "Coop": "Building/-20, 5,/Roof/-25 0/Trim/-15 0",
+                "Big Coop": "Building/-20 5/Roof/-25 0/Trim/-15 0"  
+            }, 
+            "When" : {
+                "Updated Coop Design" : "true"
+            }
+        }
+    ]
+}

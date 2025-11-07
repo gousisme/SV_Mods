@@ -1,0 +1,155 @@
+
+{
+   "Format": "2.3.0",
+   "ConfigSchema": {
+	       // Category configs 
+        "Tilesheets Enabled": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Categories"
+        },
+        "Objects Enabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+        "Weapons Enabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"Node Furniture Enabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"Plant Furniture Enabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+    
+    //OBJECTS
+    "Objects":
+    {
+        "Section": "Objects",
+        "AllowValues": "Aged Blue Moon Wine, Aurora Vineyard Property Deed, Big Bark Burger, Blue Moon Wine, Dewdrop Berry, Dulse Seaweed, Galdoran Gem, Green Mushroom, Mixed Berry Pie, Monster Mushroom, Ornate Treasure Chest, Property Deed, Super Joja Cola, Super Starfruit, Void Eel",
+        "AllowMultiple": true,
+        "AllowBlank": true,
+        "Default": "Aged Blue Moon Wine, Aurora Vineyard Property Deed, Big Bark Burger, Blue Moon Wine, Dewdrop Berry, Dulse Seaweed, Galdoran Gem, Green Mushroom, Mixed Berry Pie, Monster Mushroom, Ornate Treasure Chest, Property Deed, Super Joja Cola, Super Starfruit, Void Eel"
+    },
+    //WEAPONS
+    "Weapons":
+    {
+        "Section": "Weapons",
+        "AllowValues": "Tempered Galaxy Sword, Tempered Galaxy Hammer, Tempered Galaxy Dagger, Galaxy Slingshot",
+        "AllowMultiple": true,
+        "AllowBlank": true,
+        "Default": "Tempered Galaxy Sword, Tempered Galaxy Hammer, Tempered Galaxy Dagger, Galaxy Slingshot"
+    },
+	//NODE FURNITURE
+    "Node Furniture":
+    {
+        "Section": "Node Furniture",
+        "AllowValues": "AmethystNode, AquamarineNode, Cinder ShardNode 1, Cinder ShardNode 2, CopperNode, DiamondNode, EmeraldNode, Frozen GeodeNode, Frozen Stone 1, Frozen Stone 2, Frozen Stone 3, Frozen Stone 4, GemNode, GoldNode, IridiumNode, IronNode, JadeNode, Magma GeodeNode, Magma Stone 1, Magma Stone 2, MysticNode, Omni GeodeNode, RadioactiveNode, RubyNode, Stone 1, Stone 2, Stone 3, Stone 4. Stone 5, Stone 6, TopazNode",
+        "AllowMultiple": true,
+        "AllowBlank": true,
+        "Default": "AmethystNode, AquamarineNode, Cinder ShardNode 1, Cinder ShardNode 2, CopperNode, DiamondNode, EmeraldNode, Frozen GeodeNode, Frozen Stone 1, Frozen Stone 2, Frozen Stone 3, Frozen Stone 4, GemNode, GoldNode, IridiumNode, IronNode, JadeNode, Magma GeodeNode, Magma Stone 1, Magma Stone 2, MysticNode, Omni GeodeNode, RadioactiveNode, RubyNode, Stone 1, Stone 2, Stone 3, Stone 4. Stone 5, Stone 6, TopazNode"
+    },
+    //PLANT FURNITURE
+    "Plant Furniture":
+    {
+        "Section": "Plant Furniture",
+        "AllowValues": "Big Crop, Tiny Crop, Bushy Crop, Special Crop, Trellis Crop, Corn Crop, Flower Bushel 1, Flower Bushel 2, Flower Bushel 3, Flower Bushel 4, Flower Bushel 5, Flower Bushel 6",
+        "AllowMultiple": true,
+        "AllowBlank": true,
+        "Default": "Big Crop, Tiny Crop, Bushy Crop, Special Crop, Trellis Crop, Corn Crop, Flower Bushel 1, Flower Bushel 2, Flower Bushel 3, Flower Bushel 4, Flower Bushel 5, Flower Bushel 6"
+    },
+    //TILESHEET EDITS
+    "Retexture Crop Maps": {
+            "AllowValues": "true, false",
+            "Default": true,
+			"Description": "Retexture's crops to the Vanilla Tweaks style around the valley" 
+        },
+    "Susan's House Edits": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Replaces the crops on house tilesheet - turned off on default for other mods which edit SVE Buildings" 
+        },
+	"Sophia's House Edits": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Replaces the crops on house tilesheet - turned off on default for other mods which edit SVE Buildings" 
+        },
+	"Joja Emporium": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Replaces the cakes on the Joja Emporium Building - turned off on default for other mods which edit SVE Buildings" 
+        },
+	"Summer Table with Salad": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Replaces the salad displayed on the table - turned off on default for other mods which edit this table tilesheet" 
+        },
+	"Stardew Valley Fair SVE Edits": {
+            "AllowValues": "true, false",
+            "Default": "false",
+			"Description": "Replaces the Stardew Valley Fair SVE Presentation Tables - turned off on default for other mods which edit this table tilesheet" 
+        }
+},
+	
+"Changes": [
+    {
+        "LogName": "Tilesheet",
+        "Action": "Include",
+        "FromFile": "code/Tilesheets.json",
+        "When": 
+        {
+            "Tilesheets Enabled": true
+        }
+    },
+    {
+        "LogName": "Objects enabled code",
+        "Action": "Include",
+        "FromFile": "code/Objects.json",
+        "When": 
+        {
+            "Objects Enabled": true
+        }
+    },	
+    {
+        "LogName": "Weapons",
+        "Action": "Include",
+        "FromFile": "code/Weapons.json",
+        "When": 
+        {
+            "Weapons Enabled": true
+        }
+
+    },
+    {
+        "LogName": "Node Furniture Enabled code",
+        "Action": "Include",
+        "FromFile": "code/Node Furniture.json",
+        "When": 
+        {
+            "Node Furniture Enabled": true
+        }
+    },	
+    {
+        "LogName": "Plant Furniture Enabled code",
+        "Action": "Include",
+        "FromFile": "code/Plant Furniture.json",
+        "When": 
+        {
+            "Plant Furniture Enabled": true
+        }
+    }
+
+]
+}

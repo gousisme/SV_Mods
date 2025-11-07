@@ -1,0 +1,462 @@
+{
+    "Changes": 
+    [
+
+// REGULAR CROPS
+
+        {
+			"LogName": "Ancient Fruit Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/AncientFruitGrowth.png",
+			"ToArea": { "X": 0, "Y": 384, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Ancient Fruit": true
+			}
+		},
+        {
+			"LogName": "Artichoke Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/ArtichokeGrowth.png",
+			"ToArea": { "X": 128, "Y": 256, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Artichoke": true
+			}
+		},
+        {
+			"LogName": "Beet Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/BeetGrowth.png",
+			"ToArea": { "X": 0, "Y": 352, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Beet": true
+			}
+		},
+        {
+			"LogName": "Blueberry Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/BlueberryGrowth.png",
+			"ToArea": { "X": 128, "Y": 128, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Blueberry": true
+			}
+		},
+        {
+			"LogName": "Broccoli Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/BroccoliGrowth.png",
+			"ToArea": { "X": 0, "Y": 800, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Broccoli": true
+			}
+		},		
+        {
+			"LogName": "Cactus Fruit Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CactusGrowth.png",
+			"ToArea": { "X": 128, "Y": 640, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"RegularForage |contains= Cactus Fruit": true
+			}
+		},
+        {
+			"LogName": "Carrot",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CarrotGrowth.png",
+			"ToArea": { "X": 0, "Y": 768, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Carrot": true
+			}
+		},
+        {
+			"LogName": "Cauliflower Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CauliflowerGrowth.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Cauliflower": true
+			}
+		},
+        {
+			"LogName": "Coffee Bean Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CoffeeBeanGrowth.png",
+			"ToArea": { "X": 0, "Y": 640, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Coffee Bean": true
+			}
+		},
+        {
+			"LogName": "Corn Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CornGrowth.png",
+			"ToArea": { "X": 128, "Y": 224, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Corn": true
+			}
+		},
+        {
+			"LogName": "Cranberries Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CranberriesGrowth.png",
+			"ToArea": { "X": 128, "Y": 320, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Cranberries": true
+			}
+		},
+        {
+			"LogName": "Dead Crops Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/DeadGrowth.png",
+			"ToArea": { "X": 128, "Y": 384, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Dead Crops": true
+			}
+		},		
+        {
+			"LogName": "Eggplant Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/EggplantGrowth.png",
+			"ToArea": { "X": 0, "Y": 256, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Eggplant": true
+			}
+		},
+        {
+			"LogName": "Garlic Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/GarlicGrowth.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Garlic": true
+			}
+		},
+        {
+			"LogName": "Grape Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/GrapeGrowth.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Grape": true
+			}
+		},
+        {
+			"LogName": "Green Bean Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/BeanGrowth.png",
+			"ToArea": { "X": 128, "Y": 0, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Green Bean": true
+			}
+		},
+        {
+			"LogName": "Hops Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/HopsGrowth.png",
+			"ToArea": { "X": 128, "Y": 576, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Hops": true
+			}
+		},
+        {
+			"LogName": "Hot Pepper Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/HotPepperGrowth.png",
+			"ToArea": { "X": 0, "Y": 160, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Hot Pepper": true
+			}
+		},
+        {
+			"LogName": "Melon Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/MelonGrowth.png",
+			"ToArea": { "X": 128, "Y": 96, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Melon": true
+			}
+		},
+        {
+			"LogName": "Parsnip Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/ParsnipGrowth.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Parsnip": true
+			}
+		},
+        {
+			"LogName": "Pineapple Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/PineappleGrowth.png",
+			"ToArea": { "X": 128, "Y": 672, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Pineapple": true
+			}
+		},
+        {
+			"LogName": "Potato Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/PotatoGrowth.png",
+			"ToArea": { "X": 128, "Y": 32, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Potato": true
+			}
+		},
+        {
+			"LogName": "Pumpkin Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/PumpkinGrowth.png",
+			"ToArea": { "X": 0, "Y": 288, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Pumpkin": true
+			}
+		},
+        {
+			"LogName": "Qi Fruit Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/QiFruitGrowth.png",
+			"ToArea": { "X": 128, "Y": 736, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Qi Fruit": true
+			}
+		},
+        {
+			"LogName": "Radish Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/RadishGrowth.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Radish": true
+			}
+		},
+        {
+			"LogName": "Red Cabbage Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/CabbageGrowth.png",
+			"ToArea": { "X": 128, "Y": 192, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Red Cabbage": true
+			}
+		},		
+        {
+			"LogName": "Rhubarb Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/RhubarbGrowth.png",
+			"ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Rhubarb": true
+			}
+		},
+        {
+			"LogName": "Starfruit Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/StarfruitGrowth.png",
+			"ToArea": { "X": 0, "Y": 224, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Starfruit": true
+			}
+		},
+        {
+			"LogName": "Strawberry Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/StrawberryGrowth.png",
+			"ToArea": { "X": 0, "Y": 576, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Strawberry": true
+			}
+		},
+        {
+			"LogName": "Sweet Gem Berry Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/SweetGemBerryGrowth.png",
+			"ToArea": { "X": 0, "Y": 512, "Width": 112, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Sweet Gem Berry": true
+			}
+		},
+        {
+			"LogName": "Summer Squash Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/SquashGrowth.png",
+			"ToArea": { "X": 128, "Y": 768, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Summer Squash": true
+			}
+		},		
+        {
+			"LogName": "Tomato Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/TomatoGrowth.png",
+			"ToArea": { "X": 0, "Y": 128, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Tomato": true
+			}
+		},
+        {
+			"LogName": "Wild Crops Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/WildGrowth.png",
+			"ToArea": { "X": 128, "Y": 352, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Wild Crops": true
+			}
+		},		
+        {
+			"LogName": "Wheat Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/WheatGrowth.png",
+			"ToArea": { "X": 128, "Y": 160, "Width": 96, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Wheat": true
+			}
+		},
+        {
+			"LogName": "Yam Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/YamGrowth.png",
+			"ToArea": { "X": 0, "Y": 320, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Yam": true
+			}
+		},
+
+// FLOWERS
+
+		{
+			"LogName": "Blue Jazz Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/BlueJazzGrowth.png",
+			"ToArea": { "X": 128, "Y": 416, "Width": 128, "Height": 32 },
+			"When": 
+			{
+				"CropGrowth |contains= Blue Jazz": true
+			}
+		},
+        {
+			"LogName": "Fairy Rose Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/FairyRoseGrowth.png",
+			"ToArea": { "X": 128, "Y": 480, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Fairy Rose": true
+			}
+		},
+        {
+			"LogName": "Poppy Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/PoppyGrowth.png",
+			"ToArea": { "X": 0, "Y": 448, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Poppy": true
+			}
+		},
+        {
+			"LogName": "Summer Spangle Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/SummerSpangleGrowth.png",
+			"ToArea": { "X": 128, "Y": 448, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Summer Spangle": true
+			}
+		},		
+        {
+			"LogName": "Sunflower Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/SunflowerGrowth.png",
+			"ToArea": { "X": 0, "Y": 480, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Sunflower": true
+			}
+		},
+        {
+			"LogName": "Tulip Growth",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Crops",
+			"FromFile": "Assets/{{SaturationToggle}}/CropGrowth/TulipGrowth.png",
+			"ToArea": { "X": 0, "Y": 416, "Width": 128, "Height": 32 },
+			"When": 
+            {
+				"CropGrowth |contains= Tulip": true
+			}
+		}
+    ]
+}

@@ -1,0 +1,240 @@
+{
+	"Changes": [
+		{
+			"LogName": "Lani NPC - Add location to location data",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"Custom_SBV_LaniHouse": {
+					"DisplayName": "{{i18n:Lani.Strings.HouseDisplayName}}",
+					"CreateOnLoad": {
+						"MapPath": "Maps/Custom_SBV_LaniHouse"
+					}
+				}
+			}
+		},
+		{
+			"LogName": "Lani NPC - Add map property to house",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_LaniHouse",
+			"MapProperties": {
+				"LocationContext": "Custom_SBV_SunberryVillage"
+			}
+		},
+		{
+			"LogName": "Lani NPC - Patch Lani's house to SBV map",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage",
+			"PatchMode": "Replace", 
+			"FromFile": "Assets/Maps/LaniHouse_Patch.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 11,
+				"Height": 11
+			},
+			"ToArea": {
+				"X": 61,
+				"Y": 38,
+				"Width": 11,
+				"Height": 11
+			}
+		},
+		{
+			"LogName": "Lani NPC - Patch Lani's house to Twilight Festival map",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_TwilightFestival",
+			"PatchMode": "Replace", 
+			"FromFile": "Assets/Maps/LaniHouse_Patch.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 11,
+				"Height": 11
+			},
+			"ToArea": {
+				"X": 61,
+				"Y": 38,
+				"Width": 11,
+				"Height": 11
+			}
+		},
+		{
+			"LogName": "Lani NPC - Add locked door warps",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage", 
+			"MapTiles": [
+				{
+					"Position": { // Door coordinates 
+					"X": 65,
+					"Y": 47
+				},
+				"Layer": "Buildings", 
+				"SetProperties": {
+					"Action": "LockedDoorWarp 15 28 Custom_SBV_LaniHouse 900 2200" //LockedDoorWarp that takes you to these coordinates INSIDE the house, then the name of the house, and then the opening and closing time.
+				}
+				}
+			]
+		},
+		{
+			"LogName": "Lani NPC - Add locked door warps during Twilight Festival",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_TwilightFestival", 
+			"MapTiles": [
+				{
+					"Position": { // Door coordinates 
+					"X": 65,
+					"Y": 47
+				},
+				"Layer": "Buildings", 
+				"SetProperties": {
+					"Action": "LockedDoorWarp 15 28 Custom_SBV_LaniHouse 900 2200" //LockedDoorWarp that takes you to these coordinates INSIDE the house, then the name of the house, and then the opening and closing time.
+				}
+				}
+			]
+		},
+		
+		{
+			"LogName": "Lani NPC - Christmas Lights Patch",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage",
+			"When": { 
+				"Season": "Winter", 
+				"Time": "{{Range:1600, 2600}}"
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Light"
+					],
+					"Value": "62 44 8 63 44 8 64 44 8 65 44 8 66 44 8 67 44 8 68 45 8 69 45 8 70 45 8",
+					"Delimiter": " ",
+				}
+			],
+			"Update": "OnLocationChange"
+		},
+		
+		{
+			"LogName": "Lani NPC - Indoor Daylight Beams Overlay",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_LaniHouse",
+			"PatchMode": "Overlay", 
+			"FromFile": "Assets/Maps/LaniHouse_DaylightBeams_Overlay.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 21,
+				"Height": 4
+			},
+			"ToArea": {
+				"X": 4,
+				"Y": 4,
+				"Width": 21,
+				"Height": 4
+			},
+			"When": {  
+				"Time": "{{Range:0600, 1700}}",
+				"Weather": "Sun, Wind",
+			}
+		},
+		
+		{
+			"LogName": "Lani NPC - Sammy Patch 1",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_LaniHouse",
+			"PatchMode": "Overlay", 
+			"FromFile": "Assets/Maps/LaniHouse_SammyPatch1.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 1,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 23,
+				"Y": 6,
+				"Width": 1,
+				"Height": 2
+			},
+			"When": {  
+				"DayOfWeek": "Monday, Wednesday, Friday",
+				"query: {{Hearts:LaniSBV}} >= 2": true,
+				"Time": "{{Range: 1900, 2400}}"
+			}
+		},
+		{
+			"LogName": "Lani NPC - Sammy Patch 2",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_LaniHouse",
+			"PatchMode": "Overlay", 
+			"FromFile": "Assets/Maps/LaniHouse_SammyPatch2.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 2,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 20,
+				"Y": 18,
+				"Width": 2,
+				"Height": 2
+			},
+			"When": {  
+				"DayOfWeek": "Tuesday, Sunday",
+				"query: {{Hearts:LaniSBV}} >= 2": true,
+				"Time": "{{Range: 1900, 2400}}"
+			}
+		},
+		{
+			"LogName": "Lani NPC - Sammy Patch 3",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_LaniHouse",
+			"PatchMode": "Overlay", 
+			"FromFile": "Assets/Maps/LaniHouse_SammyPatch3.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 1,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 3,
+				"Y": 12,
+				"Width": 1,
+				"Height": 2
+			},
+			"When": {  
+				"DayOfWeek": "Thursday, Saturday",
+				"query: {{Hearts:LaniSBV}} >= 2": true,
+				"Time": "{{Range: 1900, 2400}}"
+			}
+		},
+		
+		{
+			"LogName": "Lani NPC - Christmas Lights Overlay",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage",
+			"PatchMode": "Overlay", 
+			"FromFile": "Assets/Maps/LaniHouse_ChristmasLights_Overlay.tmx", 
+			"FromArea": { 
+				"X": 0,
+				"Y": 0,
+				"Width": 11,
+				"Height": 2
+			},
+			"ToArea": {
+				"X": 61,
+				"Y": 44,
+				"Width": 11,
+				"Height": 2
+			},
+			"When": { 
+				"Season": "winter", 
+				"Time": "{{Range:1600, 2600}}"
+			}
+		}
+	]
+}

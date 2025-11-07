@@ -1,0 +1,640 @@
+{
+  "Changes": [
+
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Cat_Black, Mods/{{ModId}}/Cat_Grey, Mods/{{ModId}}/Cat_Ink, Mods/{{ModId}}/Cat_White, Mods/{{ModId}}/Crow_Black, Mods/{{ModId}}/Crow_Ink, Mods/{{ModId}}/Crow_Indigo, Mods/{{ModId}}/Crow_Void, Mods/{{ModId}}/Fox_Black, Mods/{{ModId}}/Fox_Cream, Mods/{{ModId}}/Fox_Orange, Mods/{{ModId}}/Fox_Silver, Mods/{{ModId}}/Toad_Black, Mods/{{ModId}}/Toad_Brown, Mods/{{ModId}}/Toad_Olive, Mods/{{ModId}}/Toad_Sand, Mods/{{ModId}}/Honeybee, Mods/{{ModId}}/Honeybee_Faerie, Mods/{{ModId}}/Honeybee_Sugar, Mods/{{ModId}}/Honeybee_Void, Mods/{{ModId}}/Icons",
+      "FromFile": "Assets/Animals/{{TargetWithoutPath}}.png"
+    },
+
+    {
+      "LogName": "Add Cat Familiars to Animals Data",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "When": {"HasFlag":"{{ModId}}_SO_2_Complete"},
+      "Entries": {
+        "{{ModId}}_Cat": {
+          "DisplayName": "{{i18n:SASS_Cat}}",
+          "House": "Barn",
+          "Gender": "Female",
+          "PurchasePrice": 1200,
+          "SellPrice": 2400,
+          "ShopTexture": "Mods/{{ModId}}/Icons",
+          "ShopSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: SASS_Shop_Cat.name}}",
+          "ShopDescription": "{{i18n: SASS_Shop_Cat.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
+          "RequiredBuilding": "Barn",
+          "EggItemIds": [],
+          "BirthText": "{{i18n:SASS_Shop_Cat.birth}}",
+          "DaysToMature": 3,
+          "CanGetPregnant": true,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Cat_BatWing",
+              "MinimumFriendship": 0,
+              "ItemId": "767",
+              "Condition": null
+            },
+            {
+              "Id": "Deluxe_Cat_Lovebird_Feather",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Lovebird_Feather",
+			        "Condition": null
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_Cat_Lady_Luck",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Lady_Luck",
+              "Condition": "RANDOM .05",
+            },
+            {
+              "Id": "Deluxe_Cat_Rosefinch_Feather",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Rosefinch_Feather",
+			        "Condition": null
+            },
+            {
+              "Id": "Deluxe_Cat_Unicorn_Horn",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Unicorn_Horn",
+			        "Condition": "RANDOM .01",
+            }
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "cat",
+          "Texture": "Mods/{{ModId}}/Cat_Black",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 32,
+          "SpriteHeight": 32,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "Skins": [
+            {
+              "Id": "{{ModId}}_Cat_Grey",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Cat_Grey"
+            },
+            {
+              "Id": "{{ModId}}_Cat_Ink",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Cat_Ink"
+            },
+            {
+              "Id": "{{ModId}}_Cat_White",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Cat_White"
+            }
+          ],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 6,
+          "UpDownPetHitboxTileSize": "1.5, 1.75",
+          "LeftRightPetHitboxTileSize": "1.75, 1.25",
+          "BabyUpDownPetHitboxTileSize": "1, 1.75",
+          "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        }
+      }
+    },
+
+    {
+      "LogName": "Add Crow Familiars to Animals Data",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "When": {"HasFlag":"{{ModId}}_SO_1_Complete"},
+      "Entries": {
+        "{{ModId}}_Crow": {
+          "DisplayName": "{{i18n:SASS_Crow}}",
+          "House": "Barn",
+          "Gender": "Female",
+          "PurchasePrice": 800,
+          "SellPrice": 1600,
+          "ShopTexture": "Mods/{{ModId}}/Icons",
+          "ShopSourceRect": {
+            "X": 32,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: SASS_Shop_Crow.name}}",
+          "ShopDescription": "{{i18n: SASS_Shop_Crow.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
+          "RequiredBuilding": "Barn",
+          "EggItemIds": [],
+          "BirthText": "{{i18n:SASS_Shop_Crow.birth}}",
+          "DaysToMature": 3,
+          "CanGetPregnant": true,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Crow_Feather",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Crow_Feather"
+            },
+            {
+              "Id": "Default_Crow_Geode",
+              "MinimumFriendship": 0,
+              "ItemId": "535"
+            },
+            {
+              "Id": "Default_Crow_OmniGeode",
+              "MinimumFriendship": 0,
+              "ItemId": "749"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_Crow_MysteryBox",
+              "MinimumFriendship": 0,
+              "ItemId": "MysteryBox",
+			        "Condition": "SEASON spring, RANDOM .05"
+            },
+            {
+              "Id": "Deluxe_Crow_TreasureTrove",
+              "MinimumFriendship": 0,
+              "ItemId": "275"
+            },
+            {
+              "Id": "Deluxe_Crow_GoldenAnimalCracker",
+              "MinimumFriendship": 0,
+              "Condition": "RANDOM .01",
+              "ItemId": "GoldenAnimalCracker"
+            }
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "crow",
+          "Texture": "Mods/{{ModId}}/Crow_Black",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 32,
+          "SpriteHeight": 32,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "Skins": [
+            {
+              "Id": "{{ModId}}_Crow_Indigo",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Crow_Indigo"
+            },
+            {
+              "Id": "{{ModId}}_Crow_Ink",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Crow_Ink"
+            },
+            {
+              "Id": "{{ModId}}_Crow_Void",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Crow_Void"
+            }
+          ],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 4,
+          "UpDownPetHitboxTileSize": "1.5, 1.75",
+          "LeftRightPetHitboxTileSize": "1.75, 1.25",
+          "BabyUpDownPetHitboxTileSize": "1, 1.75",
+          "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        }
+      }
+    },
+
+    {
+      "LogName": "Add Fox Familiars to Animals Data",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "When": {"HasFlag":"{{ModId}}_SO_3_Complete"},
+      "Entries": {
+        "{{ModId}}_Fox": {
+          "DisplayName": "{{i18n:SASS_Fox}}",
+          "House": "Barn",
+          "Gender": "Female",
+          "PurchasePrice": 2000,
+          "SellPrice": 2400,
+          "ShopTexture": "Mods/{{ModId}}/Icons",
+          "ShopSourceRect": {
+            "X": 64,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: SASS_Shop_Fox.name}}",
+          "ShopDescription": "{{i18n: SASS_Shop_Fox.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]",
+          "RequiredBuilding": "Barn",
+          "EggItemIds": [],
+          "BirthText": "{{i18n:SASS_Shop_Fox.birth}}",
+          "DaysToMature": 3,
+          "CanGetPregnant": true,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Fox_Salmonberry",
+              "MinimumFriendship": 0,
+              "ItemId": "296",
+              "Condition": "SEASON spring"
+            },
+            {
+              "Id": "Default_Fox_SpiceBerry",
+              "MinimumFriendship": 0,
+              "ItemId": "396",
+              "Condition": "SEASON summer"
+            },
+            {
+              "Id": "Default_Fox_Blackberry",
+              "MinimumFriendship": 0,
+              "ItemId": "410",
+              "Condition": "SEASON fall"
+            },
+            {
+              "Id": "Default_Fox_CrystalFruit",
+              "MinimumFriendship": 0,
+              "ItemId": "414",
+              "Condition": "SEASON winter"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_Fox_Lapis_MoonDrop",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Lapis_MoonDrop",
+			        "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_SproutMoonDrops, SEASON spring"
+            },
+            {
+              "Id": "Deluxe_Fox_Jade_MoonDrop",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Jade_MoonDrop",
+			        "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_SproutMoonDrops, SEASON fall"
+            },
+            {
+              "Id": "Deluxe_Fox_Amber_MoonDrop",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Amber_MoonDrop",
+			        "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_SproutMoonDrops, SEASON summer"
+            },
+            {
+              "Id": "Deluxe_Fox_Pearl_MoonDrop",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Pearl_MoonDrop",
+			        "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_SproutMoonDrops, SEASON winter"
+            }
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "rabbit",
+          "Texture": "Mods/{{ModId}}/Fox_Orange",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 32,
+          "SpriteHeight": 32,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "Skins": [
+            {
+              "Id": "{{ModId}}_Fox_Black",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Fox_Black"
+            },
+            {
+              "Id": "{{ModId}}_Fox_Cream",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Fox_Cream"
+            },
+            {
+              "Id": "{{ModId}}_Fox_Silver",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Fox_Silver"
+            }
+          ],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 2,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1.5, 1.75",
+          "LeftRightPetHitboxTileSize": "1.75, 1.25",
+          "BabyUpDownPetHitboxTileSize": "1, 1.75",
+          "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        }
+      }
+    },
+
+    {
+      "LogName": "Add Toad Familiars to Animals Data",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "When": {"HasFlag":"{{ModId}}_SO_4_Complete"},
+      "Entries": {
+        "{{ModId}}_Toad": {
+          "DisplayName": "{{i18n:SASS_Toad}}",
+          "House": "Coop",
+          "Gender": "Female",
+          "PurchasePrice": 4000,
+          "SellPrice": 8000,
+          "ShopTexture": "Mods/{{ModId}}/Icons",
+          "ShopSourceRect": {
+            "X": 96,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: SASS_Shop_Toad.name}}",
+          "ShopDescription": "{{i18n: SASS_Shop_Toad.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+          "RequiredBuilding": "Coop",
+          "EggItemIds": [],
+          "BirthText": "{{i18n:SASS_Shop_Toad.birth}}",
+          "DaysToMature": 4,
+          "CanGetPregnant": true,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Toad_Moss",
+              "MinimumFriendship": 0,
+              "ItemId": "Moss"
+            },
+            {
+              "Id": "Default_Toad_CommonMush",
+              "MinimumFriendship": 0,
+              "ItemId": "404"
+            },
+            {
+              "Id": "Default_Toad_Slime",
+              "MinimumFriendship": 0,
+              "ItemId": "766"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "Deluxe_Toad_Seed",
+              "MinimumFriendship": 0,
+              "ItemId": "MossySeed",
+              "Condition": "RANDOM .1"
+            },
+            {
+              "Id": "Deluxe_Toad_Moss",
+              "MinimumFriendship": 0,
+              "ItemId": "Moss"
+            },
+            {
+              "Id": "Deluxe_Toad_Frilly_Gilly",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Frilly_Gilly",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_MagicMushrooms, SEASON spring"
+            },
+            {
+              "Id": "Deluxe_Toad_Limey_Bonnet",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Limey_Bonnet",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_MagicMushrooms, SEASON summer"
+            },
+            {
+              "Id": "Deluxe_Toad_Midas_Cap",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Midas_Cap",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_MagicMushrooms, SEASON fall"
+            },
+            {
+              "Id": "Deluxe_Toad_Ghostly_Parasol",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Ghostly_Parasol",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_MagicMushrooms, SEASON winter"
+            }
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "croak",
+          "Texture": "Mods/{{ModId}}/Toad_Brown",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+         "Skins": [
+            {
+              "Id": "{{ModId}}_Toad_Black",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Toad_Black"
+            },
+            {
+              "Id": "{{ModId}}_Toad_Olive",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Toad_Olive"
+            },
+            {
+              "Id": "{{ModId}}_Toad_Sand",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Toad_Sand"
+            }
+          ],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        }
+      }
+    },
+
+    {
+      "LogName": "Add Honeybee Familiars to Animals Data",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "When": {"HasFlag":"{{ModId}}_SO_5_Complete"},
+      "Entries": {
+        "{{ModId}}_Honeybee": {
+          "DisplayName": "{{i18n:SASS_Honeybee}}",
+          "House": "Coop",
+          "Gender": "Female",
+          "PurchasePrice": 5500,
+          "SellPrice": 11000,
+          "ShopTexture": "Mods/{{ModId}}/Icons",
+          "ShopSourceRect": {
+            "X": 128,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "{{i18n: SASS_Shop_Honeybee.name}}",
+          "ShopDescription": "{{i18n: SASS_Shop_Honeybee.description}}",
+          "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5926]",
+          "RequiredBuilding": "Coop",
+          "EggItemIds": [],
+          "BirthText": "{{i18n:SASS_Shop_Honeybee.birth}}",
+          "DaysToMature": 4,
+          "CanGetPregnant": true,
+          "DaysToProduce": 1,
+          "HarvestType": "DropOvernight",
+          "ProduceItemIds": [
+            {
+              "Id": "Default_Honeybee_MixedFlowerSeeds",
+              "MinimumFriendship": 0,
+              "ItemId": "MixedFlowerSeeds"
+            },
+            {
+              "Id": "Default_Honeybee_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340",
+              "Condition": "RANDOM .1"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            
+            {
+              "Id": "Deluxe_Honeybee_Honey",
+              "MinimumFriendship": 0,
+              "ItemId": "340"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Arctic_Fox_Seeds",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Arctic_Fox_Seeds",
+              "Condition": "SEASON spring winter"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Avalune_Seeds",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Avalune_Seeds",
+              "Condition": "SEASON spring winter"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Pixie_Breath_Seeds",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Pixie_Breath_Seeds",
+              "Condition": "SEASON spring"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Yarrow_Seeds",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Yarrow_Seeds",
+              "Condition": "SEASON summer"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Ambrosia",
+              "MinimumFriendship": 0,
+              "ItemId": "595",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_FaeFlowers, SEASON spring"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Sylvan_Sigh",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Sylvan_Sigh",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_FaeFlowers, SEASON summer"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Phoenix_Fire",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Phoenix_Fire",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_FaeFlowers, SEASON fall"
+            },
+            {
+              "Id": "Deluxe_Honeybee_Titania_Bell",
+              "MinimumFriendship": 0,
+              "ItemId": "{{ModId}}_Titania_Bell",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_FaeFlowers, SEASON winter"
+            }
+          ],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200.0,
+          "DeluxeProduceLuckMultiplier": 0.0,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Texture": "Mods/{{ModId}}/Honeybee",
+          "UseFlippedRightForLeft": true,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": -16
+          },
+          "Skins": [
+            {
+              "Id": "{{ModId}}_Honeybee_Faerie",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Honeybee_Faerie"
+            },
+            {
+              "Id": "{{ModId}}_Honeybee_Sugar",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Honeybee_Sugar"
+            },
+            {
+              "Id": "{{ModId}}_Honeybee_Void",
+              "Weight": 0.5,
+              "Texture": "Mods/{{ModId}}/Honeybee_Void"
+            }
+          ],
+          "CanSwim": false,
+          "BabiesFollowAdults": true,
+          "GrassEatAmount": 3,
+          "HappinessDrain": 6,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": true,
+          "CustomFields": {}
+        }
+      }
+    }
+
+  ]
+}

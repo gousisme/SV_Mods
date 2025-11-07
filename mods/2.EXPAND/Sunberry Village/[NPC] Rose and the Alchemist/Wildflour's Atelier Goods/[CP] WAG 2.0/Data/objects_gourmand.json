@@ -1,0 +1,2776 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Essential Pantry Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Wildflour.AtelierGoods_Butter": {
+                    "Name": "Wildflour.AtelierGoods_Butter",
+                    "DisplayName": "{{i18n:AtelierGoods_Butter.name}}",
+                    "Description": "{{i18n:AtelierGoods_Butter.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                     "ingredient_item",
+                    "dairy_item",
+                    "butter_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 64
+            },
+                "Wildflour.AtelierGoods_Buttermilk": {
+                    "Name": "Wildflour.AtelierGoods_Buttermilk",
+                    "DisplayName": "{{i18n:AtelierGoods_Buttermilk.name}}",
+                    "Description": "{{i18n:AtelierGoods_Buttermilk.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -6,
+                    "Edibility": 5,
+                    "Price": 155,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                     "ingredient_item",
+                    "milk_item",
+                    "buttermilk_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 65
+            },
+                "Wildflour.AtelierGoods_Caramel": {
+                    "Name": "Wildflour.AtelierGoods_Caramel",
+                    "DisplayName": "{{i18n:AtelierGoods_Caramel.name}}",
+                    "Description": "{{i18n:AtelierGoods_Caramel.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 26,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "wildflour_confectioner_item",
+                    "candy_item",
+                    "food_sweet",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 607
+            },
+                "Wildflour.AtelierGoods_Cream": {
+                    "Name": "Wildflour.AtelierGoods_Cream",
+                    "DisplayName": "{{i18n:AtelierGoods_Cream.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cream.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 185,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "cream_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 66
+            },
+                "Wildflour.AtelierGoods_Cream_Cheese": {
+                    "Name": "Wildflour.AtelierGoods_Cream_Cheese",
+                    "DisplayName": "{{i18n:AtelierGoods_Cream_Cheese.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cream_Cheese.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "cream_cheese_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 67
+            },
+                "Wildflour.AtelierGoods_Coconut_Milk": {
+                    "Name": "Wildflour.AtelierGoods_Coconut_Milk",
+                    "DisplayName": "{{i18n:AtelierGoods_Coconut_Milk.name}}",
+                    "Description": "{{i18n:AtelierGoods_Coconut_Milk.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -6,
+                    "Edibility": 7,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "coconut_milk_item",
+                    "alternative_milk_item",
+                    "milk_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 68
+            },
+                "Wildflour.AtelierGoods_Rice_Milk": {
+                    "Name": "Wildflour.AtelierGoods_Rice_Milk",
+                    "DisplayName": "{{i18n:AtelierGoods_Rice_Milk.name}}",
+                    "Description": "{{i18n:AtelierGoods_Rice_Milk.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -6,
+                    "Edibility": 7,
+                    "Price": 30,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "milk_item",
+                    "alternative_milk_item",
+                    "rice_milk_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 69
+            },
+                "Wildflour.AtelierGoods_Bread_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Bread_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Bread_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Bread_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "flour_item",
+                    "bread_flour_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 70
+            },
+                "Wildflour.AtelierGoods_Cake_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Cake_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Cake_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cake_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "flour_item",
+                    "cake_flour_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 71
+            },
+                "Wildflour.AtelierGoods_Coconut_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Coconut_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Coconut_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Coconut_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "flour_item",
+                    "coconut_flour_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 72
+            },
+                "Wildflour.AtelierGoods_Corn_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Corn_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Corn_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Corn_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "flour_item",
+                    "corn_flour_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 73
+            },
+                "Wildflour.AtelierGoods_Pastry_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Pastry_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Pastry_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pastry_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "flour_item",
+                    "pastry_flour_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 74
+            },
+                "Wildflour.AtelierGoods_Rice_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Rice_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Rice_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Rice_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "flour_item",
+                    "rice_flour_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 75
+            },
+                "Wildflour.AtelierGoods_Brown_Sugar": {
+                    "Name": "Wildflour.AtelierGoods_Brown_Sugar",
+                    "DisplayName": "{{i18n:AtelierGoods_Brown_Sugar.name}}",
+                    "Description": "{{i18n:AtelierGoods_Brown_Sugar.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "sugar_item",
+                    "brown_sugar_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 76
+            },
+                "Wildflour.AtelierGoods_Confectioners_Sugar": {
+                    "Name": "Wildflour.AtelierGoods_Confectioners_Sugar",
+                    "DisplayName": "{{i18n:AtelierGoods_Confectioners_Sugar.name}}",
+                    "Description": "{{i18n:AtelierGoods_Confectioners_Sugar.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "sugar_item",
+                    "confectioners_sugar_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 77
+            },
+                "Wildflour.AtelierGoods_Matcha_Powder": {
+                    "Name": "Wildflour.AtelierGoods_Matcha_Powder",
+                    "DisplayName": "{{i18n:AtelierGoods_Matcha_Powder.name}}",
+                    "Description": "{{i18n:AtelierGoods_Matcha_Powder.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "matcha_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 78
+            },
+                "Wildflour.AtelierGoods_Pectin": {
+                    "Name": "Wildflour.AtelierGoods_Pectin",
+                    "DisplayName": "{{i18n:AtelierGoods_Pectin.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pectin.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 15,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "pectin_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 79
+            },
+                "Wildflour.AtelierGoods_Rainbow_Sprinkles": {
+                    "Name": "Wildflour.AtelierGoods_Rainbow_Sprinkles",
+                    "DisplayName": "{{i18n:AtelierGoods_Rainbow_Sprinkles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Rainbow_Sprinkles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 5,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                     "ingredient_item",
+                    "sprinkles_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 80
+            },
+                "Wildflour.AtelierGoods_Ancient_Fruit_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Ancient_Fruit_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Ancient_Fruit_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Ancient_Fruit_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 81
+            },
+                "Wildflour.AtelierGoods_Apple_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Apple_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Apple_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Apple_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 82
+            },
+                "Wildflour.AtelierGoods_Apricot_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Apricot_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Apricot_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Apricot_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 83
+            },
+                "Wildflour.AtelierGoods_Banana_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Banana_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Banana_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Banana_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 84
+            },
+                "Wildflour.AtelierGoods_Cherry_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Cherry_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Cherry_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cherry_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 85
+            },
+                "Wildflour.AtelierGoods_Grenadine_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Grenadine_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Grenadine_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Grenadine_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_pale_red_violet"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 86
+            },
+                "Wildflour.AtelierGoods_Mango_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Mango_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Mango_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Mango_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 87
+            },
+                "Wildflour.AtelierGoods_Orange_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Orange_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Orange_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Orange_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 88
+            },
+                "Wildflour.AtelierGoods_Peach_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Peach_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Peach_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Peach_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 89
+            },
+                "Wildflour.AtelierGoods_Pumpkin_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Pumpkin_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Pumpkin_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pumpkin_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 90
+            },
+                "Wildflour.AtelierGoods_Rose_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Rose_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Rose_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Rose_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 91
+            },
+                "Wildflour.AtelierGoods_Strawberry_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Strawberry_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Strawberry_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Strawberry_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 92
+            },
+                "Wildflour.AtelierGoods_Apple_Butter": {
+                    "Name": "Wildflour.AtelierGoods_Apple_Butter",
+                    "DisplayName": "{{i18n:AtelierGoods_Apple_Butter.name}}",
+                    "Description": "{{i18n:AtelierGoods_Apple_Butter.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 95
+            }, 
+                "Wildflour.AtelierGoods_Honey_Butter": {
+                    "Name": "Wildflour.AtelierGoods_Honey_Butter",
+                    "DisplayName": "{{i18n:AtelierGoods_Honey_Butter.name}}",
+                    "Description": "{{i18n:AtelierGoods_Honey_Butter.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 96
+            },
+                "Wildflour.AtelierGoods_Maple_Butter": {
+                    "Name": "Wildflour.AtelierGoods_Maple_Butter",
+                    "DisplayName": "{{i18n:AtelierGoods_Maple_Butter.name}}",
+                    "Description": "{{i18n:AtelierGoods_Maple_Butter.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 97
+            },
+                "Wildflour.AtelierGoods_Pumpkin_Butter": {
+                    "Name": "Wildflour.AtelierGoods_Pumpkin_Butter",
+                    "DisplayName": "{{i18n:AtelierGoods_Pumpkin_Butter.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pumpkin_Butter.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_dark_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 98
+            },
+                "Wildflour.AtelierGoods_Orange_Curd": {
+                    "Name": "Wildflour.AtelierGoods_Orange_Curd",
+                    "DisplayName": "{{i18n:AtelierGoods_Orange_Curd.name}}",
+                    "Description": "{{i18n:AtelierGoods_Orange_Curd.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 99
+            }
+        }
+        },
+
+        { 
+            "LogName": "Add Flavored Syrup Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+            "Entries":{
+                "Wildflour.AtelierGoods_Flavored_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Flavored_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Flavored_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Flavored_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "ColorOverlayFromNextIndex":true,    
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "artisan_item",
+                    "syrup_item"
+                    ],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 93
+            }
+        }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+            "Entries": {
+                "Wildflour.AtelierGoods_Flavored_Syrup": "{{i18n: AtelierGoods_Flavored_Syrup}}"
+            }
+        },
+
+        
+
+        {
+            "LogName":"Add Gourmet Pantry Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+            "Entries": {
+                "Wildflour.AtelierGoods_Almond_Milk": {
+                    "Name": "Wildflour.AtelierGoods_Almond_Milk",
+                    "DisplayName": "{{i18n:AtelierGoods_Almond_Milk.name}}",
+                    "Description": "{{i18n:AtelierGoods_Almond_Milk.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -6,
+                    "Edibility": 7,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "milk_item", 
+                    "alternative_milk_item",
+                    "almond_milk_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 100
+            },
+                "Wildflour.AtelierGoods_Almond_Flour": {
+                    "Name": "Wildflour.AtelierGoods_Almond_Flour",
+                    "DisplayName": "{{i18n:AtelierGoods_Almond_Flour.name}}",
+                    "Description": "{{i18n:AtelierGoods_Almond_Flour.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                     "ingredient_item",
+                    "flour_item",
+                    "almond_flour_item",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 101
+            },
+                "Wildflour.AtelierGoods_Olive_Oil": {
+                    "Name": "Wildflour.AtelierGoods_Olive_Oil",
+                    "DisplayName": "{{i18n:AtelierGoods_Olive_Oil.name}}",
+                    "Description": "{{i18n:AtelierGoods_Olive_Oil.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 0,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                     "ingredient_item",
+                    "olive_oil_item",
+                    "color_dark_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 103
+            },
+                "Wildflour.AtelierGoods_Dark_Chocolate": {
+                    "Name": "Wildflour.AtelierGoods_Dark_Chocolate",
+                    "DisplayName": "{{i18n:AtelierGoods_Dark_Chocolate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Dark_Chocolate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "chocolate_item",
+                    "dark_chocolate_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 104
+            },
+                "Wildflour.AtelierGoods_Milk_Chocolate": {
+                    "Name": "Wildflour.AtelierGoods_Milk_Chocolate",
+                    "DisplayName": "{{i18n:AtelierGoods_Milk_Chocolate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Milk_Chocolate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 200,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "milk_chocolate_item",
+                    "chocolate_item",
+                    "color_copper"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 105
+            },
+                "Wildflour.AtelierGoods_White_Chocolate": {
+                    "Name": "Wildflour.AtelierGoods_White_Chocolate",
+                    "DisplayName": "{{i18n:AtelierGoods_White_Chocolate.name}}",
+                    "Description": "{{i18n:AtelierGoods_White_Chocolate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 300,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "chocolate_item",
+                    "white_chocolate_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 106
+            },
+                "Wildflour.AtelierGoods_Cherry_Blossom_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Cherry_Blossom_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cherry_Blossom_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "wildflour_syrup_item",
+                    "syrup_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 107
+            },
+                "Wildflour.AtelierGoods_Chocolate_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Chocolate_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Chocolate_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Chocolate_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                     "ingredient_item",
+                     "wildflour_syrup_item",
+                    "syrup_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 108
+            },
+                "Wildflour.AtelierGoods_Elderberry_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Elderberry_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Elderberry_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Elderberry_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "wildflour_syrup_item",
+                    "syrup_item",
+                    "color_dark_blue"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 109
+            },
+                "Wildflour.AtelierGoods_Lavender_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Lavender_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Lavender_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lavender_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "wildflour_syrup_item",
+                    "syrup_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 109
+            },
+                "Wildflour.AtelierGoods_Lemon_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Lemon_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Lemon_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lemon_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                     "ingredient_item",
+                    "syrup_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 110
+            },
+                "Wildflour.AtelierGoods_Lime_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Lime_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Lime_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lime_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 111
+            },
+                "Wildflour.AtelierGoods_Raspberry_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Raspberry_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Raspberry_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Raspberry_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 112
+            },
+                "Wildflour.AtelierGoods_Vanilla_Syrup": {
+                    "Name": "Wildflour.AtelierGoods_Vanilla_Syrup",
+                    "DisplayName": "{{i18n:AtelierGoods_Vanilla_Syrup.name}}",
+                    "Description": "{{i18n:AtelierGoods_Vanilla_Syrup.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "wildflour_syrup_item",
+                    "ingredient_item",
+                    "syrup_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 113
+            },
+                "Wildflour.AtelierGoods_Lemon_Curd": {
+                    "Name": "Wildflour.AtelierGoods_Lemon_Curd",
+                    "DisplayName": "{{i18n:AtelierGoods_Lemon_Curd.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lemon_Curd.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 114
+            },
+                "Wildflour.AtelierGoods_Lime_Curd": {
+                    "Name": "Wildflour.AtelierGoods_Lime_Curd",
+                    "DisplayName": "{{i18n:AtelierGoods_Lime_Curd.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lime_Curd.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 15,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_pantry_item",
+                    "ingredient_item",
+                    "fruit_butter_item",
+                    "color_lime"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 115
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Specialty Jams Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:Jams":true},
+            "Entries": {
+                "Wildflour.AtelierGoods_Banana_Maple_Jam": {
+                    "Name": "Wildflour.AtelierGoods_Banana_Maple_Jam",
+                    "DisplayName": "{{i18n:AtelierGoods_Banana_Maple_Jam.name}}",
+                    "Description": "{{i18n:AtelierGoods_Banana_Maple_Jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 940,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 116
+            },
+                "Wildflour.AtelierGoods_Banana_Split_Jam": {
+                    "Name": "Wildflour.AtelierGoods_Banana_Split_Jam",
+                    "DisplayName": "{{i18n:AtelierGoods_Banana_Split_Jam.name}}",
+                    "Description": "{{i18n:AtelierGoods_Banana_Split_Jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 700,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 117
+            },
+                "Wildflour.AtelierGoods_Blue_Jazz_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Blue_Jazz_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Blue_Jazz_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Blue_Jazz_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 285,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_blue"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 118
+            },
+                "Wildflour.AtelierGoods_Cranberry_Chutney": {
+                    "Name": "Wildflour.AtelierGoods_Cranberry_Chutney",
+                    "DisplayName": "{{i18n:AtelierGoods_Cranberry_Chutney.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cranberry_Chutney.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 665,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 119
+            },
+                "Wildflour.AtelierGoods_Crocus_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Crocus_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Crocus_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Crocus_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 325,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_purple"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 120
+            },
+                "Wildflour.AtelierGoods_Dandelion_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Dandelion_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Dandelion_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Dandelion_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 250,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 121
+            },
+                "Wildflour.AtelierGoods_Honey_Apricot_Preserves": {
+                    "Name": "Wildflour.AtelierGoods_Honey_Apricot_Preserves",
+                    "DisplayName": "{{i18n:AtelierGoods_Honey_Apricot_Preserves.name}}",
+                    "Description": "{{i18n:AtelierGoods_Honey_Apricot_Preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 350,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 122
+            },
+                "Wildflour.AtelierGoods_Honey_Peach_Preserves": {
+                    "Name": "Wildflour.AtelierGoods_Honey_Peach_Preserves",
+                    "DisplayName": "{{i18n:AtelierGoods_Honey_Peach_Preserves.name}}",
+                    "Description": "{{i18n:AtelierGoods_Honey_Peach_Preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1000,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 123
+            },
+                "Wildflour.AtelierGoods_Mango_Chutney": {
+                    "Name": "Wildflour.AtelierGoods_Mango_Chutney",
+                    "DisplayName": "{{i18n:AtelierGoods_Mango_Chutney.name}}",
+                    "Description": "{{i18n:AtelierGoods_Mango_Chutney.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 830,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 124
+            },
+                "Wildflour.AtelierGoods_Mixed_Berry_Preserves": {
+                    "Name": "Wildflour.AtelierGoods_Mixed_Berry_Preserves",
+                    "DisplayName": "{{i18n:AtelierGoods_Mixed_Berry_Preserves.name}}",
+                    "Description": "{{i18n:AtelierGoods_Mixed_Berry_Preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 800,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 125
+            },
+                "Wildflour.AtelierGoods_Rose_Petal_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Rose_Petal_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Rose_Petal_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Rose_Petal_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 550,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 126
+            },
+                "Wildflour.AtelierGoods_Flower_Dance_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Flower_Dance_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Flower_Dance_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Flower_Dance_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 800,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_purple"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 127
+            },
+                "Wildflour.AtelierGoods_Luau_Jam": {
+                    "Name": "Wildflour.AtelierGoods_Luau_Jam",
+                    "DisplayName": "{{i18n:AtelierGoods_Luau_Jam.name}}",
+                    "Description": "{{i18n:AtelierGoods_Luau_Jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 3600,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_lime"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 128
+            },
+                "Wildflour.AtelierGoods_Spirits_Eve_Jam": {
+                    "Name": "Wildflour.AtelierGoods_Spirits_Eve_Jam",
+                    "DisplayName": "{{i18n:AtelierGoods_Spirits_Eve_Jam.name}}",
+                    "Description": "{{i18n:AtelierGoods_Spirits_Eve_Jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 2300,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 129
+            },
+                "Wildflour.AtelierGoods_Winter_Star_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Winter_Star_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Winter_Star_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Winter_Star_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1700,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_cyan"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 130
+            },
+                "Wildflour.AtelierGoods_Orange_Marmalade": {
+                    "Name": "Wildflour.AtelierGoods_Orange_Marmalade",
+                    "DisplayName": "{{i18n:AtelierGoods_Orange_Marmalade.name}}",
+                    "Description": "{{i18n:AtelierGoods_Orange_Marmalade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1015,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "marmalade_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 131
+            },
+                "Wildflour.AtelierGoods_Wild_Strawberry_Rhubarb_Jam": {
+                    "Name": "Wildflour.AtelierGoods_Wild_Strawberry_Rhubarb_Jam",
+                    "DisplayName": "{{i18n:AtelierGoods_Wild_Strawberry_Rhubarb_Jam.name}}",
+                    "Description": "{{i18n:AtelierGoods_Wild_Strawberry_Rhubarb_Jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1370,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 143
+            },
+                "Wildflour.AtelierGoods_Spangle_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Spangle_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Spangle_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Spangle_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 435,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 132
+            },
+                "Wildflour.AtelierGoods_Tulip_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Tulip_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Tulip_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Tulip_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 210,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 133
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Specialty Jams Objects Modded Ingredients",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:Jams":true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+            "Entries": { 
+                "Wildflour.AtelierGoods_Blackberry_Mint_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Blackberry_Mint_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Blackberry_Mint_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Blackberry_Mint_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1050,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 134
+            },
+                "Wildflour.AtelierGoods_Blueberry_Lavender_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Blueberry_Lavender_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Blueberry_Lavender_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Blueberry_Lavender_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 390,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 135
+            },
+                "Wildflour.AtelierGoods_Chamomile_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Chamomile_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Chamomile_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Chamomile_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 240,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 136
+            },
+                "Wildflour.AtelierGoods_Cherry_Vanilla_Jam": {
+                    "Name": "Wildflour.AtelierGoods_Cherry_Vanilla_Jam",
+                    "DisplayName": "{{i18n:AtelierGoods_Cherry_Vanilla_Jam.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cherry_Vanilla_Jam.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1000,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 137
+            },
+                "Wildflour.AtelierGoods_Cinnamon_Apple_Preserves": {
+                    "Name": "Wildflour.AtelierGoods_Cinnamon_Apple_Preserves",
+                    "DisplayName": "{{i18n:AtelierGoods_Cinnamon_Apple_Preserves.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cinnamon_Apple_Preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 895,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 138
+            },
+                "Wildflour.AtelierGoods_Peach_Blossom_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Peach_Blossom_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Peach_Blossom_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Peach_Blossom_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 1125,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 140
+            },
+                "Wildflour.AtelierGoods_Lemon_Marmalade": {
+                    "Name": "Wildflour.AtelierGoods_Lemon_Marmalade",
+                    "DisplayName": "{{i18n:AtelierGoods_Lemon_Marmalade.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lemon_Marmalade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 550,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "marmalade_item",
+                    "food_sweet",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 141
+            },
+                "Wildflour.AtelierGoods_Lime_Marmalade": {
+                    "Name": "Wildflour.AtelierGoods_Lime_Marmalade",
+                    "DisplayName": "{{i18n:AtelierGoods_Lime_Marmalade.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lime_Marmalade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 565,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "marmalade_item",
+                    "food_sweet",
+                    "color_lime"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 142
+            },
+                "Wildflour.AtelierGoods_Jasmine_Jelly": {
+                    "Name": "Wildflour.AtelierGoods_Jasmine_Jelly",
+                    "DisplayName": "{{i18n:AtelierGoods_Jasmine_Jelly.name}}",
+                    "Description": "{{i18n:AtelierGoods_Jasmine_Jelly.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 400,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_sand"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 144
+            },
+                "Wildflour.AtelierGoods_Vanilla_Wild_Raspberry_Preserves": {
+                    "Name": "Wildflour.AtelierGoods_Vanilla_Wild_Raspberry_Preserves",
+                    "DisplayName": "{{i18n:AtelierGoods_Vanilla_Wild_Raspberry_Preserves.name}}",
+                    "Description": "{{i18n:AtelierGoods_Vanilla_Wild_Raspberry_Preserves.description}}",
+                    "Type": "Cooking",          
+                    "Category": -7,
+                    "Edibility": 20,
+                    "Price": 900,
+
+                    "ContextTags":
+                    ["wildflour_jam_item",
+                    "jelly_item",
+                    "food_sweet",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 145
+            }
+
+        }
+        },
+
+        {
+            "LogName":"Add Pickles Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:Pickles":true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+            "Entries": {
+                "Wildflour.AtelierGoods_Bruschetta": {
+                    "Name": "Wildflour.AtelierGoods_Bruschetta",
+                    "DisplayName": "{{i18n:AtelierGoods_Bruschetta.name}}",
+                    "Description": "{{i18n:AtelierGoods_Bruschetta.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 390,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 146
+            },
+                "Wildflour.AtelierGoods_Onion_Chutney": {
+                    "Name": "Wildflour.AtelierGoods_Onion_Chutney",
+                    "DisplayName": "{{i18n:AtelierGoods_Onion_Chutney.name}}",
+                    "Description": "{{i18n:AtelierGoods_Onion_Chutney.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1000,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 147
+            },
+                "Wildflour.AtelierGoods_Pineapple_Salsa": {
+                    "Name": "Wildflour.AtelierGoods_Pineapple_Salsa",
+                    "DisplayName": "{{i18n:AtelierGoods_Pineapple_Salsa.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pineapple_Salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1090,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 148
+            },
+                "Wildflour.AtelierGoods_Giardiniera": {
+                    "Name": "Wildflour.AtelierGoods_Giardiniera",
+                    "DisplayName": "{{i18n:AtelierGoods_Giardiniera.name}}",
+                    "Description": "{{i18n:AtelierGoods_Giardiniera.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1120,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 149
+            },
+                "Wildflour.AtelierGoods_Horseradish_Chips": {
+                    "Name": "Wildflour.AtelierGoods_Horseradish_Chips",
+                    "DisplayName": "{{i18n:AtelierGoods_Horseradish_Chips.name}}",
+                    "Description": "{{i18n:AtelierGoods_Horseradish_Chips.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 525,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 150
+            },
+                "Wildflour.AtelierGoods_Kale_Pesto": {
+                    "Name": "Wildflour.AtelierGoods_Kale_Pesto",
+                    "DisplayName": "{{i18n:AtelierGoods_Kale_Pesto.name}}",
+                    "Description": "{{i18n:AtelierGoods_Kale_Pesto.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 945,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 151
+            },
+                "Wildflour.AtelierGoods_Marinated_Mushrooms": {
+                    "Name": "Wildflour.AtelierGoods_Marinated_Mushrooms",
+                    "DisplayName": "{{i18n:AtelierGoods_Marinated_Mushrooms.name}}",
+                    "Description": "{{i18n:AtelierGoods_Marinated_Mushrooms.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1200,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 152
+            },
+                "Wildflour.AtelierGoods_Tomato_Salsa": {
+                    "Name": "Wildflour.AtelierGoods_Tomato_Salsa",
+                    "DisplayName": "{{i18n:AtelierGoods_Tomato_Salsa.name}}",
+                    "Description": "{{i18n:AtelierGoods_Tomato_Salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 495,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 153
+            },
+                "Wildflour.AtelierGoods_Olive_Tapenade": {
+                    "Name": "Wildflour.AtelierGoods_Olive_Tapenade",
+                    "DisplayName": "{{i18n:AtelierGoods_Olive_Tapenade.name}}",
+                    "Description": "{{i18n:AtelierGoods_Olive_Tapenade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1100,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 154
+            },
+                "Wildflour.AtelierGoods_Peach_Salsa": {
+                    "Name": "Wildflour.AtelierGoods_Peach_Salsa",
+                    "DisplayName": "{{i18n:AtelierGoods_Peach_Salsa.name}}",
+                    "Description": "{{i18n:AtelierGoods_Peach_Salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 910,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 155
+            },
+                "Wildflour.AtelierGoods_Pepper_Relish": {
+                    "Name": "Wildflour.AtelierGoods_Pepper_Relish",
+                    "DisplayName": "{{i18n:AtelierGoods_Pepper_Relish.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pepper_Relish.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 870,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 156
+            },
+                "Wildflour.AtelierGoods_Artichoke_Hearts": {
+                    "Name": "Wildflour.AtelierGoods_Artichoke_Hearts",
+                    "DisplayName": "{{i18n:AtelierGoods_Artichoke_Hearts.name}}",
+                    "Description": "{{i18n:AtelierGoods_Artichoke_Hearts.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1070,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 157
+            },
+                "Wildflour.AtelierGoods_Pickled_Fish": {
+                    "Name": "Wildflour.AtelierGoods_Pickled_Fish",
+                    "DisplayName": "{{i18n:AtelierGoods_Pickled_Fish.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pickled_Fish.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 750,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gray"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 158
+            },
+                "Wildflour.AtelierGoods_Pickled_Olives": {
+                    "Name": "Wildflour.AtelierGoods_Pickled_Olives",
+                    "DisplayName": "{{i18n:AtelierGoods_Pickled_Olives.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pickled_Olives.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 600,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 159
+            },
+                "Wildflour.AtelierGoods_Pickled_Onions": {
+                    "Name": "Wildflour.AtelierGoods_Pickled_Onions",
+                    "DisplayName": "{{i18n:AtelierGoods_Pickled_Onions.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pickled_Onions.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 675,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 160
+            },
+                "Wildflour.AtelierGoods_Pickled_Carrots": {
+                    "Name": "Wildflour.AtelierGoods_Pickled_Carrots",
+                    "DisplayName": "{{i18n:AtelierGoods_Pickled_Carrots.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pickled_Carrots.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 855,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 161
+            },
+                "Wildflour.AtelierGoods_Roasted_Peppers": {
+                    "Name": "Wildflour.AtelierGoods_Roasted_Peppers",
+                    "DisplayName": "{{i18n:AtelierGoods_Roasted_Peppers.name}}",
+                    "Description": "{{i18n:AtelierGoods_Roasted_Peppers.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 720,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 162
+            },
+                "Wildflour.AtelierGoods_Sauerkraut": {
+                    "Name": "Wildflour.AtelierGoods_Sauerkraut",
+                    "DisplayName": "{{i18n:AtelierGoods_Sauerkraut.name}}",
+                    "Description": "{{i18n:AtelierGoods_Sauerkraut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1150,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 163
+            },
+                "Wildflour.AtelierGoods_Mango_Salsa": {
+                    "Name": "Wildflour.AtelierGoods_Mango_Salsa",
+                    "DisplayName": "{{i18n:AtelierGoods_Mango_Salsa.name}}",
+                    "Description": "{{i18n:AtelierGoods_Mango_Salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 690,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 164
+            },
+                "Wildflour.AtelierGoods_Spicy_Tomato_Salsa": {
+                    "Name": "Wildflour.AtelierGoods_Spicy_Tomato_Salsa",
+                    "DisplayName": "{{i18n:AtelierGoods_Spicy_Tomato_Salsa.name}}",
+                    "Description": "{{i18n:AtelierGoods_Spicy_Tomato_Salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 614,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 165
+            },
+                "Wildflour.AtelierGoods_Sundried_Tomatoes": {
+                    "Name": "Wildflour.AtelierGoods_Sundried_Tomatoes",
+                    "DisplayName": "{{i18n:AtelierGoods_Sundried_Tomatoes.name}}",
+                    "Description": "{{i18n:AtelierGoods_Sundried_Tomatoes.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1245,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 166
+            },
+                "Wildflour.AtelierGoods_Basil_Pesto": {
+                    "Name": "Wildflour.AtelierGoods_Basil_Pesto",
+                    "DisplayName": "{{i18n:AtelierGoods_Basil_Pesto.name}}",
+                    "Description": "{{i18n:AtelierGoods_Basil_Pesto.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1005,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 167
+            },
+                "Wildflour.AtelierGoods_Tomato_Corn_Salsa": {
+                    "Name": "Wildflour.AtelierGoods_Tomato_Corn_Salsa",
+                    "DisplayName": "{{i18n:AtelierGoods_Tomato_Corn_Salsa.name}}",
+                    "Description": "{{i18n:AtelierGoods_Tomato_Corn_Salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 645,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 168
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Packaged Goods Advanced Version",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {"Atelier.Cauldron/ConfigValue:CSA": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+            "Entries": {
+                "Wildflour.AtelierGoods_Fruit_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Fruit_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Fruit_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Fruit_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 672
+            },
+                "Wildflour.AtelierGoods_Veggie_Box": {
+                    "Name": "Wildflour.AtelierGoods_Veggie_Box",
+                    "DisplayName": "{{i18n:AtelierGoods_Veggie_Box.name}}",
+                    "Description": "{{i18n:AtelierGoods_Veggie_Box.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 670
+            },
+                "Wildflour.AtelierGoods_Forage_Box": {
+                    "Name": "Wildflour.AtelierGoods_Forage_Box",
+                    "DisplayName": "{{i18n:AtelierGoods_Forage_Box.name}}",
+                    "Description": "{{i18n:AtelierGoods_Forage_Box.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 675
+            },
+                "Wildflour.AtelierGoods_Common_Mushroom_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Common_Mushroom_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Common_Mushroom_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Common_Mushroom_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 676
+            },
+                "Wildflour.AtelierGoods_Gourmet_Mushroom_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Gourmet_Mushroom_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Gourmet_Mushroom_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Gourmet_Mushroom_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 677
+            },
+                "Wildflour.AtelierGoods_Flavored_Mushroom_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Flavored_Mushroom_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Flavored_Mushroom_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Flavored_Mushroom_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 678
+            },
+                "Wildflour.AtelierGoods_Milk_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Milk_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Milk_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Milk_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 680
+            },
+                "Wildflour.AtelierGoods_White_Egg_Crate": {
+                    "Name": "Wildflour.AtelierGoods_White_Egg_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_White_Egg_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_White_Egg_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 681
+            },
+                "Wildflour.AtelierGoods_Brown_Egg_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Brown_Egg_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Brown_Egg_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Brown_Egg_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 682
+            },
+                "Wildflour.AtelierGoods_Void_Egg_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Void_Egg_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Void_Egg_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Void_Egg_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 684
+            },
+                "Wildflour.AtelierGoods_Duck_Egg_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Duck_Egg_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Duck_Egg_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Duck_Egg_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 683
+            },
+                "Wildflour.AtelierGoods_Tulip_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Tulip_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Tulip_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Tulip_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 686
+            },
+                "Wildflour.AtelierGoods_Jazz_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Jazz_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Jazz_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Jazz_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 685
+            },
+                "Wildflour.AtelierGoods_Poppy_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Poppy_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Poppy_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Poppy_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 687
+            },
+                "Wildflour.AtelierGoods_Spangle_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Spangle_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Spangle_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Spangle_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 688
+            },
+                "Wildflour.AtelierGoods_Sunflower_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Sunflower_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Sunflower_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Sunflower_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 689
+            },
+                "Wildflour.AtelierGoods_Fairy_Rose_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Fairy_Rose_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Fairy_Rose_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Fairy_Rose_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 690
+            },
+                "Wildflour.AtelierGoods_Generic_Flower_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Generic_Flower_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Generic_Flower_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 691
+            },
+                "Wildflour.AtelierGoods_Ocean_Fish_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Ocean_Fish_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Ocean_Fish_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Ocean_Fish_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 694
+            },
+                "Wildflour.AtelierGoods_Lake_Fish_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Lake_Fish_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Lake_Fish_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Lake_Fish_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 695
+            },
+                "Wildflour.AtelierGoods_River_Fish_Basket": {
+                    "Name": "Wildflour.AtelierGoods_River_Fish_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_River_Fish_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_River_Fish_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 693
+            },
+                "Wildflour.AtelierGoods_Generic_Fish_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Generic_Fish_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Generic_Fish_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 701
+            },
+                "Wildflour.AtelierGoods_Crab_Pot_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Crab_Pot_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Crab_Pot_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Crab_Pot_Basket.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 700
+            },
+                "Wildflour.AtelierGoods_Roe_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Roe_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Roe_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Roe_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 696
+            },
+                "Wildflour.AtelierGoods_Aged_Roe_Jars": {
+                    "Name": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                    "DisplayName": "{{i18n:AtelierGoods_Aged_Roe_Jars.name}}",
+                    "Description": "{{i18n:AtelierGoods_Aged_Roe_Jars.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 698
+            },
+                "Wildflour.AtelierGoods_Honey_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Honey_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Honey_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Honey_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 703
+            },
+                "Wildflour.AtelierGoods_Jelly_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Jelly_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Jelly_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Jelly_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 706
+            },
+                "Wildflour.AtelierGoods_Pickle_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Pickle_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Pickle_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pickle_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 704
+            },
+                "Wildflour.AtelierGoods_Juice_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Juice_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Juice_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Juice_Crate.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 708
+            },
+                "Wildflour.AtelierGoods_Wine_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Wine_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Wine_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Wine_Crate.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 710
+            }
+        }
+        },
+
+        {
+            "LogName":"Add Packaged Goods Simple Version",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {"Atelier.Cauldron/ConfigValue:CSA": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Simple"},
+            "Entries": {
+                "Wildflour.AtelierGoods_Fruit_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Fruit_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Fruit_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Fruit_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 672
+            },
+                "Wildflour.AtelierGoods_Veggie_Box": {
+                    "Name": "Wildflour.AtelierGoods_Veggie_Box",
+                    "DisplayName": "{{i18n:AtelierGoods_Veggie_Box.name}}",
+                    "Description": "{{i18n:AtelierGoods_Veggie_Box.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 670
+            },
+                "Wildflour.AtelierGoods_Forage_Box": {
+                    "Name": "Wildflour.AtelierGoods_Forage_Box",
+                    "DisplayName": "{{i18n:AtelierGoods_Forage_Box.name}}",
+                    "Description": "{{i18n:AtelierGoods_Forage_Box.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 675
+            },
+                "Wildflour.AtelierGoods_Milk_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Milk_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Milk_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Milk_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 680
+            },
+                "Wildflour.AtelierGoods_White_Egg_Crate": {
+                    "Name": "Wildflour.AtelierGoods_White_Egg_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_White_Egg_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_White_Egg_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 681
+            },
+                "Wildflour.AtelierGoods_Generic_Flower_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Generic_Flower_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Generic_Flower_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Generic_Flower_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 691
+            },
+                "Wildflour.AtelierGoods_Generic_Fish_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Generic_Fish_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Generic_Fish_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Generic_Fish_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 701
+            },
+                "Wildflour.AtelierGoods_Roe_Basket": {
+                    "Name": "Wildflour.AtelierGoods_Roe_Basket",
+                    "DisplayName": "{{i18n:AtelierGoods_Roe_Basket.name}}",
+                    "Description": "{{i18n:AtelierGoods_Roe_Basket.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 696
+            },
+                "Wildflour.AtelierGoods_Aged_Roe_Jars": {
+                    "Name": "Wildflour.AtelierGoods_Aged_Roe_Jars",
+                    "DisplayName": "{{i18n:AtelierGoods_Aged_Roe_Jars.name}}",
+                    "Description": "{{i18n:AtelierGoods_Aged_Roe_Jars.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 698
+            },
+                "Wildflour.AtelierGoods_Honey_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Honey_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Honey_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Honey_Crate.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 703
+            },
+                "Wildflour.AtelierGoods_Jelly_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Jelly_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Jelly_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Jelly_Crate.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 706
+            },
+                "Wildflour.AtelierGoods_Pickle_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Pickle_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Pickle_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Pickle_Crate.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 704
+            },
+                "Wildflour.AtelierGoods_Juice_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Juice_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Juice_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Juice_Crate.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 708
+            },
+                "Wildflour.AtelierGoods_Wine_Crate": {
+                    "Name": "Wildflour.AtelierGoods_Wine_Crate",
+                    "DisplayName": "{{i18n:AtelierGoods_Wine_Crate.name}}",
+                    "Description": "{{i18n:AtelierGoods_Wine_Crate.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    [
+
+                    "color_gold"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 710
+            }
+        }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "When": {"Atelier.Cauldron/ConfigValue:CSA": true},
+            "Entries": {
+                "Wildflour.AtelierGoods_Generic_Flower_Basket": "{{i18n: AtelierGoods_Generic_Flower_Basket}}",
+                "Wildflour.AtelierGoods_Generic_Fish_Basket": "{{i18n: AtelierGoods_Generic_Fish_Basket}}",
+                "Wildflour.AtelierGoods_Flavored_Mushroom_Basket": "{{i18n: AtelierGoods_Flavored_Mushroom_Basket}}",
+                "Wildflour.AtelierGoods_Fruit_Basket": "{{i18n: AtelierGoods_Fruit_Basket}}",
+                "Wildflour.AtelierGoods_Veggie_Box": "{{i18n: AtelierGoods_Veggie_Box}}",
+                "Wildflour.AtelierGoods_Forage_Box": "{{i18n: AtelierGoods_Forage_Box}}",
+                "Wildflour.AtelierGoods_Wine_Crate": "{{i18n: AtelierGoods_Wine_Crate}}",
+                "Wildflour.AtelierGoods_Juice_Crate": "{{i18n: AtelierGoods_Juice_Crate}}",
+                "Wildflour.AtelierGoods_Pickle_Crate": "{{i18n: AtelierGoods_Pickle_Crate}}",
+                "Wildflour.AtelierGoods_Jelly_Crate": "{{i18n: AtelierGoods_Jelly_Crate}}",
+                "Wildflour.AtelierGoods_Roe_Basket": "{{i18n: AtelierGoods_Roe_Basket}}",
+                "Wildflour.AtelierGoods_Aged_Roe_Jars": "{{i18n: AtelierGoods_Aged_Roe_Jars}}",
+            }
+        },
+
+    ]
+}

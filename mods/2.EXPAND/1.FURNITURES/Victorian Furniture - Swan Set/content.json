@@ -1,0 +1,157 @@
+{
+	"Format": "2.0.0",
+   "ConfigSchema":
+{
+        "SwanWindows": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Enables window furniture."
+        }
+},
+	"Changes": [
+        {
+			"LogName": "VF - Swan Set Texture Load",
+			"Action": "Load",
+			"Target": "Mods/VF.SwanFurniture/VFBedroomSwan, Mods/VF.SwanFurniture/VFBedroomSwanFront",
+            "FromFile": "assets/{{TargetWithoutPath}}.png" },         
+         
+		{
+			"LogName": "VF - Swan Set Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+            //BEDROOM FURNITURE
+				"VF.SwanCarvedBed": "SwanCarvedBed/bed double/3 4/3 3/1/6000/-1/{{i18n:SwanCarvedBed}}/0/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanCarvedBed2": "SwanCarvedBed2/bed double/3 6/3 3/1/6000/-1/{{i18n:SwanCarvedBed}}/64/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanBed": "SwanBed/bed/2 4/2 3/1/400/-1/{{i18n:SwanBed}}/375/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanVanity": "SwanVanity/table/3 3/3 1/1/400/-1/{{i18n:SwanVanity}}/6/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanVanity2": "SwanVanity2/table/3 3/3 1/1/400/-1/{{i18n:SwanVanity}}/106/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanVanity3": "SwanVanity3/table/3 3/3 1/1/400/-1/{{i18n:SwanVanity}}/109/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleTable": "SwanConsoleTable/table/3 3/3 1/1/400/-1/{{i18n:SwanConsoleTable}}/9/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleTable2": "SwanConsoleTable2/table/3 2/3 1/1/400/-1/{{i18n:SwanConsoleTable}}/282/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleTable3": "SwanConsoleTable/table/3 2/3 1/1/400/-1/{{i18n:SwanConsoleTable}}/285/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleCabinet": "SwanConsoleCabinet/table/2 2/2 1/3/400/-1/{{i18n:SwanConsoleCabinet}}/186/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleCabinet2": "SwanConsoleCabinet2/table/2 2/2 1/3/400/-1/{{i18n:SwanConsoleCabinet}}/189/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleCabinet3": "SwanConsoleCabinet3/table/2 2/2 1/3/400/-1/{{i18n:SwanConsoleCabinet}}/234/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanConsoleCabinet4": "SwanConsoleCabinet4/table/2 2/2 1/3/400/-1/{{i18n:SwanConsoleCabinet}}/237/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.LaceCurtains": "LaceCurtains/painting/3 3/3 3/1/800/-1/{{i18n: LaceCurtains}}/160/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.WhiteCurtains": "WhiteCurtains/painting/2 3/2 3/1/800/-1/{{i18n: WhiteCurtains}}/12/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.LaceCurtains3": "LaceCurtains3/painting/2 3/2 3/1/800/-1/{{i18n: LaceCurtains}}/14/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.PearlCurtain": "PearlCurtain/painting/2 3/2 3/1/800/-1/{{i18n: PearlCurtain}}/163/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanSideTable": "SwanSideTable/table/1 2/1 1/3/400/-1/{{i18n:SwanSideTable}}/134/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanSideTable3": "SwanSideTable3/table/1 2/1 1/3/400/-1/{{i18n:SwanSideTable}}/136/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanSideTable4": "SwanSideTable4/table/1 2/1 1/3/400/-1/{{i18n:SwanSideTable}}/154/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanSideTable5": "SwanSideTable5/table/1 2/1 1/3/400/-1/{{i18n:SwanSideTable}}/156/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanSideTable2": "SwanSideTable2/other/2 3/2 1/1/400/-1/{{i18n:SwanSideTable}}/58/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+			"VF.SwanLamp": "SwanLamp/lamp/1 3/1 1/1/1500/-1/{{i18n:SwanLamp}}/60/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+			"VF.SwanTableLamp": "SwanTableLamp/lamp/1 3/1 1/1/1500/-1/{{i18n:SwanLamp}}/62/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.LaceStool": "LaceStool/chair/1 2/1 1/4/800/-1/{{i18n: LaceStool}}/54/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.FeatherPillar": "FeatherPillar/other/2 3/2 1/1/400/-1/{{i18n:FeatherPillar}}/165/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.FeatherPillars": "FeatherPillars/other/3 3/3 1/1/400/-1/{{i18n:FeatherPillars}}/167/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+			"VF.PrincessRug": "PrincessRug/rug/5 5/5 5/1/10000/-1/{{i18n:PrincessRug}}/208/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",	
+			"VF.PrincessRug2": "PrincessRug2/rug/5 5/5 5/1/10000/-1/{{i18n:PrincessRug}}/213/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",		
+				"VF.SwanFireplace": "SwanFireplace/fireplace/3 4/3 1/1/400/-1/{{i18n:SwanFireplace}}/288/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanMannequin": "SwanMannequin/other/2 3/2 1/1/400/-1/{{i18n:SwanMannequin}}/86/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanMannequin2": "SwanMannequin2/other/1 3/1 1/1/400/-1/{{i18n:SwanMannequin}}/88/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanTrinketR": "SwanTrinketR/other/1 1/1 1/1/400/-1/{{i18n:SwanTrinket}}/294/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.GoldenCandelabra": "GoldenCandelabra/other/1 1/1 1/1/400/-1/{{i18n:GoldenCandelabra}}/89/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.ObsidianVase": "ObsidianVase/other/1 2/1 1/1/400/-1/{{i18n:ObsidianVase}}/291/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.GoldenSwan": "GoldenSwan/painting/1 2/1 2/1/400/-1/{{i18n:GoldenSwan}}/292/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.WinterMist": "WinterMist/painting/2 2/2 2/1/400/-1/{{i18n:WinterMist}}/323/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.AloneInTheDream": "AloneInTheDream/painting/3 3/3 3/1/400/-1/{{i18n:AloneInTheDream}}/325/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.BravingThePond": "BravingThePond/painting/2 2/2 2/1/400/-1/{{i18n:BravingThePond}}/328/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanTrinketL": "SwanTrinketL/other/1 1/1 1/1/400/-1/{{i18n:SwanTrinket}}/293/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanTrinketR": "SwanTrinketR/other/1 1/1 1/1/400/-1/{{i18n:SwanTrinket}}/294/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.BrassTrinket": "BrassTrinket/other/1 1/1 1/1/400/-1/{{i18n:BrassTrinket}}/295/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.PearlBowl": "PearlBowl/other/1 1/1 1/1/400/-1/{{i18n:PearlBowl}}/296/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe": "SwanWardrobe/dresser/2 3/2 1/1/400/-1/{{i18n:SwanWardrobe}}/368/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe2": "SwanWardrobe2/dresser/3 4/3 1/1/400/-1/{{i18n:SwanWardrobe}}/370/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe3": "SwanWardrobe3/dresser/2 3/2 1/1/400/-1/{{i18n:SwanWardrobe}}/432/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe4": "SwanWardrobe4/dresser/3 4/3 1/1/400/-1/{{i18n:SwanWardrobe}}/434/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe5": "SwanWardrobe5/dresser/1 4/1 3/1/400/-1/{{i18n:SwanWardrobe}}/373/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe6": "SwanWardrobe6/dresser/1 4/1 3/1/400/-1/{{i18n:SwanWardrobe}}/374/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe7": "SwanWardrobe7/dresser/1 4/1 3/1/400/-1/{{i18n:SwanWardrobe}}/453/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanWardrobe8": "SwanWardrobe8/dresser/1 4/1 3/1/400/-1/{{i18n:SwanWardrobe}}/454/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanArmchair": "SwanArmchair/armchair/2 2/2 1/4/800/-1/{{i18n: SwanArmchair}}/314/Mods\\VF.SwanFurniture\\VFBedroomSwan/false/collection_Swan",
+				"VF.SwanCatalogueStand": "SwanCatalogueStand/other/2 3/2 1/1/400/-1/{{i18n:SwanCatalogueStand}}/379/Mods\\VF.SwanFurniture\\VFBedroomSwan/true",
+
+				
+				/*"name/type/tilesheet size/collition/rotations/price/placement restriction/display name/texture index per tile, left to right like spring object/texture/offlimit for random sale/contex tag",*/
+			}
+		},
+		{
+			"LogName": "VF Swan Furniture Catalogue Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "VF.SwanShop": {
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Items": [
+                        {
+                            "Price": 0,
+                            "AvailableStockLimit": "Global",
+                            "AvoidRepeat": false,
+                            "UseObjectDataPrice": false,
+                            "IgnoreShopPriceModifiers": false,
+                            "PriceModifiers": null,
+                            "PriceModifierMode": "Stack",
+                            "AvailableStockModifiers": null,
+                            "AvailableStockModifierMode": "Stack",
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "ALL_ITEMS (F)",
+                            "MinStack": -1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_Swan"
+                        }
+                    ],
+                    "CustomFields": {
+                        "HappyHomeDesigner/Catalogue": "true"
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "Add Catalogue Tile Actions",
+            "Action": "EditData",
+            "Target": "sophie.Calcifer/FurnitureActions",
+            "Entries": {
+                "(F)VF.SwanCatalogueStand": {
+                    "TileActions": [
+                        {
+                            "TileAction": "OpenShop VF.SwanShop"
+                        }
+					]
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Carpenter",
+                "Items"
+            ],
+            "Entries": {
+                "SwanCatalogueStand": {
+                    "Id": "VF.SwanCatalogueStand",
+                    "ItemId": "(F)VF.SwanCatalogueStand",
+                    "UseObjectDataPrice": true
+                }
+            }
+        },
+{
+      "LogName": "VF - Swan Windows Include",
+      "Action": "Include",
+      "FromFile": "assets/Data/Windows.json",
+      "When": {"SwanWindows": true},
+}, 
+            
+        
+        
+        
+           
+	]
+}

@@ -1,0 +1,520 @@
+{
+    "Changes": [
+
+////////////
+// FROZEN //
+////////////
+
+    {
+        "LogName":"Add Ice Cream Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:IceCream": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_IceCream": {
+              "Name": "Wildflour.AtelierGoods_Flavored_IceCream",
+              "DisplayName": "{{i18n:AtelierGoods_Flavored_IceCream.name}}",
+              "Description": "{{i18n:AtelierGoods_Flavored_IceCream.description}}",
+              "ColorOverlayFromNextIndex":true,
+              "Type": "ArtisanGoods",          
+              "Category": -26,
+              "Edibility": 20,
+              "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                  "FarmingLevel": 0,
+                  "FishingLevel": 0,
+                  "MiningLevel": 0,
+                  "LuckLevel": 1,
+                  "ForagingLevel": 0,
+                  "MaxStamina": 0,
+                  "MagneticRadius": 0,
+                  "Speed": 0,
+                  "Defense": 0,
+                  "Attack": 0
+                },
+                "CustomFields": {}
+              },
+              "Price": 100,
+              "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+              
+              "ContextTags":
+              ["wildflour_frozen_item",
+              "wildflour_confectioner_item",
+              "ice_cream_item",
+              "food_sweet",
+              "color_white"],
+
+              "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+              "SpriteIndex": 515
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:IceCream": true},
+        "Entries": {
+          "Wildflour.AtelierGoods_Flavored_IceCream": "{{i18n: AtelierGoods_Flavored_IceCream}}"
+        }
+    },
+
+    {
+        "LogName":"Add Popsicle Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Popsicles": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Popsicle": {
+              "Name": "Wildflour.AtelierGoods_Flavored_Popsicle",
+              "DisplayName": "{{i18n:AtelierGoods_Flavored_Popsicle.name}}",
+              "Description": "{{i18n:AtelierGoods_Flavored_Popsicle.description}}",
+              "ColorOverlayFromNextIndex":true,
+              "Type": "ArtisanGoods",          
+              "Category": -26,
+              "Edibility": 45,
+              "Price": 100,
+              "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+              "Buff": {
+                  "BuffId": null,
+                  "IconTexture": null,
+                  "IconSpriteIndex": 0,
+                  "Duration": 360,
+                  "IsDebuff": false,
+                  "GlowColor": null,
+                  "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 30,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 0
+                  },
+                  "CustomFields": {}
+                },
+        
+              "ContextTags":
+              ["wildflour_frozen_item",
+              "wildflour_confectioner_item",
+              "popsicle_item",
+              "food_sweet",
+              "color_white"],
+
+              "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+              "SpriteIndex": 526
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Popsicles": true},
+        "Entries": {
+          "Wildflour.AtelierGoods_Flavored_Popsicle": "{{i18n: AtelierGoods_Flavored_Popsicle}}"
+        }
+    },
+
+    {
+        "LogName":"Add Milkshake Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Milkshakes": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Milkshake": {
+              "Name": "Wildflour.AtelierGoods_Flavored_Milkshake",
+              "DisplayName": "{{i18n:AtelierGoods_Flavored_Milkshake.name}}",
+              "Description": "{{i18n:AtelierGoods_Flavored_Milkshake.description}}",
+              "ColorOverlayFromNextIndex":true,
+              "Type": "ArtisanGoods",          
+              "Category": -26,
+              "Edibility": 55,
+              "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 1,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 0
+                },
+                "CustomFields": {}
+                },
+              "Price": 100,
+              "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+              "ContextTags":
+              ["wildflour_frozen_item",
+              "wildflour_confectioner_item",
+              "milkshake_item",
+              "food_sweet",
+              "color_white"],
+
+              "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+              "SpriteIndex": 549
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Milkshakes": true},
+        "Entries": {
+          "Wildflour.AtelierGoods_Flavored_Milkshake": "{{i18n: AtelierGoods_Flavored_Milkshake}}"
+        }
+    },
+
+///////////
+// CANDY //
+///////////
+
+{
+    "LogName":"Add Marshmallow Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Marshmallows": true,"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Marshmallows": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Marshmallows",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Marshmallows.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Marshmallows.description}}",
+            "ColorOverlayFromNextIndex":true,
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 30,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "marshmallow_item",
+            "color_cream"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 573
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Marshmallows": true,"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Marshmallows": "{{i18n: AtelierGoods_Flavored_Marshmallows}}"
+    }
+},
+
+
+{
+    "LogName":"Add Lollipop Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Lollipop": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Lollipop",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Lollipop.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Lollipop.description}}",
+            "ColorOverlayFromNextIndex":true,
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "candy_item",
+            "food_sweet",
+            "lollipop_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 616
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Lollipop": "{{i18n: AtelierGoods_Flavored_Lollipop}}"
+    }
+},
+
+
+{
+    "LogName":"Add Hard Candy Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:HardCandies": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Hard_Candy": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Hard_cCandy",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Hard_Candy.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Hard_Candy.description}}",
+            "ColorOverlayFromNextIndex":true,
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 627
+    },
+        "Wildflour.AtelierGoods_Flavored_Crystal_Candy": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Crystal_Candy",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Crystal_Candy.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Crystal_Candy.description}}",
+            "ColorOverlayFromNextIndex":true,
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "rock_candy_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 614
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:HardCandies": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Hard_Candy": "{{i18n: AtelierGoods_Flavored_Hard_Candy}}",
+      "Wildflour.AtelierGoods_Flavored_Crystal_Candy": "{{i18n: AtelierGoods_Flavored_Crystal_Candy}}"
+    }
+},
+
+{
+    "LogName":"Add Fairy Floss Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:FairyFloss": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Fairy_Floss": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Fairy_Floss",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Fairy_Floss.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Fairy_Floss.description}}",
+            "Type": "ArtisanGoods",
+            "ColorOverlayFromNextIndex":true,
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "fairy_floss_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 590
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:FairyFloss": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Fairy_Floss": "{{i18n: AtelierGoods_Flavored_Fairy_Floss}}"
+    }
+},
+
+{
+    "LogName":"Add Gumballs Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Gumballs": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Gumballs": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Gumballs",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Gumballs.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Gumballs.description}}",
+            "Type": "ArtisanGoods",
+            "ColorOverlayFromNextIndex":true,
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "gumball_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 659
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Gumballs": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Gumballs": "{{i18n: AtelierGoods_Flavored_Gumballs}}"
+    }
+},
+
+{
+    "LogName":"Add Chocolate Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Chocolate_Truffles.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Chocolate_Truffles.description}}",
+            "Type": "ArtisanGoods",
+            "ColorOverlayFromNextIndex":true,
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            [
+            "wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "chocolate_item",
+            "color_dark_pink"
+            ],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 646
+    },
+        "Wildflour.AtelierGoods_Flavored_Chocolate_Bar": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Chocolate_Bar",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Chocolate_Bar.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Chocolate_Bar.description}}",
+            "Type": "ArtisanGoods",
+            "ColorOverlayFromNextIndex":true,
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "chocolate_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 634
+    },
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles": "{{i18n: AtelierGoods_Flavored_Chocolate_Truffles}}",
+      "Wildflour.AtelierGoods_Flavored_Chocolate_Bar": "{{i18n: AtelierGoods_Flavored_Chocolate_Bar}}"
+    }
+},
+
+{
+    "LogName":"Add Jelly Bean Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:JellyBeans": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Jelly_Beans": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Jelly_Beans",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Jelly_Beans.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Jelly_Beans.description}}",
+            "Type": "ArtisanGoods",
+            "ColorOverlayFromNextIndex":true,
+            "Category": -26,
+            "Edibility": 26,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+            "ContextTags":
+            ["wildflour_candy_item",
+            "wildflour_confectioner_item",
+            "food_sweet",
+            "candy_item",
+            "jelly_bean_item",
+            "color_dark_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 668
+    }
+}
+},
+
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:JellyBeans": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Jelly_Beans": "{{i18n: AtelierGoods_Flavored_Jelly_Beans}}"
+    }
+}
+
+]
+}

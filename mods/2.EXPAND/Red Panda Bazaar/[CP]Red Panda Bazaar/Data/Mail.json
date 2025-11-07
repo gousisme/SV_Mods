@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "9032801/x RedPandaBazaar_SpringFair": "null"
+      },
+      "When": {
+        "Season": "spring",
+        "Day": "7"
+      }
+    },
+    {
+      "LogName": "Mail Triggers",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "RedPandaBazaar_LiQingFengMail01": {
+          "Id": "RedPandaBazaar_LiQingFengMail01",
+          "Trigger": "DayStarted",
+          "HostOnly": false,
+          "Action": "AddMail Current RedPandaBazaar_LiQingFengMail01",
+          "Condition": "PLAYER_HEARTS Current RedPandaBazaar_LiQingFeng 6",
+          "MarkActionApplied": true
+        },
+        "RedPandaBazaar_LiQingFengMail02": {
+          "Id": "RedPandaBazaar_LiQingFengMail02",
+          "Trigger": "DayStarted",
+          "HostOnly": false,
+          "Action": "AddMail Current RedPandaBazaar_LiQingFengMail02",
+          "Condition": "PLAYER_HEARTS Current RedPandaBazaar_LiQingFeng 10",
+          "MarkActionApplied": true
+        },
+        "RedPandaBazaar_ChenXiaoMingMail01": {
+          "Id": "RedPandaBazaar_ChenXiaoMingMail01",
+          "Trigger": "DayStarted",
+          "HostOnly": false,
+          "Action": "AddMail Current RedPandaBazaar_ChenXiaoMingMail01",
+          "Condition": "PLAYER_HEARTS Current RedPandaBazaar_ChenXiaoMing 10",
+          "MarkActionApplied": true
+        },
+        "RedPandaBazaar_JojaMart01": {
+          "Id": "RedPandaBazaar_JojaMart01",
+          "Trigger": "DayStarted",
+          "HostOnly": false,
+          "Action": "AddMail Current RedPandaBazaar_JojaMart01",
+          "Condition": "RANDOM 0.2 @addDailyLuck",
+          "MarkActionApplied": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "RedPandaBazaar_ButterflyNight": "{{i18n:ButterflyNight.Mail}}",
+        "RedPandaBazaar_LiQingFengMail01": "{{i18n:LiQingFeng.Mail.01}}",
+        "RedPandaBazaar_LiQingFengMail02": "{{i18n:LiQingFeng.Mail.02}}",
+        "RedPandaBazaar_ChenXiaoMingMail01": "{{i18n:ChenXiaoMing.Mail.01}}",
+        "RedPandaBazaar_SpringFair": "{{i18n:SpringFair.Mail}}",
+        "RedPandaBazaar_JojaMart01": "{{i18n:JojaMart.Mail.01.1}} RedPandaBazaar_Prize_Ticket_4 {{i18n:JojaMart.Mail.01.2}}"
+      }
+    }
+  ]
+}

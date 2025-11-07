@@ -1,0 +1,21 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Hereford, Holstein, Jersey, Guernsey, BlueRoan, Highland",
+		"Default": "Guernsey",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/BabyBrown Cow”,
+		"FromFile": "assets/{{Type}}Baby.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/Brown Cow",
+		"FromFile": "assets/{{Type}}Cow.png"
+		},
+	]
+}

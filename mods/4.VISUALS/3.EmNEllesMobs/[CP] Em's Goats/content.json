@@ -1,0 +1,28 @@
+{
+	"Format": "2.7.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Saanen, Alpine, Cheviot, Bagot, Boer, Guernsey, Toggerburg, Sable, Cape",
+		"Default": "Saanen",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/BabyGoat”,
+		"FromFile": "assets/{{Type}}BabyGoat.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Animals/Goat",
+		"FromFile": "assets/{{Type}}Goat.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/{{Type}}Icon.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 33, "Height": 17 },
+		"ToArea": {"X": 64, "Y": 448,"Width": 33, "Height": 17}
+		},
+	]
+}

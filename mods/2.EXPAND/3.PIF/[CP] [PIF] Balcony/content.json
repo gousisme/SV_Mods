@@ -1,0 +1,155 @@
+﻿{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "Outdoor Location": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Choose whether you want the balcony to be outdoors or indoors (changes weather, lighting and sound effects) - Restart game to apply."
+    },
+    "Greenhouse": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Enables greenhouse functionality"
+    },
+    "Railing": {
+      "AllowValues": "light, dark",
+      "Default": "light",
+      "Description": "Pick a lighter or darker colour for the railing."
+    },
+    "Crops": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enables the dirt patches to plant crops."
+    },
+    "Crop Border": {
+      "AllowValues": "light, dark",
+      "Default": "light",
+      "Description": "Pick a lighter or darker colour for the crop border."
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "DLX.PIF/Farms",
+      "Entries": {
+        "Sharogg.Balcony": {
+          "DisplayName": "{{i18n:Sharogg.Balcony.name}}",
+          "DefaultArrivalTile": { "X": 10, "Y": 12 },
+          "CanPlantHere": true,
+          "ExcludeFromNpcPathfinding": true,
+          "ArtifactSpots": [],
+          "MaxDailyWeeds": 0,
+
+          "ArrivalTile_T0": { "X": 10, "Y": 10 },
+          "ArrivalTile_T1": { "X": 10, "Y": 10 },
+          "ArrivalTile_T2": { "X": 10, "Y": 11 },
+
+          "MapAsset_T0": "Maps/PIF/BalconyT0",
+          "MapAsset_T1": "Maps/PIF/BalconyT1",
+          "MapAsset_T2": "Maps/PIF/BalconyT2",
+
+          "Preview": "Sharogg.Balcony_Preview"
+        }
+      }
+    },
+    {
+      "LogName": "Load Trees tilesheet",
+      "Action": "Load",
+      "Target": "Maps/Trees_overlay",
+      "FromFile": "assets/Tilesheets/Trees_overlay.png"
+    },
+    {
+      "LogName": "Edit Trees tilesheet fall",
+      "Action": "EditImage",
+      "Target": "Maps/Trees_overlay",
+      "FromFile": "assets/Tilesheets/Trees_overlay_fall.png",
+      "When": { "Season": "Fall" }
+    },
+    {
+      "LogName": "Edit Trees tilesheet winter",
+      "Action": "EditImage",
+      "Target": "Maps/Trees_overlay",
+      "FromFile": "assets/Tilesheets/Trees_overlay_winter.png",
+      "When": { "Season": "Winter" }
+    },
+    {
+      "LogName": "Edit Trees tilesheet night",
+      "Action": "EditImage",
+      "Target": "Maps/Trees_overlay",
+      "FromFile": "assets/Tilesheets/Trees_overlay_dark.png",
+      "When": { "Time": "{{Range: 2000, 2600}}" },
+      "Update": "OnTimeChange"
+    },
+    {
+      "LogName": "Load Maps",
+      "Action": "Load",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "FromFile": "assets/{{TargetWithoutPath}}.tmx"
+    },
+    {
+      "LogName": "Add dirt patches",
+      "Action": "EditMap",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "FromFile": "assets/{{TargetWithoutPath}}_crops.tmx",
+      "PatchMode": "Overlay",
+      "When": { "Crops": "true" }
+    },
+    {
+      "LogName": "Edit railing colour",
+      "Action": "EditMap",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "FromFile": "assets/{{TargetWithoutPath}}_dark.tmx",
+      "FromArea": { "X": 1, "Y": 4, "Width": 19, "Height": 4 },
+      "ToArea": { "X": 1, "Y": 4, "Width": 19, "Height": 4 },
+      "PatchMode": "Overlay",
+      "When": { "Railing": "dark" }
+    },
+    {
+      "LogName": "Edit crop border colour",
+      "Action": "EditMap",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "FromFile": "assets/{{TargetWithoutPath}}_dark.tmx",
+      "FromArea": { "X": 1, "Y": 9, "Width": 19, "Height": 3 },
+      "ToArea": { "X": 1, "Y": 9, "Width": 19, "Height": 3 },
+      "PatchMode": "Overlay",
+      "When": {
+        "Crop Border": "dark",
+        "Crops": true
+      }
+    },
+    {
+      "LogName": "Make location outdoor",
+      "Action": "EditMap",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "MapProperties": {
+        "Outdoors": "T"
+      },
+      "When": { "Outdoor Location": true }
+    },
+    {
+      "LogName": "change lighting for indoor location",
+      "Action": "EditMap",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "MapProperties": {
+        "AmbientLight": "255 255 255",
+        "AmbientNightLight": "180 180 0"
+      },
+      "When": { "Outdoor Location": false }
+    },
+    {
+      "LogName": "Add greenhouse functionality",
+      "Action": "EditMap",
+      "Target": "Maps/PIF/BalconyT0, Maps/PIF/BalconyT1, Maps/PIF/BalconyT2",
+      "MapProperties": {
+        "IsGreenhouse": true
+      },
+      "When": { "Greenhouse": true }
+    },
+    {
+      "LogName": "Load Preview",
+      "Action": "Load",
+      "Target": "Sharogg.Balcony_Preview",
+      "FromFile": "assets/Preview.png"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Brewery Building Data Tokens - Shed Version",
+            "Action": "Include",
+            "FromFile": "Data/Building_Upgrade_Template.json",
+            "When":{"Brewery": "Shed"},
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Brewery_Interior",
+                "BUILDING_NAME": "Brewery",
+                "SKIN_1_NAME":"Blue",
+                "SKIN_2_NAME":"Pink",
+                "SKIN_3_NAME": "Black",
+                "SKIN_4_NAME":"Brown",
+                "SIZE_X": 11,
+                "SIZE_Y": 4,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":128,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 175000,
+                "BUILDING_UPGRADE":"Shed",
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":4,
+                "INDOOR_MAP_TYPE":"StardewValley.Shed"
+
+            }
+        },
+
+        {
+            "LogName": "Brewery Building Large Data Tokens - Shed Version",
+            "Action": "Include",
+            "FromFile": "Data/Building_Upgrade_Template.json",
+            "When":{"Brewery": "Shed"},
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Brewery_Interior_Large",
+                "BUILDING_NAME": "Brewery_Large",
+                "SKIN_1_NAME":"Blue",
+                "SKIN_2_NAME":"Pink",
+                "SKIN_3_NAME": "Black",
+                "SKIN_4_NAME":"Brown",
+                "SIZE_X": 11,
+                "SIZE_Y": 4,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":128,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 250000,
+                "BUILDING_UPGRADE":"{{ModId}}_Brewery",
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":4,
+                "INDOOR_MAP_TYPE":"StardewValley.Shed"
+            }
+        },
+
+        {
+            "LogName": "Brewery Building XL Data Tokens - Shed Version",
+            "Action": "Include",
+            "FromFile": "Data/Building_Upgrade_Template.json",
+            "When":{"Brewery": "Shed"},
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Brewery_Interior_XL",
+                "BUILDING_NAME": "Brewery_XL",
+                "SKIN_1_NAME":"Blue",
+                "SKIN_2_NAME":"Pink",
+                "SKIN_3_NAME": "Black",
+                "SKIN_4_NAME":"Brown",
+                "SIZE_X": 11,
+                "SIZE_Y": 4,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":128,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 400000,
+                "BUILDING_UPGRADE":"{{ModId}}_Brewery_Large",
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":4,
+                "INDOOR_MAP_TYPE":"StardewValley.Shed"
+            }
+        },
+
+        {
+            "LogName": "Brewery Data Tokens - New Building Version",
+            "Action": "Include",
+            "FromFile": "Data/Building_Template.json",
+            "When":{"Brewery": "Building"},
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Brewery_Interior",
+                "BUILDING_NAME": "Brewery",
+                "SKIN_1_NAME":"Blue",
+                "SKIN_2_NAME":"Pink",
+                "SKIN_3_NAME": "Black",
+                "SKIN_4_NAME":"Brown",
+                "SIZE_X": 11,
+                "SIZE_Y": 4,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":128,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 175000,
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":4,
+                "INDOOR_MAP_TYPE":"StardewValley.Locations.DecoratableLocation"
+
+            }
+        },
+
+         {
+            "LogName": "Brewery Large Data Tokens - New Building Version",
+            "Action": "Include",
+            "FromFile": "Data/Building_Upgrade_Template.json",
+            "When":{"Brewery": "Building"},
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Brewery_Interior_Large",
+                "BUILDING_NAME": "Brewery_Large",
+                "SKIN_1_NAME":"Blue",
+                "SKIN_2_NAME":"Pink",
+                "SKIN_3_NAME": "Black",
+                "SKIN_4_NAME":"Brown",
+                "SIZE_X": 11,
+                "SIZE_Y": 4,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":128,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 250000,
+                "BUILDING_UPGRADE":"{{ModId}}_Brewery",
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":4,
+                "INDOOR_MAP_TYPE":"StardewValley.Locations.DecoratableLocation"
+            }
+        },
+
+        
+        {
+            "LogName": "Brewery Building XL Data Tokens - Building Version",
+            "Action": "Include",
+            "FromFile": "Data/Building_Upgrade_Template.json",
+            "When":{"Brewery": "Building"},
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Brewery_Interior_XL",
+                "BUILDING_NAME": "Brewery_XL",
+                "SKIN_1_NAME":"Blue",
+                "SKIN_2_NAME":"Pink",
+                "SKIN_3_NAME": "Black",
+                "SKIN_4_NAME":"Brown",
+                "SIZE_X": 11,
+                "SIZE_Y": 4,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":128,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 400000,
+                "BUILDING_UPGRADE":"{{ModId}}_Brewery_Large",
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":4,
+                "INDOOR_MAP_TYPE":"StardewValley.Locations.DecoratableLocation"
+            }
+        },
+
+
+]
+}

@@ -1,0 +1,33 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Conservatory Data Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Building_Template.json",
+            "LocalTokens": {
+                "INDOOR_MAP_NAME": "Conservatory_Interior",
+                "BUILDING_NAME": "Conservatory",
+                "SKIN_1_NAME":"Overgrown",
+                "SKIN_2_NAME":"Black",
+                "SKIN_3_NAME":"Black_Overgrown",
+                "SKIN_4_NAME":"Green",
+                "SKIN_5_NAME":"Green_Overgrown",
+                "SIZE_X": 11,
+                "SIZE_Y": 3,
+                "SOURCE_RECT_WIDTH": 176,
+                "SOURCE_RECT_HEIGHT":160,
+                "SEASON_X":176,
+                "SEASON_Y":0,
+                "BUILDER_NAME":"Robin",
+                "BUILD_DAYS": 1,
+                "BUILD_COST": 50000,
+                "HUMAN_DOOR_X":5,
+                "HUMAN_DOOR_Y":3,
+                "INDOOR_MAP_TYPE":"StardewValley.Locations.DecoratableLocation"
+            }
+        }
+
+
+]
+}

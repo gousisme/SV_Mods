@@ -1,0 +1,59 @@
+{
+    "Changes": [
+        // VMV Totem and Geode for Silas' Shop
+        {
+            "LogName": "Add VMV Totem and Geode to Silas",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "skellady.SBVCP_SilasBlacksmith",
+                "Items"
+            ],
+            "Entries": {
+                "skellady.SBVCP_VMVOwlCarving": {
+                    "Id": "skellady.SBVCP_VMVOwlCarving",
+                    "ItemId": "Lumisteria.MtVapius_OwlCarving",
+                    "Condition": "PLAYER_VISITED_LOCATION Current Lumisteria.MtVapius_Hamlet",
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                },
+                "skellady.SBVCP_VMVBlackGeode": {
+                    "Id": "skellady.SBVCP_VMVBlackGeode",
+                    "ItemId": "Lumisteria.MtVapius_BlackGeode",
+                    "Condition": "PLAYER_VISITED_LOCATION Current Lumisteria.MtVapius_Hamlet",
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                }
+            },
+            "When": {
+                "HasMod": "Lumisteria.MtVapius" 
+            }
+        },
+        // VMV flowers in Secret Forest 1
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_SBV_SecretForest1",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_VMVLaceFlower": {
+                    "Id": "{{ModId}}_VMVLaceFlower",
+                    "ItemId": "Lumisteria.MtVapius_LaceFlower",
+                    "Season": "Summer",
+                    "Chance": 0.4
+                },
+                "{{ModId}}_VMVWoodSilkFlower": {
+                    "Id": "{{ModId}}_VMVWoodSilkFlower",
+                    "ItemId": "Lumisteria.MtVapius_WoodSilkFlower",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here rain",
+                    "Chance": 0.5
+                }
+            },
+            "When": {
+                "HasMod": "Lumisteria.MtVapius" 
+            }
+        }
+    ]
+}

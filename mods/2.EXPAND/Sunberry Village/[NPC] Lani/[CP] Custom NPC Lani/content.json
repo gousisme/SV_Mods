@@ -1,0 +1,283 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Format": "2.7.0",
+	"ConfigSchema": {
+		"Old Timer Language":{
+			"Default": false,
+			"AllowValues": "true, false",
+			"Description": "Whether or not to include older references, or modern references. Disabled by default.",
+		},
+		/*"Rival Hearts":{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Allows Lani to have rival events with Jonghyuk. Enabled by default.",
+		}*/
+	},
+	"DynamicTokens": [
+		{
+			"Name": "spouseRoute",
+			"Value": "",
+		},
+		{
+			"Name": "spouseRoute",
+			"Value": "Jonghyuk",
+			"When": { // Has Jonghyuk installed, has seen the Love is War rival event, and has this mail flag
+				"HasMod: |contains=Arknir.Jonghyuk": true,
+				"HasSeenEvent": "{{ModId}}_LoveIsWar",
+				"HasFlag": "{{ModId}}_LoveRouteCompleted"
+			}
+		},
+		{
+			"Name": "FestivalYear",
+			"Value": "", 
+		},
+		{
+			"Name": "FestivalYear",
+			"Value": "_y2", 
+			"When":
+			{
+				"Query: {{Year}} % 2 = 0": true,
+			}
+		},
+		{
+			"Name": "JonghyukSaturdays",
+			"Value": "",
+		},
+		{
+			"Name": "JonghyukSaturdays",
+			"Value": "730 Custom_SBV_JonghyukHouse 5 6 1/",
+			"When": { "HasMod: |contains=Arknir.Jonghyuk": true }
+		},
+		{
+			"Name": "NoModern",
+			"Value": ".NoModern",
+			"When": { 
+				"Old Timer Language": true,
+			}
+		},
+		{
+			"Name": "NoModern",
+			"Value": "",
+			"When": { "Old Timer Language": false }
+		},
+		
+		// short day token
+		{
+			"Name": "DayToken",
+			"Value": ""
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Mon",
+			"When": { "DayOfWeek": "Monday" }
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Tue",
+			"When": { "DayOfWeek": "Tuesday" }
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Wed",
+			"When": { "DayOfWeek": "Wednesday" }
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Thu",
+			"When": { "DayOfWeek": "Thursday" }
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Fri",
+			"When": { "DayOfWeek": "Friday" }
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Sat",
+			"When": { "DayOfWeek": "Saturday" }
+		},
+		{
+			"Name": "DayToken",
+			"Value": "Sun",
+			"When": { "DayOfWeek": "Sunday" }
+		},
+		// heart level token
+		{
+			"Name": "HeartLevelToken",
+			"Value": ""
+		},
+		{
+			"Name": "HeartLevelToken",
+			"Value": "2",
+			"When": {
+				"Hearts:LaniSBV": "2, 3"
+			}
+		},
+		{
+			"Name": "HeartLevelToken",
+			"Value": "4",
+			"When": {
+				"Hearts:LaniSBV": "4, 5"
+			}
+		},
+		{
+			"Name": "HeartLevelToken",
+			"Value": "6",
+			"When": {
+				"Hearts:LaniSBV": "6, 7"
+			}
+		},
+		{
+			"Name": "HeartLevelToken",
+			"Value": "8",
+			"When": {
+				"Hearts:LaniSBV": "8, 9"
+			}
+		},
+		{
+			"Name": "HeartLevelToken",
+			"Value": "10",
+			"When": {
+				"Query: {{Hearts:LaniSBV}} >= 10": true
+			}
+		},
+		// build key for seasonal dialogue
+		{
+			"Name": "SeasonDialogueKeyToken",
+			"Value": "Lani.Dialogue.{{season}}_{{DayToken}}{{HeartLevelToken}}"
+		},
+		{
+			"Name": "SeasonDialogueKeyToken",
+			"Value": "{{SeasonDialogueKeyToken}}{{NoModern}} |defaultKeys=Lani.Dialogue.{{season}}_{{DayToken}}{{HeartLevelToken}}",
+			"When": {
+				"Old Timer Language": true,
+			}
+		},
+		// build key for daily dialogue
+		{
+			"Name": "DailyDialogueKeyToken",
+			"Value": "Lani.Dialogue.{{DayToken}}{{HeartLevelToken}}.{{Random:0,1,2|key=SyncUpRandoms}}"
+		},
+		{
+			"Name": "DailyDialogueKeyToken",
+			"Value": "{{DailyDialogueKeyToken}}{{NoModern}} |defaultKeys=Lani.Dialogue.{{DayToken}}{{HeartLevelToken}}.{{Random:0,1,2|key=SyncUpRandoms}}",
+			"When": {
+				"Old Timer Language": true,
+			}
+		},
+		// put it allll together
+		{
+			"Name": "DialogueToken",
+			"Value": "{{i18n: {{Random: {{SeasonDialogueKeyToken}}, {{DailyDialogueKeyToken}}, {{DailyDialogueKeyToken}} }} |defaultKeys= Lani.Dialogue.Mon.0 }}"
+		}
+	],
+	"Changes": [
+		{
+			"LogName": "Lani NPC - House Map Load",
+			"Action": "Load",
+			"Target": "Maps/Custom_SBV_LaniHouse",
+			"FromFile": "assets/Maps/LaniHouseWIP.tmx"
+		},
+
+		// Blanks
+		{
+			"LogName": "Lani NPC - Blanks",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/LaniSBV, Characters/schedules/LaniSBV, Strings/schedules/LaniSBV, Data/Events/Custom_SBV_LaniHouse",
+			"FromFile": "data/Dialogue/blank.json"
+		},
+		
+		// Data Includes
+		{
+			"LogName": "Lani NPC - Dialogue, Schedule, Events",
+			"Action": "Include",
+			"FromFile": "data/Dialogue/Dialogue.json, data/Schedules/Schedule.json, data/Schedules/ScheduleDialogue.json, data/Events/Events.json"/*, data/Events/RivalEvents.json*/
+		},
+		{
+			"LogName": "Lani NPC - Character Data",
+			"Action": "Include",
+			"FromFile": "data/NPCData/Animations.json, data/NPCData/Disposition.json, data/NPCData/GiftTasteData.json, data/NPCData/TriggerActions.json, data/NPCData/Mail.json, data/Quests/Quests.json, data/NPCData/Movies.json, data/NPCData/DispoChanges.json, data/Quests/SpecialOrders.json"
+		},
+		{
+			"LogName": "Lani NPC - Festival Data",
+			"Action": "Include",
+			"FromFile": "data/Festivals/FestivalDialogue.json, data/Festivals/locations/FestivalLocations.json"
+		},
+		{
+			"LogName": "Lani NPC -  Map Data",
+			"Action": "Include",
+			"FromFile": "data/MapData/MapPatch.json, data/MapData/MapStrings.json, data/MapData/ChairTiles.json"
+		},
+		{
+			"LogName": "Lani NPC -  Item Data",
+			"Action": "Include",
+			"FromFile": "data/ItemData/Objects.json, data/ItemData/MachineRules.json"
+		},
+		{
+			"LogName": "Lani NPC -  CC Data",
+			"Action": "Include",
+			"FromFile": "data/DependencyData/CustomCompanions.json"
+		},
+		
+		// Sprite & Portrait loads
+		{
+			"LogName": "Lani NPC - Sprites",
+			"Action": "Load",
+			"Target": "Characters/LaniSBV, Characters/LaniSBV_Summer, Characters/LaniSBV_Fall, Characters/LaniSBV_Winter, Characters/LaniSBV_SpiritsEve, Characters/LaniSBV_Festival",
+			"FromFile": "assets/{{Target}}.png"
+		},
+		{
+			"LogName": "Lani NPC - Portraits",
+			"Action": "Load",
+			"Target": "Portraits/LaniSBV, Portraits/LaniSBV_Summer, Portraits/LaniSBV_Fall, Portraits/LaniSBV_Winter, Portraits/LaniSBV_Festival, Portraits/LaniSBV_SpiritsEve",
+			"FromFile": "assets/{{Target}}.png"
+		},
+		
+		// Tilesheet loads
+		{
+			"LogName": "Lani NPC - Seasonal Outdoor Tilesheets",
+			"Action": "Load",
+			"Target": "Maps/spring_LaniHouse_foliage, Maps/summer_LaniHouse_foliage, Maps/fall_LaniHouse_foliage, Maps/winter_LaniHouse_foliage, Maps/winter_LaniHouse_foliage_overlay",
+			"FromFile": "assets/Maps/Tilesheets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Lani NPC - Indoor Tilesheets",
+			"Action": "Load",
+			"Target": "Maps/z_lanihousetiles, Maps/z_lanilight, Maps/z_sammytiles",
+			"FromFile": "assets/Maps/Tilesheets/{{TargetWithoutPath}}.png"
+		},
+		// TempActor Loads
+		{
+			"Action": "Load",
+			"Target": "Characters/LCritter, Characters/LEasel1, Characters/LEasel2, Characters/LPottery, Characters/LWorkbench, Characters/LPhone, Characters/LCouch",
+			"FromFile": "assets/Characters/tempActor/{{TargetWithoutPath}}.png"
+		},
+		
+		// Sound Load
+		{
+			"Action": "EditData",
+			"Target": "Data/AudioChanges",
+			"Entries": {
+				"{{ModId}}_scribbling": {
+					"ID": "scribbling",
+					"Category": "Sound",
+					"FilePaths": [ "{{AbsoluteFilePath: assets/Sounds/scribbling.ogg}}" ],
+					"StreamedVorbis": true,
+					"Looped": false
+				}
+			}
+		},
+		
+		//NPC MAP LOCATIONS FIX
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"When": { "HasMod |contains=Bouhm.NPCMapLocations": true },
+			"Entries": {
+				"LaniSBV": {
+					"MarkerCropOffset": -2
+				},
+			}
+		}
+	]
+}

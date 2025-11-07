@@ -1,0 +1,176 @@
+{
+    "Changes":[
+
+        {
+            "LogName": "Add Optional Indoor Winery Furniture Items",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["{{ModId}}_Winery", "IndoorItems"],
+            "Priority":"Late",
+            "Entries": {
+                "{{ModId}}_Catalogue":  {
+                    "Id": "Winery_Catalogue",
+                    "ItemId": "(F)HXW.WineryFurni_Catalogue",
+                    "Tile": {
+                      "X": 14,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "{{ModId}}_AngledWineryPanelL":  {
+                    "Id": "Winery_AngledWineryPanelL",
+                    "ItemId": "(F)HXW.WineryFurni_AngledWineryPanelL",
+                    "Tile": {
+                      "X": 2,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_HorizontalWineWallDisplay":  {
+                    "Id": "Winery_HorizontalWineWallDisplay",
+                    "ItemId": "(F)HXW.WineryFurni_HorizontalWineWallDisplay",
+                    "Tile": {
+                      "X": 22,
+                      "Y": 17
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_AngledWineryPanelR":  {
+                    "Id": "Winery_AngledWineryPanelR",
+                    "ItemId": "(F)HXW.WineryFurni_AngledWineryPanelR",
+                    "Tile": {
+                      "X": 13,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBottleWallStorage1":  {
+                    "Id": "Winery_WineBottleWallStorage1",
+                    "ItemId": "(F)HXW.WineryFurni_WineBottleWallStorage",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBottleWallStorage2":  {
+                    "Id": "Winery_WineBottleWallStorage2",
+                    "ItemId": "(F)HXW.WineryFurni_WineBottleWallStorage",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineryBarTableL":  {
+                    "Id": "Winery_WineryBarTableL",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableL",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineryBarTableC1":  {
+                    "Id": "Winery_WineryBarTableC1",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC1",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineryBarTableC2":  {
+                    "Id": "Winery_WineryBarTableC2",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC2",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineryBarTableC3":  {
+                    "Id": "Winery_WineryBarTableC3",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC3",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineryBarTableC4":  {
+                    "Id": "Winery_WineryBarTableC4",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC4",
+                    "Tile": {
+                      "X": 9,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineryBarTableR":  {
+                    "Id": "Winery_WineryBarTableR",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableR",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBarStool1":  {
+                    "Id": "Winery_WineBarStool1",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBarStool2":  {
+                    "Id": "Winery_WineBarStool2",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBarStool3":  {
+                    "Id": "Winery_WineBarStool3",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBarStool4":  {
+                    "Id": "Winery_WineBarStool4",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBarStool5":  {
+                    "Id": "Winery_WineBarStool5",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 9,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_WineBarStool6":  {
+                    "Id": "Winery_WineBarStool6",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  }
+            }
+        }
+    ]
+}

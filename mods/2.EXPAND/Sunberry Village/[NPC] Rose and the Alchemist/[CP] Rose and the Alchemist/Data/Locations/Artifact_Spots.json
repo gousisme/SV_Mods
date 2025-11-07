@@ -1,0 +1,66 @@
+{
+
+  "Changes": [
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": ["Custom_SBV_SunberryMountain","ArtifactSpots"],
+      "Entries": {
+        "{{ModId}}_Flower_Seed_Mountain": {
+            "Chance": 0.08,
+            "ApplyGenerousEnchantment": true,
+            "OneDebrisPerDrop": true,
+            "Precedence": -100,
+            "ContinueOnDrop": true,
+            "Id": "{{ModId}}_Flower_Seed_Mountain",
+            "RandomItemId": [
+                  "(O){{ModId}}_Arctic_Fox_Seeds",
+                  "(O){{ModId}}_Avalune_Seeds",
+                  "(O){{ModId}}_Daisy_Seeds",
+                  "(O){{ModId}}_Hibiscus_Seeds",
+                  "(O){{ModId}}_Lily_Seeds",
+                  "(O){{ModId}}_Nasturtium_Seeds",
+                  "(O){{ModId}}_Peony_Seeds",
+                  "(O){{ModId}}_Pixie_Breath_Seeds",
+                  "(O){{ModId}}_Snapdragon_Seeds",
+                  "(O){{ModId}}_Yarrow_Seeds"
+                      ],
+            "MinStack": 1,
+            "MaxStack": 2,
+        },
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": ["Custom_SBV_SunberryForest","ArtifactSpots"],
+      "Entries": {
+        "{{ModId}}_Flower_Seed_Forest": {
+            "Chance": 0.08,
+            "ApplyGenerousEnchantment": true,
+            "OneDebrisPerDrop": true,
+            "Precedence": -100,
+            "ContinueOnDrop": true,
+            "Id": "{{ModId}}_Flower_Seed_Forest",
+            "RandomItemId": [
+                  "(O){{ModId}}_Arctic_Fox_Seeds",
+                  "(O){{ModId}}_Avalune_Seeds",
+                  "(O){{ModId}}_Daisy_Seeds",
+                  "(O){{ModId}}_Hibiscus_Seeds",
+                  "(O){{ModId}}_Lily_Seeds",
+                  "(O){{ModId}}_Nasturtium_Seeds",
+                  "(O){{ModId}}_Peony_Seeds",
+                  "(O){{ModId}}_Pixie_Breath_Seeds",
+                  "(O){{ModId}}_Snapdragon_Seeds",
+                  "(O){{ModId}}_Yarrow_Seeds"
+                      ],
+            "MinStack": 1,
+            "MaxStack": 2,
+        },
+      }
+    },
+
+
+  ]
+}

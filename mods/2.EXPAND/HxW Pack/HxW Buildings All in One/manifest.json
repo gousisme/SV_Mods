@@ -1,0 +1,21 @@
+{
+    "Name": "H&W Custom Buildings All in One Pack",
+    "Author": "HimeTarts & WildflourMods",
+    "Version": "2.0",
+    "Description": "An all in one of new custom buildings for your farm! Bonus - change the interior of the slime hutch to one of our custom maps as well!",
+    "UniqueID": "HXW.Buildings_Complete",
+    "MinimumApiVersion": "4.0.0-alpha",
+    "UpdateKeys": ["Nexus:32564"], 
+    "Dependencies": [
+        {"UniqueID": "HXW.WineryFurni", "IsRequired": false},
+        {"UniqueID": "HXW.BakeryFurni", "IsRequired": false},
+        {"UniqueID": "HXW.RestaurantFurni", "IsRequired": false},
+        {"UniqueID": "HXW.ModularKitchen", "IsRequired": false},
+        {"UniqueID": "HXW.PlantLoversFurni", "IsRequired": false},
+        {"UniqueID": "hxw.tilesheets", "IsRequired": true}
+
+],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

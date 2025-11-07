@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Priority": "Early",
+      "Entries": {
+        "Wander_Default": "{{i18n: Emily_Wander_Default_{{Random:1,3,4,5,6,7}}}}",
+        "Wander_Building": "{{i18n: Emily_Wander_{{Random:Building_1,Building_2,Building_3,Building_4,Default_4,Default_5}}}}",
+        "Wander_Scenic": "{{i18n: Emily_Wander_{{Random:Scenic_1,Scenic_2,Default_1,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_Farmer": "{{i18n: Emily_Wander_{{Random:Farmer_1,Default_1,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_BrokenFence": "{{i18n: Emily_Wander_{{Random:BrokenFence_1,BrokenFence_2,BrokenFence_3,Default_1,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_GrandpaShrine": "{{i18n: Emily_Wander_{{Random:GrandpaShrine_1,Default_1,Default_3,Default_4,Default_5,Default_6,Default_7,Scenic_1}}}}",
+        "Wander_Water": "{{i18n: Emily_Wander_{{Random:Water_1,Water_2,Water_3,Scenic_1,Default_1,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_Tree": "{{i18n: Emily_Wander_Tree_{{Random:1,2,3,4,5,6}}}}",
+        "Wander_FruitTree": "{{i18n: Emily_Wander_{{Random:FruitTree_1,FruitTree_2,FruitTree_3,Tree_1,Tree_2,Tree_3,Tree_4,Tree_5,Tree_6}}}}",
+        "Wander_MatureCrop": "{{i18n: Emily_Wander_{{Random:MatureCrop_1,MatureCrop_2,MatureCrop_3,Default_1,Default_3,Default_4,Default_5,Default_6,Default_7}}}}",
+        "Wander_MatureCrop_Daffodil": "{{i18n: Emily_Wander_MatureCrop_{{Random:Daffodil_1,Daffodil_2,Daffodil_3,Daffodil_4,1,2,3}}}}",
+        "Wander_LovedCrop_Daffodil": "{{i18n: Emily_Wander_{{Random:MatureCrop_Daffodil_3,MatureCrop_Daffodil_4,Default_1,Default_3}}}}",
+        "Wander_Cave": "{{i18n: Emily_Wander_Cave_{{Random:1,2,3,4}}}}",
+        "Wander_JunimoHut": "{{i18n: Emily_Wander_JunimoHut_{{Random:1,2,3,4}}}}",
+        "Wander_Coop": "{{i18n: Emily_Wander_{{Random:Coop_1,Coop_2,Coop_3,Coop_4,Building_1,Building_2}}}}",
+        "Wander_Coop_Chicken": "{{i18n: Emily_Wander_Coop_{{Random:Chicken_1,Chicken_2,Chicken_3,Chicken_4,1,2,3,4}}}}",
+        "Wander_Barn": "{{i18n: Emily_Wander_{{Random:Barn_1,Barn_2,Barn_3,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Barn_Cow": "{{i18n: Emily_Wander_Barn_{{Random:1,2,3,Cow_1,Cow_2,Cow_3,Cow_4,Cow_5}}}}",
+        "Wander_Silo": "{{i18n: Emily_Wander_{{Random:Silo_1,Silo_2,Silo_3,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Shed": "{{i18n: Emily_Wander_{{Random:Shed_1,Shed_2,Shed_3,Shed_4,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Greenhouse": "{{i18n: Emily_Wander_{{Random:Greenhouse_1,Greenhouse_2,Greenhouse_3,Building_1,Building_2,Building_3,Building_4}}}}",
+        "Wander_Stable": "{{i18n: Emily_Wander_{{Random:Stable_1,Stable_2,Stable_3,Building_1,Building_2,Building_3,Building_4}}}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Black, Brown, Grizzly, Polar",
+		"Default": "Brown",
+		}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Bear”,
+		"FromFile": "assets/{{Type}}Bear.png"
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Bear_Icon",
+		"FromFile": "assets/EmsBearIcon.png",
+		},
+	]
+}

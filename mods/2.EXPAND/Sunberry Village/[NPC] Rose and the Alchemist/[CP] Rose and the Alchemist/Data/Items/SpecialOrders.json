@@ -1,0 +1,336 @@
+{
+    "Changes":[
+
+
+////////////////
+// DROPBOXES //
+///////////////
+
+        {
+          "LogName": "SASS Special Orders Dropbox",
+          "Action": "EditMap",
+          "Target": "Maps/{{ModId}}_Atelier",
+          "MapTiles": [
+                  {
+                      "Position": { "X": 45, "Y": 24},
+                      "Layer": "Buildings",
+                      "SetProperties": { "Action": "DropBox AtelierSODropBox"}
+                  }		
+          ]
+        },
+
+////////////
+// ORDERS //
+////////////
+
+        {
+            "LogName": "SASS Special Orders",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+              "{{ModId}}_SO_1": {
+                "Name": "{{i18n:SASS_SO_1.name}}",
+                "Requester": "WildflourSASS",
+                "Duration": "Week",
+                "Repeatable": false,
+                "RequiredTags": null,
+                "OrderType": "mailonly",
+                "SpecialRule": "",
+                "ItemToRemoveOnEnd": null,
+                "MailToRemoveOnEnd": null,
+                "RandomizedElements": null,
+                "Text": "{{i18n:SASS_SO_1.text}}",
+                "Objectives": [
+                    {
+                      "Type": "Donate",
+                      "Text": "{{i18n:SASS_SO_1a.deliver}}",
+                      "RequiredCount": "5",
+                      "Data": {
+                        "DropBox": "AtelierSODropBox",
+                        "DropBoxGameLocation": "{{ModId}}_Atelier",
+                        "DropBoxIndicatorLocation": "45 24",
+                        "AcceptedContextTags": "faerie_forage"
+                      }
+                    }
+                ],
+                  "Rewards": [
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                            "Amount": "100",
+                            "TargetName": "WildflourSASS"
+                        }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                            "MailReceived": "{{ModId}}_SO_1_Complete",
+                            "NoLetter": true
+                      }
+                    }
+                ],
+                "CustomFields": {
+                    "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+                }
+              },
+              "{{ModId}}_SO_2": {
+                "Name": "{{i18n:SASS_SO_2.name}}",
+                "Requester": "WildflourSASS",
+                "Duration": "Week",
+                "Repeatable": false,
+                "RequiredTags": null,
+                "OrderType": "mailonly",
+                "SpecialRule": "",
+                "ItemToRemoveOnEnd": null,
+                "MailToRemoveOnEnd": null,
+                "RandomizedElements": null,
+                "Text": "{{i18n:SASS_SO_2.text}}",
+                "Objectives": [ 
+                    {
+                      "Type": "Donate",
+                      "Text": "{{i18n:SASS_SO_2a.deliver}}",
+                      "RequiredCount": "5",
+                      "Data": {
+                        "DropBox": "AtelierSODropBox",
+                        "DropBoxGameLocation": "{{ModId}}_Atelier",
+                        "DropBoxIndicatorLocation": "45 24",
+                        "AcceptedContextTags": "feather_item"
+                      }
+                    }
+                ],
+                  "Rewards": [
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                            "Amount": "100",
+                            "TargetName": "WildflourSASS"
+                        }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                            "MailReceived": "{{ModId}}_SO_2_Complete",
+                            "NoLetter": false
+                      }
+                    }
+                ],
+                "CustomFields": {
+                    "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+                }
+              },
+              "{{ModId}}_SO_3": {
+                "Name": "{{i18n:SASS_SO_3.name}}",
+                "Requester": "WildflourSASS",
+                "Duration": "Week",
+                "Repeatable": false,
+                "RequiredTags": null,
+                "OrderType": "mailonly",
+                "SpecialRule": "",
+                "ItemToRemoveOnEnd": null,
+                "MailToRemoveOnEnd": null,
+                "RandomizedElements": null,
+                "Text": "{{i18n:SASS_SO_3.text}}",
+                "Objectives": [ 
+                    {
+                      "Type": "Donate",
+                      "Text": "{{i18n:SASS_SO_3a.deliver}}",
+                      "RequiredCount": "5",
+                      "Data": {
+                        "DropBox": "AtelierSODropBox",
+                        "DropBoxGameLocation": "{{ModId}}_Atelier",
+                        "DropBoxIndicatorLocation": "45 24",
+                        "AcceptedContextTags": "magical_mushroom_item"
+                      }
+                    }
+                ],
+                  "Rewards": [
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                            "Amount": "100",
+                            "TargetName": "WildflourSASS"
+                        }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                            "MailReceived": "{{ModId}}_SO_3_Complete",
+                            "NoLetter": true
+                      }
+                    }
+                ],
+                "CustomFields": {
+                    "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+                }
+              },
+              "{{ModId}}_SO_4": {
+                "Name": "{{i18n:SASS_SO_4.name}}",
+                "Requester": "WildflourSASS",
+                "Duration": "Week",
+                "Repeatable": false,
+                "RequiredTags": null,
+                "OrderType": "mailonly",
+                "SpecialRule": "",
+                "ItemToRemoveOnEnd": null,
+                "MailToRemoveOnEnd": null,
+                "RandomizedElements": null,
+                "Text": "{{i18n:SASS_SO_4.text}}",
+                "Objectives": [ 
+                    {
+                      "Type": "Donate",
+                      "Text": "{{i18n:SASS_SO_4a.deliver}}",
+                      "RequiredCount": "5",
+                      "Data": {
+                        "DropBox": "AtelierSODropBox",
+                        "DropBoxGameLocation": "{{ModId}}_Atelier",
+                        "DropBoxIndicatorLocation": "45 24",
+                        "AcceptedContextTags": "magical_fruit_item"
+                      }
+                    }
+                ],
+                  "Rewards": [
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                            "Amount": "100",
+                            "TargetName": "WildflourSASS"
+                        }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                            "MailReceived": "{{ModId}}_SO_4_Complete",
+                            "NoLetter": true
+                      }
+                    }
+                ],
+                "CustomFields": {
+                    "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+                }
+              },
+              "{{ModId}}_SO_5": {
+                "Name": "{{i18n:SASS_SO_5.name}}",
+                "Requester": "WildflourSASS",
+                "Duration": "Week",
+                "Repeatable": false,
+                "RequiredTags": null,
+                "OrderType": "mailonly",
+                "SpecialRule": "",
+                "ItemToRemoveOnEnd": null,
+                "MailToRemoveOnEnd": null,
+                "RandomizedElements": null,
+                "Text": "{{i18n:SASS_SO_5.text}}",
+                "Objectives": [ 
+                    {
+                      "Type": "Donate",
+                      "Text": "{{i18n:SASS_SO_5a.deliver}}",
+                      "RequiredCount": "5",
+                      "Data": {
+                        "DropBox": "AtelierSODropBox",
+                        "DropBoxGameLocation": "{{ModId}}_Atelier",
+                        "DropBoxIndicatorLocation": "45 24",
+                        "AcceptedContextTags": "magical_flower_item"
+                      }
+                    }
+                ],
+                  "Rewards": [
+                    {
+                      "Type": "Friendship",
+                      "Data": {
+                            "Amount": "100",
+                            "TargetName": "WildflourSASS"
+                        }
+                    },
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                            "MailReceived": "{{ModId}}_SO_5_Complete",
+                            "NoLetter": true
+                      }
+                    }
+                ],
+                "CustomFields": {
+                    "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+                }
+              },
+              "{{ModId}}_SO_RoseParty": {
+                "Name": "{{i18n:SASS_SO_RoseParty.name}}",
+                "Requester": "WildflourSASS",
+                "Duration": "Week",
+                "Repeatable": false,
+                "RequiredTags": null,
+                "OrderType": "mailonly",
+                "SpecialRule": "",
+                "ItemToRemoveOnEnd": null,
+                "MailToRemoveOnEnd": null,
+                "RandomizedElements": null,
+                "Text": "{{i18n:SASS_SO_RoseParty.text}}",
+                "Objectives": [ 
+                  {
+                    "Type": "Deliver",
+                    "Text": "{{i18n:SASS_SO_RoseParty_Evelyn.deliver}}",
+                    "RequiredCount": "1",
+                    "Data": {
+                      "AcceptedContextTags": "party_invite_item",
+                      "Message": "{{i18n:SASS_SO_RoseParty_Evelyn.accept}}",
+                      "TargetName": "Evelyn"
+                    }
+                  },
+                  {
+                    "Type": "Deliver",
+                    "Text": "{{i18n:SASS_SO_RoseParty_Jumana.deliver}}",
+                    "RequiredCount": "1",
+                    "Data": {
+                      "AcceptedContextTags": "party_invite_item",
+                      "Message": "{{i18n:SASS_SO_RoseParty_Jumana.accept}}",
+                      "TargetName": "JumanaSBV"
+                    }
+                  },
+                  {
+                    "Type": "Deliver",
+                    "Text": "{{i18n:SASS_SO_RoseParty_Linus.deliver}}",
+                    "RequiredCount": "1",
+                    "Data": {
+                      "AcceptedContextTags": "party_invite_item",
+                      "Message": "{{i18n:SASS_SO_RoseParty_Linus.accept}}",
+                      "TargetName": "Linus"
+                    }
+                  },
+                  {
+                    "Type": "Deliver",
+                    "Text": "{{i18n:SASS_SO_RoseParty_Leah.deliver}}",
+                    "RequiredCount": "1",
+                    "Data": {
+                      "AcceptedContextTags": "party_invite_item",
+                      "Message": "{{i18n:SASS_SO_RoseParty_Leah.accept}}",
+                      "TargetName": "Leah"
+                    }
+                  },
+                  {
+                    "Type": "Deliver",
+                    "Text": "{{i18n:SASS_SO_RoseParty_Miyoung.deliver}}",
+                    "RequiredCount": "1",
+                    "Data": {
+                      "AcceptedContextTags": "party_invite_item",
+                      "Message": "{{i18n:SASS_SO_RoseParty_Miyoung.accept}}",
+                      "TargetName": "MiyoungSBV"
+                    }
+                  }
+                ],
+                  "Rewards": [
+                    {
+                      "Type": "Mail",
+                      "Data": {
+                            "MailReceived": "{{ModId}}_SO_RoseParty_Complete",
+                            "NoLetter": true
+                      }
+                    }
+                ],
+                "CustomFields": {
+                    "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+                }
+              },
+            }
+          }
+    ]
+}

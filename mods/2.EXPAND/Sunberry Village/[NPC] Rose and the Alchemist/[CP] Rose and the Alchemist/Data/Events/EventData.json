@@ -1,0 +1,120 @@
+ {
+    "Changes": [
+    
+        {
+            "LogName": "Rose and Wildflour Events SBV Forest",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_SBV_SunberryForest",
+            "Entries": {
+                "{{ModId}}_RoseFlourIntro/w sunny": "playful/-100 -100/farmer 61 16 2 RoseSASS 54 27 2 WildflourSASS 55 27 2/addConversationTopic RoseFlourIntroCT 0/animate WildflourSASS false true 180 17 18 18 19 19 20 20 20 19 19 18 18 17/animate RoseSASS false true 120 17 17 18 18 18 19 19 19 18 18 18 17 17/skippable/move farmer -5 0 2 true/viewport 49 26/pause 500/emote farmer 8/pause 500/speak RoseSASS \"{{i18n:SASS_RoseFlourIntro.01}}\"/pause 500/stopAnimation WildflourSASS 17/pause 500/faceDirection WildflourSASS 3/pause 500/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.02}}\"/move farmer 0 5 2/stopAnimation RoseSASS 17/faceDirection RoseSASS 1/speak RoseSASS \"{{i18n:SASS_RoseFlourIntro.03}}\"/pause 500/faceDirection RoseSASS 0/jump RoseSASS/speak RoseSASS \"{{i18n:SASS_RoseFlourIntro.04}}\"/speed RoseSASS 9/move RoseSASS 0 2 2/speed RoseSASS 9/move RoseSASS -6 0 0/warp RoseSASS -100 -100/playsound doorClose/pause 500/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.05}}\"/pause 500/faceDirection WildflourSASS 0/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.06}}\"/pause 500/move WildflourSASS 1 0 0/move WildflourSASS 0 -5 0/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.07}}\"/emote farmer 40/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.08}}\"/pause 500/emote farmer 8/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.09}}\"/advancedMove farmer false 0 -7 6 0 1 1000/pause 400/globalFade/viewport -999 -999/speak WildflourSASS \"{{i18n:SASS_RoseFlourIntro.10}}\"/pause 1000/end",
+                "{{ModId}}_StrangeFruit/f WildflourSASS 2000/w sunny": "50s/-100 -100/WildflourSASS 72 38 2 AichaSBV 64 49 1/addTemporaryActor RaccoonSASS 32 32 66 49 3 false character/action AddSpecialOrder {{ModId}}_SO_4/changeName RaccoonSASS Raccoon/addobject 65 49 {{ModId}}_Apple 2/skippable/viewport 65 50 clamp/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.01}}\"/pause 500/removeobject 65 49 {{ModId}}_Apple/pause 500/advancedMove WildflourSASS false 0 6 -7 0 0 3/speak RaccoonSASS \"{{i18n:SASS_StrangeFruit.02}}\"/pause 500/emote AichaSBV 12/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.03}}\"/pause 1000/addobject 65 49 {{ModId}}_Apple 2/pause 500/removeobject 65 49 {{ModId}}_Apple/pause 500/emote RaccoonSASS 12/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.04}}\"/pause 500/faceDirection WildflourSASS 3/pause 500/faceDirection WildflourSASS 1/pause 500/faceDirection WildflourSASS 2/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.05}}\"/pause 500/speak RaccoonSASS \"{{i18n:SASS_StrangeFruit.06}}\"/pause 500/message \"{{i18n:SASS_StrangeFruit.07}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.08}}\"/pause 500/faceDirection AichaSBV 0/addobject 65 49 {{ModId}}_Apple 2/pause 500/faceDirection AichaSBV 1/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.09}}\"/pause 500/emote WildflourSASS 8/pause 500/move WildflourSASS 0 1 2/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.10}}\"/pause 500/speak RaccoonSASS \"{{i18n:SASS_StrangeFruit.11}}\"/pause 500/emote WildflourSASS 40/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.12}}\"/pause 500/removeobject 65 49 {{ModId}}_Apple/pause 200/faceDirection AichaSBV 0/faceDirection RaccoonSASS 0/emote RaccoonSASS 16/emote AichaSBV 16/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.13}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.14}}\"/pause 500/faceDirection RaccoonSASS 3/pause 100/faceDirection Raccoon SASS 0/pause 100/speak RaccoonSASS \"{{i18n:SASS_StrangeFruit.15}}\"/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.16}}\"/pause 500/emote WildflourSASS 12/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.17}}\"/pause 500/speak AichaSBV \"{{i18n:SASS_StrangeFruit.18}}\"/pause 500/move RaccoonSASS -1 0 0/pause 500/speak RaccoonSASS \"{{i18n:SASS_StrangeFruit.19}}\"/pause 500/emote WildflourSASS 28/pause 500/message \"{{i18n:SASS_StrangeFruit.20}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_StrangeFruit.21}}\"/pause 500/globalFade/viewport -999 -999/pause 1000/end",
+                "{{ModId}}_PartyPlanning/f RoseSASS 2500/w sunny/e {{ModId}}_BakingBonds": "50s/-100 -100/WildflourSASS 43 28 1 farmer 15 28 1/addTemporaryActor CoriSASS 16 32 44 28 3 false character/changeName CoriSASS Cori/ignoreCollisions farmer/skippable/viewport 43 29 clamp/pause 500/emote WildflourSASS 56/pause 500/speak WildflourSASS \"{{i18n:SASS_PartyPlanning.01}}\"/pause 500/emote CoriSASS 32/pause 500/speak CoriSASS \"{{i18n:SASS_PartyPlanning.02}}\"/pause 500/faceDirection CoriSASS 2/speed farmer 2/advancedMove farmer false 16 0 0 1 12 0 4 500/pause 500/faceDirection farmer 0/emote CoriSASS 20/pause 500/speak CoriSASS \"{{i18n:SASS_PartyPlanning.03}}\"/pause 500/pause 500/faceDirection WildflourSASS 3/pause 500/speak WildflourSASS \"{{i18n:SASS_PartyPlanning.04}}\"/pause 500/faceDirection WildflourSASS 2/pause 500/faceDirection CoriSASS 2/emote CoriSASS 32/pause 500/speak CoriSASS \"{{i18n:SASS_PartyPlanning.05}}\"/pause 500/emote farmer 32/pause 500/speak WildflourSASS \"{{i18n:SASS_PartyPlanning.06}}\"/pause 500/speak CoriSASS \"{{i18n:SASS_PartyPlanning.07}}\"/pause 500/emote farmer 8/emote WildflourSASS 8/pause 500/faceDirection WildflourSASS 1/move farmer 2 0 3/speak CoriSASS \"{{i18n:SASS_PartyPlanning.08}}\"/pause 500/jump WildflourSASS 8/emote WildflourSASS 16/pause 500/speak WildflourSASS \"{{i18n:SASS_PartyPlanning.09}}\"/emote farmer 32/emote CoriSASS 32/pause 500/speak CoriSASS \"{{i18n:SASS_PartyPlanning.10}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_PartyPlanning.11}}\"/emote farmer 8/pause 500/globalFade/viewport -999 -999/message \"{{i18n:SASS_PartyPlanning.12}}\"/pause 1000/end",
+                /*"{{ModId}}_GardenParty/f RoseSASS 2500/e {{ModId}}_PartyPlanning/w sunny": "
+                breezy
+                /-100 -100
+                /RoseSASS 47 7 2 WildflourSASS -99 -99 0 MiyoungSBV -99 -99 0 SilasSBV -99 -99 0 JumanaSBV -99 -99 0 AminaSBV -99 -99 0 Leah -99 -99 0 Elliott 3-99 -99 0 Linus 3-99 -99 0 Evelyn -99 -99 0 George -99 -99 0
+                /addTemporaryActor CoriSASS 32 32 47 7 2 false character
+
+                /addTemporaryActor MasonSASS 32 32 -99 -99 0 false character
+                /addTemporaryActor FlorianSASS 32 32 -99 -99 0 false character
+                /addTemporaryActor ToffeeSASS 32 32 -99 -99 0 false character
+                /addTemporaryActor StoutSASS 32 32 -99 -99 0 false character
+                /addTemporaryActor WisteriaSASS 32 32 -99 -99 0 false character
+                /changeName CoriSASS Cori
+                /changeName MasonSASS Mason
+                /changeName FlorianSASS Florian
+                /changeName ToffeeSASS Toffee
+                /changeName StoutSASS Stout
+                /changeName WisteriaSASS Wisteria
+                /skippable
+                /viewport 40 8 clamp
+                /pause 500
+                /faceDirection WildflourSASS 3
+                /pause 500
+                
+                
+                /fade
+                /viewport -1000 -1000
+                /warp FlorianSASS 2 2 true
+                /warp MasonSASS 2 2 true
+                /warp StoutSASS 2 2 true
+                /warp ToffeeSASS 2 2 true
+                /warp WisteriaSASS 2 2 true
+                /warp WildflourSASS 2 2 true
+
+                /warp MiyoungSBV 2 2 true
+                /warp SilasSBV 2 2 true
+                /warp JumanaSBV 2 2 true
+                /warp AminaSBV 2 2 true
+                /warp Linus 2 2 true
+                /warp Leah 2 2 true
+                /warp Elliott 2 2 true
+                /warp Evelyn 2 2 true
+                /warp George 2 2 true
+
+                /pause 900
+                /changeToTemporaryMap {{ModId}}_GardenFete
+                /viewport 26 13 clamp
+                /viewport move 0 1 1000
+
+                ",*/
+            }
+        },
+
+        {
+            "LogName": "Atelier Events Rose and Wildflour",
+            "Action": "EditData",
+            "Target": "Data/Events/{{ModId}}_Atelier",
+            "Entries": {
+                "{{ModId}}_AwkwardAtelier/e {{ModId}}_RoseFlourIntro/NotActiveDialogueEvent RoseFlourIntroCT": "SettlingIn/-100 -100/farmer 19 16 1 WildflourSASS 28 17 2 RoseSASS -100 -100 1/skippable/move farmer 3 0 1 true/viewport 26 17 clamp/pause 500/faceDirection WildflourSASS 3/pause 500/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.01}}\"/pause 500/faceDirection farmer 2/pause 200/faceDirection farmer 1/message \"{{i18n:SASS_AwkwardAtelier.02}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.03}}\"/move WildflourSASS 0 -1 0/move farmer 5 0 1 true/pause 500/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.04}}\"/faceDirection WildflourSASS 2/pause 500/emote WildflourSASS 28/faceDirection WildflourSASS 3/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.05}}\"/emote farmer 12/message \"{{i18n:SASS_AwkwardAtelier.06}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.07}}\"/pause 500/emote WildflourSASS 60/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.08}}\"/pause 500/warp RoseSASS 10 20/playsound doorClose/jump WildflourSASS/jump farmer/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.09}}\"/speed RoseSASS 3/advancedMove RoseSASS false 4 0 0 -6 6 0 0 2 5 0/speed farmer 5/move farmer -5 0 2 WildflourSASS -2 0 3/move farmer 0 6 3 WildflourSASS 2 0 1/move farmer -1 0 1 WildflourSASS -2 0 3/move WildflourSASS 2 0 3/pause 1500/speak RoseSASS \"{{i18n:SASS_AwkwardAtelier.10}}\"/faceDirection RoseSASS 2/faceDirection RoseSASS 1/speak RoseSASS \"{{i18n:SASS_AwkwardAtelier.11}}\"/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.12}}\"/message \"{{i18n:SASS_AwkwardAtelier.13}}\"/speed farmer 3/advancedMove farmer false 1 0 0 -6 -3 0 0 -2 -5 0 0 6 -10 0/pause 500/speak RoseSASS \"{{i18n:SASS_AwkwardAtelier.14}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_AwkwardAtelier.15}}\"/globalFade/viewport -999 -999/pause 1000/end",
+                "{{ModId}}_FaeFlowers/f WildflourSASS 2500":"SunRoom/-100 -100/WildflourSASS 47 7 2 Jas 39 24 0 AminaSBV 40 24 0 farmer -99 -99 0/action AddSpecialOrder {{ModId}}_SO_5/skippable/viewport 40 8 clamp/pause 500/move WildflourSASS -2 0 0 true/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.01}}\"/move WildflourSASS 2 0 2 true/playsound doorClose/pause 500/move Jas 0 -15 0 true/move AminaSBV 0 -15 0 true/pause 1000/textAboveHead Jas \"{{i18n:SASS_FaeFlowers.02}}\"/pause 500/textAboveHead AminaSBV \"{{i18n:SASS_FaeFlowers.02}}\"/pause 500/emote WildflourSASS 16/pause 500/move WildflourSASS -7 0 2 false/move WildflourSASS 0 1 2 true/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.03}}\"/pause 500/speak Jas \"{{i18n:SASS_FaeFlowers.04}}\"/pause 500/faceDirection Jas 1/faceDirection AminaSBV 3/pause 500/faceDirection Jas 0/faceDirection AminaSBV 0/pause 500/speak AminaSBV \"{{i18n:SASS_FaeFlowers.05}}\"/pause 500/emote WildflourSASS 32/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.06}}\"/pause 500/speak AminaSBV \"{{i18n:SASS_FaeFlowers.07}}\"/pause 500/speak Jas \"{{i18n:SASS_FaeFlowers.08}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.09}}\"/pause 500/speak Jas \"{{i18n:SASS_FaeFlowers.10}}\"/pause 500/speak AminaSBV \"{{i18n:SASS_FaeFlowers.11}}\"/pause 500/faceDirection Jas 1/faceDirection AminaSBV 3/pause 500/faceDirection Jas 0/faceDirection AminaSBV 0/pause 500/emote AminaSBV 16/speak Jas \"{{i18n:SASS_FaeFlowers.12}}\"/pause 500/emote WildflourSASS 8/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.13}}\"/pause 500/jump AminaSBV 5/speak AminaSBV \"{{i18n:SASS_FaeFlowers.14}}\"/emote WildflourSASS 16/pause 500/speak Jas \"{{i18n:SASS_FaeFlowers.15}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.16}}\"/pause 500/jump AminaSBV 8/jump Jas 8/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.17}}\"/pause 500/emote WildflourSASS 40/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.18}}\"/pause 500/textAboveHead Jas \"{{i18n:SASS_FaeFlowers.19}}\"/textAboveHead AminaSBV \"{{i18n:SASS_FaeFlowers.19}}\"/pause 1000/emote WildflourSASS 32/pause 500/speak WildflourSASS \"{{i18n:SASS_FaeFlowers.20}}\"/pause 500/textAboveHead Jas \"{{i18n:SASS_FaeFlowers.21}}\"/pause 500/textAboveHead AminaSBV \"{{i18n:SASS_FaeFlowers.22}}\"/pause 500/globalFade/viewport -999 -999/pause 1000/end",
+                "{{ModId}}_BakingBonds/f RoseSASS 1500/e {{ModId}}_BlossomingBuddies": "kindadumbautumn/-100 -100/RoseSASS 7 20 0 MiyoungSBV -99 -99 1 farmer -98 -98 0/skippable/viewport 9 23 clamp/pause 1000/move RoseSASS -1 0 0 true/pause 500/playsound Ship/speak RoseSASS \"{{i18n:SASS_BakingBonds.01}}\"/pause 500/move RoseSASS -1 0 0 true/pause 500/playsound doorClose/warp MiyoungSBV 6 30 false/faceDirection MiyoungSBV 0/pause 500/move MiyoungSBV 0 -3 0 false/pause 500/faceDirection MiyoungSBV 3/pause 500/faceDirection MiyoungSBV 1/pause 500/speak MiyoungSBV \"{{i18n:SASS_BakingBonds.02}}\"/pause 500/speak RoseSASS \"{{i18n:SASS_BakingBonds.03}}\"/pause 500/faceDirection MiyoungSBV 0/emote MiyoungSBV 8/pause 500/advancedMove MiyoungSBV false -1 0 0 -5 4/pause 500/speak MiyoungSBV \"{{i18n:SASS_BakingBonds.04}}\"/jump RoseSASS 8/emote RoseSASS 16/speak RoseSASS \"{{i18n:SASS_BakingBonds.05}}\"/pause 500/emote MiyoungSBV 16/pause 500/speak MiyoungSBV \"{{i18n:SASS_BakingBonds.06}}\"/pause 500/faceDirection RoseSASS 2/speak RoseSASS \"{{i18n:SASS_BakingBonds.07}}\"/pause 500/advancedMove MiyoungSBV false 0 -1 -1 0 0 -1 1 500/pause 500/faceDirection RoseSASS 3/speak MiyoungSBV \"{{i18n:SASS_BakingBonds.08}}\"/pause 500/emote RoseSASS 20/pause 500/speak RoseSASS \"{{i18n:SASS_BakingBonds.09}}\"/pause 500/emote MiyoungSBV 32/pause 500/speak MiyoungSBV \"{{i18n:SASS_BakingBonds.10}}\"/pause 500/speak RoseSASS \"{{i18n:SASS_BakingBonds.11}}\"/pause 500/speak RoseSASS \"{{i18n:SASS_BakingBonds.12}}\"/pause 500/speak MiyoungSBV \"{{i18n:SASS_BakingBonds.13}}\"/pause 500/speak RoseSASS \"{{i18n:SASS_BakingBonds.14}}\"/pause 500/jump RoseSASS 8/speak RoseSASS \"{{i18n:SASS_BakingBonds.15}}\"/pause 500/move RoseSASS 0 1 2 true/pause 500/advancedMove RoseSASS false -2 0 0 1 2 500/pause 500/emote MiyoungSBV 20/faceDirection MiyoungSBV 2/pause 500/globalFade/viewport -999 -999/pause 1000/end",
+                }
+        },
+
+        {
+            "LogName": "2 Heart Rose - ForagingFriendships",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "{{ModId}}_ForagingFriendships/f RoseSASS 500/e {{ModId}}_AwkwardAtelier/w sunny": "breezy/-100 -100/farmer -100 -100 0 RoseSASS 18 60 2 Linus 27 53 3/animate RoseSASS false true 120 17 17 18 18 18 19 19 19 18 18 18 17 17/addobject 18 61 257/addobject 26 54 22/skippable/viewport 27 60/pause 500/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.01}}\"/removeobject 18 61/pause 500/stopAnimation RoseSASS/move RoseSASS 5 0 2/animate RoseSASS false true 120 17 17 18 18 18 19 19 19 18 18 18 17 17/pause 500/speak Linus \"{{i18n:SASS_ForagingFriendships.02}}\"/removeobject 26 54/pause 500/move Linus 0 4 3/animate Linus true true 300 20 21/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.03}}\"/pause 500/stopAnimation Linus/speak Linus \"{{i18n:SASS_ForagingFriendships.04}}\"/pause 500/stopAnimation RoseSASS/move RoseSASS 3 0 1 Linus 0 3 3/jump RoseSASS/jump Linus/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.05}}\"/pause 500/speak Linus \"{{i18n:SASS_ForagingFriendships.06}}\"/speed RoseSASS 5/move RoseSASS 0 3 2/speed Linus 5/move Linus 0 1 2/pause 500/speak Linus \"{{i18n:SASS_ForagingFriendships.07}}\"/pause 500/faceDirection RoseSASS 0/pause 500/emote RoseSASS 40/move RoseSASS 0 -2 1/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.08}}\"/emote Linus 32/speak Linus \"{{i18n:SASS_ForagingFriendships.09}}\"/pause 500/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.10}}\"/pause 500/emote Linus 28/pause 500/speak Linus \"{{i18n:SASS_ForagingFriendships.11}}\"/emote RoseSASS 32/pause 500/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.12}}\"/pause 500/jump Linus/speak Linus \"{{i18n:SASS_ForagingFriendships.13}}\"/jump RoseSASS/speak RoseSASS \"{{i18n:SASS_ForagingFriendships.14}}\"/globalFade/viewport -999 -999/pause 1000/end",
+            }
+        },
+
+        {
+            "LogName": "2 Heart Wildflour - Magical Forage Introduction",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_SBV_SunberryRoad",
+            "Entries": {
+                "{{ModId}}_MysteriousForage/f WildflourSASS 500/w sunny": "jaunty/-100 -100/WildflourSASS 25 22 2 farmer 42 26 3/animate WildflourSASS false true 180 17 18 18 19 19 20 20 20 19 19 18 18 17/makeInvisible 19 20 14 7/action AddSpecialOrder {{ModId}}_SO_1/skippable/move farmer -11 0 3 true/viewport 25 22 clamp/pause 4000/stopAnimation WildflourSASS 17/pause 500/faceDirection WildflourSASS 1/pause 500/speak WildflourSASS \"{{i18n:SASS_MysteriousForage.01}}\"/pause 500/emote farmer 8/pause 500/advancedMove farmer false -5 0 0 -4 3 500/pause 500/faceDirection WildflourSASS 2/pause 1000/addObject 25 23 {{ModId}}_Dream_Spinner 2/pause 500/emote farmer 16/pause 500/message \"{{i18n:SASS_MysteriousForage.02}}\"/pause 500/faceDirection farmer 3/pause 500/faceDirection WildflourSASS 1/pause 500/speak WildflourSASS \"{{i18n:SASS_MysteriousForage.03}}\"/pause 500/message \"{{i18n:SASS_MysteriousForage.04}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_MysteriousForage.05}}\"/pause 500/faceDirection WildflourSASS 2/pause 500/removeObject 25 23 {{ModId}}_Dream_Spinner/pause 500/faceDirection WildflourSASS 1/pause 500/speak WildflourSASS \"{{i18n:SASS_MysteriousForage.06}}\"/pause 500/emote farmer 40/pause 500/speak WildflourSASS \"{{i18n:SASS_MysteriousForage.07}}\"/pause 500/emote farmer 32/pause 500/speak WildflourSASS \"{{i18n:SASS_MysteriousForage.08}}\"/advancedMove WildflourSASS false 0 5 1 500 10 0 2 1000/pause 400/globalFade/viewport -999 -999/pause 1000/end",
+            }
+        },
+
+        {
+            "LogName": "4 Heart Rose - Jumana Flower Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_SBV_SunberryVillage",
+            "Entries": {
+                "{{ModId}}_BlossomingBuddies/f RoseSASS 1000/w sunny": "jaunty/-100 -100/farmer -100 -100 0 RoseSASS 28 59 0 JumanaSBV 33 53 0/skippable/viewport 31 52/pause 1500/speak RoseSASS \"{{i18n:SASS_BlossomingBuddies.01}}\"/pause 1000/emote JumanaSBV 40/speak JumanaSBV \"{{i18n:SASS_BlossomingBuddies.02}}\"/pause 500/emote RoseSASS 16/pause 500/speak RoseSASS \"{{i18n:SASS_BlossomingBuddies.03}}\"/faceDirection RoseSASS 2/pause 500/faceDirection JumanaSBV 2/speak JumanaSBV \"{{i18n:SASS_BlossomingBuddies.04}}\"/emote RoseSASS 32/move RoseSASS 4 0 0 false/speak RoseSASS \"{{i18n:SASS_BlossomingBuddies.05}}\"/pause 500/move RoseSASS 0 -1 0 false/pause 500/speak RoseSASS \"{{i18n:SASS_BlossomingBuddies.06}}\"/pause 500/move RoseSASS 0 -1 0 false/speak RoseSASS \"{{i18n:SASS_BlossomingBuddies.07}}\"/pause 500/emote JumanaSBV 20/pause 500/speak JumanaSBV \"{{i18n:SASS_BlossomingBuddies.08}}\"/pause 500/emote RoseSASS 20/pause 500/speak JumanaSBV \"{{i18n:SASS_BlossomingBuddies.09}}\"/jump RoseSASS 5/pause 500/speak RoseSASS \"{{i18n:SASS_BlossomingBuddies.10}}\"/move RoseSASS 0 -4 1 true/pause 1000/faceDirection JumanaSBV 3/globalFade/viewport -1000 -1000/pause 600/end"
+            }
+        },
+
+        {
+            "LogName": "4 Heart Wildflour - MoonDrops",
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "Entries": {
+                "{{ModId}}_SproutMoonDrops/f WildflourSASS 1000/w sunny": "woodsTheme/-100 -100/WildflourSASS 35 13 2 farmer 54 13 3/addObject 35 14 {{ModId}}_Amber_MoonDrop 2/action AddSpecialOrder {{ModId}}_SO_2/skippable/move farmer -18 0 3 true/viewport 35 13/pause 1000/faceDirection WildflourSASS 1/pause 500/emote WildflourSASS 20/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.01}}\"/pause 500/emote farmer 32/pause 500/faceDirection WildflourSASS 2/faceDirection farmer 2/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.02}}\"/pause 500/faceDirection farmer 3/pause 500/emote farmer 8/pause 500/faceDirection WildflourSASS 1/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.03}}\"/pause 500/emote farmer 40/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.04}}\"/pause 500/message \"{{i18n:SASS_SproutMoonDrops.05}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.06}}\"/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.07}}\"/pause 500/jump WildflourSASS 8/emote WildflourSASS 16/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.08}}\"/pause 500/emote WildflourSASS 28/emote farmer 28/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.09}}\"/pause 500/removeObject 35 14 {{ModId}}_Amber_MoonDrop/pause 500/faceDirection WildflourSASS 2/emote WildflourSASS 12/pause 500/speak WildflourSASS \"{{i18n:SASS_SproutMoonDrops.10}}\"/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end",
+            }
+        },
+
+        {
+            "LogName": "6 Heart Wildflour - Mushrooms",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_SBV_SecretCave",
+            "Entries": {
+                "{{ModId}}_MagicMushrooms/f WildflourSASS 1500": "Cavern/-100 -100/farmer -100 -100 0 WildflourSASS 15 38 0 RoseSASS 16 38 0/action AddSpecialOrder {{ModId}}_SO_3/addObject 21 32 {{ModId}}_Rustgill 2/skippable/move WildflourSASS 0 -6 0 true/viewport 15 35 clamp/pause 1000/emote WildflourSASS 32/pause 1500/faceDirection WildflourSASS 3/pause 500/faceDirection WildflourSASS 2/pause 500/speak WildflourSASS \"{{i18n:SASS_MagicMushrooms.01}}\"/pause 500/move RoseSASS 0 -4 0 false/pause 500/emote RoseSASS 40/pause 500/speak RoseSASS \"{{i18n: SASS_MagicMushrooms.02}}\"/pause 500/move WildflourSASS 5 0 1 false/pause 500/move RoseSASS 0 -2 0 false/pause 500/move RoseSASS 3 0 1 true/pause 1000/faceDirection WildflourSASS 3/pause 500/speak WildflourSASS \"{{i18n:SASS_MagicMushrooms.03}}\"/pause 500/faceDirection WildflourSASS 1/pause 500/jump RoseSASS 7/pause 500/speak RoseSASS \"{{i18n:SASS_MagicMushrooms.04}}\"/pause 500/removeObject 21 32 {{ModId}}_Rustgill/pause 500/emote WildflourSASS 32/pause 500/faceDirection WildflourSASS 3/pause 500/speak WildflourSASS \"{{i18n:SASS_MagicMushrooms.05}}\"/pause 500/emote RoseSASS 12/pause 500/speak RoseSASS \"{{i18n:SASS_MagicMushrooms.06}}\"/pause 500/faceDirection RoseSASS 3/pause 500/speak RoseSASS \"{{i18n:SASS_MagicMushrooms.07}}\"/pause 500/emote WildflourSASS 16/pause 500/speak WildflourSASS \"{{i18n:SASS_MagicMushrooms.08}}\"/pause 500/faceDirection RoseSASS 2/pause 500/speak WildflourSASS \"{{i18n:SASS_MagicMushrooms.09}}\"/pause 500/speak RoseSASS \"{{i18n:SASS_MagicMushrooms.10}}\"/pause 500/jump WildflourSASS 5/pause 500/move RoseSASS -4 0 2 true/pause 500/speak WildflourSASS \"{{i18n:SASS_MagicMushrooms.11}}\"/pause 500/move WildflourSASS -5 0 2 true/pause 1000/textAboveHead RoseSASS \"{{i18n:SASS_MagicMushrooms.12}}\"/pause 1000/move RoseSASS 0 10 0 true/pause 500/move WildflourSASS 0 10 0 true/pause 1000/textAboveHead WildflourSASS \"{{i18n:SASS_MagicMushrooms.13}}\"/pause 1000/textAboveHead RoseSASS \"{{i18n:SASS_MagicMushrooms.14}}\"/pause 1000/globalFade/viewport -1000 -1000/pause 600/end"
+            }
+        }
+    ]
+}

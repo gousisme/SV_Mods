@@ -1,0 +1,645 @@
+{
+  "Changes": [
+
+// MAIL
+
+{
+  "Action": "EditData",
+  "Target": "Data/Mail",
+      "Entries": {
+          "Wildflour.AtelierGoods_SO_Milk_Harvey_reward": "{{i18n: AtelierGoods_SO_Milk_Harvey_reward.text}} %item id (O)Wildflour.AtelierGoods_Pistachio_Sapling 1 %%[#]{{i18n: AtelierGoods_SO_Milk_Harvey_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Flours_George_reward": "{{i18n: AtelierGoods_SO_Flours_George_reward.text}} %item id (O)Wildflour.AtelierGoods_Olive_Sapling 1 %%[#]{{i18n: AtelierGoods_SO_Flours_George_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Pantry_Challenge_reward": "{{i18n: AtelierGoods_SO_Pantry_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Pantry_Challenge_reward.name}}",
+          "Wildflour.AtelierGoods_SO_Jams_Marnie_reward": "{{i18n: AtelierGoods_SO_Jams_Marnie_reward.text}} %item id (O)Wildflour.AtelierGoods_Pectin 20 %%[#]{{i18n: AtelierGoods_SO_Jams_Marnie_reward.name}}",     
+          "Wildflour.AtelierGoods_SO_Jams_Jodi_reward": "{{i18n: AtelierGoods_SO_Jams_Jodi_reward.text}} %item id (BC)Wildflour.AtelierGoods_KitchenBlender 1 %%[#]{{i18n: AtelierGoods_SO_Jams_Jodi_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Jams_Lewis_reward": "{{i18n: AtelierGoods_SO_Jams_Lewis_reward.text}} %item id (O)Wildflour.AtelierGoods_Lime_Sapling 2 %%[#]{{i18n: AtelierGoods_SO_Jams_Lewis_reward.name}}", 
+          "Wildflour.AtelierGoods_SO_Jams_Challenge_reward": "{{i18n: AtelierGoods_SO_Jams_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Jams_Challenge_reward.name}}" 
+           
+      }
+  },
+
+// SPECIAL ORDERS
+
+    {
+    "LogName": "Pantry Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:FloristOnly": false},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_FruitCurd_Pierre": {
+        "Name": "{{i18n:AtelierGoods_SO_FruitCurd_Pierre.name}}",
+        "Requester": "Pierre",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_FruitCurd_Pierre.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_FruitCurd_Pierre.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "fruit_butter_item",
+                "TargetName": "Pierre"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3360"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Pierre"
+                }
+              }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Milk_Harvey": {
+        "Name": "{{i18n:AtelierGoods_SO_Milk_Harvey.name}}",
+        "Requester": "Harvey",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Milk_Harvey.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Milk_Harvey.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "DropBox": "Milk_Harvey",
+                "DropBoxGameLocation": "Hospital",
+                "DropBoxIndicatorLocation": "2 4",
+                "AcceptedContextTags": "alternative_milk_item"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2500"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Harvey"
+                }
+              },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "Wildflour.AtelierGoods_SO_Milk_Harvey_reward",
+                    "NoLetter": "false"
+              }
+            }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Flours_George": {
+        "Name": "{{i18n:AtelierGoods_SO_Flours_George.name}}",
+        "Requester": "George",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Flours_George.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:AtelierGoods_SO_Flours_George.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "Flour_George",
+							  "DropBoxGameLocation": "JoshHouse",
+							  "DropBoxIndicatorLocation": "19 21",
+                "AcceptedContextTags": "flour_item, wildflour_pantry_item",
+                "Message": "{{i18n:AtelierGoods_SO_Flours_George.accept}}"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "George"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_Flours_George_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+    },
+      "Wildflour.AtelierGoods_SO_Pantry_Challenge": {
+        "Name": "{{i18n:AtelierGoods_SO_Pantry_Challenge.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Pantry_Challenge.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:AtelierGoods_SO_Pantry_Challenge.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_pantry_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_Pantry_Challenge_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+    }
+    }
+  },
+
+  {
+    "LogName": "Pantry Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_SO_OliveOil_Abigail": {
+        "Name": "{{i18n:AtelierGoods_SO_OliveOil_Abigail.name}}",
+        "Requester": "Abigail",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_OliveOil_Abigail.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_OliveOil_Abigail.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "olive_oil_item",
+                "Message": "{{i18n:AtelierGoods_SO_OliveOil_Abigail.accept}}",
+                "TargetName": "Abigail"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+    
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      },
+      "Wildflour.AtelierGoods_SO_Chocolate_Gus": {
+        "Name": "{{i18n:AtelierGoods_SO_Chocolate_Gus.name}}",
+        "Requester": "Gus",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Chocolate_Gus.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Chocolate_Gus.deliver}}",
+              "RequiredCount": "9",
+              "Data": {
+                "AcceptedContextTags": "chocolate_item, ingredient_item",
+                "Message": "{{i18n:AtelierGoods_SO_Chocolate_Gus.accept}}",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "12500"
+              }
+            },
+    
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+{
+  "LogName": "Jams Orders",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "When":  {"Atelier.Cauldron/ConfigValue:Jams": true},
+  "Entries": {
+    "Wildflour.AtelierGoods_SO_Jams_George": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_George.name}}",
+      "Requester": "George",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_George.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_George.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "wildflour_jam_item",
+              "Message": "{{i18n:AtelierGoods_SO_Jams_George.accept}}",
+              "TargetName": "George"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "2100"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "George"
+              }
+            }
+        ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Marnie": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Marnie.name}}",
+      "Requester": "Marnie",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Marnie.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Marnie.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "wildflour_jam_item",
+              "Message": "{{i18n:AtelierGoods_SO_Jams_Marnie.accept}}",
+              "TargetName": "Marnie"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "4600"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Marnie"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_Jams_Marnie_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Jodi": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Jodi.name}}",
+      "Requester": "Jodi",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Jodi.text}}",
+      "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Jodi.deliver}}",
+            "RequiredCount": "9",
+            "Data": {
+              "DropBox": "Jam_Jodi",
+              "DropBoxGameLocation": "SamHouse",
+              "DropBoxIndicatorLocation": "3 4",
+              "AcceptedContextTags": "wildflour_jam_item"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "9850"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Jodi"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "Wildflour.AtelierGoods_SO_Jams_Jodi_reward",
+                  "NoLetter": "false"
+            }
+          }
+        ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Lewis": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Lewis.name}}",
+      "Requester": "Lewis",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Lewis.text}}",
+      "Objectives": [
+          {
+            "Type": "Donate",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Lewis.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "DropBox": "Jam_Lewis",
+              "DropBoxGameLocation": "ManorHouse",
+              "DropBoxIndicatorLocation": "5 4",
+              "AcceptedContextTags": "marmalade_item"
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "12000"
+          }
+        },
+
+        {
+          "Type": "Friendship",
+          "Data": {
+                "Amount": "250",
+                "TargetName": "Lewis"
+            }
+          },
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "Wildflour.AtelierGoods_SO_Jams_Lewis_reward",
+                "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Challenge": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Challenge.name}}",
+      "Requester": "Lewis",
+      "Duration": "Month",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Challenge.text}}",
+      "Objectives": [
+          {
+            "Type": "Ship",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Challenge.ship}}",
+            "RequiredCount": "100",
+            "Data": {
+              "AcceptedContextTags": "wildflour_jam_item"
+            }
+          }
+        ],
+      "Rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "100000"
+          }
+        },
+
+        {
+          "Type": "Mail",
+          "Data": {
+                "MailReceived": "Wildflour.AtelierGoods_SO_Jams_Challenge_reward",
+                "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Linus": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Linus.name}}",
+      "Requester": "Linus",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Linus.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Linus.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "AcceptedContextTags": "wildflour_jam_item",
+              "Message": "{{i18n:AtelierGoods_SO_Jams_Linus.accept}}",
+              "TargetName": "Linus"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "1800"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Penny": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Penny.name}}",
+      "Requester": "Penny",
+      "Duration": "Week",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Penny.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Penny.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "wildflour_jam_item",
+              "Message": "{{i18n:AtelierGoods_SO_Jams_Penny.accept}}",
+              "TargetName": "Penny"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "4700"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    },
+    "Wildflour.AtelierGoods_SO_Jams_Clint": {
+      "Name": "{{i18n:AtelierGoods_SO_Jams_Clint.name}}",
+      "Requester": "Clint",
+      "Duration": "TwoWeeks",
+      "Repeatable": "False",
+      "RequiredTags": "{{PriorityConfig}}",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:AtelierGoods_SO_Jams_Clint.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:AtelierGoods_SO_Jams_Clint.deliver}}",
+            "RequiredCount": "10",
+            "Data": {
+              "AcceptedContextTags": "wildflour_jam_item",
+              "Message": "{{i18n:AtelierGoods_SO_Jams_Clint.accept}}",
+              "TargetName": "Clint"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12500"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  ]
+}
+

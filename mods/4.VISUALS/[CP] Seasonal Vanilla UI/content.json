@@ -1,0 +1,237 @@
+{
+    "Format": "2.6.0",
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/{{season}}/UIseasonal_{{random:1,2}}.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "LocationName |contains=Temp, DesertFestival, Beach": "false",
+                "LocationContext |contains=Island, Desert": "false"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/spirit's eve.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "spirit's eve",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/egg festival.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "egg festival",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/Luau.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "Luau",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/flower dance.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/feast of the winter star.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/dance of the moonlight jellies.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/stardew valley fair.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/festival of ice.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "DayEvent": "festival of ice",
+                "LocationName": "Temp"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Festivals/Desert Festival.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "LocationName": "DesertFestival",
+                "LocationContext": "Desert"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/GingerIsland/Ginger_Island.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "LocationContext": "Island"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Desert/Desert.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "LocationContext": "Desert",
+                "LocationName |contains=DesertFestival": "false"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Beach/{{season}}_beach.png",
+            "ToArea": {
+                "X": 583,
+                "Y": 411,
+                "Width": 115,
+                "Height": 97
+            },
+            "Priority": "Late + 999999",
+            "When": {
+                "LocationName": "Beach"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

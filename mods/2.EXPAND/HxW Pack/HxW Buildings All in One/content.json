@@ -1,0 +1,157 @@
+{
+    "Format": "2.5.0",
+
+    "ConfigSchema": {
+        "Bakery": {
+            "Description": "Choose from Building, Shed, or false. Building adds the bakery as a new custom building. Shed adds it as a shed upgrade for Market Town compatibility but it will NOT be compatible with other custom shed interiors. False disables the bakery entirely. Defaults to Building.",
+            "AllowValues": "Building, Shed, false",
+            "Default": "Building",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "Brewery": {
+            "Description": "Choose from Building, Shed, or false. Building adds the Brewery as a new custom building. Shed adds it as a shed-type building for Market Town compatibility but it will NOT be compatible with other custom shed interiors. False disables the brewery entirely. Defaults to Building.",
+            "AllowValues": "Building, Shed, false",
+            "Default": "Building",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "Conservatory": {
+            "Description": "Choose if you would like to enable the tea conservatory. True by default.",
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "Florist": {
+            "Description": "Choose from Building, Shed, or false. Building adds the flower shop as a new custom building. Shed adds it as a shed-type building for Market Town compatibility but it will NOT be compatible with other custom shed interiors. False disables the flower shop entirely. Defaults to Building.",
+            "AllowValues": "Building, Shed, false",
+            "Default": "Building",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "Restaurant": {
+            "Description": "Choose from Building, Shed, or false. Building adds the Restaurant as a new custom building. Shed adds it as a shed-type building for Market Town compatibility but it will NOT be compatible with other custom shed interiors. False disables the restaurant entirely. Defaults to Building.",
+            "AllowValues": "Building, Shed, false",
+            "Default": "Building",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "TeaShop": {
+            "Description": "Choose from Building, Shed, or false. Building adds the Tea Shop as a new custom building. Shed adds it as a shed upgrade for Market Town compatibility but it will NOT be compatible with other custom shed interiors. False disables the tea shop entirely. Defaults to Building.",
+            "AllowValues": "Building, Shed, false",
+            "Default": "Building",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "Winery": {
+            "Description": "Choose from Building, Shed, or false. Building adds the Winery as a new custom building. Shed adds it as a shed-type building for Market Town compatibility but it will NOT be compatible with other custom shed interiors. False disables the winery entirely. Defaults to Building.",
+            "AllowValues": "Building, Shed, false",
+            "Default": "Building",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          },
+        "SlimeHutchRenovation": {
+            "Description": "Choose if you would like to change the slime hutch interior to one of our custom map interiors: bakery, brewery, restaurant, tea shop, or winery. Non-upgradable version of map only. False by default.",
+            "AllowValues": "Bakery, Brewery, Restaurant, Tea Shop, Winery, false",
+            "Default": false,
+            "AllowBlank": false,
+            "AllowMultiple": false
+            },
+        "InteriorStyle": {
+            "Description": "Choose if you would like the interior of the buildings to be pre-furnished with movable furniture or empty. Defaults to Furnished. NOTE: you must have the right furniture pack installed in order for the furniture to spawn in. See mod page for details.",
+            "AllowValues": "Furnished, Empty",
+            "Default": "Furnished",
+            "AllowBlank": false,
+            "AllowMultiple": false
+        }
+    },
+
+    "Changes": [
+
+        {
+            "LogName": "Bakery Data",
+            "Action": "Include",
+            "FromFile": "Data/Bakery_Tokens.json",
+            "When":{"Bakery: |contains= Building, Shed": true}
+        },
+        
+        {
+            "LogName": "Bakery Furniture Data",
+            "Action": "Include",
+            "FromFile": "Data/Bakery_Furniture.json",
+            "When":{"Bakery: |contains= Building, Shed": true, "InteriorStyle": "Furnished", "HasMod: |contains=HXW.BakeryFurni": true}
+        },
+
+        {
+            "LogName": "Brewery Data",
+            "Action": "Include",
+            "FromFile": "Data/Brewery_Tokens.json, Data/Brewery_Buffs.json",
+            "When":{"Brewery: |contains= Building, Shed": true}
+        },
+
+        {
+            "LogName": "Conservatory Data",
+            "Action": "Include",
+            "FromFile": "Data/Conservatory_Tokens.json",
+            "When":{"Conservatory": true}
+        },
+
+        {
+            "LogName": "Florist Data",
+            "Action": "Include",
+            "FromFile": "Data/Florist_Tokens.json",
+            "When":{"Florist: |contains= Building, Shed": true}
+        },
+
+        {
+            "LogName": "Restaurant Data",
+            "Action": "Include",
+            "FromFile": "Data/Restaurant_Tokens.json",
+            "When":{"Restaurant: |contains= Building, Shed": true}
+        },
+
+        {
+            "LogName": "Restaurant Furniture Data",
+            "Action": "Include",
+            "FromFile": "Data/Restaurant_Furniture.json",
+            "When":{"Restaurant: |contains= Building, Shed": true, "InteriorStyle": "Furnished", "HasMod: |contains=HXW.RestaurantFurni, HXW.ModularKitchen": true}
+        },
+
+        {
+            "LogName": "Tea Shop Data",
+            "Action": "Include",
+            "FromFile": "Data/TeaShop_Tokens.json",
+            "When":{"TeaShop: |contains= Building, Shed": true}
+        },
+
+        {
+            "LogName": "Tea Shop Furniture Data",
+            "Action": "Include",
+            "FromFile": "Data/TeaShop_Furniture.json",
+            "When":{"TeaShop: |contains= Building, Shed": true, "InteriorStyle": "Furnished", "HasMod: |contains=HXW.PlantLoversFurni": true}
+        },
+
+        {
+            "LogName": "Winery Data",
+            "Action": "Include",
+            "FromFile": "Data/Winery_Tokens.json, Data/Winery_Buffs.json",
+            "When":{"Winery: |contains= Building, Shed": true}
+        },
+
+        {
+            "LogName": "Winery Furniture Data",
+            "Action": "Include",
+            "FromFile": "Data/Winery_Furniture.json",
+            "When":{"Winery: |contains= Building, Shed": true, "InteriorStyle": "Furnished", "HasMod: |contains=HXW.WineryFurni": true}
+        },
+
+        {
+            "LogName": "Slime Hutch Data",
+            "Action": "Include",
+            "FromFile": "Data/Slime_Hutch.json",
+            "When":{"Query: '{{SlimeHutchRenovation}}' <> 'false'": true}
+        }
+
+    ]
+}

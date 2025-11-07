@@ -1,0 +1,89 @@
+{
+   "Changes": 
+     // Custom Companions - CP
+     [
+      {
+         "LogName": "Ripley's Farm Animals",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryVillage",
+         "MapTiles":[            
+             //No conditions
+             {
+                 "Position": {
+                     "X": "24",
+                     "Y": "84"
+                 },
+                 "Layer": "Back",
+                 "SetProperties": {
+                     "CustomCompanions": "Spawn 1 Clara.RipleyCC.Tess"
+                 }
+                },
+                {
+                    "Position": {
+                        "X": "22",
+                        "Y": "83"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 Clara.RipleyCC.Oakley"
+                    }
+                   },
+                {
+
+                     "Position": {
+                        "X": "6",
+                        "Y": "94"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 Clara.RipleyCC.Maisie"
+                    }
+                },  
+                {
+
+                    "Position": {
+                       "X": "3",
+                       "Y": "94"
+                   },
+                   "Layer": "Back",
+                   "SetProperties": {
+                       "CustomCompanions": "Spawn 1 Clara.RipleyCC.Pepper"
+                   }
+               },  
+                {
+
+                    "Position": {
+                       "X": "26",
+                       "Y": "81"
+                   },
+                   "Layer": "Back",
+                   "SetProperties": {
+                       "CustomCompanions": "Spawn 1 Clara.RipleyCC.Effie"
+                   }
+               }, 
+               {
+
+                "Position": {
+                   "X": "30",
+                   "Y": "83"
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                   "CustomCompanions": "Spawn 1 Clara.RipleyCC.Una"
+               }
+                }, 
+                {
+
+                    "Position": {
+                       "X": "27",
+                       "Y": "84"
+                   },
+                   "Layer": "Back",
+                   "SetProperties": {
+                       "CustomCompanions": "Spawn 1 Clara.RipleyCC.Maude"
+                   }
+                 }          
+         ]
+     }
+   ]
+}

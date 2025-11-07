@@ -1,0 +1,98 @@
+{
+	"Name": "Tess",
+	"Type": "Walking",
+	"FrameSizeWidth": 32,
+	"FrameSizeHeight": 32,
+	"IdleBehavior": "Wander",
+  "TravelSpeed": 1,
+	"InspectionDialogue": "You reach up to pet Tess on her fluffy head.",
+
+	
+  // This plays when the companion travels upwards
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 8,
+      "NumberOfFrames": 1,
+      "Duration": 300
+    }
+  },
+
+  // This plays when the companion travels downwards
+  "DownAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 300
+    }
+  },
+
+  // This plays when the companion travels left
+  "LeftAnimation": {
+    "ManualFrames": [
+      {
+        "Frame": 7,
+        "Duration": 300,
+        "Flip": true
+      },
+      {
+        "Frame": 6,
+        "Duration": 300,
+        "Flip": true
+      },
+      {
+        "Frame": 5,
+        "Duration": 300,
+        "Flip": true
+      },
+      {
+        "Frame": 4,
+        "Duration": 300,
+        "Flip": true
+      }
+    ],
+
+    "IdleAnimation": {
+      "ManualFrames": [
+        {
+          "Frame": 4,
+          "Duration": 300,
+          "Flip": true
+        }
+      ]
+    }
+  },
+
+  // This plays when the companion travels right
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 4,
+      "NumberOfFrames": 1,
+      "Duration": 300
+    }
+  },
+
+  "Sounds": 
+  [
+   {
+    "SoundName": "cow",
+    "WhenToPlay": "Idle",
+    "Pitch": 700,
+    "MaxPitchRandomness": 100,
+    "TimeBetweenSound": 3000,
+    "ChanceOfPlaying": 0.3
+   }
+  ] 
+
+}

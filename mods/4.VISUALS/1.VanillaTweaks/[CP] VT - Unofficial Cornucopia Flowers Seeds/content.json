@@ -1,0 +1,78 @@
+{
+	"Format": "2.0.0",
+    
+    "ConfigSchema": {
+    // TYPE TOGGLES
+        "SaturationToggle": 
+		{
+			// "AllowValues": "Saturated, Desaturated",
+            "AllowValues": "Saturated",
+            "Default": "Saturated"
+		},
+		"SeasonalColouredSeedbags": 
+		{
+			"AllowValues": "Seasonal, NonSeasonal",
+			"Default": "Seasonal"
+		},
+    // SPRITE CATEGORIES
+        "SeedBagsEnabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggles"
+		},
+        "SaplingsEnabled": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggles"
+		},
+        // "BushesEnabled": {
+		// 	"AllowValues": "true, false",
+		// 	"Default": "true",
+		// 	"Section": "Toggles"
+		// }
+
+        // "ToggleAltSeedbags": {
+        //     "AllowValues": "true, false",
+		// 	"Default": "true",
+		// 	"Section": "Toggles"
+        // },
+
+    // SEED COLLECTIONS
+        
+        "UniqueSeedbag": {
+            "AllowMultiple": true,
+            "AllowValues": "Prismatic Rose, Rose, Rafflesia",
+            "Default": "Prismatic Rose, Rose, Rafflesia",
+            "Section": "Unique Bag Colours"
+        },
+
+        "AltSapling": {
+            "AllowMultiple": true,
+            "AllowValues": "Wisteria, Hibiscus, Jasmine, Magnolia, Ylang-Ylang",
+            "Default": "Wisteria, Hibiscus, Jasmine, Magnolia, Ylang-Ylang",
+            "Section": "Alternate Saplings"
+        },
+    },
+
+    // CODE POINTERS
+    "Changes": [
+        {
+            "LogName": "Flowers Seed Code",
+            "Action": "Include",
+            "FromFile": "Code/SeedBags.json",
+            "When": { "SeedBagsEnabled": true}
+        },
+        {
+            "LogName": "Flowers Saplings Code",
+            "Action": "Include",
+            "FromFile": "Code/Sapling.json",
+            "When": { "SaplingsEnabled": true}
+        },
+        // {
+        //     "LogName": "Flowers Bushes Code",
+        //     "Action": "Include",
+        //     "FromFile": "Code/Bush.json",
+        //     "When": { "BushesEnabled": true}
+        // }
+    ]
+}

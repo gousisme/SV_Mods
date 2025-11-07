@@ -1,0 +1,538 @@
+{
+	"Changes": [
+	{ // MIYOUNG'S HOUSE: 2 HEART - JONGHYUK RIVAL EVENT
+		"Action": "EditData",
+		"Target": "Data/Events/Custom_SBV_MiyoungHouse",
+		"Entries": {
+			"{{ModId}}_MiyoungMeddling/Friendship Jonghyuk 500/GameStateQuery \"!PLAYER_NPC_RELATIONSHIP Current Jonghyuk Dating Engaged Married\"": "
+			jaunty
+			/7 9 
+			/LaniSBV 9 14 1 Jonghyuk 10 15 0 MiyoungSBV 2 5 0 
+			/skippable
+			/pause 500
+			/playSound drumkit6
+			/playSound drumkit6
+			/playSound drumkit6
+			/speak MiyoungSBV \"Do you two want spinach on your sandwiches?\"
+			/pause 500
+			/textAboveHead LaniSBV \"Yes please!\"
+			/pause 200
+			/textAboveHead Jonghyuk \"Yes!\"
+			/pause 500
+			/beginSimultaneousCommand
+				/playSound breakingGlass
+				/textAboveHead MiyoungSBV \"Ouch!\"
+				/jump MiyoungSBV 8
+			/endSimultaneousCommand
+			/pause 500
+			/beginSimultaneousCommand
+				/emote LaniSBV 16
+				/emote Jonghyuk 16
+			/endSimultaneousCommand
+			/pause 200
+			/speed LaniSBV 5
+			/move LaniSBV -2 0 3
+			/speed LaniSBV 5
+			/move LaniSBV 0 -8 0 true
+			/speak LaniSBV \"Miyoung! Are you okay?!\"
+			/faceDirection MiyoungSBV 2
+			/shake MiyoungSBV 500
+			/speed LaniSBV 5
+			/move LaniSBV -4 0 0 true
+			/speak LaniSBV \"Oh, no, you're bleeding! Um, crap, where are your bandages?!\"
+			/move LaniSBV 0 -1 3 true
+			/pause 500
+			/speak MiyoungSBV \"Oh, hush, it's really not that bad. I'll just put a rag on it until the bleeding stops.\"
+			/speak LaniSBV \"And then put a bandage on it after, okay? I'll finish up the sandwiches, you go sit down.\"
+			/speak MiyoungSBV \"Sweetie, are you sure? I really don't mind-\"
+			/pause 500
+			/emote LaniSBV 60
+			/speak LaniSBV \"Yes, I'm sure! Go sit down, young lady.\"
+			/speak MiyoungSBV \"You rascal. Okay, okay, I'm going.\"
+			/advancedMove MiyoungSBV false 0 1 5 0 0 7 4 0 0 1 3 100
+			/faceDirection LaniSBV 0
+			/playSound drumkit6
+			/playSound drumkit6
+			/playSound drumkit6
+			/emote Jonghyuk 12
+			/speak Jonghyuk \"Are you alright? You freaked me out for a second there!\"
+			/speak MiyoungSBV \"Yes, I'm alright. Lani made sure to scold me already.\"
+			/playSound sipTea
+			/playSound drumkit6
+			/playSound dwop
+			/pause 500
+			/emote MiyoungSBV 40
+			/pause 500
+			/emote MiyoungSBV 16
+			/speak MiyoungSBV \"Lani's such a nice girl, isn't she?\"
+			/playSound drumkit6
+			/playSound drumkit6
+			/pause 1000
+			/speak Jonghyuk \"Yeah, she really is.\"
+			/pause 500
+			/emote MiyoungSBV 40
+			/pause 1000
+			/speak MiyoungSBV \"It's a wonder a sweet girl like her is still single.\"
+			/pause 500
+			/playSound dwop
+			/playSound drumkit6
+			/speak Jonghyuk \"Yeah.\"
+			/pause 1000
+			/emote Jonghyuk 40
+			/pause 1000
+			/speak Jonghyuk \"...Huh.#$b#...#$b#..?#$b#...\"
+			/pause 1000
+			/playSound sipTea
+			/playSound dwop
+			/playSound jingle1
+			/playSound discoverMineral
+			/pause 100
+			/speak LaniSBV \"Sandwiches are ready! Come eat!\"
+			/beginSimultaneousCommand
+				/move Jonghyuk -3 0 0 true
+				/move MiyoungSBV 0 -1 0 true
+			/endSimultaneousCommand
+			/addConversationTopic {{ModId}}_Jonghyuk2Heart 27
+			/globalFade
+			/viewport move -100 -100 1000
+			/end",
+		},
+	},
+	{ // SUNBERRY VILLAGE: 6 HEART - JONGHYUK RIVAL EVENT, 8 HEART - LOVE RIVALS EVENT
+		"Action": "EditData",
+		"Target": "Data/Events/Custom_SBV_SunberryVillage",
+		"Entries": {
+			"{{ModId}}_NightlyReturn/Friendship Jonghyuk 1500/GameStateQuery \"!PLAYER_NPC_RELATIONSHIP Current Jonghyuk Dating Engaged Married\"/!ActiveDialogueEvent {{ModId}}_Jonghyuk4Heart/SawEvent {{ModId}}_DWST/Time 1800 2300": "
+			none
+			/75 37
+			/Jonghyuk 74 32 2 LaniSBV 75 32 2
+			/addTemporaryActor LCritter 32 32 -999 -999 1 false character
+			/skippable
+			/pause 500
+			/move LaniSBV 0 4 2 Jonghyuk 0 4 2
+			/pause 500
+			/emote LaniSBV 32
+			/speak LaniSBV \"Woah. Look at the moon. It looks gorgeous tonight!\" --viewport pans up, switches to a map that just displays the moon for three seconds, then pans back down to lani and Hyuk
+			/emote LaniSBV 20
+			/pause 1000
+			/faceDirection LaniSBV 3
+			/pause 500
+			/faceDirection Jonghyuk 1
+			/emote Jonghyuk 8
+			/pause 500
+			/speak LaniSBV \"Thank you for hanging out with me tonight. I really appreciate it.\"
+			/speak Jonghyuk \"Of course! I'm always down to spend time with you.\"
+			/speak LaniSBV \"You didn't have to walk me home...#$b#But I appreciate it.\"
+			/emote Jonghyuk 60
+			/speak Jonghyuk \"Ah, it's nothing much. Just want you to be safe.\"
+			/emote LaniSBV 60
+			/pause 500
+			/emote LaniSBV 40
+			/pause 500
+			/doAction 72 41
+			/faceDirection LaniSBV 2
+			/faceDirection Jonghyuk 2
+			/emote LaniSBV 8
+			/emote Jonghyuk 8
+			/pause 1000
+			/doAction 72 41
+			/pause 250
+			/emote LaniSBV 16
+			/jump LaniSBV 8
+			/shake LaniSBV 1000
+			/pause 500
+			/doAction 72 41
+			/textAboveHead LaniSBV \"AH!\"
+			/jump LaniSBV 3
+			/jump Jonghyuk 1
+			/positionOffset Jonghyuk 5 3
+			/doAction 72 41
+			/doAction 72 41
+			/pause 100
+			/warp LCritter 71 41 true
+			/speed LCritter 5
+			/advancedMove LCritter false 200 0 0 1 0 3
+			/pause 1000
+			/faceDirection LaniSBV 3
+			/faceDirection Jonghyuk 1
+			/pause 250
+			/emote LaniSBV 40
+			/emote Jonghyuk 40
+			/pause 1000
+			/jump LaniSBV 3
+			/positionOffset LaniSBV 10 0
+			/jump Jonghyuk 3
+			/positionOffset Jonghyuk -10 0
+			/pause 500
+			/textAboveHead Jonghyuk \"Sorry...\"
+			/pause 500
+			/textAboveHead LaniSBV \"U-Um...\"
+			/pause 1000
+			/speak LaniSBV \"Thank you for, uh, protecting me from... well, what turned out to be a rabbit.\"
+			/pause 500
+			/speak Jonghyuk \"I'd always protect you regardless of what's out there.\"
+			/pause 1000
+			/speak LaniSBV \"You mean that?\"
+			/speak Jonghyuk \"Course I do.\"
+			/emote LaniSBV 60
+			/pause 500
+			/speak LaniSBV \"I-- Um, I guess we should...\"
+			/speak Jonghyuk \"Yeah. I'll finish walking you home.\"
+			/speed LaniSBV 2
+			/speed Jonghyuk 2
+			/move LaniSBV 0 11 2 Jonghyuk 0 11 2 true
+			/addConversationTopic {{ModId}}_Jonghyuk6Heart 27
+			/globalFade
+			/viewport move -100 -100 1000
+			/end
+			",
+			
+			"{{ModId}}_LoveIsWar/Friendship Jonghyuk 2000/GameStateQuery \"!PLAYER_NPC_RELATIONSHIP Current Jonghyuk Dating Engaged Married\"/!ActiveDialogueEvent {{ModId}}_Jonghyuk6Heart/SawEvent {{ModId}}_NightlyReturn/LocalMail Bouquet/Time 900 1900":
+			"
+			jaunty
+			/18 67
+			/LaniSBV 17 67 2 farmer 19 59 2
+			/skippable
+			/move farmer 0 8 2
+			/textAboveHead LaniSBV \"Hey! You came!\"
+			/emote farmer 8
+			/pause 500
+			/speak LaniSBV \"So, you're probably wondering why I called you out here.\"
+			/pause 500
+			/emote LaniSBV 40
+			/pause 500
+			/faceDirection LaniSBV 1
+			/speak LaniSBV \"Are you, uh... interested in anybody?$7\"
+			/pause 500
+			/faceDirection farmer 3
+			/emote farmer 8
+			/pause 500
+			/speak LaniSBV \"Perhaps a certain mysterious brunette named Jonghyuk?$7\"
+			/pause 300
+			/emote farmer 40
+			/pause 500
+			/jump farmer 5
+			/emote farmer 16
+			/question fork1 \"Do you like Jonghyuk romantically?
+				#Yes
+				#No\"
+			/fork {{ModId}}_LoveIsWar_No
+			/pause 400 --Answer 1: Yes (ends event)
+			/speak LaniSBV \"Oh. Uh... this is awkward, because I like Jonghyuk too.$7\"
+			/pause 500
+			/question null \"#I'm seriously pursuing him, so back off#May the best man win!\"
+			/speak LaniSBV \"...Um, sure. Fine. So much for friendship, I guess.$2#$b#I'll give you one week. After that, you're out of luck.$13\"
+			/pause 500
+			/emote LaniSBV 28
+			/move farmer 0 -8 0
+			/friendship LaniSBV -125 --Half a heart
+			/addConversationTopic {{ModId}}_LoveRivals 6
+			/globalFade
+			/viewport move -100 -100 1000
+			/end
+			",
+		//Answer 2: No (continue) 
+		"{{ModId}}_LoveIsWar_No": "
+			speak LaniSBV \"Oh, thank Yoba. I thought I was gonna have to compete with you or something!$1\"
+			/faceDirection LaniSBV 2
+			/pause 500
+			/speak LaniSBV \"Honestly, I'm still unsure of what to call my feelings for him.$2#$b#I know I like him and want to be serious with him...$12\"
+			/question fork1 \"Should I go for it?#Sure, why not#No, you shouldn't\"
+			/fork {{ModId}}_LoveIsWar_No2
+			/pause 500 --Answer 1: Sure, why not (ends event)
+			/emote LaniSBV 20
+			/speak LaniSBV \"You're right. Why not? I'm gonna do it.$1\"
+			/pause 500
+			/speak LaniSBV \"I think I needed that push to make it all come into focus. I'm gonna go do it before I lose my nerve.$12\"
+			/move LaniSBV 0 -3 0
+			/pause 300
+			/textAboveHead LaniSBV \"Wait!\"
+			/faceDirection LaniSBV 2
+			/speak LaniSBV \"Thank you so much, @!$1#$b#You're the best!$4\"
+			/jump LaniSBV 5
+			/emote LaniSBV 56
+			/move LaniSBV 1 0 1
+			/move LaniSBV 0 -8 0
+			/addMailReceived {{ModId}}_LoveRouteCompleted
+			/globalFade
+			/viewport -1000 -1000
+			/end
+			",
+			
+			//Answer 2: No, you shouldn't (continue)
+			"{{ModId}}_LoveIsWar_No2": "
+			pause 200
+			/emote LaniSBV 8
+			/speak LaniSBV \"What? Why not? I'm pretty sure it's mutual...$2\"
+			/pause 500
+			/quickQuestion \"Tell me why I shouldn't.#Figure out your feelings first before doing anything#Because you're not good enough for him#I lied, I actually like Jonghyuk#He's not good enough for you(break)
+			/switchEvent {{ModId}}_LoveIsWar_FigureItOut (break)
+			/switchEvent {{ModId}}_LoveIsWar_UrBad (break)
+			/switchEvent {{ModId}}_LoveIsWar_Liar (break)
+			/switchEvent {{ModId}}_LoveIsWar_HeBad
+			",
+			
+			"{{ModId}}_LoveIsWar_UrBad": "
+			pause 200
+			/speak LaniSBV \"I thought friends supported each other, but I guess not.$17\"
+			/pause 500
+			/speak LaniSBV \"Wow. I really thought... After everything I shared with you..?$18#$b#That hurts. But...$18#$b#Now I know I don't need to take advice from someone like you.$17#$b#...$19\"
+			/friendship LaniSBV -750 // 3 hearts
+			/addMailReceived {{ModId}}_LoveRouteCompleted
+			/switchEvent {{ModId}}_LoveIsWar_End
+			",
+			
+			"{{ModId}}_LoveIsWar_HeBad": "
+			pause 200
+			/speak LaniSBV \"Thanks for the commentary.$13#$b#Great thing it's not your choice who I fall in love with!$5\"
+			/pause 500
+			/emote LaniSBV 12
+			/pause 1000
+			/emote LaniSBV 28
+			/speak LaniSBV \"I thought you of all people would know better than to judge a book by its cover.$13#$b#I guess I was wrong.$2#$b#I like him, and I'm gonna make him happy. Bye, @.$13\"
+			/friendship LaniSBV -250 // 1 heart
+			/addMailReceived {{ModId}}_LoveRouteCompleted
+			/switchEvent {{ModId}}_LoveIsWar_End
+			",
+			
+			"{{ModId}}_LoveIsWar_FigureItOut": "
+			pause 200
+			/speak LaniSBV \"Yeah, you're probably right, as much as I hate to admit it.$7\"
+			/pause 500
+			/emote LaniSBV 40
+			/pause 500
+			/speak LaniSBV \"I'll take some time to think about how I feel. Thanks, @.$12#$b#I'll see you later, yeah?\"
+			/switchEvent {{ModId}}_LoveIsWar_End
+			",
+			
+			"{{ModId}}_LoveIsWar_Liar": "
+			pause 200
+			/speak LaniSBV \"You're such a...$5#$b#...$13#$b#Are you serious? Really, @?$5\"
+			/pause 500
+			/emote LaniSBV 12
+			/speak LaniSBV \"You're a piece of work.$13#$b#Can't believe I thought you'd take this seriously.$13\"
+			/friendship LaniSBV -250 // 1 heart
+			/addConversationTopic {{ModId}}_LoveRivals 7
+			/switchEvent {{ModId}}_LoveIsWar_End
+			",
+			
+			"{{ModId}}_LoveIsWar_End": "
+			move LaniSBV 1 0 1
+			/move LaniSBV 0 -8 0
+			/globalFade
+			/viewport move -100 -100 1000
+			/end
+			",
+			
+			/*"{{ModId}}_MakingAmends/SawEvent {{ModId}}_LoveIsWar/LocalMail {{ModId}}_MakingAmendsMail": "null",*/
+		},
+	},
+	{ // JONGHYUK'S HOUSE: 8 HEART+ - LANHYUK EVENT
+		"Action": "EditData",
+		"Target": "Data/Events/Custom_SBV_JonghyukHouse",
+		"Entries": {
+			"{{ModId}}_Embarasxxx/LocalMail {{ModId}}_LoveRouteCompleted/SawEvent {{ModId}}_MakingAmends": "
+			none
+			/-100 -100
+			/farmer 10 15 0 LaniSBV 10 5 1 Jonghyuk 11 5 3
+			/skippable
+			/pause 1500
+			/message \"Why is the door locked?\"
+			/pause 1000
+			/message \"Are those... voices?\"
+			/pause 1000
+			/message \"*giggles* Jonghyuk, that tickles...\"
+			/pause 500
+			/speak Jonghyuk \"But you like it though, right?$h\"
+			/pause 500
+			/speak Jonghyuk \"You're adorable when you're flustered, Lani.\"
+			/pause 1000
+			/speak LaniSBV \"And you're insatiable.\"
+			/pause 500
+			/playSound clubhit
+			/playSound clubhit
+			/playSound clubhit
+			/pause 1000
+			/speak LaniSBV \"Hyuk -- someone's at the door.\"
+			/pause 750
+			/speak Jonghyuk \"So? They can wait.#$b#I'm busy with my favorite girl.\"
+			/pause 500
+			/speak LaniSBV \"You--!#$b#...\"
+			/pause 1000
+			/playSound clubhit
+			/playSound clubSmash
+			/playSound doorOpen
+			/pause 500
+			/speak LaniSBV \"They're coming in! Put your shirt on at least--\"
+			/pause 500
+			/viewport 10 8 
+			/playMusic jaunty
+			/playSound doorCreak
+			/jump LaniSBV 8
+			/positionOffset LaniSBV -15 0
+			/faceDirection LaniSBV 2
+			/move farmer 0 -7 0 
+			/emote LaniSBV 16
+			/pause 500
+			/emote farmer 8
+			/pause 1000
+			/shake LaniSBV 250
+			/speak LaniSBV \"Oh, heeey, @... Lovely to see you here...#$b#Eh hem.#$b#We definitely weren't doing anything when you knocked.#$b#Nope.#$b#Nothing at all.\"
+			/pause 500
+			/positionOffset Jonghyuk -20 0
+			/pause 100
+			/emote LaniSBV 60
+			/pause 500
+			/faceDirection Jonghyuk 2
+			/speak Jonghyuk \"Did you need something, @?#$b#My girlfriend and I were in the middle of something important, so...\"
+			/pause 250
+			/speak LaniSBV \"*muttering* Oh my Yoba, I'm never living this down.\"
+			/question null \"#I'll just come back later...#You two have fun... and use protection!\"
+			/speak Jonghyuk \"Oh, I can't make any promises on that.\"
+			/pause 250
+			/emote LaniSBV 16
+			/pause 500
+			/emote farmer 60
+			/setRunning farmer
+			/move farmer 0 6 2
+			/playSound doorCreakReverse
+			/pause 100
+			/warp farmer -100 -100
+			/playSound doorClose
+			/pause 1000
+			/faceDirection Jonghyuk 3
+			/pause 100
+			/emote Jonghyuk 32
+			/pause 500
+			/speak Jonghyuk \"Now, where were we?\"
+			/pause 500
+			/faceDirection LaniSBV 1
+			/pause 100
+			/showFrame Jonghyuk 28
+			/showFrame LaniSBV 28
+			/globalFade
+			/viewport move -100 -100 1000
+			/end
+			",
+		},
+	},
+	{ //4 HEART - JONGHYUK RIVAL EVENT
+		"Action": "EditData",
+		"Target": "Data/Events/Saloon",
+		"Entries": {
+			"{{ModId}}_DWST/Friendship Jonghyuk 1000/GameStateQuery \"!PLAYER_NPC_RELATIONSHIP Current Jonghyuk Dating Engaged Married\"/!ActiveDialogueEvent {{ModId}}_Jonghyuk2Heart/SawEvent {{ModId}}_MiyoungMeddling/Time 1600 2200": "
+			jaunty
+			/13 19
+			/LaniSBV 13 20 1 Jonghyuk 14 20 3 Gus 11 18 2 Emily 17 17 0
+			/skippable
+			/pause 500
+			/speak Jonghyuk \"Hey, Gus, let me get a...$1\"
+			/pause 500
+			/speak Gus \"Sure thing, Jonghyuk. Comin' right up!\"
+			/pause 500
+			/emote LaniSBV 8
+			/pause 500
+			/speak LaniSBV \"What drink is that? I've never heard of it. Can I try it?$16\"
+			/pause 500
+			/faceDirection Jonghyuk 3
+			/pause 500
+			/emote Jonghyuk 40
+			/pause 500
+			/speak Jonghyuk \"I dunno, you're kinda small, you've already had a few, and the drink's pretty strong...$2\"
+			/pause 500
+			/emote LaniSBV 60
+			/pause 500
+			/speak LaniSBV \"I can take it!$9\"
+			/pause 500
+			/emote Jonghyuk 60
+			/faceDirection Jonghyuk 0
+			/speak Jonghyuk \"Gus, make it two!$1\"
+			/pause 500
+			/speak Gus \"On it!\"
+			/pause 1000
+			/faceDirection Gus 0
+			/playSound bubbles
+			/playSound bubbles
+			/playSound Milking
+			/playSound Milking
+			/faceDirection Gus 2
+			/speak Gus \"Here ya go.\"
+			/playSound coin
+			/addObject 13 18 346 2
+			/playSound coin
+			/addObject 14 18 346 2
+			/pause 500
+			/textAboveHead Jonghyuk \"Cheers!\"
+			/textAboveHead LaniSBV \"Cheers!\"
+			/pause 500
+			/animate LaniSBV false false 125 32 33 34 35 35 35 35 35 34 33 32
+			/playSound gulp
+			/pause 1000
+			/shake LaniSBV 1000
+			/pause 500
+			/emote Jonghyuk 32
+			/pause 500
+			/speak LaniSBV \"You didn't tell me it'd taste like literal fire!$14\"
+			/speak Jonghyuk \"I told you it was strong!$3\"
+			/pause 500
+			/animate LaniSBV false false 125 32 33 34 35 35 35 35 35 34 33 32
+			/playSound gulp
+			/pause 500
+			/shake LaniSBV 500
+			/pause 500
+			/speak Jonghyuk \"Any better?$8\"
+			/pause 500
+			/speak LaniSBV \"No. Worse. Much, much worse.$15\"
+			/pause 500
+			/emote LaniSBV 28
+			/speak Jonghyuk \"Oh, poor baby.$4\"
+			/speak LaniSBV \"...Shut up.$15\"
+			/pause 500
+			/emote Jonghyuk 56
+			/pause 500
+			/speak Jonghyuk \"Lani, are you blushing?$1\"
+			/speak LaniSBV \"No, I'm drunk! I'm drunk.$10\"
+			/speak Jonghyuk \"Uh huuuuh.$1\"
+			/pause 1000
+			/emote LaniSBV 40
+			/pause 250
+			/animate LaniSBV false false 125 32 33 34 35 35 35 35 35 35 35 35 35 35 35 35 34 33 32
+			/playSound gulp
+			/playSound gulp
+			/playSound gulp
+			/emote Jonghyuk 16
+			/speak Jonghyuk \"What the hell?! Are you okay?$7\"
+			/pause 500
+			/speak LaniSBV \"...Yeah.$15\"
+			/pause 500
+			/emote LaniSBV 40
+			/emote Jonghyuk 40
+			/pause 500
+			/speak LaniSBV \"Has anyone ever told you your eyes are beautiful?$9\"
+			/emote Jonghyuk 32
+			/pause 500
+			/speak Jonghyuk \"Oh my Yoba. No way. You were totally fine a minute ago!$11\"
+			/speak LaniSBV \"I was faking it, man! I'm barely hangin' on! We had so many drinks before this! And you're makin' me nervous!$8\"
+			/speak Jonghyuk \"I make you nervous?$8\"
+			/pause 500
+			/speak LaniSBV \"...Pretty boys make me nervous. Stop lookin' at me.$15\"
+			/emote Jonghyuk 32
+			/speak Jonghyuk \"You think I'm pretty?$9\"
+			/speak LaniSBV \"Um, duh? Look in the mirror.$15\"
+			/pause 500
+			/emote Jonghyuk 20
+			/pause 500
+			/speak LaniSBV \"Y'need to keep drinking so you can forget me saying this stuff tomorrow.$8\"
+			/speak Jonghyuk \"Whatever the princess wants~$1\"
+			/emote LaniSBV 60
+			/speak LaniSBV \"Shuddup.$16\"
+			/emote Jonghyuk 56
+			/playSound gulp 
+			/addConversationTopic {{ModId}}_Jonghyuk4Heart 27
+			/globalFade
+			/viewport move -100 -100 1000
+			/end",
+		},
+	},
+	]
+}

@@ -1,0 +1,659 @@
+[
+
+    {
+		"Name": "GlobalLink",
+		"Type": "pageLink",
+		"PageID": "0"
+	},
+
+    {
+        "Name": "BakerLink",
+        "Type": "pageLink",
+        "PageID": "1"
+    },
+
+    {
+        "Name": "BaristaLink",
+        "Type": "pageLink",
+        "PageID": "2"
+    },
+
+    {
+        "Name": "BoutiqueLink",
+        "Type": "pageLink",
+        "PageID": "3"
+    },
+
+    {
+        "Name": "BrewerLink",
+        "Type": "pageLink",
+        "PageID": "4"
+    },
+
+    {
+        "Name": "ConfectionerLink",
+        "Type": "pageLink",
+        "PageID": "5"
+    },
+
+    {
+        "Name": "GourmetLink",
+        "Type": "pageLink",
+        "PageID": "6"
+    },
+
+    {
+        "Name": "LocationsLink",
+        "Type": "pageLink",
+        "EnableWithMod": "Wildflour.NooksCrannies",
+        "PageID": "7"
+    },
+    {
+        "Name": "BFCFLink",
+        "Type": "pageLink",
+        "EnableWithMod": "atelier99.BFCF.WAGRaTA",
+        "PageID": "8"
+    },
+
+
+
+
+// PAGE 0 GLOBAL OPTIONS
+
+    {
+		"Name": "0",
+		"Type": "page",
+		"PageID": "0" 
+	},
+
+    {
+		"Name": "WildFoodEnable",
+		"Type": "subtitle"
+	},
+
+    {
+        "Name": "WildFood",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.WildFood.ToolTip"
+    },
+
+    {
+        "Name": "SpecialOrdersEnable",
+        "Type": "subtitle"
+    },
+    
+    {
+        "Name": "SpecialOrders",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.SpecialOrders.ToolTip"
+    },
+
+    {
+        "Name": "SOPriorityToggle",
+        "Type": "subtitle"
+    },
+    
+    {
+        "Name": "SOPriority",
+        "AllowedValues": "Immediate, Later, PostGI",
+        "Default": "Later",
+        "Type": "string",
+        "ToolTipKey": "GMCM.Options.SOPriority.ToolTip"
+    },
+
+    {
+		"Name": "MixedSeedsEnable",
+		"Type": "subtitle"
+	},
+
+    {
+        "Name": "MixedSeeds",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.MixedSeeds.ToolTip"
+    },
+
+    {
+        "Name": "ArtisanDifficultyToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "DifficultyToggle",
+        "Type": "string",
+        "AllowedValues": "Simple, Advanced",
+        "Default": "Simple",
+        "ToolTipKey": "GMCM.Options.DifficultyToggle.ToolTip"
+    },
+
+    {
+        "Name": "SimpleToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "SimpleAddOn",
+        "Type": "bool",
+        "AllowedValues": "True, False",
+        "Default": "False",
+        "ToolTipKey": "GMCM.Options.SimpleAddOn.ToolTip"
+    },
+
+    {
+        "Name": "PerfectionShipmentEnable",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "PerfectionShipment",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.PerfectionShipment.ToolTip"
+    },
+
+    {
+        "Name": "FloristOnlyToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "FloristOnly",
+        "Default": "False",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.FloristOnly.ToolTip"
+    },
+
+    {
+        "Name": "CategoryOverrideEnable",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "CategoryOverride",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.CategoryOverride.ToolTip"
+    },
+
+    {
+        "Name": "VanillaTweaksEnable",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "VanillaTweaks",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.VanillaTweaks.ToolTip"
+    },
+
+    {
+        "Name": "EasyRecipesEnable",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "EasyRecipes",
+        "Default": "False",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.EasyRecipes.ToolTip"
+    },
+
+    {
+        "Name": "MachineStyleEnable",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "MachineStyle",
+        "Type": "string",
+        "AllowedValues": "Boutique, Kitchen, Market",
+        "Default": "Kitchen",
+        "ToolTipKey": "GMCM.Options.MachineStyle.ToolTip"
+    },
+
+    {
+        "Name": "MachineColorEnable",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "MachineColor",
+        "Type": "string",
+        "AllowedValues": "Classic, Chocolate, Cream, Blueberry, Strawberry",
+        "Default": "Classic",
+        "ToolTipKey": "GMCM.Options.MachineColor.ToolTip"
+    },
+
+//PAGE 1 BAKER TOGGLES
+
+{
+    "Name": "1",
+    "Type": "page",
+    "PageID": "1" 
+},
+
+{
+    "Name": "CakesConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Cakes",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Cakes.ToolTip"
+},
+
+{
+    "Name": "TinyCakesConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "TinyCakes",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.TinyCakes.ToolTip"
+},
+
+{
+    "Name": "MuffinsConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Muffins",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Muffins.ToolTip"
+},
+
+{
+    "Name": "BreadsConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Breads",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Breads.ToolTip"
+},
+
+{
+    "Name": "DoughnutsConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Doughnuts",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Doughnuts.ToolTip"
+},
+
+{
+    "Name": "CookiesConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Cookies",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Cookies.ToolTip"
+},
+
+{
+    "Name": "PiesConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Pies",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Pies.ToolTip"
+},
+
+{
+    "Name": "PuddingsConfig",
+    "Type": "subtitle"
+},
+{
+    "Name": "Puddings",
+    "Default": "True",
+    "Type": "bool",
+    "ToolTipKey": "GMCM.Options.Pudding.ToolTip"
+},
+
+//PAGE 2 BARISTA TOGGLES
+
+    {
+        "Name": "2",
+        "Type": "page",
+        "PageID": "2" 
+    },
+
+    {
+        "Name": "CoffeeToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Coffee",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Coffee.ToolTip"
+    },
+    {
+        "Name": "TeaToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Tea",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Tea.ToolTip"
+    },
+    {
+        "Name": "SmoothieToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Smoothies",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Smoothies.ToolTip"
+    },
+    {
+        "Name": "LemonadeToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Lemonade",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Lemonade.ToolTip"
+    },
+
+//PAGE 3 BOUTIQUE TOGGLES
+
+    {
+        "Name": "3",
+        "Type": "page",
+        "PageID": "3" 
+    },
+
+    {
+        "Name": "BouquetToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Bouquets",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Bouquets.ToolTip"
+    },
+    {
+        "Name": "PerfumeToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Perfume",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Perfume.ToolTip"
+    },
+    {
+        "Name": "SoapToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Soap",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Soap.ToolTip"
+    },
+    {
+        "Name": "CandlesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Candles",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Candles.ToolTip"
+    },
+    {
+        "Name": "IncenseToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Incense",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Incense.ToolTip"
+    },
+    {
+        "Name": "MakeupToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Makeup",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Makeup.ToolTip"
+    },
+
+//PAGE 4 BREWER TOGGLES
+
+    {
+        "Name": "4",
+        "Type": "page",
+        "PageID": "4" 
+    },
+
+    {
+        "Name": "AlesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Ales",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Ales.ToolTip"
+    },
+    {
+        "Name": "MeadsToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Meads",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Meads.ToolTip"
+    },
+
+//PAGE 5 CONFECTIONER TOGGLES
+
+    {
+        "Name": "5",
+        "Type": "page",
+        "PageID": "5" 
+    },
+
+    {
+        "Name": "ChocolatesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Chocolates",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Chocolates.ToolTip"
+    },
+    {
+        "Name": "FairyFlossToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "FairyFloss",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.FairyFloss.ToolTip"
+    },
+    {
+        "Name": "GumballsToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Gumballs",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Gumballs.ToolTip"
+    },
+    {
+        "Name": "HardCandiesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "HardCandies",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.HardCandies.ToolTip"
+    },
+    {
+        "Name": "JellyBeansToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "JellyBeans",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.JellyBeans.ToolTip"
+    },
+    {
+        "Name": "LollipopsToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Lollipops",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Lollipops.ToolTip"
+    },
+    {
+        "Name": "MarshmallowsToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Marshmallows",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Marshmallow.ToolTip"
+    },
+    {
+        "Name": "IceCreamToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "IceCream",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.IceCream.ToolTip"
+    },
+    {
+        "Name": "PopsiclesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Popsicles",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Popsicles.ToolTip"
+    },
+    {
+        "Name": "MilkshakesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Milkshakes",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Milkshakes.ToolTip"
+    },
+    {
+        "Name": "IceCreamSandwichToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "IceCreamSandwich",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.IceCreamSandwich.ToolTip"
+    },
+
+//PAGE 6 GOURMAND TOGGLES
+
+    {
+        "Name": "6",
+        "Type": "page",
+        "PageID": "6" 
+    },
+
+    {
+        "Name": "JamsToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Jams",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Jams.ToolTip"
+    },
+    {
+        "Name": "PicklesToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "Pickles",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.Pickles.ToolTip"
+    },
+    {
+        "Name": "CSAToggle",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "CSA",
+        "Default": "True",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.CSA.ToolTip"
+    },
+    
+    //PAGE 7 NOOKS CRANNIES
+
+    {
+        "Name": "7",
+        "Type": "page",
+        "PageID": "7" 
+    },
+    {
+        "Name": "PresentLocations",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "PresentLocationsConfig",
+        "Default": "False",
+        "Type": "bool",
+        "ToolTipKey": "GMCM.Options.PresentLocationsConfig.ToolTip"
+    },
+
+    //PAGE 8 Lani BFCF Config
+
+    {
+        "Name": "8",
+        "Type": "page",
+        "PageID": "8" 
+    },
+    {
+        "Name": "BFCF",
+        "Type": "subtitle"
+    },
+    {
+        "Name": "BFCFConfig",
+        "AllowedValues": "Seasonal, OffSeason, AllYear",
+        "Default": "Seasonal",
+        "Type": "string",
+        "ToolTipKey": "GMCM.Options.BFCFConfig.ToolTip"
+    }
+    
+]  

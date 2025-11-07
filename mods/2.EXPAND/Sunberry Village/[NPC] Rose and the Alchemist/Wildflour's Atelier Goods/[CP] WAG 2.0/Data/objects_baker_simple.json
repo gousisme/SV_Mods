@@ -1,0 +1,412 @@
+{
+    "Changes": [
+
+/////////////
+// MUFFINS //
+/////////////
+
+{
+    "LogName":"Basic Muffins and Mix",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Muffins": "True"},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Muffins": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Muffins",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Muffins.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Muffins.description}}",
+            "ColorOverlayFromNextIndex":true, 
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 80,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "muffin_item",
+            "food_bakery",
+            "food_sweet",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 736
+    },
+        "Wildflour.AtelierGoods_Muffin_Mix": {
+            "Name": "Wildflour.AtelierGoods_Muffin_Mix",
+            "DisplayName": "{{i18n:AtelierGoods_Muffin_Mix.name}}",
+            "Description": "{{i18n:AtelierGoods_Muffin_Mix.description}}",
+            "Type": "Cooking",          
+            "Category": -7,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 0,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "baking_item",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 720
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Muffins": "{{i18n: AtelierGoods_Flavored_Muffins}}",
+    }
+},
+
+///////////
+// CAKES //
+///////////
+
+{
+    "LogName":"Basic Cakes Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Cakes": "True"},
+    "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Cake": {
+                "Name": "Wildflour.AtelierGoods_Flavored_Cake",
+                "DisplayName": "{{i18n:AtelierGoods_Flavored_Cake.name}}",
+                "Description": "{{i18n:AtelierGoods_Flavored_Cake.description}}",
+                "ColorOverlayFromNextIndex":true, 
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+                "Edibility": 90,
+                "Price": 100,
+
+                "ContextTags":
+                ["wildflour_bakery_item",
+                "food_bakery",
+                "food_sweet",
+                "cake_item",
+                "color_sand"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 829
+        }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Cake": "{{i18n: AtelierGoods_Flavored_Cake}}"
+    }
+},
+
+////////////////
+// TINY CAKES //
+////////////////
+
+{
+    "LogName":"Basic Tiny Cakes Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:TinyCakes": "True"},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Cupcakes": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Cupcakes.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Cupcakes.description}}",
+            "ColorOverlayFromNextIndex":true, 
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 105,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "cake_item",
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 791
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Cupcakes": "{{i18n: AtelierGoods_Flavored_Cupcakes}}"
+    }
+},
+
+{
+    "LogName":"Add Cake Mix",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Cakes}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:TinyCakes}} = 'true')": true},
+    "Entries": { 
+        "Wildflour.AtelierGoods_Cake_Mix": {
+            "Name": "Wildflour.AtelierGoods_Cake_Mix",
+            "DisplayName": "{{i18n:AtelierGoods_Cake_Mix.name}}",
+            "Description": "{{i18n:AtelierGoods_Cake_Mix.description}}",
+            "Type": "Cooking",          
+            "Category": -7,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 0,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "baking_item",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 723
+    },
+}
+},
+
+////////////////
+// PIES TARTS //
+////////////////
+
+{
+    "LogName":"Basic Pies Tarts and Mix",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Pies": "True"},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Tart": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Tart",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Tart.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Tart.description}}",
+            "ColorOverlayFromNextIndex":true, 
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 115,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "tart_item",
+            "food_bakery",
+            "food_sweet",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 717
+        },
+        "Wildflour.AtelierGoods_Pie_Mix": {
+            "Name": "Wildflour.AtelierGoods_Pie_Mix",
+            "DisplayName": "{{i18n:AtelierGoods_Pie_Mix.name}}",
+            "Description": "{{i18n:AtelierGoods_Pie_Mix.description}}",
+            "Type": "Cooking",          
+            "Category": -7,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 0,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "baking_item",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 725
+        }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Tart": "{{i18n: AtelierGoods_Flavored_Tart}}"
+    }
+},
+
+//////////////////////
+// COOKIES BROWNIES //
+//////////////////////
+
+{
+    "LogName":"Basic Cookies Brownies and Mix",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Cookies": "True"},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Cookies": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Cookies",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Cookies.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Cookies.description}}",
+            "ColorOverlayFromNextIndex":true, 
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 28,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "cookie_item",
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 842
+    },
+        "Wildflour.AtelierGoods_Cookie_Mix": {
+            "Name": "Wildflour.AtelierGoods_Cookie_Mix",
+            "DisplayName": "{{i18n:AtelierGoods_Cookie_Mix.name}}",
+            "Description": "{{i18n:AtelierGoods_Cookie_Mix.description}}",
+            "Type": "Cooking",          
+            "Category": -7,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 0,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "baking_item",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 721
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Cookies": "{{i18n: AtelierGoods_Flavored_Cookies}}"
+    }
+},
+
+///////////////
+// BREAD MIX //
+///////////////
+
+{
+    "LogName":"Add Bread Mix",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
+    "Entries": { 
+        "Wildflour.AtelierGoods_Bread_Mix": {
+            "Name": "Wildflour.AtelierGoods_Bread_Mix",
+            "DisplayName": "{{i18n:AtelierGoods_Bread_Mix.name}}",
+            "Description": "{{i18n:AtelierGoods_Bread_Mix.description}}",
+            "Type": "Cooking",          
+            "Category": -7,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 0,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "baking_item",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 724
+    }
+}
+},
+
+///////////////
+// DOUGHNUTS //
+///////////////
+
+{
+    "LogName":"Basic Doughnuts",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Doughnuts": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Doughnuts.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Doughnuts.description}}",
+            "ColorOverlayFromNextIndex":true, 
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 40,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "doughnut_item",
+            "food_bakery",
+            "food_sweet",
+            "color_brown"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 807
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Doughnuts": "{{i18n: AtelierGoods_Flavored_Doughnuts}}"
+    }
+},
+
+/////////////
+// PUDDING //
+/////////////
+
+{
+    "LogName":"Basic Pudding",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Puddings": "True"},
+    "Entries": {
+        "Wildflour.AtelierGoods_Flavored_Pudding": {
+            "Name": "Wildflour.AtelierGoods_Flavored_Pudding",
+            "DisplayName": "{{i18n:AtelierGoods_Flavored_Pudding.name}}",
+            "Description": "{{i18n:AtelierGoods_Flavored_Pudding.description}}",
+            "ColorOverlayFromNextIndex":true, 
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+            "Edibility": 40,
+            "Price": 100,
+
+            "ContextTags":
+            ["wildflour_bakery_item",
+            "pudding_item",
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
+
+            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+            "SpriteIndex": 844
+    }
+}
+},
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "Wildflour.AtelierGoods_Flavored_Pudding": "{{i18n: AtelierGoods_Flavored_Pudding}}"
+    }
+},
+
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] H&W Mega Furniture Catalogue",
+    "Author": "HimeTarts and wildflourmods",
+    "Version": "1.1",
+    "Description": "This furniture catalogue will show you ALL H&W items you have downloaded in one easy to use catalogue.",
+    "UniqueID": "HXW.MegaFurnitureCatalogue",
+    "UpdateKeys": ["Nexus:26892"], 
+    "Dependencies": [
+        {
+            "UniqueID": "sophie.Calcifer",
+            "IsRequired": true
+        }
+    ], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

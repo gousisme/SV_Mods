@@ -1,0 +1,20 @@
+{
+    "Name": "PC's Industrial Furniture",
+    "Author": "PlatinumCats",
+    "Version": "2.0.0",
+    "Description": "A collection of industrial furniture by PlatinumCats.",
+    "UniqueID": "PC.IFurniture",
+    "UpdateKeys": [
+        "Nexus:33602"
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "sophie.Calcifer",
+            "IsRequired": true
+        }
+    ], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    }
+}

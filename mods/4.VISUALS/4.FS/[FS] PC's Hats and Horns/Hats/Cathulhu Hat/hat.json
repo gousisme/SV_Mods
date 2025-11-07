@@ -1,0 +1,552 @@
+{
+ "Name": "Cathulhu Hat",
+ "FrontHat": {
+ "HideHair": true, 
+ "DrawAfterPlayer": true,
+"DisableGrayscale": true, 
+"StartingPosition": { "X": 0, "Y": 0 }, 
+"HeadPosition": { "X": 14, "Y": 1}, 
+"HatSize": { "Width": 48, "Length": 32 }, 
+
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 2500
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+      {
+        "Frame": 2,
+        "Duration": 120
+      },
+	  {
+        "Frame": 0,
+        "Duration": 120
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+//Random
+      {
+        "Frame": 5,
+        "Duration": 60,
+        "Conditions": [
+    {
+      "Name": "RandomChance",
+      "Value": 0.5
+    },
+    {
+      "Name": "DidPreviousFrameDisplay",
+      "Value": false
+    }
+        ]
+      },      
+      {
+        "Frame": 6,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 7,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 8,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 9,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 10,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 11,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 12,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 13,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      }
+    ],
+    "RequireAnimationToFinish": false,
+},
+
+ "BackHat": {
+ "HideHair": true, 
+ "DrawAfterPlayer": true,
+"DisableGrayscale": true, 
+"StartingPosition": { "X": 0, "Y": 192 }, 
+"HeadPosition": { "X": 14, "Y": 1}, 
+"HatSize": { "Width": 48, "Length": 32 }, 
+
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 2500
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+      {
+        "Frame": 2,
+        "Duration": 120
+      },
+	  {
+        "Frame": 0,
+        "Duration": 120
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+//Random
+      {
+        "Frame": 5,
+        "Duration": 60,
+        "Conditions": [
+    {
+      "Name": "RandomChance",
+      "Value": 0.5
+    },
+    {
+      "Name": "DidPreviousFrameDisplay",
+      "Value": false
+    }
+        ]
+      },      
+      {
+        "Frame": 6,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 7,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 8,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 9,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 10,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 11,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 12,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 13,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      }
+    ],
+    "RequireAnimationToFinish": false,
+},
+
+ "RightHat": {
+ "HideHair": true, 
+ "DrawAfterPlayer": true,
+"DisableGrayscale": true, 
+"StartingPosition": { "X": 0, "Y": 96 }, 
+"HeadPosition": { "X": 13, "Y": 1}, 
+"HatSize": { "Width": 48, "Length": 32 }, 
+
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 2500
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+      {
+        "Frame": 2,
+        "Duration": 120
+      },
+	  {
+        "Frame": 0,
+        "Duration": 120
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+//Random
+      {
+        "Frame": 5,
+        "Duration": 60,
+        "Conditions": [
+    {
+      "Name": "RandomChance",
+      "Value": 0.5
+    },
+    {
+      "Name": "DidPreviousFrameDisplay",
+      "Value": false
+    }
+        ]
+      },      
+      {
+        "Frame": 6,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 7,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 8,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 9,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 10,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 11,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 12,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 13,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      }
+    ],
+    "RequireAnimationToFinish": false,
+},
+
+
+ "LeftHat": {
+ "Flipped": true,
+ "HideHair": true, 
+ "DrawAfterPlayer": true,
+"DisableGrayscale": true, 
+"StartingPosition": { "X": 0, "Y": 96 }, 
+"HeadPosition": { "X": 14, "Y": 1}, 
+"HatSize": { "Width": 48, "Length": 32 }, 
+
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 2500
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+	  {
+        "Frame": 1,
+        "Duration": 120
+      },
+      {
+        "Frame": 2,
+        "Duration": 120
+      },
+	  {
+        "Frame": 0,
+        "Duration": 120
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      },
+      {
+        "Frame": 4,
+        "Duration": 85
+      },
+//Random
+      {
+        "Frame": 5,
+        "Duration": 60,
+        "Conditions": [
+    {
+      "Name": "RandomChance",
+      "Value": 0.5
+    },
+    {
+      "Name": "DidPreviousFrameDisplay",
+      "Value": false
+    }
+        ]
+      },      
+      {
+        "Frame": 6,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 7,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 8,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 9,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 10,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 11,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },      
+      {
+        "Frame": 12,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 13,
+        "Duration": 60,
+        "Conditions": [
+          {
+      "Name": "DidPreviousFrameDisplay",
+            "Value": true
+          }
+        ]
+      }
+    ],
+    "RequireAnimationToFinish": false,
+},
+
+
+
+
+}

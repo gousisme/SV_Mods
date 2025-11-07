@@ -1,0 +1,380 @@
+{
+
+    //translation by Ghost3lboom
+    
+    "NPCD.Name.MrGinger":"Мистер Джинджер",
+    "gift.love.false":"Мирруп!",
+    "gift.like.false":"Миау!",
+    "gift.dislike.false":"Муррр?",
+    "gift.hate.false":"Мурр...",
+    "gift.neutral.false":"Муууур??",
+    "gift.love.true":"О-о-о, дань подношения! Я люблю это. *мурлычет*",
+    "gift.like.true":"О-о-о, подарок для меня? Вот это здорово!",
+    "gift.dislike.true":"Это для меня? А разве я могу... съесть это?",
+    "gift.hate.true":"Я не люблю когда надо мной издеваются, @.",
+    "gift.neutral.true":"О, у тебя есть для меня подарок.",             
+    "rainyday.false":"Мурррр.....$2",
+    "rainyday.true":"Блин, ненавижу дождь. И всё же это хороший предлог, чтобы остаться дома и поспать, верно?",
+    
+    //Festivals
+    "spring13.false":"Мурр!",
+    "spring24.false":"Мирруп!",
+    "summer11.false":"Мууурр?",
+    "summer28.false":"Мирруп!",
+    "fall16.false": "Мирруп!",
+    "fall27.false": "Мяу?",
+    "winter8.false":"Mурр!",
+    "winter25.false": "Мурр...$2",
+    "spring13.true":"Фестиваль в честь этих миниатюрных динозавров? Зачем?$2#$b#Но эти крошечные малыши даже не набивают рот. Это не стоит таких усилий.",
+    "spring24.true":"Я уже говорил тебе об этом раньше и повторю ещё раз. 'Кошки. Не. Танцуют'.$2",
+    "spring24.M6.true":"Hm... Do you think Marlon's ever gonna ask her to dance?$1#$b#I've seen him face down terrifying monsters, what's he got to lose? His other eye?$3",
+    "summer11.true":"На твоём месте я бы не стал есть суп. У него будет вкус мышиных внутренностей и старых носков.#$b#Почему? Потому что именно это я их положил туда.$3",
+    "summer28.true": "Они сотворены не из желе и не из рыбы.#$b#Почему люди дают вещам глупые названия?",
+    "fall16.true": "Are you gonna get your fortune told, @? Ras thinks she's the real deal, but I don't know...#$b#She'll probably just tell you there's a tall handsome stranger in your future.",//Needs Translating (Changed)
+    "fall27.true": "А что, если я и есть та самая 'Золотая тыква', которую все ищут?$2",
+    "winter8.true":"*поёт* 'Рыбки, рыбки, моё любимое блюдо'. O, привет @.$3#$b#Как ты думаешь, если я вежливо попрошу, они позволят мне взять кое-что из этого домой?$4#$b#Они собираются выбросить их оттуда? Какая пустая трата времени.$2",
+    "winter25.true":"Что? Я вовсе не дуюсь, из-за того, что никто не принёс мне подарок!$5#$b#Просто мне нужно побыть одному, хорошо?$2",
+    
+    //birthday strings
+    "birthday.love1.false":"Миррупп!$1",
+    "birthday.like1.false":"Мирп!$1/Мирп!$1",
+    "birthday.like2.false":"Мяууу!$1",
+    "birthday.dislike1.false":"Mурр....$3/Mурррр....$3",
+    "birthday.dislike3.false":"Mурр....$3/Mурррр....$3",
+    "birthday.neutral1.false":"Mяу?",
+    "birthday.love1.true": "Ох! Вот это здорово! Мне нравятся эти человеческие обычаи дарения подарков!$4",
+    "birthday.like1.true": "Оооо, подарок для меня! Из-за того, что я стал на год старше? Вот это достижение! Спасибо!$4/Оооо, подарок для меня! Из-за того, что я стал на год старше? Вот это достижение! Спасибо!$4",
+    "birthday.like2.true": "Оооо, подарок для меня! Из-за того, что я стал на год старше? Вот это достижение! Спасибо!$4",
+    "birthday.dislike1.true": "Сегодня мой день рождения? И ты даришь мне мусор? Интересный человеческий обычай.$3/Сегодня мой день рождения? И ты даришь мне мусор? Интересный человеческий обычай.$3",
+    "birthday.dislike2.true": "Сегодня мой день рождения? Какое никчёмное подношение, ты это серьёзно?$3",
+    "birthday.neutral1.true": "Ох! Подарок для меня? У меня сегодня день рождения? Ах, у вас, людей, такие причудливые обычаи.",
+    
+    //M O V I E   S T R I N G S
+    //before 6-heart
+    "movies.0.false.1":"Mирруп!",
+    "movies.0.false.2":"/message \"Мистер Джинджер смотрит на экран.\"",
+    "movies.0.false.3":"Mурр!$3#$b#%Мистер Джинджер, кажется, доволен фильмом.",
+    "movies.1.false.1":"Мурррр!",
+    "movies.1.false.2":"pause 500/message \"Мистер Джинджер выглядит грустным.\"",
+    "movies.1.false.3":"Муррр.$2",
+    "movies.1.false.4":"Mирррп?$1",
+    "movies.2.false.1":"Mуррр!",
+    "movies.2.false.2":"/message \"Мистер Джинджер сосредоточен на своём предназначении.\"",
+    "movies.2.false.3":"Муррр.",
+    "movies.3.false.1":"Mиирррппп...",
+    "movies.3.false.2":"/message \"Мистер Джинджер выглядит скучающим.\"",
+    "movies.3.false.3":"Муррип?",
+    "movies.4.false.1":"Мурррип!$1",
+    "movies.4.false.2":"%Мистер Джинджер мурлычет.",
+    "movies.4.false.3":"%Мистер Джинджер, кажется, был доволен собой.",
+    "movies.5.false.1":"Мурр!",
+    "movies.5.false.2":"/shake MisterGinger 3000/pause 500/",
+    "movies.5.false.3":"Mууууууурр...$2",
+    "movies.5.false.4":"%Шёрстка мистера Джинджера всё ещё немного взъерошена.",
+    "movies.6.false.1":"%Мистер Джинджер явно недоволен вашим выбором.",
+    "movies.6.false.2":"/message \"Это слёзы на глазах мистера Джинджера?\"",
+    "movies.6.false.3":"Мурр?$2",
+    "movies.7.false.1":"Mирруп!",
+    "movies.7.false.2":"/message \"Мистер Джинджер сидит, низко скрючившись, в своём кресле.\"",
+    "movies.7.false.3":"Muuur$5",
+    "movies.7.false.4":"%Мистер Джинджер выглядит измотанным.",
+    "movies.8.false.1":"Mирруп!",
+    "movies.8.false.3":"Mур.$5",
+    "movies.9.false.1":"Mурррр!",
+    "movies.10.false.1":"Mуррр.",
+    "movies.11.false.1":"Mууууррр!$5",
+    //After 6-heart event
+    "movies.0.true.1":"История, рассказанная на экране? Ну, я думаю, это может быть весело.",
+    "movies.0.true.2":"/message \"Мистер Джинджер смотрит на экран.\"",
+    "movies.0.true.3":"Очень занятно. Мне понравилось.",
+    "movies.1.true.1":"Джас очень любила этот фильм, и у неё довольно хороший вкус.#$b#Но больше всего она любит меня.$1",
+    "movies.1.true.2":"pause 500/message \"Мистер Джинджер выглядит грустным.\"",
+    "movies.1.true.3":"I can see the appeal.$2",//not translated
+    "movies.1.true.4":"Мило, но глупо.#$b#Сентиментально, да?$1",
+    "movies.2.true.1":"Я бывал в разных местах, но не уверен, что мне нужно видеть это на экране.",
+    "movies.2.true.2":"/message \"Мистер Джинджер сосредоточен на своём предназначении.\"",
+    "movies.2.true.3":"Ладно, признаю, это было прекрасно.",
+    "movies.3.true.1":"Звучит душераздирающе и тошнотворно.",
+    "movies.3.true.2":"/message \"Мистер Джинджер выглядит скучающим.\"",
+    "movies.3.true.3":"Нет, не мой котелок с рыбой. Мммм, рыба... Мы можем пообедать вместе?",
+    "movies.4.true.1":"Seems entertaining.",//not translated
+    "movies.4.true.2":"Это просто смешно.$1",
+    "movies.4.true.3":"Что за дурацкий фильм! Чрезвычайно забавный.",
+    "movies.5.true.1":"Страшно? Ха, я самый храбрый в этом городе. Мне смешно от этого ужастика!",
+    "movies.5.true.2":"/shake MisterGinger 3000/pause 500/",
+    "movies.5.true.3":"Нет... Не делай этого... Ой!",
+    "movies.5.true.4":"Что? Мне было страшно? Нет, ты все выдумываешь.$2",
+    "movies.6.true.1":"Фу, романтика? Кошки не делают таких глупых, сентиментальных вещей.",
+    "movies.6.true.2":"/message \"Это слёзы на глазах мистера Джинджера?\"",
+    "movies.6.true.3":"Я не плачу. Это ты плачешь. Наверное, это из-за освещения.",
+    "movies.7.true.1":"Абигейл говорила об этом фильме. Должно быть, хороший!",
+    "movies.7.true.2":"/message \"Мистер Джинджер сидит, низко скрючившись, в своём кресле.\"",
+    "movies.7.true.3":"Too loud...",//not translated
+    "movies.7.true.4":"Сюжет был бессмысленным, а звуки слишком громкими!$1",
+    "movies.8.true.1":"Хммм, Расу он понравился. Я доверяю его суждениям.",
+    "movies.8.true.2":"...",
+    "movies.8.true.3":"Да, чтоб я ещё хоть раз поверил Расу! Нет, больше никогда.",
+    "movies.9.true.1":"Я был бы счастлив посмотреть его ещё раз, раз ты настаиваешь.$1",
+    "movies.10.true.1":"Да, конечно, почему бы и нет? Хорошо.",
+    "movies.11.true.1":"Мне до сих пор снятся кошмары.",
+    
+    /*C S   S T R I N G S   A N D   M O R E
+    Note: these will only be activated under very specific situations, 
+    so are unlikely to be seen by many, if any, players
+    ************************************************************************
+    "5367":"Well, this is unusual, but very well, if you insist. *Clears throat*#$b#It is my great honor on this day {0} of {1}, to support @ and, erm, Mr. Ginger in pledging their dedication to one another.",
+    "5369":"Well, this is unusual, but very well, if you insist. *Clears throat*#$b#It is my great honor on this day {0} of {1}, to support @ and, erm, Mr. Ginger in pledging their dedication to one another.",
+    "5371":"@... Ginger... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you companions for life!$h",
+    "5377":"@... Ginger... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you companions for life!$h",
+    "5379":"You may, um, hug or something?",				
+    "2782":"Oooh, that was fun, wasn't it?$3#$e#And now here I am, living on a farm! Do you have any rats or mice? Well, not for long!$4",
+    "4439":"A miniature human stumbling around? It better not step on my tail!#$b#Still, whatever makes you happy. I'll deal.$3",
+    "4440":"Let me get this straight: you fill in some paperwork, and they deliver a baby to the door?#$b#That's much less messy than the way cats do things.",
+    "4441":"Mirp? {0}, I accidently chewed on the adoption papers.#$b#What? They were fluttering in the wind, I thought they were a moth.",
+    "4444":"Babies... they're human kittens, right? This is gonna be great! I'm gonna teach it to hunt, and climb trees and... what?$1",
+    "4447":"What sort of things do babies like? Sleeping, screaming?#$b#Those big fluffy fake animals with glass eyes? You can keep those away from me! Freakish things.",
+    "4448":"Let me get this straight: you fill in some paperwork, and they deliver a baby to the door?#$b#That's much less messy than the way cats do things.",
+    "4449":"I need a minute to myself...  Hey, they're not MY kids.$5",
+    "4462":"I got up early and watered some crops for you. And you know how I feel about water!",
+    "4463":"#$e#Oh, and I filled {0}'s water bowl. Poor, simple house pets, don't know enough to find their own water.",
+    "4465":"Mirrrp? Have you brought me something delicious {0}?",
+    "4466":"*yawns* Ah, good morning, {0}. I was just catching up on my beauty sleep.",
+    ":4470":"I got up early to water your crops, and almost got doused by the sprinklers!$2#$b#They're evil, I tell you, evil!.$5",
+    "4474":"I got up early and fed all your dim-witted farm animals. Now you've more time to catch me fish.$1",
+    "4481":"I couldn't sleep, so I got up and repaired a few of the fences. Can't have the animals running away, can we?",
+    "4500":"Humans... can't tidy up after themselves. What sort of mess do you call this? At least all I leave is my fur.",
+    "baby.adopt.1":"Your new baby {0} has arrived! I hope you're ready to be a parent.",	
+    "baby.adopt.q":"Am I ready to adopt a baby?",
+    "baby.adopt.m":"What should we name him? Ginger's a good name.",
+    "baby.adopt.f":"What should we name her? How about 'Fluffy'?",
+    "engagement.0":"You do realize I'm a cat, don't you?#$b#Good, just checking.#$b#I'm fairly certain this is unorthodox even by your strange human standards, but fish and cheese for the rest of my life?$3",
+    "engagement.1":"Do you doubt me, @? Everything is under control. I have contacts, you know.$1#$b#Well, _a_ contact, and that's Ras. But he's pretty good at getting stuff sorted.$4", 	
+    ***********************************************************************************************/
+    
+    // M A I L
+    "mail.wizard.hearts6":"Приветствую тебя, юный адепт,^ Наш общий знакомый просил тебя явиться в мою башню после наступлении темноты. Пожалуйста, принеси с собой фрагмент пустоты. ^    -M. Расмодиус, Волшебник.[#]Приглашение",
+    "mail.harvest.hearts6":"Привет!^ Наш общий знакомый просил тебя явиться ко мне в каменную башню после наступлении темноты. Пожалуйста, принеси с собой фрагмент пустоты. ^    -Богиня У.[#]Приглашение",
+    
+    // E V E N T S
+    
+    //2 hearts (spoken dialogue from Emily)
+    "2hearts.0": "Здравствуй, Осирис!$1",
+    "2hearts.1": "Mууурр?$2",
+    "2hearts.2": "Ладно, ладно... Только не говори Гасу!$3",
+    "2hearts.3": "О, ты голоден, не так ли, Осирис?$2",
+    "2hearts.4": "O, привет @! Это было неожиданно.$1",
+    "2hearts.5": "Но ты ведь не расскажешь об этом Гасу, правда?$2",
+    "2hearts.6": "Фу-ух. Мне известно, что Осирис живет на ранчо, и его, вероятно, хорошо кормят , но он всегда кажется таким голодным.$3",
+    "2hearts.7": "Осирис - очень необычное существо. Иногда мне кажется, что он больше, чем просто кот.$4",
+    "2hearts.8": "Хотя, может быть, нет такого понятия, как 'просто кошка'!$1",
+    "2hearts.9":"А ты как думаешь?#В нём определенно есть что-то уникальное!#У всех кошек есть свой собственный разум.",
+    "2hearts.10":"Чересчур правильно!",
+    "2hearts.11":"Тебе это понравилось, Осирис?$3",
+    "2hearts.12":"Mуррр!$1",
+    "2hearts.13":"Я так рада!",
+    "2hearts.14":"Вскоре после приезда Джас он появился в городе. Она была совсем крошечной девочкой, недавно осиротевшей. Это было так грустно!$2#$b#Никто не знал, откуда он взялся и кому принадлежал, но знаешь что?$3#$b#...Я верю, что он её ангел-хранитель.$4",
+    "2hearts.15":"Ой, мне лучше идти. Гас будет гадать, что я тут долго делаю. До свидания @, и пока, Осирис. Ещё увидимся",
+    "2hearts.16":"Mуррррр?$2",
+    
+    //4 hearts (multiple speakers)
+    "4hearts.1":"Мяу?",
+    "4hearts.2":"Брысь!",
+    "4hearts.3":"Привет, Мистер Джинджер! Забежал, чтобы присоединиться к нам для тренировки, не так ли?$1", //Marnie
+    "4hearts.4":"Mуррр!",
+    "4hearts.5":"Привет, котик! Ну разве ты не красавец?$1", //Robin
+    "4hearts.6":"Мистер Джинджер? Так вот как его зовут?$1", //Jodie
+    "4hearts.7":"Что ж, именно так Джас его и назвала.$1#$b#Она говорит, что это не его *настоящее* имя.$3", //Marnie
+    "4hearts.8":"И вот теперь я называю его тигром!$4", //Robin
+    "4hearts.9":"Сэм называет его гусем. Я не знаю точно почему.", //Jodi
+    "4hearts.10":"Aх, привет @. Ты ведь знаком с мистером Джинджером, верно?^Aх, привет @. Ты ведь знакома с мистером Джинджером, верно?$1", //Marnie
+    "4hearts.11":"Ладно, дамы, мы здесь для того, чтобы тренироваться, а не подлизываться к глупому коту.$3", //Caroline
+    "4hearts.12":"Муууууууррр....$5",
+    "4hearts.13":"Ах нет, теперь ты его рассердила!$2", //Marnie
+    "4hearts.14":"Эй!",
+    "4hearts.15":"Что здесь делает этот кот?$3#$b#Ты же знаешь, что у меня... A-A-A-aaa-Пчхи!!!$2", //Pierre
+    
+    //5 hearts (dialogue is Willy)
+    "5hearts.1":"*невнятно* Mрррррр! $6",
+    "5hearts.2":"*Пыхтит* Эй @. Ты не видел Боцмана? Большого оранжевого кота?^*Пыхтит* Эй @. Ты не видела Боцмана? Большого оранжевого кота?#$b#Надоедливый бродяга украл мой обед.",
+    "5hearts.3":"#(Показать на север) Он пошёл в ту сторону.#Он прячется за этим кустом.",
+    "5hearts.4":"Спасибо, парень, я действительно надеялся на это.^Спасибо, леди, я действительно надеялся на это.",
+    "5hearts.5":"Мяу муррр!$4",
+    "5hearts.6":"Ага, я вижу твой хвост, Боцман!",
+    "5hearts.7":"Отдай обратно, негодяй-воришка!",
+    "5hearts.8":"Got it!",
+    "5hearts.9":"Спасибо, тебе.#$b#Похоже, в целом всё в порядке. Доброго тебе дня!",
+    "5hearts.10":"Мяууу.$2",
+    "5hearts.11":"Well, it's a wee bit chewed, so you might as well have it, Bosun.#$b#Don't go thinkin' you're being rewarded for your crimes though!$a",//not translated (new lines)
+    "5hearts.12":"Say lad, how about you and I grab lunch at the saloon?$1^Say lass, how about you and I grab lunch at the saloon?$1", //not translated (new lines)
+    
+    //6-heart event (This is the important one!)   (Wizard and Mr Ginger)
+    "6hearts.wizard.1":"Мне очень жаль, что я не могу помочь тебе с твоей более насущной проблемой, Трикс. Но возможно... никто из нас не может знать, что ждёт нас в будущем.",
+    "6hearts.wizard.2":"Ах да, верно, за исключением мадам Уэлвик, но она не говорит ни слова на эту конкретную тему.",
+    "6hearts.wizard.3":"Я знаю, я знаю. Однако терпение, говорят они - это добродетель, и возможно... Ну что ж, возможно, сегодня вечером все шестерёнки будут пущены в ход... колесо начинает вращаться...",
+    "6hearts.wizard.4":"Ладно, да, я опять болтаю без умолку. Я слишком долго был один, мой друг.",
+    "6hearts.wizard.5":"Как раз вовремя. Наш гость прибыл.",
+    "6hearts.wizard.6":"Привет @, рад тебя видеть. Ты можешь присоединиться к нам.",
+    "6hearts.wizard.7":"Да-да, я знаю. Пожалуйста, наберись терпения!",
+    "6hearts.wizard.8":"Ты принёс этот предмет, @?^Ты принесла этот предмет, @?",
+    "6hearts.wizard.9":"Замечательно, это точно соответствует моим требованиям. Давайте начнём!#$b#Что мы тут варим? А вот это уже сюрприз.$h",
+    "6hearts.wizard.10":"Ну вот, держи: Звёздные осколки, Капельку голубиной крови, Лепестки волшебной Розы.#$b#И всё благодаря тебе, @. Последние элементы: фрагмент тьмы, осколок сердца пустоты...",
+    "6hearts.wizard.11":"Ты же понимаешь, что я имею в виду!$h",
+    "6hearts.wizard.12":"Сюда. Пей. Я знаю, что прошлый раз был не слишком приятным, но польза перевешивает затраты, не так ли?$h",
+    "6hearts.13":"@? @!$2",
+    "6hearts.14":"Привет? @? Сработало?$2",
+    "6hearts.15":"@? Ты в порядке?",
+    "6hearts.wizard.16":"#Я не чувствую своих ног.#О, смотрите, говорящий кот!#Ему нужен был ломтик лимона.#Это последний раз, когда я пью то, что ты предлагаешь!",
+    "6hearts.wizard.17":"Должен сказать, что это довольно неожиданный побочный эффект, но я уверен, что он быстро пройдёт.#$b#Не торопись.",
+    "6hearts.wizard.18":"Это сработало! Это действительно сработало. Прости, что я сомневался в тебе, Рас.$4",
+    "6hearts.wizard.19":"Эй, Рас, похоже, кто-то ценит твои кулинарные таланты!",
+    "6hearts.wizard.20":"Это ты сейчас так говоришь, @, но ты не можешь отрицать, что мои варева весьма полезны.",
+    "6hearts.21":"Эй, @. Так здорово, когда есть с кем поговорить.#$b#С Расом всё в порядке, но он немного задирает нос, тебе не кажется?....$1",
+    "6hearts.wizard.22":"Ты же знаешь, я тебя слышу. Котёнок.",
+    "6hearts.wizard.23":"Котёнок... Он знает, что я ненавижу это имя. Так унизительно. Как будто я какой-то обычный домашний питомец.$5#$b#Пожалуйста, никогда не называй меня котёнком, @.$1",
+    "6hearts.24":"Каждый может разговаривать с животными, но для того, чтобы слушать их, нужно быть особенным человеком.#$b#Да, это комплимент. Только не привыкай к ним. У меня есть репутация, которую нужно скрывать, ты же знаешь.",
+
+    //If Harvest Goddess is installed:
+    "6hearts.harvest.1": "Мне очень жаль, что я не могу помочь тебе с твоей более насущной проблемой, Трикс. Но возможно... никто из нас не может знать, что ждёт нас в будущем.",
+    "6hearts.harvest.2":"Ах да, верно, за исключением мадам Уэлвик, но она не говорит ни слова на эту конкретную тему.",
+    "6hearts.harvest.3":"Да знаю я, знаю. Но терпение - это добродетель, и возможно... Ну что ж, возможно, сегодня вечером всё пойдёт своим чередом.",
+    "6hearts.harvest.4":"Ладно, да, я опять болтаю без умолку. Я слишком долго была одна, мой друг.",
+    "6hearts.harvest.5":"Как раз вовремя. Наш гость прибыл.",
+    "6hearts.harvest.6":"Привет @, рада тебя видеть. Ты можешь присоединиться к нам.",
+    "6hearts.harvest.7":"Да-да, я знаю. Пожалуйста, наберись терпения!",
+    "6hearts.harvest.8":"Ты принёс этот предмет, @?^Ты принесла этот предмет, @?",
+    "6hearts.harvest.9":"Замечательно, это точно то, что я просила. Давайте начнём!#$b#Что мы тут варим? О, это сюрприз, но я чувствую, что он доставит тебе удовольствие. Хи-хи!.$h",
+    "6hearts.harvest.10":"Ну вот, держи: Звёздные осколки, Лепестки волшебной Розы.#$b#И всё благодаря тебе, @. Последний элемент: щепотка солнца...",
+    "6hearts.harvest.11":"Да, я знаю, Трикс. Пожалуйста, потерпи.$h",
+    "6hearts.harvest.12":"Сюда, дыши глубже. Вдохни магию. Почувствуй, как она впитывается в твои чувства.$h",
+    "6hearts.harvest.13":"@? Пожалуйста, не надо бояться. У нас есть ты. Мы здесь ради тебя.",
+    "6hearts.harvest.16":"#Я не чувствую своих ног.#О, смотри, этот кот разговаривает!#Что произошло? У меня был обморок?",
+    "6hearts.harvest.17":"О, нет! Это неожиданный побочный эффект. Он должен скоро сойти на нет.#$b#Извини!$2",
+    "6hearts.harvest.18": "Это сработало! Это действительно сработало. Прости, что я сомневался в тебе, Богиня.$4",
+    "6hearts.harvest.20": "Приношу свои извинения, @. Порой эта сила действительно вызывает у человека лёгкое головокружение.",
+    "6hearts.harvest.21": "Эй, @. Так здорово, когда есть с кем поговорить.#$b#Я имею в виду, что Богиня прекрасна и здорова... на то ты и Богиня!$1",
+    "6hearts.harvest.22": "Может и так, Трикс, но я ещё и твой друг.",
+    "6hearts.harvest.23": "Я знаю, и это большая честь для меня, Богиня. Но иногда... ты знаешь.$1",
+    "6hearts.harvest.24":  "Так и есть, мой пушистый друг. Пожалуйста, относись к нему хорошо, @. Поскольку в этом котике есть нечто большее, чем кажется на первый взгляд.",
+    
+    //8 hearts (dialogue mixed between Mr. Ginger, Jas and Shane)
+    "8hearts.1": "@! Я так рад, что ты здесь!#$b#Мне нужна твоя помощь!$2",
+    "8hearts.2": "Там Джас! Она внутри, напугана и одинока, и я не могу до неё достучаться!$2",
+    "8hearts.3.drunk":"Её мучают ужасные ночные кошмары! Марни нет дома, а Шейн спит, как бесполезный болван, которым он и является!$2",
+    "8hearts.3.sober":"Её мучают ужасные ночные кошмары! Марни нет дома, а Шейн спит, как бесполезный болван, которым он и является!$2",
+    "8hearts.3.spouse": "She has terrible nightfears! Marnie's out, and Shane's over on your farm!$2",//not translated
+    "8hearts.4": "Под этим фальшивым камнем у двери есть ключ.",
+    "8hearts.5":"Пожалуйста, ты мне поможешь?#Конечно же, я помогу!#С чего бы это? Я же не няня.",
+    "8hearts.6": "...И принцесса опустила губы, чтобы осторожно поцеловать скользкую голову лягушки...",
+    "8hearts.7": "Фу-у-у!$3",
+    "8hearts.8": "...Тут же вспыхнула искра света, достаточно яркая, чтобы ослепить принцессу.#$b#Когда её зрение прояснилось, перед ней на корточках сидел молодой человек.",
+    "8hearts.9": "Не молодой человек, а принц! Прекрасный принц.",
+    "8hearts.10": "Нет, не принц. Простой деревенский парень, который полюбил её всем сердцем.#$b#А если у него были слегка выпученные глаза и липкая кожа, то что с того?$1",
+    "8hearts.11": "ИК!$3#$b#Дядя Шейн, ты такой забавный.$1",
+    "8hearts.12": "Спасибо. Но серьёзно, малышка, тебе не нужен принц, чтобы быть счастливой.$3",
+    "8hearts.13": "Я знаю! Я должна знать, что есть кто-то, кому я буду небезразлична.$4#$b#Верно?$1",
+    "8hearts.14.drunk":"Да, именно так, солнышко.$l#$b#Ну что, ты уже готова снова лечь спать? Кошмар забылся?#$b#...(Дяде Шейну нужно отдохнуть)...", //Shane
+    "8hearts.14.sober":"Да, именно так, солнышко.$l#$b#Ну что, ты уже готова снова лечь спать? Кошмар забылся?#$b#Помни, я обещал быть здесь ради тебя. Отныне и навсегда.", //Shane
+    "8hearts.14.spouse":"Yeah, that's right, sweetheart.$l#$b#Now, you ready to go back to sleep yet? Nightmare forgotten?#$b#Remember, I've promised to be here for you. From now on and always, even now I'm living with @.", //Shane NOT TRANSLATED
+    "8hearts.15":"Ещё не забыла. Но теперь лучше. Да, точно лучше.$3#$b#Думаю, теперь я смогу заснуть спокойно.", //Jas
+    "8hearts.16":"Умница, давай уложим тебя обратно в постель.", //Shane
+    "8hearts.17":"Спокойной ночи, дядюшка Шейн. Спасибо. Мне от этого стало гораздо легче.$1", //Jas
+    "8hearts.18":"Она ведь совсем во мне не нуждалась. Сейчас у неё есть он.$2", //Mr Ginger
+    "8hearts.19":"#Она всегда будет нуждаться в тебе. Он всего лишь её дядя, а ты - её кот!#Детям надоедают домашние животные, это правда.#Ты просто кот, а Шейн - её дядя.#Я всегда буду с тобой, Мистер Джинджер.",
+    "8hearts.20":"Хорошо, спасибо. Теперь я чувствую себя намного лучше.$1",
+    "8hearts.21":"Я всего лишь домашний питомец...? Нет! Я же её друг...$2#$b#И я не позволю тебе сказать иначе!$5",
+    "8hearts.22":"Семья важнее домашних животных. Я всё понял.$2#$b#Мне это не нравится, но я понимаю.$2",
+    "8hearts.23":"В самом деле? Спасибо, @. Для меня это очень много значит.$4",
+    "8hearts.24":"*сонливо* Мистер Джинджер? Мистер Джинджер? Это ты?",
+    "8hearts.25":"Пока @! Мне пора идти!$3",
+    "8hearts.26":"Ей очень нравится этот кот.", //Shane
+    "8hearts.27":"Ты не поможешь мне утешить испуганного ребёнка?$5#$b#Ты ужасный человек, @. Я не могу поверить, что считал тебя своим другом.$2",
+    "8hearts.28":"Не волнуйся, Джас! Я здесь!",
+    
+    //10-hearts part 1 (Linus and Mr Ginger)
+    "10hearts.1.01": "Неплохой улов, Мармелад.#$b#Сегодня мы вкусно поедим!",
+    "10hearts.1.2": "Хотя я не сомневаюсь, что Марни хорошо тебя кормит.",
+    "10hearts.1.3": "Марни меня кормит? Я вполне способен сам себя прокормить. Большое тебе спасибо.$1#$b#Действующий чемпион-мышелов ранчо восемь лет подряд!$4#$b#Хотя также, я очень люблю сыр и рыбу.#1",
+    "10hearts.1.4": "Спасибо, что составил мне компанию сегодня вечером.",
+    "10hearts.1.5": "Кажется, что-то не так... сегодня вечером, как ты думаешь?",
+    "10hearts.1.6": "Это пахнет, как облака на краю бури.$2",
+    "10hearts.1.7": "Эта пустота беспокойна.#$b#Нам надо спешить.",
+    "10hearts.1.8": "Эй, ты! Дыхание пустоты!$5#$b#Оставь моего друга в покое!$5",
+    "10hearts.1.9":"Ко-тёнок?",
+    "10hearts.1.10": "Не называй меня Котёнком!$5",
+    "10hearts.1.11": "Мармелад? Ты в порядке?",
+    "10hearts.1.12": "Ты спас мне жизнь! Да ты просто герой!",
+    "10hearts.1.13": "О, ты ранен! Нам лучше тебя подлатать.",
+    "10hearts.1.14":"Да не суетись ты так, @, это всего лишь царапина, и Линус хорошо меня вылечил.$2#$b#На самом деле, пожалуйста, не суетись. Это же больно! Может быть, немного сыра поможет мне исцелиться.$2",
+    
+    //10-hearts part 2 (Marlon and Mr Ginger) 
+    "10hearts.2.core.1":"Aх, @! Я как раз собирался посетить город.",
+    "10hearts.2.core.2":"Сегодня утром я столкнулся с моим хорошим другом Линусом, и мне было интересно, не знаешь ли ты, где может находиться 'Мармелад'.",
+    "10hearts.2.core.3":"Я полагаю, что он также носит имена: Осирис, Трикс и Мистер Джинджер, среди прочих?",
+    "10hearts.2.4":"Кто-то произнёс моё имя? Не то чтобы у меня вошло в привычку приходить, когда меня зовут, но... ладно...#$b#... А, привет, Марлон!",
+    "10hearts.2.5":"Сколько же времени прошло! Всё ещё живёшь со стариком в том доме на горе?$1#$b#Мечтаешь о жизни, которая могла бы быть... может тебе надо было следовать зову своего сердца, а не упрямой совести?$1",
+    "10hearts.2.core.6":"Он очень разговорчивый, правда?",
+    "10hearts.2.7":"Марлон так и не научился 'слушать'.$4",
+    "10hearts.2.8":"Итак, седобородый, что привело тебя сюда с гор?#$b#Знаешь, тебе стоит спуститься вниз и поздороваться с Марни.#$b#Она тоскует и читает тошнотворные книжки в мягкой обложке. Она ждёт, когда какой-нибудь пират подхватит её на руки.$3",
+    "10hearts.2.9":"Видишь, не понимаешь ни слова из того, что я говорю. Глупые люди. Нужно прочистить вам уши.",
+    "10hearts.2.core.10":"Что ж, это слегка необычно, но я пришёл сюда с предложением.",
+    "10hearts.2.11":"С предложением? И что же ты предлагаешь?$1",
+    "10hearts.2.core.12":"Я слышал этот кот был настоящим героем, @.",
+    "10hearts.2.13":"Я прямо здесь, седобородый. Ты можешь поговорить со мной, ты же знаешь!",
+    "10hearts.2.core.14":"И мы подумали, не хочет ли он вступить в Гильдию искателей приключений?",
+    "10hearts.2.15":"В гильдию искателей приключений! Меня? В защитники города!$4",
+    "10hearts.2.core.16":"Я имею в виду, что это опасная работа. Как ты думаешь, почему я потерял глаз?#$b#Так что же ты скажешь?",
+    "10hearts.2.17":"Шанс защитить Джас и всех остальных - вот это была бы честь! Но что ты об этом думаешь, @?",
+    "10hearts.2.18":"#Ты смелый и сильный, и ты им нужен!#Ты должен следовать тому, что правильно для тебя.#Я не хочу, чтобы ты пострадал.#Ты? Защитник? Ты же просто кот!",
+    "10hearts.2.19":"Мне так приятно, что ты это признаёшь!",
+    "10hearts.2.20":"Ты очень мудро мыслишь... Да, я думаю, что так оно и есть!",
+    "10hearts.2.21":"Я тоже не хочу, чтобы мне было больно, @. Но я быстр, хитёр и коварен. Я могу это сделать!",
+    "10hearts.2.22":"И что ты хочешь этим сказать? Неужели то, что я кот, делает меня слабым?#$b#Мои зубы и когти - вот моё оружие, @.#$b#Хочешь бросить мне вызов?$5",
+    "10hearts.2.core.23":"Это значит 'да'?",
+    "10hearts.2.core.24":"Готов ли ты поклясться мне в верности?",
+    "10hearts.2.core.25":"Очень хорошо. Неужели ты, тот, кого называют Мармеладом, а также Мистером Джинджером, торжественно клянёшься ставить чужие жизни выше своих собственных?",
+    "10hearts.2.core.26":"Обещаешь ли ты быть хорошим опекуном и защитником?#$b#Дабы уберечься от проклятия тьмы и чумы пустоты. То, что пребывает внутри и снаружи.",
+    "10hearts.2.core.27":"Ты можешь встать, благородный кот..",
+    "10hearts.2.28":"Благодарю тебя за эту честь, Марлон. Я сделаю так, что ты будешь мной гордиться, обещаю.",
+
+    //Marlon is real  *********************************************************************************** needs translating
+    "10hearts.2.real.1":"Hey @! I was just coming down to visit the town.",
+    "10hearts.2.real.2":"I was talking to Linus this morning, and I can't believe I'm gonna ask this.. but, urm, have you seen, err, 'Marmalade'around?",
+    "10hearts.2.real.3":"Ginger cat. Goes by the names of: Osiris, Trix and Mr. Ginger, among others?",
+    "10hearts.2.real.6":"Noisy beggar, isn't he?",
+    "10hearts.2.real.10":"This is ridiculous... but I've come with a proposal.",
+    "10hearts.2.real.12":"That cat's been quite a hero.",
+    "10hearts.2.real.14":"And, urm, we wanted to invite him to join the Adventurer's Guild.",
+    "10hearts.2.real.16":"It's dangerous work, I mean, how do you think I lost my eye?#$b#He might get eaten by a monster or something. But, does he want to join?",
+    "10hearts.2.real.23":"Is that a 'yes'?",
+    "10hearts.2.real.24":"We've gotta do the Oath of Allegience now. Daft, I know. Not like a cat can swear a vow. But, there are formalities we've got to be upheld.",
+    "10hearts.2.real.25":"Very well. Do you, the one called Marmalade and Mr. Ginger, and Yoba knows what else, solemnly swear to put the lives of others before your own?",
+    "10hearts.2.real.26":"Do you promise to act as guardian and protector?#$b#To guard against the blight of darkness and the pestilence of the void.#$b#That which resides within and without. And all the other pretentious nonsense.",
+    "10hearts.2.real.27":"Congratulations cat, you're now a defender of the town. Try not to get yourself killed.",
+    //***************************************************************************************************
+    
+    //Shane and Mr Ginger (dialogue is all Shane)
+    "5295020.1": "Это Марни послала тебя проведать меня, Джинджер?$2",
+    "5295020.2": "О, не крути хвостом, это всего лишь Джоджа-Кола.$2",
+    "5295020.3": "Лучше бы это было не так...$2#$b#Сегодня было тяжело, Джинджер. Очень тяжело. Я хочу закопать их... чтобы заглушить боль...$5",
+    "5295020.4": "Йоба... Должно быть, я сошёл с ума, раз разговариваю с котом.#$b#Ты же не понимаешь, тебе всё равно.$2",
+    "5295020.5": "Ладно, что ж, ты хороший кот, Джинджер. И хороший друг для Джас.$1",
+    "5295020.6": "Ладно, мне пора идти... и спасибо, кот... это странно, но это правда помогло.",
+    
+    //Just a dream ***********************************************************************  Not Translated
+    "50706131.1.HMtrue":"What's wrong, @? Your forehead is doing that weird creasing thing and you stink of unhappiness.$2#$b#Which is similar to stewed cabbage, if you were curious.",
+    "50706131.1.HMfalse":"What am I doing on your doorstep, @?#$b#I was on morning patrol, and thought I'd check in.#$b#What's wrong, @? Your forehead is doing that weird creasing thing and you stink of unhappiness.$2#$b#Which is similar to stewed cabbage, if you were curious.",
+    "50706131.2":"#Yesterday you were a man?#I had a terrible dream.#Are you really a cat?",
+    "50706131.3":"Oh! What kind of dream?#$b#You dreamt I was a man? A disgusting, furless man!$5#$b#Ugh! Oh, sorry, no offence intended. But, gross! Your kind are clearly inferior to mine.$2",
+    "50706131.4":"What??! A man!$5#$b#To no longer have this luxurious fur, this magnificant tail!#$b#What a disgusting notion!",
+    "50706131.5":"Hmmm, philosophy this early in the morning? What is it, do you think, to be a cat?$3#$b#Four paws, check. Pointed ears, check. Manificent fluffy tail, all accounted for. Charming purr? Yep.$1#$b#I would say, all evidence confirms that yes, I am a cat.$4",
+    "50706131.6":"Is that all that was bothering you, @?",
+    "50706131.7":"#Yep, that was about it.#Do you love me, Mr. Ginger#I'm hungry, shall we get breakfast?",
+    "50706131.8":"Oh that's good! You had me worried there, you humans can be such moody creatures.#$b#Want me to catch you something small and squeaky for breakfast?#$b#No? Okay. All the more for me then!$1",
+    "50706131.9":"Love? Of course I love you, @! You bring me fish, and cheese, and you're delightfully warm on a cold day.#$b#Plus you keep up a reasonable conversation, a vast improvement over all cats and most humans.$1#$b#What more could a feline ask for? You humans complicate emotions so much.$4",
+    "50706131.10":"Sounds like a plan, I've got you well trained, haven't I?$4",
+    "50706131.11":"All better now? Word of advice, @?#$b#Humans can get too caught up in their imagination. You've gotta focus on what's real.$3#$b#Like cheese. Now, speaking of cheese...$4"
+    
+    }
+    
+            
+             

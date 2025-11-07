@@ -1,0 +1,150 @@
+{
+	"Changes": [
+		{
+			"LogName": "Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"LaniSBV": "{{i18n:Lani.Gift.Love}}/421 593 787 228 227 202 564 565 91 color_yellow soju_item/{{i18n:Lani.Gift.Like}}/394 444 139 346 212 91 116 alcohol_item/{{i18n:Lani.Gift.Dislike}}/384 395 834 category_fish category_seeds/{{i18n:Lani.Gift.Hate}}/344 342 445 812 447 92 93 99 178 154 jelly_item pickle_item/{{i18n:Lani.Gift.Neutral}}/306 303 336 18 104/"
+			}
+		},
+		// Field 1 is Love, 3 is Like, 5 is dislike, 7 is hate, 9 is neutral
+		{
+            "LogName": "Lani NPC - Add WAG Gift Tastes",
+			"Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {"HasMod: |contains=Wildflour.AtelierGoods": true },
+			"TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 1], // Loves
+                    "Value": "Wildflour.AtelierGoods_Sunflower_Basket Wildflour.AtelierGoods_Spangle_Basket Wildflour.AtelierGoods_Rainbow_Sprinkles Wildflour.AtelierGoods_Bobbin_For_Aleples Wildflour.AtelierGoods_Livin_Off_The_Land_Ale Wildflour.AtelierGoods_Pelican_Pilsner Wildflour.AtelierGoods_Apple_Cake Wildflour.AtelierGoods_Sourdough Wildflour.AtelierGoods_Smores Wildflour.AtelierGoods_Birthday_Blast_IceCream Wildflour.AtelierGoods_Cookie_Monster_IceCream Wildflour.AtelierGoods_Birthday_Blast_Milkshake Wildflour.AtelierGoods_Cookie_Monster_Milkshake Wildflour.AtelierGoods_Brown_Sugar_Pie Wildflour.AtelierGoods_Winter_Twilight_Bouquet Wildflour.AtelierGoods_Monkey_Business_Smoothie", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 3], // Likes
+                    "Value": "Wildflour.AtelierGoods_Jasmine Wildflour.AtelierGoods_Cinnamon_Toast_Crunch_Smoothie Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 5], // Dislikes
+                    "Value": "Wildflour.AtelierGoods_Chocolate_Mint_Cupcakes Wildflour.AtelierGoods_Honeycomb wildflour_coffee_item wildflour_boba_item kombucha_item syrup_item", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 7], // Hates
+                    "Value": "Wildflour.AtelierGoods_Tropical_Cupcakes Wildflour.AtelierGoods_Key_Lime_Pie Wildflour.AtelierGoods_Peach_Pie Wildflour.AtelierGoods_Lemon Wildflour.AtelierGoods_Lemon_Meringue_Pie Wildflour.AtelierGoods_Elderberry_Pie Wildflour.AtelierGoods_Cherry_Pie pudding_item", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 9], // Neutrals
+                    "Value": "wildflour_tea_item", 
+                    "Delimiter": " "
+                },
+			]
+		},
+		{
+            "LogName": "Lani NPC - Add Cornucopia Gift Tastes",
+			"Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+				"HasMod: |contains=Cornucopia.MoreCrops": true,
+				"HasMod: |contains=Cornucopia.MoreFlowers": true, 				
+				"HasMod: |contains=Cornucopia.ArtisanMachines": true },
+			"TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 1], // Loves
+                    "Value": "Cornucopia_Avocado Cornucopia_Kimchi Cornucopia_StinkyTofu Cornucopia_SparklingWine Cornucopia_SmokedSalmon Cornucopia_SmokedCheese Cornucopia_SmokedMeat Cornucopia_SmokedEgg Cornucopia_Tofu", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 3], // Likes
+                    "Value": "Cornucopia_Watermelon Cornucopia_Honeydew Cornucopia_Honeysuckle Cornucopia_BlueMist Cornucopia_Lily Cornucopia_MorningGlory Cornucopia_Camellia Cornucopia_Chamomile Cornucopia_Hibiscus Cornucopia_Jasmine Cornucopia_Magnolia", 
+                    "Delimiter": " "
+                },
+
+			]
+		},
+		{
+            "LogName": "Lani NPC - Add SVE Gift Tastes",
+			"Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
+			"TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 1], // Loves
+                    "Value": "FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Baked_Potato FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken alcohol_item FlashShifter.StardewValleyExpandedCP_Gemfish", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 3], // Likes
+                    "Value": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato FlashShifter.StardewValleyExpandedCP_Flower_Cookie", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 7], // Hates
+                    "Value": "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice", 
+                    "Delimiter": " "
+                },
+
+			]
+		},
+		{
+            "LogName": "Lani NPC - Add Fresh and Bit Gift Tastes",
+			"Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": { "HasMod: |contains=minothilos.FreshandBit": true },
+			"TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 1], // Loves
+                    "Value": "minothilos.FreshandBit_lasagne minothilos.FreshandBit_triplethreatchilli minothilos.FreshandBit_empanada minothilos.FreshandBit_onigiri minothilos.FreshandBit_avocadotoast", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 7], // Hates
+                    "Value": "minothilos.FreshandBit_beetsalad", 
+                    "Delimiter": " "
+                },
+
+			]
+		},
+		{
+            "LogName": "Lani NPC - Add Culinary Delight Gift Tastes",
+			"Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": { "HasMod: |contains=HeyKatu.CulinaryDelight": true },
+			"TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 1], // Loves
+                    "Value": "cooked_egg_item HeyKatu.CulinaryDelight_guacamole HeyKatu.CulinaryDelight_miso_soup HeyKatu.CulinaryDelight_fresh_maki HeyKatu.CulinaryDelight_smoked_salmon_bagel HeyKatu.CulinaryDelight_charcuterie HeyKatu.CulinaryDelight_fancy_ramen HeyKatu.CulinaryDelight_popcorn HeyKatu.CulinaryDelight_burger HeyKatu.CulinaryDelight_dipping_fries HeyKatu.CulinaryDelight_hot_cocoa", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 5], // Dislikes
+                    "Value": "HeyKatu.CulinaryDelight_oatmeal_raisin_cookies HeyKatu.CulinaryDelight_mushroom_stroganoff HeyKatu.CulinaryDelight_lobster_quinoa HeyKatu.CulinaryDelight_veggies_dip HeyKatu.CulinaryDelight_bamboo_shoots cooked_mushrooms_item", 
+                    "Delimiter": " "
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["Fields", "LaniSBV", 7], // Hates
+                    "Value": "HeyKatu.CulinaryDelight_dragonfruit_gelatin HeyKatu.CulinaryDelight_gooseberry_pie salad_item HeyKatu.CulinaryDelight_tropical_delight HeyKatu.CulinaryDelight_fried_sea_cucumber HeyKatu.CulinaryDelight_unknowable_dish", 
+                    "Delimiter": " "
+                },
+
+			]
+		}
+	]
+}

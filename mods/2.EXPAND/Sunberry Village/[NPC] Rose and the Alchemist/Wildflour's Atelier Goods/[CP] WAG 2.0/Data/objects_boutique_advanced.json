@@ -1,0 +1,3438 @@
+{
+    "Changes": [
+
+////////////////////
+// ADVANCED ITEMS //
+////////////////////
+
+    {
+        "LogName":"Add Bouquet Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Bouquets": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Butterfly_Garden_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Butterfly_Garden_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Butterfly_Garden_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Butterfly_Garden_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 416
+        },
+            "Wildflour.AtelierGoods_Cottage_Garden_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Cottage_Garden_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Cottage_Garden_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Cottage_Garden_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_light_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 417
+        },
+            "Wildflour.AtelierGoods_Herb_Garden_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Herb_Garden_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Herb_Garden_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Herb_Garden_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_sea_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 418
+        },
+            "Wildflour.AtelierGoods_Mystic_Garden_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Mystic_Garden_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Mystic_Garden_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Mystic_Garden_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_poppyseed"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 419
+        },
+            "Wildflour.AtelierGoods_Spring_Morning_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Spring_Morning_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Spring_Morning_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Spring_Morning_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_yellow_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 420
+        },
+            "Wildflour.AtelierGoods_Summer_Afternoon_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Summer_Afternoon_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Summer_Afternoon_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Summer_Afternoon_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_dark_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 421
+        },
+            "Wildflour.AtelierGoods_Autumn_Evening_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Autumn_Evening_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Autumn_Evening_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Autumn_Evening_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 422
+        },
+            "Wildflour.AtelierGoods_Winter_Twilight_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Winter_Twilight_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Winter_Twilight_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Winter_Twilight_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 423
+        },
+            "Wildflour.AtelierGoods_Bold_Red_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Bold_Red_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Bold_Red_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Bold_Red_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 424
+        },
+            "Wildflour.AtelierGoods_Charming_Pink_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Charming_Pink_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Charming_Pink_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Charming_Pink_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 425
+        },
+            "Wildflour.AtelierGoods_Cheerful_Yellow_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Cheerful_Yellow_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Cheerful_Yellow_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Cheerful_Yellow_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_yellow"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 426
+        },
+            "Wildflour.AtelierGoods_Passion_Purple_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Passion_Purple_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Passion_Purple_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Passion_Purple_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_purple"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 427
+        },
+            "Wildflour.AtelierGoods_Peaceful_Blue_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Peaceful_Blue_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Peaceful_Blue_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Peaceful_Blue_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 428
+        },
+            "Wildflour.AtelierGoods_Serene_White_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Serene_White_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Serene_White_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Serene_White_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 429
+        },
+
+    }
+    },
+
+    { 
+        "LogName": "Add Simple Flower Bouquet Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Bouquets": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flower_Bouquet": {
+                "Name": "Wildflour.AtelierGoods_Flower_Bouquet",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Bouquet.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Bouquet.description}}",
+                "Type": "ArtisanGoods",          
+                "ColorOverlayFromNextIndex":true,
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_bouquet_item",
+                "wildflour_boutique_item",
+                "bouquet_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 430
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Bouquets": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Bouquet": "{{i18n: AtelierGoods_Flower_Bouquet}}"
+        }
+    },
+
+    {
+        "LogName":"Add Perfume Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Perfume": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Butterfly_Garden_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Butterfly_Garden_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Butterfly_Garden_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Butterfly_Garden_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 464
+        },
+            "Wildflour.AtelierGoods_Cottage_Garden_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Cottage_Garden_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Cottage_Garden_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Cottage_Garden_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_light_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 465
+        },
+            "Wildflour.AtelierGoods_Herb_Garden_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Herb_Garden_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Herb_Garden_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Herb_Garden_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_sea_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 466
+        },
+            "Wildflour.AtelierGoods_Mystic_Garden_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Mystic_Garden_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Mystic_Garden_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Mystic_Garden_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_poppyseed"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 467
+        },
+            "Wildflour.AtelierGoods_Spring_Morning_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Spring_Morning_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Spring_Morning_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Spring_Morning_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_yellow_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 468
+        },
+            "Wildflour.AtelierGoods_Summer_Afternoon_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Summer_Afternoon_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Summer_Afternoon_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Summer_Afternoon_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_dark_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 469
+        },
+            "Wildflour.AtelierGoods_Autumn_Evening_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Autumn_Evening_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Autumn_Evening_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Autumn_Evening_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 470
+        },
+            "Wildflour.AtelierGoods_Winter_Twilight_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Winter_Twilight_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Winter_Twilight_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Winter_Twilight_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 471
+        },
+            "Wildflour.AtelierGoods_Bold_Red_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Bold_Red_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Bold_Red_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Bold_Red_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 472
+        },
+            "Wildflour.AtelierGoods_Charming_Pink_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Charming_Pink_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Charming_Pink_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Charming_Pink_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 473
+        },
+            "Wildflour.AtelierGoods_Cheerful_Yellow_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Cheerful_Yellow_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Cheerful_Yellow_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Cheerful_Yellow_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_yellow"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 474
+        },
+            "Wildflour.AtelierGoods_Passion_Purple_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Passion_Purple_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Passion_Purple_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Passion_Purple_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_purple"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 475
+        },
+            "Wildflour.AtelierGoods_Peaceful_Blue_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Peaceful_Blue_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Peaceful_Blue_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Peaceful_Blue_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 476
+        },
+            "Wildflour.AtelierGoods_Serene_White_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Serene_White_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Serene_White_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Serene_White_Perfume.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 477
+        }
+    }
+    },
+
+    { 
+        "LogName": "Add Simple Flower Perfume Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Perfume": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flower_Perfume": {
+                "Name": "Wildflour.AtelierGoods_Flower_Perfume",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Perfume.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Perfume.description}}",
+                "Type": "ArtisanGoods",     
+                "ColorOverlayFromNextIndex":true,     
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_perfume_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 478
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Perfume": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Perfume": "{{i18n: AtelierGoods_Flower_Perfume}}"
+        }
+    },
+
+    {
+        "LogName":"Add Floral Swag Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Bouquets}} = 'true')":true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Butterfly_Garden_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Butterfly_Garden_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Butterfly_Garden_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Butterfly_Garden_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 400
+        },
+            "Wildflour.AtelierGoods_Cottage_Garden_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Cottage_Garden_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Cottage_Garden_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Cottage_Garden_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_light_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 401
+        },
+            "Wildflour.AtelierGoods_Herb_Garden_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Herb_Garden_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Herb_Garden_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Herb_Garden_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_sea_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 402
+        },
+            "Wildflour.AtelierGoods_Mystic_Garden_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Mystic_Garden_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Mystic_Garden_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Mystic_Garden_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_poppyseed"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 403
+        },
+            "Wildflour.AtelierGoods_Spring_Morning_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Spring_Morning_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Spring_Morning_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Spring_Morning_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_yellow_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 404
+        },
+            "Wildflour.AtelierGoods_Summer_Afternoon_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Summer_Afternoon_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Summer_Afternoon_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Summer_Afternoon_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_dark_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 405
+        },
+            "Wildflour.AtelierGoods_Autumn_Evening_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Autumn_Evening_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Autumn_Evening_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Autumn_Evening_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 406
+        },
+            "Wildflour.AtelierGoods_Winter_Twilight_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Winter_Twilight_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Winter_Twilight_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Winter_Twilight_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 407
+        },
+            "Wildflour.AtelierGoods_Bold_Red_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Bold_Red_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Bold_Red_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Bold_Red_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 408
+        },
+            "Wildflour.AtelierGoods_Charming_Pink_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Charming_Pink_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Charming_Pink_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Charming_Pink_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 409
+        },
+            "Wildflour.AtelierGoods_Cheerful_Yellow_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Cheerful_Yellow_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Cheerful_Yellow_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Cheerful_Yellow_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_yellow"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 410
+        },
+            "Wildflour.AtelierGoods_Passion_Purple_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Passion_Purple_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Passion_Purple_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Passion_Purple_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_purple"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 411
+        },
+            "Wildflour.AtelierGoods_Peaceful_Blue_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Peaceful_Blue_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Peaceful_Blue_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Peaceful_Blue_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 412
+        },
+            "Wildflour.AtelierGoods_Serene_White_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Serene_White_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Serene_White_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Serene_White_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 413
+        }
+    }
+    },
+
+    { 
+        "LogName": "Add Simple Flower Swag Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:SimpleAddOn": true, "Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Bouquets}} = 'true')":true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Floral_Swag": {
+                "Name": "Wildflour.AtelierGoods_Floral_Swag",
+                "DisplayName": "{{i18n:AtelierGoods_Floral_Swag.name}}",
+                "Description": "{{i18n:AtelierGoods_Floral_Swag.description}}",
+                "Type": "ArtisanGoods",    
+                "ColorOverlayFromNextIndex":true,      
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_swag_item",
+                "wildflour_boutique_item",
+                "floral_swag_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 414
+        }
+    }
+    },
+    
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:SimpleAddOn": true, "Query: ({{Atelier.Cauldron/ConfigValue:Candles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Incense}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Bouquets}} = 'true')":true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Floral_Swag": "{{i18n: AtelierGoods_Floral_Swag}}"
+        }
+    },
+
+    {
+        "LogName":"Add Incense Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Incense": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Butterfly_Garden_Incense": {
+                "Name": "Wildflour.AtelierGoods_Butterfly_Garden_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Butterfly_Garden_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Butterfly_Garden_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 448
+        },
+            "Wildflour.AtelierGoods_Cottage_Garden_Incense": {
+                "Name": "Wildflour.AtelierGoods_Cottage_Garden_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Cottage_Garden_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Cottage_Garden_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_light_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 449
+        },
+            "Wildflour.AtelierGoods_Herb_Garden_Incense": {
+                "Name": "Wildflour.AtelierGoods_Herb_Garden_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Herb_Garden_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Herb_Garden_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_sea_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 450
+        },
+            "Wildflour.AtelierGoods_Mystic_Garden_Incense": {
+                "Name": "Wildflour.AtelierGoods_Mystic_Garden_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Mystic_Garden_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Mystic_Garden_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_poppyseed"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 451
+        },
+            "Wildflour.AtelierGoods_Spring_Morning_Incense": {
+                "Name": "Wildflour.AtelierGoods_Spring_Morning_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Spring_Morning_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Spring_Morning_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_yellow_green"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 452
+        },
+            "Wildflour.AtelierGoods_Summer_Afternoon_Incense": {
+                "Name": "Wildflour.AtelierGoods_Summer_Afternoon_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Summer_Afternoon_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Summer_Afternoon_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_dark_cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 453
+        },
+            "Wildflour.AtelierGoods_Autumn_Evening_Incense": {
+                "Name": "Wildflour.AtelierGoods_Autumn_Evening_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Autumn_Evening_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Autumn_Evening_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 454
+        },
+            "Wildflour.AtelierGoods_Winter_Twilight_Incense": {
+                "Name": "Wildflour.AtelierGoods_Winter_Twilight_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Winter_Twilight_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Winter_Twilight_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 455
+        },
+            "Wildflour.AtelierGoods_Bold_Red_Incense": {
+                "Name": "Wildflour.AtelierGoods_Bold_Red_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Bold_Red_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Bold_Red_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 456
+        },
+            "Wildflour.AtelierGoods_Charming_Pink_Incense": {
+                "Name": "Wildflour.AtelierGoods_Charming_Pink_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Charming_Pink_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Charming_Pink_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 457
+        },
+            "Wildflour.AtelierGoods_Cheerful_Yellow_Incense": {
+                "Name": "Wildflour.AtelierGoods_Cheerful_Yellow_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Cheerful_Yellow_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Cheerful_Yellow_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_yellow"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 458
+        },
+            "Wildflour.AtelierGoods_Passion_Purple_Incense": {
+                "Name": "Wildflour.AtelierGoods_Passion_Purple_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Passion_Purple_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Passion_Purple_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_purple"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 459
+        },
+            "Wildflour.AtelierGoods_Peaceful_Blue_Incense": {
+                "Name": "Wildflour.AtelierGoods_Peaceful_Blue_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Peaceful_Blue_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Peaceful_Blue_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 460
+        },
+            "Wildflour.AtelierGoods_Serene_White_Incense": {
+                "Name": "Wildflour.AtelierGoods_Serene_White_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Serene_White_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Serene_White_Incense.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "floral_artisan_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 461
+        }
+    }
+    },
+
+    { 
+        "LogName": "Add Simple Flower Incense Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Incense": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flower_Incense": {
+                "Name": "Wildflour.AtelierGoods_Flower_Incense",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Incense.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Incense.description}}",
+                "Type": "ArtisanGoods",   
+                "ColorOverlayFromNextIndex":true,       
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_incense_item",
+                "wildflour_boutique_item",
+                "incense_item",
+                "color_white"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 462
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Incense": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Incense": "{{i18n: AtelierGoods_Flower_Incense}}"
+        }
+    },
+
+    {
+        "LogName":"Add Candles",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Candles": true},
+        "Entries": { 
+                "Wildflour.AtelierGoods_Butterfly_Garden_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Butterfly_Garden_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Butterfly_Garden_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Butterfly_Garden_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 432
+            },
+                "Wildflour.AtelierGoods_Cottage_Garden_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Cottage_Garden_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Cottage_Garden_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cottage_Garden_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_light_cyan"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 433
+            },
+                "Wildflour.AtelierGoods_Herb_Garden_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Herb_Garden_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Herb_Garden_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Herb_Garden_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_sea_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 434
+            },
+                "Wildflour.AtelierGoods_Mystic_Garden_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Mystic_Garden_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Mystic_Garden_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Mystic_Garden_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_poppyseed"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 435
+            },
+                "Wildflour.AtelierGoods_Spring_Morning_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Spring_Morning_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Spring_Morning_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Spring_Morning_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_yellow_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 436
+            },
+                "Wildflour.AtelierGoods_Summer_Afternoon_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Summer_Afternoon_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Summer_Afternoon_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Summer_Afternoon_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_dark_cyan"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 437
+            },
+                "Wildflour.AtelierGoods_Autumn_Evening_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Autumn_Evening_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Autumn_Evening_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Autumn_Evening_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 438
+            },
+                "Wildflour.AtelierGoods_Winter_Twilight_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Winter_Twilight_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Winter_Twilight_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Winter_Twilight_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 439
+            },
+                "Wildflour.AtelierGoods_Bold_Red_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Bold_Red_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Bold_Red_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Bold_Red_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 440
+            },
+                "Wildflour.AtelierGoods_Charming_Pink_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Charming_Pink_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Charming_Pink_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Charming_Pink_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 441
+            },
+                "Wildflour.AtelierGoods_Cheerful_Yellow_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Cheerful_Yellow_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Cheerful_Yellow_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cheerful_Yellow_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 442
+            },
+                "Wildflour.AtelierGoods_Passion_Purple_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Passion_Purple_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Passion_Purple_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Passion_Purple_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 443
+            },
+                "Wildflour.AtelierGoods_Peaceful_Blue_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Peaceful_Blue_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Peaceful_Blue_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Peaceful_Blue_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 444
+            },
+                "Wildflour.AtelierGoods_Serene_White_Candles": {
+                    "Name": "Wildflour.AtelierGoods_Serene_White_Candles",
+                    "DisplayName": "{{i18n:AtelierGoods_Serene_White_Candles.name}}",
+                    "Description": "{{i18n:AtelierGoods_Serene_White_Candles.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_candle_item",
+                    "wildflour_boutique_item",
+                    "candle_item",
+                    "floral_artisan_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 445
+            },
+
+    }
+    },
+
+    { 
+        "LogName": "Add Simple Flower Candles Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Candles": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flower_Candles": {
+                "Name": "Wildflour.AtelierGoods_Flower_Candles",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Candles.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Candles.description}}",
+                "Type": "ArtisanGoods", 
+                "ColorOverlayFromNextIndex":true,         
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_candle_item",
+                "wildflour_boutique_item",
+                "candle_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 446
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Candles": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Candles": "{{i18n: AtelierGoods_Flower_Candles}}"
+        }
+    },
+
+    {
+        "LogName":"Add Soap",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Soap": true},
+        "Entries": { 
+                "Wildflour.AtelierGoods_Butterfly_Garden_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Butterfly_Garden_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Butterfly_Garden_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Butterfly_Garden_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 480
+            },
+                "Wildflour.AtelierGoods_Cottage_Garden_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Cottage_Garden_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Cottage_Garden_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cottage_Garden_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_light_cyan"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 481
+            },
+                "Wildflour.AtelierGoods_Herb_Garden_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Herb_Garden_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Herb_Garden_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Herb_Garden_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_sea_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 482
+            },
+                "Wildflour.AtelierGoods_Mystic_Garden_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Mystic_Garden_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Mystic_Garden_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Mystic_Garden_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_poppyseed"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 483
+            },
+                "Wildflour.AtelierGoods_Spring_Morning_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Spring_Morning_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Spring_Morning_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Spring_Morning_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_yellow_green"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 484
+            },
+                "Wildflour.AtelierGoods_Summer_Afternoon_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Summer_Afternoon_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Summer_Afternoon_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Summer_Afternoon_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_dark_cyan"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 485
+            },
+                "Wildflour.AtelierGoods_Autumn_Evening_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Autumn_Evening_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Autumn_Evening_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Autumn_Evening_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 486
+            },
+                "Wildflour.AtelierGoods_Winter_Twilight_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Winter_Twilight_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Winter_Twilight_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Winter_Twilight_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 487
+            },
+                "Wildflour.AtelierGoods_Bold_Red_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Bold_Red_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Bold_Red_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Bold_Red_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_red"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 488
+            },
+                "Wildflour.AtelierGoods_Charming_Pink_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Charming_Pink_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Charming_Pink_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Charming_Pink_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 489
+            },
+                "Wildflour.AtelierGoods_Cheerful_Yellow_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Cheerful_Yellow_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Cheerful_Yellow_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cheerful_Yellow_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 490
+            },
+                "Wildflour.AtelierGoods_Passion_Purple_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Passion_Purple_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Passion_Purple_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Passion_Purple_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 491
+            },
+                "Wildflour.AtelierGoods_Peaceful_Blue_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Peaceful_Blue_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Peaceful_Blue_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Peaceful_Blue_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 492
+            },
+                "Wildflour.AtelierGoods_Serene_White_Soap": {
+                    "Name": "Wildflour.AtelierGoods_Serene_White_Soap",
+                    "DisplayName": "{{i18n:AtelierGoods_Serene_White_Soap.name}}",
+                    "Description": "{{i18n:AtelierGoods_Serene_White_Soap.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                    "ContextTags":
+                    ["wildflour_floral_item",
+                    "wildflour_soap_item",
+                    "wildflour_boutique_item",
+                    "soap_item",
+                    "floral_artisan_item",
+                    "color_white"],
+
+                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                    "SpriteIndex": 493
+            }
+    }
+    },
+
+    { 
+        "LogName": "Add Simple Flower Soap Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Soap": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries":{
+            "Wildflour.AtelierGoods_Flower_Soap": {
+                "Name": "Wildflour.AtelierGoods_Flower_Soap",
+                "DisplayName": "{{i18n:AtelierGoods_Flower_Soap.name}}",
+                "Description": "{{i18n:AtelierGoods_Flower_Soap.description}}",
+                "Type": "ArtisanGoods",      
+                "ColorOverlayFromNextIndex":true,    
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                ["wildflour_floral_item",
+                "wildflour_boutique_item",
+                "soap_item",
+                "color_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 494
+        }
+    }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Soap": true, "Atelier.Cauldron/ConfigValue:SimpleAddOn": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Soap": "{{i18n: AtelierGoods_Flower_Soap}}"
+        }
+    },
+
+    {
+        "LogName":"Add Honeycomb if Wild Food is Not Toggled",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:WildFood": false},
+        "Entries": { 
+            "Wildflour.AtelierGoods_Honeycomb": {
+                "Name": "Wildflour.AtelierGoods_Honeycomb",
+                "DisplayName": "{{i18n:AtelierGoods_Honeycomb.name}}",
+                "Description": "{{i18n:AtelierGoods_Honeycomb.description}}",
+                "Type": "ArtisanGoods",  
+                "ExcludeFromShippingCollection":true,        
+                "Category": -75,
+                "Edibility": 0,
+                "Price": 80,
+        
+                "ContextTags":
+                ["wildflour_honeybee_item",
+                "wildflour_floral_item",
+                "wildflour_boutique_item",
+                "bee_item",
+                "color_gold"],
+        
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 175
+        }
+    }
+    },
+
+    {
+        "LogName":"Add Makeup Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Atelier.Cauldron/ConfigValue:Makeup": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Archmage_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Archmage_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Archmage_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Archmage_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_red"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 340
+        },
+            "Wildflour.AtelierGoods_Harvest_Goddess_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Harvest_Goddess_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Harvest_Goddess_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Harvest_Goddess_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Dark_Brown"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 341
+        },
+            "Wildflour.AtelierGoods_Hedgewitch_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Hedgewitch_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Hedgewitch_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Hedgewitch_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Jade"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 342
+        },
+            "Wildflour.AtelierGoods_Ice_Queen_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Ice_Queen_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Ice_Queen_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Ice_Queen_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 343
+        },
+            "Wildflour.AtelierGoods_Lady_Lake_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Lady_Lake_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Lady_Lake_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Lady_Lake_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 344
+        },
+            "Wildflour.AtelierGoods_Little_Mermaid_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Little_Mermaid_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Little_Mermaid_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Little_Mermaid_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Dark_Cyan"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 345
+        },
+            "Wildflour.AtelierGoods_Pretty_Princess_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Pretty_Princess_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Pretty_Princess_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Pretty_Princess_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Dark_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 346
+        },
+            "Wildflour.AtelierGoods_Spring_Goddess_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Spring_Goddess_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Spring_Goddess_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Spring_Goddess_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Light_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 347
+        },
+            "Wildflour.AtelierGoods_Sweet_Sorceress_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Sweet_Sorceress_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Sweet_Sorceress_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Sweet_Sorceress_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 348
+        },
+            "Wildflour.AtelierGoods_Wise_Warlock_Nail_Polish": {
+                "Name": "Wildflour.AtelierGoods_Wise_Warlock_Nail_Polish",
+                "DisplayName": "{{i18n:AtelierGoods_Wise_Warlock_Nail_Polish.name}}",
+                "Description": "{{i18n:AtelierGoods_Wise_Warlock_Nail_Polish.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "nail_polish_item",
+                "color_Iridium"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 349
+        },
+            "Wildflour.AtelierGoods_Aquarius_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Aquarius_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Aquarius_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Aquarius_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Light_Blue"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 350
+        },
+            "Wildflour.AtelierGoods_Aries_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Aries_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Aries_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Aries_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Salmon"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 351
+        },
+            "Wildflour.AtelierGoods_Cancer_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Cancer_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Cancer_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Cancer_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Violet"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 352
+        },
+            "Wildflour.AtelierGoods_Capricorn_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Capricorn_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Capricorn_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Capricorn_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Lime"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 353
+        },
+            "Wildflour.AtelierGoods_Gemini_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Gemini_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Gemini_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Gemini_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Jade"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 354
+        },
+            "Wildflour.AtelierGoods_Leo_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Leo_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Leo_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Leo_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Gold"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 355
+        },
+            "Wildflour.AtelierGoods_Libra_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Libra_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Libra_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Libra_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_White"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 356
+        },
+            "Wildflour.AtelierGoods_Pisces_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Pisces_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Pisces_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Pisces_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Pale_Violet"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 357
+        },
+            "Wildflour.AtelierGoods_Sagittarius_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Sagittarius_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Sagittarius_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Sagittarius_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Gold"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 358
+        },
+            "Wildflour.AtelierGoods_Scorpio_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Scorpio_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Scorpio_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Scorpio_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Orange"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 359
+        },
+            "Wildflour.AtelierGoods_Taurus_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Taurus_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Taurus_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Taurus_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Grey"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 360
+        },
+            "Wildflour.AtelierGoods_Virgo_Lotion": {
+                "Name": "Wildflour.AtelierGoods_Virgo_Lotion",
+                "DisplayName": "{{i18n:AtelierGoods_Virgo_Lotion.name}}",
+                "Description": "{{i18n:AtelierGoods_Virgo_Lotion.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lotion_item",
+                "color_Lime"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 361
+        },
+            "Wildflour.AtelierGoods_Envy_Blush": {
+                "Name": "Wildflour.AtelierGoods_Envy_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Envy_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Envy_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Magenta"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 384
+        },
+            "Wildflour.AtelierGoods_Gluttony_Blush": {
+                "Name": "Wildflour.AtelierGoods_Gluttony_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Gluttony_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Gluttony_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Salmon"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 385
+        },
+            "Wildflour.AtelierGoods_Greed_Blush": {
+                "Name": "Wildflour.AtelierGoods_Greed_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Greed_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Greed_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Dark_Purple"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 386
+        },
+            "Wildflour.AtelierGoods_Lust_Blush": {
+                "Name": "Wildflour.AtelierGoods_Lust_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Lust_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Lust_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Dark_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 387
+        },
+            "Wildflour.AtelierGoods_Pride_Blush": {
+                "Name": "Wildflour.AtelierGoods_Pride_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Pride_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Pride_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Light_pink"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 388
+        },
+            "Wildflour.AtelierGoods_Sloth_Blush": {
+                "Name": "Wildflour.AtelierGoods_Sloth_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Sloth_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Sloth_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Salmon"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 389
+        },
+            "Wildflour.AtelierGoods_Wrath_Blush": {
+                "Name": "Wildflour.AtelierGoods_Wrath_Blush",
+                "DisplayName": "{{i18n:AtelierGoods_Wrath_Blush.name}}",
+                "Description": "{{i18n:AtelierGoods_Wrath_Blush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "blush_item",
+                "color_Magenta"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 390
+        },
+            "Wildflour.AtelierGoods_Air_Cleanser": {
+                "Name": "Wildflour.AtelierGoods_Air_Cleanser",
+                "DisplayName": "{{i18n:AtelierGoods_Air_Cleanser.name}}",
+                "Description": "{{i18n:AtelierGoods_Air_Cleanser.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "cleanser_item",
+                "color_Dark_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 314
+        },
+            "Wildflour.AtelierGoods_Earth_Cleanser": {
+                "Name": "Wildflour.AtelierGoods_Earth_Cleanser",
+                "DisplayName": "{{i18n:AtelierGoods_Earth_Cleanser.name}}",
+                "Description": "{{i18n:AtelierGoods_Earth_Cleanser.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "cleanser_item",
+                "color_Jade"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 315
+        },
+            "Wildflour.AtelierGoods_Fire_Cleanser": {
+                "Name": "Wildflour.AtelierGoods_Fire_Cleanser",
+                "DisplayName": "{{i18n:AtelierGoods_Fire_Cleanser.name}}",
+                "Description": "{{i18n:AtelierGoods_Fire_Cleanser.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "cleanser_item",
+                "color_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 316
+        },
+            "Wildflour.AtelierGoods_Water_Cleanser": {
+                "Name": "Wildflour.AtelierGoods_Water_Cleanser",
+                "DisplayName": "{{i18n:AtelierGoods_Water_Cleanser.name}}",
+                "Description": "{{i18n:AtelierGoods_Water_Cleanser.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "cleanser_item",
+                "color_Light_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 317
+        },
+            "Wildflour.AtelierGoods_Brightening_Powder": {
+                "Name": "Wildflour.AtelierGoods_Brightening_Powder",
+                "DisplayName": "{{i18n:AtelierGoods_Brightening_Powder.name}}",
+                "Description": "{{i18n:AtelierGoods_Brightening_Powder.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "powder_item",
+                "color_yellow"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 370
+        },
+            "Wildflour.AtelierGoods_Bronzing_Powder": {
+                "Name": "Wildflour.AtelierGoods_Bronzing_Powder",
+                "DisplayName": "{{i18n:AtelierGoods_Bronzing_Powder.name}}",
+                "Description": "{{i18n:AtelierGoods_Bronzing_Powder.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "powder_item",
+                "color_Orange"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 371
+        },
+            "Wildflour.AtelierGoods_Concealing_Powder": {
+                "Name": "Wildflour.AtelierGoods_Concealing_Powder",
+                "DisplayName": "{{i18n:AtelierGoods_Concealing_Powder.name}}",
+                "Description": "{{i18n:AtelierGoods_Concealing_Powder.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "powder_item",
+                "color_Dark_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 372
+        },
+            "Wildflour.AtelierGoods_Illusion_Powder": {
+                "Name": "Wildflour.AtelierGoods_Illusion_Powder",
+                "DisplayName": "{{i18n:AtelierGoods_Illusion_Powder.name}}",
+                "Description": "{{i18n:AtelierGoods_Illusion_Powder.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "powder_item",
+                "color_Jade"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 373
+        },
+            "Wildflour.AtelierGoods_Mysterious_Powder": {
+                "Name": "Wildflour.AtelierGoods_Mysterious_Powder",
+                "DisplayName": "{{i18n:AtelierGoods_Mysterious_Powder.name}}",
+                "Description": "{{i18n:AtelierGoods_Mysterious_Powder.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "powder_item",
+                "color_Light_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 374
+        },
+            "Wildflour.AtelierGoods_Refreshing_Powder": {
+                "Name": "Wildflour.AtelierGoods_Refreshing_Powder",
+                "DisplayName": "{{i18n:AtelierGoods_Refreshing_Powder.name}}",
+                "Description": "{{i18n:AtelierGoods_Refreshing_Powder.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "powder_item",
+                "color_Pale_Violet"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 375
+        },
+            "Wildflour.AtelierGoods_Dawn_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Dawn_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Dawn_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Dawn_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_Iridium"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 364
+        },
+            "Wildflour.AtelierGoods_Dusk_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Dusk_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Dusk_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Dusk_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_Orange"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 365
+        },
+            "Wildflour.AtelierGoods_Lunar_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Lunar_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Lunar_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Lunar_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 366
+        },
+            "Wildflour.AtelierGoods_Midnight_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Midnight_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Midnight_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Midnight_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_Dark_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 367
+        },
+            "Wildflour.AtelierGoods_Solar_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Solar_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Solar_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Solar_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_Red"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 368
+        },
+            "Wildflour.AtelierGoods_Stellar_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Stellar_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Stellar_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Stellar_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 369
+        },
+            "Wildflour.AtelierGoods_Twilight_Lipstick": {
+                "Name": "Wildflour.AtelierGoods_Twilight_Lipstick",
+                "DisplayName": "{{i18n:AtelierGoods_Twilight_Lipstick.name}}",
+                "Description": "{{i18n:AtelierGoods_Twilight_Lipstick.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipstick_item",
+                "color_Dark_Brown"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 364
+        },
+            "Wildflour.AtelierGoods_Earth_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Earth_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Earth_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Earth_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Dark_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 320
+        },
+            "Wildflour.AtelierGoods_Jupiter_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Jupiter_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Jupiter_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Jupiter_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 321
+        },
+            "Wildflour.AtelierGoods_Mars_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Mars_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Mars_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Mars_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Dark_Cyan"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 322
+        },
+            "Wildflour.AtelierGoods_Mercury_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Mercury_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Mercury_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Mercury_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Cyan"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 323
+        },
+            "Wildflour.AtelierGoods_Neptune_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Neptune_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Neptune_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Neptune_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Gold"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 324
+        },
+            "Wildflour.AtelierGoods_Pluto_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Pluto_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Pluto_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Pluto_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Orange"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 325
+        },
+            "Wildflour.AtelierGoods_Saturn_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Saturn_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Saturn_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Saturn_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Purple"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 326
+        },
+            "Wildflour.AtelierGoods_Uranus_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Uranus_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Uranus_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Uranus_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 327
+        },
+            "Wildflour.AtelierGoods_Venus_Lip_Gloss": {
+                "Name": "Wildflour.AtelierGoods_Venus_Lip_Gloss",
+                "DisplayName": "{{i18n:AtelierGoods_Venus_Lip_Gloss.name}}",
+                "Description": "{{i18n:AtelierGoods_Venus_Lip_Gloss.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "lipgloss_item",
+                "color_Red"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 328
+        },
+            "Wildflour.AtelierGoods_Black_Cat_Mascara": {
+                "Name": "Wildflour.AtelierGoods_Black_Cat_Mascara",
+                "DisplayName": "{{i18n:AtelierGoods_Black_Cat_Mascara.name}}",
+                "Description": "{{i18n:AtelierGoods_Black_Cat_Mascara.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "mascara_item",
+                "color_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 362
+        },
+            "Wildflour.AtelierGoods_Goblin_Gaze_Mascara": {
+                "Name": "Wildflour.AtelierGoods_Goblin_Gaze_Mascara",
+                "DisplayName": "{{i18n:AtelierGoods_Goblin_Gaze_Mascara.name}}",
+                "Description": "{{i18n:AtelierGoods_Goblin_Gaze_Mascara.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "mascara_item",
+                "color_Jade"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 363
+        },
+            "Wildflour.AtelierGoods_Brush": {
+                "Name": "Wildflour.AtelierGoods_Brush",
+                "DisplayName": "{{i18n:AtelierGoods_Brush.name}}",
+                "Description": "{{i18n:AtelierGoods_Brush.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "color_Brown"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 319
+        },
+            "Wildflour.AtelierGoods_Blues_Palette": {
+                "Name": "Wildflour.AtelierGoods_Blues_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Blues_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Blues_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 376
+        },
+            "Wildflour.AtelierGoods_Fall_Palette": {
+                "Name": "Wildflour.AtelierGoods_Fall_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Fall_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Fall_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Dark_Purple"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 377
+        },
+            "Wildflour.AtelierGoods_Greens_Palette": {
+                "Name": "Wildflour.AtelierGoods_Greens_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Greens_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Greens_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Green"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 378
+        },
+            "Wildflour.AtelierGoods_Pinks_Palette": {
+                "Name": "Wildflour.AtelierGoods_Pinks_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Pinks_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Pinks_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 379
+        },
+            "Wildflour.AtelierGoods_Purples_Palette": {
+                "Name": "Wildflour.AtelierGoods_Purples_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Purples_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Purples_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Dark_Purple"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 380
+        },
+            "Wildflour.AtelierGoods_Spring_Palette": {
+                "Name": "Wildflour.AtelierGoods_Spring_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Spring_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Spring_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Lime"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 381
+        },
+            "Wildflour.AtelierGoods_Summer_Palette": {
+                "Name": "Wildflour.AtelierGoods_Summer_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Summer_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Summer_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Orange"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 382
+        },
+            "Wildflour.AtelierGoods_Winter_Palette": {
+                "Name": "Wildflour.AtelierGoods_Winter_Palette",
+                "DisplayName": "{{i18n:AtelierGoods_Winter_Palette.name}}",
+                "Description": "{{i18n:AtelierGoods_Winter_Palette.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 135,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            
+                "ContextTags":
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "palette_item",
+                "color_Light_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 383
+        },
+            "Wildflour.AtelierGoods_Faerie_Fire": {
+                "Name": "Wildflour.AtelierGoods_Faerie_Fire",
+                "DisplayName": "{{i18n:AtelierGoods_Faerie_Fire.name}}",
+                "Description": "{{i18n:AtelierGoods_Faerie_Fire.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Dark_Brown"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 329
+        },
+            "Wildflour.AtelierGoods_Forest_Echo": {
+                "Name": "Wildflour.AtelierGoods_Forest_Echo",
+                "DisplayName": "{{i18n:AtelierGoods_Forest_Echo.name}}",
+                "Description": "{{i18n:AtelierGoods_Forest_Echo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Green"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 330
+        },
+            "Wildflour.AtelierGoods_Frostbite": {
+                "Name": "Wildflour.AtelierGoods_Frostbite",
+                "DisplayName": "{{i18n:AtelierGoods_Frostbite.name}}",
+                "Description": "{{i18n:AtelierGoods_Frostbite.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Light_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 331
+        },
+            "Wildflour.AtelierGoods_Lightning_Strike": {
+                "Name": "Wildflour.AtelierGoods_Lightning_Strike",
+                "DisplayName": "{{i18n:AtelierGoods_Lightning_Strike.name}}",
+                "Description": "{{i18n:AtelierGoods_Lightning_Strike.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Gold"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 332
+        },
+            "Wildflour.AtelierGoods_Maelstrom": {
+                "Name": "Wildflour.AtelierGoods_Maelstrom",
+                "DisplayName": "{{i18n:AtelierGoods_Maelstrom.name}}",
+                "Description": "{{i18n:AtelierGoods_Maelstrom.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Jade"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 333
+        },
+            "Wildflour.AtelierGoods_Misty_Step": {
+                "Name": "Wildflour.AtelierGoods_Misty_Step",
+                "DisplayName": "{{i18n:AtelierGoods_Misty_Step.name}}",
+                "Description": "{{i18n:AtelierGoods_Misty_Step.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Dark_Blue"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 334
+        },
+            "Wildflour.AtelierGoods_Morning_Dew": {
+                "Name": "Wildflour.AtelierGoods_Morning_Dew",
+                "DisplayName": "{{i18n:AtelierGoods_Morning_Dew.name}}",
+                "Description": "{{i18n:AtelierGoods_Morning_Dew.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Lime"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 336
+        },
+            "Wildflour.AtelierGoods_Thunderclap": {
+                "Name": "Wildflour.AtelierGoods_Thunderclap",
+                "DisplayName": "{{i18n:AtelierGoods_Thunderclap.name}}",
+                "Description": "{{i18n:AtelierGoods_Thunderclap.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Teal"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 338
+        },
+            "Wildflour.AtelierGoods_Whirlwind": {
+                "Name": "Wildflour.AtelierGoods_Whirlwind",
+                "DisplayName": "{{i18n:AtelierGoods_Whirlwind.name}}",
+                "Description": "{{i18n:AtelierGoods_Whirlwind.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": -300,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+                "ContextTags":
+                
+                ["wildflour_makeup_item",
+                "wildflour_boutique_item",
+                "perfume_item",
+                "color_Dark_pink"],
+            
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 339
+        }
+
+    }
+    }
+
+
+]
+}

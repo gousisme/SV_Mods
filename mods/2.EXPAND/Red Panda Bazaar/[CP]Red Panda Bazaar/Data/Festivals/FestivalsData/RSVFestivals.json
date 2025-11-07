@@ -1,0 +1,199 @@
+{
+    "Changes": [
+      {
+        /*************  Ridgeside Gathering fall20 1  *************/
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 99 40 0",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "LiQingFeng 83 45 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      /*************  Ridgeside Gathering fall20 2  *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 99 40 0",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "LiQingFeng 83 45 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      {
+        /*************  Ember of Resolution winter28 1  *************/
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "LiQingFeng 35 32 0",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "LiQingFeng 37 54 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      /*************  Ember of Resolution winter28 2  *************/
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "LiQingFeng 35 32 0",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "LiQingFeng 37 54 0",
+            "Delimiter": "/"
+          }
+        ],
+        "When" : {
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+            /***s**********  Ridgeside Gathering  fall20 1 *************/
+      {
+            "Action": "EditData",
+            "Target": "data/festivals/fall20",
+            "Entries": {
+                "LiQingFeng": "{{i18n:LiQingFeng.RSV.fall20.festivals}}"
+            },
+        "When" : {
+          "IsOddYear": true,
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+       },
+       {
+          "Action": "EditData",
+          "Target": "data/festivals/fall20",
+          "Entries": {
+            "LiQingFeng": "{{i18n:LiQingFeng.RSV.fall20.festivals.Spouse}}"
+          },
+          "When": {
+            "Spouse": "LiQingFeng",
+            "IsOddYear": true,
+            "HasMod": "Rafseazz.RSVCP"
+
+          }
+       },
+      /***s**********  Ridgeside Gathering  fall20 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall20",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.RSV.fall20.2.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": false,
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/fall20",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.RSV.fall20.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "IsOddYear": false,
+          "HasMod": "Rafseazz.RSVCP"
+        }
+      },
+      /***s**********  Ridgeside Gathering  winter28 1 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.RSV.winter28.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": true,
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.RSV.winter28.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "IsOddYear": true,
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      /***s**********  Ridgeside Gathering  winter28 2 *************/
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.RSV.winter28.2.festivals}}"
+        },
+        "When" : {
+          "IsOddYear": false,
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "data/festivals/winter28",
+        "Entries": {
+          "LiQingFeng": "{{i18n:LiQingFeng.RSV.winter28.2.festivals.Spouse}}"
+        },
+        "When": {
+          "Spouse": "LiQingFeng",
+          "IsOddYear": false,
+          "HasMod": "Rafseazz.RSVCP"
+
+        }
+      }
+    ]
+}

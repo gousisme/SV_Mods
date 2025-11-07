@@ -1,0 +1,38 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+        "Recolor": {
+            "Description":"Whether or not to use a recolor or the default Classic color scheme.",
+            "AllowValues": "Classic, Black&White, Cream, Dark, Pink, Blue",
+            "Default": "Classic"
+        }
+    },
+    
+    "Changes": [
+
+        //Include Furniture
+
+        {
+        "LogName": "HXW Furniture",
+        "Action": "Include",
+        "FromFile": "Data/furniture.json"
+        },
+
+        //Include Furniture Catalogue
+
+        {
+        "LogName": "HXW Furniture Catalogue",
+        "Action": "Include",
+        "FromFile": "Data/shops.json"
+        },
+
+        //Include Textures
+
+        {
+        "LogName": "HXW Furniture Textures",
+        "Action": "Include",
+        "FromFile": "Data/textures.json"
+        }
+    ]
+}

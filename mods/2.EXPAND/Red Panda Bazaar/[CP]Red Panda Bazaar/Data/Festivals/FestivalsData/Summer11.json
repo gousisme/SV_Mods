@@ -1,0 +1,40 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters"],
+            "Value": "RedPandaBazaar_LiQingFeng 32 16 2/RedPandaBazaar_ChenXiaoMing 31 16 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters"],
+            "Value": "RedPandaBazaar_LiQingFeng 31 20 0/RedPandaBazaar_ChenXiaoMing 31 19 2",
+            "Delimiter": "/"
+          }
+        ]
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "TextOperations": [
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+            "Value": "RedPandaBazaar_LiQingFeng 28 6 2/RedPandaBazaar_ChenXiaoMing 27 6 2",
+            "Delimiter": "/"
+          },
+          {
+            "Operation": "Append",
+            "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+            "Value": "RedPandaBazaar_LiQingFeng 23 18 0/RedPandaBazaar_ChenXiaoMing 27 6 2",
+            "Delimiter": "/"
+          }
+        ]
+      }
+    ]
+}

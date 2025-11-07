@@ -1,0 +1,163 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_LiQingFengCafe1",
+      "MapTiles": [
+        {
+          "Position": { "X": 9, "Y": 24 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop LiQingFengCafe1.9.24 down 600 2600 9 23 9 23"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "LiQingFengCafe1.9.24": {
+          "Owners": [
+            {
+              "Name": "Any",
+              "Dialogues": [
+                {
+                  "Id": "LiQingFengCafe1.9.24.1",
+                  "Dialogue": "{{i18n:Shops.LiQingFengCafe.Any}}"
+                },
+                {
+                  "Id": "LiQingFengCafe1.9.24.2",
+                  "Dialogue": "{{i18n:Shops.LiQingFengCafe.Any.2}}",
+                  "Condition": "PLAYER_NPC_RELATIONSHIP Current LiQingFeng Dating Engaged Married "
+                }
+              ]
+            },
+            {
+              "Name": "None",
+              "ClosedMessage": "{{i18n:Shops.LiQingFengCafe.None}}"
+            }
+          ],
+          "Items": [
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Salad",
+              "ItemId": "(O)196",
+              "Price": 220
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cookie",
+              "ItemId": "(O)223",
+              "Price": 180
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking1",
+              "RandomItemId": [
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 320,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking2",
+              "RandomItemId": [
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 300,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking3",
+              "RandomItemId": [
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 350,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking4",
+              "RandomItemId": [
+                "(O)200",
+                "(O)201",
+                "(O)205",
+                "(O)212",
+                "(O)213",
+                "(O)214",
+                "(O)215",
+                "(O)221",
+                "(O)224",
+                "(O)231",
+                "(O)242"
+              ],
+              "Price": 320,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking5",
+              "RandomItemId": [
+                "RedPandaBazaar_Buttermilk_Bake",
+                "RedPandaBazaar_Milk_Pudding",
+                "RedPandaBazaar_Custard_Pie",
+                "RedPandaBazaar_Fairy_Rose_Cake"
+              ],
+              "Price": 240,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking6",
+              "RandomItemId": [
+                "RedPandaBazaar_Buttermilk_Bake",
+                "RedPandaBazaar_Milk_Pudding",
+                "RedPandaBazaar_Custard_Pie",
+                "RedPandaBazaar_Fairy_Rose_Cake"
+              ],
+              "Price": 240,
+              "AvailableStock": 1
+            },
+            {
+              "Id": "RedPandaBazaar_LiQingFengCafe_Cooking7",
+              "RandomItemId": [
+                "RedPandaBazaar_Buttermilk_Bake",
+                "RedPandaBazaar_Milk_Pudding",
+                "RedPandaBazaar_Custard_Pie",
+                "RedPandaBazaar_Fairy_Rose_Cake"
+              ],
+              "Price": 240,
+              "AvailableStock": 1,
+              "Condition": "PLAYER_NPC_RELATIONSHIP Current LiQingFeng Married,LOCATION_Season Here Fall"
+            }
+          ]
+        }
+      }
+    }
+    ]
+}

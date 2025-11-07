@@ -1,0 +1,271 @@
+{
+	"Format": "2.0.0",
+	
+	"ConfigSchema": {
+
+		"SaturationToggle": 
+		{
+			"AllowValues": "Saturated, Desaturated",
+			"Default": "Saturated",
+		},
+
+// CATEGORY ON/OFF CONFIGS
+		"FishSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"AquariumSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"BeachForageSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"CrabpotSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"BaitSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"TackleSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"TrashSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		"MiscSpritesEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Categories"
+		},
+		
+// INDIVIDUAL TOGGLES
+
+		"RegularFishEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Regular Fish"
+		},
+		"RegularFish": {
+			"AllowValues": "Albacore, Anchovy, Blobfish, Bream, Bullhead, Carp, Catfish, Chub, Dorado, Eel, Flounder, Ghostfish, Goby, Halibut, Herring, Ice Pip, Largemouth Bass, Lava Eel, Lingcod, Midnight Carp, Midnight Squid, Octopus, Perch, Pike, Pufferfish, Rainbow Trout, Red Mullet, Red Snapper, Salmon, Sandfish, Sardine, Scorpion Carp, Sea Cucumber, Shad, Slimejack, Smallmouth Bass, Spook Fish, Squid, Stingray, Stonefish, Sturgeon, Sunfish, Super Cucumber, Tiger Trout, Tilapia, Tuna, Void Salmon, Walleye, Woodskip",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Albacore, Anchovy, Blobfish, Bream, Bullhead, Carp, Catfish, Chub, Dorado, Eel, Flounder, Ghostfish, Goby, Halibut, Herring, Ice Pip, Largemouth Bass, Lava Eel, Lingcod, Midnight Carp, Midnight Squid, Octopus, Perch, Pike, Pufferfish, Rainbow Trout, Red Mullet, Red Snapper, Salmon, Sandfish, Sardine, Scorpion Carp, Sea Cucumber, Shad, Slimejack, Smallmouth Bass, Spook Fish, Squid, Stingray, Stonefish, Sturgeon, Sunfish, Super Cucumber, Tiger Trout, Tilapia, Tuna, Void Salmon, Walleye, Woodskip",
+			"Section": "Regular Fish"
+		},
+		"PufferfishFace": {
+			"AllowValues": "Random, OpenMouth, Blush, Hot, Mlem, Ouch, Pufferchick, Squee, AHH, Knife, Pensive, ThumbsUp, Yoba",
+			"Default": "Random",
+			"Section": "Regular Fish"
+		},
+		"LegendaryFishEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Legendary Fish"
+		},
+		"LegendaryFish": {
+			"AllowValues": "Angler, Ms Angler, Crimsonfish, Son of Crimsonfish, Glacierfish, Glacierfish Jr, Legend, Legend II, Mutant Carp, Radioactive Carp",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Angler, Ms Angler, Crimsonfish, Son of Crimsonfish, Glacierfish, Glacierfish Jr, Legend, Legend II, Mutant Carp, Radioactive Carp",
+			"Section": "Legendary Fish"
+		},
+		"CrabpotFishEnabled": 
+		{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Crabpot Fish"
+		},
+		"CrabpotFish": {
+			"AllowValues": "Clam, Cockle, Crab, Crayfish, Lobster, Mussel, Oyster, Shrimp, Snail, Periwinkle",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Clam, Cockle, Crab, Crayfish, Lobster, Mussel, Oyster, Shrimp, Snail, Periwinkle",
+			"Section": "Crabpot Fish"
+		},
+		"BeachForage": {
+			"AllowValues": "Coral, Nautilus Shell, Rainbow Shell, Sea Urchin, Seaweed",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Coral, Nautilus Shell, Rainbow Shell, Sea Urchin, Seaweed",
+			"Section": "Beach Forage"
+		},
+		"Bait": {
+			"AllowValues": "Bait, Challenge Bait, Deluxe Bait, Magic Bait, Magnet, Wild Bait",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Bait, Challenge Bait, Deluxe Bait, Magic Bait, Magnet, Wild Bait",
+			"Section": "Bait"
+		},
+		"Tackle": {
+			"AllowValues": "Barbed Hook, Cork Bobber, Curiosity Lure, Dressed Spinner, Lead Bobber, Quality Lure, Sonar Bobber, Spinner, Trap Bobber, Treasure Hunter",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Barbed Hook, Cork Bobber, Curiosity Lure, Dressed Spinner, Lead Bobber, Quality Lure, Sonar Bobber, Spinner, Trap Bobber, Treasure Hunter",
+			"Section": "Tackle"
+		},
+		"Trash": {
+			"AllowValues": "Broken CD, Broken Glasses, Driftwood, Joja Cola, Soggy Newspaper, Trash",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Broken CD, Broken Glasses, Driftwood, Joja Cola, Soggy Newspaper, Trash",
+			"Section": "Trash"
+		},
+		"Misc": {
+			"AllowValues": "Treasure Chest, Pearl, Green Algae, White Algae, Pineapple, Joja Cola, Ancient Sword, Nautilus Fossil, Hardwood, Rainbow Shell",
+			"AllowMultiple": true, 
+			"AllowBlank": true,
+			"Default": "Treasure Chest, Pearl, Green Algae, White Algae, Pineapple, Joja Cola, Ancient Sword, Nautilus Fossil, Hardwood, Rainbow Shell",
+			"Section": "Misc"
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "PufferfishFaceToken",
+			"Value": "{{PufferfishFace}}"
+		},
+		{
+			"Name": "PufferfishFaceToken",
+			"Value": "{{Random: OpenMouth, Blush, Hot, Mlem, Ouch, Pufferchick, Squee, AHH}}",
+			"When": { "PufferfishFace": "Random" }
+		},
+	],
+	
+	"Changes": [
+		{
+			"LogName": "Fish Code",
+			"Action": "Include",
+			"FromFile": "Code/Fish.json",
+			"When": 
+			{
+				"FishSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Aquarium Code",
+			"Action": "Include",
+			"FromFile": "Code/Aquarium.json",
+			"When": 
+			{
+				"AquariumSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Beach Forage Code",
+			"Action": "Include",
+			"FromFile": "Code/BeachForage.json",
+			"When": 
+			{
+				"BeachForageSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Bait Code",
+			"Action": "Include",
+			"FromFile": "Code/Bait.json",
+			"When": 
+			{
+				"BaitSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Tackle Code",
+			"Action": "Include",
+			"FromFile": "Code/Tackle.json",
+			"When": 
+			{
+				"TackleSpritesEnabled": true
+			}
+		},
+		{
+			"LogName": "Trash Code",
+			"Action": "Include",
+			"FromFile": "Code/Trash.json",
+			"When": 
+			{
+				"TrashSpritesEnabled": true
+			}
+		},
+        {
+			"LogName": "Crabpots",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/Crabpot.png",
+			"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+			"When": 
+			{
+				"CrabpotSpritesEnabled": "True"
+			}
+		},
+        {
+			"LogName": "Treasure Chest",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/TreasureChest.png",
+			"ToArea": { "X": 352, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Treasure Chest": true
+			}
+		},
+        {
+			"LogName": "Pearl",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/Pearl.png",
+			"ToArea": { "X": 80, "Y": 528, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Pearl": true
+			}
+		},
+        {
+			"LogName": "Green Algae",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/GreenAlgae.png",
+			"ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 16 },
+			"When": 
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= Green Algae": true
+			}
+		},
+        {
+			"LogName": "White Algae",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/{{SaturationToggle}}/Misc/WhiteAlgae.png",
+			"ToArea": { "X": 208, "Y": 96, "Width": 16, "Height": 16 },
+			"When":
+			{
+				"MiscSpritesEnabled": "True",
+				"Misc |contains= White Algae": true
+			}
+		},
+	]
+}

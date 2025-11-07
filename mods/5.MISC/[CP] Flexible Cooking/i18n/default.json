@@ -1,0 +1,32 @@
+{
+	//{{name}} has to stay the english word
+	"blank": "{{name}}",
+	"asterisk": "{{name}} =",
+	"any": "any {{name}}",
+	"vanilla": "{{name}} (Any)",
+	
+	"config.Ingredient Indicator.name": "Ingredient Indicator",
+    "config.Ingredient Indicator.description": "Label flexible ingredients in the cooking menu with this option. All ingredients in vanilla recipes will be labeled! Outside of this option, broader ingredient categories will follow vanilla convention, such as Cheese (Any) and Cooking Oil (Any).",
+    "config.Ingredient Indicator.values.A": "Item",
+    "config.Ingredient Indicator.values.B": "Item =",
+    "config.Ingredient Indicator.values.C": "any Item",
+    "config.Ingredient Indicator.values.D": "Item (Any)",
+	
+	"config.Extra Changes.name": "Extra Changes",
+    "config.Extra Changes.description": "For a few recipes, replaces some ingredients with different categories for variety. For example, instead of using a Leek to make Salad, you can use Any Leafy Green (any leafy vegetable). Or use Any Root Vegetable instead of a Cave Carrot to make Stir Fry. Also makes it so Sashimi and Maki Roll can only be made with real fish and not stuff like Snail, Clam, etc from crab pots.",
+	
+	//follow vanilla format such as for Egg (Any) and Milk (Any)
+	"Ingredient_EggAny": "Egg (Any)",
+	"Ingredient_MilkAny": "Milk (Any)",
+	"Ingredient_CheeseAny": "Cheese (Any)",
+	"Ingredient_ChiliAny": "Chili (Any)",
+	"Ingredient_FlourAny": "Flour (Any)",
+	"Ingredient_FishAny": "Fish (Any)",
+	"Ingredient_FishNonCrabPot": "Fish (Non-Crab-Pot)",
+	"Ingredient_EdibleMushroomAny": "Edible Mushroom (Any)",
+	"Ingredient_LeafyGreenAny": "Leafy Green (Any)",
+	"Ingredient_RootVegetableAny": "Root Vegetable (Any)",
+	"Ingredient_MayonnaiseAny": "Mayonnaise (Any)",
+	"Ingredient_OilAny": "Cooking Oil (Any)",
+	"Ingredient_SugarAny": "Sugar (Any)"
+}

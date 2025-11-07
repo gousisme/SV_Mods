@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "Buttermilk Bake": "-6 1 -5 1 245 1/9999 9999/RedPandaBazaar_Buttermilk_Bake/null/{{i18n:RedPandaBazaar.object.Buttermilk.Bake.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "RedPandaBazaar_Buttermilk_Bake": {
+          "Name": "Buttermilk Bake",
+          "DisplayName": "{{i18n:RedPandaBazaar.object.Buttermilk.Bake.Name}}",
+          "Description": "{{i18n:RedPandaBazaar.object.Buttermilk.Bake.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "Texture": "Mods\\RedPandaBazaar\\Items",
+          "SpriteIndex": 25,
+          "Edibility": 75,
+          "IsDrink": false,
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    }
+  ]
+}

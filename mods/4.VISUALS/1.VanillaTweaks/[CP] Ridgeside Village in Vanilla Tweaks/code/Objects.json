@@ -1,0 +1,70 @@
+
+{   
+"Changes": [
+//Objects
+//Apricot Juice, Clementine Juice, Entombed Ring, Richard's Glasses, Wild Apple Juice, Yuuma's Lost Ring
+			{
+				"LogName": "Apricot Juice",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+				"FromFile": "assets/Objects/Objects.png",
+				"FromArea": { "X": "16", "Y": "0", "Width": 16, "Height": 16 },
+				"ToArea": { "X": "16", "Y": "0", "Width": 16, "Height": 16 },
+				"When": { "Objects | contains= Apricot Juice": true }
+			},
+			{
+				"LogName": "Clementine Juice",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+				"FromFile": "assets/Objects/Objects.png",
+				"FromArea": { "X": "208", "Y": "0", "Width": 16, "Height": 16 },
+				"ToArea": { "X": "208", "Y": "0", "Width": 16, "Height": 16 },
+				"When": { "Objects | contains=  Clementine Juice": true }
+			},
+			{
+				"LogName": "Entombed Ring",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+				"FromFile": "assets/Objects/Objects.png",
+				"FromArea": { "X": "336", "Y": "0", "Width": 16, "Height": 16 },
+				"ToArea": { "X": "336", "Y": "0", "Width": 16, "Height": 16 },
+				"When": {"Objects | contains= Entombed Ring": true}
+			},
+			{
+				"LogName": "Richard's Glasses",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+				"FromFile": "assets/Objects/Objects.png",
+				"FromArea": { "X": "128", "Y": "48", "Width": 16, "Height": 16 },
+				"ToArea": { "X": "128", "Y": "48", "Width": 16, "Height": 16 },
+				"When": {"Objects | contains= Richard's Glasses": true}
+			},
+			{
+				"LogName": "Wild Apple Juice",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+				"FromFile": "assets/Objects/Objects.png",
+				"FromArea": { "X": "272", "Y": "64", "Width": 16, "Height": 16 },
+				"ToArea": { "X": "272", "Y": "64", "Width": 16, "Height": 16 },
+				"When": {"Objects | contains= Wild Apple Juice": true}
+			},
+			{
+				"LogName": "Yuuma's Lost Ring",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+				"FromFile": "assets/Objects/Objects.png",
+				"FromArea": { "X": "320", "Y": "64", "Width": 16, "Height": 16 },
+				"ToArea": { "X": "320", "Y": "64", "Width": 16, "Height": 16 },
+				"When": {"Objects | contains= Yuuma's Lost Ring": true}
+			},
+			//Boots.png file 
+			{
+				"LogName": "Boots file - edit nodes and forage",
+				"Action": "EditImage",
+				"Target": "Mods\\Rafseazz.RSVCP\\Objects\\Boots",
+				"FromFile": "assets/Objects/Boots.png",
+				"FromArea": { "X": "148", "Y": "0", "Width": 220, "Height": 16 },
+				"ToArea": { "X": "148", "Y": "0", "Width": 220, "Height": 16 }
+			}
+	]
+}

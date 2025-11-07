@@ -1,0 +1,96 @@
+{
+
+"Changes":[
+
+    {
+      "Action": "EditData",
+      "Target": "BarleyZP.MushroomLogFramework/ProduceRules",
+      "TargetField": [ "(BC)MushroomLog", "SpecificTreeOutputs" ],
+      "Entries": {
+        "{{ModId}}_MushLog_ApricotTree_Wheatshroom": {
+          "Id": "{{ModId}}_MushLog_ApricotTree_Wheatshroom",
+          "TreeId": "629",
+          "Type": "Fruit",
+          "Outputs": [
+            {
+              "ID": "{{ModId}}_Wheatberry_Mushroom",
+              "ItemId": "(O){{ModId}}_Wheatberry_Mushroom",
+              "Chance": 1,
+              "DisableDefaultOutputPossibilities": true  // we won't get any "default" possibilties
+            }
+          ]
+        },
+        "{{ModId}}_MushLog_CherryTree_Milkshroom": {
+          "Id": "{{ModId}}_MushLog_CherryTree_Milkshroom",
+          "TreeId": "628",
+          "Type": "Fruit",
+          "Outputs": [
+            {
+              "ID": "{{ModId}}_Milk_Mushroom",
+              "ItemId": "(O){{ModId}}_Milk_Mushroom",
+              "Chance": 1,
+              "DisableDefaultOutputPossibilities": true  // we won't get any "default" possibilties
+            }
+          ]
+        },
+        "{{ModId}}_MushLog_OrangeTree_Honey_Fungus": {
+          "Id": "{{ModId}}_MushLog_OrangeTree_Honey_Fungus",
+          "TreeId": "630",
+          "Type": "Fruit",
+          "Outputs": [
+            {
+              "ID": "{{ModId}}_Honey_Fungus",
+              "ItemId": "(O){{ModId}}_Honey_Fungus",
+              "Chance": 1,
+              "DisableDefaultOutputPossibilities": true  // we won't get any "default" possibilties
+            }
+          ]
+        },
+        "{{ModId}}_MushLog_PeachTree_Meringue_Mushroom": {
+          "Id": "{{ModId}}_MushLog_PeachTree_Meringue_Mushroom",
+          "TreeId": "631",
+          "Type": "Fruit",
+          "Outputs": [
+            {
+              "ID": "{{ModId}}_Meringue_Mushroom",
+              "ItemId": "(O){{ModId}}_Meringue_Mushroom",
+              "Chance": 1,
+              "DisableDefaultOutputPossibilities": true  // we won't get any "default" possibilties
+            }
+          ]
+        },
+        "{{ModId}}_MushLog_AppleTree_Chicken_Woods": {
+          "Id": "{{ModId}}_MushLog_AppleTree_Chicken_Woods",
+          "TreeId": "633",
+          "Type": "Fruit",
+          "Outputs": [
+            {
+              "ID": "{{ModId}}_Chicken_Woods",
+              "ItemId": "(O){{ModId}}_Chicken_Woods",
+              "Chance": 1,
+              "DisableDefaultOutputPossibilities": true  // we won't get any "default" possibilties
+            }
+          ]
+        },
+        "{{ModId}}_MushLog_PomegranateTree_Popping_Parasols": {
+          "Id": "{{ModId}}_MushLog_PomegranateTree_Popping_Parasols",
+          "TreeId": "632",
+          "Type": "Fruit",
+          "Outputs": [
+            {
+              "ID": "{{ModId}}_Popping_Parasols",
+              "ItemId": "(O){{ModId}}_Popping_Parasols",
+              "Chance": 1,
+              "DisableDefaultOutputPossibilities": true  // we won't get any "default" possibilties
+            }
+          ]
+        },
+        
+
+      }
+    }
+
+]
+
+
+}

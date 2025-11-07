@@ -1,0 +1,19 @@
+{
+  "Name": "Nyapu-Style WAG",
+  "Author": "nugmods",
+  "Version": "1.0",
+  "Description": "Nyapu-Style portraits for Wildflour's Atelier Goods",
+
+  "UniqueID": "nugmods.nyapuwag",
+  "UpdateKeys": [ "Nexus:null" ],
+
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Wildflour.AtelierGoods",
+      "IsRequired": true
+    }
+  ]
+}

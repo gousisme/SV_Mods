@@ -1,0 +1,280 @@
+{
+   "Format": "2.4.0",
+   
+	 "ConfigSchema": {
+		
+		
+
+				"Cleaner Bus": { 
+		"AllowValues": "true, false",
+		"Default": "false",
+		"Description": "Removes the trashy decor from bus interior from the start.",
+			},
+
+		},
+		
+		
+"Changes": 
+   [
+	
+
+	 {
+        "Action": "Load",
+        "Target": "Maps/{{ModId}}_BusInterior",
+        "FromFile": "assets/BusInterior_{{season}}.tmx"
+    },
+
+    // add location
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+            "{{ModId}}_BusInterior": {
+				"DisplayName": "The Bus",
+				"DefaultArrivalTile": { "X": 2, "Y": 6 },
+                "CreateOnLoad": { "MapPath": "Maps/{{ModId}}_BusInterior", },
+				"MusicDefault": "Hospital_Ambient",
+			
+				"MusicIgnoredInRain": true,
+				"MusicIsTownTheme": true,
+				
+
+					}
+				}
+    },
+	
+
+
+							
+							
+	//cleaner version
+	
+	{
+			"LogName": "aimon businterior cleaner",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+			"FromFile": "assets/BusInterior_fixed_{{season}}.tmx",
+			"When": { "Cleaner Bus": true,  },	
+			"Update": "OnTimeChange",
+			"PatchMode": "Replace",
+		},
+		{
+			"LogName": "aimon businterior cleaner",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+			"FromFile": "assets/BusInterior_fixed_{{season}}.tmx",
+			"When": { "HasFlag": "ccVault", "Cleaner Bus": false, },	
+			"Update": "OnTimeChange",
+			"PatchMode": "Replace",
+			
+		},
+		
+		
+	
+	//Aimon111.BusInterior_BusInterior
+ 
+		{
+			"LogName": "aimon businterior tilesheets",
+			"Action": "Load",
+			"Target": "Maps/z_aimon_businterior",
+			"FromFile": "assets/tilesheets/z_aimon_businterior.png",
+		},
+		{
+			"LogName": "aimon businterior tilesheets",
+			"Action": "Load",
+			"Target": "Maps/z_aimon_businterior_ad",
+			"FromFile": "assets/tilesheets/z_aimon_businterior_ad.png",
+		},
+		
+		
+		
+		
+		{
+			"LogName": "aimon businterior tilesheets night",
+			"Action": "EditImage",
+			"Target": "Maps/z_aimon_businterior",
+			"FromFile": "assets/tilesheets/z_aimon_businteriordark.png",
+			
+			"When": { "Time": "{{Range: 2000, 2600}}" },	
+			"Update": "OnTimeChange",
+			"PatchMode": "Replace",
+		},
+		{
+			"LogName": "aimon businterior tilesheets rain",
+			"Action": "EditImage",
+			"Target": "Maps/z_aimon_businterior",
+			"FromFile": "assets/tilesheets/z_aimon_businteriordark.png",
+			"FromArea": { "X": 96, "Y": 352, "Width": 96, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 352, "Width": 96, "Height": 32 },
+			"When": { "Weather": "Rain, Storm" },	
+			"Update": "OnTimeChange",
+			"PatchMode": "Replace",
+		},
+		
+		
+		{
+			"LogName": "aimon businterior tilesheets night ad",
+			"Action": "EditImage",
+			"Target": "Maps/z_aimon_businterior_ad",
+			"FromFile": "assets/tilesheets/z_aimon_businterior_ad_dark.png",
+		
+			"When": { "Time": "{{Range: 2000, 2600}}" },	
+			"Update": "OnTimeChange",
+			"PatchMode": "Replace",
+		},
+		
+		
+		
+		
+		
+	
+	//stringsfrommapass
+		{
+      "Action": "Include",
+      "FromFile": "assets/code/StringsFromMap.json",
+	   },
+	  {
+     "Action": "Include",
+      "FromFile": "assets/code/Events.json",
+	   },
+
+	
+		
+		
+		
+	//conditional
+	
+	{	"LogName": "aimon businteriormapprops",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+			"When": { "Time": "{{Range: 2000, 2600}}" },	
+			"Update": "OnTimeChange",
+			"MapProperties": {
+			"AmbientLight": "130 130 70", 
+			},
+		},
+		{	"LogName": "aimon businteriormapprops",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+			"When": { "Weather": "Rain, Storm", "Time": "{{Range: 0600, 2000}}"  },	
+			"Update": "OnTimeChange",
+			"MapProperties": {
+			"AmbientLight": "110 110 80", 
+			},
+		},
+		
+		
+		//addwarp to busstop
+		{	"LogName": "aimon busstop warps",
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+
+			  "MapTiles": [
+                {
+                    "Position": { "X": 22, "Y": 8 },
+                    "Layer": "Buildings",
+                    "SetProperties": {   "Passable": "t" }
+                },
+				 {
+                    "Position": { "X": 22, "Y": 7 },
+                    "Layer": "Buildings",
+                    "SetProperties": {   "Passable": "t" }
+                },
+				 {
+                    "Position": { "X": 22, "Y": 6 },
+                    "Layer": "Back",
+                    "SetProperties": {   "Passable": "t" }
+                },
+				
+				{
+                    "Position": { "X": 22, "Y": 7 },
+                    "Layer": "Back",
+                    "SetProperties": {   "TouchAction": "Warp Aimon111.BusInterior_BusInterior 2 6" }
+		
+                }
+            ]
+		},
+		
+		
+		{	"LogName": "aimon busstop warps",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+
+            "AddWarps": [
+                "2 8 BusStop 22 10"
+            ]
+        },
+	
+		
+		
+		
+		
+		//conditional decor
+		
+	
+		
+		
+		{	"LogName": "busstop seasonal decor",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+		"FromFile": "assets/BusInterior_ad_{{season}}_{{Random:1, 2}}.tmx",
+		"PatchMode": "Overlay",
+		},
+		
+		{	"LogName": "busstop joja",
+			"Action": "EditMap",
+			"Target": "Maps/Aimon111.BusInterior_BusInterior",
+		"FromFile": "assets/BusInterior_ad_joja.tmx",
+		"PatchMode": "Overlay",
+		"When": { "IsJojaMartComplete": true  },
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//newgarbagebus
+		
+		  {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+			
+            "TargetField": [  "GarbageCans" ],
+	
+            "Entries": {
+			
+                "Aimon111.BusInteriorGabage": {
+					"BaseChance": 0.3,
+                    "Items": [
+						
+						
+						{
+                            "ID": "Aimon111.BusGarbageUncommon",
+							"Condition": "RANDOM 0.15",
+                            "RandomItemId": [ "(O)233", "(O)229", "(O)287", "(O)229", "(O)349", "(O)395", "(O)403", "(O)613", "(O)872" ],
+							"IsMegaSuccess": true,
+							//"AddToInventoryDirectly": true,
+                        },
+						
+                        {
+                            "ID": "Aimon111.BusGarbageCommon",
+                    
+                            "RandomItemId": [ "(O)168", "(O)169", "(O)172", "(O)171", "(O)170", "(O)167", "(O)118", "(O)153", "(O)766",
+							"(O)709", "(O)716",  "(O)719",  "(O)721",  "(O)722", ],
+							//"AddToInventoryDirectly": true,
+                        },  
+                    ]
+                },
+			}
+				
+		}
+		
+
+   ]
+}

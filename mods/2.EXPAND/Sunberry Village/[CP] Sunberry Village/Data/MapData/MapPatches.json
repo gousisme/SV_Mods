@@ -1,0 +1,1121 @@
+{
+  "Changes": [
+    // Entrance Patch
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 85,
+        "Y": 104,
+        "Width": 5,
+        "Height": 6
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false 
+      }
+    },
+    // SDVR3 Entrance Patch
+    /*{
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryEntranceSDVR3.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 7
+      },
+      "ToArea": {
+        "X": 84,
+        "Y": 103,
+        "Width": 6,
+        "Height": 7
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": true,
+        "SDVR3Patch": true
+      }
+    },*/
+    // SVE Entrance Patch
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryEntranceSVE.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 12
+      },
+      "ToArea": {
+        "X": 85,
+        "Y": 104,
+        "Width": 5,
+        "Height": 12
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true 
+      }
+    },
+    // Jonghyuk Cave
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_JonghyukPatchC.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 41,
+        "Y": 36,
+        "Width": 7,
+        "Height": 8
+      },
+      "When": {
+        "HasMod": "Arknir.Jonghyuk"
+      }
+    },
+    // Egg Festival Y1
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-EggFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_NEW_EggFestival.tmx",
+      "FromArea":{
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 65,
+        "Width": 10,
+        "Height": 9
+      },
+      "When": {
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-EggFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_EggFestival.tmx",
+      "FromArea":{
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 65,
+        "Width": 10,
+        "Height": 9
+      },
+      "When": {
+        "FestivalPatches": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+      }
+    },
+    // Egg Festival Y2
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-EggFestival2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_NEW_EggFestival.tmx",
+      "FromArea":{
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 65,
+        "Width": 10,
+        "Height": 9
+      },
+      "When": {
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-EggFestival2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_EggFestival.tmx",
+      "FromArea":{
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 65,
+        "Width": 10,
+        "Height": 9
+      },
+      "When": {
+        "FestivalPatches": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+      }
+    },
+    // SDV Fair Y1
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBVFair.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 28,
+        "Height": 31
+      },
+      "ToArea": {
+        "X": 44,
+        "Y": 16,
+        "Width": 28,
+        "Height": 31
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SDVR3_Fair.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 27,
+        "Height": 20
+      },
+      "ToArea": {
+        "X": 43,
+        "Y": 19,
+        "Width": 27,
+        "Height": 20
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SDVR3_FairEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 43,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_RSV_FairEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 41,
+        "Y": 32,
+        "Width": 1,
+        "Height": 4
+      },
+      "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": true,
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_RSV_FairEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 41,
+        "Y": 32,
+        "Width": 1,
+        "Height": 4
+      },
+      "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": false,
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_Fair.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 13,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 50,
+        "Y": 24,
+        "Width": 13,
+        "Height": 15
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
+      }
+    },
+    // SDV Fair Y2
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair2",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBVFair.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 28,
+        "Height": 31
+      },
+      "ToArea": {
+        "X": 44,
+        "Y": 16,
+        "Width": 28,
+        "Height": 31
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    // Remove barrels
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair, Maps/Town-Fair2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_RemoveFairBarrels.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 50,
+        "Width": 2,
+        "Height": 4
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_RemoveFairBarrels.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 46,
+        "Width": 4,
+        "Height": 5
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair2",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SDVR3_Fair.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 27,
+        "Height": 20
+      },
+      "ToArea": {
+        "X": 43,
+        "Y": 19,
+        "Width": 27,
+        "Height": 20
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SDVR3_FairEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 43,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair2",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_Fair.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 13,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 50,
+        "Y": 24,
+        "Width": 13,
+        "Height": 15
+      },
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
+      }
+    },
+    // Winter Feast Y1
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Christmas",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBVWinterFeast.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 18,
+        "Height": 18
+      },
+      "ToArea": {
+        "X": 57,
+        "Y": 60,
+        "Width": 18,
+        "Height": 18
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Christmas",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_WinterFeast.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 64,
+        "Width": 10,
+        "Height": 10
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
+      }
+    },
+    // Winter Feast Y2
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Christmas2",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBVWinterFeast.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 18,
+        "Height": 18
+      },
+      "ToArea": {
+        "X": 57,
+        "Y": 60,
+        "Width": 18,
+        "Height": 18
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Christmas2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_WinterFeast.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 64,
+        "Width": 10,
+        "Height": 10
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
+      }
+    },
+    // Flower Dance
+    /*{
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVFlowerFestival.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 28,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 42,
+        "Width": 28,
+        "Height": 8
+      }
+    },*/
+    // Flower Dance Y1
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_FlowerDance1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 6,
+        "Y": 42,
+        "Width": 21,
+        "Height": 2
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_FlowerDance2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 35,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 44,
+        "Width": 35,
+        "Height": 6
+      }
+    },
+    // Flower Dance Y2
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_FlowerDance1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 6,
+        "Y": 42,
+        "Width": 21,
+        "Height": 2
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_FlowerDance2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 35,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 44,
+        "Width": 35,
+        "Height": 6
+      }
+    },
+    // Luau Y1
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      }
+    },
+    // Luau Y2
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_RemoveLuauFence.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 7
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 10,
+        "Width": 1,
+        "Height": 7
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 11,
+        "Width": 7,
+        "Height": 3
+      },
+      "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": false
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 11,
+        "Width": 7,
+        "Height": 3
+      },
+      "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": false
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 11,
+        "Width": 7,
+        "Height": 3
+      },
+      "When": {
+        "Query: {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} OR {{HasMod |contains=DaisyNiko.SVR3}}": true,
+        "HasMod: |contains=Rafseazz.RSVCP": false
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 11,
+        "Width": 7,
+        "Height": 3
+      },
+      "When": {
+        "Query: {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} OR {{HasMod |contains=DaisyNiko.SVR3}}": true,
+        "HasMod: |contains=Rafseazz.RSVCP": false
+      }
+    },
+    // Moonlight Jellies Y1
+    // Set-up
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVJellies.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      }
+    },
+    // Main Event
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      },
+      "When": {
+        "Season": "summer",
+        "Day": "28"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVJellies.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      },
+      "When": {
+        "Season": "summer",
+        "Day": "28"
+      }
+    },
+    // Y2
+    // Set-up
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVJellies.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      }
+    },
+    // Main Event
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      },
+      "When": {
+        "Season": "summer",
+        "Day": "28"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVJellies.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      },
+      "When": {
+        "Season": "summer",
+        "Day": "28"
+      }
+    },
+    // RSV Gathering - Nonbinary Stall
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Ridgeside_RSVGathering",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/{{Random: SBV_RSVGathering1, SBV_RSVGathering2}}.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 125,
+        "Y": 49,
+        "Width": 10,
+        "Height": 8
+      },
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      }
+    },
+    // Pip and Pep Patches
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_MinesFinal",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/{{Random: MineMerchantPip, MineMerchantPep}}.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 40,
+        "Y": 7,
+        "Width": 5,
+        "Height": 5
+      },
+      "When": {
+        "HasSeenEvent |contains= skellady.SBVCP_20031448": true,
+        "Query: ('{{Day}}' IN ('6', '10', '22')) AND ({{DailyLuck}} > 0)": true
+      }
+    },
+    // Sunberry Museum Collection Patch
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMuseum",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SunberryMuseumPatch.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 12,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 3,
+        "Y": 6,
+        "Width": 12,
+        "Height": 4
+      },
+      "When": {
+        "HasFlag: anyPlayer |contains= SBVMuseumSO3": true
+      }
+    },
+    // Mountain > Farm Boulder
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMountain",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/FarmMountainBoulder.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 13,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasFlag: anyPlayer |contains= SBVFarmPurchased, SBVFarmPurchasedFR": false
+      }
+    },
+    // Removes 'For Sale' sign from Elias' house
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_TwilightFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVEliasRemoveSale.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 82,
+        "Y": 91,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+      }
+    }
+    // Twilight Festival Patch
+    /*{
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBVSpiritsEvePatch.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 100,
+        "Height": 100,
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 100,
+        "Height": 100,
+      },
+      "When": {
+        "Season": "Fall",
+        "Day": "26"
+      }
+    }*/
+  ]
+}

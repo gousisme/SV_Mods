@@ -1,0 +1,14 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "skellady.SBVCP_MineralGrinder": "390 50 337 3 338 5/Home/skellady.SBVCP_MineralGrinder/true/null/{{i18n:SBV.MineralGrinder.Name}}",
+        "skellady.SBVCP_WarpTotemSunberry": "709 1 771 5 skellady.SBVCP_Sunberries 1/Home/skellady.SBVCP_WarpTotemSunberry/false/null/{{i18n:SBV.WarpTotemSunberry.Name}}",
+        "skellady.SBVCP_AlchemyTable": "388 60 428 3 338 5/Home/skellady.SBVCP_AlchemyTable/true/null/{{i18n:SBV.AlchemyTable.Name}}",
+      }
+    }
+  ]
+}

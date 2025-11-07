@@ -1,0 +1,305 @@
+{
+  "Changes": [
+
+// BARISTA DROPBOXES
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/JoshHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 2, "Y": 16},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Tea_Evelyn"}
+            }
+        ]
+    },
+    
+    {
+        "Action": "EditMap",
+        "Target": "Maps/ScienceHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 6, "Y": 19},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Kombucha_Robin"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 4, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox TeaSachet_Jodi"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SeedShop",
+        "MapTiles": [
+            {
+                "Position": { "X": 34, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox BubbleTea_Caroline"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/JoshHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 4, "Y": 16},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Lemonade_George"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/AnimalShop",
+        "MapTiles": [
+            {
+                "Position": { "X": 24, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Lemonade_Shane"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SebastianRoom",
+        "MapTiles": [
+            {
+                "Position": { "X": 3, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Coffee_Sebastian"}
+            }
+        ]
+    },
+
+// BOUTIQUE DROPBOXES
+
+    {
+	    "Action": "EditMap",
+        "Target": "Maps/HaleyHouse",
+		"MapTiles": [
+            {
+                "Position": { "X": 7, "Y": 15},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Perfume_Haley"}
+            }
+		]
+	},
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/ScienceHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 16, "Y": 17},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Soap_Maru"}
+            }
+        ]
+	},
+
+// BREWER DROPBOXES
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 6, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Ale_Kent"}
+            }
+        ]
+    },
+  
+    {
+        "Action": "EditMap",
+        "Target": "Maps/LeahHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 13, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Mead_Leah"}
+            }
+        ]
+    },
+
+// CONFECTIONER DROPBOXES
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 9, "Y": 13},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Candy_Vincent"}
+            }
+        ]
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Trailer",
+        "MapTiles": [
+            {
+                "Position": { "X": 11, "Y": 6},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Candy_Penny"}
+            }
+        ]
+    },
+    
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Trailer_Big",
+        "MapTiles": [
+            {
+                "Position": { "X": 11, "Y": 6},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Candy_Penny"}
+            }
+        ]
+    },
+    
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SeedShop",
+        "MapTiles": [
+            {
+                "Position": { "X": 4, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Candy_Abigail"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 7, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox IceCream_Jodi"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/ScienceHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 21, "Y": 17},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox ICSandwich_Demetrius"}
+            }
+        ]
+    },
+
+// PANTRY DROPBOXES
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Hospital",
+        "MapTiles": [
+            {
+                "Position": { "X": 2, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Milk_Harvey"}
+            }
+        ]
+    },
+  
+    {
+        "Action": "EditMap",
+        "Target": "Maps/JoshHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 19, "Y": 22},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Flour_George"}
+            }
+        ]
+    },
+  
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 3, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Jam_Jodi"}
+            }
+        ]
+    },
+        
+    {
+        "Action": "EditMap",
+        "Target": "Maps/ManorHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 5, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Jam_Lewis"}
+            }
+        ]
+    },
+
+// WILD FOOD DROPBOXES
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/LeahHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 10, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Forage_Leah"}
+            }
+        ]
+        },
+  
+    {
+        "Action": "EditMap",
+        "Target": "Maps/ScienceHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 20, "Y": 17},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Forage_Demetrius"}
+            }
+        ]
+    },
+  
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SandyHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 6, "Y": 7},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox Forage_Sandy"}
+            }
+        ]
+    }
+
+  ]
+}
+

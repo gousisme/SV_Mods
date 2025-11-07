@@ -1,0 +1,1218 @@
+{
+
+////////////////////
+// SPECIAL ORDERS //
+////////////////////
+
+"SASS_SO_1.name":"Ingredients Needed!",
+"SASS_SO_1.text":"I am in dire need of magical forage ingredients for my next alchemical project. I don't mind if it's a variety of items, but they must be in good condition. Please bring them to me at my atelier in Sunberry Forest.",
+"SASS_SO_1a.deliver":"Deliver 5 magical forage items to the empty basket in the Alchemist's Atelier.",
+
+"SASS_SO_2.name":"Feathers Needed!",
+"SASS_SO_2.text":"I am in dire need of feathers for my next alchemical project. I don't mind which kind of feathers, but they must be in good condition. Please bring them to me at my atelier in Sunberry Forest.",
+"SASS_SO_2a.deliver":"Deliver 5 feathers to the dropbox in the Alchemist's Atelier.",
+
+"SASS_SO_3.name":"Mushrooms Needed!",
+"SASS_SO_3.text":"I am in dire need of mushrooms for my next alchemical project. A variety of mushrooms should suffice, but none of those common, purple, or red ones. Please bring them to me at my atelier in Sunberry Forest.",
+"SASS_SO_3a.deliver":"Deliver 5 magical mushrooms to the dropbox in the Alchemist's Atelier.",
+
+"SASS_SO_4.name":"Fruit Needed!",
+"SASS_SO_4.text":"I am in dire need of fruit for my next alchemical project. Not just any fruit! I am looking for out of season and magical fruits. Please bring them to me at my atelier in Sunberry Forest.",
+"SASS_SO_4a.deliver":"Deliver 5 magical fruits to the dropbox in the Alchemist's Atelier.",
+
+"SASS_SO_5.name":"Flowers Needed!",
+"SASS_SO_5.text":"I am in dire need of flowers for my next alchemical project. Not just any flowers! I am looking for flowers that appear unusual in nature. Please bring them to me at my atelier in Sunberry Forest.",
+"SASS_SO_5a.deliver":"Deliver 5 magical flowers to the dropbox in the Alchemist's Atelier.",
+
+"SASS_SO_RoseParty.name":"Shh! It's a Surprise Party!",
+"SASS_SO_RoseParty.text":"Cori and Wildflour want to throw a surprise party for Rose but they need your help to get the invitations out without Rose noticing.",
+
+"SASS_SO_RoseParty_Evelyn.deliver":"Deliver a surprise party invitation directly to Evelyn.",
+"SASS_SO_RoseParty_Evelyn.accept":"Rose? The sweet, shy, baker mouse that Miyoung and Jumana have told me so much about? This party sounds like a lovely idea, dear. Of course we'll come.$h",
+
+"SASS_SO_RoseParty_Miyoung.deliver":"Deliver a surprise party invitation directly to Miyoung.",
+"SASS_SO_RoseParty_Miyoung.accept":"A surprise party for Rose? I can't imagine a better way to spend an afternoon!$h",
+
+"SASS_SO_RoseParty_Jumana.deliver":"Deliver a surprise party invitation directly to Jumana.",
+"SASS_SO_RoseParty_Jumana.accept":"What a wonderful idea! Amina has been dying to meet Rose but didn't want to go by herself so I'll bring her along.$h",
+
+"SASS_SO_RoseParty_Linus.deliver":"Deliver a surprise party invitation directly to Linus.",
+"SASS_SO_RoseParty_Linus.accept":"I'd happily make the trip to Sunberry Forest for Miss Mouse. I'll be there.$h",
+
+"SASS_SO_RoseParty_Leah.deliver":"Deliver a surprise party invitation directly to Leah.",
+"SASS_SO_RoseParty_Leah.accept":"I was wondering about how to introduce myself to that sweet mouse that forages with Linus! Count me in and I'll bring Elliott too!$h",
+
+"SASS_Party_Invitation.name":"Party Invitation",
+"SASS_Party_Invitation.description":"A top secret invitation to Rose's party.",
+
+///////////////
+// MAP STUFF //
+///////////////
+
+// Map Strings
+
+"MapString.atelier.cakes": "A display of colorful cakes.",
+"MapString.atelier.packagedtreats": "A display of elegantly-packaged desserts.",
+"MapString.atelier.petitfours": "A display of adorably tiny petit fours.",
+"MapString.atelier.cookbooks": "A bookcase full of cookbooks.",
+
+"MapString.atelier.herbalistbooks": "A bookcase filled tightly with books on alchemy, herbalism, and foraging.",
+"MapString.atelier.bookstack": "Books that could no longer fit in the bookcase.",
+"MapString.atelier.teapotbooks": "A table cluttered with papers, a teapot and an open book. The title reads:#'Focus! How to Avoid Scope Creep'.",
+"MapString.atelier.teapotbooks2": "Another table cluttered with papers, open books, and another teapot.",
+
+"MapString.atelier.fairydress": "A dress fit for a fairy princess!",
+"MapString.atelier.cheesebooks": "A bookcase filled with a mix of cookbooks and Redfloor fantasy novels.",
+"MapString.atelier.mushteapot": "A mushroom-shaped teapot.",
+"MapString.atelier.roseplants": "A vibrant display of houseplants, lovingly cared for.",
+
+"MapString.atelier.moretea": "Seriously, how much tea do these two drink?",
+"MapString.atelier.opencookbook": "A set of open cookbooks. It's a recipe for Award Winning Strawberry Scones.",
+"MapString.atelier.lemons": "A sack of freshly-picked petite lemons.",
+
+"MapString.atelier.flowers": "A display of freshly-foraged flowers. They smell lovely.",
+"MapString.atelier.yarrow": "A display of freshly-foraged herbs like yarrow and lavender.",
+"MapString.atelier.mushrooms": "A display of freshly-foraged mushrooms. Yum!",
+
+"MapString.atelier.cauldron": "A large cauldron, bubbling away with a mysterious liquid.",
+"MapString.atelier.sprouthouse": "It's an adorable mushroom house! It's too small for anyone to live inside...probably.",
+"MapString.atelier.alchemybookcase": "A bookcase filled with alchemy books and ceremonial candles.",
+
+// Shop Dialogue
+"SASS_AlchemistShop_Dialogue.1":"Forage! Seeds! Mushrooms! Come get your wild food here!",
+"SASS_AlchemistShop_Dialogue.2":"Welcome, welcome. What can I interest you in on this fine day?",
+"SASS_AlchemistShop_Dialogue.3":"What do you think, care to try some of these new berries I found today? They're probably not poisonous...",
+
+"SASS_Alchemist_TwilightShop_Closed":"Closed until the start of the festival!",
+"SASS_Alchemist_TwilightShop":"Welcome to the Twilight Atelier!",
+
+//Interior and Shop Names
+
+"SASS_FamiliarsShop.Dialogue":"Alchemist's Familiar Encyclopedia",
+"SASS_AtelierInterior":"Alchemist's Atelier",
+
+///////////////
+// ALCHEMIST //
+///////////////
+
+//Display Names
+"Name.Wildflour": "Wildflour",
+
+//Generic Gift Taste Dialogue
+
+//Love
+"Gift_Love.Wildflour": "STOP, REALLY?! FOR ME? Oh, @, this is amazing! Thanks so much.$1",
+
+//Like
+"Gift_Like.Wildflour": "My goodness, what a kind gesture. Thank you, @.$h",
+
+//Dislike
+"Gift_Dislike.Wildflour": "Hm, yes, this is...well, I'm sure I can throw it in the cauldron for a potion or something.$5",
+
+//Hate
+"Gift_Hate.Wildflour": "Oh. No. Nope, actually, I hate this.$2",
+
+//Neutral
+"Gift_Neutral.Wildflour": "Thank you, @.",
+
+//Birthday
+"Gift_Positive.Alchemist":"EEEEEEEEEEEEEEEEE.$1#$b#Ahem, I mean, thank you, @, for such a lovely birthday present.$0",
+"Gift_Negative.Alchemist": "Oh well, uh, thank you, @.$2#$b#I'll be sure to put this somewhere...special.$10",
+
+//Animation Dialogue
+"Animations_AlchemistForaging": "%The alchemist seems completely consumed with her foraging.",
+
+//Festival Dialogue
+
+//Egg Festival
+"Festivals_EggFest.Wildflour": "Rose, how are you possibly able to see or enjoy the festival from down there?$s#$b#Stop hiding and come out and have some fun!$1",
+
+//Flower Dance
+"Festivals_FlowerDance.Wildflour": "I...might have told Rose this was a baking festival to get her to come.$10#$b#She isn't super pleased with me, but I HAD to see the flower arrangements!$12",
+
+//Luau
+"Festivals_Luau.Wildflour": "Rose, I promise I won't let anyone throw you in the soup$1#$b#...or off the dock$2#$b#...or into the tide pools...$3",
+
+//Moonlight Jellies
+"Festivals_Jellies.Wildflour": "That's the spirit, Rose!#$b#I think.$10#$b#At any rate, I'm glad you can enjoy yourself.$h",
+
+//Stardew Fair
+"Festivals_StardewFair.Wildflour": "Now that WOULD be a nice change of pace to let all of us vote instead of just Lewis making the decision.#$b#Don't let him hear that or he'll think we want to oust him as mayor.",
+
+//Spirit's Eve
+"Festivals_SpiritEve.Wildflour": "There's no need to let Rose know which nasties are real and which are made up...#$b#Yoba knows she's afraid of enough as it is.",
+
+//Ice Festival
+"Festivals_IceFest.Wildflour": "Hmm, I think I would prefer this festival more if we cooked the fish instead of just... catching them very fast.$12",
+
+//WinterStar
+"Festivals_WinterStar.Wildflour": "Oh, how I do love a solstice festival!$h#$b#A lovely tradition to usher in the new year with the community.",
+
+//TWILIGHT FESTIVAL SBV 
+"Alchemist_Dialogue.TwilightFestival1": "Are you excited for this afternoon's festivities, @?#$b#I know I certainly am.$1#$b#Don't forget to come visit my stall for some EXTRA special goodies I have for sale.",
+"Alchemist_Dialogue.TwilightFestival2": "Hope you have enough feathers for everything that catches your eye!$1",
+
+//Seasonal Events Dialogue
+
+"Alchemist_Dialogue.Introduction": "Hello there - I don't believe we've met. I'm Wildflour, an alchemist from Sunberry Village. @$10#$b#...#$b#OH, you must be the new farmer over in Pelican Town!$h#$b#Welcome to the Valley! If you are ever in need of forage or unique seeds, feel free to stop by the atelier in Sunberry Forest.",
+
+//Spring
+"Alchemist_Dialogue.spring_1": "A new year, a new spring, a new beginning!#$b#I can't wait to start planting seeds and foraging, @. What are you most excited for?",
+"Alchemist_Dialogue.spring_12": "The egg festival? I would not miss it for anything!#$b#It might not have any more of its pagan roots, but it is still a lovely way to welcome in the spring season with friends.",
+"Alchemist_Dialogue.spring_23": "Wouldn't it be neat if, one year, the ceremony was actually flowers dancing instead of humans?#$b#It certainly would be funny to see the young ones reactions to a bunch of dancing daisies!",
+
+//Summer
+"Alchemist_Dialogue.summer_1": "It's not that I dislike the summer, it just seems like summer dislikes me.#$b#Thank goodness I have this large hat to keep me from getting too badly sunburnt.",
+"Alchemist_Dialogue.summer_10": "I am neither partial to the summer heat nor to eating hot soup from a communal cauldron...#$b#but I shall be there to help in case that... well, someone puts something questionable into the pot.",
+"Alchemist_Dialogue.summer_27": "Autumn is nearly upon us, and I have so much to do!#$b#Of course, I'll make time for the Dance of the Moonlight Jellies, though.#$b#Summer may not be my favorite season, but it is still deserving of our thanks.",
+
+//Fall
+"Alchemist_Dialogue.fall_1":"Cool air, crisp leaves, the scent of freshly-baked pie... My, isn't autumn just divine, @?",
+"Alchemist_Dialogue.fall_15": "Will you be entering the fair this year, @?#$b#I must admit, I only go for the free food Gus gives out, but I wish you luck with your display!",
+"Alchemist_Dialogue.fall_26": "No time to talk, @, I promised to help with tomorrow's festivities, but I completely forgot about TODAY'S festivities!#$b#Now, where did I leave that cookbook...",
+
+//Winter
+"Alchemist_Dialogue.winter_1": "Winter means less farming and more foraging!#$b#I'm on the hunt for something new and exciting, @. Here's hoping I find it!",
+"Alchemist_Dialogue.winter_7": "I cannot say that I find fishing into a hole in the ice particularly... fascinating, but the ice sculptures? Now THAT I can appreciate.#$b#Why can't that be the contest instead?",
+"Alchemist_Dialogue.winter_16": "I always look forward to the night market, @.#$b#It's just so cozy and festive.$h",
+"Alchemist_Dialogue.winter_24": "Ah, @. The end of the year draws near, and it's nearly time to celebrate the Feast of the Winter Star!#$b#If you need help finding a gift for a secret someone, let me know. I'm sure I have something here...",
+
+//Green Rain
+"Alchemist_Dialogue.GreenRain":"Worried?#$b#Why would I be worried?$10#$b#This storm will mean mushrooms as far as the eye can see, @! I'm practically vibrating with excitement.$1",
+"Alchemist_Dialogue.GreenRainFinished":"Did you manage to forage anything good, @?#$b#I have so many mushrooms, I'm not even sure what to do with all of them!$h",
+"Alchemist_Dialogue.GreenRain_2":"Want to race and see who can forage more goodies during the storm?#$b#It'll be like the Egg Festival but even better!$h",
+
+//Base Dialogue
+
+"Alchemist_Dialogue.Mon": "Do you know how foxgloves got their name?#$b#Apparently, fairies slipped the flowers onto the feet of mischievous foxes so they could sneak into henhouses and steal chickens!$1", 
+"Alchemist_Dialogue.Tue": "I could never be a flower farmer, @.$s#$b#Instead of picking the flowers to sell, I'd just end up leaving them all in the ground to stare at all season long!$h",
+"Alchemist_Dialogue.Wed": "What is an alchemist?#$b#Well, it's someone who takes materials found in the wild and transforms them into entirely new things to help themselves and their community.#$b#Oh, and maybe a bit of magic thrown in for good measure, but don't tell the wizard that.$6",
+"Alchemist_Dialogue.Thu": "Never be without a foraging basket, @. Who knows what you might find on your daily trip into town?#$b#$1# For example, I found these lovely mushrooms just outside Robin's house!$1",
+"Alchemist_Dialogue.Fri": "The weekend is approaching! Should I curl up with an alchemy book or go off exploring?#$b#Hmm, decisions, decisions.",
+"Alchemist_Dialogue.Sat": "Have you taken a look at the woods behind the wizard's house?$3#$b#I thought I spied some interesting forage in that direction...",
+"Alchemist_Dialogue.Sun": "Have you had a relaxing weekend, @? I would hate to hear you are overworking yourself!#$b#One should always schedule in plenty of time for a little mischief.$6",
+
+"Alchemist_Dialogue.Mon2": "Interested in alchemy? I must say, you already have a knack for it, @.#$b#How else do you manage to cook such elaborate meals so quickly?", 
+"Alchemist_Dialogue.Tue2": "Have you had any luck getting to know Rose, @? You said she squeaks and runs away when you try to talk to her?#$b#Ah, well, just keep at it. I am sure she'll open up to you in no time.",
+"Alchemist_Dialogue.Wed2": "Do you have a favorite flower, @?#$b#If I had to pick, I think I'd say peonies are my favorite. They are just so fluffy and lovely.",
+"Alchemist_Dialogue.Thu2": "If you're cutting some of your growing flowers for an arrangement, be sure to cut the stems at an angle.#$b#This allows them to absorb the water in the vase better and last longer!",
+"Alchemist_Dialogue.Fri2": "Sometimes my eyes are bigger than my stomach.#$b#I should go share some of my extra mushrooms with Linus. The man knows how to make an excellent mushroom kebab...$1",
+"Alchemist_Dialogue.Sat2": "I think I'll stay in and bake a pie or two today.#$b#I have to use up these foraged berries somehow.",
+"Alchemist_Dialogue.Sun2": "...huh, what was that?#$b#Sorry, I was thinking about how to craft a new alchemy machine.",
+
+"Alchemist_Dialogue.Mon4": "Sprout would like to know if you have any treats for him.#$b#If not, he would like to suggest you bring strawberries next time you see him.", 
+"Alchemist_Dialogue.Tue4": "The wizard? What about them?$5#$b#No, we don't talk much.$6#$b#They think magic and alchemy should be kept hidden from most folks and I just do not see it as an issue.#$b#$1Folks should help each other out! Magical, alchemical, or otherwise, don't you think, @?",
+"Alchemist_Dialogue.Wed4": "I was reading in one my tomes the other day of a mushroom forest where giant mushroom trees grew.#$b#Wouldn't such a place be a forager's dream come true? I wonder if the story is based on any real life location...",
+"Alchemist_Dialogue.Thu4": "What do I do with all the stuff I forage?#$b#Friend, what DON'T I do?#$b#It can be transformed into teas, potpourri, perfumes, baked goods...#$b#I promise I don't use the poisonous mushrooms for that last one.$6",
+"Alchemist_Dialogue.Fri4": "I found some rare mushrooms the other day and shared a few with Maru.#$b#You should have seen how happy it made her! Always looking for a new thing to analyze that one. She'd make an excellent alchemist.$1",
+"Alchemist_Dialogue.Sat4": "My alchemy master often spoke of a wise man from this area. I think his name was...Cannoli?#$b#He was the one who first told her about junimos, so I came here in search of them!#$b#And then I found Sprout here, so now this place is home for both of us!$1",
+"Alchemist_Dialogue.Sun4": "Aha! I have finally perfected my chamomile tea recipe.#$b#I must remember to share it with Caroline the next time I see her.",
+
+"Alchemist_Dialogue.Mon6": "Do you think someone gave Abigail rock candy as a child and she just assumed all rocks were candy?#$b#I'm not one to judge, but I find her appetite fascinating, nonetheless.$1",
+"Alchemist_Dialogue.Tue6": "Oh, @! I wanted to mention the next time I saw you!#$b#Be careful of where you let your pets access on your farm. A lot of the flowers you grow can be toxic for an overly curious cat or dog.$3",
+"Alchemist_Dialogue.Wed6": "Sprout says your farm is coming along well!#$b#He and his friends enjoy playing in the crop fields at night. He promises they only steal a few snacks.",
+"Alchemist_Dialogue.Thu6": "A cave full of crystals certainly sounds intriguing, doesn't it, @?#$b#Oh, it's another reference I found in yet another old book of mine. It's so hard to tell what is purely fantasy and what is a clue meant to point the way to a new secret location!",
+"Alchemist_Dialogue.Fri6": "Ah, hello, @! Another week done, another weekend to celebrate! Do you have anything exciting planned?#$b#Personally, I think I shall be testing out some new tea blends with the flowers I foraged yesterday.",
+"Alchemist_Dialogue.Sat6": "I'll have to remember to stop by the saloon and give Emily those crystals I promised her.#$b#Imbuing spirit energy into them takes quite a bit of work, but I'm happy to help a fellow lover of the mystical and alchemical arts.",
+"Alchemist_Dialogue.Sun6": "@! Just the person I wanted to see.$1#$b#I ended up synthesizing too much cake in my cauldron this morning, so I thought I'd share. [220 221] ",
+
+"Alchemist_Dialogue.Mon8": "I wonder what kind of alchemical properties one could derive from a person's clothing.#$b#Like from a pair of purple shorts, perhaps?$6",
+"Alchemist_Dialogue.Tue8": "Jas stopped me the other day to ask if she could be an alchemist, too. Isn't that sweet?#$b#She can see Sprout as well, so she might make a fine apprentice one day.$1",
+"Alchemist_Dialogue.Wed8": "Sprout says that if you were to build a junimo hut on your farm, he could come over for a sleepover.#$b#He also promises NOT to throw a giant junimo party while he's there.$1",
+"Alchemist_Dialogue.Thu8": "@! I found notes on another magical foraging location - this one seems to be a wildflower meadow on the peak of a mountain.#$b#The book doesn't give specifics, but apparently it was only discoverable by the most skilled foragers early in the spring season.",
+"Alchemist_Dialogue.Fri8": "Oh, hello there, @! Quick, take a bite and let me know what you think. [608]#$b#I added in some foraged cinnamon. I think it really helps elevate the flavor!",
+"Alchemist_Dialogue.Sat8": "You know, if you wanted to watch me perform some alchemy, you are more than welcome to.$1#$b#We could try synthesizing some new tea flavors, or maybe a magic potion?",
+"Alchemist_Dialogue.Sun8": "Oh, @. I'm not feeling up to talking today.#$b#No, it's nothing serious... I just might have overdone it looming over my cauldron yesterday.",
+
+"Alchemist_Dialogue.Mon10": "What if - now, hear me out on this - I used alchemy to make magical makeup?#$b#Think about it! Instead of vanishing cream for acne, it could be vanishing cream for total invisibility!",
+"Alchemist_Dialogue.Tue10": "You are upset Sprout still isn't talking to you?#$b#I'm sorry to hear that, @. Sprout talks ABOUT you constantly, but he is a rather shy little guy in person.",
+"Alchemist_Dialogue.Wed10": "How can I be out foraging and also mind the shop?#$b#Very simple - the person you see in the shop is actually three of Sprout's friends glamoured to look like me.#$b#Works like a charm.$6",
+"Alchemist_Dialogue.Thu10": "A secret orchard...#$b#What? Oh, sorry, @. I must have been musing to myself.#$b#It seems the valley inspired many legends of secret foraging areas, and I'm determined to find them all!",
+"Alchemist_Dialogue.Fri10": "There's my favorite guinea pig - I MEAN, taste tester!$1#$b#This time, I swapped in some wild berries and added a dash of vanilla bean essence. [610]",
+"Alchemist_Dialogue.Sat10": "Leah actually came by the other day to ask me if I could use alchemy to craft her some unique dyes and paints.#$b#It's really quite heartwarming to have different folks from town coming by the atelier for help or to chat.",
+"Alchemist_Dialogue.Sun10": "I think I'll take a visit to see my friends over in Wildshire soon. It's a bit out of the way, so I don't get there as often as I'd like to. #$b#I'll have to bring you with me one day, @!#$b#I imagine you would become fast friends with several of the villagers.",
+
+//Conversation Topics
+
+"Alchemist_Dialogue.cc_Begin": "I thought I saw you poking around the old community center. It's nice to see someone aside from Sprout's friends taking an interest in it!",
+"Alchemist_Dialogue.cc_Boulder": "The boulder being gone means more minerals will be accessible to the ground surrounding the mines!#$b#It should result in better soil, and hopefully, better forage as well.",
+"Alchemist_Dialogue.cc_Greenhouse": "Sprout says he hopes you like your new greenhouse; he and his buds worked really hard on it.",
+"Alchemist_Dialogue.cc_Minecart": "Oh, @! Was it you who managed to get the minecarts fixed? I must thank you. It really makes foraging around the valley MUCH more efficient!",
+"Alchemist_Dialogue.cc_Complete": "Sprout told me the good news! You should be very proud of yourself, @.#$b#You've managed to give this town a bit of its community back, in more ways than one.",
+"Alchemist_Dialogue.cc_Bridge": "Access to a quarry is quite the achievement, @. No doubt you'll need quite a bit of ore and gemstones if you ever want to start doing any alchemy of your own!",
+"Alchemist_Dialogue.cc_Bus": "Oh, is the bus fixed? That's lovely news! I do not need it, as I have other ways of visiting the desert, but it will be nice for you to visit and for a few long distance friends to catch up with one another.",
+"Alchemist_Dialogue.movieTheater": "A movie theater? Well, certainly that's an improvement on the old Joja wreck, but a community greenhouse would have been nice, too...",
+"Alchemist_Dialogue.willyCrabs": "Really, @, I am surprised at your behavior. What Willy does in the privacy of his own home is none of my concern.",
+"Alchemist_Dialogue.pamHouseUpgrade": "It really is something, @. You've singlehandedly done so much for Pam with this gift. Here's hoping others follow your example.",
+"Alchemist_Dialogue.pamHouseUpgradeAnonymous": "I heard someone just went and commissioned Robin to build Pam a house. What a generous soul, and humble too! To remain anonymous like that...",
+	
+"Alchemist_Dialogue.LucikielArrives": "A demon in Pelican Town? Well, I don't think we should be quick to judge, @.#$b#You know, a lot of folks still think alchemists are heathens too.#$b#Let's just wait it out and see.",
+"Alchemist_Dialogue.ReputationIncreased": "Now what did I tell you, @?#$b#We should always give folks a chance, and now Lucikiel is practically a Pelican Town regular!",
+"Alchemist_Dialogue.MeetTheCats": "Talking cats?#$b#Really, @. Next you're going to tell me a little green guy is sitting on my shoulder.$u",
+"Alchemist_Dialogue.ButteredJorts": "I will say, Pam's heart is in the right place.#$b#It's a shame that place involves so much butter.",
+"Alchemist_Dialogue.keahi_prank": "Oh, dear. Um, @, how do I put this?#$b#Perhaps a dip in the lake might do you some good?",
+
+"Alchemist_Dialogue.ReihanaIntro":"Let's not be quick to judge Reihana or Aicha. They didn't ask to be here and suddenly their lives are uprooted to our little town.#2#$b#I think we can at least try to be welcoming, don't you, @?$h",
+"Alchemist_Dialogue.wedding":"Oh @, you must be over the moon! Congratulations and I wish you nothing but the best for this next step in your relationship.$h",
+"Alchemist_Dialogue.luauBest":"Sometimes, @, throwing several disparate items into a cauldron - erm - I mean soup pot, really yields amazing results!$10",
+"Alchemist_Dialogue.luauShorts":"To think I consumed soup with essence of...Lewis.$5#$b#Well, if you'll excuse me, I have to go home and eat several of Rose's scones to get the taste out of my mouth.$12",
+"Alchemist_Dialogue.luauPoisoned":"WHAT was in that soup?$2#$b#I have to go and prepare a remedy of herbs immediately before the whole town turns ill.",
+"Alchemist_Dialogue.AriGetsSlimed":"What happened to Ari was absolutely deplorable.$3#$b#Truly monstrous.$2#$b#Not at all funny.$10#$b#Nope, not one bit.$12",
+
+"Alchemist_Dialogue.SterlingTrash":"Oh come now, @. Would you want me snickering about your unfortunate drinking escapades with our neighbors?$3#$b#I'm sure Sterling feels unpleasant enough as it is without us adding to it.$s",
+"Alchemist_Dialogue.SterlingDrugs":"@, I must admit I'm a little concerned for our friend, Sterling. He seems to be acting strangely, but I don't want to be too forward and ask him.#2#$b#Perhaps I'll bring some scones over to Mia and see if she's noticed it as well.",
+"Alchemist_Dialogue.SterlingRelapse":"It seems that altercation at Pierre's was even worse than I thought.$3#$b#I haven't seen Sterling in what feels like ages.#$b#Wherever he is, I hope knows he has people here in Sunberry who care very much for him.$s",
+"Alchemist_Dialogue.SterlingApology":"I stopped by Pierre's and wouldn't you know it, Sterling was there!$9#$b#Back to work with that dashing smile. What a relief; I do hope this means he's feeling better.$1",
+
+////////////////////////////
+//ALCHEMIST EVENT DIALOGUE//
+////////////////////////////
+
+//2 Heart - Mysterious Forage
+
+"SASS_MysteriousForage.01":"Oh, @!#$b#Perfect, just the person I need.#$b#Could you come take a look at this?",
+"SASS_MysteriousForage.02":"What on earth is that?",
+"SASS_MysteriousForage.03":"I was hoping you could help me figure that out.$10#$b#I forage around this area south of Sunberry Road pretty often, but this is the first time I've ever encountered this flower.",
+"SASS_MysteriousForage.04":"Maybe it's just a weed?",
+"SASS_MysteriousForage.05":"Well, a rose is a weed in a field of wheat, my good farmer.$1#$b#You of all people should know weeds are just the term we use for plants we deem undesirable. It's all a matter of perspective.$7",
+"SASS_MysteriousForage.06":"I'll bring it to Jumana's flower shop to see if she has any thoughts.#$b#Say, keep an eye out for any other strange forage, will you?$0#$b#I have a feeling this might not be a one-time occurrence.",
+"SASS_MysteriousForage.07":"Hey, if it ends up being nothing special, I'll treat you to one of Rose's scones, okay?$9#$b#If you find something interesting, can you please bring it to the atelier for me to examine?$0",
+"SASS_MysteriousForage.08":"Great! Hopefully I'll be seeing you soon then.$1#$b#Bye for now, @!",
+
+//4 Heart - Sprouts MoonDrops
+
+"SASS_SproutMoonDrops.01":"Hello, @!#$b#It's nice to see you've discovered this bit of the woods as well.",
+"SASS_SproutMoonDrops.02":"Isn't it splendid? Sprout calls it a Moondrop.$h#$b#He says they only show up after rain or snow, and most humans can't even see them.",
+"SASS_SproutMoonDrops.03":"Sprout. The junimo.",
+"SASS_SproutMoonDrops.04":"The junimo.$0#$b#On my shoulder.$7#$b#Talks constantly.$s#$b#Mimics my emotional states out of love or mockery, I'm not sure which, to be honest.",
+"SASS_SproutMoonDrops.05":"Are you sure you're feeling okay?",
+"SASS_SproutMoonDrops.06":"Do you... not see him?$3#$b#Sprout, come out this instant.$5",
+"SASS_SproutMoonDrops.07":"What do you mean you've been hiding from the farmer?$11#$b#WAIT!",
+"SASS_SproutMoonDrops.08":"So that means...$12#$b#Did you think I was talking to myself this entire time?!",
+"SASS_SproutMoonDrops.09":"Well, now that THAT's sorted...$13#$b#Like I was saying, Sprout says these are Moondrops, and being able to see and harvest them is a rare skill for humans! The fact that you can see them is fantastic news.#$b#I plan to try growing them, but perhaps you could as well?#$b#Whichever of us gets them to grow first has to share seeds with the other!",
+"SASS_SproutMoonDrops.10":"Sprout!$13#$b#I needed that to extract seeds!#$b#Couldn't you wait for a snack until we got home?",
+
+//6 Heart - Magic Mushrooms
+"SASS_MagicMushrooms.01":"Rose, COME ON!#$b#Look, there are no slimes, no humans, just tons of gorgeous mushrooms.$1#$b#I'm going to pick them all, hehehe.",
+"SASS_MagicMushrooms.02":"But they could be poisonous!$2#$b#You have no idea if those are safe to eat and we've talked about this - you can't just go around putting random mushrooms into your mouth. That's not good foraging behavior!$6",
+"SASS_MagicMushrooms.03":"What do you mean?$6#$b#I am Wildflour, the mighty alchemist.$0#$b#I know what mushrooms are edible and which aren't, and I'm pretty sure this is a ...$10#$b#definitely edible mushroom whose name has slipped my mind at the moment.#$b#Look, I'll show you-$1",
+"SASS_MagicMushrooms.04":"No, WAIT!$3",
+"SASS_MagicMushrooms.05":"See?$12#$b#Totally fine.",
+"SASS_MagicMushrooms.06":"That's it, Miss Smarty Alchemist.$5#$b#I'm going back to the atelier and you know what:",
+"SASS_MagicMushrooms.07":"Since you seem to have plenty to eat here with all of these mushrooms, I guess you don't need any of my scones anymore.$1",
+"SASS_MagicMushrooms.08":"You're joking.$3#$b#Rose, I'm sorry, it was just a little joke.$2",
+"SASS_MagicMushrooms.09":"Rose, wait, no! I'm sorry, I won't do it again, I promise.$3",
+"SASS_MagicMushrooms.10":"I think I'll just remove scones from the menu. Surely scones are inferior food for such a mighty alchemist.$7",
+"SASS_MagicMushrooms.11":"Rose, PLEASE! You know I get grumpy without my morning scone.$2",
+"SASS_MagicMushrooms.12":"Maybe make a scone out of those mushrooms then.",
+"SASS_MagicMushrooms.13":"Okay, okay. I'll clean the WHOLE atelier - how's that sound?",
+"SASS_MagicMushrooms.14":"Hm... I'm listening.",
+
+//8 Heart - Strange Fruit
+
+"SASS_StrangeFruit.01":"That's MY apple!$5#$b#Give it here, you little trash gremlin.$12",
+"SASS_StrangeFruit.02":"The raccoon snarls and steals the apple triumphantly away from Aicha.",
+"SASS_StrangeFruit.03":"Give.$12#$b#It.$12#$b#BACK.$12",
+"SASS_StrangeFruit.04":"You got the last one, this one's MINE.$5",
+"SASS_StrangeFruit.05":"Woah, woah, woah, what's going on over here?$3",
+"SASS_StrangeFruit.06":"The raccoon hisses.",
+"SASS_StrangeFruit.07":"Aicha hisses back.",
+"SASS_StrangeFruit.08":"That's QUITE enough hissing, thank you.$5#$b#This little orchard only works as a free orchard if everyone shares.#$b#Aicha, why can't you just take another fruit instead of this one?$7",
+"SASS_StrangeFruit.09":"BECAUSEEEE, this apple's special, OBVIOUSLY. Can't you tell?$6",
+"SASS_StrangeFruit.10":"What do you mean, special?$3#$b#Oh, now that you mention it, it is a strange color from the normal ones that grow on this tree.$10",
+"SASS_StrangeFruit.11":"The raccoon watches hungrily as the alchemist investigates the apple.",
+"SASS_StrangeFruit.12":"You are absolutely right, Aicha.$0#$b#There IS something strange about this apple.#$b#I'll have to study it back in my atelier to discern what happened to change the cultivar.",
+"SASS_StrangeFruit.13":"BUT- BUT-$14",
+"SASS_StrangeFruit.14":"Butttt, I do happen to have some of Rose's freshly-baked cookies here if you two can agree to behave yourselves.$1",
+"SASS_StrangeFruit.15":"The raccoon squints at Aicha, then nods solemnly at the alchemist.",
+"SASS_StrangeFruit.16":"...Fine.$8#$b#But we're neighbors now, witch-",
+"SASS_StrangeFruit.17":"ALCHEMIST.$8#$b#Aicha, how many times must I-",
+"SASS_StrangeFruit.18":"Witch.$7#$b#Alchemist.$0#$b#Same thing.$3#$b#My point is, magical neighbors need to stick together. If you figure out how to make more of those apples grow, you better share with me and the trash gremlin here before you go sharing with the humans.$5",
+"SASS_StrangeFruit.19":"The raccoon moves closer to Aicha and nods vigorously at the alchemist.",
+"SASS_StrangeFruit.20":"The alchemist rolls her eyes and sighs.",
+"SASS_StrangeFruit.21":"Of course.#$b#Now, if you'll excuse me, I have an apple to investigate.$9",
+
+//10 Heart - Fae Flowers
+
+"SASS_FaeFlowers.01":"A little of this, a pinch of that.#$b#Now, where did my jar of spiderwebs go...$10",
+"SASS_FaeFlowers.02":"Miss Alchemist! Miss Alchemist!",
+"SASS_FaeFlowers.03":"Hello, girls.$0#$b#Is everything alright?$3",
+"SASS_FaeFlowers.04":"If we tell you something, will you believe us?$3",
+"SASS_FaeFlowers.05":"Even if it sounds made up?$3",
+"SASS_FaeFlowers.06":"Of course.$7#$b#You two aren't ones to tell fibs.#$b#What's the matter, did something happen?$2",
+"SASS_FaeFlowers.07":"Well, Jas and I were out playing in the forest-$0",
+"SASS_FaeFlowers.08":"...and then we heard someone giggling!$0",
+"SASS_FaeFlowers.09":"Did you see anyone?$3",
+"SASS_FaeFlowers.10":"No, we went to find who it was, since we thought maybe it was Vincent playing a prank on us-$4",
+"SASS_FaeFlowers.11":"...and then we ended up in a part of the forest we didn't know.$2#$b#We were scared. We didn't know how to get back, but then- ",
+"SASS_FaeFlowers.12":"A PATH OF FLOWERS SHOWED US THE WAY OUT!$3",
+"SASS_FaeFlowers.13":"You followed flowers you recognized to find your way out of the forest?#$b#Jas, that doesn't seem very-",
+"SASS_FaeFlowers.14":"NO.$5#$b#When she says the flowers showed us, she means they APPEARED like magic!$3#$b#They weren't there before, but then all of a sudden, POOF! There they were.$1",
+"SASS_FaeFlowers.15":"We tried to tell Aunt Marnie, but they disappeared when we tried to show her, so she said we must have imagined it.$2#$b#But we play in the forest ALL the time, and I've never seen those flowers before, especially not a whole path made of them!$1",
+"SASS_FaeFlowers.16":"Fascinating.$11#$b#Girls, I'm going to let you in on a little secret.$12#$b#I think... a wee fairy might have been playing a prank on you.$13",
+"SASS_FaeFlowers.17":"And, when they saw you both get scared, they created this path to help you get home.$1#$b#Fae folk aren't inherently bad or evil, just mischievous.$0",
+"SASS_FaeFlowers.18":"To be on the safe side, though, if you hear that giggling again, I wouldn't go near it.$2#$b#Promise you'll come find me instead, okay?#$b#Wouldn't want either of you walking into a fairy ring and being spirited away now, would we.$11",
+"SASS_FaeFlowers.19":"We promise!",
+"SASS_FaeFlowers.20":"Now, how about a nice cup of cocoa for each of you, and you can tell me about the rest of your adventure?$1",
+"SASS_FaeFlowers.21":"Yay!",
+"SASS_FaeFlowers.22":"That sounds great!",
+
+//////////
+// ROSE //
+//////////
+
+
+    "SASS_RoseShop_Dialogue.1":"Hello there! Care for a scone?",
+    "SASS_RoseShop_Dialogue.2":"What can I get you today?",
+    "SASS_RoseShop_Dialogue.3":"Don't forget to stock up on essentials!",
+
+	//Display Names
+    "Name.Rose": "Rose",
+
+    //Generic Gift Taste Dialogue
+
+	//Love
+    "Gift_Love.Rose": "For me?! Oh, how absolutely lovely of you!$4#$b#Thank you so much, @!",
+   
+	//Like
+    "Gift_Like.Rose": "A gift?#$b#You brought me a gift?#$b#That is so kind of you to think of me, @.",
+  
+	//Dislike
+    "Gift_Dislike.Rose": "Why...#$b#Why would you give me this?$2",
+  
+	//Hate
+    "Gift_Hate.Rose": "SQUEAK!$5#$b#%Rose continues to squeak incomprehensibly, and you have a feeling the words would not be pleasant if you understood them.",
+
+	//Neutral
+    "Gift_Neutral.Rose": "Oh, thank you.",
+
+    //Birthday
+    "Gift_Positive.Rose":"You remembered my birthday AND brought me a thoughtful gift?$3#$b#You are so kind; thank you, @!$1",
+    "Gift_Negative.Rose": "%Rose mumbles a thank you and something else you can't quite catch under her breath.",
+
+    
+	//Event Dialogue
+    //0 Heart Event - Intro to Rose and Flour
+
+    "SASS_RoseFlourIntro.01":"I just don't see why I can't keep baking all the cakes and cookies and you handle the people part.$s",
+    "SASS_RoseFlourIntro.02":"Now you know that's not fair to you.$s#$b#Everyone thinks I do it all by myself ON TOP OF the foraging and alchemy I already do.$s#$b#Plus, I know you'd really enjoy spending time with some of the townsfolk$h.#$b#Jumana runs an absolutely lovely flower shop...",
+    "SASS_RoseFlourIntro.03":"I don't mind if you get all the credit.$6#$b#I'm just happy here in the forest with you and our lovely home and...$0#$b#...and...",
+    "SASS_RoseFlourIntro.04":"SQUEAK!$3",
+    "SASS_RoseFlourIntro.05":"Rose, what on Earth-$3",
+    "SASS_RoseFlourIntro.06":"Oh, well, that'll do it.$7",
+    "SASS_RoseFlourIntro.07":"Hello there!$h#$b#Sorry about Rose. She isn't the best with meeting new people.$s#$b#Or, people at all actually.$0#$b#What did you say your name was?",
+    "SASS_RoseFlourIntro.08":"Well, it's lovely to meet you.$h#$b#My name's Wildflour and I run the atelier behind me with Rose.#$b#I'd explain, but it'll be easier if you stop by in a few days for a treat!$0#$b#Just, not right now.$s",
+    "SASS_RoseFlourIntro.09":"Like I said, stop by in a few days to say hello and poke around the shop, and I'll explain then.$0#$b#Talk to you soon, @!",
+    "SASS_RoseFlourIntro.10":"Hmm, this might be just the thing we need to get Rose to come out of her shell...$6",
+
+    //Awkward Atelier - O Heart Part 2
+
+    "SASS_AwkwardAtelier.01":"OH, GOOD, YOU CAME!$h#$b#Come in, come in! Let me get you a cup of tea.",
+    "SASS_AwkwardAtelier.02":"Where is Rose?",
+    "SASS_AwkwardAtelier.03":"She's out foraging for berries for a new cake recipe, so we have a little time to chat.$6",
+    "SASS_AwkwardAtelier.04":"So, about the other day.$0#$b#Rose is from a village pretty far from here, where different animals all co-exist together quite peacefully. She and her brother, Cori, left their village to seek fortune.$0#$b#Unfortunately, instead of finding you or me, they entered Pelican Town and ran straight into Morris.$s#$b#Things did not...go well.",
+    "SASS_AwkwardAtelier.05":"From what I can gather, he chased them out, throwing a can of Joja Cola at them while calling them 'dirty rodents' and other obscenities.$5",
+    "SASS_AwkwardAtelier.06":"That's horrible!",
+    "SASS_AwkwardAtelier.07":"They fled into Cindersap Forest and straight into yours truly.$s#$b#I managed to calm them down and helped set Cori up in his home, and then I offered for Rose to stay with me in Sunberry.$0#$b#She's very happy here and bakes her little heart out, except that she's now convinced the humans in Sunberry will react to her like Morris did.$s#$b#She would rather hide here and have me be the face of her bakery than experience that again.$7",
+    "SASS_AwkwardAtelier.08":"She's missing out on so many opportunities for friendship and community...$s",
+    "SASS_AwkwardAtelier.09":"Oh, no!$3#$b#That's Rose! She's back early!$3#$b#QUICK! HIDE!",
+    "SASS_AwkwardAtelier.10":"I'm back with more berries than you can even imagine!!$h#$b#Should we make a pie, or...",
+    "SASS_AwkwardAtelier.11":"Were you talking to someone?$6",
+    "SASS_AwkwardAtelier.12":"What? Me?$3#$b#No. Probably just myself. You know how I get.$h#$b#You said berries?$0#$b#Let me try some to make sure they are truly pie-worthy.",
+    "SASS_AwkwardAtelier.13":"As the alchemist goes to distract Rose, she quickly catches your eye and motions for you to sneak out.",
+    "SASS_AwkwardAtelier.14":"Really, Flour, you should try not to talk to yourself so much.$h#$b#Folks might start to think strange things about you.",
+    "SASS_AwkwardAtelier.15":"Start?$h#$b#Oh, we are WAY past 'start', Rose.$6#$b#But that's okay! I can be strange and sweet at the same time.$h#$b#It's my specialty, actually. Heheheh.$6",
+
+    //Foraging Friendships 2 Heart Rose
+
+    "SASS_ForagingFriendships.01":"Another morel!$h#$b#Rose, you've outdone yourself.$7#$b#A mushroom tart with these will be wonderful.",
+    "SASS_ForagingFriendships.02":"These greens can go right into that stir fry I was planning on making tonight.$h",
+    "SASS_ForagingFriendships.03":"Really, how could you live this close to the forest and not spend your whole day munching on free, lovely snacks?$6#$b#I'll never understand humans.",
+    "SASS_ForagingFriendships.04":"Those townsfolk are missing out. Just look at these berries!$h#$b#Fresher than anything in that shop I bet.",
+    "SASS_ForagingFriendships.05":"SQUEAK!$3",
+    "SASS_ForagingFriendships.06":"OH- UH- I-$3",
+    "SASS_ForagingFriendships.07":"It's okay, I won't hurt you! You don't have to run!$3#$b#I am so sorry I startled you, Miss Mouse. I usually don't see anyone out here other than the forest critters.$2#$b#I didn't mean to scare you.",
+    "SASS_ForagingFriendships.08":"Oh. Well, I honestly didn't expect to see a human this deep into the forest, let alone foraging.$6#$b#I must have startled you a bit as well. Sorry about that.$s",
+    "SASS_ForagingFriendships.09":"That's quite alright.$h#$b#Plenty of lovely food out here for two industrious foragers like us, I think.$h#$b#My name is Linus, by the way. I live up in the mountains.",
+    "SASS_ForagingFriendships.10":"I'm Rose. I live in Sunberry, but my brother Cori lives out in this forest.$h#$b#Are you part of the carpenter's family, then?",
+    "SASS_ForagingFriendships.11":"No, no, I prefer my own company and the sound of the outdoors.$2#$b#The yellow tent near the mines is my home.",
+    "SASS_ForagingFriendships.12":"That sounds quite peaceful, actually.$4#$b#Though, you must get a little lonely.$s#$b#Perhaps I could bring you a mushroom tart or some of my scones one day?$6#$b#If you wanted, I mean.",
+    "SASS_ForagingFriendships.13":"You would want to visit me?$3#$b#Why, I don't think anyone has offered to do that in ages. I think it'd be splendid!$h#$b#I cook up a lovely vegetable stir fry on the campfire.",
+    "SASS_ForagingFriendships.14":"I LOVE stir fry!!$1",
+
+    //Blossoming Buddies 4 Heart Rose
+
+    "SASS_BlossomingBuddies.01":"Wow... Her flowers are so beautiful. I don't even recognize some of those varieties.",
+    "SASS_BlossomingBuddies.02":"Why, thank you dear. I appreciate that.$h",
+    "SASS_BlossomingBuddies.03":"I-I-I'm so sorry! I didn't mean to intrude! I'll just go-$3",
+    "SASS_BlossomingBuddies.04":"Now, now, none of that, dear.#$b#I've noticed you a few times admiring my flowers, but you never come and say hello.$s#$b#Why is that? Surely this old grandmother can't scare you.#$b#Why, I bet you could outrun me to that forest before I even got these old legs going.$h",
+    "SASS_BlossomingBuddies.05":"I guess it is rude to watch folks and not even introduce myself.$2#$b#H-Hello. I'm Rose. I live with the alchemist in Sunberry Forest.",
+    "SASS_BlossomingBuddies.06":"And. And-$6",
+    "SASS_BlossomingBuddies.07":"I think your flowers are just amazing!$h",
+    "SASS_BlossomingBuddies.08":"Now, that's more like it.$h#$b# Hello, Rose, I'm Jumana.#$b#I was wondering who else lived in that house with Wildflour, but you know she's very protective of you.#$b#Doesn't say a word about you, even though I know she's dying to tell me.",
+    "SASS_BlossomingBuddies.09":"Why don't you join me over here and I'll see if I can get a few seeds for you from these blooms?$h",
+    "SASS_BlossomingBuddies.10":"Really?!#$b#Oh, that would be lovely, Jumana!$h",
+
+    //Baking Bonds 6 Heart Rose
+    "SASS_BakingBonds.01":"Okay. That's everything for this display.$h#$b#Time to move to...hmm...let's see-",
+    "SASS_BakingBonds.02":"Hello? The door was open I hope I'm not intruding...$2",
+    "SASS_BakingBonds.03":"Hm, well, maybe I should move these cupcakes closer to the cash register...$6",
+    "SASS_BakingBonds.04":"...hello there-$0",
+    "SASS_BakingBonds.05":"Eep!$3",
+    "SASS_BakingBonds.06":"Oh goodness, I'm sorry sweetheart I didn't mean to startle you!$2",
+    "SASS_BakingBonds.07":"No, no, it's alright.$4#$b#I'm easily startled, but I'm working on it.$0#$b#If you were looking for the alchemist I'm afraid she's out foraging.",
+    "SASS_BakingBonds.08":"Actually, I was looking for you.$6#$b#Jumana shared one of the cookies you left with her on your last visit with me and, well, I had to come meet the baker who made those lovely treats!",
+    "SASS_BakingBonds.09":"Oh! Why thank you.$h#$b#I'm so glad you enjoyed them. Miss Jumana started sharing seeds with me from her flowers and I thought it only right to share some treats in return.$0",
+    "SASS_BakingBonds.10":"I'm a bit of a baker myself truth be told, but I could never imagine running a whole bakery on my own!$8#$b#Do you really bake all of these goodies on your own?$1",
+    "SASS_BakingBonds.11":"I do! It was always a dream of mine to open a bakery, and Wildflour has been immensely helpful as well.$4",
+    "SASS_BakingBonds.12":"But you said you bake too?$1#$b#What is your favorite thing to bake?$4#$b#Are you a fan of cookbooks?#$b#They are a bit dirty, but I'd be happy to lend you any of mine...$6",
+    "SASS_BakingBonds.13":"And here Jumana said you were a shy timid mouse.$7#$b#She warned me to be prepared for you to run away if i came to visit!$6",
+    "SASS_BakingBonds.14":"Like I said, I'm working on it.$4",
+    "SASS_BakingBonds.15":"Oh, here, you HAVE to try one of these petit fours I made earlier today. Oh you know I'll just make you a box to bring home how's that sound?$1",
+
+    //Party Planning 8 Heart Rose
+
+    "SASS_PartyPlanning.01":"She really said that?$12",
+    "SASS_PartyPlanning.02":"She did!$1#$b#Nearly laughed my whiskers off I did.",
+    "SASS_PartyPlanning.03":"Yep. My wee sister Rose, who would run and hide at first sight of a human, is now telling JOKES to them.$3#$b#Who woulda thought-",
+    "SASS_PartyPlanning.04":"Ah, @! So nice to see you.$1#$b#Have you met Rose's brother, Cori yet?",
+    "SASS_PartyPlanning.05":"Why if it ain't my sister's favorite farmer, @!$1#$b#Talks about you all the time, she does.$0#$b#Nice to meet you, friend.",
+    "SASS_PartyPlanning.06":"Cori was just telling me about how his visits from Rose have become much more lively recently.#$b#Apparently she has all these new 'friends' to talk about.$12",
+    "SASS_PartyPlanning.07":"Well and all these stories gave me quite an idea, if you'll both hear me out.",
+    "SASS_PartyPlanning.08":"Back home, ma and pa would invite folks over for a big party. Called it a 'garden fete' or some such thing.#$b#Call it what you want but it was outside in the prettiest meadow and filled with good food, friends and fun.$3#$b#So, let's surprise my little sis with her own garden fete here in Sunberry Forest.$1",
+    "SASS_PartyPlanning.09":"Cori, that's a brilliant idea!$1#$b#We can invite all her new friends, and I think even some potential NEW friends too.$10#$b#But we'll need the farmer's help if we are going to keep it a secret.",
+    "SASS_PartyPlanning.10":"If you two handle the human folks, I might be able to rustle up a few 'old' friends to add to the new ones too.$3",
+    "SASS_PartyPlanning.11":"Then that's settled.$1#$b#Farmer, I'll need some time to prepare but keep an eye out in the mail for some important instructions on Operation Garden Fete.$12",
+    "SASS_PartyPlanning.12":"The garden fete sounds like it will be lots of fun! I hope we can keep it a secret.",
+
+    //Garden Fete 10 Heart Rose
+    "SASS_GardenFete.01":"",
+    "SASS_GardenFete.02":"",
+    "SASS_GardenFete.03":"",
+    "SASS_GardenFete.04":"",
+    "SASS_GardenFete.05":"",
+    "SASS_GardenFete.06":"",
+    "SASS_GardenFete.07":"",
+    "SASS_GardenFete.08":"",
+    "SASS_GardenFete.09":"",
+    "SASS_GardenFete.10":"",
+    "SASS_GardenFete.11":"",
+    "SASS_GardenFete.12":"",
+
+    //Animation Dialogue
+    "Animations_RoseReading": "%Looks like Rose is so caught up in her Redfloor book, she doesn't seem to notice you.",
+    "Animations_RoseBaking": "%Looks like Rose is busy baking. Best to leave her alone.",
+    "Animations_RoseGardening": "%Looks like Rose is busy gardening. Best to leave her tending her plants in peace.",
+	
+    //Festival Dialogue
+
+	//Egg Festival
+	"Festivals_EggFest.Rose": "No, Wildflour, don't move or people will see me!$6#$b#I can watch the egg festival perfectly from right here behind you.$1",
+	
+    //Flower Dance
+    "Festivals_FlowerDance.Rose": "Harumph. I don't see nearly enough cakes or scones here.$s#$b#I think you tricked me, alchemist.$5",
+   
+    //Luau
+    "Festivals_Luau.Rose": "Why would you bring me to THIS festival of all festivals?$3#$b#What do you think they'll do when they see a mouse near their soup?!$6",
+    
+    //Moonlight Jellies
+    "Festivals_Jellies.Rose": "Ok, at least this festival is pretty dark.$1#$b#I doubt anyone will notice me here, and I'd really like to see those jellies.",
+
+    //Stardew Fair
+    "Festivals_StardewFair.Rose": "Do we get to vote?#$b#I vote for Marnie's since her chickens' eggs make my cakes so delicious.",
+    
+    //Spirit's Eve
+    "Festivals_SpiritEve.Rose": "There's no such thing as ghosts.$6#$b#There's no such thing as ghouls.$2#$b#There's no such thing as skeletons...wait, oh no.$3",
+   
+    //Ice Festival
+    "Festivals_IceFest.Rose": "I wonder... if I had brought fish pie, then maybe I'd have something to talk to the other villagers about...$6",
+   
+    //WinterStar
+    "Festivals_WinterStar.Rose": "A new year, one full of new and bright beginnings!$1#$b#I hope.$6",
+
+	//Seasonal Events Dialogue
+
+   //Rose
+    "Rose_Dialogue.Introduction": "SQUEAK!$3",
+
+    //Spring
+    "Rose_Dialogue.spring_1": "SQUEAK!$3",
+    "Rose_Dialogue.spring_12": "SQUEAK!$3",
+    "Rose_Dialogue.spring_23": "SQUEAK!$3",
+
+    //Summer
+    "Rose_Dialogue.summer_1": "SQUEAK!$3",
+    "Rose_Dialogue.summer_10": "SQUEAK!$3",
+    "Rose_Dialogue.summer_27": "SQUEAK!$3",
+
+    //Fall
+    "Rose_Dialogue.fall_1":"SQUEAK!$3",
+    "Rose_Dialogue.fall_15": "SQUEAK!$3",
+    "Rose_Dialogue.fall_26": "SQUEAK!$3",
+
+    //Winter
+    "Rose_Dialogue.winter_1": "SQUEAK!$3",
+    "Rose_Dialogue.winter_7": "SQUEAK!$3",
+    "Rose_Dialogue.winter_14": "SQUEAK!$3",
+    "Rose_Dialogue.winter_16": "SQUEAK!$3",
+    "Rose_Dialogue.winter_24": "SQUEAK!$3",
+
+    //Green Rain
+    "Rose_Dialogue.GreenRain":"SQUEAK!$3",
+    "Rose_Dialogue.GreenRainFinished":"SQUEAK!$3",
+    "Rose_Dialogue.GreenRain_2":"SQUEAK!$3",
+
+    //Base Dialogue
+
+    //0 hearts
+    "Rose_Dialogue.Mon": "%Rose looks at you with giant, terrified, eyes, almost as if she might cry. Maybe try talking to her another time?",
+    "Rose_Dialogue.Tue": "%Rose opens her mouth to say hello, but only manages to squeak before shutting her mouth and scurrying away. Better luck next time.",
+    "Rose_Dialogue.Wed": "SQUEAK!$3",
+    "Rose_Dialogue.Thu": "%Rose immediately turns around and starts walking, almost running, in the opposite direction.",
+    "Rose_Dialogue.Fri": "EEP!$3",
+    "Rose_Dialogue.Sat": "Hi there-$3#$b#%Rose manages to get the first two words out before squeaking and turning away from you.",
+    "Rose_Dialogue.Sun": "%Rose avoids your gaze and acts like she is busy inspecting the ground intently for something she lost.",
+
+    //2 hearts
+    "Rose_Dialogue.Mon2": "SQUEAK!$3#$b#Oh, sorry about that, @. I promise I'm trying to be less afraid of you. You're just so terrify- I MEAN, tall...",
+    "Rose_Dialogue.Tue2": "SQUEAK!$3",
+    "Rose_Dialogue.Wed2": "Hi there-$3#$b#%Rose manages to get the first two words out before squeaking and turning away from you.",
+    "Rose_Dialogue.Thu2": "EEP!$3",
+    "Rose_Dialogue.Fri2": "H-Hi there, @. It's nice to see you.",
+    "Rose_Dialogue.Sat2": "%Rose opens her mouth to say hello, but only manages to squeak before shutting her mouth and scurrying away. Better luck next time.",
+    "Rose_Dialogue.Sun2": "H-Hi.$3#$b#B-Bye!", 
+
+    //4 hearts
+    "Rose_Dialogue.Mon4": "Cori keeps saying I should stop in Ari's Market when I run low on supplies, but... Goodness, so many people go in there.$u#$b#I could always tunnel in, take what I need, leave the coin for Ari, and be out before anyone knows, but... oh, heavens, then I would've made a hole in Ari's building, and that's not good... $s#$b#%Rose continues on in this manner for several minutes. Might be best to leave her be to sort this out on her own.",
+    "Rose_Dialogue.Tue4": "Hello, @. Would you like to try one of my fresh scones today?#$b#You...don't know what a scone is?$u#$b#That's so sad.$s#$b#Here, have one quickly! You should not waste another moment without savoring the delight of a crumbly scone with some nice jam.$h",
+    "Rose_Dialogue.Wed4": "%You find Rose muttering to herself.#$b#You can do this, Rose. Just go to the library and ask where the cookbooks are.#$b#Elias isn't going to throw a book at you.$u#$b#Oh, @! How long have you been there?",
+    "Rose_Dialogue.Thu4": "I like gardening, @. I can just chatter away at my little plants and they don't mind it in the least.$h#$b#I hope they don't mind when I take some of their leaves to cook with...$u#$b#%Genuine concern creeps onto Rose's face. You decide to leave her to work out her philosophical gardening questions.",
+    "Rose_Dialogue.Fri4": "@, have you spoken to Jumana before?$1#$b#She seems nice, right?$0#$b#Like the kind of person who wouldn't shriek at a mouse interested in buying flower seeds?$6#$b#",
+    "Rose_Dialogue.Sat4": "Hello, @! Do you visit the Saturday evening hangout in Sunberry? Wildflour goes...but I'm not sure if I can just yet.",
+    "Rose_Dialogue.Sun4": "Have you met my brother Cori yet, @?#$b#Oh, he probably introduced himself as Hat Mouse.#$b#He's a tad shy, but my big brother makes the best hats around!$h",
+
+    //6 hearts
+    "Rose_Dialogue.Mon6": "Tunnel?$u#$b#NO.#$b#Who said anything about a tunnel?#$b#I certainly did not. I just... might sneak into Ari's market before any other human wakes up.#$b#Talking to one human isn't so bad. You taught me that.$h",
+    "Rose_Dialogue.Tue6": "Don't forget, @. If you don't want all those lovely berries sinking to the bottom of your cakes and muffins, you have to dust them with flour first!#$b#No one likes a soggy bottom.$h",
+    "Rose_Dialogue.Wed6": "SQUEAK!$3#$b#Just kidding. I'm not afraid of you anymore, @.$1",
+    "Rose_Dialogue.Thu6": "Berries are a big part of our diet, so Cori and I learned how to forage for berries as soon as we could walk!$bThough Cori loves berries so much, he learned to crawl just so he could get to the berries faster than me.$h",
+    "Rose_Dialogue.Fri6": "I did it, @!#$b#I might have squeaked just a TAD bit too much at first, but I spoke to Jumana about her flowers and she gave me some seeds to try out in my garden!$h",
+    "Rose_Dialogue.Sat6": "The ivy growing on the side of my house?$6#$b#That's a gift from Wildflour, @.$h#$b#She wanted me to feel at home in my new little house, so she crafted a special fertilizer for my raspberry vine, and it's been growing like that ever since!",
+    "Rose_Dialogue.Sun6": "Oh, Cori has always been shy around most folks.#$b#Believe it or not, I am the chatterbox between the two of us!$h#$b#It's nice to feel more comfortable talking around humans because I have so much I want to talk to you lot about!",
+
+    //8 hearts
+    "Rose_Dialogue.Mon8": "If you ever stop by the bakery and I'm not there, feel free to just take what you need and leave the money in the jar for me.$h#$b#The honor system worked just fine back at home, no reason it shouldn't here in Sunberry as well.",
+    "Rose_Dialogue.Tue8": "The macarons really gave me trouble today... I had to start over again twice!$a#$b#I might need to add in a stop at Marnie's when I visit Cori next for some high quality egg whites...$h",
+    "Rose_Dialogue.Wed8": "It turns out Elias is quite the amateur chef, @!$u#$b#He was more than happy to share the location of the cookbooks in Sunberry's library and even offered to share from his own personal collection, so long as I traded him my strawberry scone recipe.$h",
+    "Rose_Dialogue.Thu8": "There are some berries that don't grow well outside the woods where Cori and I grew up.$s#$b#It's a shame, really, because I make an absolutely delightful wild berry tart.$u#$b#I wonder if sunberries would work, though?",
+    "Rose_Dialogue.Fri8": "I found out Jumana loves cauliflower, @, and I want her to be friends with me.#$b#Do you think she'd like to try my recipe for Cauliflower au Gratin?$u#$b#It's a recipe that's been in my family for generations. It's bound to work!$h",
+    "Rose_Dialogue.Sat8": "Wildflour says I would make an excellent alchemist, @!#$b#I think she's just being kind, but she says my baked goods are so delicious, it's 'positively magic'.$h",
+    "Rose_Dialogue.Sun8": "I think I'll bring Cori some mushroom pie today.#$b#He gets homesick every now and then and that was his favorite dish our mum would make.",
+
+    //10 hearts
+    "Rose_Dialogue.Mon10": "Though we would make almost all of our ingredients from scratch back at home, now I am quite grateful I can buy some from Ari!#$b#Making your own flour is tiring work with these tiny paws!$h",
+    "Rose_Dialogue.Tue10": "Hello there, @! Have I got a treat for you: open wide!#$b#%Before you can say anything, Rose pops a cookie into your mouth. It's sublime. She grins knowingly.",
+    "Rose_Dialogue.Wed10": "Elias and I are thinking of hosting a cookbook club,@!#$b#Folks from Sunberry and Pelican Town can come, trade recipes and have a potluck so everyone can enjoy a bite to eat.$h#$b#You'll come too, right?!",
+    "Rose_Dialogue.Thu10": "Did you know that many of the flowers grown here in Sunberry are edible, @?#$b#I learned that from my new friend, Jumana!$h#$b#I'm going to bake her a cake with some of her flowers as a thank you.",
+    "Rose_Dialogue.Fri10": "Jumana invited me over to bake cookies with her.#$b#Never in my life did I think I'd end up with this many human friends, @!",
+    "Rose_Dialogue.Sat10": "Does Sprout talk to me?#$b#Oh, of course!$u#$b#I think it's because we are both small that he felt like he could open up to me, but he's really quite chatty once you get to know him!",
+    "Rose_Dialogue.Sun10": "I'll let you in on a little secret, @, but only because we're best friends now.#$b#Cori and I come from a very large family, and my mum was partial to naming her children after spices and flowers.$u#$b#My name is actually Rosemary and big brother's name is...Coriander.$h#$b#Don't tell him I told you! He says coriander tastes like soap.",
+
+    //Conversation Topics
+
+    //Rose LOW HEARTS
+    "Rose_Dialogue.cc_Complete": "SQUEAK!$3",
+    "Rose_Dialogue.cc_Bus": "SQUEAK!$3",
+    "Rose_Dialogue.movieTheater": "SQUEAK!$3",
+    
+    "Rose_Dialogue.MeetTheCats": "SQUEAK!$3",
+    "Rose_Dialogue.wedding": "SQUEAK!$3",
+    "Rose_Dialogue.luauBest": "SQUEAK!$3",
+    "Rose_Dialogue.luauShorts": "SQUEAK!$3",
+    "Rose_Dialogue.luauPoisoned": "SQUEAK!$3",
+
+    "Rose_Dialogue.cc_Begin": "SQUEAK!$3",
+    "Rose_Dialogue.cc_Greenhouse": "SQUEAK!$3",
+    "Rose_Dialogue.cc_Minecart": "SQUEAK!$3",
+
+    "Rose_Dialogue.willyCrabs": "SQUEAK!$3",
+    "Rose_Dialogue.pamHouseUpgrade": "SQUEAK!$3",
+    "Rose_Dialogue.pamHouseUpgradeAnonymous": "SQUEAK!$3",
+        
+    "Rose_Dialogue.LucikielArrives": "SQUEAK!$3",
+    "Rose_Dialogue.ReputationIncreased": "SQUEAK!$3",
+
+    "Rose_Dialogue.ButteredJorts": "SQUEAK!$3",
+    "Rose_Dialogue.keahi_prank": "SQUEAK!$3",
+
+    "Rose_Dialogue.ReihanaIntro":"SQUEAK!$3",
+    "Rose_Dialogue.AriGetsSlimed":"SQUEAK!$3",
+
+    "Rose_Dialogue.SterlingDrugs":"SQUEAK!$3",
+    "Rose_Dialogue.SterlingTrash":"SQUEAK!$3",
+    "Rose_Dialogue.SterlingRelapse":"SQUEAK!$3",
+    "Rose_Dialogue.SterlingApology":"SQUEAK!$3",
+
+    //friendly version
+
+    "Rose_Dialogue_Friendly.cc_Complete": "Wow, @.$6#$b#To think you did that all on your own. You should be so proud of yourself!$1",
+    "Rose_Dialogue_Friendly.cc_Bus": "The bus being fixed is wonderful - I wonder if Pam would mind if I snuck aboard before anyone noticed me.$4",
+    "Rose_Dialogue_Friendly.movieTheater": "I must admit, the old JojaMart transforming into a movie theater feels like that Mr. Morris got what was coming to him.$7",
+    
+    "Rose_Dialogue_Friendly.MeetTheCats": "...do you think those cats, would try to pounce on me, @?$s#$b# Best to play it safe and avoid them for now.",
+    "Rose_Dialogue_Friendly.wedding": "Congratulations on your wedding, @!$h",
+    "Rose_Dialogue_Friendly.luauBest": "That soup was amazing, @!$h",
+    "Rose_Dialogue_Friendly.luauShorts": "Why, why would someone put those in the soup?$5#$b#",
+    "Rose_Dialogue_Friendly.luauPoisoned": "Sorry, @, I just don't feel like chatting today.$s#$b#I'm still feeling under the weather thanks to that soup.$6",
+
+    "Rose_Dialogue_Friendly.cc_Begin": "I think it's great that you are taking an interest in the community center, @!$4",
+    "Rose_Dialogue_Friendly.cc_Greenhouse": "Congratulations on your new greenhouse, @!$1",
+    "Rose_Dialogue_Friendly.cc_Minecart": "The minecarts being fixed means I might be able to snack around more easily.$7#$b#DID I SAY SNEAK?$3#$b# I meant travel.$6",
+
+    "Rose_Dialogue_Friendly.pamHouseUpgrade": "That was so kind of you, @!#$b#You must really care about your neighbors.$1",
+    "Rose_Dialogue_Friendly.pamHouseUpgradeAnonymous": "Wow, someone secretly paid for a whole HOUSE for Pam and Penny?$3#$b#What an amazing person.$1",
+        
+    "Rose_Dialogue_Friendly.LucikielArrives": "Lucikiel is a little scary, but he doesn't mind me being a mouse, so I think that's a good sign, @!$1",
+    "Rose_Dialogue_Friendly.ReputationIncreased": "Luci pretends to be scary, but he can't fool me.$7#$b#Anyone who loves my desserts that much is a good egg.$1",
+
+    "Rose_Dialogue_Friendly.ButteredJorts": "Do cats enjoy being buttered, @?$6#$b#No, I didn't think so.$2",
+    "Rose_Dialogue_Friendly.keahi_prank": "...$6#$b#@, I don't know if you know this, but you are a bit...stinky.$s",
+
+    "Rose_Dialogue_Friendly.ReihanaIntro":"I was scared of those two demons at first, but Alchemist reminded me of how Morris judged me and my brother, and I think we should give Reihana and Aicha a chance!$4",
+    "Rose_Dialogue_Friendly.AriGetsSlimed":"I hope no one else gets slimed.$s",
+
+    "Rose_Dialogue_Friendly.SterlingTrash":"I hope that Sterling person is ok.#$2#$b#My brother once had too much ale and he felt terrible for days after.",
+    "Rose_Dialogue_Friendly.SterlingRelapse":"Do you know where Sterling went, @?$6#$b#Everyone seems worried.$s",
+    "Rose_Dialogue_Friendly.SterlingApology":"Sterling came back, @!$h#$b#Hopefully, everything can get back to normal now.",
+
+    //Green Rain
+    "Rose_Dialogue_Friendly.GreenRain":"Oh, @. Please don't be worried about the weather tomorrow.$h#$b#It was fairly normal every season back home.#$b#My ma used to say it was 'just nature showing off a little bit.'$4",
+    "Rose_Dialogue_Friendly.GreenRainFinished":"See, @?#$b#Everything was totally fine.$4#$b#Though I have to admit, it was a little funny to see all the humans get so scared of something.$7",
+    "Rose_Dialogue_Friendly.GreenRain_2":"Hello, @!#$b#Will you be out foraging during this like alchemist?#$b#She's very excited about how many mushrooms spawn during the storm.$h",
+    
+/////////////////////
+// CROPS & OBJECTS //
+/////////////////////
+
+// CROP MESSAGES
+"IndoorsOnly.Message":"Can only be grown indoors.",
+
+//CATEGORY NAMES
+
+"SASS_Feather.category":"Feather",
+"SASS_Herb.category":"Magical Herb",
+"SASS_Magic.category":"Magical Item",
+"SASS_Mushroom.category":"Magical Mushroom",
+"SASS_Magic_Fruit.category":"Magical Fruit",
+"SASS_Magic_Flower.category":"Magical Flower",
+
+// MUSHROOMS AND MUSH TREES
+
+"SASS_Baby_Bluegill.name":"Baby Bluegill",
+"SASS_Baby_Bluegill.description":"Petite blue mushrooms said to emerge on cold winter nights.",
+"SASS_Baby_Bluegill_Seeds.name":"Baby Bluegill Mushroom Starter",
+"SASS_Baby_Bluegill_Seeds.description":"Can only be grown indoors. Takes 14 days to mature, and then produces mushrooms every 5 days.",
+
+"SASS_Blushing_TopHat.name":"Buttercream Top Hat",
+"SASS_Blushing_TopHat.description":"A tall, peachy mushroom that tastes sweet like the icing on a cupcake.",
+"SASS_Blushing_TopHat_Seeds.name":"Buttercream Top Hat Tree Starter",
+"SASS_Blushing_TopHat_Seeds.description":"Wood inoculated with Buttercream Top Hat mushrooms; this will grow into a Blushing Top Hat tree if planted in the ground.",
+
+"SASS_Candy_Button.name":"Candy Button",
+"SASS_Candy_Button.description":"Small pink mushrooms often found clustered around dead tree trunks.",
+"SASS_Candy_Button_Seeds.name":"Candy Button Tree Starter",
+"SASS_Candy_Button_Seeds.description":"Wood inoculated with Candy Button mushrooms; this will grow into a Candy Button tree if planted in the ground.",
+
+"SASS_Bubblegum_Funnel.name": "Bubblegum Funnel",
+"SASS_Bubblegum_Funnel.description": "A vibrant, fuschia-colored mushroom. Does it taste like bubblegum?",
+"SASS_Bubblegum_Funnel_Seeds.name":"Bubblegum Funnel Mushroom Starter",
+"SASS_Bubblegum_Funnel_Seeds.description":"Can only be grown indoors. Takes 18 days to mature, and then produces mushrooms every 4 days.",
+
+"SASS_Coral_Fungus.name": "Coral Fungus",
+"SASS_Coral_Fungus.description": "This mushroom mimics the shape of sea coral.",
+"SASS_Coral_Fungus_Seeds.name":"Coral Fungus Tree Starter",
+"SASS_Coral_Fungus_Seeds.description":"Wood inoculated with Coral Fungus mushrooms; this will grow into a Coral Fungus tree if planted in the ground.",
+
+"SASS_Frilly_Gilly.name":"Frilly Gilly",
+"SASS_Frilly_Gilly.description":"A rare springtime treat for foragers, this mushroom likes to hide in flower meadows.",
+"SASS_Frilly_Gilly_Seeds.name":"Frilly Gilly Tree Starter",
+"SASS_Frilly_Gilly_Seeds.description":"Wood inoculated with Frilly Gilly mushrooms; this will grow into a Frilly Gilly tree if planted in the ground.",
+
+"SASS_Ghostly_Parasol.name":"Ghostly Parasol",
+"SASS_Ghostly_Parasol.description":"A rare poisonous mushroom, found in winter by those brave or foolish enough to search for it.",
+"SASS_Ghostly_Parasol_Seeds.name":"Ghostly Parasol Tree Starter",
+"SASS_Ghostly_Parasol_Seeds.description":"Wood inoculated with Ghostly Parasol mushrooms; this will grow into a Ghostly Parasol tree if planted in the ground.",
+
+"SASS_Indigo_Cap.name":"Indigo Cap",
+"SASS_Indigo_Cap.description":"A rare member of the amanita family, this mushroom is highly poisonous, but also an extremely valuable alchemical ingredient.",
+"SASS_Indigo_Cap_Seeds.name":"Indigo Cap Tree Starter",
+"SASS_Indigo_Cap_Seeds.description":"Wood inoculated with Indigo Cap mushrooms; this will grow into an Indigo Cap tree if planted in the ground.",
+
+"SASS_Lilac_Funnel.name":"Lilac Funnel",
+"SASS_Lilac_Funnel.description":"Though this mushroom shares the same name as the edible flower, it is highly poisonous unless prepared in a very specific manner.",
+"SASS_Lilac_Funnel_Seeds.name":"Lilac Funnel Tree Starter",
+"SASS_Lilac_Funnel_Seeds.description":"Wood inoculated with Lilac Funnel mushrooms; this will grow into a Lilac Funnel tree if planted in the ground.",
+
+"SASS_Limey_Bonnet.name": "Limey Bonnet",
+"SASS_Limey_Bonnet.description": "It's bright green hue is a warning to animals that might try to eat it.",
+"SASS_Limey_Bonnet_Seeds.name":"Limey Bonnet Tree Starter",
+"SASS_Limey_Bonnet_Seeds.description":"Wood inoculated with Limey Bonnet mushrooms; this will grow into a Limey Bonnet tree if planted in the ground.",
+
+"SASS_Lunar_Poof.name":"Lunar Poof",
+"SASS_Lunar_Poof.description":"A member of the puffball family, lunar poofs are said to to emerge on crisp autumn nights around dead trees.",
+"SASS_Lunar_Poof_Seeds.name":"Lunar Poof Tree Starter",
+"SASS_Lunar_Poof_Seeds.description":"Wood inoculated with Lunar Poof mushrooms; this will grow into a Lunar Poof tree if planted in the ground.",
+
+"SASS_Midas_Cap.name": "Midas Cap",
+"SASS_Midas_Cap.description": "A golden-hued mushroom.",
+"SASS_Midas_Cap_Seeds.name":"Midas Cap Mushroom Starter",
+"SASS_Midas_Cap_Seeds.description":"Can only be grown indoors. Takes 10 days to mature.",
+
+"SASS_Midnight_Milkcap.name": "Midnight Milkcap",
+"SASS_Midnight_Milkcap.description": "Make no mistake; this night cap is not one anyone would enjoy after a hard day's work.",
+"SASS_Midnight_Milkcap_Seeds.name":"Midnight Milkcap Mushroom Starter",
+"SASS_Midnight_Milkcap_Seeds.description":"Can only be grown indoors. Takes 10 days to mature.",
+
+"SASS_Mottled_Fieldcap.name": "Espresso Fieldcap",
+"SASS_Mottled_Fieldcap.description": "An autumn favorite amongst foragers, it has a strong coffee-like aroma.",
+"SASS_Mottled_Fieldcap_Seeds.name":"Espresso Fieldcap Mushroom Starter",
+"SASS_Mottled_Fieldcap_Seeds.description":"Can only be grown indoors. Takes 10 days to mature.",
+
+"SASS_Queen_Bolete.name":"Queen Bolete",
+"SASS_Queen_Bolete.description":"The most royal of all mycelia.",
+"SASS_Queen_Bolete_Seeds.name":"Queen Bolete Mushroom Starter",
+"SASS_Queen_Bolete_Seeds.description":"Can only be grown indoors. Takes 10 days to mature.",
+
+"SASS_Rosey_Elfcup.name": "Rosey Elfcup",
+"SASS_Rosey_Elfcup.description": "It supposedly gets its name from fae folk using it as a drinking glass.",
+"SASS_Rosey_Elfcup_Seeds.name":"Rosey Elfcup Mushroom Starter",
+"SASS_Rosey_Elfcup_Seeds.description":"Can only be grown indoors. Takes 11 days to mature.",
+
+"SASS_Rustgill.name":"Bread Bolete",
+"SASS_Rustgill.description":"A delicately-flavored mushroom; its flavor reminds you of a warm slice of toasted bread.",
+"SASS_Rustgill_Seeds.name":"Bread Bolete Tree Starter",
+"SASS_Rustgill_Seeds.description":"Wood inoculated with Bread Bolete mushrooms; this will grow into a Rustgill tree if planted in the ground.",
+
+"SASS_Seafoam_Waxcap.name":"Seafoam Waxcap",
+"SASS_Seafoam_Waxcap.description":"Mermaids would offer these to troublesome sailors who wouldn't leave them alone.",
+"SASS_Seafoam_Waxcap_Seeds.name":"Seafoam Waxcap Tree Starter",
+"SASS_Seafoam_Waxcap_Seeds.description":"Wood inoculated with Seafoam Waxcap mushrooms; this will grow into a Seafoam Waxcap tree if planted in the ground.",
+
+"SASS_Shrumbus.name": "Shrumbus",
+"SASS_Shrumbus.description": "He's just a little guy.",
+"SASS_Shrumbus_Seeds.name":"Shrumbus Mushroom Starter",
+"SASS_Shrumbus_Seeds.description":"Can only grow indoors. Takes 12 days to mature, and then produces mushrooms every 5 days.",
+
+"SASS_Sparkling_Agaric.name":"Sparkling Agaric",
+"SASS_Sparkling_Agaric.description":"Most foragers would steer clear of what appears to be a poisonous amanita; yet something seems strangely inviting about this one.",
+"SASS_Sparkling_Agaric_Seeds.name":"Sparkling Agaric Tree Starter",
+"SASS_Sparkling_Agaric_Seeds.description":"Wood inoculated with Sparkling Agaric mushrooms; this will grow into a Sparkling Agaric tree if planted in the ground.",
+
+"SASS_Stout_Funnel.name":"Stout Funnel",
+"SASS_Stout_Funnel.description":"Also known as the poor man's chanterelle, it sort of reminds you of... a pancake?",
+"SASS_Stout_Funnel_Seeds.name":"Stout Funnel Tree Starter",
+"SASS_Stout_Funnel_Seeds.description":"Wood inoculated with Stout Funnel mushrooms; this will grow into a Stout Funnel tree if planted in the ground.",
+
+//2.0 new mushrooms
+
+"SASS_Cocoa_Agaric.name":"Cocoa Agaric",
+"SASS_Cocoa_Agaric.description":"Mmm chocolatey.",
+
+"SASS_Cookie_Cap.name":"Cookie Cap",
+"SASS_Cookie_Cap.description":"This must be Cookie Monster's favorite mushroom.",
+
+"SASS_Festive_Agaric.name":"Festive Agaric",
+"SASS_Festive_Agaric.description":"This mushroom reminds you of a festive tree.",
+
+"SASS_Gumdrop_Fungus.name":"Gumdrop Fungus",
+"SASS_Gumdrop_Fungus.description":"You find the colors mesmerizing.",
+
+"SASS_Jack_Agaric.name":"Jack Agaric",
+"SASS_Jack_Agaric.description":"A spooky treat that's fun to eat.",
+
+"SASS_Alchemists_Hat.name":"Alchemist's Hat",
+"SASS_Alchemists_Hat.description":"Named after everyone's favorite mushroom hunter.",
+
+"SASS_Meringue_Mushroom.name":"Meringue Mushroom",
+"SASS_Meringue_Mushroom.description":"Mushroom Placeholder!",
+
+"SASS_Wheatberry_Mushroom.name":"Wheatberry Mushroom",
+"SASS_Wheatberry_Mushroom.description":"Mushroom Placeholder!",
+
+"SASS_Milk_Mushroom.name":"Milky White Mushrooms",
+"SASS_Milk_Mushroom.description":"Mushroom Placeholder!",
+
+"SASS_Tea_Grass_Fungus.name":"Tea Grass Fungus",
+"SASS_Tea_Grass_Fungus.description":"Can anything be brewed into tea?",
+
+"SASS_Chicken_Woods.name":"Chicken of the Woods",
+"SASS_Chicken_Woods.description":"Mushroom Placeholder!",
+
+"SASS_Honey_Fungus.name":"Honey Fungus",
+"SASS_Honey_Fungus.description":"Mushroom Placeholder!",
+
+"SASS_Popping_Parasols.name":"Popping Parasols",
+"SASS_Popping_Parasols.description":"You wonder if they taste like the popsicles they resemble.",
+
+"SASS_Doughnut_Mushroom.name":"Jelly Doughnut Mushroom",
+"SASS_Doughnut_Mushroom.description":"Mmmm...mushroom.",
+
+"SASS_Custard_Cap.name":"Custard Cap",
+"SASS_Custard_Cap.description":"A creamy white mushroom.",
+
+//2.0 new flowers
+
+"SASS_Daisy.name": "Daisy",
+"SASS_Daisy.description": "A small, delicate white flower.",
+"SASS_Daisy_Seeds.name": "Daisy Seeds",
+"SASS_Daisy_Seeds.description": "Plant in fall. Takes 5 days to grow.",
+
+"SASS_Hibiscus.name": "Hibiscus",
+"SASS_Hibiscus.description": "A vibrant, tropical, climbing flower. Edible.",
+"SASS_Hibiscus_Seeds.name": "Hibiscus Seeds",
+"SASS_Hibiscus_Seeds.description": "Plant in summer or fall. Takes 15 days to grow and can be harvested every 4 days after.",
+
+"SASS_Lily.name": "Lily",
+"SASS_Lily.description": "A bright pink flower commonly seen in summer. Edible.",
+"SASS_Lily_Seeds.name":"Lily Bulb",
+"SASS_Lily_Seeds.description":"Plant in summer. Takes 12 days to grow.",
+
+"SASS_Nasturtium.name": "Nasturtium",
+"SASS_Nasturtium.description": "Comes in shades from red to yellow and is highly prized as an edible garnish for salads.",
+"SASS_Nasturtium_Seeds.name": "Nasturtium Seeds",
+"SASS_Nasturtium_Seeds.description": "Plant in summer or fall. Takes 12 days to grow and can be harvested every 3 days after.",
+
+"SASS_Peony.name": "Peony",
+"SASS_Peony.description": "An elegant, full-bodied pink flower. Edible.",	
+"SASS_Peony_Seeds.name":"Peony Starter",
+"SASS_Peony_Seeds.description":"Plant in spring. Takes 13 days to grow and can be harvested every 6 days after.",
+
+"SASS_Snapdragon.name": "Snapdragon",
+"SASS_Snapdragon.description": "An adorable peachy-pink flower with an even cuter name. Edible.",
+"SASS_Snapdragon_Seeds.name": "Snapdragon Seeds",
+"SASS_Snapdragon_Seeds.description": "Plant in spring or fall. Takes 12 days to grow and can be harvested every 4 days after.",
+
+
+// CROPS
+
+"SASS_Amber_MoonDrop.name": "Amber Moondrop",
+"SASS_Amber_MoonDrop.description": "A beautiful and rare golden grape variety said to be originally cultivated by the fae folk of the Ferngill Republic.",
+"SASS_Amber_MoonDrop_Seeds.name": "Amber Moondrop Starter",
+"SASS_Amber_MoonDrop_Seeds.description": "Plant these in the summer. Takes 16 days to mature, and continues to produce after first harvest.",
+
+"SASS_Arctic_Fox.name": "Arctic Fox",
+"SASS_Arctic_Fox.description": "A rare variety of foxglove. Highly poisonous.",
+"SASS_Arctic_Fox_Seeds.name": "Arctic Fox Seeds",
+"SASS_Arctic_Fox_Seeds.description": "Plant these in the winter or spring. Takes 16 days to mature, and continues to produce after first harvest.",
+
+"SASS_Avalune.name": "Avalune",
+"SASS_Avalune.description": "A stunningly vibrant variety of lupine flower. Makes a great gift for fae folk.",
+"SASS_Avalune_Seeds.name": "Avalune Seeds",
+"SASS_Avalune_Seeds.description": "Plant these in the winter or spring. Takes 20 days to mature, and continues to produce after first harvest.",
+
+"SASS_Jade_MoonDrop_Seeds.name": "Jade Moondrop Starter",
+"SASS_Jade_MoonDrop_Seeds.description": "Plant these in the fall. Takes 12 days to mature, and then produces fruit every 6 days.",
+"SASS_Jade_MoonDrop.name": "Jade Moondrop",
+"SASS_Jade_MoonDrop.description": "A beautiful and rare green grape variety said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"SASS_Lapis_MoonDrop.name": "Lapis Moondrop",
+"SASS_Lapis_MoonDrop.description": "A beautiful and rare blue grape variety said to be originally cultivated by the fae folk of the Ferngill Republic.",
+"SASS_Lapis_MoonDrop_Seeds.name": "Lapis Moondrop Starter",
+"SASS_Lapis_MoonDrop_Seeds.description": "Plant these in the spring. Takes 16 days to mature, and then produces fruit every 6 days.",
+
+"SASS_Pearl_MoonDrop.name": "Pearl Moondrop",
+"SASS_Pearl_MoonDrop.description": "A beautiful and rare white grape variety said to be originally cultivated by the fae folk of the Ferngill Republic.",
+"SASS_Pearl_MoonDrop_Seeds.name": "Pearl Moondrop Starter",
+"SASS_Pearl_MoonDrop_Seeds.description": "Plant these in the winter. Takes 20 days to mature, and then produces fruit every 5 days.",
+
+"SASS_Pixie_Breath.name": "Pixie's Breath",
+"SASS_Pixie_Breath.description": "This flower seems to shift between pink and purple before your very eyes.",
+"SASS_Pixie_Breath_Seeds.name": "Pixie's Breath Seeds",
+"SASS_Pixie_Breath_Seeds.description": "Plant these in the spring or summer. Takes 15 days to mature, and continues to produce after first harvest.",
+
+"SASS_Yarrow.name":"Yarrow",
+"SASS_Yarrow.description":"Also known as Devil's Nettle, yarrow has been used by wise witches and foragers to relieve stomach cramping for centuries.",
+"SASS_Yarrow_Seeds.name": "Yarrow Seeds",
+"SASS_Yarrow_Seeds.description": "Plant these in the summer or fall. Takes 12 days to mature, and continues to produce after first harvest.",
+
+// OBJECTS
+
+"SASS_Crow_Feather.name": "Crow Feather",
+"SASS_Crow_Feather.description": "This feather is as black as the night sky.",
+
+"SASS_Lady_Luck.name": "Lady Luck",
+"SASS_Lady_Luck.description": "A rare four leaf clover, often given as a gift of good luck to travelers before beginning a journey.",
+
+"SASS_Lovebird_Feather.name": "Lovebird Feather",
+"SASS_Lovebird_Feather.description": "The multi-hued feather of a lovebird.",
+
+"SASS_Mugwort.name": "Mugwort",
+"SASS_Mugwort.description": "A member of the daisy family, this plant is cultivated by witches for its dreaming and divination properties.",
+
+"SASS_RoseFinch_Feather.name": "Rose Finch Feather",
+"SASS_RoseFinch_Feather.description": "A bright pink feather from a rose finch.",
+
+"SASS_Snow_Mallow.name": "Snow Mallow",
+"SASS_Snow_Mallow.description": "Snow Mallow",
+
+"SASS_Thistle.name": "Thistle",
+"SASS_Thistle.description": "A common flowering plant often seen as a weed by humans, but cherished by witches for its spiritual healing properties.",
+
+"SASS_Unicorn_Horn.name": "Unicorn Horn",
+"SASS_Unicorn_Horn.description": "A horn shed from a young unicorn. A rare and treasured find for any witch or wizard.",
+
+"SASS_Valerian.name": "Valerian",
+"SASS_Valerian.description": "An herb often used in making sleep-inducing teas. It can also be used to ward off lightning and floods.",
+
+// MAGICAL TREES & THEIR ITEMS
+
+"SASS_Noonvale_Sapling.name": "Noonvale Sapling",
+"SASS_Noonvale_Sapling.description": "Takes 28 days to produce a mature Noonvale tree. Bears fruit or flowers all year round. Only grows if the 8 surrounding \"tiles\" are empty.",
+"SASS_Ambrosia.name": "Ambrosia",
+"SASS_Ambrosia.description": "Named after the mythical food of the gods, this flower is almost too sweet to eat.",
+"SASS_Fallen_Stars.name":"Fallen Stars",
+"SASS_Fallen_Stars.description":"This cluster of flowers is often given as a declaration of love on the summer solstice.",
+"SASS_Smile_Of_Shumus.name":"Smile Of Shumus",
+"SASS_Smile_Of_Shumus.description":"A flower to brighten even the darkest of days.",
+"SASS_Banana.name": "Lady Finger Banana",
+"SASS_Banana.description": "A long and delicate banana variety said to be far sweeter than traditional bananas.",
+
+"SASS_Honeyshire_Sapling.name": "Honeyshire Sapling",
+"SASS_Honeyshire_Sapling.description": "Takes 28 days to produce a mature Honeyshire tree. Bears fruit or flowers all year round. Only grows if the 8 surrounding \"tiles\" are empty.",
+"SASS_Apple.name": "Ambrosia Apple",
+"SASS_Apple.description": "Named after the mythical food of the gods, this bright green apple is almost too sweet to eat.",
+"SASS_Faerie_Folly.name":"Faerie Folly",
+"SASS_Faerie_Folly.description":"A bright pink flower typically offered as a sign of friendship and goodwill amongst fae folk.",
+"SASS_Apricot.name": "Moongold Apricot",
+"SASS_Apricot.description": "A pale apricot with golden flesh said to be the favorite fruit of moon deities.",
+"SASS_Titania_Bell.name":"Titania's Bell",
+"SASS_Titania_Bell.description":"Children claim to hear bells ringing and the sound of laughter near these flowers.",
+
+"SASS_Summerdell_Sapling.name": "Summerdell Sapling",
+"SASS_Summerdell_Sapling.description": "Takes 28 days to produce a mature Summerdell tree. Bears fruit or flowers all year round. Only grows if the 8 surrounding \"tiles\" are empty.",
+"SASS_Avalon_Mist_Flower.name":"Avalonian Mist Flower",
+"SASS_Avalon_Mist_Flower.description":"A mysterious flower of unknown origin. It seems to thrive near lakes.",
+"SASS_Sylvan_Sigh.name":"Sylvan Sigh",
+"SASS_Sylvan_Sigh.description":"A delicate pink flower, often found floating on a soft summer breeze.",
+"SASS_Sugar_Plum.name": "Sugar Plum",
+"SASS_Sugar_Plum.description": "A plum, but something seems...strange about it. Why does it smell so sweet?",
+"SASS_Peach.name": "Snow Beauty Peach",
+"SASS_Peach.description": "A rare and delicate peach said to be the favorite fruit of a certain princess from ancient folklore.",
+
+"SASS_Lilygrove_Sapling.name": "Lilygrove Sapling",
+"SASS_Lilygrove_Sapling.description": "Takes 28 days to produce a mature Lilygrove tree. Bears fruit or flowers all year round. Only grows if the 8 surrounding \"tiles\" are empty.",
+"SASS_Elysian_Field_Flower.name":"Elysian Field Flower",
+"SASS_Elysian_Field_Flower.description":"A brilliantly golden flower plucked from the fields of Elysium and secreted away to this realm.",
+"SASS_Dream_Spinner.name":"Dream Spinner",
+"SASS_Dream_Spinner.description":"Rumor has it pixies protect children's dreams by placing these under their pillows.",
+"SASS_Cherry.name": "Meteor Sour Cherry",
+"SASS_Cherry.description": "This cherry cultivar tastes strangely like sour candy more than fruit.",
+"SASS_Orange.name": "Blood Orange",
+"SASS_Orange.description": "A rare variety of citrus fruit.",
+
+
+"SASS_Mossflower_Sapling.name": "Mossflower Sapling",
+"SASS_Mossflower_Sapling.description": "Takes 28 days to produce a mature Mossflower tree. Bears fruit or flowers all year round. Only grows if the 8 surrounding \"tiles\" are empty.",
+"SASS_Pomegranate.name": "Eversweet Pomegranate",
+"SASS_Pomegranate.description": "A vibrantly-hued pomegranate that is shrouded in mystery. Rumor has it that this fruit is always juicy and sweet regardless of when it's picked.",
+"SASS_Kiss_Of_Tamra.name":"Kiss Of Tamra",
+"SASS_Kiss_Of_Tamra.description":"A flower to warm even the coldest of hearts.",
+"SASS_Phoenix_Fire.name":"Phoenix Fire",
+"SASS_Phoenix_Fire.description":"This bright red flower is said to bloom in the ashes after a phoenix bursts into flame.",
+"SASS_Mango.name": "Sunset Mango",
+"SASS_Mango.description": "A delicate mango ripened under the setting sun.",
+
+
+/////single fruit trees new////////////////
+
+"SASS_Apricot_Sapling.name": "Moongold Apricot Sapling",
+"SASS_Apricot_Sapling.description": "Takes 28 days to produce a mature Moongold Apricot tree. Bears fruit always in spring, rarely in fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Apple_Sapling.name": "Ambrosia Apple Sapling",
+"SASS_Apple_Sapling.description": "Takes 28 days to produce a mature Ambrosia Apple tree. Bears fruit always in fall, rarely in spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Banana_Sapling.name": "Ladyfinger Banana Sapling",
+"SASS_Banana_Sapling.description": "Takes 28 days to produce a mature Ladyfinger Banana tree. Bears fruit always in summer, rarely in winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Cherry_Sapling.name": "Meteor Sour Cherry Sapling",
+"SASS_Cherry_Sapling.description": "Takes 28 days to produce a mature Meteor Sour Cherry tree. Bears fruit always in spring, rarely in fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Mango_Sapling.name": "Sunset Mango Sapling",
+"SASS_Mango_Sapling.description": "Takes 28 days to produce a mature Sunset Mango tree. Bears fruit always in summer, rarely in winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Orange_Sapling.name": "Blood Orange Sapling",
+"SASS_Orange_Sapling.description": "Takes 28 days to produce a mature Blood Orange tree. Bears fruit always in summer, rarely in winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Peach_Sapling.name": "Snow Beauty Peach Sapling",
+"SASS_Peach_Sapling.description": "Takes 28 days to produce a mature Snow Beauty Peach tree. Bears fruit always in summer, rarely in winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Pomegranate_Sapling.name": "Eversweet Pomegranate Sapling",
+"SASS_Pomegranate_Sapling.description": "Takes 28 days to produce a mature Eversweet Pomegranate tree. Bears fruit always in fall, rarely in spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+"SASS_Sugar_Plum_Sapling.name": "Sugar Plum Sapling",
+"SASS_Sugar_Plum_Sapling.description": "Takes 28 days to produce a mature Sugar Plum tree. Bears fruit always in winter, rarely in summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+//----------------CUSTOM BUSH NAMES AND DESCRIPTIONS ------------------------//
+
+
+"SASS_MoonDrop_Seeds.name":"Moondrop Trellis",
+"SASS_MoonDrop_Seeds.description":"Takes 30 days to mature into a bush. Produces seasonal MoonDrops every 3 days.",
+
+"SASS_Fae_Queen_Flower_Seeds.name":"Fae Queen Flower Trellis",
+"SASS_Fae_Queen_Flower_Seeds.description":"Takes 30 days to mature into a bush. Produces magical flowers every 3 days.",
+
+"SASS_Secret_Garden_Flower_Seeds.name":"Secret Garden Flower Trellis",
+"SASS_Secret_Garden_Flower_Seeds.description":"Takes 30 days to mature into a bush. Produces magical flowers every 3 days.",
+
+"SASS_Magic_Meadow_Flower_Seeds.name":"Magic Meadow Flower Trellis",
+"SASS_Magic_Meadow_Flower_Seeds.description":"Takes 30 days to mature into a bush. Produces magical flowers every 3 days.",
+
+"SASS_Pantry_Mushroom_Seeds.name":"Pantry Mushroom Starter",
+"SASS_Pantry_Mushroom_Seeds.description":"Takes 30 days to mature into a bush. Produces magical mushrooms every 3 days.",
+
+"SASS_Cafe_Mushroom_Seeds.name":"Cafe Mushroom Starter",
+"SASS_Cafe_Mushroom_Seeds.description":"Takes 30 days to mature into a bush. Produces magical mushrooms every 3 days.",
+
+"SASS_Alchemist_Mushroom_Seeds.name":"Alchemist Mushroom Starter",
+"SASS_Alchemist_Mushroom_Seeds.description":"Takes 30 days to mature into a bush. Produces magical mushrooms every 3 days.",
+
+"SASS_Cookie_Monster_Mushroom_Seeds.name":"Cookie Monster Mushroom Starter",
+"SASS_Cookie_Monster_Mushroom_Seeds.description":"Takes 30 days to mature into a bush. Produces magical mushrooms every 3 days.r",
+
+"SASS_Sweet_Tooth_Mushroom_Seeds.name":"Sweet Tooth Mushroom Starter",
+"SASS_Sweet_Tooth_Mushroom_Seeds.description":"Takes 30 days to mature into a bush. Produces magical mushrooms every 3 days.",
+
+//more new stuff
+
+"SASS_Wild_Raspberry.name": "Wild Raspberry",
+"SASS_Wild_Raspberry.description": "Yummy placeholder.",
+
+"SASS_Wild_Strawberry.name": "Wild Strawberry",
+"SASS_Wild_Strawberry.description": "Yummy placeholder.",
+
+////////////////////////////
+// PIXIE DUST WARP TOTEMS //
+////////////////////////////
+
+"SASS_Frog_Totem.name":"Frog Totem",
+"SASS_Frog_Totem.description":"Warp directly to Frog Hollow. Consumed on use.",
+
+"SASS_Grotto_Totem.name":"Grotto Totem",
+"SASS_Grotto_Totem.description":"Warp directly to Mermaid Grotto. Consumed on use.",
+
+"SASS_Ruins_Totem.name":"Ruins Totem",
+"SASS_Ruins_Totem.description":"Warp directly to Forgotten Ruins. Consumed on use.",
+
+"SASS_Mushroom_Totem.name":"Mushroom Forest Totem",
+"SASS_Mushroom_Totem.description":"Warp directly to Mushroom Forest. Consumed on use.",
+
+"SASS_Rainforest_Totem.name":"Rainforest Totem",
+"SASS_Rainforest_Totem.description":"Warp directly to Rainforest Retreat. Consumed on use.",
+
+"SASS_Farmhouse_Totem.name":"Abandoned Farm Totem",
+"SASS_Farmhouse_Totem.description":"Warp directly to Abandoned Farmhouse. Consumed on use.",
+
+"SASS_OldForest_Totem.name":"Old Forest Totem",
+"SASS_OldForest_Totem.description":"Warp directly to Old Growth Forest. Consumed on use.",
+
+"SASS_Berry_Totem.name":"Grove Totem",
+"SASS_Berry_Totem.description":"Warp directly to Berry Grove. Consumed on use.",
+
+"SASS_CrystalCave_Totem.name":"Crystal Cave Totem",
+"SASS_CrystalCave_Totem.description":"Warp directly to Crystal Cave. Consumed on use.",
+
+"SASS_Orchard_Totem.name":"Orchard Totem",
+"SASS_Orchard_Totem.description":"Warp directly to Secret Orchard. Consumed on use.",
+
+/////////////
+// ANIMALS //
+/////////////
+
+"SASS_Honeybee":"Honeybee",
+"SASS_Cat":"Cat",
+"SASS_Crow":"Crow",
+"SASS_Fox":"Fox",
+"SASS_Toad":"Toad",
+
+///////////////
+// SHOP INFO //
+///////////////
+
+"SASS_Shop_Honeybee.name":"Honeybee",
+"SASS_Shop_Honeybee.description":"A bee that will produce honeycomb, honey, and maybe leave you a little something special if you become friends. Lives in the coop.",
+
+"SASS_Shop_Cat.name":"Cat",
+"SASS_Shop_Cat.description":"This animal is considered the 'classic' familiar. Brings useful ingredients back to its master or mistress. Lives in the barn.",
+
+"SASS_Shop_Crow.name":"Crow",
+"SASS_Shop_Crow.description":"Crows are known to bring shiny treasures to those they trust. Lives in the barn.",
+
+"SASS_Shop_Fox.name":"Fox",
+"SASS_Shop_Fox.description":"Though foxes hunt, they also forage for berries and fruit. Lives in the barn.",
+
+"SASS_Shop_Toad.name":"Toad",
+"SASS_Shop_Toad.description":"Though this familiar may seem small, the treasures he can bring you are great. Lives in the coop.",
+
+//////////////
+// MESSAGES //
+//////////////
+
+"SASS_Shop_Honeybee.birth":"A new honeybee has decided to become your familiar!",
+"SASS_Shop_Cat.birth":"A new cat has decided to become your familiar!",
+"SASS_Shop_Crow.birth":"A new crow has decided to become your familiar!",
+"SASS_Shop_Fox.birth":"A new fox has decided to become your familiar!",
+"SASS_Shop_Toad.birth":"A new toad has decided to become your familiar!",
+
+//////////////////////////////////
+// CUSTOM CRAFTING STATION INFO //
+//////////////////////////////////
+
+"SASS_Propagator.name":"Propagation Station",
+"SASS_Propagator.description":"A dedicated workstation for crafting magical seeds and saplings.",
+
+"SASS_MushTrees.category":"Mushroom Saplings",
+"SASS_MushSeeds.category":"Mushroom Seeds",
+"SASS_FlowerTrees.category":"Magical Saplings",
+"SASS_FruitFlowerSeeds.category":"Fruit and Flower Seeds",
+
+//////////
+// MAIL //
+//////////
+
+"SASS_AlchemyTable.name":"More Uses for Alchemy Table",
+"SASS_AlchemyTable.text":"@,^^I heard through the grapevine (or sunberry vine, I guess) that you now have the blueprints for an alchemy table! That's great news. Many of the magical forage items you've been gathering can be broken down at this alchemy table into useful components. You should get to crafting one quickly if you haven't yet. Get alchemizing! ^^Wildflour, The Alchemist",
+
+"SASS_PropagatorRecipe.name":"Propagation Station",
+"SASS_PropagatorRecipe.text":"@,^^I'm sharing the blueprints with you for a Propagation Station. Anyone interested in plants, be they alchemist, gardener, or farmer, should have one of these at their disposal. If you're looking for seeds and saplings you won't find at Pierre's (or, gods forbid, JojaMart), this Propagation Station is essential equipment. ^^Wildflour, The Alchemist",
+
+"SASS_Mushroom_Recipes.name":"Mushroom Starters",
+"SASS_Mushroom_Recipes.text":"@,^^You should now be able to develop various mushroom starters at your Propagation Station. Most mycelium thrive in a substrate such as wood or hay, so be sure to look at the recipes carefully to ensure you grow the best seeds and saplings. ^^Wildflour, The Alchemist",
+
+"SASS_Magic_Tree_Recipes.name":"Tree Starters",
+"SASS_Magic_Tree_Recipes.text":"@,^^You should now be able to develop magical tree saplings at your Propagation Station. These will not be easy saplings to develop. They will take all your skills as a farmer, forager, and, dare I say, budding alchemist? Best of luck, my friend. ^^Wildflour, The Alchemist",
+
+"SASS_MoonDrop_Recipes.name":"Moondrop Starters",
+"SASS_MoonDrop_Recipes.text":"@,^^You should now be able to develop various Moondrop Starters at your Propagation Station. Fingers crossed that one of us is able to grow them! ^^Wildflour, The Alchemist",
+
+"SASS_Bee_Familiars.name":"Bumbling Bees",
+"SASS_Bee_Familiars.text":"Hello, @!^^As a final thanks for being such a lovely friend and help during my experiments: I've recently learned about rare bee familiars who will provide honey and even flower seeds to those they deem worthy. Sounds fascinating, right?^^As always, check the ledger if you're interested, or you can always stop by and see if Marnie has any as well!^^Best, Wildflour ",
+
+"SASS_Cat_Familiars.name":"Curious Cats",
+"SASS_Cat_Familiars.text":"Hello, @!^^Thanks again for acquiring all of the ingredients I needed! As a thank you, I'd be willing to introduce you to a few cat familiars. They are quite curious and will bring you things like monster loot and other items they find while roaming about. Check the ledger by the cauldron for more info or stop by Marnie's shop if you in Cindersap.^^Talk to you soon! ^Wildflour, The Alchemist",
+
+"SASS_Crow_Familiars.name":"Cunning Crows",
+"SASS_Crow_Familiars.text":"Hello, @!^^Thank you so much for the forage specimens. I think they should work perfectly for my next alchemical project. In the meantime, have you ever thought about adding some familiars to your farm? They come in various shapes and sizes and can help you procure all manner of items. If you're interested, I have a few crows that would be willing to be your familiars if treated properly. Stop by the atelier and check out the ledger book by my cauldron, or visit Marnie's shop in Cindersap Forest. ^^Bye for now! ^Wildflour, The Alchemist",
+
+"SASS_Fox_Familiars.name":"Feisty Foxes",
+"SASS_Fox_Familiars.text":"@, ^^Seriously, has anyone ever told you that you are quite the gopher? Well, rest assured, it's very much appreciated. Perhaps you'd fancy a fox or two as a new familiar? They love sharing fruits and berries they forage with those they trust. SO YOU BETTER BE NICE TO THEM! Else Sprout will throw void eggs at your house. He told me so himself! ^^Your Friend, Wildflour",
+
+"SASS_Toad_Familiars.name":"Terrific Toads",
+"SASS_Toad_Familiars.text":"How do you feel about toads?^^I think they are vastly underrated when it comes to familiars. Everyone's always talking about cats and crows, but toads know where the best mushrooms are, and that makes them a top-tier familiar in my book. Speaking of my book, feel free to pop by the atelier and check out the ledger (though I guess you could visit Marnie, but that's not as fun) to add a few toad familiars to your farm! Consider it a thank you for bringing me all those magical mushrooms. ^^Until next time! ^Wildflour",
+
+"SASS_Totem_Recipes.title":"Secret Warp Totems",
+"SASS_Totem_Recipes.text":"@, ^^ I think I can trust you enough to share some of my most advanced alchemical recipes with you. Be warned: these are one way only so don't come haunt me if you transport yourself somewhere you can't get back from. ^^Just kidding! These pixie dust totems can warp you to all manner of fantastical forage locations, so use them wisely! ^^Your friend, Wildflour",
+
+"SASS_Rose_Party_Prep.title":"SHH!",
+"SASS_Rose_Party_Prep.text":"@, ^^ You are being entrusted with the most important of quests: deliver these invitations DISCREETLY. Once you have completed your mission, I will take care of the rest for Operation Garden Fete. ^^The Alchemist",
+
+}

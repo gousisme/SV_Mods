@@ -1,0 +1,16 @@
+{
+	"Format": "2.7.0",
+	"ConfigSchema":{
+		"Type":{
+		"AllowValues": "Parasaur, Triceratops, Spino, Tyranno, Bronto, Ankylo",
+		"Default": "Triceratops"
+	}
+	},
+	"Changes": [
+	{
+		"Action": "EditImage",
+		"Target": "Animals/Dinosaur",
+		"FromFile": "assets/{{Type}}Dino.png"
+		},
+	]
+}

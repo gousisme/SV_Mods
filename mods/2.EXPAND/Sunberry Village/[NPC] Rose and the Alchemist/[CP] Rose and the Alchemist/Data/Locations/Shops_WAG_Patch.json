@@ -1,0 +1,496 @@
+{
+    "Changes": [
+    
+        {
+            "LogName":"Add WAG Items to Alchemist's Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["{{ModId}}_AlchemistShop","Items"],
+            "Entries": {
+                "Wildflour.AtelierGoods_AlchemistShop_MixedFruit_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_MixedFruit_Seeds",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "CAULDRON_CONFIG_VALUE MixedSeeds True"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_MixedVeggie_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_MixedVeggie_Seeds",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "CAULDRON_CONFIG_VALUE MixedSeeds True"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_Herb_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_Herb_Seeds",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "CAULDRON_CONFIG_VALUE MixedSeeds True"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_Fruit_Saplings":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_Fruit_Saplings",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Cacao_Sapling",
+                        "Wildflour.AtelierGoods_Elder_Sapling",
+                        "Wildflour.AtelierGoods_Olive_Sapling",
+                        "Wildflour.AtelierGoods_Lemon_Sapling",
+                        "Wildflour.AtelierGoods_Lime_Sapling"
+                    ],
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 10,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_Nut_Saplings":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_Nut_Saplings",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Almond_Sapling",
+                        "Wildflour.AtelierGoods_Anise_Sapling",
+                        "Wildflour.AtelierGoods_Cashew_Sapling",
+                        "Wildflour.AtelierGoods_Pistachio_Sapling",
+                        "Wildflour.AtelierGoods_Walnut_Sapling"
+                    ],
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 10,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Fruit_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Fruit_Seeds",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Wild_Raspberry_Seeds",
+                        "Wildflour.AtelierGoods_Wild_Strawberry_Seeds"
+                    ],
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "MinStack":2,
+                    "MaxStack":4,
+                    "TradeItemAmount": 2,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Herb_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Herb_Seeds",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Basil_Seeds",
+                        "Wildflour.AtelierGoods_Cilantro_Seeds",
+                        "Wildflour.AtelierGoods_Mint_Seeds",
+                        "Wildflour.AtelierGoods_Red_Onion_Seeds"
+                    ],
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "TradeItemAmount": 2,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_MoreHerb_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_MoreHerb_Seeds",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Rosemary_Seeds",
+                        "Wildflour.AtelierGoods_Sage_Seeds",
+                        "Wildflour.AtelierGoods_Thyme_Seeds",
+                        "Wildflour.AtelierGoods_Wormwood_Seeds"
+                    ],
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "TradeItemAmount": 2,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Mush_Seeds":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Mush_Seeds",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Chicken_Woods_Seeds",
+                        "Wildflour.AtelierGoods_Honey_Fungus_Seeds",
+                        "Wildflour.AtelierGoods_Meringue_Mushroom_Seeds",
+                        "Wildflour.AtelierGoods_Milk_Mushroom_Seeds",
+                        "Wildflour.AtelierGoods_Wheatberry_Mushroom_Seeds"
+                    ],
+                    "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Spring_Fruit_Flower_Forage":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Spring_Fruit_Flower_Forage",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Lavender",
+                        "Wildflour.AtelierGoods_Mallow",
+                        "Wildflour.AtelierGoods_Vanilla",
+                        "Wildflour.AtelierGoods_Wild_Strawberry"
+                      
+                    ],
+                    "Condition": "SEASON Spring, CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Spring_Herb_Forage":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Spring_Herb_Forage",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Cilantro",
+                        "Wildflour.AtelierGoods_Mint",
+                        "Wildflour.AtelierGoods_Red_Onion"
+                    ],
+                    "Condition": "SEASON Spring, CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Summer_Fruit_Flower_Forage":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Summer_Fruit_Flower_Forage",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Chamomile",
+                        "Wildflour.AtelierGoods_Jasmine",
+                        "Wildflour.AtelierGoods_Wild_Raspberry"
+                    ],
+                    "Condition": "SEASON Summer, CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Summer_Herb_Forage":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Summer_Herb_Forage",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Basil",
+                        "Wildflour.AtelierGoods_Thyme",
+                        "Wildflour.AtelierGoods_Wormwood"
+                    ],
+                    "Condition": "SEASON Summer, CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Fall_Forage":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Fall_Forage",
+                    "RandomItemId": [
+                        "Wildflour.AtelierGoods_Rosemary",
+                        "Wildflour.AtelierGoods_Sage"
+                    ],
+                    "Condition": "SEASON Fall, CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "Wildflour.AtelierGoods_AlchemistShop_WF_Winter_Forage":{
+                    "Id": "Wildflour.AtelierGoods_AlchemistShop_WF_Winter_Forage",
+                    "ItemId": "Wildflour.AtelierGoods_Cinnamon",
+                    "Condition": "SEASON Winter, CAULDRON_CONFIG_VALUE WildFood True",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "MinStack":1,
+                    "MaxStack":3,
+                    "TradeItemAmount": 3,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                }
+            }
+        },
+
+        {
+            "LogName":"Add WAG Items to Rose's Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["{{ModId}}_RoseShop", "Items" ],
+            "Entries": {
+                "{{ModId}}_RoseShop_Butter": {
+                    "Id": "{{ModId}}_RoseShop_Butter",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Butter",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 2
+                },
+                "{{ModId}}_RoseShop_Buttermilk": {
+                    "Id": "{{ModId}}_RoseShop_Buttermilk",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Buttermilk",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 2
+                },
+                "{{ModId}}_RoseShop_Cream": {
+                    "Id": "{{ModId}}_RoseShop_Cream",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cream",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 2
+                },
+                "{{ModId}}_RoseShop_Bread_Flour": {
+                    "Id": "{{ModId}}_RoseShop_Bread_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Bread_Flour",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Cake_Flour": {
+                    "Id": "{{ModId}}_RoseShop_Cake_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cake_Flour",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Corn_Flour": {
+                    "Id": "{{ModId}}_RoseShop_Corn_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Corn_Flour",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Pastry_Flour": {
+                    "Id": "{{ModId}}_RoseShop_Pastry_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Pastry_Flour",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Rice_Flour": {
+                    "Id": "{{ModId}}_RoseShop_Rice_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Rice_Flour",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Brown_Sugar": {
+                    "Id": "{{ModId}}_RoseShop_Brown_Sugar",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Confectioners_Sugar": {
+                    "Id": "{{ModId}}_RoseShop_Confectioners_Sugar",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Confectioners_Sugar",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Rainbow_Sprinkles": {
+                    "Id": "{{ModId}}_RoseShop_Rainbow_Sprinkles",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Rainbow_Sprinkles",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Almond_Flour": {
+                    "Id": "{{ModId}}_RoseShop_Almond_Flour",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Almond_Flour",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 2
+                },
+                "{{ModId}}_RoseShop_Olive_Oil": {
+                    "Id": "{{ModId}}_RoseShop_Olive_Oil",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Olive_Oil",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 2
+                },
+                "{{ModId}}_RoseShop_Dark_Chocolate": {
+                    "Id": "{{ModId}}_RoseShop_Dark_Chocolate",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3
+                },
+                "{{ModId}}_RoseShop_Milk_Chocolate": {
+                    "Id": "{{ModId}}_RoseShop_Milk_Chocolate",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3
+                },
+                "{{ModId}}_RoseShop_White_Chocolate": {
+                    "Id": "{{ModId}}_RoseShop_White_Chocolate",
+                    "ItemId": "(O)Wildflour.AtelierGoods_White_Chocolate",
+                    "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 3
+                },
+                "{{ModId}}_RoseShop_Bread_Mix": {
+                    "Id": "{{ModId}}_RoseShop_Bread_Mix",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Bread_Mix",
+                    "Condition": "ANY \"CAULDRON_CONFIG_VALUE Breads True\" \"CAULDRON_CONFIG_VALUE Doughnuts True\"",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Cake_Mix": {
+                    "Id": "{{ModId}}_RoseShop_Cake_Mix",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cake_Mix",
+                    "Condition": "ANY \"CAULDRON_CONFIG_VALUE Cakes True\" \"CAULDRON_CONFIG_VALUE TinyCakes True\"",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Muffin_Mix": {
+                    "Id": "{{ModId}}_RoseShop_Muffin_Mix",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Muffin_Mix",
+                    "Condition": "CAULDRON_CONFIG_VALUE Muffins True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Pie_Mix": {
+                    "Id": "{{ModId}}_RoseShop_Pie_Mix",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Pie_Mix",
+                    "Condition": "CAULDRON_CONFIG_VALUE Pies True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_Cookie_Mix": {
+                    "Id": "{{ModId}}_RoseShop_Cookie_Mix",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cookie_Mix",
+                    "Condition": "CAULDRON_CONFIG_VALUE Cookies True",
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Global",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 1
+                },
+                "{{ModId}}_RoseShop_RollingPin":{
+                    "Id": "{{ModId}}_RoseShop_RollingPin",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Rolling_Pin",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Rolling_Pin",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "{{ModId}}_RoseShop_Oven":{
+                    "Id": "{{ModId}}_RoseShop_Oven",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Oven",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Oven",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "{{ModId}}_RoseShop_Cake_Station":{
+                    "Id": "{{ModId}}_RoseShop_Cake_Station",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Cake_Station",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Cake_Station",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "{{ModId}}_RoseShop_Dessert_Stand":{
+                    "Id": "{{ModId}}_RoseShop_Dessert_Stand",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Dessert_Stand",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Dessert_Stand",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "{{ModId}}_RoseShop_Pie_Station":{
+                    "Id": "{{ModId}}_RoseShop_Pie_Station",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Pie_Station",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Pie_Station",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "(BC)Wildflour.AtelierGoods_Mixer":{
+                    "Id": "{{ModId}}_RoseShop_Mixer",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Mixer",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Mixer",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                },
+                "{{ModId}}_RoseShop_Deluxe_Dessert_Stand":{
+                    "Id": "{{ModId}}_RoseShop_Deluxe_Dessert_Stand",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Deluxe_Dessert_Stand",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Deluxe_Dessert_Stand",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": -1,
+                    "AvailableStockLimit": "Player"
+                }
+            }
+        },
+
+
+    ]
+}

@@ -1,0 +1,230 @@
+{
+"Changes": [
+//Big Craftables
+//Nodes
+{
+	"LogName": "AmethystNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/AmethystNode",
+	"FromFile": "assets/BigCraftables/AmethystNode.png",
+	"When":{"Node Furniture | contains= AmethystNode": true}
+},
+{
+	"LogName": "AquamarineNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/AquamarineNode",
+	"FromFile": "assets/BigCraftables/AquamarineNode.png",
+	"When":{"Node Furniture | contains= AquamarineNode": true}
+},
+{
+	"LogName": "Cinder ShardNode 1",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Cinder ShardNode 1",
+	"FromFile": "assets/BigCraftables/Cinder ShardNode 1.png",
+	"When":{ "Node Furniture | contains= Cinder ShardNode 1": true }
+},
+{
+	"LogName": "Cinder ShardNode 2",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Cinder ShardNode 2",
+	"FromFile": "assets/BigCraftables/Cinder ShardNode 2.png",
+	"When":{ "Node Furniture | contains= Cinder ShardNode 2": true }
+},
+{
+	"LogName": "CopperNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/CopperNode",
+	"FromFile": "assets/BigCraftables/CopperNode.png",
+	"When":{ "Node Furniture | contains= CopperNode": true }
+},
+{
+	"LogName": "DiamondNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/DiamondNode",
+	"FromFile": "assets/BigCraftables/DiamondNode.png",
+	"When":{ "Node Furniture | contains= DiamondNode": true }
+},
+{
+	"LogName": "EmeraldNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/EmeraldNode",
+	"FromFile": "assets/BigCraftables/EmeraldNode.png",
+	"When":{ "Node Furniture | contains= EmeraldNode": true }
+},
+{
+	"LogName": "Frozen GeodeNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Frozen GeodeNode",
+	"FromFile": "assets/BigCraftables/Frozen GeodeNode.png",
+	"When":{ "Node Furniture | contains= Frozen GeodeNode": true }
+},
+{
+	"LogName": "Frozen Stone 1",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Frozen Stone 1",
+	"FromFile": "assets/BigCraftables/Frozen Stone 1.png",
+	"When":{ "Node Furniture | contains= Frozen Stone 1": true }
+},
+{
+	"LogName": "Frozen Stone 2",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Frozen Stone 2",
+	"FromFile": "assets/BigCraftables/Frozen Stone 2.png",
+	"When":{ "Node Furniture | contains= Frozen Stone 2": true }
+},
+{
+	"LogName": "Frozen Stone 3",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Frozen Stone 3",
+	"FromFile": "assets/BigCraftables/Frozen Stone 3.png",
+	"When":{ "Node Furniture | contains= Frozen Stone 3": true }
+},
+{
+	"LogName": "Frozen Stone 4",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Frozen Stone 4",
+	"FromFile": "assets/BigCraftables/Frozen Stone 4.png",
+	"When":{ "Node Furniture | contains= Frozen Stone 4": true }
+},
+{
+	"LogName": "GemNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/GemNode",
+	"FromFile": "assets/BigCraftables/GemNode.png",
+	"When":{ "Node Furniture | contains= GemNode": true }
+},
+{
+	"LogName": "GeodeNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/GeodeNode",
+	"FromFile": "assets/BigCraftables/GeodeNode.png",
+	"When":{ "Node Furniture | contains= GeodeNode": true }
+},
+{
+	"LogName": "GoldNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/GoldNode",
+	"FromFile": "assets/BigCraftables/GoldNode.png",
+	"When":{ "Node Furniture | contains= GoldNode": true }
+},
+{
+	"LogName": "IridiumNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/IridiumNode",
+	"FromFile": "assets/BigCraftables/IridiumNode.png",
+	"When":{ "Node Furniture | contains= IridiumNode": true }
+},
+{
+	"LogName": "IronNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/IronNode",
+	"FromFile": "assets/BigCraftables/IronNode.png",
+	"When":{ "Node Furniture | contains= IronNode": true }
+},
+{
+	"LogName": "JadeNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/JadeNode",
+	"FromFile": "assets/BigCraftables/JadeNode.png",
+	"When":{ "Node Furniture | contains= JadeNode": true }
+},
+{
+	"LogName": "Magma GeodeNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Magma GeodeNode",
+	"FromFile": "assets/BigCraftables/Magma GeodeNode.png",
+	"When":{ "Node Furniture | contains= Magma GeodeNode": true }
+},
+{
+	"LogName": "Magma Stone 1",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Magma Stone 1",
+	"FromFile": "assets/BigCraftables/Magma Stone 1.png",
+	"When":{ "Node Furniture | contains= Magma Stone 1": true }
+},
+{
+	"LogName": "Magma Stone 2",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Magma Stone 2",
+	"FromFile": "assets/BigCraftables/Magma Stone 2.png",
+	"When":{ "Node Furniture | contains= Magma Stone 2": true }
+},
+{
+	"LogName": "MysticNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/MysticNode",
+	"FromFile": "assets/BigCraftables/MysticNode.png",
+	"When":{ "Node Furniture | contains= MysticNode": true }
+},
+{
+	"LogName": "Omni GeodeNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Omni GeodeNode",
+	"FromFile": "assets/BigCraftables/Omni GeodeNode.png",
+	"When":{ "Node Furniture | contains= Omni GeodeNode": true }
+},
+{
+	"LogName": "RadioactiveNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/RadioactiveNode",
+	"FromFile": "assets/BigCraftables/RadioactiveNode.png",
+	"When":{ "Node Furniture | contains= RadioactiveNode": true }
+},
+{
+	"LogName": "RubyNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/RubyNode",
+	"FromFile": "assets/BigCraftables/RubyNode.png",
+	"When":{ "Node Furniture | contains= RubyNode": true }
+},
+{
+	"LogName": "Stone 1",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Stone 1",
+	"FromFile": "assets/BigCraftables/Stone 1.png",
+	"When":{ "Node Furniture | contains= Stone 1": true }
+},
+{
+	"LogName": "Stone 2",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Stone 2",
+	"FromFile": "assets/BigCraftables/Stone 2.png",
+	"When":{ "Node Furniture | contains= Stone 2": true }
+},
+{
+	"LogName": "Stone 3",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Stone 3",
+	"FromFile": "assets/BigCraftables/Stone 3.png",
+	"When":{ "Node Furniture | contains= Stone 3": true }
+},
+{
+	"LogName": "Stone 4",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Stone 4",
+	"FromFile": "assets/BigCraftables/Stone 4.png",
+	"When":{ "Node Furniture | contains= Stone 4": true }
+},
+{
+	"LogName": "Stone 5",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Stone 5",
+	"FromFile": "assets/BigCraftables/Stone 5.png",
+	"When":{ "Node Furniture | contains= Stone 5": true }
+},
+{
+	"LogName": "Stone 6",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Stone 6",
+	"FromFile": "assets/BigCraftables/Stone 6.png",
+	"When":{ "Node Furniture | contains= Stone 6": true }
+},
+{
+	"LogName": "TopazNode",
+	"Action": "EditImage",
+	"Target": "Mods/FlashShifter.StardewValleyExpandedCP/TopazNode",
+	"FromFile": "assets/BigCraftables/TopazNode.png",
+	"When":{ "Node Furniture | contains= TopazNode": true }
+}
+	]
+}

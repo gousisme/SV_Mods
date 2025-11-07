@@ -1,0 +1,18 @@
+{
+  "Format": "2.4.0",
+  "ConfigSchema": {
+    "EnableMod": { "AllowValues": "true,false", "Default": "false" }
+  },
+  "Changes": [
+		{
+			"LogName": "Enable UI",
+			"Action": "Include",
+			"FromFile": "code/ui.json",
+			"Priority": "Low",
+			"When": 
+			{
+				"EnableMod": true
+			}
+		}
+	]
+}

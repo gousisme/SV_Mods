@@ -1,0 +1,23 @@
+{
+    "Name": "TheMutteringFarmer",
+    "Author": "YunHikari",
+    "Version": "1.0.9",
+    "Description": "This mod makes the farmer verbalize all actions, displaying them in speech bubbles above their head. Just like how we talk to ourselves sometimes, it adds a touch of immersion and fun.",
+    "UniqueID": "YunHikari.TheMutteringFarmer",
+    "EntryDll": "TheMutteringFarmer.dll",
+    "MinimumApiVersion": "4.1.5",
+    "UpdateKeys": [
+        "Nexus:35779"
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "YunHikari.SorryLabCore",
+            "MinimumVersion": "1.0.14",
+            "IsRequired": true
+        }
+    ]
+}

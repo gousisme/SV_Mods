@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="6" height="7" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="12">
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="mine" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Vanilla_RedPandaBazaar_mine.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="325" name="LiLaoliu_RedPandaBazaar_Tilesheets3" tilewidth="16" tileheight="16" tilecount="3000" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets3.png" width="400" height="1920"/>
+ </tileset>
+ <tileset firstgid="3325" name="LiLaoliu_RedPandaBazaar_Tilesheets2" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="LiLaoliu_RedPandaBazaar_Tilesheets2.png" width="400" height="960"/>
+ </tileset>
+ <layer id="2" name="Back" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+174,0,0,0,174,174,
+174,174,174,174,174,174,
+204,205,55,174,40,40,
+220,188,204,205,70,56
+</data>
+ </layer>
+ <layer id="4" name="Buildings" width="6" height="7">
+  <data encoding="csv">
+116,116,116,106,107,112,
+147,44,112,122,123,102,
+85,60,128,135,139,118,
+179,76,144,151,155,160,
+195,92,160,170,171,2151,
+2080,2081,0,2253,2254,0,
+0,0,0,4076,2151,0
+</data>
+ </layer>
+ <layer id="11" name="Buildings2" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Paths" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,9,
+9,0,0,0,0,9,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,2126,
+2051,2052,0,2228,2229,0,
+0,0,0,4051,2127,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,1876,1877,1878,0,0,
+2026,2027,0,2203,2204,0,
+0,0,0,0,2102,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="AlwaysFront2" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,1826,1827,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Back"/>
+ <objectgroup id="9" name="Buildings">
+  <object id="5" name="TileData" x="48" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MirrorLakeShop1.13.9.Wednesday&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop MirrorLakeShop1.14.9.Wednesday"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="Buildings2"/>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="6" name="AlwaysFront"/>
+ <objectgroup id="14" name="AlwaysFront2"/>
+</map>
