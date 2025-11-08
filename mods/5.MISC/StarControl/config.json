@@ -1,0 +1,72 @@
+{
+  "Input": {
+    "InventoryMenuButton": "LeftTrigger",
+    "ModMenuButton": "RightTrigger",
+    "PreviousPageButton": "LeftShoulder",
+    "NextPageButton": "RightShoulder",
+    "PrimaryActionButton": "ControllerA",
+    "PrimaryActivationMethod": "TriggerRelease",
+    "SecondaryActionButton": "ControllerX",
+    "SecondaryActivationMethod": "TriggerRelease",
+    "ThumbStickPreference": "AlwaysLeft",
+    "ToggleMode": "Hold",
+    "RemappingMenuButton": "LeftStick",
+    "RemappingHudButton": "None",
+    "ReopenOnHold": false,
+    "DelayedActions": "ToolSwitch",
+    "ActivationDelayMs": 250,
+    "RememberSelection": false,
+    "TriggerDeadZone": 0.2,
+    "ThumbstickDeadZone": 0.2,
+    "SuppressRightStickChatBox": false
+  },
+  "Style": {
+    "InnerBackgroundColor": "#e50c0c0c",
+    "InnerRadius": 300.0,
+    "OuterBackgroundColor": "#e5e8ba7c",
+    "OuterRadius": 110.0,
+    "SelectionColor": "#e5d88c26",
+    "HighlightColor": "#4169e1",
+    "GapWidth": 8.0,
+    "MenuSpriteHeight": 64,
+    "StackSizeColor": "#ffffff",
+    "CursorDistance": 8.0,
+    "CursorSize": 32.0,
+    "CursorColor": "#d3d3d3",
+    "SelectionSpriteHeight": 128,
+    "SelectionTitleColor": "#ffffff",
+    "SelectionDescriptionColor": "#d3d3d3"
+  },
+  "Items": {
+    "InventoryPageSize": 12,
+    "ShowInventoryBlanks": false,
+    "ModMenuPages": [],
+    "ShowSettingsItem": true,
+    "SettingsItemPageIndex": 0,
+    "SettingsItemPositionIndex": 0,
+    "QuickSlots": {}
+  },
+  "Sound": {
+    "EnableUiSounds": true,
+    "MenuOpenSound": "shwip",
+    "MenuCloseSound": "",
+    "NextPageSound": "shwip",
+    "PreviousPageSound": "shwip",
+    "ItemFocusSound": "shiny4",
+    "ItemActivationSound": "tinyWhip",
+    "ItemDelaySound": "select",
+    "ItemErrorSound": "cancel"
+  },
+  "Integrations": {
+    "CustomItemsPriority": 0,
+    "Priorities": []
+  },
+  "Debug": {
+    "EnableGmcmDetailedLogging": false,
+    "EnableGmcmSyncLogging": false,
+    "EnableInputLogging": false,
+    "EnableItemActivationLogging": false,
+    "EnableMenuInteractionLogging": false,
+    "EnableQuickSlotLogging": false
+  }
+}
