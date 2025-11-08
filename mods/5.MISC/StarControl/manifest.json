@@ -1,0 +1,23 @@
+{
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "Name": "Star Control",
+  "Author": "focustense",
+  "Version": "1.0.1",
+  "Description": "Stardew controller framework with pie menus and button remapping",
+  "UniqueID": "focustense.StarControl",
+  "EntryDll": "StarControl.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "focustense.StardewUI",
+      "MinimumVersion": "0.6.1",
+      "IsRequired": true
+    }
+  ],
+  "MinimumApiVersion": "4.1.10",
+  "MinimumGameVersion": "1.6.15",
+  "UpdateKeys": [ "Nexus:25257", "GitHub:focustense/StardewControllers" ]
+}
