@@ -1,0 +1,40 @@
+{
+     "Format": "2.4.0",
+
+     "ConfigSchema": {
+        "Enable Mod": 
+        {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Enable Mod or not." 
+        },
+        "Logo Options": {
+          "AllowValues": "black, cow",
+          "Default": "black",
+          "Description": "Logo Style Options." 
+          },
+        "Cursor Options": {
+          "AllowValues": "black, cow",
+          "Default": "black",
+          "Description": "Cursor Style Options." 
+          },
+        "Background Options": {
+          "AllowValues": "flower,cat",
+          "Default": "flower",
+          "Description": "Portrait Background Style Options." 
+          },
+	},
+
+     "Changes":
+     [          
+        {
+			"LogName": "Enable Mod",
+			"Action": "Include",
+			"FromFile": "code/main.json",
+			"When": 
+			{
+				"Enable Mod": true
+			}
+		}
+	]	  
+}
